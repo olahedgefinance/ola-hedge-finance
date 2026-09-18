@@ -77,10 +77,10 @@ Verified on Flutter 3.19.6 and Dart 3.3.4:
 |---|---|
 | `flutter test test/brand --no-pub` | PASS — 7 brand/compatibility tests |
 | `flutter test --no-pub` | BASELINE FAIL — brand tests pass; the pre-existing counter-template test still fails at `test/widget_test.dart:18` |
-| `flutter analyze --no-pub` | BASELINE FAIL — 236 existing findings, equal to the audited baseline; no Phase 2 increase |
+| `flutter analyze --no-pub` | FAIL — 236 findings in the current full scan, including the existing missing-lint configuration and historical code diagnostics; no finding points to the new brand module/tests |
 | `flutter build web --release --web-renderer canvaskit --no-tree-shake-icons --no-pub` | PASS — release web compilation completed in 424.9 seconds |
 
-The initially annotated compatibility getter produced 10 new analyzer infos. Systematic verification isolated the annotation as the cause; removing only the annotation restored the exact 236-finding baseline while preserving the getter and behavior.
+The initially annotated compatibility getter produced 10 additional analyzer infos at retained callers. Systematic verification isolated the annotation as the cause; removing only the annotation reduced the full scan from 246 to 236 findings while preserving the getter and behavior. Static analysis is not green and remains Phase 0 debt.
 
 ## Security and licensing
 
