@@ -1,11 +1,13 @@
 import 'dart:convert';
 
+import 'package:budget/brand/brand_identity.dart';
 import 'package:budget/struct/settings.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-String globalAppName = "Cashew";
+@Deprecated('Use appBrand.productName')
+String get globalAppName => appBrand.productName;
 
 Map<String, dynamic> languageNamesJSON = {};
 loadLanguageNamesJSON() async {

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "brandKey": "ola-edge-finance",
+  "productName": "OLA Edge Finance",
+  "shortName": "OLA Edge Finance",
+  "description": "A budget and financial tracking application designed for you",
+  "license": {
+    "spdx": "GPL-3.0-or-later",
+    "upstreamProduct": "Cashew",
+    "upstreamRepository": "https://github.com/jameskokoska/Cashew"
+  },
+  "preservedCompatibility": [
+    "application-identifiers",
+    "firebase-and-oauth",
+    "deep-links",
+    "in-app-purchases",
+    "drive-backup-identity",
+    "database-and-migrations",
+    "historical-backup-wording",
+    "source-and-license-references"
+  ]
+}
