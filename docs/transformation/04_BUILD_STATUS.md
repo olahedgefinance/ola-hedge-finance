@@ -16,6 +16,8 @@ The installed machine initially had no Flutter, Dart, Java, Android SDK, or Appl
 
 ## Verification results
 
+The table below records the initial repository audit at source revision `9cfbe50`. The subsequent Phase 0 blocker cleanup is recorded immediately after it so that the original diagnosis remains auditable without being mistaken for the current state.
+
 | Check | Result | Interpretation |
 |---|---|---|
 | Git status before work | PASS | Clean `main`, tracking `origin/main` |
@@ -29,6 +31,24 @@ The installed machine initially had no Flutter, Dart, Java, Android SDK, or Appl
 | Android build/run | NOT RUN | No Android SDK, JDK, emulator, or device was available |
 | iOS build/run | NOT RUN | iOS builds require macOS/Xcode; audit host is Windows |
 | Windows desktop build | NOT APPLICABLE | A Windows device exists, but the repository has no `windows/` platform project |
+
+## Phase 0 blocker follow-up — 2026-09-18
+
+The two integration blockers identified above were corrected with narrow, test-only/tooling changes:
+
+- `flutter_test` is now explicitly declared from the Flutter SDK and `flutter_lints: ^3.0.0` is declared in `dev_dependencies`, matching the Flutter 3.19.6 application template. Resolution selected `flutter_lints 3.0.2` and its `lints 3.0.0` transitive dependency; no application package was upgraded.
+- The nonfunctional counter-template test was replaced with a small application-shell smoke test that verifies the configured OLA Edge Finance title renders through `MaterialApp`.
+
+Current verification results:
+
+| Check | Current result | Interpretation |
+|---|---|---|
+| `flutter pub get --enforce-lockfile --offline` | PASS | Updated lockfile is reproducible without network access |
+| `flutter test --no-pub` | PASS — 8/8 | Seven brand/compatibility tests and the application-shell smoke test pass |
+| `flutter analyze test/brand test/widget_test.dart --no-pub` | PASS | The changed tests and brand guardrails have no analyzer findings |
+| `flutter analyze --no-pub` | FAIL — 5,275 findings | Intended lints now load; 0 errors, 140 warnings, and 5,135 infos expose pre-existing repository debt |
+
+The missing-include configuration failure is resolved. The repository is **not** lint-clean: full analysis still exits nonzero because the activated lint set exposes substantial historical warnings and style debt. No broad cleanup was attempted because it would be outside this baseline-integration task and could obscure functional risk. Mobile build and runtime verification remain pending on appropriately provisioned hosts.
 
 ## Dependency installation
 

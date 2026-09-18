@@ -82,6 +82,10 @@ Verified on Flutter 3.19.6 and Dart 3.3.4:
 
 The initially annotated compatibility getter produced 10 additional analyzer infos at retained callers. Systematic verification isolated the annotation as the cause; removing only the annotation reduced the full scan from 246 to 236 findings while preserving the getter and behavior. Static analysis is not green and remains Phase 0 debt.
 
+### Phase 0 follow-up
+
+The two baseline blockers in the table above were addressed after the Phase 2 snapshot. The stale counter-template test was replaced, so the current full suite passes 8/8. The missing `flutter_lints` dependency was restored at the Flutter 3.19.6-compatible major version. With the intended lint rules active, full analysis now reports 5,275 pre-existing findings (0 errors, 140 warnings, 5,135 infos) and still exits nonzero. The Phase 2 brand tests and the replacement widget test analyze cleanly. See `13_PHASE_0_BLOCKER_CLEANUP.md` for the exact scope and remaining gates.
+
 ## Security and licensing
 
 - The brand manifest contains public naming/provenance values only.
