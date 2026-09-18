@@ -6,7 +6,6 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-@Deprecated('Use appBrand.productName')
 String get globalAppName => appBrand.productName;
 
 Map<String, dynamic> languageNamesJSON = {};
