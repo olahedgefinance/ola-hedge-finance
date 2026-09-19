@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "firebase emulators:exec --project ola-hedge-finance-rules-test --only firestore \"node --test firestore.rules.test.mjs\""
+    "test": "firebase emulators:exec --config ../firebase.json --project ola-hedge-finance-rules-test --only firestore \"node --test firestore.rules.test.mjs\""
   },
   "devDependencies": {
     "@firebase/rules-unit-testing": "3.0.4",

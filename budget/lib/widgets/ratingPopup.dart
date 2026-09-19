@@ -217,7 +217,7 @@ Future<bool> shareFeedback(String feedbackText, String feedbackType,
   }
 
   try {
-    FirebaseFirestore? db = await firebaseGetDBInstanceAnonymous();
+    FirebaseFirestore? db = await firebaseGetExistingDBInstance();
     if (db == null) {
       throw ("Can't connect to db");
     }

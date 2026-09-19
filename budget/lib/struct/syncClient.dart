@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:async/async.dart';
 import 'dart:convert';
+import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/database/binary_string_conversion.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
@@ -199,6 +200,7 @@ Future<bool> runForceSignIn(BuildContext context) async {
 }
 
 Future<bool> syncData(BuildContext context) async {
+  if (!appInfrastructure.canUseGoogleDrive) return false;
   // Create a new instance of the completer
   if (syncDataCompleter.isCompleted) {
     syncDataCompleter = CancelableCompleter(onCancel: () {

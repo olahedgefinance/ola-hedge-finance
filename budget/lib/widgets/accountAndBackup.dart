@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:budget/colors.dart';
 import 'package:budget/config/infrastructure_config.dart';
+import 'package:budget/config/google_auth_scopes.dart';
 import 'package:budget/database/generatePreviewData.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
@@ -78,9 +79,12 @@ Future<bool> signInGoogle(
     bool? waitForCompletion,
     bool? gMailPermissions,
     bool? drivePermissionsAttachments,
+    bool identityOnly = false,
     bool? silentSignIn,
     Function()? next}) async {
   if (!appInfrastructure.canUseGoogleAccount) return false;
+  if (!identityOnly && !appInfrastructure.canUseGoogleDrive) return false;
+  if (gMailPermissions == true && !appInfrastructure.canUseGmail) return false;
   // bool isConnected = false;
   if (await checkLockedFeatureIfInDemoMode(context) == false) return false;
   if (appStateSettings["emailScanning"] == false) gMailPermissions = false;
@@ -112,24 +116,11 @@ Future<bool> signInGoogle(
 
     if (waitForCompletion == true && context != null) openLoadingPopup(context);
     if (googleUser == null) {
-      List<String> scopes = [
-        // See https://github.com/flutter/flutter/issues/155490 and https://github.com/flutter/flutter/issues/155429
-        // Once an account is logged in with these scopes, they are not needed
-        // So we will keep these to apply for all users to prevent errors, especially on silent sign in
-        "https://www.googleapis.com/auth/userinfo.profile",
-        "https://www.googleapis.com/auth/userinfo.email",
-        drive.DriveApi.driveAppdataScope,
-        ...(drivePermissionsAttachments == true
-            ? [drive.DriveApi.driveFileScope]
-            : []),
-        ...(gMailPermissions == true
-            ? [
-                gMail.GmailApi.gmailReadonlyScope,
-                gMail.GmailApi
-                    .gmailModifyScope //We do this so the emails can be marked read
-              ]
-            : [])
-      ];
+      final scopes = googleAuthorizationScopes(
+        driveEnabled: !identityOnly,
+        attachmentAccess: drivePermissionsAttachments == true,
+        gmailEnabled: gMailPermissions == true,
+      );
       final clientId = kIsWeb
           ? appInfrastructure.googleWebClientId
           : getPlatform() == PlatformOS.isIOS
@@ -191,6 +182,7 @@ Future<bool> signInGoogle(
           context: context,
           drivePermissionsAttachments: drivePermissionsAttachments,
           gMailPermissions: gMailPermissions,
+          identityOnly: identityOnly,
           next: next,
           silentSignIn: false,
           waitForCompletion: waitForCompletion,
@@ -305,6 +297,7 @@ Future<bool> signInAndSync(BuildContext context,
 }
 
 Future<void> createBackupInBackground(context) async {
+  if (!appInfrastructure.canUseGoogleDrive) return;
   if (appStateSettings["hasSignedIn"] == false) return;
   if (errorSigningInDuringCloud == true) return;
   if (kIsWeb && !entireAppLoaded) return;

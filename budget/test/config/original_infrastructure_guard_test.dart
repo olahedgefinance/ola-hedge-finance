@@ -95,4 +95,22 @@ void main() {
 
     expect(violations, isEmpty);
   });
+
+  test('Firebase integration never falls back to anonymous authentication', () {
+    final firebaseAuth =
+        File('lib/struct/firebaseAuthGlobal.dart').readAsStringSync();
+    final feedback = File('lib/widgets/ratingPopup.dart').readAsStringSync();
+
+    expect(firebaseAuth, isNot(contains('signInAnonymously')));
+    expect(firebaseAuth, contains('identityOnly: true'));
+    expect(feedback, isNot(contains('firebaseGetDBInstanceAnonymous')));
+  });
+
+  test('background lifecycle gates Drive and Gmail independently', () {
+    final navigation =
+        File('lib/widgets/navigationFramework.dart').readAsStringSync();
+
+    expect(navigation, contains('canUseGoogleDrive'));
+    expect(navigation, contains('canUseGmail'));
+  });
 }

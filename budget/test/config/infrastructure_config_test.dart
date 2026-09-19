@@ -10,6 +10,8 @@ void main() {
       expect(config.environment, DeploymentEnvironment.development);
       expect(config.firebaseEnabled, isFalse);
       expect(config.googleAccountEnabled, isFalse);
+      expect(config.googleDriveEnabled, isFalse);
+      expect(config.gmailEnabled, isFalse);
       expect(config.storeEnabled, isFalse);
       expect(config.validationErrors, isEmpty);
     });
@@ -59,18 +61,36 @@ void main() {
 
     test('complete owned Firebase values produce explicit options', () {
       final config = InfrastructureConfig.fromValues(const {
-        'OLA_ENVIRONMENT': 'staging',
+        'OLA_ENVIRONMENT': 'development',
         'OLA_FIREBASE_ENABLED': 'true',
         'OLA_FIREBASE_API_KEY': 'public-client-value',
         'OLA_FIREBASE_APP_ID': 'owned-app-id',
         'OLA_FIREBASE_MESSAGING_SENDER_ID': 'owned-sender-id',
-        'OLA_FIREBASE_PROJECT_ID': 'owned-staging-project',
+        'OLA_FIREBASE_PROJECT_ID': 'ola-hedge-finance-dev',
       });
 
       final options = firebaseOptionsFrom(config);
       expect(config.canInitializeFirebase, isTrue);
-      expect(options.projectId, 'owned-staging-project');
+      expect(options.projectId, 'ola-hedge-finance-dev');
       expect(options.appId, 'owned-app-id');
+    });
+
+    test('Firebase rejects any project other than the verified dev project',
+        () {
+      final config = InfrastructureConfig.fromValues(const {
+        'OLA_ENVIRONMENT': 'development',
+        'OLA_FIREBASE_ENABLED': 'true',
+        'OLA_FIREBASE_API_KEY': 'public-client-value',
+        'OLA_FIREBASE_APP_ID': 'owned-app-id',
+        'OLA_FIREBASE_MESSAGING_SENDER_ID': 'owned-sender-id',
+        'OLA_FIREBASE_PROJECT_ID': 'lookalike-project',
+      });
+
+      expect(config.canInitializeFirebase, isFalse);
+      expect(
+        config.validationErrors,
+        contains('Firebase is restricted to the verified development project.'),
+      );
     });
 
     test('Google and store features fail closed when identifiers are absent',
@@ -81,7 +101,37 @@ void main() {
       });
 
       expect(config.canUseGoogleAccount, isFalse);
+      expect(config.canUseGoogleDrive, isFalse);
+      expect(config.canUseGmail, isFalse);
       expect(config.canUseStore, isFalse);
+    });
+
+    test('basic Google identity does not enable Drive or Gmail', () {
+      final config = InfrastructureConfig.fromValues(const {
+        'OLA_GOOGLE_ACCOUNT_ENABLED': 'true',
+        'OLA_GOOGLE_WEB_CLIENT_ID': 'owned-web-client',
+      });
+
+      expect(config.canUseGoogleAccount, isTrue);
+      expect(config.canUseGoogleDrive, isFalse);
+      expect(config.canUseGmail, isFalse);
+    });
+
+    test('Drive and Gmail require explicit enablement and configuration', () {
+      final config = InfrastructureConfig.fromValues(const {
+        'OLA_GOOGLE_ACCOUNT_ENABLED': 'true',
+        'OLA_GOOGLE_WEB_CLIENT_ID': 'owned-web-client',
+        'OLA_GOOGLE_DRIVE_ENABLED': 'true',
+        'OLA_GMAIL_ENABLED': 'true',
+      });
+
+      expect(config.canUseGoogleAccount, isFalse);
+      expect(config.canUseGoogleDrive, isFalse);
+      expect(config.canUseGmail, isFalse);
+      expect(
+        config.validationErrors,
+        contains('Google Drive is enabled but its folder is not configured.'),
+      );
     });
   });
 }

@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 import 'package:budget/colors.dart';
+import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/pages/addEmailTemplate.dart';
 import 'package:budget/pages/addTransactionPage.dart';
@@ -312,7 +313,10 @@ class _AutoTransactionsPageEmailState extends State<AutoTransactionsPageEmail> {
     Future.delayed(Duration.zero, () async {
       if (canReadEmails == true && googleUser == null) {
         await signInGoogle(
-            context: context, waitForCompletion: true, gMailPermissions: true);
+            context: context,
+            waitForCompletion: true,
+            gMailPermissions: true,
+            identityOnly: true);
         updateSettings("AutoTransactions-canReadEmails", true,
             pagesNeedingRefresh: [3], updateGlobalState: false);
         setState(() {});
@@ -350,7 +354,8 @@ class _AutoTransactionsPageEmailState extends State<AutoTransactionsPageEmail> {
               bool result = await signInGoogle(
                   context: context,
                   waitForCompletion: true,
-                  gMailPermissions: true);
+                  gMailPermissions: true,
+                  identityOnly: true);
               if (result == false) {
                 return false;
               }
@@ -390,6 +395,7 @@ class _AutoTransactionsPageEmailState extends State<AutoTransactionsPageEmail> {
 
 Future<void> parseEmailsInBackground(context,
     {bool sayUpdates = false, bool forceParse = false}) async {
+  if (!appInfrastructure.canUseGmail) return;
   if (appStateSettings["hasSignedIn"] == false) return;
   if (errorSigningInDuringCloud == true) return;
   if (appStateSettings["emailScanning"] == false) return;
@@ -408,6 +414,7 @@ Future<void> parseEmailsInBackground(context,
         hasSignedIn = await signInGoogle(
             context: context,
             gMailPermissions: true,
+            identityOnly: true,
             waitForCompletion: false,
             silentSignIn: true);
       } else {

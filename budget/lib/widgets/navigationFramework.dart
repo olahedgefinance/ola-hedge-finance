@@ -309,17 +309,18 @@ Future<bool> runAllCloudFunctions(BuildContext context,
   runningCloudFunctions = true;
   errorSigningInDuringCloud = false;
   try {
-    if (appInfrastructure.canUseGoogleAccount) {
+    if (appInfrastructure.canUseGoogleDrive) {
       loadingIndeterminateKey.currentState?.setVisibility(true);
       await runForceSignIn(context);
       await syncData(context);
-      if (appStateSettings["emailScanningPullToRefresh"] ||
-          entireAppLoaded == false) {
-        loadingIndeterminateKey.currentState?.setVisibility(true);
-        await parseEmailsInBackground(context, forceParse: true);
-      }
       loadingIndeterminateKey.currentState?.setVisibility(true);
       await createBackupInBackground(context);
+    }
+    if (appInfrastructure.canUseGmail &&
+        (appStateSettings["emailScanningPullToRefresh"] ||
+            entireAppLoaded == false)) {
+      loadingIndeterminateKey.currentState?.setVisibility(true);
+      await parseEmailsInBackground(context, forceParse: true);
     }
     if (appInfrastructure.canUseGoogleAccount &&
         appInfrastructure.canInitializeFirebase) {

@@ -7,16 +7,11 @@ import 'package:cloud_firestore/cloud_firestore.dart' hide Transaction;
 
 OAuthCredential? _credential;
 
-Future<FirebaseFirestore?> firebaseGetDBInstanceAnonymous() async {
+Future<FirebaseFirestore?> firebaseGetExistingDBInstance() async {
   if (!appInfrastructure.canInitializeFirebase) return null;
-  try {
-    await FirebaseAuth.instance.signInAnonymously();
-    return FirebaseFirestore.instance;
-  } catch (e) {
-    print("There was an error with firebase login");
-    print(e.toString());
-    return null;
-  }
+  final currentUser = FirebaseAuth.instance.currentUser;
+  if (currentUser == null || currentUser.isAnonymous) return null;
+  return FirebaseFirestore.instance;
 }
 
 // returns null if authentication unsuccessful
@@ -44,7 +39,7 @@ Future<FirebaseFirestore?> firebaseGetDBInstance() async {
   } else {
     try {
       if (googleUser == null) {
-        await signInGoogle(silentSignIn: true);
+        await signInGoogle(silentSignIn: true, identityOnly: true);
       }
       // GoogleSignInAccount? googleUser = googleUser;
 

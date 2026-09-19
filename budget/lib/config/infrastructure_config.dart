@@ -5,6 +5,8 @@ class InfrastructureConfig {
     required this.environment,
     required this.firebaseEnabled,
     required this.googleAccountEnabled,
+    required this.googleDriveEnabled,
+    required this.gmailEnabled,
     required this.storeEnabled,
     required this.firebaseApiKey,
     required this.firebaseAppId,
@@ -46,6 +48,9 @@ class InfrastructureConfig {
           String.fromEnvironment('OLA_FIREBASE_IOS_BUNDLE_ID'),
       'OLA_GOOGLE_ACCOUNT_ENABLED':
           String.fromEnvironment('OLA_GOOGLE_ACCOUNT_ENABLED'),
+      'OLA_GOOGLE_DRIVE_ENABLED':
+          String.fromEnvironment('OLA_GOOGLE_DRIVE_ENABLED'),
+      'OLA_GMAIL_ENABLED': String.fromEnvironment('OLA_GMAIL_ENABLED'),
       'OLA_GOOGLE_WEB_CLIENT_ID':
           String.fromEnvironment('OLA_GOOGLE_WEB_CLIENT_ID'),
       'OLA_GOOGLE_IOS_CLIENT_ID':
@@ -72,6 +77,8 @@ class InfrastructureConfig {
       environmentError: parsedEnvironment.$2,
       firebaseEnabled: _enabled(values['OLA_FIREBASE_ENABLED']),
       googleAccountEnabled: _enabled(values['OLA_GOOGLE_ACCOUNT_ENABLED']),
+      googleDriveEnabled: _enabled(values['OLA_GOOGLE_DRIVE_ENABLED']),
+      gmailEnabled: _enabled(values['OLA_GMAIL_ENABLED']),
       storeEnabled: _enabled(values['OLA_STORE_ENABLED']),
       firebaseApiKey: _value(values, 'OLA_FIREBASE_API_KEY'),
       firebaseAppId: _value(values, 'OLA_FIREBASE_APP_ID'),
@@ -99,6 +106,8 @@ class InfrastructureConfig {
   final DeploymentEnvironment environment;
   final bool firebaseEnabled;
   final bool googleAccountEnabled;
+  final bool googleDriveEnabled;
+  final bool gmailEnabled;
   final bool storeEnabled;
   final String firebaseApiKey;
   final String firebaseAppId;
@@ -137,11 +146,21 @@ class InfrastructureConfig {
       errors.add(
           'Firebase is enabled but its client configuration is incomplete.');
     }
+    if (firebaseEnabled &&
+        (environment != DeploymentEnvironment.development ||
+            firebaseProjectId != 'ola-hedge-finance-dev')) {
+      errors.add('Firebase is restricted to the verified development project.');
+    }
     if (googleAccountEnabled &&
-        (googleDriveFolder.isEmpty ||
-            (googleWebClientId.isEmpty && googleIosClientId.isEmpty))) {
+        (googleWebClientId.isEmpty && googleIosClientId.isEmpty)) {
       errors.add(
           'Google account services are enabled but their configuration is incomplete.');
+    }
+    if ((googleDriveEnabled || gmailEnabled) && !googleAccountEnabled) {
+      errors.add('Google data services require Google identity to be enabled.');
+    }
+    if (googleDriveEnabled && googleDriveFolder.isEmpty) {
+      errors.add('Google Drive is enabled but its folder is not configured.');
     }
     if (storeEnabled &&
         [storeMonthlyId, storeYearlyId, storeLifetimeId]
@@ -158,6 +177,8 @@ class InfrastructureConfig {
   bool get canInitializeFirebase => firebaseEnabled && validationErrors.isEmpty;
   bool get canUseGoogleAccount =>
       googleAccountEnabled && validationErrors.isEmpty;
+  bool get canUseGoogleDrive => googleDriveEnabled && canUseGoogleAccount;
+  bool get canUseGmail => gmailEnabled && canUseGoogleAccount;
   bool get canUseStore => storeEnabled && validationErrors.isEmpty;
 
   List<String> get _allValues => [
