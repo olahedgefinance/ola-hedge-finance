@@ -15,7 +15,7 @@ void main() {
         )
         .get();
 
-    expect(await databaseUserVersion(db), 46);
+    expect(await databaseUserVersion(db), 47);
     expect(tables, hasLength(10));
     expect(await databaseIntegrity(db), 'ok');
     expect(await foreignKeyViolations(db), isEmpty);
