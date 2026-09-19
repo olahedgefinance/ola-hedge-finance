@@ -113,4 +113,18 @@ void main() {
     expect(navigation, contains('canUseGoogleDrive'));
     expect(navigation, contains('canUseGmail'));
   });
+
+  test('interactive login does not require the Drive capability', () {
+    final accountAndBackup =
+        File('lib/widgets/accountAndBackup.dart').readAsStringSync();
+
+    expect(
+      accountAndBackup,
+      contains('identityOnly: !appInfrastructure.canUseGoogleDrive'),
+    );
+    expect(
+      accountAndBackup,
+      contains('if (appInfrastructure.canUseGoogleDrive) {'),
+    );
+  });
 }

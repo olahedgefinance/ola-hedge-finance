@@ -267,6 +267,7 @@ Future<bool> signInAndSync(BuildContext context,
   try {
     await signInGoogle(
       context: context,
+      identityOnly: !appInfrastructure.canUseGoogleDrive,
       waitForCompletion: false,
       next: next,
     );
@@ -275,14 +276,18 @@ Future<bool> signInAndSync(BuildContext context,
           pagesNeedingRefresh: [0], updateGlobalState: false);
     }
     if (googleUser != null) {
-      loadingIndeterminateKey.currentState?.setVisibility(true);
-      await syncData(context);
+      if (appInfrastructure.canUseGoogleDrive) {
+        loadingIndeterminateKey.currentState?.setVisibility(true);
+        await syncData(context);
+      }
       loadingIndeterminateKey.currentState?.setVisibility(true);
       await syncPendingQueueOnServer();
       loadingIndeterminateKey.currentState?.setVisibility(true);
       await getCloudBudgets();
-      loadingIndeterminateKey.currentState?.setVisibility(true);
-      await createBackupInBackground(context);
+      if (appInfrastructure.canUseGoogleDrive) {
+        loadingIndeterminateKey.currentState?.setVisibility(true);
+        await createBackupInBackground(context);
+      }
     } else {
       throw ("cannot sync data - user not logged in");
     }
