@@ -121,6 +121,7 @@ Future<Map<String, dynamic>> getDefaultPreferences() async {
     "markAsPaidOnOriginalDay": false,
     "batterySaver": false,
     "username": "",
+    "usernameIsAccountIdentity": false,
     "hasOnboarded": false,
     "restrictAmountOfInitiallyLoadedTransactions": false,
     "autoAddAssociatedTitles": true,

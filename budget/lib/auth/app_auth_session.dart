@@ -15,6 +15,15 @@ class AuthSessionProfile {
   final String? photoUrl;
 }
 
+bool shouldShowDashboardUsername({
+  required String username,
+  required bool isAccountIdentity,
+  required bool hasAccountIdentity,
+}) {
+  return username.trim().isNotEmpty &&
+      (!isAccountIdentity || hasAccountIdentity);
+}
+
 abstract interface class AuthSessionBackend {
   Future<AuthSessionProfile?> restore({
     required bool useLocalPersistence,

@@ -1,4 +1,5 @@
 import 'package:budget/colors.dart';
+import 'package:budget/auth/app_auth_session.dart';
 import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/database/generatePreviewData.dart';
 import 'package:budget/database/tables.dart';
@@ -20,6 +21,7 @@ import 'package:budget/pages/settingsPage.dart';
 import 'package:budget/pages/homePage/homePageCreditDebts.dart';
 import 'package:budget/struct/settings.dart';
 import 'package:budget/widgets/animatedExpanded.dart';
+import 'package:budget/widgets/accountAndBackup.dart';
 import 'package:budget/widgets/button.dart';
 import 'package:budget/widgets/framework/pageFramework.dart';
 import 'package:budget/widgets/navigationFramework.dart';
@@ -121,7 +123,11 @@ class HomePageState extends State<HomePage> with TickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
-    bool showUsername = appStateSettings["username"] != "";
+    bool showUsername = shouldShowDashboardUsername(
+      username: appStateSettings["username"] ?? "",
+      isAccountIdentity: appStateSettings["usernameIsAccountIdentity"] == true,
+      hasAccountIdentity: hasAccountIdentity,
+    );
     bool showGreeting = appStateSettings["enableGreetingMessage"] == true;
     Widget slidingSelector = GestureDetector(
       onLongPress: () async {

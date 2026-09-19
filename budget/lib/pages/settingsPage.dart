@@ -388,8 +388,10 @@ Future<String> enterNameBottomSheet(context,
             ? Icons.person_outlined
             : Icons.person_rounded,
         setSelectedText: (_) {},
-        nextWithInput: (text) {
-          updateSettings("username", text.trim(),
+        nextWithInput: (text) async {
+          await updateSettings("usernameIsAccountIdentity", false,
+              updateGlobalState: false);
+          await updateSettings("username", text.trim(),
               pagesNeedingRefresh: updatePageWhenSet ? [0] : [],
               updateGlobalState: false);
         },

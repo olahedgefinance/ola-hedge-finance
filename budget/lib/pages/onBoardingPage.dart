@@ -468,13 +468,7 @@ class OnBoardingPageBodyState extends State<OnBoardingPageBody> {
                           waitForCompletion: false,
                           next: () {},
                         );
-                        if (appStateSettings["username"] == "" &&
-                            googleUser != null) {
-                          updateSettings(
-                              "username", googleUser?.displayName ?? "",
-                              pagesNeedingRefresh: [0],
-                              updateGlobalState: false);
-                        }
+                        await syncUsernameFromAccountIdentity();
                         // If user has sync backups, but no real backups it will show up here
                         // For now disable restoring of a backup popup, the sync backups will be restored automatically using the function call below
                         // var result;

@@ -85,4 +85,50 @@ void main() {
     expect(session.profile, isNull);
     expect(session.isSignedIn, isFalse);
   });
+
+  test('sign-out hides an account-derived dashboard name', () async {
+    const storedName = 'Person';
+    final session = AppAuthSession(
+      _FakeAuthSessionBackend(
+        restoredProfile: const AuthSessionProfile(
+          email: 'person@example.test',
+          displayName: storedName,
+        ),
+      ),
+    );
+    await session.restore(useLocalPersistence: true);
+
+    expect(
+      shouldShowDashboardUsername(
+        username: storedName,
+        isAccountIdentity: true,
+        hasAccountIdentity: session.isSignedIn,
+      ),
+      isTrue,
+    );
+
+    await session.signOut();
+
+    expect(session.isSignedIn, isFalse);
+    expect(
+      shouldShowDashboardUsername(
+        username: storedName,
+        isAccountIdentity: true,
+        hasAccountIdentity: session.isSignedIn,
+      ),
+      isFalse,
+    );
+    expect(storedName, 'Person');
+  });
+
+  test('sign-out preserves a user-entered local dashboard name', () {
+    expect(
+      shouldShowDashboardUsername(
+        username: 'My local nickname',
+        isAccountIdentity: false,
+        hasAccountIdentity: false,
+      ),
+      isTrue,
+    );
+  });
 }

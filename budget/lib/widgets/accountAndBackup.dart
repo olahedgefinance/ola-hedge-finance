@@ -86,6 +86,26 @@ String get accountIdentityDisplayName =>
 String? get accountIdentityPhotoUrl =>
     googleUser?.photoUrl ?? appAuthSession.profile?.photoUrl;
 
+Future<void> syncUsernameFromAccountIdentity() async {
+  final displayName = accountIdentityDisplayName.trim();
+  if (displayName.isEmpty) return;
+
+  final storedUsername = (appStateSettings["username"] ?? "").toString().trim();
+  final isAlreadyAccountIdentity =
+      appStateSettings["usernameIsAccountIdentity"] == true;
+
+  if (storedUsername.isEmpty) {
+    await updateSettings("usernameIsAccountIdentity", true,
+        updateGlobalState: false);
+    await updateSettings("username", displayName,
+        pagesNeedingRefresh: [0], updateGlobalState: false);
+  } else if (!isAlreadyAccountIdentity && storedUsername == displayName) {
+    // Older builds copied the Google display name without recording its source.
+    await updateSettings("usernameIsAccountIdentity", true,
+        pagesNeedingRefresh: [0], updateGlobalState: false);
+  }
+}
+
 void _logGoogleSignInFailure(
   String stage,
   Object error,
@@ -245,6 +265,7 @@ void refreshUIAfterLoginChange() {
   sidebarStateKey.currentState?.refreshState();
   accountsPageStateKey.currentState?.refreshState();
   settingsGoogleAccountLoginButtonKey.currentState?.refreshState();
+  homePageStateKey.currentState?.refreshState();
 }
 
 Future<bool> testIfHasGmailAccess() async {
@@ -314,10 +335,7 @@ Future<bool> signInAndSync(BuildContext context,
       waitForCompletion: false,
       next: next,
     );
-    if (appStateSettings["username"] == "" && googleUser != null) {
-      await updateSettings("username", googleUser?.displayName ?? "",
-          pagesNeedingRefresh: [0], updateGlobalState: false);
-    }
+    await syncUsernameFromAccountIdentity();
     if (googleUser != null) {
       if (appInfrastructure.canUseGoogleDrive) {
         loadingIndeterminateKey.currentState?.setVisibility(true);
