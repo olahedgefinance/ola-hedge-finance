@@ -12,7 +12,7 @@ Official product identity: **ÓLA HEDGE FINANCE**
 
 The development codebase remains disconnected from Cashew-controlled production services by default. It starts as a local-first application without Firebase, Google account services, Drive/Gmail, store billing, deep links, or upstream support endpoints. Original Firebase/OAuth client files remain absent, and automated guards prevent known upstream infrastructure identity from returning to active source/configuration.
 
-Phase 1B has now verified the owner-controlled Firebase project `ola-hedge-finance-dev`, connected the web development build through ignored local configuration, reduced Google authentication to identity scopes only, and executed the hardened Firestore rules against the emulator. Production and staging remain disconnected. The integration is not ready for use until the tested rules are published to the verified development project and an owner completes the interactive Google sign-in smoke test.
+Phase 1B has now verified the owner-controlled Firebase project `ola-hedge-finance-dev`, connected the web development build through ignored local configuration, reduced Google authentication to identity scopes only, executed the hardened Firestore rules against the emulator, and published the tested policy to the `(default)` development database. Production and staging remain disconnected. The integration remains conditional until an owner completes the interactive Google sign-in smoke test.
 
 ## 2. Safe Git start
 
@@ -135,7 +135,7 @@ The repository previously contained no rules or indexes. Phase 1 added rules, em
 
 Policy: deny unmatched paths; reject unauthenticated and anonymous-auth sessions; require a verified email; allow the owner or an email-listed member to read; permit members to edit only non-access budget fields and nested transactions; keep owner UID and owner email immutable; allow only the owner to manage membership or delete; allow non-anonymous authenticated feedback creation only. List rules support only the two query shapes implemented by the client: owner UID equality and member-email `array-contains`.
 
-The 12-test suite passes and covers unauthenticated, anonymous-auth, missing-email, owner, member, stranger, malformed access data, immutable owner identity, membership escalation, delete/recreate, direct and nested access, actual client query shapes, feedback, and unmatched paths. The tested rules have not yet been published; the development cloud database still has its original deny-all policy. The email-membership/client-sync model also still lacks a complete invitation, ownership-transfer, revocation, account-deletion, payload/rate-limit, and server-authority design.
+The 12-test suite passes and covers unauthenticated, anonymous-auth, missing-email, owner, member, stranger, malformed access data, immutable owner identity, membership escalation, delete/recreate, direct and nested access, actual client query shapes, feedback, and unmatched paths. The tested rules were published only to `ola-hedge-finance-dev` on 2026-09-19; the console created a new 01:11 local-time revision and the deployed editor content matched the tested repository policy after line-ending/trailing-newline normalization. The email-membership/client-sync model still lacks a complete invitation, ownership-transfer, revocation, account-deletion, payload/rate-limit, and server-authority design.
 
 ## 10. Deep links, purchases, and platform capabilities
 
@@ -195,13 +195,13 @@ Release checklist: legal/store-term review; immutable source tag per binary; com
 | Firestore emulator | PASS — 12/12 |
 | Release web build with ignored development config | PASS |
 | Development web startup | PASS — Flutter mounted at the local URL; no browser errors/warnings |
-| Firestore rules deployment | PENDING explicit approval — cloud remains deny-all |
+| Firestore rules deployment | PASS — published only to `ola-hedge-finance-dev`; deployed text matches tested policy |
 | Google Auth live smoke | PENDING owner interaction |
 | Android/iOS | NOT RUN — toolchains absent |
 
 ## 15. Remaining risks and exit gate
 
-- The owned development Firebase project exists and web configuration is integration-proven locally, but the tested rules are not yet deployed.
+- The owned development Firebase project exists, web configuration is integration-proven locally, and the tested rules are deployed only there.
 - Google Auth is configured for profile/email identity only, but the live cancellation/sign-in/sign-out path is not yet owner-smoke-tested.
 - The console environment type is still `Unspecified`; the owner should label it Development.
 - Email membership is weaker than server-authoritative roles.
@@ -211,6 +211,6 @@ Release checklist: legal/store-term review; immutable source tag per binary; com
 - Strict analyzer debt and asset/font/licence review remain.
 - Currency API and Google Sheets template need ownership/availability/privacy decisions.
 
-The code is safely separated and has received owner-controlled web development configuration. The remaining Phase 1B exit gates are rules publication to the exact development project and interactive Google Auth verification.
+The code is safely separated, has received owner-controlled web development configuration, and uses the tested development rules. The remaining Phase 1B exit gate is interactive Google Auth verification.
 
 **INFRASTRUCTURE SEPARATION NOT READY**

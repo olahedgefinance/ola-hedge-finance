@@ -14,16 +14,16 @@ This phase connects only the web development build to the owner-controlled Fireb
 
 The exact verified project ID is `ola-hedge-finance-dev`. The web app is registered as **ÓLA HEDGE FINANCE Web Dev**. Firestore uses the `(default)` database in `northamerica-northeast2`. The project is on the Spark plan. The Firebase console currently labels the environment type `Unspecified`; the owner should change that label to Development.
 
-The local integration, release build, development startup, and security-rule suite pass. The cloud database still has a deny-all ruleset because publishing access-control rules is intentionally awaiting explicit approval. Interactive Google sign-in has not been completed. Therefore the Phase 1B exit gate is not yet met.
+The local integration, release build, development startup, and security-rule suite pass. The tested policy is deployed only to the verified development database and its deployed editor content matches the tested repository version. Interactive Google sign-in has not been completed, so the full exit gate remains conditional.
 
-**FIREBASE DEV INTEGRATION NOT READY**
+**FIREBASE DEV INTEGRATION CONDITIONALLY READY**
 
 ## 2. Service state
 
 | Service | Development state | Notes |
 |---|---|---|
 | Firebase Core | Configured locally | Initialized only when the validated development configuration enables it |
-| Cloud Firestore | Project/database verified | Cloud rules remain deny-all pending publication |
+| Cloud Firestore | Development rules deployed | Emulator-tested policy published only to the verified `(default)` development database |
 | Firebase Auth | Google provider enabled | Application uses existing non-anonymous sessions; live smoke pending |
 | Google identity | Enabled in local dev config | Requests `profile` and `email` only |
 | Anonymous Auth | Disabled by application policy | Rules also reject anonymous-auth tokens |
@@ -90,7 +90,7 @@ The hardened policy requires a non-anonymous authenticated user with an email. I
 
 It denies malformed access fields, owner/owner-email mutation, member escalation, member delete/recreate, stranger access, anonymous/unauthenticated access, feedback reads or edits, and every unmatched path.
 
-The committed rules SHA-256 at this checkpoint is `EB947D243B9C146C02C22EEB7F8E2C7DE724D1500E400739D79BBDCA9AD1402E`. Confirm the same hash immediately before publication. `firestore.indexes.json` remains an explicit empty index set because the current query shapes do not require a composite index.
+The committed rules SHA-256 at deployment was `EB947D243B9C146C02C22EEB7F8E2C7DE724D1500E400739D79BBDCA9AD1402E`. `firestore.indexes.json` remains an explicit empty index set because the current query shapes do not require a composite index.
 
 ## 6. Emulator security evidence
 
@@ -124,7 +124,8 @@ All 12 security tests pass:
 | Development release-mode startup | PASS — served locally, Flutter mounted, zero browser errors/warnings |
 | Built-artifact upstream identity scan | PASS — no old Firebase/OAuth identity found |
 | Drift v47/migrations diff | PASS — no changes |
-| Firestore rules publication | PENDING — deployed cloud policy is still deny-all |
+| Firestore rules publication | PASS — new development revision at 2026-09-19 01:11 local time |
+| Deployed/repository rule comparison | PASS — normalized editor content exactly matches the tested policy |
 | Live Google Auth smoke | PENDING — owner interaction required |
 | Android/iOS | OUT OF SCOPE — no native identifier work |
 
@@ -139,20 +140,20 @@ flutter run -d web-server --release --no-pub --dart-define-from-file=dart_define
 
 From `budget/firebase-tests/`, use the committed package script through `firebase emulators:exec`. Java, Firebase emulator, Node package, and package-manager caches may be local/CI-managed but must not be committed.
 
-## 8. Publication and rollback checklist
+## 8. Publication and rollback record
 
-Before publishing:
+Completed publication controls:
 
-1. verify the active Firebase console project ID is exactly `ola-hedge-finance-dev`;
-2. recompute and compare the tracked rules hash above;
-3. rerun all 12 emulator tests;
-4. inspect the current cloud rules and save their revision metadata;
-5. publish only `budget/firestore.rules` to the `(default)` database;
-6. confirm the console shows the expected rule text and timestamp;
-7. rerun owner/member/stranger smoke checks with synthetic development-only accounts;
-8. if unexpected access occurs, immediately restore deny-all, then investigate locally.
+1. active Firebase console project ID verified as exactly `ola-hedge-finance-dev`;
+2. tracked rules hash recorded above;
+3. all 12 emulator tests rerun successfully before publication;
+4. prior deny-all revision retained in Firebase revision history;
+5. only `budget/firestore.rules` was published to the `(default)` database;
+6. console success message and new 01:11 revision verified;
+7. deployed editor text compared with the tested policy and matched after normalization;
+8. no composite indexes were deployed.
 
-No production or staging target may be selected. Do not upload service-account material or real financial records for this check.
+If unexpected access occurs, restore the retained deny-all revision immediately and investigate locally. No production or staging target was selected, and no service-account material or real financial records were uploaded.
 
 ## 9. Remaining security limitations
 
@@ -170,13 +171,12 @@ These are acceptable for a blocked development checkpoint, not for production de
 
 ## 10. Owner actions required
 
-1. Approve publication of the tested rules to `ola-hedge-finance-dev`.
-2. Complete the interactive Google identity smoke test and verify only profile/email consent.
-3. Label the Firebase project environment Development.
-4. Confirm authorized development domains and OAuth support/privacy branding.
-5. Decide the future invitation, revocation, ownership-transfer, account-deletion, audit, rate-limit, and App Check architecture.
-6. Keep real user financial data out of this development project.
-7. Defer Android/iOS app registration, staging, production, Drive/Gmail, billing, and AI until separately approved phases.
+1. Complete the interactive Google identity smoke test and verify only profile/email consent, cancellation, authenticated identity, and sign-out.
+2. Label the Firebase project environment Development.
+3. Confirm authorized development domains and OAuth support/privacy branding.
+4. Decide the future invitation, revocation, ownership-transfer, account-deletion, audit, rate-limit, and App Check architecture.
+5. Keep real user financial data out of this development project.
+6. Defer Android/iOS app registration, staging, production, Drive/Gmail, billing, and AI until separately approved phases.
 
 ## 11. Files changed in Phase 1B
 
