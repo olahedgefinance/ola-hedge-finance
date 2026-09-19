@@ -1,5 +1,7 @@
 # Phase 0B Baseline Hardening
 
+> Historical phase record. The earlier working product name in this file is superseded by **ÓLA HEDGE FINANCE**. Phase 1 current state is in `14_INFRASTRUCTURE_SEPARATION.md`.
+
 Verification date: 2026-09-18
 
 Branch: `phase-0b/baseline-hardening`

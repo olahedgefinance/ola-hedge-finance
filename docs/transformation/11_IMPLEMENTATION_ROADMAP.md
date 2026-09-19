@@ -45,6 +45,12 @@ Phase 1 must preserve the v47 data contract, migration fixtures, compatibility i
 
 **Exit gate:** A new-identity development build can run without original production services; no production project/data is connected; security review approves the boundary.
 
+### Phase 1 status — owner checkpoint reached
+
+The codebase now defaults to local-only operation and contains no active upstream Firebase/OAuth/deep-link/store/support configuration. Environment validation, service gating, Firestore policy source, and old-infrastructure regression tests are implemented. Drift v47 and Phase 0C restore safety are unchanged.
+
+Remaining exit work is owner/provisioning dependent: approve native IDs/domain, create owned development/staging Firebase and OAuth clients, run Firestore emulator tests, verify cloud flows using synthetic data, and complete native signing/device tests. Production stays disconnected. Phase 2 must not begin merely because the code is safely disconnected.
+
 ## Phase 2 — New brand foundation
 
 **Purpose:** Establish a legally cleared, technically complete brand system before redesigning core screens.
@@ -156,10 +162,10 @@ Phase 1 must preserve the v47 data contract, migration fixtures, compatibility i
 
 ## Inputs required before Phase 2 begins
 
-Phase 1 should be approved and substantially complete first. The product owner should then provide:
+Phase 1 should meet its exit gate first. The product owner should then provide:
 
 1. Legal entity/publisher name, target countries, and legal counsel contact/decision on GPL distribution.
-2. Final or shortlist product names with trademark/domain/store availability results.
+2. Trademark/domain/store clearance results for the official name **ÓLA HEDGE FINANCE**.
 3. Owned domains and support/privacy/legal contact addresses.
 4. Brand brief: audience, positioning, personality, accessibility commitment, and prohibited associations.
 5. Terminology decisions and product scope priorities, including features to hide or retain.
@@ -171,4 +177,4 @@ Phase 1 should be approved and substantially complete first. The product owner s
 
 ## Stop gate
 
-This audit does not authorize Phase 1 or Phase 2 implementation. No infrastructure replacement, rebranding, redesign, feature change, or new schema work should begin until explicitly approved.
+Phase 1 is authorized and has reached its owner decision/provisioning checkpoint. This roadmap does not authorize Phase 2, visual redesign, new features, AI, or schema work. Do not proceed until Phase 1 owned-infrastructure gates pass and the owner explicitly approves the next phase.

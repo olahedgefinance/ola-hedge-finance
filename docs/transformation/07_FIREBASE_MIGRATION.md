@@ -108,3 +108,22 @@ Only public client configuration should enter the repository, and even that shou
 ## Go-live gates
 
 Cloud features remain disabled for production until configuration isolation, authentication flows, Firestore rules tests, backup restore drills, account/data deletion, privacy disclosures, monitoring, incident response, and legal/security review pass in staging.
+
+## Phase 1 implementation status — 2026-09-18
+
+Completed in source:
+
+- Removed original generated Dart Firebase options, Android Google Services variants, active `.firebaserc`, web OAuth/Firebase bootstrap, iOS OAuth scheme, and app-link bindings.
+- Added a typed `--dart-define` boundary. Development defaults to all service capabilities off; production is rejected in Phase 1; incomplete or known-upstream configuration fails validation.
+- Firebase initializes only for complete, explicitly enabled owned configuration. Lifecycle work skips Drive/Gmail and Firestore when disabled.
+- Added version-controlled Firestore rules/indexes, emulator configuration, and synthetic owner/member/stranger/anonymous tests.
+- Added safe ignore rules/placeholders and preserved Phase 0C local-file restore as the recommended one-time Cashew migration route.
+
+Not complete:
+
+- No owned Firebase/Google development or staging project is created or connected.
+- Rules tests have not run because this host lacks Java, Firebase CLI, and installed Node test dependencies.
+- Consent, fingerprints, iOS scheme/team, web origins/redirects/domain verification, deletion, quotas, retention, monitoring, and incident response require owner/provisioned-environment work.
+- Shared-budget email membership remains a risk; rules are not a substitute for a full invitation/role/server-authority design.
+
+Production remains unconfigured and prohibited. See `14_INFRASTRUCTURE_SEPARATION.md`.

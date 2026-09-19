@@ -61,3 +61,11 @@ Public client configuration files are present at `budget/lib/firebase_options.da
 5. Replace names, URLs, visual tokens, and assets through a reviewed manifest.
 6. Test upgrade/backup compatibility and deep-link/auth flows on every platform.
 7. Only then create production projects, signing, listings, privacy disclosures, and release assets.
+
+## Phase 1 superseding status — 2026-09-18
+
+The official text identity is now **ÓLA HEDGE FINANCE**. The earlier working name is superseded. Product-facing Android/iOS/web metadata and current localization text use the official name; this is an identity correction, not a visual rebrand.
+
+Original Firebase/OAuth configuration, deep-link bindings, store/donation/support identity, and Drive folder defaults have been removed or made fail-closed configuration. Permanent Android/iOS identifiers, Apple team, domain, visual assets, icons, colors, typography, launch screens, and store media are intentionally unchanged pending owner decisions and later brand/design phases.
+
+The root GPL notice and upstream source/provenance link remain. `14_INFRASTRUCTURE_SEPARATION.md` is the authoritative current manifest.

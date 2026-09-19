@@ -73,3 +73,11 @@ Rebranding can remove Cashew trademarks and product copy from the user-facing id
 ## Recommended compliance workflow
 
 Create a release-time Software Bill of Materials and attribution report, retain immutable source tags for every binary, publish Corresponding Source through an owned durable URL, expose license/source links in About and web footers, and make legal review a release gate. Do not remove the current license or notices while this workflow is being designed.
+
+## Phase 1 client/service boundary
+
+Infrastructure separation did not change the client licence. The modified Flutter application remains GPL-3.0-or-later; the root licence, Cashew copyright/provenance, and upstream source link are retained. New branding, commercial distribution, package IDs, and owned Firebase/OAuth projects do not change that conclusion.
+
+Future cloud, account, analytics, or AI services may be independently implemented behind a genuine network/API boundary, but their status depends on architecture and legal facts. Moving covered client code server-side or distributing tightly integrated proprietary client modules is not an automatic licence workaround.
+
+Before release, retain a source tag matching each build, publish complete Corresponding Source/build scripts without secrets, expose GPL/upstream/modification/no-warranty notices, audit all assets/fonts/dependencies, and obtain counsel review of store terms and the client/service boundary. Phase 1 makes no claim of legal clearance.

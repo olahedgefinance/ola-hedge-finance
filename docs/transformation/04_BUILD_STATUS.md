@@ -151,3 +151,21 @@ The runtime command was `flutter run -d web-server --release --no-pub` on loopba
 **PASS — PHASE 0C DATA-SAFETY GATES MET; MOBILE RELEASE READINESS REMAINS UNVERIFIED.**
 
 Historical data-bearing fixtures now converge through a forward-only v47 repair, production restore is validate-first with native rollback/safety copies and web previous-byte recovery, and the complete suite is green. Phase 1 planning can proceed when explicitly approved. Android/iOS build-and-device evidence, browser interruption tests, foreign-key cleanup/enforcement, strict lint reduction, encrypted/checksummed backup packaging, and security/privacy review remain release gates.
+
+## Phase 1 infrastructure separation — 2026-09-18
+
+Phase 1 began from committed revision `eeaf6f37259821e4400759c0fdce35cc8893ffbd` on `phase-1/infrastructure-separation`.
+
+| Check | Current result | Interpretation |
+|---|---|---|
+| Initial baseline | PASS — 43/43 | Clean Phase 0C start |
+| Focused Phase 1 tests | PASS — 9/9 | Configuration validation, Firebase options, identity, and old-infrastructure guard |
+| Final full Flutter suite | PASS — 52/52 | Phase 0C migration/restore coverage and new Phase 1 tests are all green |
+| Agreed analysis | PASS | Zero errors with warnings/information non-fatal |
+| Strict analysis | FAIL — 5,253 findings | Zero errors; historical warnings/information were not broadly refactored |
+| Release web build | PASS | Local-only default configuration compiles |
+| Generated web client scan | PASS | No upstream API keys, Firebase domains/buckets, OAuth clients, app IDs, or support email |
+| Firestore rules tests | ENVIRONMENTAL BLOCKER | Harness exists; Java, Firebase CLI, and Node test dependencies are absent |
+| Android/iOS | NOT RUN | Native toolchain limitation remains |
+
+The default development build no longer initializes or calls Cashew-controlled Firebase/Google/store services. Drift schema remains v47 and no migration artifact changed. See `14_INFRASTRUCTURE_SEPARATION.md`.
