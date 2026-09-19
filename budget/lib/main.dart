@@ -1,4 +1,5 @@
 import 'package:budget/brand/brand_identity.dart';
+import 'package:budget/auth/app_auth_session.dart';
 import 'package:budget/config/firebase_bootstrap.dart';
 import 'package:budget/functions.dart';
 import 'package:budget/pages/accountsPage.dart';
@@ -45,6 +46,7 @@ void main() async {
   captureLogs(() async {
     WidgetsFlutterBinding.ensureInitialized();
     await initializeConfiguredFirebase();
+    await initializeAppAuthSession();
     await EasyLocalization.ensureInitialized();
     sharedPreferences = await SharedPreferences.getInstance();
     database = await constructDb('db');

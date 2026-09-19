@@ -34,6 +34,10 @@ Future<FirebaseFirestore?> firebaseGetExistingDBInstance() async {
 Future<FirebaseFirestore?> firebaseGetDBInstance() async {
   if (!appInfrastructure.canInitializeFirebase ||
       !appInfrastructure.canUseGoogleAccount) return null;
+  final currentUser = FirebaseAuth.instance.currentUser;
+  if (currentUser != null && !currentUser.isAnonymous) {
+    return FirebaseFirestore.instance;
+  }
   if (_credential != null) {
     const stage = 'firebase-sign-in-cached-credential';
     try {

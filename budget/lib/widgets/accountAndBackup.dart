@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:budget/auth/app_auth_session.dart';
 import 'package:budget/colors.dart';
 import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/config/google_auth_scopes.dart';
@@ -73,6 +74,17 @@ class GoogleAuthClient extends http.BaseClient {
 
 signIn.GoogleSignIn? googleSignIn;
 signIn.GoogleSignInAccount? googleUser;
+
+bool get hasAccountIdentity => googleUser != null || appAuthSession.isSignedIn;
+
+String get accountIdentityDisplayName =>
+    googleUser?.displayName ??
+    appAuthSession.profile?.displayName ??
+    appAuthSession.profile?.email ??
+    "";
+
+String? get accountIdentityPhotoUrl =>
+    googleUser?.photoUrl ?? appAuthSession.profile?.photoUrl;
 
 void _logGoogleSignInFailure(
   String stage,
@@ -166,10 +178,19 @@ Future<bool> signInGoogle(
           : await googleSignIn?.signIn();
 
       if (account != null) {
-        signInStage = 'local-google-user-state';
+        signInStage = 'firebase-authentication-token';
         // print("ACCOUNT");
         // print(account);
         googleUser = account;
+        if (appInfrastructure.canInitializeFirebase) {
+          final googleAuthentication = await account.authentication;
+          signInStage = 'firebase-sign-in-with-credential';
+          await appAuthSession.signInWithGoogle(
+            accessToken: googleAuthentication.accessToken,
+            idToken: googleAuthentication.idToken,
+          );
+        }
+        signInStage = 'local-google-user-state';
         await updateSettings("currentUserEmail", googleUser?.email ?? "",
             updateGlobalState: false);
       } else {
@@ -244,6 +265,9 @@ Future<bool> testIfHasGmailAccess() async {
 
 Future<bool> signOutGoogle() async {
   await googleSignIn?.signOut();
+  if (appInfrastructure.canInitializeFirebase) {
+    await appAuthSession.signOut();
+  }
   googleUser = null;
   await updateSettings("currentUserEmail", "", updateGlobalState: false);
   await updateSettings("hasSignedIn", false, updateGlobalState: false);
@@ -646,6 +670,18 @@ class GoogleAccountLoginButton extends StatefulWidget {
 }
 
 class GoogleAccountLoginButtonState extends State<GoogleAccountLoginButton> {
+  @override
+  void initState() {
+    appAuthSession.addListener(refreshState);
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    appAuthSession.removeListener(refreshState);
+    super.dispose();
+  }
+
   void refreshState() {
     setState(() {});
   }
@@ -677,7 +713,7 @@ class GoogleAccountLoginButtonState extends State<GoogleAccountLoginButton> {
     if (widget.navigationSidebarButton == true) {
       return AnimatedSwitcher(
         duration: Duration(milliseconds: 600),
-        child: googleUser == null
+        child: !hasAccountIdentity
             ? getPlatform() == PlatformOS.isIOS
                 ? NavigationSidebarButton(
                     key: ValueKey("login"),
@@ -705,7 +741,7 @@ class GoogleAccountLoginButtonState extends State<GoogleAccountLoginButton> {
                   )
                 : NavigationSidebarButton(
                     key: ValueKey("user"),
-                    label: googleUser!.displayName ?? "",
+                    label: accountIdentityDisplayName,
                     icon: widget.forceButtonName == null
                         ? appStateSettings["outlinedIcons"]
                             ? Icons.person_outlined
@@ -717,7 +753,7 @@ class GoogleAccountLoginButtonState extends State<GoogleAccountLoginButton> {
                   ),
       );
     }
-    return googleUser == null
+    return !hasAccountIdentity
         ? getPlatform() == PlatformOS.isIOS
             ? SettingsContainerOpenPage(
                 openPage: AccountsPage(),
@@ -751,7 +787,7 @@ class GoogleAccountLoginButtonState extends State<GoogleAccountLoginButton> {
               )
             : SettingsContainerOpenPage(
                 openPage: AccountsPage(),
-                title: widget.forceButtonName ?? googleUser!.displayName ?? "",
+                title: widget.forceButtonName ?? accountIdentityDisplayName,
                 icon: widget.forceButtonName == null
                     ? appStateSettings["outlinedIcons"]
                         ? Icons.person_outlined

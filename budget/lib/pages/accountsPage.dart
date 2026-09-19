@@ -51,7 +51,9 @@ class AccountsPageState extends State<AccountsPage> {
       ),
       child: Center(
         child: TextFont(
-            text: googleUser?.displayName![0] ?? "",
+            text: accountIdentityDisplayName.isEmpty
+                ? ""
+                : accountIdentityDisplayName[0],
             fontSize: 60,
             textAlign: TextAlign.center,
             fontWeight: FontWeight.bold,
@@ -114,7 +116,7 @@ class AccountsPageState extends State<AccountsPage> {
         SliverFillRemaining(
           hasScrollBody: false,
           child: Center(
-            child: googleUser == null
+            child: !hasAccountIdentity
                 ? Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -150,8 +152,7 @@ class AccountsPageState extends State<AccountsPage> {
                               ),
                             )
                           : ClipOval(
-                              child: googleUser == null ||
-                                      googleUser!.photoUrl == null
+                              child: accountIdentityPhotoUrl == null
                                   ? profileWidget
                                   : FadeInImage.memoryNetwork(
                                       fadeInDuration:
@@ -159,7 +160,7 @@ class AccountsPageState extends State<AccountsPage> {
                                       fadeOutDuration:
                                           Duration(milliseconds: 100),
                                       placeholder: kTransparentImage,
-                                      image: googleUser!.photoUrl.toString(),
+                                      image: accountIdentityPhotoUrl.toString(),
                                       height: 95,
                                       width: 95,
                                       imageErrorBuilder: (BuildContext context,
@@ -173,7 +174,7 @@ class AccountsPageState extends State<AccountsPage> {
                       TextFont(
                         text: getPlatform() == PlatformOS.isIOS
                             ? "google-drive-backup".tr()
-                            : (googleUser?.displayName ?? "").toString(),
+                            : accountIdentityDisplayName,
                         textAlign: TextAlign.center,
                         fontSize: 25,
                         fontWeight: FontWeight.bold,
@@ -456,7 +457,7 @@ class _SignInWithGoogleFlyInState extends State<SignInWithGoogleFlyIn> {
     });
   }
 
-  bool get shouldExpand => !hide && googleUser == null;
+  bool get shouldExpand => !hide && !hasAccountIdentity;
 
   @override
   Widget build(BuildContext context) {
