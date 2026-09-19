@@ -16,6 +16,21 @@ This roadmap preserves Cashew as the technical baseline and places irreversible 
 
 **Exit gate:** Dependencies resolve from lockfile; agreed analysis baseline and tests are green; web, Android, and iOS build/run evidence exists; repository is tagged. No redesign.
 
+### Phase 0B status — blocked on data safety
+
+The reproducible toolchain, release web build, first-party no-error analyzer baseline, and 26 non-migration tests are now established. Phase 0 is not complete: four historical migration fixtures fail, production restore is not validate-first/atomic, foreign-key enforcement is disabled, and Android/iOS remain unverified.
+
+Complete these remediation gates before Phase 1:
+
+1. Approve a forward-only migration repair design (expected as a new schema version, not edits to historical shipped migrations).
+2. Freeze representative data-bearing upgrade fixtures and require every supported historical version to converge on the current schema without financial-data loss.
+3. Add backup preflight, supported-version checks, integrity/foreign-key validation, an atomic replacement strategy, and failure recovery.
+4. Audit existing dangling references, define cleanup semantics, and decide when foreign-key enforcement can safely be enabled.
+5. Return the complete test suite to green and repeat release web verification.
+6. Complete the Android and iOS checklists in `12_BASELINE_HARDENING.md` on provisioned hosts.
+
+Infrastructure separation must not begin merely because the web artifact builds; the database and restore gates protect user financial history.
+
 ## Phase 1 — Infrastructure separation
 
 **Purpose:** Ensure development no longer depends on original Cashew-controlled identities.

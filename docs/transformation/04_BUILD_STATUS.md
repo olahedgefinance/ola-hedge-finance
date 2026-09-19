@@ -95,3 +95,24 @@ No tracked repository file was changed for dependency installation or building. 
 - Replace the placeholder test and add migration/financial smoke tests.
 - Bring first-party static analysis to an agreed green baseline.
 - Repeat web smoke testing in a normal browser environment.
+
+## Phase 0B baseline hardening — 2026-09-18
+
+Detailed evidence is recorded in `12_BASELINE_HARDENING.md`.
+
+| Check | Result | Interpretation |
+|---|---|---|
+| Locked offline dependency resolution | PASS | Flutter 3.19.6/Dart 3.3.4 baseline remains reproducible; no application dependency was upgraded |
+| First-party analyzer baseline | PASS | No analyzer errors when warnings/information are non-fatal |
+| Strict full analysis | FAIL | 0 errors, 132 warnings, 5,123 information findings (5,255 total) |
+| Non-migration tests | PASS — 26/26 | Startup, database CRUD, core finance, recurrence, backup-contract, brand, and widget coverage |
+| Full test suite | FAIL — 28 pass, 4 fail | Four historical migration cases fail; two migration cases pass |
+| Release web build | PASS | CanvasKit release artifact generated |
+| Web-server runtime smoke | PASS | HTTP 200 and expected title |
+| Chrome interactive run | ENVIRONMENTAL FAIL | Application compiled, then host Chrome GPU process crashed in the sandbox |
+| Android | NOT RUN | JDK, Android SDK, emulator/device unavailable |
+| iOS | NOT RUN | Requires macOS/Xcode |
+
+Phase 0B found and fixed one bounded financial defect: goal objective totals used the loan foreign key. It also established that v33, v36, v39, and v41 historical upgrade paths do not currently converge safely on the v46 schema. Production backup restore performs replacement before sufficient validation, and SQLite foreign-key enforcement is disabled.
+
+The current verdict is **FAIL — BASELINE NOT READY**. Infrastructure separation and brand work should remain gated behind a reviewed forward migration repair, green migration fixtures, validate-first atomic restore, a foreign-key policy, and native mobile verification.
