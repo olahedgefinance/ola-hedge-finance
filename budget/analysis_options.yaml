@@ -9,6 +9,16 @@
 # packages, and plugins designed to encourage good coding practices.
 include: package:flutter_lints/flutter.yaml
 
+analyzer:
+  # Checked-in generated Drift code and locally bundled third-party packages
+  # are verified by compilation/tests, but are not part of the first-party
+  # analyzer baseline.
+  exclude:
+    - lib/database/tables.g.dart
+    - lib/database/schema_versions.dart
+    - test/generated/**
+    - packages/**
+
 linter:
   # The lint rules applied to this project can be customized in the
   # section below to disable rules from the `package:flutter_lints/flutter.yaml`

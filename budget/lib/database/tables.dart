@@ -5684,7 +5684,7 @@ class FinanceDatabase extends _$FinanceDatabase {
         ..where(
           (objectiveType == ObjectiveType.loan
                   ? transactions.objectiveLoanFk.equals(objectivePk)
-                  : transactions.objectiveLoanFk.equals(objectivePk)) &
+                  : transactions.objectiveFk.equals(objectivePk)) &
               transactions.walletFk.equals(wallet.walletPk),
         );
 
