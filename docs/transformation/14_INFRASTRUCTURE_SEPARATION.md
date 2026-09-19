@@ -1,8 +1,8 @@
 # Phase 1 Infrastructure Separation
 
-Verification date: 2026-09-18
+Verification date: 2026-09-19
 
-Branch: `phase-1/infrastructure-separation`
+Current verification branch: `phase-1b/firebase-dev-integration`
 
 Starting revision: `eeaf6f37259821e4400759c0fdce35cc8893ffbd`
 
@@ -10,9 +10,9 @@ Official product identity: **ÓLA HEDGE FINANCE**
 
 ## 1. Current verdict
 
-The development codebase is disconnected from Cashew-controlled production services by default. It starts as a local-first application without Firebase, Google account services, Drive/Gmail, store billing, deep links, or upstream support endpoints. Original Firebase/OAuth client files are removed from the working tree, and an automated test prevents known infrastructure identity from returning to active source/configuration.
+The development codebase remains disconnected from Cashew-controlled production services by default. It starts as a local-first application without Firebase, Google account services, Drive/Gmail, store billing, deep links, or upstream support endpoints. Original Firebase/OAuth client files remain absent, and automated guards prevent known upstream infrastructure identity from returning to active source/configuration.
 
-Phase 1 is not fully complete because no owner-controlled development Firebase/Google project exists, Firestore emulator tests cannot run on this host, and permanent native IDs/domain/store identities have not received owner approval. No production environment is connected.
+Phase 1B has now verified the owner-controlled Firebase project `ola-hedge-finance-dev`, connected the web development build through ignored local configuration, reduced Google authentication to identity scopes only, and executed the hardened Firestore rules against the emulator. Production and staging remain disconnected. The integration is not ready for use until the tested rules are published to the verified development project and an owner completes the interactive Google sign-in smoke test.
 
 ## 2. Safe Git start
 
@@ -131,11 +131,11 @@ Drive `appDataFolder` is scoped to the authorizing application context; an owned
 
 ## 9. Firestore security
 
-The repository previously contained no rules or indexes. Phase 1 adds rules, empty explicit indexes, emulator configuration, and synthetic tests.
+The repository previously contained no rules or indexes. Phase 1 added rules, empty explicit indexes, emulator configuration, and synthetic tests. Phase 1B installed an isolated Java 21/emulator toolchain and ran the suite locally.
 
-Policy: deny unmatched paths; authenticate budgets/feedback; allow owner or email-listed member reads; allow members non-access content and nested transaction changes; prevent members changing owner/owner-email/membership or deleting; allow owners access changes/deletion; allow authenticated feedback create only.
+Policy: deny unmatched paths; reject unauthenticated and anonymous-auth sessions; require a verified email; allow the owner or an email-listed member to read; permit members to edit only non-access budget fields and nested transactions; keep owner UID and owner email immutable; allow only the owner to manage membership or delete; allow non-anonymous authenticated feedback creation only. List rules support only the two query shapes implemented by the client: owner UID equality and member-email `array-contains`.
 
-The email-membership/client-sync model still lacks a complete invitation, ownership-transfer, revocation, account-deletion, payload/rate-limit, and server-authority design. Tests cover owner/member/stranger/anonymous and access escalation, but are **NOT RUN** because Java, Firebase CLI, and Node dependencies are absent. Do not enable an owned project before they pass.
+The 12-test suite passes and covers unauthenticated, anonymous-auth, missing-email, owner, member, stranger, malformed access data, immutable owner identity, membership escalation, delete/recreate, direct and nested access, actual client query shapes, feedback, and unmatched paths. The tested rules have not yet been published; the development cloud database still has its original deny-all policy. The email-membership/client-sync model also still lacks a complete invitation, ownership-transfer, revocation, account-deletion, payload/rate-limit, and server-authority design.
 
 ## 10. Deep links, purchases, and platform capabilities
 
@@ -190,19 +190,27 @@ Release checklist: legal/store-term review; immutable source tag per binary; com
 | Strict analysis | Nonzero: 5,253 historical findings, zero errors |
 | Release web build | PASS after separation |
 | Generated web configuration scan | No upstream API keys, Firebase domains/buckets, OAuth clients, app IDs, or support email |
-| Firestore emulator | NOT RUN — toolchain/dependencies absent |
+| Phase 1B configuration/scopes/guards | PASS |
+| Phase 1B full Flutter suite | PASS — 60/60 |
+| Firestore emulator | PASS — 12/12 |
+| Release web build with ignored development config | PASS |
+| Development web startup | PASS — Flutter mounted at the local URL; no browser errors/warnings |
+| Firestore rules deployment | PENDING explicit approval — cloud remains deny-all |
+| Google Auth live smoke | PENDING owner interaction |
 | Android/iOS | NOT RUN — toolchains absent |
 
 ## 15. Remaining risks and exit gate
 
-- No owned development Firebase/Google configuration exists; cloud behavior is disabled, not integration-proven.
-- Rules are unexecuted and email membership is weaker than server-authoritative roles.
+- The owned development Firebase project exists and web configuration is integration-proven locally, but the tested rules are not yet deployed.
+- Google Auth is configured for profile/email identity only, but the live cancellation/sign-in/sign-out path is not yet owner-smoke-tested.
+- The console environment type is still `Unspecified`; the owner should label it Development.
+- Email membership is weaker than server-authoritative roles.
 - Native IDs/domain/signing/OAuth/support/legal/store decisions remain open.
 - Drive/Gmail, sharing, links, purchases, notifications, widgets, permissions, and restore need device tests.
 - Client-only entitlements are insecure for production; raw backups remain unencrypted.
 - Strict analyzer debt and asset/font/licence review remain.
 - Currency API and Google Sheets template need ownership/availability/privacy decisions.
 
-The code is safely disconnected and ready to receive owned development configuration, but the exit gate requiring owned configuration and tested rules is not met.
+The code is safely separated and has received owner-controlled web development configuration. The remaining Phase 1B exit gates are rules publication to the exact development project and interactive Google Auth verification.
 
 **INFRASTRUCTURE SEPARATION NOT READY**
