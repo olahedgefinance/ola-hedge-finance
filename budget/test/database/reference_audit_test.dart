@@ -1,6 +1,5 @@
 import 'package:budget/database/reference_audit.dart';
 import 'package:budget/database/tables.dart';
-import 'package:drift/drift.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../support/finance_database_fixture.dart';

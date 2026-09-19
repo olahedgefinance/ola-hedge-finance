@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:budget/database/tables.dart';
-import 'package:drift/drift.dart';
 
 class DatabaseReferenceViolation {
   final String relationship;
