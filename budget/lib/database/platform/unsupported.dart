@@ -1,5 +1,6 @@
 // unsupported.dart
 import 'dart:typed_data';
+import 'package:budget/database/backup/restore_models.dart';
 import 'package:budget/database/tables.dart';
 
 Future<FinanceDatabase> constructDb(String dbName,
@@ -8,4 +9,5 @@ Future<FinanceDatabase> constructDb(String dbName,
 
 Future<DBFileInfo> getCurrentDBFileInfo() => throw UnimplementedError();
 
-Future overwriteDefaultDB(Uint8List dataStore) => throw UnimplementedError();
+Future<DatabaseRestoreResult> overwriteDefaultDB(Uint8List dataStore) =>
+    throw UnimplementedError();

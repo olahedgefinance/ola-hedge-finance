@@ -1,6 +1,8 @@
 import 'dart:io';
 import 'dart:typed_data';
 
+import 'package:budget/database/backup/native_restore.dart';
+import 'package:budget/database/backup/restore_models.dart';
 import 'package:budget/database/tables.dart';
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -10,136 +12,277 @@ import '../support/finance_database_fixture.dart';
 
 void main() {
   late Directory tempDirectory;
+  late File liveDatabase;
 
   setUp(() async {
     configureTestSqlite();
+    await configureTestGlobals();
     tempDirectory =
-        await Directory.systemTemp.createTemp('cashew-backup-test-');
+        await Directory.systemTemp.createTemp('cashew-restore-test-');
+    liveDatabase = await _createDatabaseFile(
+      tempDirectory,
+      'live.sqlite',
+      walletName: 'Live wallet',
+    );
   });
 
   tearDown(() => tempDirectory.delete(recursive: true));
 
-  test('current-schema backup passes version, integrity, and relation checks',
-      () async {
-    final file =
-        File('${tempDirectory.path}${Platform.pathSeparator}valid.sqlite');
-    final db = FinanceDatabase(NativeDatabase(file));
-    expect(await databaseIntegrity(db), 'ok');
-    await db.close();
+  test('valid current backup activates only after validation', () async {
+    final candidate = await _createDatabaseFile(
+      tempDirectory,
+      'candidate.sqlite',
+      walletName: 'Restored wallet',
+    );
 
-    final result = inspectBackup(file);
+    final result = await restoreNativeDatabase(
+      candidateBytes: await candidate.readAsBytes(),
+      liveDatabase: liveDatabase,
+      workingDirectory: tempDirectory,
+    );
 
-    expect(result.isValid, isTrue);
-    expect(result.schemaVersion, 46);
-    expect(result.integrity, 'ok');
-    expect(result.foreignKeyViolations, 0);
+    expect(result.isSuccess, isTrue);
+    expect(result.sourceSchemaVersion, 47);
+    expect(result.activatedSchemaVersion, 47);
+    expect(result.safetyBackupPath, isNotNull);
+    expect(File(result.safetyBackupPath!).existsSync(), isTrue);
+    expect(_walletNames(liveDatabase), <String>['Restored wallet']);
   });
 
-  test('corrupt backup is rejected before it can replace live data', () async {
-    final file =
-        File('${tempDirectory.path}${Platform.pathSeparator}corrupt.sqlite');
-    await file.writeAsBytes(Uint8List.fromList(<int>[1, 2, 3, 4]));
-
-    final result = inspectBackup(file);
-
-    expect(result.isValid, isFalse);
-    expect(result.error, isNotEmpty);
-  });
-
-  test('backup from a newer schema is rejected as incompatible', () async {
-    final file =
-        File('${tempDirectory.path}${Platform.pathSeparator}newer.sqlite');
-    final db = FinanceDatabase(NativeDatabase(file));
-    expect(await databaseIntegrity(db), 'ok');
-    await db.close();
-
-    final raw = sqlite3.open(file.path);
-    raw.execute('PRAGMA user_version = 47');
+  test('supported older backup migrates on the temporary copy', () async {
+    final candidate = await _createDatabaseFile(
+      tempDirectory,
+      'older.sqlite',
+      walletName: 'Older wallet',
+    );
+    final raw = sqlite3.open(candidate.path);
+    raw.execute('PRAGMA user_version = 46');
     raw.dispose();
 
-    final result = inspectBackup(file);
+    final result = await restoreNativeDatabase(
+      candidateBytes: await candidate.readAsBytes(),
+      liveDatabase: liveDatabase,
+      workingDirectory: tempDirectory,
+    );
 
-    expect(result.isValid, isFalse);
-    expect(result.schemaVersion, 47);
-    expect(result.error, contains('newer'));
+    expect(result.isSuccess, isTrue);
+    expect(result.sourceSchemaVersion, 46);
+    expect(result.activatedSchemaVersion, 47);
+    expect(_walletNames(liveDatabase), <String>['Older wallet']);
+  });
+
+  for (final invalid in <_InvalidBackupCase>[
+    _InvalidBackupCase(
+      'random non-SQLite bytes',
+      (_) async => Uint8List.fromList(<int>[1, 2, 3, 4, 5]),
+      RestoreFailureStage.format,
+    ),
+    _InvalidBackupCase(
+      'truncated SQLite backup',
+      (directory) async {
+        final file = await _createDatabaseFile(directory, 'truncated.sqlite');
+        final bytes = await file.readAsBytes();
+        return Uint8List.fromList(bytes.sublist(0, 100));
+      },
+      RestoreFailureStage.open,
+    ),
+    _InvalidBackupCase(
+      'corrupted SQLite backup',
+      (directory) async {
+        final file = await _createDatabaseFile(directory, 'corrupt.sqlite');
+        final raw = sqlite3.open(file.path);
+        raw.execute('PRAGMA writable_schema = ON');
+        raw.execute(
+          "UPDATE sqlite_schema SET rootpage = 999999 WHERE name = 'wallets'",
+        );
+        raw.execute('PRAGMA writable_schema = OFF');
+        raw.dispose();
+        return file.readAsBytes();
+      },
+      RestoreFailureStage.integrity,
+    ),
+  ]) {
+    test('${invalid.name} cannot replace live data', () async {
+      final before = await liveDatabase.readAsBytes();
+
+      final result = await restoreNativeDatabase(
+        candidateBytes: await invalid.bytes(tempDirectory),
+        liveDatabase: liveDatabase,
+        workingDirectory: tempDirectory,
+      );
+
+      expect(result.isSuccess, isFalse);
+      expect(result.failureStage, invalid.expectedStage);
+      expect(await liveDatabase.readAsBytes(), before);
+      expect(_walletNames(liveDatabase), <String>['Live wallet']);
+    });
+  }
+
+  test('newer unsupported schema is rejected without a downgrade', () async {
+    final candidate = await _createDatabaseFile(tempDirectory, 'newer.sqlite');
+    final raw = sqlite3.open(candidate.path);
+    raw.execute('PRAGMA user_version = 48');
+    raw.dispose();
+    final before = await liveDatabase.readAsBytes();
+
+    final result = await restoreNativeDatabase(
+      candidateBytes: await candidate.readAsBytes(),
+      liveDatabase: liveDatabase,
+      workingDirectory: tempDirectory,
+    );
+
+    expect(result.isSuccess, isFalse);
+    expect(result.failureStage, RestoreFailureStage.compatibility);
+    expect(result.message, contains('newer'));
+    expect(await liveDatabase.readAsBytes(), before);
+  });
+
+  test('schema older than the frozen support boundary is rejected', () async {
+    final candidate =
+        await _createDatabaseFile(tempDirectory, 'too-old.sqlite');
+    final raw = sqlite3.open(candidate.path);
+    raw.execute('PRAGMA user_version = 32');
+    raw.dispose();
+    final before = await liveDatabase.readAsBytes();
+
+    final result = await restoreNativeDatabase(
+      candidateBytes: await candidate.readAsBytes(),
+      liveDatabase: liveDatabase,
+      workingDirectory: tempDirectory,
+    );
+
+    expect(result.isSuccess, isFalse);
+    expect(result.failureStage, RestoreFailureStage.compatibility);
+    expect(result.message, contains('older'));
+    expect(await liveDatabase.readAsBytes(), before);
+  });
+
+  test('missing required table is rejected before migration', () async {
+    final candidate =
+        await _createDatabaseFile(tempDirectory, 'missing.sqlite');
+    final raw = sqlite3.open(candidate.path);
+    raw.execute('DROP TABLE scanner_templates');
+    raw.dispose();
+    final before = await liveDatabase.readAsBytes();
+
+    final result = await restoreNativeDatabase(
+      candidateBytes: await candidate.readAsBytes(),
+      liveDatabase: liveDatabase,
+      workingDirectory: tempDirectory,
+    );
+
+    expect(result.isSuccess, isFalse);
+    expect(result.failureStage, RestoreFailureStage.schema);
+    expect(await liveDatabase.readAsBytes(), before);
+  });
+
+  test('dangling references are rejected before activation', () async {
+    final candidate = await _createDatabaseFile(tempDirectory, 'orphan.sqlite');
+    final raw = sqlite3.open(candidate.path);
+    raw.execute(
+      "UPDATE transactions SET wallet_fk = 'missing-wallet' "
+      "WHERE transaction_pk = 'transaction-1'",
+    );
+    raw.dispose();
+    final before = await liveDatabase.readAsBytes();
+
+    final result = await restoreNativeDatabase(
+      candidateBytes: await candidate.readAsBytes(),
+      liveDatabase: liveDatabase,
+      workingDirectory: tempDirectory,
+    );
+
+    expect(result.isSuccess, isFalse);
+    expect(result.failureStage, RestoreFailureStage.references);
+    expect(await liveDatabase.readAsBytes(), before);
+  });
+
+  test('migration failure on a temporary copy leaves live data untouched',
+      () async {
+    final candidate = await _createDatabaseFile(
+      tempDirectory,
+      'migration-failure.sqlite',
+    );
+    final raw = sqlite3.open(candidate.path);
+    raw.execute("INSERT INTO wallets (wallet_pk, name, date_created, 'order') "
+        "VALUES ('0', 'Legacy zero wallet', 1705320000, 2)");
+    raw.execute("UPDATE objectives SET wallet_fk = '0'");
+    raw.execute('DELETE FROM app_settings');
+    raw.execute('PRAGMA user_version = 46');
+    raw.dispose();
+    final before = await liveDatabase.readAsBytes();
+
+    final result = await restoreNativeDatabase(
+      candidateBytes: await candidate.readAsBytes(),
+      liveDatabase: liveDatabase,
+      workingDirectory: tempDirectory,
+    );
+
+    expect(result.isSuccess, isFalse);
+    expect(result.failureStage, RestoreFailureStage.migration);
+    expect(await liveDatabase.readAsBytes(), before);
+  });
+
+  test('activation interruption rolls back the previous live database',
+      () async {
+    final candidate = await _createDatabaseFile(
+      tempDirectory,
+      'interrupted.sqlite',
+      walletName: 'Never activated',
+    );
+
+    final result = await restoreNativeDatabase(
+      candidateBytes: await candidate.readAsBytes(),
+      liveDatabase: liveDatabase,
+      workingDirectory: tempDirectory,
+      activator: ({
+        required stagedDatabase,
+        required liveDatabase,
+        required rollbackDatabase,
+      }) async {
+        await liveDatabase.rename(rollbackDatabase.path);
+        throw StateError('simulated interruption');
+      },
+    );
+
+    expect(result.isSuccess, isFalse);
+    expect(result.failureStage, RestoreFailureStage.activation);
+    expect(result.rollbackSucceeded, isTrue);
+    expect(_walletNames(liveDatabase), <String>['Live wallet']);
   });
 }
 
-BackupInspection inspectBackup(File file) {
-  Database? raw;
+Future<File> _createDatabaseFile(
+  Directory directory,
+  String name, {
+  String walletName = 'Candidate wallet',
+}) async {
+  final file = File('${directory.path}${Platform.pathSeparator}$name');
+  final db = FinanceDatabase(NativeDatabase(file));
+  await db.into(db.wallets).insert(fixtureWallet(name: walletName));
+  await db.into(db.categories).insert(fixtureCategory());
+  await db.into(db.transactions).insert(fixtureTransaction());
+  await db.into(db.objectives).insert(fixtureObjective());
+  await db.close();
+  return file;
+}
+
+List<String> _walletNames(File file) {
+  final raw = sqlite3.open(file.path);
   try {
-    raw = sqlite3.open(file.path);
-    final version =
-        raw.select('PRAGMA user_version').single.values.single as int;
-    final integrity =
-        raw.select('PRAGMA integrity_check').single.values.single as String;
-    final foreignKeyViolations = raw.select('PRAGMA foreign_key_check').length;
-
-    if (version > schemaVersionGlobal) {
-      return BackupInspection.invalid(
-        schemaVersion: version,
-        integrity: integrity,
-        foreignKeyViolations: foreignKeyViolations,
-        error: 'Backup schema $version is newer than $schemaVersionGlobal.',
-      );
-    }
-    if (integrity != 'ok' || foreignKeyViolations != 0) {
-      return BackupInspection.invalid(
-        schemaVersion: version,
-        integrity: integrity,
-        foreignKeyViolations: foreignKeyViolations,
-        error: 'Backup failed SQLite integrity checks.',
-      );
-    }
-
-    return BackupInspection.valid(
-      schemaVersion: version,
-      integrity: integrity,
-      foreignKeyViolations: foreignKeyViolations,
-    );
-  } catch (error) {
-    return BackupInspection.invalid(error: error.toString());
+    return raw
+        .select('SELECT name FROM wallets ORDER BY "order"')
+        .map((row) => row['name'] as String)
+        .toList(growable: false);
   } finally {
-    raw?.dispose();
+    raw.dispose();
   }
 }
 
-class BackupInspection {
-  final bool isValid;
-  final int? schemaVersion;
-  final String? integrity;
-  final int? foreignKeyViolations;
-  final String? error;
+class _InvalidBackupCase {
+  final String name;
+  final Future<Uint8List> Function(Directory directory) bytes;
+  final RestoreFailureStage expectedStage;
 
-  const BackupInspection._({
-    required this.isValid,
-    this.schemaVersion,
-    this.integrity,
-    this.foreignKeyViolations,
-    this.error,
-  });
-
-  const BackupInspection.valid({
-    required int schemaVersion,
-    required String integrity,
-    required int foreignKeyViolations,
-  }) : this._(
-          isValid: true,
-          schemaVersion: schemaVersion,
-          integrity: integrity,
-          foreignKeyViolations: foreignKeyViolations,
-        );
-
-  const BackupInspection.invalid({
-    int? schemaVersion,
-    String? integrity,
-    int? foreignKeyViolations,
-    required String error,
-  }) : this._(
-          isValid: false,
-          schemaVersion: schemaVersion,
-          integrity: integrity,
-          foreignKeyViolations: foreignKeyViolations,
-          error: error,
-        );
+  const _InvalidBackupCase(this.name, this.bytes, this.expectedStage);
 }

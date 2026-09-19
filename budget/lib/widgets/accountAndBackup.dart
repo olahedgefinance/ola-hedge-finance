@@ -565,54 +565,33 @@ Future<void> loadBackup(
     List<int> dataStore = [];
     dynamic response = await driveApi.files
         .get(file.id ?? "", downloadOptions: drive.DownloadOptions.fullMedia);
-    response.stream.listen(
-      (data) {
-        // print("Data: ${data.length}");
-        dataStore.insertAll(dataStore.length, data);
-      },
-      onDone: () async {
-        await overwriteDefaultDB(Uint8List.fromList(dataStore));
+    await for (final List<int> data in response.stream) {
+      dataStore.addAll(data);
+    }
 
-        // if this is added, it doesn't restore the database properly on web
-        // await database.close();
-        popRoute(context);
-        await resetLanguageToSystem(context);
-        await updateSettings("databaseJustImported", true,
-            pagesNeedingRefresh: [], updateGlobalState: false);
-        print(appStateSettings);
-        openSnackbar(
-          SnackbarMessage(
-              title: "backup-restored".tr(),
-              icon: appStateSettings["outlinedIcons"]
-                  ? Icons.settings_backup_restore_outlined
-                  : Icons.settings_backup_restore_rounded),
-        );
-        popRoute(context);
-        restartAppPopup(
-          context,
-          description: kIsWeb
-              ? "refresh-required-to-load-backup".tr()
-              : "restart-required-to-load-backup".tr(),
-          // codeBlock: file.name.toString() +
-          //     (file.modifiedTime == null
-          //         ? ""
-          //         : ("\n" +
-          //             getWordedDateShort(
-          //               file.modifiedTime!,
-          //               showTodayTomorrow: false,
-          //               includeYear: true,
-          //             ))),
-        );
-      },
-      onError: (error) {
-        openSnackbar(
-          SnackbarMessage(
-              title: error.toString(),
-              icon: appStateSettings["outlinedIcons"]
-                  ? Icons.error_outlined
-                  : Icons.error_rounded),
-        );
-      },
+    await overwriteDefaultDB(Uint8List.fromList(dataStore));
+    popRoute(context);
+    await resetLanguageToSystem(context);
+    await updateSettings(
+      "databaseJustImported",
+      true,
+      pagesNeedingRefresh: [],
+      updateGlobalState: false,
+    );
+    print(appStateSettings);
+    openSnackbar(
+      SnackbarMessage(
+          title: "backup-restored".tr(),
+          icon: appStateSettings["outlinedIcons"]
+              ? Icons.settings_backup_restore_outlined
+              : Icons.settings_backup_restore_rounded),
+    );
+    popRoute(context);
+    restartAppPopup(
+      context,
+      description: kIsWeb
+          ? "refresh-required-to-load-backup".tr()
+          : "restart-required-to-load-backup".tr(),
     );
   } catch (e) {
     popRoute(context);
