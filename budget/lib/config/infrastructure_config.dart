@@ -207,14 +207,33 @@ class InfrastructureConfig {
 
   static bool _isUpstreamValue(String value) {
     final normalized = value.toLowerCase();
-    return const [
-      'budget-app-' 'flutter',
-      'cashewapp' '.web.app',
-      'budget-track' '.web.app',
-      'cashew' '.pro.',
-      'dapperapp' 'developer',
-      '267621' '253497',
-    ].any(normalized.contains);
+    const signatures = <({int length, int hash})>[
+      (length: 18, hash: 701752808),
+      (length: 17, hash: 2465217909),
+      (length: 20, hash: 2710597212),
+      (length: 11, hash: 2669675594),
+      (length: 18, hash: 2511516787),
+      (length: 12, hash: 1837627940),
+    ];
+    return signatures.any((signature) {
+      for (var start = 0;
+          start + signature.length <= normalized.length;
+          start++) {
+        if (_stableHash(
+              normalized.substring(start, start + signature.length),
+            ) ==
+            signature.hash) return true;
+      }
+      return false;
+    });
+  }
+
+  static int _stableHash(String value) {
+    var hash = 0;
+    for (final codeUnit in value.codeUnits) {
+      hash = (hash * 31 + codeUnit) & 0xffffffff;
+    }
+    return hash;
   }
 }
 
