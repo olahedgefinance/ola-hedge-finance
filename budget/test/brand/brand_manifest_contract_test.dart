@@ -172,7 +172,7 @@ void main() {
     );
     expect(iosEntitlements, contains('applinks:cashewapp.web.app'));
     expect(firebaseOptions, contains("projectId: 'budget-app-flutter'"));
-    expect(databaseSource, contains('schemaVersionGlobal = 46'));
+    expect(databaseSource, contains('schemaVersionGlobal = 47'));
     expect(premiumSource, contains("'cashew.pro.monthly'"));
     expect(uploadSource, contains('String folderName = "Cashew"'));
     expect(license, contains('GNU GENERAL PUBLIC LICENSE'));

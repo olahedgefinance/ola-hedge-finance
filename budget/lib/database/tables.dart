@@ -26,7 +26,7 @@ import 'package:budget/pages/activityPage.dart';
 import 'package:flutter/material.dart' show RangeValues;
 part 'tables.g.dart';
 
-int schemaVersionGlobal = 46;
+int schemaVersionGlobal = 47;
 
 // To update and migrate the database, check the README
 
@@ -241,7 +241,7 @@ class DeleteLogs extends Table {
   TextColumn get entryPk => text()();
   IntColumn get type => intEnum<DeleteLogType>()();
   DateTimeColumn get dateTimeModified =>
-      dateTime().withDefault(Constant(DateTime.now()))();
+      dateTime().withDefault(currentDateAndTime)();
 
   @override
   Set<Column> get primaryKey => {deleteLogPk};
@@ -256,7 +256,7 @@ class Wallets extends Table {
   DateTimeColumn get dateCreated =>
       dateTime().clientDefault(() => new DateTime.now())();
   DateTimeColumn get dateTimeModified =>
-      dateTime().withDefault(Constant(DateTime.now())).nullable()();
+      dateTime().withDefault(currentDateAndTime).nullable()();
   IntColumn get order => integer()();
   TextColumn get currency => text().nullable()();
   TextColumn get currencyFormat => text().nullable()();
@@ -294,11 +294,11 @@ class Transactions extends Table {
   // DateTimeColumn get dateTimeCreated =>
   //     dateTime().withDefault(Constant(DateTime.now())).nullable()();
   DateTimeColumn get dateTimeModified =>
-      dateTime().withDefault(Constant(DateTime.now())).nullable()();
+      dateTime().withDefault(currentDateAndTime).nullable()();
   // The original date the transaction was due. When a transaction is paid, the date gets set to the current time
   // This stores the original date it was supposed to be due on.
   DateTimeColumn get originalDateDue =>
-      dateTime().withDefault(Constant(DateTime.now())).nullable()();
+      dateTime().withDefault(currentDateAndTime).nullable()();
   BoolColumn get income => boolean().withDefault(const Constant(false))();
   // Subscriptions and Repetitive payments
   IntColumn get periodLength => integer().nullable()();
@@ -349,7 +349,7 @@ class Categories extends Table {
   DateTimeColumn get dateCreated =>
       dateTime().clientDefault(() => new DateTime.now())();
   DateTimeColumn get dateTimeModified =>
-      dateTime().withDefault(Constant(DateTime.now())).nullable()();
+      dateTime().withDefault(currentDateAndTime).nullable()();
   IntColumn get order => integer()();
   BoolColumn get income => boolean().withDefault(const Constant(false))();
   IntColumn get methodAdded => intEnum<MethodAdded>().nullable()();
@@ -379,7 +379,7 @@ class CategoryBudgetLimits extends Table {
   TextColumn get budgetFk => text().references(Budgets, #budgetPk)();
   RealColumn get amount => real()();
   DateTimeColumn get dateTimeModified =>
-      dateTime().withDefault(Constant(DateTime.now())).nullable()();
+      dateTime().withDefault(currentDateAndTime).nullable()();
   TextColumn get walletFk =>
       text().references(Wallets, #walletPk).withDefault(const Constant("0"))();
 
@@ -399,7 +399,7 @@ class AssociatedTitles extends Table {
   DateTimeColumn get dateCreated =>
       dateTime().clientDefault(() => new DateTime.now())();
   DateTimeColumn get dateTimeModified =>
-      dateTime().withDefault(Constant(DateTime.now())).nullable()();
+      dateTime().withDefault(currentDateAndTime).nullable()();
   IntColumn get order => integer()();
   BoolColumn get isExactMatch => boolean().withDefault(const Constant(false))();
 
@@ -445,7 +445,7 @@ class Budgets extends Table {
   DateTimeColumn get dateCreated =>
       dateTime().clientDefault(() => new DateTime.now())();
   DateTimeColumn get dateTimeModified =>
-      dateTime().withDefault(Constant(DateTime.now())).nullable()();
+      dateTime().withDefault(currentDateAndTime).nullable()();
   BoolColumn get pinned => boolean().withDefault(const Constant(false))();
   IntColumn get order => integer()();
   TextColumn get walletFk =>
@@ -491,7 +491,7 @@ class ScannerTemplates extends Table {
   DateTimeColumn get dateCreated =>
       dateTime().clientDefault(() => new DateTime.now())();
   DateTimeColumn get dateTimeModified =>
-      dateTime().withDefault(Constant(DateTime.now())).nullable()();
+      dateTime().withDefault(currentDateAndTime).nullable()();
   TextColumn get templateName => text().withLength(max: NAME_LIMIT)();
   TextColumn get contains => text().withLength(max: NAME_LIMIT)();
   TextColumn get titleTransactionBefore => text().withLength(max: NAME_LIMIT)();
@@ -525,7 +525,7 @@ class Objectives extends Table {
       dateTime().clientDefault(() => new DateTime.now())();
   DateTimeColumn get endDate => dateTime().nullable()();
   DateTimeColumn get dateTimeModified =>
-      dateTime().withDefault(Constant(DateTime.now())).nullable()();
+      dateTime().withDefault(currentDateAndTime).nullable()();
   TextColumn get iconName => text().nullable()();
   TextColumn get emojiIconName => text().nullable()();
   BoolColumn get income => boolean().withDefault(const Constant(false))();
@@ -1161,8 +1161,25 @@ class FinanceDatabase extends _$FinanceDatabase {
               } catch (e) {
                 print(
                     "Migration Error: Error creating column objectives.type " +
-                        e.toString());
+                    e.toString());
               }
+            },
+            from46To47: (m, schema) async {
+              // Older direct-upgrade paths can reach v46 with a non-canonical
+              // physical schema because earlier migration errors were caught.
+              // Rebuild against the versioned v47 definitions without changing
+              // the logical values stored in any current column.
+              await m.alterTable(TableMigration(schema.wallets));
+              await m.alterTable(TableMigration(schema.categories));
+              await m.alterTable(TableMigration(schema.objectives));
+              await m.alterTable(TableMigration(schema.budgets));
+              await m.alterTable(TableMigration(schema.transactions));
+              await m.alterTable(TableMigration(schema.categoryBudgetLimits));
+              await m.alterTable(TableMigration(schema.associatedTitles));
+              await m.alterTable(TableMigration(schema.scannerTemplates));
+              await m.alterTable(TableMigration(schema.deleteLogs));
+
+              await _backfillVersion47Defaults();
             },
           ),
         );
@@ -1183,7 +1200,7 @@ class FinanceDatabase extends _$FinanceDatabase {
               "Migration Version Before: " + details.versionBefore.toString());
           print("Migration Version After: " + details.versionNow.toString());
 
-          if (details.versionBefore! < 42) {
+          if (details.versionBefore! < 42 && details.versionNow < 47) {
             // Migration 41to42
             print(
                 "Migration updating wallet homePageWidgetDisplay entries to default values");
@@ -1202,7 +1219,7 @@ class FinanceDatabase extends _$FinanceDatabase {
                       e.toString());
             }
           }
-          if (details.versionBefore! < 45) {
+          if (details.versionBefore! < 45 && details.versionNow < 47) {
             // Migration 44to45
             print(
                 "Migration updating wallet objectives.walletFk to current wallet");
@@ -1258,6 +1275,69 @@ class FinanceDatabase extends _$FinanceDatabase {
           }
         }
       },
+    );
+  }
+
+  Future<void> _backfillVersion47Defaults() async {
+    final encodedWidgetDefaults =
+        const HomePageWidgetDisplayListInColumnConverter()
+            .toSql(defaultWalletHomePageWidgetDisplay);
+    await customStatement(
+      'UPDATE wallets SET home_page_widget_display = ? '
+      'WHERE home_page_widget_display IS NULL',
+      <Object?>[encodedWidgetDefaults],
+    );
+
+    final unresolvedWalletReferences = await customSelect(
+      'SELECT '
+      '(SELECT COUNT(*) FROM objectives WHERE wallet_fk = ?) + '
+      '(SELECT COUNT(*) FROM category_budget_limits WHERE wallet_fk = ?) '
+      'AS reference_count',
+      variables: <Variable<Object>>[
+        const Variable<String>('0'),
+        const Variable<String>('0'),
+      ],
+    ).getSingle();
+    final referenceCount =
+        unresolvedWalletReferences.read<int>('reference_count');
+    if (referenceCount == 0) return;
+
+    String? selectedWalletPk;
+    final settingsRows = await customSelect(
+      'SELECT settings_j_s_o_n FROM app_settings WHERE settings_pk = 0',
+    ).get();
+    if (settingsRows.isNotEmpty) {
+      final encodedSettings =
+          settingsRows.single.read<String>('settings_j_s_o_n');
+      final decodedSettings = json.decode(encodedSettings);
+      if (decodedSettings is Map<String, dynamic>) {
+        selectedWalletPk = decodedSettings['selectedWalletPk']?.toString();
+      }
+    }
+
+    final walletRows = await customSelect(
+      'SELECT wallet_pk FROM wallets ORDER BY "order", wallet_pk',
+    ).get();
+    final walletPks = walletRows
+        .map((row) => row.read<String>('wallet_pk'))
+        .toList(growable: false);
+    if (!walletPks.contains(selectedWalletPk)) {
+      selectedWalletPk = walletPks.length == 1 ? walletPks.single : null;
+    }
+    if (selectedWalletPk == null) {
+      throw StateError(
+        'Cannot safely assign historical wallet references: no valid '
+        'selected wallet exists in the backup.',
+      );
+    }
+
+    await customStatement(
+      'UPDATE objectives SET wallet_fk = ? WHERE wallet_fk = ?',
+      <Object?>[selectedWalletPk, '0'],
+    );
+    await customStatement(
+      'UPDATE category_budget_limits SET wallet_fk = ? WHERE wallet_fk = ?',
+      <Object?>[selectedWalletPk, '0'],
     );
   }
 
