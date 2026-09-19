@@ -127,4 +127,19 @@ void main() {
       contains('if (appInfrastructure.canUseGoogleDrive) {'),
     );
   });
+
+  test('development auth diagnostics preserve failure stage and stack', () {
+    final googleSignIn =
+        File('lib/widgets/accountAndBackup.dart').readAsStringSync();
+    final firebaseAuth =
+        File('lib/struct/firebaseAuthGlobal.dart').readAsStringSync();
+
+    for (final source in [googleSignIn, firebaseAuth]) {
+      expect(source, contains('DeploymentEnvironment.development'));
+      expect(source, contains('catch (error, stackTrace)'));
+      expect(source, contains('debugPrintStack('));
+    }
+    expect(googleSignIn, contains('[GoogleSignIn]['));
+    expect(firebaseAuth, contains('[FirebaseAuth]['));
+  });
 }

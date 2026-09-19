@@ -74,6 +74,21 @@ class GoogleAuthClient extends http.BaseClient {
 signIn.GoogleSignIn? googleSignIn;
 signIn.GoogleSignInAccount? googleUser;
 
+void _logGoogleSignInFailure(
+  String stage,
+  Object error,
+  StackTrace stackTrace,
+) {
+  if (appInfrastructure.environment != DeploymentEnvironment.development) {
+    return;
+  }
+  debugPrint('[GoogleSignIn][$stage] ${error.runtimeType}: $error');
+  debugPrintStack(
+    label: '[GoogleSignIn][$stage] stack trace',
+    stackTrace: stackTrace,
+  );
+}
+
 Future<bool> signInGoogle(
     {BuildContext? context,
     bool? waitForCompletion,
@@ -89,6 +104,7 @@ Future<bool> signInGoogle(
   if (await checkLockedFeatureIfInDemoMode(context) == false) return false;
   if (appStateSettings["emailScanning"] == false) gMailPermissions = false;
 
+  var signInStage = 'preflight';
   try {
     if (gMailPermissions == true &&
         googleUser != null &&
@@ -132,6 +148,7 @@ Future<bool> signInGoogle(
       );
       // googleSignIn?.currentUser?.clearAuthCache();
 
+      signInStage = 'oauth-token-and-profile';
       final signIn.GoogleSignInAccount? account = silentSignIn == true
           ?
           // kIsWeb
@@ -149,6 +166,7 @@ Future<bool> signInGoogle(
           : await googleSignIn?.signIn();
 
       if (account != null) {
+        signInStage = 'local-google-user-state';
         // print("ACCOUNT");
         // print(account);
         googleUser = account;
@@ -167,8 +185,9 @@ Future<bool> signInGoogle(
 
     refreshUIAfterLoginChange();
     return true;
-  } catch (e) {
-    print(e);
+  } catch (error, stackTrace) {
+    _logGoogleSignInFailure(signInStage, error, stackTrace);
+    print(error);
     if (waitForCompletion == true && context != null) popRoute(context);
     openSnackbar(
       SnackbarMessage(
