@@ -150,3 +150,35 @@ Before infrastructure separation or brand implementation begins:
 6. complete Android and iOS build/run verification on provisioned hosts.
 
 No Phase 1 or Phase 2 work is authorized by this report.
+
+## Phase 0C superseding status — 2026-09-18
+
+The Phase 0B failures above remain the historical evidence that triggered remediation; they are no longer the current branch result.
+
+Phase 0C introduced a forward-only v47 canonicalization rather than editing v33–v46 history. Data-rich v33, v36, v39, v41, v45, and v46 fixtures now all reach a schema identical to fresh v47 while preserving the tested row identities, exact amounts, wallet/currency totals, recurrence, budgets, objectives, paired transfers, and tombstones. The fixture logs still expose swallowed errors in historical callbacks, after which the fail-closed v47 repair canonicalizes the tested database.
+
+Production restore is now validate-first:
+
+- native candidates are inspected, migrated, and revalidated in temporary storage before the live connection closes; activation retains a safety copy and rolls back after interruption/post-check failure;
+- web candidates are inspected and migrated in isolated memory; existing bytes are snapshotted and restored after store/post-check failure;
+- unsupported newer/too-old versions, random/truncated/corrupt databases, missing schema, dangling references, and temporary migration failures are rejected;
+- sync state is cleared only after activation succeeds.
+
+Foreign-key enforcement remains intentionally disabled. A new read-only audit covers declared and serialized financial relationships, restore rejects an unsafe candidate, and ordinary data is not silently deleted or reassigned. Enabling constraints requires a separately approved cleanup and cascade policy.
+
+Fresh Phase 0C verification:
+
+| Gate | Result |
+|---|---|
+| Full tests | PASS — 43/43 |
+| Supported schema cases | PASS — 7/7 |
+| Restore contract cases | PASS — 11/11 |
+| Reference-audit cases | PASS — 2/2 |
+| Agreed no-error analyzer baseline | PASS |
+| Strict analysis | FAIL — 0 errors, 132 warnings, 5,121 infos; historical debt |
+| Release web build | PASS |
+| Web-server HTTP/title smoke | PASS |
+| Android | NOT RUN — toolchain/device absent |
+| iOS | NOT RUN — Windows host |
+
+The superseding verdict is **PASS — PHASE 0C DATA-SAFETY GATES MET; MOBILE RELEASE READINESS REMAINS UNVERIFIED**. Detailed design, failure matrix, recovery guarantees, and remaining risks are in `13_DATA_SAFETY_REMEDIATION.md`. This verdict permits Phase 1 planning only when explicitly approved; it does not authorize infrastructure changes, rebranding, redesign, or feature work.

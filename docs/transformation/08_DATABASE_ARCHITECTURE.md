@@ -4,7 +4,7 @@
 
 Cashew is local-first. Drift is the data-access layer over native SQLite on Android/iOS. Native storage uses a foreground reader/background writer executor and a database file named `db.sqlite` in the application's documents area. Web uses Drift web storage backed by IndexedDB, with legacy local-storage compatibility behavior.
 
-The current schema version is **46**. The implementation and migrations are concentrated in `budget/lib/database/tables.dart`, with generated Drift code alongside it and exported schema snapshots under `budget/drift_schemas/` for versions 33–46.
+The current schema version is **47**. The implementation and migrations are concentrated in `budget/lib/database/tables.dart`, with generated Drift code alongside it and exported schema snapshots under `budget/drift_schemas/` for versions 33–47.
 
 ## Tables
 
@@ -42,7 +42,7 @@ erDiagram
 
 Some logical many-to-many relationships are **not** normalized foreign-key relationships. Budget wallet/category inclusions and exclusions, shared members, and transaction budget exclusions are stored as serialized string lists. This reduces join complexity in the existing app but weakens referential integrity, queryability, and future server synchronization.
 
-No local user/household table exists. Firebase identity and shared-budget membership are cloud concerns. Explicit enabling of SQLite foreign-key enforcement was not found during this audit, so enforcement must be verified with runtime tests rather than assumed.
+No local user/household table exists. Firebase identity and shared-budget membership are cloud concerns. SQLite foreign-key enforcement remains disabled. Phase 0C added a read-only direct-and-serialized relationship audit and applies it to restore candidates, but ordinary live databases are not automatically mutated or rejected.
 
 ## Migration history
 
@@ -57,8 +57,11 @@ The application has early manual migrations and Drift step-by-step migrations ba
 | 41–43 | Subcategories, home-widget data, and transaction budget exclusions |
 | 43–45 | End dates, multi-wallet/income budget behavior, and wallet links |
 | 45–46 | Paired transactions, objective loans, currency formatting, archive/type fields |
+| 46–47 | Forward-only canonical rebuild for historical convergence and deterministic timestamp defaults |
 
-`beforeOpen` also performs repair/post-upgrade work for missing budget exclusions, widget display data, and wallet-setting keys. Several migration operations catch and print errors to tolerate imports from newer/different backup states. That resilience is practical, but swallowed failures can conceal partial migrations and must be covered by fixture tests.
+`beforeOpen` also performs repair/post-upgrade work for missing budget exclusions, widget display data, and wallet-setting keys. Several historical migration operations catch and print errors. Phase 0C proved that those catches could leave non-canonical physical schemas, so v47 performs a final fail-closed canonical rebuild. Global-dependent legacy `beforeOpen` updates are skipped for upgrades reaching v47. The old callbacks were preserved rather than rewritten.
+
+Data-rich tests now migrate representative v33, v36, v39, v41, v45, and v46 databases to v47 and compare the result with the exported current schema. They protect exact amounts, financial sums, wallet/category/budget/objective relationships, recurrence, transfer pairs, archives, and tombstones.
 
 ## Backup and restore behavior
 
@@ -66,31 +69,33 @@ The application has early manual migrations and Drift step-by-step migrations ba
 - Native export copies the raw SQLite database; web export reads storage bytes.
 - Google Drive backup writes version/device-named database files to appDataFolder.
 - Device sync uses per-client database files, modification timestamps, and DeleteLogs tombstones.
-- Restore downloads/reads bytes and replaces the live database, resets sync state for clients, and requires restart/refresh.
+- Restore downloads/reads bytes, validates and migrates a temporary copy, activates only a validated current-schema database, resets sync state only after success, and requires restart/refresh.
 
-The inspected restore path does not establish a strong validation transaction before replacing the live file. Extension warnings are not a substitute for checking SQLite format, schema version, migration compatibility, integrity, available disk space, and checksum. Raw database backups are not encrypted by application code; the biometric option gates the UI but does not encrypt SQLite data at rest.
+Native restore checks the SQLite header, openability, supported schema range (v33–v47), required tables/current critical columns, `integrity_check`, declared foreign-key results, the full logical relationship audit, and transfer reciprocity. It retains a pre-restore safety copy, stages on the live filesystem, verifies the activated file, and restores a rollback file after activation/post-check failure. The two-rename swap is recoverable but is not claimed to be transactionally atomic.
+
+Web restore validates/migrates in isolated memory, snapshots the previous IndexedDB/local-storage bytes, stores only the migrated current bytes, reads them back, and rolls back on store/post-check failure. Browser-process crash atomicity remains unproven. Raw database backups are not encrypted or checksummed by application code; the biometric option gates the UI but does not encrypt SQLite data at rest.
 
 ## Safe migration strategy for the new product
 
-1. Preserve every historical migration and exported schema snapshot unchanged.
-2. Establish golden database fixtures at representative versions, especially before/after identifier conversion and current v46.
-3. Add automated forward-migration tests that open each fixture, run migrations, execute `PRAGMA integrity_check` and foreign-key checks, and verify row counts/financial totals.
-4. Add semantic invariants: paired-transfer balance neutrality, valid category/account references, recurrence idempotency, currency/decimal preservation, and objective/budget totals.
-5. Back up before migration and migrate through a temporary copy where platform storage permits; replace the live database only after validation.
-6. Make each future migration deterministic, forward-only, resumable or safely retryable, and explicit about default/backfill values.
+1. Preserve every historical migration and exported schema snapshot unchanged; v47 is the established forward-only repair pattern.
+2. Keep the committed v33/v36/v39/v41/v45/v46 fixtures immutable and add a source-version fixture whenever a future schema boundary changes financial meaning.
+3. Require schema equality, SQLite integrity, reference auditing, row/identifier preservation, and financial totals for every future migration.
+4. Keep semantic invariants for paired-transfer neutrality, recurrence, currency/decimal preservation, and objective/budget totals.
+5. Migrate restore candidates through temporary storage and retain the live safety copy until post-activation verification succeeds.
+6. Make each future migration deterministic, forward-only, safely retryable where possible, and explicit about default/backfill values.
 7. Never rewrite a released migration. Add a corrective migration with a new schema version.
-8. Version backup metadata independently and reject newer unsupported backups without touching the current database.
-9. Test web IndexedDB and native SQLite separately, including low-storage/interrupted cases.
-10. Document rollback as restoring the pre-migration backup with the older compatible app—not by attempting destructive down-migrations.
+8. Add a versioned, encrypted, checksummed backup envelope while retaining explicit compatibility policy for existing raw backups.
+9. Add native-device and browser integration failure injection for low storage, process interruption, storage failure, and recovery.
+10. Treat rollback as restoring retained bytes/files, never as a destructive schema down-migration.
 
 ## Priority risks
 
-- No application migration test suite despite 46 schema versions.
-- Raw restore can overwrite the active database before comprehensive validation.
 - Serialized relationship lists make integrity enforcement and cloud evolution difficult.
 - Timestamp-based multi-device merging is vulnerable to clock skew and conflict ambiguity.
-- Broad try/catch migration behavior may hide partial or inconsistent upgrades.
+- Historical broad try/catch callbacks still log intermediate failures; v47 canonicalizes tested paths, but additional real-world fixture sampling is warranted.
 - Financial data and raw backups lack application-level encryption.
 - Large, centralized database code increases regression surface.
+- Android/iOS filesystem, lifecycle, restart, low-storage, and restore behavior remains unverified on devices.
+- Web recovery is not atomic across browser/process crashes and lacks browser failure-injection tests.
 
-Schema changes should remain frozen until the fixture/migration harness exists and mobile backup/restore drills have passed.
+The migration/restore harness now exists and is green. Future schema work must extend it. Mobile backup/restore drills, foreign-key cleanup policy, encrypted/checksummed backup packaging, and security/privacy review remain mandatory before production release.

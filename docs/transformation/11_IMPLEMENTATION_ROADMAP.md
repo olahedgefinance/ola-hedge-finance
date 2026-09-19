@@ -16,20 +16,20 @@ This roadmap preserves Cashew as the technical baseline and places irreversible 
 
 **Exit gate:** Dependencies resolve from lockfile; agreed analysis baseline and tests are green; web, Android, and iOS build/run evidence exists; repository is tagged. No redesign.
 
-### Phase 0B status — blocked on data safety
+### Phase 0C status — data-safety gates met
 
-The reproducible toolchain, release web build, first-party no-error analyzer baseline, and 26 non-migration tests are now established. Phase 0 is not complete: four historical migration fixtures fail, production restore is not validate-first/atomic, foreign-key enforcement is disabled, and Android/iOS remain unverified.
+The forward-only v47 repair now makes supported v33/v36/v39/v41/v45/v46 fixtures converge on the canonical current schema while preserving the asserted financial data. Production restore validates and migrates a temporary copy, native activation has retained safety/rollback files, web activation has a previous-byte snapshot, and the full 43-test suite plus release web build/runtime smoke are green. See `13_DATA_SAFETY_REMEDIATION.md`.
 
-Complete these remediation gates before Phase 1:
+The current verdict is **PASS — PHASE 0C DATA-SAFETY GATES MET; MOBILE RELEASE READINESS REMAINS UNVERIFIED**. Phase 1 planning may begin only after explicit approval. Keep these release gates visible:
 
-1. Approve a forward-only migration repair design (expected as a new schema version, not edits to historical shipped migrations).
-2. Freeze representative data-bearing upgrade fixtures and require every supported historical version to converge on the current schema without financial-data loss.
-3. Add backup preflight, supported-version checks, integrity/foreign-key validation, an atomic replacement strategy, and failure recovery.
-4. Audit existing dangling references, define cleanup semantics, and decide when foreign-key enforcement can safely be enabled.
-5. Return the complete test suite to green and repeat release web verification.
-6. Complete the Android and iOS checklists in `12_BASELINE_HARDENING.md` on provisioned hosts.
+1. Execute Android debug/release and device restore drills on a provisioned Android host.
+2. Execute iOS simulator/device builds and restore drills on macOS/Xcode.
+3. Measure existing dangling references and approve non-destructive cleanup/cascade semantics before enabling foreign keys.
+4. Design and security-review an encrypted, checksummed, versioned backup envelope and recovery UX.
+5. Add browser failure-injection coverage for IndexedDB/local-storage replacement and recovery.
+6. Reduce strict analyzer debt incrementally without mixing it into infrastructure or identity changes.
 
-Infrastructure separation must not begin merely because the web artifact builds; the database and restore gates protect user financial history.
+Phase 1 must preserve the v47 data contract, migration fixtures, compatibility identifiers, and restore safety while separating infrastructure. It must not combine Firebase/account separation with rebranding or redesign.
 
 ## Phase 1 — Infrastructure separation
 

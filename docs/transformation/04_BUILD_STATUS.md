@@ -116,3 +116,38 @@ Detailed evidence is recorded in `12_BASELINE_HARDENING.md`.
 Phase 0B found and fixed one bounded financial defect: goal objective totals used the loan foreign key. It also established that v33, v36, v39, and v41 historical upgrade paths do not currently converge safely on the v46 schema. Production backup restore performs replacement before sufficient validation, and SQLite foreign-key enforcement is disabled.
 
 The current verdict is **FAIL — BASELINE NOT READY**. Infrastructure separation and brand work should remain gated behind a reviewed forward migration repair, green migration fixtures, validate-first atomic restore, a foreign-key policy, and native mobile verification.
+
+## Phase 0C data-safety remediation — 2026-09-18
+
+Phase 0C supersedes the Phase 0B migration/restore blocker status. Full detail is in `13_DATA_SAFETY_REMEDIATION.md`.
+
+| Check | Result | Interpretation |
+|---|---|---|
+| Locked offline dependency resolution | PASS | Flutter 3.19.6/Dart 3.3.4 and the committed lockfile remain reproducible; no dependency version changed |
+| Supported migration fixtures | PASS — 7/7 | v33, v36, v39, v41, v45, and v46 converge on canonical v47; a fresh v47 schema also matches |
+| Focused data-safety tests | PASS — 20/20 | Seven schema cases, two relationship-audit cases, and eleven restore/failure cases |
+| Full test suite | PASS — 43/43 | No failing application test remains |
+| Agreed analyzer baseline | PASS | `--no-fatal-infos --no-fatal-warnings`; zero errors |
+| Strict full analysis | FAIL | 0 errors, 132 warnings, 5,121 information findings (5,253 total); historical debt remains |
+| Release web build | PASS | CanvasKit release artifact generated from the Phase 0C tree |
+| Web-server runtime smoke | PASS | HTTP 200; generated page contains the expected `OLA Edge Finance` title |
+| Android | NOT RUN | No Java/JDK, Android SDK, ADB, emulator, or device is installed/connected |
+| iOS | NOT RUN | Windows host; Xcode/CocoaPods unavailable |
+
+### Build commands and environment notes
+
+The release build command was:
+
+```text
+flutter build web --release --web-renderer canvaskit --no-tree-shake-icons --no-pub
+```
+
+The runtime command was `flutter run -d web-server --release --no-pub` on loopback. `flutter devices` found Windows and Chrome only. Direct `flutter doctor -v` was blocked by the managed workspace denying Flutter's broad `C:\Users\Oluwa\*` IDE-discovery listing; explicit command discovery independently confirmed `java`, `javac`, `adb`, `sdkmanager`, `emulator`, `xcodebuild`, and `pod` are unavailable. This prevents native verification but is not itself evidence of a source-code failure.
+
+`sqlite3 2.4.3` moved from `dev_dependencies` to direct `dependencies` because production native restore now uses its raw inspection API. The locked version did not change. Pub reported ten newer incompatible versions, which were intentionally ignored.
+
+### Current baseline conclusion
+
+**PASS — PHASE 0C DATA-SAFETY GATES MET; MOBILE RELEASE READINESS REMAINS UNVERIFIED.**
+
+Historical data-bearing fixtures now converge through a forward-only v47 repair, production restore is validate-first with native rollback/safety copies and web previous-byte recovery, and the complete suite is green. Phase 1 planning can proceed when explicitly approved. Android/iOS build-and-device evidence, browser interruption tests, foreign-key cleanup/enforcement, strict lint reduction, encrypted/checksummed backup packaging, and security/privacy review remain release gates.
