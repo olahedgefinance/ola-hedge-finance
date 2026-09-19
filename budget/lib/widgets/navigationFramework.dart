@@ -1,5 +1,6 @@
 import 'package:animations/animations.dart';
 import 'package:budget/colors.dart';
+import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/database/initializeDefaultDatabase.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
@@ -308,20 +309,25 @@ Future<bool> runAllCloudFunctions(BuildContext context,
   runningCloudFunctions = true;
   errorSigningInDuringCloud = false;
   try {
-    loadingIndeterminateKey.currentState?.setVisibility(true);
-    await runForceSignIn(context);
-    await syncData(context);
-    if (appStateSettings["emailScanningPullToRefresh"] ||
-        entireAppLoaded == false) {
+    if (appInfrastructure.canUseGoogleAccount) {
       loadingIndeterminateKey.currentState?.setVisibility(true);
-      await parseEmailsInBackground(context, forceParse: true);
+      await runForceSignIn(context);
+      await syncData(context);
+      if (appStateSettings["emailScanningPullToRefresh"] ||
+          entireAppLoaded == false) {
+        loadingIndeterminateKey.currentState?.setVisibility(true);
+        await parseEmailsInBackground(context, forceParse: true);
+      }
+      loadingIndeterminateKey.currentState?.setVisibility(true);
+      await createBackupInBackground(context);
     }
-    loadingIndeterminateKey.currentState?.setVisibility(true);
-    await syncPendingQueueOnServer(); //sync before download
-    loadingIndeterminateKey.currentState?.setVisibility(true);
-    await getCloudBudgets();
-    loadingIndeterminateKey.currentState?.setVisibility(true);
-    await createBackupInBackground(context);
+    if (appInfrastructure.canUseGoogleAccount &&
+        appInfrastructure.canInitializeFirebase) {
+      loadingIndeterminateKey.currentState?.setVisibility(true);
+      await syncPendingQueueOnServer(); //sync before download
+      loadingIndeterminateKey.currentState?.setVisibility(true);
+      await getCloudBudgets();
+    }
     loadingIndeterminateKey.currentState?.setVisibility(true);
     await getExchangeRates();
   } catch (e) {
