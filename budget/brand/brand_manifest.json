@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "brandKey": "ola-edge-finance",
-  "productName": "OLA Edge Finance",
-  "shortName": "OLA Edge Finance",
+  "brandKey": "ola-hedge-finance",
+  "productName": "ÓLA HEDGE FINANCE",
+  "shortName": "ÓLA HEDGE FINANCE",
   "description": "A budget and financial tracking application designed for you",
   "license": {
     "spdx": "GPL-3.0-or-later",
@@ -10,11 +10,7 @@
     "upstreamRepository": "https://github.com/jameskokoska/Cashew"
   },
   "preservedCompatibility": [
-    "application-identifiers",
-    "firebase-and-oauth",
-    "deep-links",
-    "in-app-purchases",
-    "drive-backup-identity",
+    "application-identifiers-pending-owner-approval",
     "database-and-migrations",
     "historical-backup-wording",
     "source-and-license-references"

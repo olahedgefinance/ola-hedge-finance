@@ -1178,6 +1178,7 @@ String cleanupNoteStringWithURLs(String text) {
 }
 
 Future<bool> openUrl(String link) async {
+  if (link.trim().isEmpty) return false;
   if (await canLaunchUrl(Uri.parse(link)))
     return await launchUrl(
       Uri.parse(link),

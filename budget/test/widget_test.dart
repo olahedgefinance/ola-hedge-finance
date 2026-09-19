@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  testWidgets('OLA Edge Finance identity renders in a Flutter shell',
+  testWidgets('ÓLA HEDGE FINANCE identity renders in a Flutter shell',
       (WidgetTester tester) async {
     await tester.pumpWidget(
       MaterialApp(

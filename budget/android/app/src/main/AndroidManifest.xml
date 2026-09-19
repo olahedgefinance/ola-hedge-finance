@@ -30,7 +30,7 @@
   </queries>
     <application
         android:requestLegacyExternalStorage="true"
-        android:label="OLA Edge Finance"
+        android:label="ÓLA HEDGE FINANCE"
         android:icon="@mipmap/ic_launcher">
         <!-- Use the new rendering engine Impeller (experimental) -->
         <!-- <meta-data
@@ -44,14 +44,6 @@
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">
-
-            <intent-filter android:autoVerify="true">
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="https" android:host="cashewapp.web.app" android:pathPrefix="/addTransaction"/>
-                <data android:scheme="https" android:host="cashewapp.web.app" android:pathPrefix="/addTransactionRoute"/>
-            </intent-filter>
 
             <!-- Specifies an Android theme to apply to this Activity as soon as
                  the Android process has started. This theme is visible to the user

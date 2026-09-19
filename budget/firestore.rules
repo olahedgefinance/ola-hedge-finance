@@ -1,0 +1,59 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function verifiedEmail() {
+      return signedIn() && request.auth.token.email is string
+        ? request.auth.token.email
+        : '';
+    }
+
+    function canReadBudget(data) {
+      return signedIn() && (
+        data.owner == request.auth.uid ||
+        (data.members is list && verifiedEmail() in data.members)
+      );
+    }
+
+    function ownsBudget(data) {
+      return signedIn() && data.owner == request.auth.uid;
+    }
+
+    match /budgets/{budgetId} {
+      allow get, list: if canReadBudget(resource.data);
+      allow create: if signedIn()
+        && request.resource.data.owner == request.auth.uid
+        && request.resource.data.ownerEmail == verifiedEmail()
+        && request.resource.data.members is list
+        && verifiedEmail() in request.resource.data.members;
+      allow update: if canReadBudget(resource.data)
+        && (
+          ownsBudget(resource.data) ||
+          !request.resource.data.diff(resource.data).affectedKeys()
+            .hasAny(['owner', 'ownerEmail', 'members'])
+        );
+      allow delete: if ownsBudget(resource.data);
+
+      match /transactions/{transactionId} {
+        function parentBudget() {
+          return get(/databases/$(database)/documents/budgets/$(budgetId)).data;
+        }
+
+        allow read, create, update, delete: if canReadBudget(parentBudget());
+      }
+    }
+
+    match /feedback/{feedbackId} {
+      allow create: if signedIn();
+      allow read, update, delete: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

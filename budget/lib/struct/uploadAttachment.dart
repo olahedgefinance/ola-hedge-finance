@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/struct/settings.dart';
 import 'package:budget/widgets/accountAndBackup.dart';
 import 'package:budget/widgets/globalSnackbar.dart';
@@ -117,7 +118,10 @@ Future<String?> uploadFileToDrive({
   final authenticateClient = GoogleAuthClient(authHeaders);
   final driveApi = drive.DriveApi(authenticateClient);
 
-  String folderName = "Cashew";
+  final folderName = appInfrastructure.googleDriveFolder;
+  if (folderName.isEmpty) {
+    throw StateError('Google Drive attachment storage is not configured.');
+  }
   drive.FileList list = await driveApi.files.list(
       q: "mimeType='application/vnd.google-apps.folder' and name='$folderName'");
   String? folderId;

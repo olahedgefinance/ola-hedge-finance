@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "development": "OWNER_APPROVED_DEVELOPMENT_PROJECT_ID",
+    "staging": "OWNER_APPROVED_STAGING_PROJECT_ID"
+  }
+}

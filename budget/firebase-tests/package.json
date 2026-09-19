@@ -1,0 +1,13 @@
+{
+  "name": "ola-hedge-finance-firestore-rules-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "firebase emulators:exec --project ola-hedge-finance-rules-test --only firestore \"node --test firestore.rules.test.mjs\""
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "3.0.4",
+    "firebase": "10.12.4",
+    "firebase-tools": "13.13.3"
+  }
+}

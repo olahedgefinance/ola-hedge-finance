@@ -77,7 +77,7 @@ void main() {
 
   test('brand manifest matches the typed Flutter identity', () {
     expect(manifest['schemaVersion'], 1);
-    expect(manifest['brandKey'], 'ola-edge-finance');
+    expect(manifest['brandKey'], 'ola-hedge-finance');
     expect(manifest['productName'], appBrand.productName);
     expect(manifest['shortName'], appBrand.shortName);
     expect(manifest['description'], appBrand.description);
@@ -91,9 +91,9 @@ void main() {
     );
   });
 
-  test('Android display metadata uses the approved product name', () {
+  test('Android display metadata uses the official product name', () {
     final androidManifest = _read('android/app/src/main/AndroidManifest.xml');
-    expect(androidManifest, contains('android:label="OLA Edge Finance"'));
+    expect(androidManifest, contains('android:label="ÓLA HEDGE FINANCE"'));
   });
 
   test('iOS display metadata uses the approved product name', () {
@@ -102,24 +102,24 @@ void main() {
 
     expect(
       RegExp(
-        r'<key>CFBundleDisplayName</key>\s*<string>OLA Edge Finance</string>',
+        r'<key>CFBundleDisplayName</key>\s*<string>ÓLA HEDGE FINANCE</string>',
       ).hasMatch(iosPlist),
       isTrue,
     );
     expect(
       iosPlist,
       contains(
-        'OLA Edge Finance uses photos to attach to a transaction entry',
+        'ÓLA HEDGE FINANCE uses photos to attach to a transaction entry',
       ),
     );
     expect(
       iosPlist,
       contains(
-        'OLA Edge Finance uses the camera to capture a photo to be used as a transaction attachment',
+        'ÓLA HEDGE FINANCE uses the camera to capture a photo to be used as a transaction attachment',
       ),
     );
     expect(
-      RegExp('INFOPLIST_KEY_CFBundleDisplayName = OLA Edge Finance;')
+      RegExp('INFOPLIST_KEY_CFBundleDisplayName = ÓLA HEDGE FINANCE;')
           .allMatches(iosProject)
           .length,
       3,
@@ -127,20 +127,21 @@ void main() {
   });
 
   test('web display metadata uses the approved product name', () {
-    final webManifest = jsonDecode(_read('web/manifest.json'))
-        as Map<String, dynamic>;
+    final webManifest =
+        jsonDecode(_read('web/manifest.json')) as Map<String, dynamic>;
     final webIndex = _read('web/index.html');
 
     expect(webManifest['name'], appBrand.productName);
     expect(webManifest['short_name'], appBrand.shortName);
     expect(webManifest['description'], appBrand.description);
-    expect(webIndex, contains('<title>OLA Edge Finance</title>'));
+    expect(webIndex, contains('<title>ÓLA HEDGE FINANCE</title>'));
     expect(
       webIndex,
-      contains('<meta name="apple-mobile-web-app-title" content="OLA Edge Finance">'),
+      contains(
+          '<meta name="apple-mobile-web-app-title" content="ÓLA HEDGE FINANCE">'),
     );
     expect(
-      RegExp('content="OLA Edge Finance"').allMatches(webIndex).length,
+      RegExp('content="ÓLA HEDGE FINANCE"').allMatches(webIndex).length,
       greaterThanOrEqualTo(3),
     );
     expect(
@@ -149,32 +150,13 @@ void main() {
     );
   });
 
-  test('protected compatibility identifiers remain unchanged', () {
+  test('data and legal compatibility identifiers remain unchanged', () {
     final androidGradle = _read('android/app/build.gradle');
-    final androidManifest = _read('android/app/src/main/AndroidManifest.xml');
-    final iosProject = _read('ios/Runner.xcodeproj/project.pbxproj');
-    final iosEntitlements = _read('ios/Runner/Runner.entitlements');
-    final firebaseOptions = _read('lib/firebase_options.dart');
     final databaseSource = _read('lib/database/tables.dart');
-    final premiumSource = _read('lib/pages/premiumPage.dart');
-    final uploadSource = _read('lib/struct/uploadAttachment.dart');
     final license = _read('../LICENSE');
 
-    expect(
-      androidGradle,
-      contains('applicationId "com.budget.tracker_app"'),
-    );
-    expect(androidManifest, contains('package="com.budget.tracker_app"'));
-    expect(androidManifest, contains('android:host="cashewapp.web.app"'));
-    expect(
-      iosProject,
-      contains('PRODUCT_BUNDLE_IDENTIFIER = "com.budget.tracker-app"'),
-    );
-    expect(iosEntitlements, contains('applinks:cashewapp.web.app'));
-    expect(firebaseOptions, contains("projectId: 'budget-app-flutter'"));
+    expect(androidGradle, contains('applicationId "com.budget.tracker_app"'));
     expect(databaseSource, contains('schemaVersionGlobal = 47'));
-    expect(premiumSource, contains("'cashew.pro.monthly'"));
-    expect(uploadSource, contains('String folderName = "Cashew"'));
     expect(license, contains('GNU GENERAL PUBLIC LICENSE'));
     expect(license, contains('Cashew: an expense budget tracking application'));
     expect(

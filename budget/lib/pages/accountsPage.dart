@@ -1,4 +1,5 @@
 import 'package:budget/colors.dart';
+import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/functions.dart';
 import 'package:budget/main.dart';
 import 'package:budget/pages/addTransactionPage.dart';
@@ -350,8 +351,7 @@ class AccountsPageState extends State<AccountsPage> {
                               child: Tappable(
                                 borderRadius: 15,
                                 onTap: () {
-                                  openUrl(
-                                      "https://cashewapp.web.app/policy.html");
+                                  openUrl(appInfrastructure.privacyUrl);
                                 },
                                 child: Padding(
                                   padding:

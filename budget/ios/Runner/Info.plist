@@ -9,9 +9,9 @@
   <key>NSFaceIDUsageDescription</key>
   <string>Lock the application</string>
   <key>NSPhotoLibraryUsageDescription</key>
-  <string>OLA Edge Finance uses photos to attach to a transaction entry</string>
+  <string>ÓLA HEDGE FINANCE uses photos to attach to a transaction entry</string>
   <key>NSCameraUsageDescription</key>
-  <string>OLA Edge Finance uses the camera to capture a photo to be used as a transaction attachment</string>
+  <string>ÓLA HEDGE FINANCE uses the camera to capture a photo to be used as a transaction attachment</string>
   <key>ITSAppUsesNonExemptEncryption</key>
   <false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
@@ -19,7 +19,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>OLA Edge Finance</string>
+	<string>ÓLA HEDGE FINANCE</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -59,17 +59,6 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-  <key>CFBundleURLTypes</key>
-  <array>
-    <dict>
-      <key>CFBundleTypeRole</key>
-      <string>Editor</string>
-      <key>CFBundleURLSchemes</key>
-      <array>
-        <string>com.googleusercontent.apps.267621253497-ih94g1srq37gun4mdmvadgl3ev588vpf</string>
-      </array>
-    </dict>
-  </array>
   <key>CFBundleLocalizations</key>
   <array>
     <string>en</string>

@@ -11,7 +11,7 @@ class BrandIdentity {
 }
 
 const BrandIdentity appBrand = BrandIdentity(
-  productName: 'OLA Edge Finance',
-  shortName: 'OLA Edge Finance',
+  productName: 'ÓLA HEDGE FINANCE',
+  shortName: 'ÓLA HEDGE FINANCE',
   description: 'A budget and financial tracking application designed for you',
 );

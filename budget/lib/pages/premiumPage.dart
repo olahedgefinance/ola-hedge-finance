@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:budget/colors.dart';
+import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
 import 'package:budget/struct/databaseGlobal.dart';
@@ -26,20 +27,15 @@ import 'package:sa3_liquid/sa3_liquid.dart';
 import 'package:budget/widgets/openContainerNavigation.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 
-bool premiumPopupEnabled = kIsWeb == false;
-bool tryStoreEnabled = kIsWeb == false && kDebugMode == false;
+bool premiumPopupEnabled = kIsWeb == false && appInfrastructure.canUseStore;
+bool tryStoreEnabled =
+    kIsWeb == false && kDebugMode == false && appInfrastructure.canUseStore;
 StreamSubscription<List<PurchaseDetails>>? purchaseListener;
 Map<String, ProductDetails> storeProducts = {};
 Map<String, String> productIDs = {
-  'yearly': getPlatform(ignoreEmulation: true) == PlatformOS.isIOS
-      ? 'cashew.pro.yearly' //iOS
-      : 'cashew.pro.yearly', //Android
-  'monthly': getPlatform(ignoreEmulation: true) == PlatformOS.isIOS
-      ? 'cashew.pro.monthly' //iOS
-      : 'cashew.pro.monthly', //Android
-  'lifetime': getPlatform(ignoreEmulation: true) == PlatformOS.isIOS
-      ? 'cashew.pro.life' //iOS
-      : 'cashew.pro.lifetime', //Android
+  'yearly': appInfrastructure.storeYearlyId,
+  'monthly': appInfrastructure.storeMonthlyId,
+  'lifetime': appInfrastructure.storeLifetimeId,
 };
 
 // A user has paid is appStateSettings["purchaseID"] is not null
@@ -481,12 +477,6 @@ openManagePurchase() {
     return;
   } else if (getPlatform(ignoreEmulation: true) == PlatformOS.isIOS) {
     openUrl("https://apps.apple.com/account/subscriptions");
-  } else if (appStateSettings["purchaseID"] == productIDs["monthly"]) {
-    openUrl(
-        "https://play.google.com/store/account/subscriptions?sku=cashew.pro.monthly&package=com.budget.tracker_app");
-  } else if (appStateSettings["purchaseID"] == productIDs["yearly"]) {
-    openUrl(
-        "https://play.google.com/store/account/subscriptions?sku=cashew.pro.yearly&package=com.budget.tracker_app");
   } else {
     if (getPlatform(ignoreEmulation: true) == PlatformOS.isAndroid)
       openUrl("https://play.google.com/store/account/subscriptions");
@@ -705,11 +695,16 @@ showHelpRestorePopup(BuildContext context) {
     onCancelLabel: "close".tr(),
     onSubmitLabel: "contact".tr(),
     onSubmit: () async {
-      bool openResult = await openUrl('mailto:dapperappdeveloper@gmail.com');
-      if (openResult == false) copyToClipboard("dapperappdeveloper@gmail.com");
+      bool openResult = await openUrl(appInfrastructure.supportEmail.isEmpty
+          ? ''
+          : 'mailto:${appInfrastructure.supportEmail}');
+      if (openResult == false) {
+        copyToClipboard(appInfrastructure.supportEmail);
+      }
     },
-    onExtra: () =>
-        openUrl("https://cashewapp.web.app/faq.html#restoring-purchases"),
+    onExtra: () => openUrl(appInfrastructure.supportUrl.isEmpty
+        ? ''
+        : '${appInfrastructure.supportUrl}#restoring-purchases'),
     onExtraLabel: "FAQ".tr(),
   );
 }
@@ -1423,7 +1418,7 @@ class PremiumBanner extends StatelessWidget {
             borderRadius: borderRadius,
             onTap: () {
               if (kIsWeb)
-                openUrl("https://ko-fi.com/dapperappdeveloper");
+                openUrl(appInfrastructure.donationUrl);
               else
                 openContainer();
             },

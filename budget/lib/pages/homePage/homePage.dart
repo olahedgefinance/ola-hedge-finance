@@ -1,4 +1,5 @@
 import 'package:budget/colors.dart';
+import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/database/generatePreviewData.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
@@ -451,9 +452,14 @@ class _HomePageRatingBoxState extends State<HomePageRatingBox> {
       hidden = true;
     });
     updateSettings("openedStoreRating", true, updateGlobalState: true);
-    inAppReview.openStoreListing(
-      appStoreId: "6463662930",
-    );
+    if (getPlatform(ignoreEmulation: true) != PlatformOS.isIOS ||
+        appInfrastructure.iosAppStoreId.isNotEmpty) {
+      inAppReview.openStoreListing(
+        appStoreId: appInfrastructure.iosAppStoreId.isEmpty
+            ? null
+            : appInfrastructure.iosAppStoreId,
+      );
+    }
   }
 
   @override

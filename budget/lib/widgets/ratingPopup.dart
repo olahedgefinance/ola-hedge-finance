@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/functions.dart';
 import 'package:budget/pages/addTransactionPage.dart';
 import 'package:budget/struct/firebaseAuthGlobal.dart';
@@ -124,7 +125,7 @@ class _RatingPopupState extends State<RatingPopup> {
                         ? Icons.open_in_new_outlined
                         : Icons.open_in_new_rounded,
                     onTap: () async {
-                      openUrl("https://cashewapp.web.app/faq.html");
+                      openUrl(appInfrastructure.supportUrl);
                     },
                   ),
               ],

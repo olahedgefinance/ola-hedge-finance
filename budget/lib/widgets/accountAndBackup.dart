@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:budget/colors.dart';
+import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/database/generatePreviewData.dart';
 import 'package:budget/database/tables.dart';
-import 'package:budget/firebase_options.dart';
 import 'package:budget/functions.dart';
 import 'package:budget/main.dart';
 import 'package:budget/pages/aboutPage.dart';
@@ -80,6 +80,7 @@ Future<bool> signInGoogle(
     bool? drivePermissionsAttachments,
     bool? silentSignIn,
     Function()? next}) async {
+  if (!appInfrastructure.canUseGoogleAccount) return false;
   // bool isConnected = false;
   if (await checkLockedFeatureIfInDemoMode(context) == false) return false;
   if (appStateSettings["emailScanning"] == false) gMailPermissions = false;
@@ -129,11 +130,15 @@ Future<bool> signInGoogle(
               ]
             : [])
       ];
-      googleSignIn = getPlatform() == PlatformOS.isIOS
-          ? signIn.GoogleSignIn(
-              clientId: DefaultFirebaseOptions.currentPlatform.iosClientId,
-              scopes: scopes)
-          : signIn.GoogleSignIn.standard(scopes: scopes);
+      final clientId = kIsWeb
+          ? appInfrastructure.googleWebClientId
+          : getPlatform() == PlatformOS.isIOS
+              ? appInfrastructure.googleIosClientId
+              : null;
+      googleSignIn = signIn.GoogleSignIn(
+        clientId: clientId?.isEmpty == true ? null : clientId,
+        scopes: scopes,
+      );
       // googleSignIn?.currentUser?.clearAuthCache();
 
       final signIn.GoogleSignInAccount? account = silentSignIn == true
@@ -859,7 +864,7 @@ class _BackupManagementState extends State<BackupManagement> {
                     Expanded(
                       child: AboutInfoBox(
                         title: "web-app".tr(),
-                        link: "https://budget-track.web.app/",
+                        link: appInfrastructure.supportUrl,
                         color: appStateSettings["materialYou"]
                             ? Theme.of(context).colorScheme.secondaryContainer
                             : getColor(context, "lightDarkAccentHeavyLight"),

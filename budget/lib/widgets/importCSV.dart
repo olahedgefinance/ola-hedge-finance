@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:budget/config/infrastructure_config.dart';
 
 import 'package:budget/colors.dart';
 import 'package:budget/database/tables.dart';
@@ -241,8 +242,9 @@ class _ImportCSVState extends State<ImportCSV> {
                   iconData: appStateSettings["outlinedIcons"]
                       ? Icons.live_help_outlined
                       : Icons.live_help_rounded,
-                  onPressed: () => openUrl(
-                      "https://cashewapp.web.app/faq.html#import-csv-data"),
+                  onPressed: () => openUrl(appInfrastructure.supportUrl.isEmpty
+                      ? ''
+                      : '${appInfrastructure.supportUrl}#import-csv-data'),
                 )
               : null,
           title: "assign-columns".tr(),

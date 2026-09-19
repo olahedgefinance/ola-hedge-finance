@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/functions.dart';
 import 'package:budget/main.dart';
 import 'package:budget/pages/accountsPage.dart';
@@ -113,10 +114,12 @@ class AboutPageState extends State<AboutPage> {
             const EdgeInsetsDirectional.symmetric(horizontal: 15, vertical: 5),
         child: Tappable(
           onTap: () {
-            openUrl('mailto:dapperappdeveloper@gmail.com');
+            openUrl(appInfrastructure.supportEmail.isEmpty
+                ? ''
+                : 'mailto:${appInfrastructure.supportEmail}');
           },
           onLongPress: () {
-            copyToClipboard("dapperappdeveloper@gmail.com");
+            copyToClipboard(appInfrastructure.supportEmail);
           },
           color: containerColor,
           borderRadius: getPlatform() == PlatformOS.isIOS ? 10 : 15,
@@ -141,7 +144,7 @@ class AboutPageState extends State<AboutPage> {
                   maxLines: 5,
                 ),
                 TextFont(
-                  text: "dapperappdeveloper@gmail.com",
+                  text: appInfrastructure.supportEmail,
                   fontSize: 16,
                   textAlign: TextAlign.center,
                   maxLines: 5,
@@ -863,7 +866,7 @@ class AboutLinks extends StatelessWidget {
             _buildTappable(
               context: context,
               isExternalLink: true,
-              onTap: () => openUrl("https://cashewapp.web.app/faq.html"),
+              onTap: () => openUrl(appInfrastructure.supportUrl),
               icon: appStateSettings["outlinedIcons"]
                   ? Icons.live_help_outlined
                   : Icons.live_help_rounded,
@@ -904,7 +907,7 @@ class AboutLinks extends StatelessWidget {
             _buildTappable(
               context: context,
               isExternalLink: true,
-              onTap: () => openUrl("http://cashewapp.web.app/policy.html"),
+              onTap: () => openUrl(appInfrastructure.privacyUrl),
               icon: appStateSettings["outlinedIcons"]
                   ? Icons.policy_outlined
                   : Icons.policy_rounded,

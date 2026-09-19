@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
 import 'package:budget/main.dart';
@@ -348,10 +349,12 @@ class TranslationsHelp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Tappable(
       onTap: () {
-        openUrl('mailto:dapperappdeveloper@gmail.com');
+        openUrl(appInfrastructure.supportEmail.isEmpty
+            ? ''
+            : 'mailto:${appInfrastructure.supportEmail}');
       },
       onLongPress: () {
-        copyToClipboard("dapperappdeveloper@gmail.com");
+        copyToClipboard(appInfrastructure.supportEmail);
       },
       color: backgroundColor ??
           Theme.of(context).colorScheme.secondaryContainer.withOpacity(0.7),
@@ -388,7 +391,7 @@ class TranslationsHelp extends StatelessWidget {
                     ),
                   ),
                   TextSpan(
-                    text: 'dapperappdeveloper@gmail.com',
+                    text: appInfrastructure.supportEmail,
                     style: TextStyle(
                       decoration: TextDecoration.underline,
                       decorationStyle: TextDecorationStyle.solid,
