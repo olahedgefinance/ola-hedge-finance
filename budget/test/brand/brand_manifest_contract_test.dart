@@ -82,6 +82,34 @@ void main() {
     expect(manifest['shortName'], appBrand.shortName);
     expect(manifest['description'], appBrand.description);
 
+    final identity = manifest['identity'] as Map<String, dynamic>;
+    expect(identity['android'], <String, dynamic>{
+      'development': 'com.olahedgefinance.app.dev',
+      'staging': 'com.olahedgefinance.app.staging',
+      'production': 'com.olahedgefinance.app',
+    });
+    expect(identity['ios'], <String, dynamic>{
+      'development': 'com.olahedgefinance.app.dev',
+      'staging': 'com.olahedgefinance.app.staging',
+      'production': 'com.olahedgefinance.app',
+    });
+    expect(identity['web'], <String, dynamic>{
+      'slug': 'ola-hedge-finance',
+      'intendedDomain': 'olahedgefinance.com',
+      'domainConfigured': false,
+    });
+
+    final infrastructure =
+        manifest['infrastructure'] as Map<String, dynamic>;
+    final firebase =
+        infrastructure['firebase'] as Map<String, dynamic>;
+    expect(firebase['development'], <String, dynamic>{
+      'configured': true,
+      'projectId': 'ola-hedge-finance-dev',
+    });
+    expect(firebase['staging'], <String, dynamic>{'configured': false});
+    expect(firebase['production'], <String, dynamic>{'configured': false});
+
     final license = manifest['license'] as Map<String, dynamic>;
     expect(license['spdx'], 'GPL-3.0-or-later');
     expect(license['upstreamProduct'], 'Cashew');
@@ -134,6 +162,7 @@ void main() {
     expect(webManifest['name'], appBrand.productName);
     expect(webManifest['short_name'], appBrand.shortName);
     expect(webManifest['description'], appBrand.description);
+    expect(webManifest, isNot(contains('id')));
     expect(webIndex, contains('<title>ÓLA HEDGE FINANCE</title>'));
     expect(
       webIndex,

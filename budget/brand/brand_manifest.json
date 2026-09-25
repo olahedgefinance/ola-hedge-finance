@@ -2,15 +2,45 @@
   "schemaVersion": 1,
   "brandKey": "ola-hedge-finance",
   "productName": "ÓLA HEDGE FINANCE",
-  "shortName": "ÓLA HEDGE FINANCE",
+  "shortName": "ÓLA HEDGE",
   "description": "A budget and financial tracking application designed for you",
+  "identity": {
+    "android": {
+      "development": "com.olahedgefinance.app.dev",
+      "staging": "com.olahedgefinance.app.staging",
+      "production": "com.olahedgefinance.app"
+    },
+    "ios": {
+      "development": "com.olahedgefinance.app.dev",
+      "staging": "com.olahedgefinance.app.staging",
+      "production": "com.olahedgefinance.app"
+    },
+    "web": {
+      "slug": "ola-hedge-finance",
+      "intendedDomain": "olahedgefinance.com",
+      "domainConfigured": false
+    }
+  },
+  "infrastructure": {
+    "firebase": {
+      "development": {
+        "configured": true,
+        "projectId": "ola-hedge-finance-dev"
+      },
+      "staging": {
+        "configured": false
+      },
+      "production": {
+        "configured": false
+      }
+    }
+  },
   "license": {
     "spdx": "GPL-3.0-or-later",
     "upstreamProduct": "Cashew",
     "upstreamRepository": "https://github.com/jameskokoska/Cashew"
   },
   "preservedCompatibility": [
-    "application-identifiers-pending-owner-approval",
     "database-and-migrations",
     "historical-backup-wording",
     "source-and-license-references"
