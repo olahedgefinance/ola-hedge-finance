@@ -119,4 +119,117 @@ void main() {
       expect(gradle, isNot(contains('com.budget.tracker_app')));
     });
   });
+
+  group('iOS application identity', () {
+    final project = _read('ios/Runner.xcodeproj/project.pbxproj');
+    final podfile = _read('ios/Podfile');
+    final infoPlist = _read('ios/Runner/Info.plist');
+    final entitlements = _read('ios/Runner/Runner.entitlements');
+
+    const environments = <String, String>{
+      'development': 'com.olahedgefinance.app.dev',
+      'staging': 'com.olahedgefinance.app.staging',
+      'production': 'com.olahedgefinance.app',
+    };
+
+    test('defines all environment build configurations and bundle IDs', () {
+      for (final entry in environments.entries) {
+        for (final mode in <String>['Debug', 'Profile', 'Release']) {
+          final configuration = '$mode-${entry.key}';
+          expect(
+            RegExp('name = ${RegExp.escape(configuration)};')
+                .allMatches(project)
+                .length,
+            3,
+            reason: configuration,
+          );
+        }
+        expect(
+          RegExp(
+            'PRODUCT_BUNDLE_IDENTIFIER = "?${RegExp.escape(entry.value)}"?;',
+          ).allMatches(project).length,
+          3,
+          reason: '${entry.key} Runner bundle ID',
+        );
+        expect(
+          RegExp(
+            'PRODUCT_BUNDLE_IDENTIFIER = "?${RegExp.escape(entry.value)}\\.RunnerTests"?;',
+          ).allMatches(project).length,
+          3,
+          reason: '${entry.key} RunnerTests bundle ID',
+        );
+      }
+
+      expect(project, isNot(contains('com.budget.tracker-app')));
+      expect(project, isNot(contains('com.budget.budget.RunnerTests')));
+      expect(project, isNot(contains('HCL9V2D3XY')));
+      expect(project, isNot(contains('DEVELOPMENT_TEAM =')));
+    });
+
+    test('maps CocoaPods to every custom build configuration', () {
+      for (final environment in environments.keys) {
+        expect(podfile, contains("'Debug-$environment' => :debug"));
+        expect(podfile, contains("'Profile-$environment' => :release"));
+        expect(podfile, contains("'Release-$environment' => :release"));
+      }
+    });
+
+    test('maps each shared scheme to its environment configurations', () {
+      for (final environment in environments.keys) {
+        final path =
+            'ios/Runner.xcodeproj/xcshareddata/xcschemes/$environment.xcscheme';
+        expect(File(path).existsSync(), isTrue, reason: path);
+        if (!File(path).existsSync()) continue;
+
+        final scheme = _read(path);
+        expect(
+          RegExp(
+            'TestAction\\s+buildConfiguration = "Debug-$environment"',
+          ).hasMatch(scheme),
+          isTrue,
+        );
+        expect(
+          RegExp(
+            'LaunchAction\\s+buildConfiguration = "Debug-$environment"',
+          ).hasMatch(scheme),
+          isTrue,
+        );
+        expect(
+          RegExp(
+            'ProfileAction\\s+buildConfiguration = "Profile-$environment"',
+          ).hasMatch(scheme),
+          isTrue,
+        );
+        expect(
+          RegExp(
+            'AnalyzeAction\\s+buildConfiguration = "Debug-$environment"',
+          ).hasMatch(scheme),
+          isTrue,
+        );
+        expect(
+          RegExp(
+            'ArchiveAction\\s+buildConfiguration = "Release-$environment"',
+          ).hasMatch(scheme),
+          isTrue,
+        );
+        expect(scheme, contains('BlueprintName = "Runner"'));
+        expect(scheme, contains('BlueprintName = "RunnerTests"'));
+      }
+    });
+
+    test('keeps unregistered Apple and Firebase capabilities absent', () {
+      expect(
+        RegExp(
+          r'<key>CFBundleName</key>\s*<string>ÓLA HEDGE</string>',
+        ).hasMatch(infoPlist),
+        isTrue,
+      );
+      expect(infoPlist, isNot(contains('CFBundleURLTypes')));
+      expect(entitlements, isNot(contains('com.apple.developer.associated-domains')));
+      expect(
+        File('ios/Runner/GoogleService-Info.plist').existsSync(),
+        isFalse,
+      );
+    });
+  });
 }

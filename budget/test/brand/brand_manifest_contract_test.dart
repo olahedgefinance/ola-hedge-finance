@@ -150,7 +150,7 @@ void main() {
       RegExp('INFOPLIST_KEY_CFBundleDisplayName = ÓLA HEDGE FINANCE;')
           .allMatches(iosProject)
           .length,
-      3,
+      9,
     );
   });
 
