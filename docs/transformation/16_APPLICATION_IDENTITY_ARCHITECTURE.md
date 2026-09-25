@@ -265,4 +265,43 @@ Reserved or documented only:
 
 Cashew-facing names remain only where required for GPL/upstream provenance, historical changelog/backup compatibility, import/migration compatibility, or source references. They are not active native, Firebase, OAuth, deployment, or Web/PWA identity.
 
-At this checkpoint, the iterative complete Flutter suite passes 77/77, up from the fresh 67/67 branch baseline. This is not the final verification record: Firestore emulator tests, analyzer, locked dependency check, Web Development release build, artifact scans, licence hash, Drift v47 proof, and final diff review are recorded only after Task 6 runs them afresh.
+At this checkpoint, the iterative complete Flutter suite passed 77/77, up from the fresh 67/67 branch baseline. The final fresh verification record follows.
+
+## 14. Final verification record
+
+Verification was performed on 2026-09-24–25 on `phase-2c/application-identity-architecture`, after implementation commit `f2d6bfff9ea638f9d03208864f8f53415a668c0f`.
+
+| Gate | Result |
+|---|---|
+| Toolchain | PASS — Flutter 3.19.6 and Dart 3.3.4 |
+| Locked dependency resolution | PASS — `flutter pub get --offline --enforce-lockfile`; `pubspec.lock` remained unchanged (SHA-256 `8A7CE3864EAB7F69BF6CD5A6C08AEDF99C44697540A0FA8F639A8845C9757051`) |
+| Identity/config/auth regression set | PASS — 41/41 |
+| Complete Flutter suite | PASS — 77/77 with `SQLITE3_DLL` set to the pinned local SQLite 3.53.4 library |
+| Firestore rules | PASS — 12/12 against local project `ola-hedge-finance-rules-test`; no deployment |
+| Flutter analysis | PASS under the established policy — exit 0, 0 errors, 132 historical warnings, 5,119 historical information findings (5,251 total) |
+| Web Development release build | PASS — exit 0 using the existing ignored `dart_defines.dev.local.json`; compiled with `--no-pub` after locked offline resolution |
+| Legacy active-identity scan | PASS — zero hits for the inherited Firebase project/secret and Android/iOS package identifiers in active workflow, scripts, platform source, Web source, or generated Web output |
+| Development Firebase artifact check | PASS — generated Web output contains `ola-hedge-finance-dev` |
+| Database version | PASS — `schemaVersionGlobal = 47` |
+| Licence/provenance | PASS — `LICENSE` is unchanged from the approved specification commit; Git blob `f98d1bda4e0515a2a865ae338f0d0f25aa34925d`, working-file SHA-256 `97D3C061F055F3BA4FD2625F706649340423CF42BF934615838EE82FEF72747C` |
+| Financial/database diff boundary | PASS — the only production Dart change is `budget/lib/brand/brand_identity.dart`; no database, migration, transaction, account, budget, recurring, calculation, AI, or Supabase file changed |
+| Patch integrity | PASS — `git diff --check` reported no errors |
+
+The normal dependency-resolution step first attempted network access and could not complete in the restricted verification environment. It was stopped without modifying the lockfile, then rerun successfully in offline, enforce-lockfile mode. The Web build consequently used `--no-pub`, consuming that verified locked resolution.
+
+The normal Firebase CLI entry point was also blocked by the Windows sandbox denying Node traversal of the protected parent profile directory. The existing Firestore emulator JAR was therefore started directly and the unchanged rules test source was evaluated with its pinned installed modules. This produced the same twelve test cases against the same isolated local project and performed no cloud operation.
+
+Android Gradle task discovery could not be run because this repository has no Gradle wrapper and the host has no system Gradle installation. iOS compilation and signing cannot run on this Windows host. The static identity suite validates the exact Gradle/Xcode mappings, all 27 Xcode configuration references resolve, and all scheme and plist XML parses; native assembly, signing, widgets, and native Google login remain owner verification on provisioned Android and macOS hosts.
+
+## 15. Remaining Cashew-facing material
+
+No inherited Cashew identifier remains as an active Android application ID, iOS bundle identifier, Firebase project, OAuth configuration, deployment target, Web/PWA product name, or PWA short name.
+
+The remaining `Cashew` text falls into intentionally retained or deferred categories:
+
+- GPL/upstream provenance, copyright, repository history, README, changelog, and transformation records;
+- historical database/backup filenames and import compatibility strings that must not be changed without a migration plan;
+- translated legacy product text and links in existing application screens, which belong to later product/rebrand work rather than identity infrastructure;
+- inherited launcher, splash, favicon, preview, and store visual assets pending Brand/Figma work.
+
+These references are not evidence of external infrastructure ownership. Their later treatment must continue to distinguish removable product presentation from legally required attribution and data compatibility.
