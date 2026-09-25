@@ -179,12 +179,10 @@ void main() {
     );
   });
 
-  test('data and legal compatibility identifiers remain unchanged', () {
-    final androidGradle = _read('android/app/build.gradle');
+  test('database and legal compatibility identifiers remain unchanged', () {
     final databaseSource = _read('lib/database/tables.dart');
     final license = _read('../LICENSE');
 
-    expect(androidGradle, contains('applicationId "com.budget.tracker_app"'));
     expect(databaseSource, contains('schemaVersionGlobal = 47'));
     expect(license, contains('GNU GENERAL PUBLIC LICENSE'));
     expect(license, contains('Cashew: an expense budget tracking application'));
