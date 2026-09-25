@@ -1,6 +1,5 @@
 cd ..
 cd budget
 
-start cmd.exe /k firebase deploy
-start cmd.exe /k flutter build appbundle --release
-start cmd.exe /k flutter build apk --release
+start cmd.exe /k flutter build appbundle --flavor production --release
+start cmd.exe /k flutter build apk --flavor production --release

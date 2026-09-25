@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
@@ -11,6 +12,8 @@ void main() {
       Directory('android'),
       Directory('ios'),
       Directory('web'),
+      Directory('../.github'),
+      Directory('../scripts'),
     ];
     final files = <File>[
       for (final root in roots)
@@ -29,6 +32,8 @@ void main() {
             '.js',
             '.yaml',
             '.yml',
+            '.bat',
+            '.ps1',
             '.kt',
             '.java'
           };
@@ -49,6 +54,8 @@ void main() {
       'dapperappdeveloper@gmail.com': 'upstream support identity',
       'folderName = "Cashew"': 'upstream Drive folder',
       '267621253497': 'upstream Google/Firebase numeric identity',
+      'FIREBASE_SERVICE_ACCOUNT_BUDGET_APP_FLUTTER':
+          'upstream Firebase service-account secret',
       'com.budget.tracker_app': 'temporary Android application ID',
       'com.budget.tracker-app': 'temporary iOS bundle ID',
     };
@@ -58,19 +65,49 @@ void main() {
       final path = _normalizedPath(file);
       final contents = file.readAsStringSync();
       for (final entry in forbidden.entries) {
-        final temporaryAndroidId = entry.key == 'com.budget.tracker_app' &&
-            path.startsWith('android/app/');
-        final temporaryIosId = entry.key == 'com.budget.tracker-app' &&
-            path.endsWith('ios/Runner.xcodeproj/project.pbxproj');
-        if (contents.contains(entry.key) &&
-            !temporaryAndroidId &&
-            !temporaryIosId) {
+        if (contents.contains(entry.key)) {
           violations.add('$path: ${entry.value}');
         }
       }
     }
 
     expect(violations, isEmpty);
+  });
+
+  test('deployment helpers require explicit owned environment identity', () {
+    final inheritedWorkflow =
+        File('../.github/workflows/firebase-hosting-pull-request.yml');
+    final windowsBuild = File('../scripts/deploy_and_build_windows.bat')
+        .readAsStringSync();
+
+    expect(inheritedWorkflow.existsSync(), isFalse);
+    expect(windowsBuild, isNot(contains('firebase deploy')));
+    expect(
+      windowsBuild,
+      contains('flutter build appbundle --flavor production --release'),
+    );
+    expect(
+      windowsBuild,
+      contains('flutter build apk --flavor production --release'),
+    );
+  });
+
+  test('owner-controlled service configuration remains untracked', () {
+    final result = Process.runSync(
+      'git',
+      const ['ls-files'],
+      workingDirectory: '..',
+    );
+    expect(result.exitCode, 0, reason: result.stderr.toString());
+
+    final trackedSecrets = LineSplitter.split(result.stdout.toString())
+        .where((path) =>
+            path.endsWith('google-services.json') ||
+            path.endsWith('GoogleService-Info.plist') ||
+            path.contains('dart_defines.dev.local.json') ||
+            path.endsWith('.env'))
+        .toList();
+    expect(trackedSecrets, isEmpty);
   });
 
   test('superseded product names are absent from active product metadata', () {
