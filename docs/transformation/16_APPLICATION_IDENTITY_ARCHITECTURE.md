@@ -102,7 +102,7 @@ The selected design uses explicit native build variants, a shared repository ide
 
 ### Identity contract
 
-`budget/brand/brand_manifest.json` remains the human-readable identity and provenance contract. It will contain:
+`budget/brand/brand_manifest.json` is the human-readable identity and provenance contract. It now contains:
 
 - full name, short name, description, and slug;
 - the three approved Android application IDs;
@@ -111,11 +111,11 @@ The selected design uses explicit native build variants, a shared repository ide
 - existing development Firebase project identity;
 - GPL and upstream provenance.
 
-`budget/lib/brand/brand_identity.dart` will expose the full name, short name, description, and slug needed at runtime. Native identifiers remain native build configuration; regression tests enforce consistency with the JSON contract.
+`budget/lib/brand/brand_identity.dart` exposes the full name, short name, description, and slug needed at runtime. Native identifiers remain native build configuration; regression tests enforce consistency with the JSON contract.
 
 ### Android
 
-Android will use:
+Android now uses:
 
 - namespace `com.olahedgefinance.app`;
 - base production `applicationId "com.olahedgefinance.app"`;
@@ -124,25 +124,25 @@ Android will use:
 - `staging` with suffix `.staging`;
 - `production` with no suffix.
 
-The resulting application IDs exactly match the approved matrix. Kotlin declarations and paths will move to `com/olahedgefinance/app`. Manifest package attributes will be removed so component resolution follows the Gradle namespace. Application display text remains unchanged.
+The resulting application IDs exactly match the approved matrix. Kotlin declarations and paths now use `com/olahedgefinance/app`. Manifest package attributes were removed so component resolution follows the Gradle namespace. Application display text remains unchanged.
 
-Google Services remains fail-closed. The plugin may be applied only when an ignored owner-supplied root or flavor-specific configuration file exists. Phase 2C adds no such file and registers no Android Firebase app.
+Google Services remains fail-closed. The plugin is applied only when an ignored owner-supplied root or flavor-specific configuration file exists. Phase 2C adds no such file and registers no Android Firebase app.
 
 ### iOS
 
-iOS will use three shared schemes named `development`, `staging`, and `production`. Each scheme maps to environment-specific configurations:
+iOS now uses three shared schemes named `development`, `staging`, and `production`. Each scheme maps to environment-specific configurations:
 
 - `Debug-development`, `Profile-development`, `Release-development`;
 - `Debug-staging`, `Profile-staging`, `Release-staging`;
 - `Debug-production`, `Profile-production`, `Release-production`.
 
-Runner bundle identifiers will match the approved matrix. RunnerTests will use the matching application identifier plus `.RunnerTests`. The Podfile will map every custom configuration to the appropriate debug or release CocoaPods mode.
+Runner bundle identifiers match the approved matrix. RunnerTests uses the matching application identifier plus `.RunnerTests`. The Podfile maps every custom configuration to the appropriate debug or release CocoaPods mode.
 
-The inherited Apple team identifier will be removed. Phase 2C will not add a replacement team, provisioning profile, URL scheme, associated-domain entitlement, push entitlement, or Firebase plist. Native signing and Google login therefore remain external owner-registration work. iOS project structure can receive static regression coverage on Windows, but compilation and signing require later macOS/Xcode verification.
+The inherited Apple team identifier was removed. Phase 2C did not add a replacement team, provisioning profile, URL scheme, associated-domain entitlement, push entitlement, or Firebase plist. Native signing and Google login therefore remain external owner-registration work. The iOS project structure has static regression coverage on Windows, but compilation and signing require later macOS/Xcode verification.
 
 ### Web/PWA
 
-The Web/PWA surface will use:
+The Web/PWA surface uses:
 
 - `name`: `ÓLA HEDGE FINANCE`;
 - `short_name`: `ÓLA HEDGE`;
@@ -167,9 +167,9 @@ Native identifier changes do not affect the Web OAuth client or Web authorized o
 
 ## 7. Infrastructure cleanup
 
-The stale Firebase Hosting pull-request workflow will be removed because it targets original Cashew infrastructure and there is no approved ÓLA Hosting deployment in this phase. The Windows helper will lose its unqualified Firebase deployment command and will use an explicit production flavor for native build commands. No deployment will be performed.
+The stale Firebase Hosting pull-request workflow was removed because it targeted original Cashew infrastructure and there is no approved ÓLA Hosting deployment in this phase. The Windows helper no longer has an unqualified Firebase deployment command and uses the explicit Production flavour for native build commands. No deployment was performed.
 
-Infrastructure guards will scan active source, native configuration, Web metadata, scripts, and `.github` workflows so original service identities cannot return outside approved legal, migration, and compatibility contexts.
+Infrastructure guards scan active source, native configuration, Web metadata, scripts, and `.github` workflows so original service identities cannot return outside approved legal, migration, and compatibility contexts.
 
 ## 8. Compatibility, data, and legal safety
 
@@ -182,7 +182,7 @@ Infrastructure guards will scan active source, native configuration, Web metadat
 
 ## 9. Test-first implementation plan requirements
 
-Implementation will begin with failing identity/configuration tests that require:
+Implementation began with failing identity/configuration tests that require:
 
 1. the approved environment matrix in the brand contract;
 2. exact Android namespace and flavor-derived IDs;
@@ -195,7 +195,7 @@ Implementation will begin with failing identity/configuration tests that require
 9. absence of the old Firebase Hosting workflow identity and unqualified deploy command;
 10. unchanged Firebase Dev project restriction, identity scopes, disabled Drive/Gmail defaults, GPL licence, and Drift v47.
 
-The failing tests will be run before native/Web configuration changes. After the minimal implementation passes focused tests, the complete verification gate is:
+The failing tests were run before native/Web configuration changes. After the minimal implementation passed focused tests, the complete verification gate is:
 
 - identity and configuration tests;
 - infrastructure guards;
@@ -207,17 +207,17 @@ The failing tests will be run before native/Web configuration changes. After the
 - Git diff checks proving no database, migration, or financial logic file changed;
 - GPL licence hash and Drift v47 checks.
 
-The accepted starting baseline is 62 Flutter tests. Phase 2C must not reduce that count or accept a failing test.
+The owner supplied a historical baseline of 62 Flutter tests. A fresh pre-change run on this branch passed 67/67; five previously committed tests account for the difference. Phase 2C must not reduce the actual 67-test starting count or accept a failing test.
 
-## 10. Expected implementation files
+## 10. Implemented file set
 
-The implementation is expected to modify only identity, platform configuration, guards, tooling, and documentation, including:
+Implementation changes are limited to identity, platform configuration, guards, tooling, and documentation:
 
 - `budget/brand/brand_manifest.json`;
 - `budget/lib/brand/brand_identity.dart`;
 - Android Gradle, manifests, and Kotlin package paths;
 - iOS project, schemes, Podfile, and display metadata;
-- `budget/web/manifest.json` and `budget/web/index.html`;
+- `budget/web/manifest.json`; `budget/web/index.html` was verified and did not require a change;
 - brand and infrastructure regression tests;
 - the stale Firebase Hosting workflow and Windows build helper;
 - relevant transformation documentation.
@@ -242,3 +242,27 @@ After the code-level identity matrix is verified, the owner must separately:
 ## 12. Acceptance criteria
 
 Phase 2C is complete only when the approved identifiers are represented consistently in code and platform configuration; inherited active native/service identifiers are removed; the Web Dev Firebase/Google flow remains build- and test-compatible; Drive and Gmail remain disabled; all verification gates pass; GPL provenance remains intact; Drift remains v47; financial logic is untouched; and unregistered external resources are clearly reported rather than implied.
+
+## 13. Implementation checkpoint before final verification
+
+Implemented in code:
+
+- the brand manifest and typed runtime identity now contain the approved full name, short name, slug, platform identity matrix, intended-but-unconfigured domain, and Development-only Firebase state;
+- Android has the `environment` flavour dimension, canonical namespace, exact three application IDs, canonical Kotlin package/path, package-free manifests, and fail-closed optional Google Services detection;
+- iOS has nine environment build configurations across Runner, RunnerTests, and the project, three shared schemes, exact bundle identifiers, explicit CocoaPods mappings, and no inherited development team;
+- Web/PWA uses `ÓLA HEDGE FINANCE`, `ÓLA HEDGE`, and the contract slug `ola-hedge-finance`, with no manifest `id`, canonical production URL, or assumed domain;
+- the inherited Firebase Hosting workflow and unqualified Firebase deployment command are gone; Production Android build helpers specify `--flavor production`;
+- regression tests cover identity mappings, absent native credentials/capabilities, untracked service configuration, and inherited infrastructure removal.
+
+Reserved or documented only:
+
+- Firebase Staging and Production projects/apps;
+- all native Firebase apps and Google OAuth clients;
+- Android signing registrations and certificate fingerprints;
+- an Apple Developer Team, App IDs, provisioning profiles, URL schemes, and associated domains;
+- `olahedgefinance.com`, hosting, authorized origins, app-link files, and canonical URLs;
+- final launcher, splash, favicon, preview, and store artwork.
+
+Cashew-facing names remain only where required for GPL/upstream provenance, historical changelog/backup compatibility, import/migration compatibility, or source references. They are not active native, Firebase, OAuth, deployment, or Web/PWA identity.
+
+At this checkpoint, the iterative complete Flutter suite passes 77/77, up from the fresh 67/67 branch baseline. This is not the final verification record: Firestore emulator tests, analyzer, locked dependency check, Web Development release build, artifact scans, licence hash, Drift v47 proof, and final diff review are recorded only after Task 6 runs them afresh.

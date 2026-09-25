@@ -8,6 +8,8 @@ Starting revision: `eeaf6f37259821e4400759c0fdce35cc8893ffbd`
 
 Official product identity: **ÓLA HEDGE FINANCE**
 
+> Historical/supersession note (2026-09-24): This document records the Phase 1 state. Phase 2C subsequently received owner approval for the native identifiers in [`16_APPLICATION_IDENTITY_ARCHITECTURE.md`](16_APPLICATION_IDENTITY_ARCHITECTURE.md). The provisional identifiers in section 4 are not current product identifiers.
+
 ## 1. Current verdict
 
 The development codebase remains disconnected from Cashew-controlled production services by default. It starts as a local-first application without Firebase, Google account services, Drive/Gmail, store billing, deep links, or upstream support endpoints. Original Firebase/OAuth client files remain absent, and automated guards prevent known upstream infrastructure identity from returning to active source/configuration.
@@ -30,10 +32,10 @@ Phase 1B has now verified the owner-controlled Firebase project `ola-hedge-finan
 | Identity/service | Actual source/configuration | Classification | Phase 1 disposition |
 |---|---|---|---|
 | Product display name | Typed brand identity, manifest, Android/iOS/web metadata, localization | REPLACE NOW | Set to **ÓLA HEDGE FINANCE**; visual identity deferred |
-| Dart package/internal project | `budget` in `pubspec.yaml`, imports, iOS bundle name | KEEP TEMPORARILY | Internal rename would be a broad refactor and is not product-facing |
-| Android application ID | `com.budget.tracker_app` and source namespace | KEEP TEMPORARILY | Candidate replacement documented; owner/store approval required |
-| iOS bundle ID | `com.budget.tracker-app`; test IDs use `com.budget...` | KEEP TEMPORARILY | Candidate replacement documented; Apple registration required |
-| Apple development team | Existing team identifier in Xcode project | REPLACE LATER | Replace with owner-controlled team during native setup |
+| Dart package/internal project | `budget` in `pubspec.yaml` and imports; the Phase 1 iOS bundle name was later changed by Phase 2C | KEEP TEMPORARILY | Internal Dart rename would be a broad refactor and is not product-facing |
+| Android application ID | Phase 1 inherited `com.budget.tracker_app` and source namespace | SUPERSEDED BY PHASE 2C | Code now uses the approved Development/Staging/Production matrix; external registrations remain owner work |
+| iOS bundle ID | Phase 1 inherited `com.budget.tracker-app`; test IDs used `com.budget...` | SUPERSEDED BY PHASE 2C | Code now uses the approved Development/Staging/Production matrix; Apple registration remains owner work |
+| Apple development team | Phase 1 inherited team identifier | SUPERSEDED BY PHASE 2C | Inherited team removed; an owner-controlled team is still required externally |
 | Web/PWA identity | Manifest/title/social metadata | REPLACE NOW | Product text updated; upstream absolute asset URLs removed |
 | Web hosting domain | Original Firebase Hosting references | REMOVE | Removed; no replacement domain invented |
 | Firebase project/apps | Original project plus generated Dart/web/Android configuration | REMOVE | Active binding and `.firebaserc` removed; owned projects required |
@@ -65,7 +67,7 @@ Phase 1B has now verified the owner-controlled Firebase project `ola-hedge-finan
 | Biometrics/camera/photo/files | Local platform plugins/permissions | KEEP TEMPORARILY | Logic stays; permission/privacy review required |
 | Signing material | Ignored Android key files; Apple team in project | REPLACE LATER | Use owner-controlled secrets/signing |
 
-## 4. Proposed permanent identifiers — OWNER DECISION REQUIRED
+## 4. Historical proposed identifiers — SUPERSEDED BY PHASE 2C
 
 - Android production: `com.olahedge.finance`
 - Android development: `com.olahedge.finance.dev`
@@ -75,7 +77,7 @@ Phase 1B has now verified the owner-controlled Firebase project `ola-hedge-finan
 - iOS staging: `com.olahedge.finance.staging`
 - Firebase candidates: `ola-hedge-finance-dev`, `ola-hedge-finance-staging`, and eventually `ola-hedge-finance-prod`, subject to availability
 
-These are proposed, not implemented. Approval requires an owned domain/publisher identity, store-record availability, Google/Apple account ownership, signing strategy, and a decision on whether existing app installs/data must upgrade in place. Changing native IDs creates a new installed/store identity.
+These were Phase 1 proposals and were never implemented. The owner later approved `com.olahedgefinance.app`, with `.dev` and `.staging` environment suffixes, for both Android and iOS. External registration still requires owned Google/Apple accounts, signing strategy, store records, and an explicit data-continuity decision. Changing native IDs creates a new installed/store identity.
 
 ## 5. Environment and secret model
 
@@ -155,8 +157,8 @@ Release checklist: legal/store-term review; immutable source tag per binary; com
 
 ## 12. Owner decision checkpoint
 
-1. Approve/reject Android `com.olahedge.finance` and dev/staging variants.
-2. Approve/reject the matching iOS IDs and provide an owned Apple team.
+1. Historical checkpoint resolved by Phase 2C: the owner approved Android `com.olahedgefinance.app`, `.dev`, and `.staging` identities.
+2. Historical checkpoint partially resolved by Phase 2C: matching iOS IDs are approved in code; an owned Apple team is still required.
 3. Create/approve development and staging Firebase names; keep production disconnected.
 4. Provide web/app-link/OAuth/source/support/privacy/legal domain decisions.
 5. Create OAuth consent/platform clients and supply public configuration/signing fingerprints safely.
@@ -205,7 +207,7 @@ Release checklist: legal/store-term review; immutable source tag per binary; com
 - Google Auth is configured for profile/email identity only, but the live cancellation/sign-in/sign-out path is not yet owner-smoke-tested.
 - The console environment type is still `Unspecified`; the owner should label it Development.
 - Email membership is weaker than server-authoritative roles.
-- Native IDs/domain/signing/OAuth/support/legal/store decisions remain open.
+- Native code identifiers are resolved by Phase 2C; domain, external app registration, signing, OAuth, support, legal, and store decisions remain open.
 - Drive/Gmail, sharing, links, purchases, notifications, widgets, permissions, and restore need device tests.
 - Client-only entitlements are insecure for production; raw backups remain unencrypted.
 - Strict analyzer debt and asset/font/licence review remain.

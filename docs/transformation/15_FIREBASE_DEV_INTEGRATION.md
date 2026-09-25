@@ -12,6 +12,8 @@ Official product identity: **ÓLA HEDGE FINANCE**
 
 This phase connects only the web development build to the owner-controlled Firebase development project. It does not create or connect staging/production, change Android or iOS identifiers, enable Drive/Gmail, change Drift, redesign UI, add subscriptions, or add AI.
 
+> Historical/supersession note (2026-09-24): The native-identifier statement describes Phase 1B scope. Phase 2C subsequently implemented the owner-approved Android/iOS identity matrix without connecting native Firebase apps or changing this verified Web Development Firebase/OAuth configuration. See [`16_APPLICATION_IDENTITY_ARCHITECTURE.md`](16_APPLICATION_IDENTITY_ARCHITECTURE.md).
+
 The exact verified project ID is `ola-hedge-finance-dev`. The web app is registered as **ÓLA HEDGE FINANCE Web Dev**. Firestore uses the `(default)` database in `northamerica-northeast2`. The project is on the Spark plan. The Firebase console currently labels the environment type `Unspecified`; the owner should change that label to Development.
 
 The local integration, release build, development startup, and security-rule suite pass. The tested policy is deployed only to the verified development database and its deployed editor content matches the tested repository version. Interactive Google sign-in has not been completed, so the full exit gate remains conditional.
@@ -127,7 +129,7 @@ All 12 security tests pass:
 | Firestore rules publication | PASS — new development revision at 2026-09-19 01:11 local time |
 | Deployed/repository rule comparison | PASS — normalized editor content exactly matches the tested policy |
 | Live Google Auth smoke | PENDING — owner interaction required |
-| Android/iOS | OUT OF SCOPE — no native identifier work |
+| Android/iOS | HISTORICAL PHASE 1B RESULT — native identifiers were out of scope; Phase 2C later configured code identities only |
 
 Representative commands, run from `budget/` with the pinned Flutter SDK and isolated caches:
 
