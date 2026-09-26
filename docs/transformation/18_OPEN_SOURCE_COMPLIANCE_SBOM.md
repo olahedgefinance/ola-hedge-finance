@@ -40,7 +40,7 @@ Each component records an identifier, name/version, ecosystem, direct/transitive
 - 82 require licence review and are recorded as `NOASSERTION`.
 - Across the inventory, licence distribution is 161 BSD-3-Clause, 52 MIT, 18 Apache-2.0, 6 MPL-2.0, 3 GPL-3.0-or-later, 2 BSD-2-Clause, and 82 `NOASSERTION`. The Pub subset accounts for 158 of the BSD-3-Clause records; the rest are toolchain/vendored entries.
 - Relationship counts are 79 direct runtime, 5 direct development, 218 transitive, 6 build-tool, 14 bundled-asset, 1 source-only, and 1 application-root record.
-- The SPDX document contains 324 unique package identifiers and 898 valid relationships.
+- The SPDX document contains 324 unique package identifiers and 899 valid relationships.
 - SPDX supplier/author and copyright fields remain `NOASSERTION` where the reviewed repository/lock/licence evidence does not establish a reliable value. The source/repository and licence-evidence fields are retained instead; release notice compilation must resolve required names/notices without inference.
 
 The inventory distinguishes direct runtime, direct development, transitive, build-tool, root, bundled asset, source-only, and related component roles. Pub runtime reachability is computed from committed Pub metadata. CocoaPods are represented from the committed lock, while their licence evidence remains unresolved. Android direct coordinates are represented, but the repository currently lacks a complete locked release-variant transitive graph.
