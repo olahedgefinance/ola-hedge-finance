@@ -179,6 +179,10 @@ The translations are available here: https://docs.google.com/spreadsheets/d/1QQq
 
 ## Developer Notes
 
+### Open-source compliance
+
+The current SPDX SBOM, component/licence inventory, Cashew provenance record, known evidence gaps, and GPL release workflow are documented in [`compliance/README.md`](compliance/README.md). These artefacts preserve upstream provenance and support release review; they do not constitute legal clearance.
+
 ### Pull Requests and Contributions
 
 Unfortunately, I am currently not accepting contributions due to licensing and credits. Since this application turns some profits, I want to avoid any muddy water when it comes to compensation for contributions. You are free to submit an [issue](https://github.com/jameskokoska/Cashew/issues) and I can consider it!
