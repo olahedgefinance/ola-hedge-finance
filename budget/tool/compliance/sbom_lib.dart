@@ -59,6 +59,7 @@ class ComplianceComponent {
     required this.reviewStatus,
     required this.dependencies,
     this.checksumSha256,
+    this.sourceRepository,
     this.notes,
   });
 
@@ -76,6 +77,7 @@ class ComplianceComponent {
   final String reviewStatus;
   final List<String> dependencies;
   final String? checksumSha256;
+  final String? sourceRepository;
   final String? notes;
 
   Map<String, dynamic> toInventoryJson() => <String, dynamic>{
@@ -93,6 +95,7 @@ class ComplianceComponent {
         'reviewStatus': reviewStatus,
         'dependencies': dependencies.toList()..sort(),
         if (checksumSha256 != null) 'checksumSha256': checksumSha256,
+        if (sourceRepository != null) 'sourceRepository': sourceRepository,
         if (notes != null) 'notes': notes,
       };
 }
@@ -351,6 +354,8 @@ Map<String, dynamic> buildSpdxDocument({
                 'modified=${component.modified}',
                 'reviewStatus=${component.reviewStatus}',
                 'licenseEvidence=${component.licenseEvidence}',
+                if (component.sourceRepository != null)
+                  'sourceRepository=${component.sourceRepository}',
                 if (component.notes != null) 'notes=${component.notes}',
               ].join('; '),
               if (component.ecosystem == 'pub')
