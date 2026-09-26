@@ -445,6 +445,7 @@ Future<List<String>> _validateOriginalServiceIdentity(
     'cashew.pro.',
     'ko-fi.com/dapperappdeveloper',
     'dapperappdeveloper@gmail.com',
+    'folderName = "Cashew"',
     '267621253497',
     'FIREBASE_SERVICE_ACCOUNT_BUDGET_APP_FLUTTER',
     'com.budget.tracker_app',
@@ -469,6 +470,7 @@ Future<List<String>> _validateOriginalServiceIdentity(
     '.java'
   ];
   final errors = <String>[];
+  final files = <File>[];
   for (final rootPath in <String>[
     'budget/lib',
     'budget/android',
@@ -486,12 +488,19 @@ Future<List<String>> _validateOriginalServiceIdentity(
           entity.path.replaceAll('\\', '/').contains('/Pods/')) {
         continue;
       }
-      final content = await entity.readAsString();
-      for (final identity in forbidden) {
-        if (content.contains(identity)) {
-          errors.add('Original Cashew service identity reintroduced in '
-              '${_relativePath(repositoryRoot, entity.path)}: $identity.');
-        }
+      files.add(entity);
+    }
+  }
+  for (final path in <String>['.firebaserc', 'firebase.json']) {
+    final file = File(_join(repositoryRoot.path, path));
+    if (file.existsSync()) files.add(file);
+  }
+  for (final file in files) {
+    final content = await file.readAsString();
+    for (final identity in forbidden) {
+      if (content.contains(identity)) {
+        errors.add('Original Cashew service identity reintroduced in '
+            '${_relativePath(repositoryRoot, file.path)}: $identity.');
       }
     }
   }
