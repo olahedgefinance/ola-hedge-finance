@@ -182,14 +182,16 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
     documentName: 'ola-hedge-finance-${rootComponent.version}',
     createdUtc: createdUtc,
   );
+  final markdownReport = _renderMarkdownReport(
+    components: components,
+    auditGaps: auditGaps,
+    createdUtc: createdUtc,
+  );
   final files = <String, String>{
+    'compliance/OPEN_SOURCE_COMPONENTS.md': markdownReport,
     'compliance/inventory/current-components.json':
         encodeCanonicalJson(inventory),
-    'compliance/reports/current-components.md': _renderMarkdownReport(
-      components: components,
-      auditGaps: auditGaps,
-      createdUtc: createdUtc,
-    ),
+    'compliance/reports/current-components.md': markdownReport,
     'compliance/sbom/current.spdx.json': encodeCanonicalJson(spdx),
   };
 
@@ -200,6 +202,19 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
     auditGaps: auditGaps,
   );
 }
+
+Map<String, String> versionedArtifactFiles(
+  ComplianceArtifactBundle bundle,
+  String releaseVersion,
+) =>
+    <String, String>{
+      'compliance/sbom/$releaseVersion.spdx.json':
+          bundle.files['compliance/sbom/current.spdx.json']!,
+      'compliance/releases/$releaseVersion/sbom.spdx.json':
+          bundle.files['compliance/sbom/current.spdx.json']!,
+      'compliance/releases/$releaseVersion/dependency-licence-report.md':
+          bundle.files['compliance/OPEN_SOURCE_COMPONENTS.md']!,
+    };
 
 List<String> findStaleArtifactPaths(
   Map<String, String> expected,
@@ -234,8 +249,7 @@ Future<void> main(List<String> arguments) async {
       await createComplianceArtifactBundle(repositoryRoot: repositoryRoot);
   final outputs = Map<String, String>.from(bundle.files);
   if (releaseVersion != null) {
-    outputs['compliance/sbom/$releaseVersion.spdx.json'] =
-        outputs['compliance/sbom/current.spdx.json']!;
+    outputs.addAll(versionedArtifactFiles(bundle, releaseVersion));
   }
 
   if (checkOnly) {
@@ -360,14 +374,14 @@ _LicenceEvidence _readLicenceEvidence(Directory root, PubLockEntry entry) {
 
 File? _licenceIn(Directory directory) {
   if (!directory.existsSync()) return null;
-  for (final entity in directory.listSync(followLinks: false)) {
-    if (entity is! File) continue;
-    final name = entity.uri.pathSegments.last.toUpperCase();
-    if (RegExp(r'^(LICENSE|LICENCE|COPYING)(\..*)?$').hasMatch(name)) {
-      return entity;
-    }
-  }
-  return null;
+  final candidates = directory
+      .listSync(followLinks: false)
+      .whereType<File>()
+      .where((file) => RegExp(r'^(LICENSE|LICENCE|COPYING)(\..*)?$')
+          .hasMatch(file.uri.pathSegments.last.toUpperCase()))
+      .toList()
+    ..sort((a, b) => a.path.compareTo(b.path));
+  return candidates.isEmpty ? null : candidates.first;
 }
 
 String _pubDownloadLocation(PubLockEntry entry) {

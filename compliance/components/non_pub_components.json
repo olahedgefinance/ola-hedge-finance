@@ -555,6 +555,13 @@
       "finding": "Modified/fork status is known, but exact upstream-to-fork patches and modification notices are not centrally recorded.",
       "requiredAction": "Record upstream revision, fork revision, patch/diff provenance, and required modification notices for every local or Git fork.",
       "releaseGate": "Corresponding Source package"
+    },
+    {
+      "id": "third-party-notice-compilation",
+      "scope": "All distributed third-party components",
+      "finding": "Package licence identifiers and evidence paths are inventoried, but a release-specific compilation of every required copyright, attribution, NOTICE, modification, and source notice has not yet been legally reviewed.",
+      "requiredAction": "Review the exact release graph and source licence files, populate the final third-party notice bundle without guessing, and obtain qualified approval before distribution.",
+      "releaseGate": "Any public binary"
     }
   ]
 }

@@ -43,6 +43,8 @@ void main() {
       'sourceTag': 'ola-5.4.3+416',
       'correspondingSourceUrl':
           'https://github.com/olahedgefinance/ola-hedge-finance/releases/tag/ola-5.4.3%2B416',
+      'sourceRepositoryUrl':
+          'https://github.com/olahedgefinance/ola-hedge-finance',
       'sourceArchive': <String, dynamic>{
         'path': 'release/ola-5.4.3+416-source.tar.gz',
         'sha256':
@@ -56,7 +58,12 @@ void main() {
               'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
         }
       ],
-      'sbomPath': 'compliance/sbom/5.4.3+416.spdx.json',
+      'sbomPath': 'compliance/releases/5.4.3+416/sbom.spdx.json',
+      'dependencyLicenceReportPath':
+          'compliance/releases/5.4.3+416/dependency-licence-report.md',
+      'thirdPartyNoticesPath': 'legal/THIRD_PARTY_NOTICES.md',
+      'buildReference': 'docs/transformation/04_BUILD_STATUS.md',
+      'complianceChecklistComplete': true,
       'noticesIncluded': true,
       'gplSourceOfferReviewed': true,
       'assetAndFontRightsCleared': true,
@@ -69,6 +76,21 @@ void main() {
     });
 
     expect(errors, isEmpty);
+  });
+
+  test('compliance artifact safety rejects secret files and private keys',
+      () async {
+    final directory = await Directory.systemTemp.createTemp('ola-safety-');
+    addTearDown(() => directory.deleteSync(recursive: true));
+    final compliance =
+        Directory('${directory.path}${Platform.pathSeparator}compliance')
+          ..createSync();
+    File('${compliance.path}${Platform.pathSeparator}release-key.pem')
+        .writeAsStringSync('-----BEGIN PRIVATE KEY-----\nsecret');
+
+    final errors = await validateComplianceArtifactSafety(directory);
+
+    expect(errors, contains(contains('release-key.pem')));
   });
 
   test('inventory validation rejects unaccounted missing licence evidence', () {

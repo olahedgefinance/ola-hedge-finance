@@ -4,6 +4,7 @@
   "sourceCommit": "REQUIRED_40_CHARACTER_GIT_COMMIT",
   "sourceTag": "REQUIRED_IMMUTABLE_TAG",
   "correspondingSourceUrl": "REQUIRED_HTTPS_URL",
+  "sourceRepositoryUrl": "https://github.com/olahedgefinance/ola-hedge-finance",
   "sourceArchive": {
     "path": "REQUIRED_REPOSITORY_RELATIVE_SOURCE_ARCHIVE",
     "sha256": "REQUIRED_64_CHARACTER_SHA256"
@@ -15,11 +16,15 @@
       "sha256": "REQUIRED_64_CHARACTER_SHA256"
     }
   ],
-  "sbomPath": "REQUIRED_compliance/sbom/<version>.spdx.json",
+  "sbomPath": "REQUIRED_compliance/releases/<version>/sbom.spdx.json",
+  "dependencyLicenceReportPath": "REQUIRED_compliance/releases/<version>/dependency-licence-report.md",
+  "thirdPartyNoticesPath": "legal/THIRD_PARTY_NOTICES.md",
+  "buildReference": "REQUIRED_REPOSITORY_RELATIVE_BUILD_REFERENCE",
   "noticesIncluded": false,
   "gplSourceOfferReviewed": false,
   "assetAndFontRightsCleared": false,
   "storeTermsReviewed": false,
+  "complianceChecklistComplete": false,
   "legalReview": {
     "approved": false,
     "reviewer": "REQUIRED",

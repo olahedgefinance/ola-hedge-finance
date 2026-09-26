@@ -29,6 +29,10 @@ List<String> validateReleaseManifestStructure(Map<String, dynamic> manifest) {
   if (!_realValue(sourceUrl) || !_validHttpsUrl(sourceUrl as String?)) {
     errors.add('correspondingSourceUrl must be a non-placeholder HTTPS URL.');
   }
+  final repositoryUrl = manifest['sourceRepositoryUrl'];
+  if (!_realValue(repositoryUrl) || !_validHttpsUrl(repositoryUrl as String?)) {
+    errors.add('sourceRepositoryUrl must be a non-placeholder HTTPS URL.');
+  }
 
   final sourceArchive = manifest['sourceArchive'];
   if (sourceArchive is! Map<String, dynamic>) {
@@ -71,10 +75,20 @@ List<String> validateReleaseManifestStructure(Map<String, dynamic> manifest) {
     errors.add('sbomPath must point to a versioned SPDX JSON file.');
   }
   for (final field in <String>[
+    'dependencyLicenceReportPath',
+    'thirdPartyNoticesPath',
+    'buildReference',
+  ]) {
+    if (!_safeRelativePath(manifest[field])) {
+      errors.add('$field must be a safe repository-relative path.');
+    }
+  }
+  for (final field in <String>[
     'noticesIncluded',
     'gplSourceOfferReviewed',
     'assetAndFontRightsCleared',
     'storeTermsReviewed',
+    'complianceChecklistComplete',
   ]) {
     if (manifest[field] != true) errors.add('$field must be confirmed true.');
   }
@@ -153,6 +167,21 @@ Future<List<String>> runRepositoryComplianceAudit({
   required Directory repositoryRoot,
 }) async {
   final errors = <String>[];
+  for (final requiredPath in <String>[
+    'budget/pubspec.lock',
+    'compliance/OPEN_SOURCE_COMPONENTS.md',
+    'compliance/dependency-review.template.md',
+    'compliance/release/release-manifest.template.json',
+    'compliance/releases/README.md',
+    'legal/THIRD_PARTY_NOTICES.md',
+    'legal/OPEN_SOURCE_POLICY.md',
+  ]) {
+    if (!File(_join(repositoryRoot.path, requiredPath)).existsSync()) {
+      errors.add('Required compliance evidence is missing: $requiredPath.');
+    }
+  }
+  errors.addAll(await validateComplianceArtifactSafety(repositoryRoot));
+  errors.addAll(await _validateOriginalServiceIdentity(repositoryRoot));
   ComplianceArtifactBundle bundle;
   try {
     bundle =
@@ -301,16 +330,37 @@ Future<List<String>> runReleaseComplianceChecks({
   }
 
   final expectedSbom = 'compliance/sbom/$version.spdx.json';
-  if (manifest['sbomPath'] != expectedSbom) {
-    errors.add('sbomPath must be $expectedSbom for this release.');
+  final expectedBundleSbom = 'compliance/releases/$version/sbom.spdx.json';
+  if (manifest['sbomPath'] != expectedBundleSbom) {
+    errors.add('sbomPath must be $expectedBundleSbom for this release.');
   } else {
-    final versioned = File(_join(repositoryRoot.path, expectedSbom));
+    final canonicalVersioned = File(_join(repositoryRoot.path, expectedSbom));
+    final versioned = File(_join(repositoryRoot.path, expectedBundleSbom));
     final current =
         File(_join(repositoryRoot.path, 'compliance/sbom/current.spdx.json'));
     if (!versioned.existsSync() ||
+        !canonicalVersioned.existsSync() ||
+        await canonicalVersioned.readAsString() !=
+            await current.readAsString() ||
         await versioned.readAsString() != await current.readAsString()) {
       errors.add(
-          'Versioned SPDX SBOM is missing or differs from current.spdx.json.');
+          'Canonical or release-bundle SPDX SBOM is missing or differs from current.spdx.json.');
+    }
+  }
+
+  if (manifest['sourceRepositoryUrl'] !=
+      bundleSourceRepositoryUrl(repositoryRoot)) {
+    errors
+        .add('sourceRepositoryUrl does not match the recorded ÓLA repository.');
+  }
+  for (final field in <String>[
+    'dependencyLicenceReportPath',
+    'thirdPartyNoticesPath',
+    'buildReference',
+  ]) {
+    final path = manifest[field] as String;
+    if (!File(_join(repositoryRoot.path, path)).existsSync()) {
+      errors.add('$field does not exist at $path.');
     }
   }
 
@@ -331,6 +381,119 @@ Future<List<String>> runReleaseComplianceChecks({
       '${binary['platform']} binary',
       errors,
     );
+  }
+  return errors;
+}
+
+String bundleSourceRepositoryUrl(Directory repositoryRoot) {
+  final file = File(
+      _join(repositoryRoot.path, 'compliance/provenance/cashew-upstream.json'));
+  if (!file.existsSync()) return '';
+  final value = jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
+  return value['olaRepository'] as String? ?? '';
+}
+
+Future<List<String>> validateComplianceArtifactSafety(
+    Directory repositoryRoot) async {
+  final errors = <String>[];
+  final forbiddenNames = RegExp(
+      r'(^|[\\/])(google-services\.json|GoogleService-Info\.plist|\.env|id_rsa|[^\\/]+\.(pem|p12|pfx|jks|keystore))$',
+      caseSensitive: false);
+  final secretContent = <RegExp>[
+    RegExp(r'-----BEGIN [A-Z ]*PRIVATE KEY-----'),
+    RegExp(r'"private_key"\s*:\s*"-----BEGIN'),
+    RegExp(r'AIza[0-9A-Za-z_-]{30,}'),
+    RegExp(r'gh[oprsu]_[0-9A-Za-z]{30,}'),
+  ];
+  final proprietaryOnly = RegExp(
+      r'\b(proprietary[- ]only|closed[- ]source[- ]only)\b',
+      caseSensitive: false);
+
+  for (final directoryName in <String>['compliance', 'legal']) {
+    final directory = Directory(_join(repositoryRoot.path, directoryName));
+    if (!directory.existsSync()) continue;
+    for (final entity
+        in directory.listSync(recursive: true, followLinks: false)) {
+      if (entity is! File) continue;
+      final relative = _relativePath(repositoryRoot, entity.path);
+      if (forbiddenNames.hasMatch(relative)) {
+        errors.add(
+            'Secret/private-key file is forbidden in compliance evidence: $relative.');
+        continue;
+      }
+      final bytes = await entity.readAsBytes();
+      if (bytes.contains(0)) continue;
+      final text = utf8.decode(bytes, allowMalformed: true);
+      if (secretContent.any((pattern) => pattern.hasMatch(text))) {
+        errors.add('Potential secret/private-key material found in $relative.');
+      }
+      if (proprietaryOnly.hasMatch(text)) {
+        errors.add(
+            'GPL release material must not describe the client as proprietary-only: $relative.');
+      }
+    }
+  }
+  return errors;
+}
+
+Future<List<String>> _validateOriginalServiceIdentity(
+    Directory repositoryRoot) async {
+  const forbidden = <String>[
+    'budget-app-flutter',
+    'cashewapp.web.app',
+    'budget-track.web.app',
+    'cashew.pro.',
+    'ko-fi.com/dapperappdeveloper',
+    'dapperappdeveloper@gmail.com',
+    '267621253497',
+    'FIREBASE_SERVICE_ACCOUNT_BUDGET_APP_FLUTTER',
+    'com.budget.tracker_app',
+    'com.budget.tracker-app',
+  ];
+  const extensions = <String>[
+    '.dart',
+    '.xml',
+    '.gradle',
+    '.properties',
+    '.plist',
+    '.entitlements',
+    '.pbxproj',
+    '.html',
+    '.json',
+    '.js',
+    '.yaml',
+    '.yml',
+    '.bat',
+    '.ps1',
+    '.kt',
+    '.java'
+  ];
+  final errors = <String>[];
+  for (final rootPath in <String>[
+    'budget/lib',
+    'budget/android',
+    'budget/ios',
+    'budget/web',
+    '.github',
+    'scripts'
+  ]) {
+    final root = Directory(_join(repositoryRoot.path, rootPath));
+    if (!root.existsSync()) continue;
+    for (final entity in root.listSync(recursive: true, followLinks: false)) {
+      if (entity is! File ||
+          !extensions.any((extension) => entity.path.endsWith(extension)) ||
+          entity.path.replaceAll('\\', '/').contains('/build/') ||
+          entity.path.replaceAll('\\', '/').contains('/Pods/')) {
+        continue;
+      }
+      final content = await entity.readAsString();
+      for (final identity in forbidden) {
+        if (content.contains(identity)) {
+          errors.add('Original Cashew service identity reintroduced in '
+              '${_relativePath(repositoryRoot, entity.path)}: $identity.');
+        }
+      }
+    }
   }
   return errors;
 }
@@ -496,6 +659,14 @@ Directory _findRepositoryRoot(Directory start) {
 
 String _join(String first, String second) =>
     '$first${Platform.pathSeparator}${second.replaceAll('/', Platform.pathSeparator)}';
+
+String _relativePath(Directory root, String path) {
+  final prefix = root.absolute.path.replaceAll('\\', '/');
+  final normalized = File(path).absolute.path.replaceAll('\\', '/');
+  return normalized.startsWith('$prefix/')
+      ? normalized.substring(prefix.length + 1)
+      : normalized;
+}
 
 class _CommandResult {
   const _CommandResult({

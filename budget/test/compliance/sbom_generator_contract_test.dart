@@ -31,9 +31,21 @@ void main() {
     expect(byId['web:sql-wasm.js']!.checksumSha256,
         '445a230a983e32656a548b1e13cceafaf4aeb2281361477af389243380e2f542');
 
+    final directProduction = bundle.components.where((component) =>
+        component.relationship == ComponentRelationship.directRuntime);
+    expect(directProduction.length, 79);
+    for (final component in directProduction) {
+      expect(component.licenseDeclared, isNotEmpty, reason: component.id);
+      if (component.licenseDeclared == 'NOASSERTION') {
+        expect(component.reviewStatus, 'review-required', reason: component.id);
+        expect(component.licenseEvidence, isNotEmpty, reason: component.id);
+      }
+    }
+
     expect(
         bundle.files.keys,
         containsAll(<String>[
+          'compliance/OPEN_SOURCE_COMPONENTS.md',
           'compliance/inventory/current-components.json',
           'compliance/reports/current-components.md',
           'compliance/sbom/current.spdx.json',
@@ -56,6 +68,25 @@ void main() {
     expect(spdx['spdxVersion'], 'SPDX-2.3');
     expect(
         (spdx['packages'] as List<dynamic>).length, bundle.components.length);
+  });
+
+  test('release generation produces canonical and bundle evidence paths',
+      () async {
+    final bundle = await createComplianceArtifactBundle(
+      repositoryRoot: repositoryRoot,
+    );
+
+    final files = versionedArtifactFiles(bundle, '5.4.3+416');
+
+    expect(
+        files.keys,
+        containsAll(<String>[
+          'compliance/sbom/5.4.3+416.spdx.json',
+          'compliance/releases/5.4.3+416/sbom.spdx.json',
+          'compliance/releases/5.4.3+416/dependency-licence-report.md',
+        ]));
+    expect(files['compliance/releases/5.4.3+416/sbom.spdx.json'],
+        bundle.files['compliance/sbom/current.spdx.json']);
   });
 
   test('generation is byte-for-byte stable for unchanged inputs', () async {
