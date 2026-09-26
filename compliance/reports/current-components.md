@@ -130,7 +130,7 @@ Generated deterministically from committed dependency inputs on 2026-09-25T00:00
 | pub:confetti | 0.7.0 | direct-runtime | yes | no | MIT | pub-cache:confetti-0.7.0/LICENSE |
 | pub:convert | 3.1.1 | transitive | yes | no | BSD-3-Clause | pub-cache:convert-3.1.1/LICENSE |
 | pub:cross_file | 0.3.4+1 | transitive | yes | no | BSD-3-Clause | pub-cache:cross_file-0.3.4+1/LICENSE |
-| pub:crypto | 3.0.3 | transitive | yes | no | BSD-3-Clause | pub-cache:crypto-3.0.3/LICENSE |
+| pub:crypto | 3.0.3 | direct-development | yes | no | BSD-3-Clause | pub-cache:crypto-3.0.3/LICENSE |
 | pub:csslib | 0.17.3 | transitive | yes | no | BSD-3-Clause | pub-cache:csslib-0.17.3/LICENSE |
 | pub:csv | 6.0.0 | direct-runtime | yes | no | MIT | pub-cache:csv-6.0.0/LICENSE |
 | pub:dart_style | 2.3.1 | transitive | no | no | BSD-3-Clause | pub-cache:dart_style-2.3.1/LICENSE |

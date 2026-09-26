@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "releaseVersion": "REQUIRED",
+  "sourceCommit": "REQUIRED_40_CHARACTER_GIT_COMMIT",
+  "sourceTag": "REQUIRED_IMMUTABLE_TAG",
+  "correspondingSourceUrl": "REQUIRED_HTTPS_URL",
+  "sourceArchive": {
+    "path": "REQUIRED_REPOSITORY_RELATIVE_SOURCE_ARCHIVE",
+    "sha256": "REQUIRED_64_CHARACTER_SHA256"
+  },
+  "binaryArtifacts": [
+    {
+      "platform": "REQUIRED_android_ios_or_web",
+      "path": "REQUIRED_REPOSITORY_RELATIVE_BINARY_PATH",
+      "sha256": "REQUIRED_64_CHARACTER_SHA256"
+    }
+  ],
+  "sbomPath": "REQUIRED_compliance/sbom/<version>.spdx.json",
+  "noticesIncluded": false,
+  "gplSourceOfferReviewed": false,
+  "assetAndFontRightsCleared": false,
+  "storeTermsReviewed": false,
+  "legalReview": {
+    "approved": false,
+    "reviewer": "REQUIRED",
+    "reviewDate": "REQUIRED_YYYY-MM-DD"
+  }
+}

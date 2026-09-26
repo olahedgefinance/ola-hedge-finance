@@ -119,6 +119,8 @@ flutter_icons:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  # Repository-only compliance tooling; already present in the locked graph.
+  crypto: 3.0.3
   flutter_lints: ^3.0.0
   drift_dev: ^2.14.0
   build_runner: ^2.4.7

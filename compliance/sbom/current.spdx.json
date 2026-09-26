@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-Package-ola-hedge-finance"
   ],
-  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/850a9302830d0651",
+  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/3118cf82955c3063",
   "name": "ola-hedge-finance-5.4.3+416",
   "packages": [
     {
@@ -2367,7 +2367,7 @@
           "checksumValue": "ff625774173754681d66daaf4a448684fb04b78f902da9cb3d308c19cc5e8bab"
         }
       ],
-      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=verified; licenseEvidence=pub-cache:crypto-3.0.3/LICENSE; sourceRepository=https://github.com/dart-lang/crypto",
+      "comment": "ecosystem=pub; relationship=direct-development; source=hosted; distributed=true; modified=false; reviewStatus=verified; licenseEvidence=pub-cache:crypto-3.0.3/LICENSE; sourceRepository=https://github.com/dart-lang/crypto",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://pub.dev/packages/crypto/versions/3.0.3",
       "externalRefs": [
@@ -7464,6 +7464,11 @@
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-pub-confetti-0.7.0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-ola-hedge-finance"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-pub-crypto-3.0.3",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-ola-hedge-finance"
     },

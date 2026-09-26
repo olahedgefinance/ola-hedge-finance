@@ -6,6 +6,7 @@
   "upstreamLicense": "GPL-3.0-or-later",
   "originalCopyrightNotice": "Cashew: an expense budget tracking application; Copyright (C) 2023 James Kokoska",
   "rootLicensePath": "LICENSE",
+  "rootLicenseGitBlob": "f98d1bda4e0515a2a865ae338f0d0f25aa34925d",
   "rootLicenseUnchangedByThisPhase": true,
   "historyRetained": true,
   "tagsRetained": true,
