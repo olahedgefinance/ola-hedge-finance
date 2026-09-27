@@ -9,9 +9,6 @@ String _read(String path) => File(path).readAsStringSync();
 String _normalizedPath(File file) => file.path.replaceAll('\\', '/');
 
 bool _isAllowedCashewReference(String path, String line) {
-  if (path.endsWith('lib/main.dart') && line.contains('CashewAppMain')) {
-    return true;
-  }
   if (path.endsWith('lib/widgets/showChangelog.dart')) {
     return true;
   }
@@ -99,10 +96,8 @@ void main() {
       'domainConfigured': false,
     });
 
-    final infrastructure =
-        manifest['infrastructure'] as Map<String, dynamic>;
-    final firebase =
-        infrastructure['firebase'] as Map<String, dynamic>;
+    final infrastructure = manifest['infrastructure'] as Map<String, dynamic>;
+    final firebase = infrastructure['firebase'] as Map<String, dynamic>;
     expect(firebase['development'], <String, dynamic>{
       'configured': true,
       'projectId': 'ola-hedge-finance-dev',

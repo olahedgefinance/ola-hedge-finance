@@ -112,7 +112,7 @@ class App extends StatelessWidget {
       actions: keyboardIntents,
       themeAnimationDuration: Duration(milliseconds: 400),
       themeAnimationCurve: CustomDelayedCurve(),
-      key: ValueKey('CashewAppMain'),
+      key: ValueKey('OlaHedgeFinanceAppMain'),
       title: appBrand.productName,
       theme: getLightTheme(),
       darkTheme: getDarkTheme(),

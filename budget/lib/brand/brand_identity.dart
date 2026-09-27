@@ -16,5 +16,6 @@ const BrandIdentity appBrand = BrandIdentity(
   productName: 'ÓLA HEDGE FINANCE',
   shortName: 'ÓLA HEDGE',
   slug: 'ola-hedge-finance',
-  description: 'A budget and financial tracking application designed for you',
+  description:
+      'A personal finance system for cash flow, budgeting, debt, savings, goals and wealth.',
 );

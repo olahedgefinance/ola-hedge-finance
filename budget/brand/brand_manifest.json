@@ -3,7 +3,7 @@
   "brandKey": "ola-hedge-finance",
   "productName": "ÓLA HEDGE FINANCE",
   "shortName": "ÓLA HEDGE",
-  "description": "A budget and financial tracking application designed for you",
+  "description": "A personal finance system for cash flow, budgeting, debt, savings, goals and wealth.",
   "identity": {
     "android": {
       "development": "com.olahedgefinance.app.dev",

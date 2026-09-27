@@ -8,7 +8,7 @@ void main() {
     expect(appBrand.slug, 'ola-hedge-finance');
     expect(
       appBrand.description,
-      'A budget and financial tracking application designed for you',
+      'A personal finance system for cash flow, budgeting, debt, savings, goals and wealth.',
     );
   });
 }
