@@ -2325,12 +2325,12 @@
       "downloadLocation": "https://pub.dev/packages/dbus/versions/0.7.8",
       "ecosystem": "pub",
       "id": "pub:dbus",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "MPL-2.0",
       "licenseEvidence": "compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:dbus; retained authenticated notice set",
       "modified": false,
       "name": "dbus",
       "relationship": "transitive",
-      "reviewStatus": "review-required",
+      "reviewStatus": "verified-with-conditions",
       "source": "hosted",
       "sourceRepository": "https://github.com/canonical/dbus.dart",
       "version": "0.7.8"
@@ -3629,12 +3629,12 @@
       "downloadLocation": "https://pub.dev/packages/gtk/versions/2.1.0",
       "ecosystem": "pub",
       "id": "pub:gtk",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "MPL-2.0",
       "licenseEvidence": "compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:gtk; retained authenticated notice set",
       "modified": false,
       "name": "gtk",
       "relationship": "transitive",
-      "reviewStatus": "review-required",
+      "reviewStatus": "verified-with-conditions",
       "source": "hosted",
       "sourceRepository": "https://github.com/ubuntu-flutter-community/gtk.dart",
       "version": "2.1.0"
@@ -6531,7 +6531,7 @@
       "vendored-source": 1,
       "web-vendored": 3
     },
-    "licenseReviewRequired": 62,
+    "licenseReviewRequired": 60,
     "modified": 11
   }
 }

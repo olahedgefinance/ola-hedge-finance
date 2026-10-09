@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-Package-ola-hedge-finance"
   ],
-  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/0c74ca1a78897480",
+  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/118595368bf5a81f",
   "name": "ola-hedge-finance-5.4.3+416",
   "packages": [
     {
@@ -2467,7 +2467,7 @@
           "checksumValue": "6f07cba3f7b3448d42d015bfd3d53fe12e5b36da2423f23838efc1d5fb31a263"
         }
       ],
-      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:dbus; retained authenticated notice set; sourceRepository=https://github.com/canonical/dbus.dart",
+      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:dbus; retained authenticated notice set; sourceRepository=https://github.com/canonical/dbus.dart",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://pub.dev/packages/dbus/versions/0.7.8",
       "externalRefs": [
@@ -2479,7 +2479,7 @@
       ],
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "MPL-2.0",
       "name": "dbus",
       "supplier": "NOASSERTION",
       "versionInfo": "0.7.8"
@@ -3912,7 +3912,7 @@
           "checksumValue": "e8ce9ca4b1df106e4d72dad201d345ea1a036cc12c360f1a7d5a758f78ffa42c"
         }
       ],
-      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:gtk; retained authenticated notice set; sourceRepository=https://github.com/ubuntu-flutter-community/gtk.dart",
+      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:gtk; retained authenticated notice set; sourceRepository=https://github.com/ubuntu-flutter-community/gtk.dart",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://pub.dev/packages/gtk/versions/2.1.0",
       "externalRefs": [
@@ -3924,7 +3924,7 @@
       ],
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "MPL-2.0",
       "name": "gtk",
       "supplier": "NOASSERTION",
       "versionInfo": "2.1.0"

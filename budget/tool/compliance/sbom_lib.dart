@@ -1,5 +1,7 @@
 import 'dart:convert';
 
+import 'package:crypto/crypto.dart';
+
 abstract final class ComponentRelationship {
   static const String root = 'root';
   static const String directRuntime = 'direct-runtime';
@@ -222,30 +224,40 @@ List<PodLockEntry> parsePodfileLock(String content) {
 }
 
 String classifyLicenseText(String text) {
+  // MPL 2.0 itself mentions GPL and version 1.1. Recognize the complete
+  // standard text before the composite-text guard, never just its heading.
+  // SHA-256 of UTF-8 with whitespace runs collapsed and outer space trimmed:
+  // https://www.mozilla.org/media/MPL/2.0/index.txt (HTTPS Exhibit A URL),
+  // plus the otherwise identical HTTP Exhibit A variant in retained notices.
+  // Any changed terms, added grant or truncated text remain unresolved.
+  final canonical = text.trim().replaceAll(RegExp(r'\s+'), ' ');
+  if (canonical.toLowerCase().contains('mozilla public license')) {
+    const mpl20Digests = <String>{
+      'e8ba82e63ba908724aaee6043943c5a2629b9ebf1af581ea0eea19a713123685',
+      'a7fae6cb34ec631564f892e475d03e5d8781b78949caf5c54d404d384e30fffe',
+    };
+    return mpl20Digests
+            .contains(sha256.convert(utf8.encode(canonical)).toString())
+        ? 'MPL-2.0'
+        : 'NOASSERTION';
+  }
   final normalized = text.toLowerCase().replaceAll('\r\n', '\n');
   final families = <bool>[
     normalized.contains('apache license') && normalized.contains('version 2.0'),
     normalized.contains('permission is hereby granted, free of charge'),
     normalized.contains('redistribution and use in source and binary forms'),
-    normalized.contains('mozilla public license'),
     normalized.contains('gnu general public license'),
     normalized.contains(
         'permission to use, copy, modify, and/or distribute this software for any purpose with or without fee'),
     normalized.contains("this software is provided 'as-is'") &&
         normalized.contains('altered source versions must be plainly marked'),
   ];
-  if (families.where((v) => v).length > 1 ||
-      (normalized.contains('mozilla public license') &&
-          normalized.contains('1.1') &&
-          normalized.contains('2.0'))) {
+  if (families.where((v) => v).length > 1) {
     return 'NOASSERTION'; // Never collapse composite text or mixed versions.
   }
   if (normalized.contains('apache license') &&
       normalized.contains('version 2.0')) {
     return 'Apache-2.0';
-  }
-  if (normalized.contains('mozilla public license version 2.0')) {
-    return 'MPL-2.0';
   }
   if (normalized.contains('permission is hereby granted, free of charge')) {
     return 'MIT';
@@ -258,10 +270,6 @@ String classifyLicenseText(String text) {
   if (normalized.contains(
       'permission to use, copy, modify, and/or distribute this software for any purpose with or without fee')) {
     return 'ISC';
-  }
-  if (normalized.contains('mozilla public license') &&
-      normalized.contains('2.0')) {
-    return 'MPL-2.0';
   }
   if (normalized.contains('gnu general public license') &&
       normalized.contains('version 3')) {

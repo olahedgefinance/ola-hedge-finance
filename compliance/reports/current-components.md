@@ -5,7 +5,7 @@ Generated deterministically from committed dependency inputs on 2026-10-09T00:00
 - Components: 324
 - Distributed: 280
 - Modified/forked: 11
-- Licence review required: 62
+- Licence review required: 60
 
 ## Components
 
@@ -134,7 +134,7 @@ Generated deterministically from committed dependency inputs on 2026-10-09T00:00
 | pub:csslib | 0.17.3 | transitive | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:csslib; retained authenticated notice set |
 | pub:csv | 6.0.0 | direct-runtime | yes | no | MIT | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:csv; retained authenticated notice set |
 | pub:dart_style | 2.3.1 | transitive | no | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:dart_style; retained authenticated notice set |
-| pub:dbus | 0.7.8 | transitive | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:dbus; retained authenticated notice set |
+| pub:dbus | 0.7.8 | transitive | yes | no | MPL-2.0 | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:dbus; retained authenticated notice set |
 | pub:device_frame | 1.1.0 | transitive | yes | no | MIT | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:device_frame; retained authenticated notice set |
 | pub:device_info_plus | 10.1.0 | direct-runtime | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:device_info_plus; retained authenticated notice set |
 | pub:device_info_plus_platform_interface | 7.0.0 | transitive | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:device_info_plus_platform_interface; retained authenticated notice set |
@@ -193,7 +193,7 @@ Generated deterministically from committed dependency inputs on 2026-10-09T00:00
 | pub:googleapis | 13.1.0 | direct-runtime | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:googleapis; retained authenticated notice set |
 | pub:gradient_borders | 1.0.1 | direct-runtime | yes | no | MIT | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:gradient_borders; retained authenticated notice set |
 | pub:graphs | 2.3.1 | transitive | no | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:graphs; retained authenticated notice set |
-| pub:gtk | 2.1.0 | transitive | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:gtk; retained authenticated notice set |
+| pub:gtk | 2.1.0 | transitive | yes | no | MPL-2.0 | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:gtk; retained authenticated notice set |
 | pub:home_widget | 0.5.0 | direct-runtime | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:home_widget; retained authenticated notice set |
 | pub:html | 0.15.4 | transitive | yes | no | MIT | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:html; retained authenticated notice set |
 | pub:http | 0.13.6 | transitive | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:http; retained authenticated notice set |
