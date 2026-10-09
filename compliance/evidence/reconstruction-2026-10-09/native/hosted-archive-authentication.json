@@ -1,0 +1,242 @@
+[
+  {
+    "package": "app_settings",
+    "archive_filename": "app_settings-5.1.1.tar.gz",
+    "download_url": "https://pub.dev/api/archives/app_settings-5.1.1.tar.gz",
+    "expected_sha256": "09bc7fe0313a507087bec1a3baf555f0576e816a760cbb31813a88890a09d9e5",
+    "actual_sha256": "09bc7fe0313a507087bec1a3baf555f0576e816a760cbb31813a88890a09d9e5",
+    "hash_matches": true,
+    "bytes": 44266,
+    "error": null
+  },
+  {
+    "package": "app_links",
+    "archive_filename": "app_links-6.1.4.tar.gz",
+    "download_url": "https://pub.dev/api/archives/app_links-6.1.4.tar.gz",
+    "expected_sha256": "ae5f9a1b7d40d26178f605414be81ed4260350b4fae8259fe5ca4f89fe70c4af",
+    "actual_sha256": "ae5f9a1b7d40d26178f605414be81ed4260350b4fae8259fe5ca4f89fe70c4af",
+    "hash_matches": true,
+    "bytes": 273198,
+    "error": null
+  },
+  {
+    "package": "device_info_plus",
+    "archive_filename": "device_info_plus-10.1.0.tar.gz",
+    "download_url": "https://pub.dev/api/archives/device_info_plus-10.1.0.tar.gz",
+    "expected_sha256": "eead12d1a1ed83d8283ab4c2f3fca23ac4082f29f25f29dff0f758f57d06ec91",
+    "actual_sha256": "eead12d1a1ed83d8283ab4c2f3fca23ac4082f29f25f29dff0f758f57d06ec91",
+    "hash_matches": true,
+    "bytes": 275101,
+    "error": null
+  },
+  {
+    "package": "cloud_firestore",
+    "archive_filename": "cloud_firestore-5.1.0.tar.gz",
+    "download_url": "https://pub.dev/api/archives/cloud_firestore-5.1.0.tar.gz",
+    "expected_sha256": "240c1c3598e62ad58ee665b6df9c65172d2fbe4742770c21ed060e013cb8e037",
+    "actual_sha256": "240c1c3598e62ad58ee665b6df9c65172d2fbe4742770c21ed060e013cb8e037",
+    "hash_matches": true,
+    "bytes": 478359,
+    "error": null
+  },
+  {
+    "package": "flutter_charset_detector_ios",
+    "archive_filename": "flutter_charset_detector_ios-1.0.2.tar.gz",
+    "download_url": "https://pub.dev/api/archives/flutter_charset_detector_ios-1.0.2.tar.gz",
+    "expected_sha256": "e0e2c7b819cd1f7c9a50da94bf7f0e6d7a095eb64e81196ec758e77793903d43",
+    "actual_sha256": "e0e2c7b819cd1f7c9a50da94bf7f0e6d7a095eb64e81196ec758e77793903d43",
+    "hash_matches": true,
+    "bytes": 14930,
+    "error": null
+  },
+  {
+    "package": "firebase_core",
+    "archive_filename": "firebase_core-3.2.0.tar.gz",
+    "download_url": "https://pub.dev/api/archives/firebase_core-3.2.0.tar.gz",
+    "expected_sha256": "5159984ce9b70727473eb388394650677c02c925aaa6c9439905e1f30966a4d5",
+    "actual_sha256": "5159984ce9b70727473eb388394650677c02c925aaa6c9439905e1f30966a4d5",
+    "hash_matches": true,
+    "bytes": 243493,
+    "error": null
+  },
+  {
+    "package": "firebase_auth",
+    "archive_filename": "firebase_auth-5.1.2.tar.gz",
+    "download_url": "https://pub.dev/api/archives/firebase_auth-5.1.2.tar.gz",
+    "expected_sha256": "a41b56878fa6aef3ea52962329b47eee333672d4b0ecc406e071b9fc729f242c",
+    "actual_sha256": "a41b56878fa6aef3ea52962329b47eee333672d4b0ecc406e071b9fc729f242c",
+    "hash_matches": true,
+    "bytes": 372549,
+    "error": null
+  },
+  {
+    "package": "flutter_local_notifications",
+    "archive_filename": "flutter_local_notifications-17.2.1+2.tar.gz",
+    "download_url": "https://pub.dev/api/archives/flutter_local_notifications-17.2.1+2.tar.gz",
+    "expected_sha256": "dd6676d8c2926537eccdf9f72128bbb2a9d0814689527b17f92c248ff192eaf3",
+    "actual_sha256": "dd6676d8c2926537eccdf9f72128bbb2a9d0814689527b17f92c248ff192eaf3",
+    "hash_matches": true,
+    "bytes": 684020,
+    "error": null
+  },
+  {
+    "package": "flutter_timezone",
+    "archive_filename": "flutter_timezone-1.0.8.tar.gz",
+    "download_url": "https://pub.dev/api/archives/flutter_timezone-1.0.8.tar.gz",
+    "expected_sha256": "06b35132c98fa188db3c4b654b7e1af7ccd01dfe12a004d58be423357605fb24",
+    "actual_sha256": "06b35132c98fa188db3c4b654b7e1af7ccd01dfe12a004d58be423357605fb24",
+    "hash_matches": true,
+    "bytes": 9162,
+    "error": null
+  },
+  {
+    "package": "image_picker_ios",
+    "archive_filename": "image_picker_ios-0.8.8+4.tar.gz",
+    "download_url": "https://pub.dev/api/archives/image_picker_ios-0.8.8+4.tar.gz",
+    "expected_sha256": "76ec722aeea419d03aa915c2c96bf5b47214b053899088c9abb4086ceecf97a7",
+    "actual_sha256": "76ec722aeea419d03aa915c2c96bf5b47214b053899088c9abb4086ceecf97a7",
+    "hash_matches": true,
+    "bytes": 97761,
+    "error": null
+  },
+  {
+    "package": "home_widget",
+    "archive_filename": "home_widget-0.5.0.tar.gz",
+    "download_url": "https://pub.dev/api/archives/home_widget-0.5.0.tar.gz",
+    "expected_sha256": "29565bfee4b32eaf9e7e8b998d504618b779a74b2b1ac62dd4dac7468e66f1a3",
+    "actual_sha256": "29565bfee4b32eaf9e7e8b998d504618b779a74b2b1ac62dd4dac7468e66f1a3",
+    "hash_matches": true,
+    "bytes": 70372,
+    "error": null
+  },
+  {
+    "package": "google_sign_in_ios",
+    "archive_filename": "google_sign_in_ios-5.7.6.tar.gz",
+    "download_url": "https://pub.dev/api/archives/google_sign_in_ios-5.7.6.tar.gz",
+    "expected_sha256": "a058c9880be456f21e2e8571c1126eaacd570bdc5b6c6d9d15aea4bdf22ca9fe",
+    "actual_sha256": "a058c9880be456f21e2e8571c1126eaacd570bdc5b6c6d9d15aea4bdf22ca9fe",
+    "hash_matches": true,
+    "bytes": 228277,
+    "error": null
+  },
+  {
+    "package": "in_app_purchase_storekit",
+    "archive_filename": "in_app_purchase_storekit-0.3.17.tar.gz",
+    "download_url": "https://pub.dev/api/archives/in_app_purchase_storekit-0.3.17.tar.gz",
+    "expected_sha256": "9a087c3c051266642468f031737c5a09f6fd90ff2b21d953e130563f3fd4cb34",
+    "actual_sha256": "9a087c3c051266642468f031737c5a09f6fd90ff2b21d953e130563f3fd4cb34",
+    "hash_matches": true,
+    "bytes": 176634,
+    "error": null
+  },
+  {
+    "package": "in_app_review",
+    "archive_filename": "in_app_review-2.0.9.tar.gz",
+    "download_url": "https://pub.dev/api/archives/in_app_review-2.0.9.tar.gz",
+    "expected_sha256": "99869244d09adc76af16bf8fd731dd13cef58ecafd5917847589c49f378cbb30",
+    "actual_sha256": "99869244d09adc76af16bf8fd731dd13cef58ecafd5917847589c49f378cbb30",
+    "hash_matches": true,
+    "bytes": 579796,
+    "error": null
+  },
+  {
+    "package": "local_auth_darwin",
+    "archive_filename": "local_auth_darwin-1.3.1.tar.gz",
+    "download_url": "https://pub.dev/api/archives/local_auth_darwin-1.3.1.tar.gz",
+    "expected_sha256": "e424ebf90d5233452be146d4a7da4bcd7a70278b67791592f3fde1bda8eef9e2",
+    "actual_sha256": "e424ebf90d5233452be146d4a7da4bcd7a70278b67791592f3fde1bda8eef9e2",
+    "hash_matches": true,
+    "bytes": 57501,
+    "error": null
+  },
+  {
+    "package": "package_info_plus",
+    "archive_filename": "package_info_plus-8.0.0.tar.gz",
+    "download_url": "https://pub.dev/api/archives/package_info_plus-8.0.0.tar.gz",
+    "expected_sha256": "b93d8b4d624b4ea19b0a5a208b2d6eff06004bc3ce74c06040b120eeadd00ce0",
+    "actual_sha256": "b93d8b4d624b4ea19b0a5a208b2d6eff06004bc3ce74c06040b120eeadd00ce0",
+    "hash_matches": true,
+    "bytes": 286297,
+    "error": null
+  },
+  {
+    "package": "path_provider_foundation",
+    "archive_filename": "path_provider_foundation-2.4.0.tar.gz",
+    "download_url": "https://pub.dev/api/archives/path_provider_foundation-2.4.0.tar.gz",
+    "expected_sha256": "f234384a3fdd67f989b4d54a5d73ca2a6c422fa55ae694381ae0f4375cd1ea16",
+    "actual_sha256": "f234384a3fdd67f989b4d54a5d73ca2a6c422fa55ae694381ae0f4375cd1ea16",
+    "hash_matches": true,
+    "bytes": 137526,
+    "error": null
+  },
+  {
+    "package": "quick_actions_ios",
+    "archive_filename": "quick_actions_ios-1.0.6.tar.gz",
+    "download_url": "https://pub.dev/api/archives/quick_actions_ios-1.0.6.tar.gz",
+    "expected_sha256": "9ed8b003a65034de9f36a7f593026bf114c8796a38011b23240f8bf7e4668e2b",
+    "actual_sha256": "9ed8b003a65034de9f36a7f593026bf114c8796a38011b23240f8bf7e4668e2b",
+    "hash_matches": true,
+    "bytes": 48309,
+    "error": null
+  },
+  {
+    "package": "recaptcha_enterprise_flutter",
+    "archive_filename": "recaptcha_enterprise_flutter-18.5.1.tar.gz",
+    "download_url": "https://pub.dev/api/archives/recaptcha_enterprise_flutter-18.5.1.tar.gz",
+    "expected_sha256": "2b53a990c686272f4e6d6f614ce7b6d5d4ccd6468ae7300d3b6e0af940852b2e",
+    "actual_sha256": "2b53a990c686272f4e6d6f614ce7b6d5d4ccd6468ae7300d3b6e0af940852b2e",
+    "hash_matches": true,
+    "bytes": 65701,
+    "error": null
+  },
+  {
+    "package": "share_plus",
+    "archive_filename": "share_plus-10.0.0.tar.gz",
+    "download_url": "https://pub.dev/api/archives/share_plus-10.0.0.tar.gz",
+    "expected_sha256": "59dfd53f497340a0c3a81909b220cfdb9b8973a91055c4e5ab9b9b9ad7c513c0",
+    "actual_sha256": "59dfd53f497340a0c3a81909b220cfdb9b8973a91055c4e5ab9b9b9ad7c513c0",
+    "hash_matches": true,
+    "bytes": 285038,
+    "error": null
+  },
+  {
+    "package": "sqlite3_flutter_libs",
+    "archive_filename": "sqlite3_flutter_libs-0.5.15.tar.gz",
+    "download_url": "https://pub.dev/api/archives/sqlite3_flutter_libs-0.5.15.tar.gz",
+    "expected_sha256": "1e20a88d5c7ae8400e009f38ddbe8b001800a6dffa37832481a86a219bc904c7",
+    "actual_sha256": "1e20a88d5c7ae8400e009f38ddbe8b001800a6dffa37832481a86a219bc904c7",
+    "hash_matches": true,
+    "bytes": 8622,
+    "error": null
+  },
+  {
+    "package": "shared_preferences_foundation",
+    "archive_filename": "shared_preferences_foundation-2.4.0.tar.gz",
+    "download_url": "https://pub.dev/api/archives/shared_preferences_foundation-2.4.0.tar.gz",
+    "expected_sha256": "0a8a893bf4fd1152f93fec03a415d11c27c74454d96e2318a7ac38dd18683ab7",
+    "actual_sha256": "0a8a893bf4fd1152f93fec03a415d11c27c74454d96e2318a7ac38dd18683ab7",
+    "hash_matches": true,
+    "bytes": 122933,
+    "error": null
+  },
+  {
+    "package": "url_launcher_ios",
+    "archive_filename": "url_launcher_ios-6.3.1.tar.gz",
+    "download_url": "https://pub.dev/api/archives/url_launcher_ios-6.3.1.tar.gz",
+    "expected_sha256": "e43b677296fadce447e987a2f519dcf5f6d1e527dc35d01ffab4fff5b8a7063e",
+    "actual_sha256": "e43b677296fadce447e987a2f519dcf5f6d1e527dc35d01ffab4fff5b8a7063e",
+    "hash_matches": true,
+    "bytes": 51566,
+    "error": null
+  },
+  {
+    "package": "system_theme",
+    "archive_filename": "system_theme-3.0.0.tar.gz",
+    "download_url": "https://pub.dev/api/archives/system_theme-3.0.0.tar.gz",
+    "expected_sha256": "a32db6caa3a5129d02c03443121662959fba7ec1a8b01c78ee9a42718fbb3ef6",
+    "actual_sha256": "a32db6caa3a5129d02c03443121662959fba7ec1a8b01c78ee9a42718fbb3ef6",
+    "hash_matches": true,
+    "bytes": 285934,
+    "error": null
+  }
+]

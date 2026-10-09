@@ -1,0 +1,145 @@
+{
+  "records": [
+    {
+      "id": "maven:com.android.tools.build:gradle",
+      "declaredVersion": "7.3.1",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/7.3.1/gradle-7.3.1.pom",
+      "path": "compliance/evidence/reconstruction-2026-10-09/maven/com.android.tools.build.gradle-7.3.1.pom",
+      "sha256": "6557be8ff5d9507a1d3a1d3a5f434587d073c2467f9fb31767f275eaf5290e7c",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "status": "POM_METADATA_ONLY_NOT_RESOLVED_RELEASE_GRAPH"
+    },
+    {
+      "id": "maven:org.jetbrains.kotlin:kotlin-gradle-plugin",
+      "declaredVersion": "1.9.0",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.9.0/kotlin-gradle-plugin-1.9.0.pom",
+      "path": "compliance/evidence/reconstruction-2026-10-09/maven/org.jetbrains.kotlin.kotlin-gradle-plugin-1.9.0.pom",
+      "sha256": "45276b09ffbbb8034fbd04708f90f7e31b70d68ae023b2cfb3c11d886e77d836",
+      "licenses": [
+        {
+          "name": "The Apache License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "status": "POM_METADATA_ONLY_NOT_RESOLVED_RELEASE_GRAPH"
+    },
+    {
+      "id": "maven:com.google.gms:google-services",
+      "declaredVersion": "4.3.14",
+      "url": "https://dl.google.com/dl/android/maven2/com/google/gms/google-services/4.3.14/google-services-4.3.14.pom",
+      "path": "compliance/evidence/reconstruction-2026-10-09/maven/com.google.gms.google-services-4.3.14.pom",
+      "sha256": "46ad34d3096f2d96b5f5da90fb3d81f16006924c99b59321b667e7f2728e010b",
+      "licenses": [
+        {
+          "name": "The Apache License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "status": "POM_METADATA_ONLY_NOT_RESOLVED_RELEASE_GRAPH"
+    },
+    {
+      "id": "maven:org.jetbrains.kotlin:kotlin-stdlib-jdk7",
+      "declaredVersion": "1.9.0",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.0/kotlin-stdlib-jdk7-1.9.0.pom",
+      "path": "compliance/evidence/reconstruction-2026-10-09/maven/org.jetbrains.kotlin.kotlin-stdlib-jdk7-1.9.0.pom",
+      "sha256": "c11074f0c898a98b863c614471d438d3df92a1ec3382a6e37f935d7d71954b5a",
+      "licenses": [
+        {
+          "name": "The Apache License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "status": "POM_METADATA_ONLY_NOT_RESOLVED_RELEASE_GRAPH"
+    },
+    {
+      "id": "maven:com.android.tools:desugar_jdk_libs",
+      "declaredVersion": "1.2.2",
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/desugar_jdk_libs/1.2.2/desugar_jdk_libs-1.2.2.pom",
+      "path": "compliance/evidence/reconstruction-2026-10-09/maven/com.android.tools.desugar_jdk_libs-1.2.2.pom",
+      "sha256": "e0e87be252272df1f05ea3b22f18e1d37ef4f0b8e0bc84a0875c3af958b9a11f",
+      "licenses": [
+        {
+          "name": "GNU General Public License, version 2, with the Classpath Exception",
+          "url": "https://github.com/google/desugar_jdk_libs/blob/master/LICENSE"
+        }
+      ],
+      "status": "POM_METADATA_ONLY_NOT_RESOLVED_RELEASE_GRAPH"
+    },
+    {
+      "id": "maven:com.google.firebase:firebase-bom",
+      "declaredVersion": "31.1.1",
+      "url": "https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-bom/31.1.1/firebase-bom-31.1.1.pom",
+      "path": "compliance/evidence/reconstruction-2026-10-09/maven/com.google.firebase.firebase-bom-31.1.1.pom",
+      "sha256": "b5596d78f1edce87df4a45bd344fd04835955b2a37225d33c799f45515d3e1b6",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "status": "POM_METADATA_ONLY_NOT_RESOLVED_RELEASE_GRAPH"
+    },
+    {
+      "id": "maven:androidx.window:window",
+      "declaredVersion": "1.0.0",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/window/window/1.0.0/window-1.0.0.pom",
+      "path": "compliance/evidence/reconstruction-2026-10-09/maven/androidx.window.window-1.0.0.pom",
+      "sha256": "377fee39dcf1aefa6b2caeecb3c9e33079010fd45dc070dbcba57d54c5081f8a",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "status": "POM_METADATA_ONLY_NOT_RESOLVED_RELEASE_GRAPH"
+    },
+    {
+      "id": "maven:androidx.window:window-java",
+      "declaredVersion": "1.0.0",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/window/window-java/1.0.0/window-java-1.0.0.pom",
+      "path": "compliance/evidence/reconstruction-2026-10-09/maven/androidx.window.window-java-1.0.0.pom",
+      "sha256": "138351a5ecee3cda87c7c87558b028dd89c39d7ffe7d774137b26bb2429659b0",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "status": "POM_METADATA_ONLY_NOT_RESOLVED_RELEASE_GRAPH"
+    },
+    {
+      "id": "maven:com.google.android.play:review",
+      "declaredVersion": "2.0.1",
+      "url": "https://dl.google.com/dl/android/maven2/com/google/android/play/review/2.0.1/review-2.0.1.pom",
+      "path": "compliance/evidence/reconstruction-2026-10-09/maven/com.google.android.play.review-2.0.1.pom",
+      "sha256": "721731fd7132e776edd208f967edf038e23de6e650f0f055c42d46d9364bce74",
+      "licenses": [
+        {
+          "name": "Play Core Software Development Kit Terms of Service",
+          "url": "https://developer.android.com/guide/playcore/license"
+        }
+      ],
+      "status": "POM_METADATA_ONLY_NOT_RESOLVED_RELEASE_GRAPH"
+    },
+    {
+      "id": "maven:com.google.android.play:review-ktx",
+      "declaredVersion": "2.0.1",
+      "url": "https://dl.google.com/dl/android/maven2/com/google/android/play/review-ktx/2.0.1/review-ktx-2.0.1.pom",
+      "path": "compliance/evidence/reconstruction-2026-10-09/maven/com.google.android.play.review-ktx-2.0.1.pom",
+      "sha256": "2ed3fec6af3f3e81f2d4d06a421f2e5d6164f0640f33360a18566147f8d2a4ea",
+      "licenses": [
+        {
+          "name": "Play Core Software Development Kit Terms of Service",
+          "url": "https://developer.android.com/guide/playcore/license"
+        }
+      ],
+      "status": "POM_METADATA_ONLY_NOT_RESOLVED_RELEASE_GRAPH"
+    }
+  ],
+  "limitations": "POM declarations are metadata evidence, not resolved release graph or proof of final licence/NOTICE inclusion."
+}

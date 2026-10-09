@@ -1,0 +1,12 @@
+{
+  "command": "python Convert.py (with newline supplied to final input())",
+  "scope": "Separate directory containing exact current input files; application untouched.",
+  "exitCode": 0,
+  "stdout": "Done\n",
+  "stderr": "",
+  "generatedSha256": "16469269ba702e538b63467cc4c7bb380730d92c33ed938d3fbefac7889083e6",
+  "committedSha256": "16469269ba702e538b63467cc4c7bb380730d92c33ed938d3fbefac7889083e6",
+  "byteIdentical": true,
+  "semanticEqual": true,
+  "termsStatus": "UNRESOLVED; successful transform is not a licence grant."
+}

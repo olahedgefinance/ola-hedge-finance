@@ -1,0 +1,14 @@
+{
+  "package": "file_picker",
+  "locked_version": "6.0.1",
+  "locked_revision": "ccbb9a384491cc0759f94618bb3859411e228091",
+  "observed_head": "ccbb9a384491cc0759f94618bb3859411e228091",
+  "observed_status_porcelain": "",
+  "cached_checkout_remote": "C:\\Users\\Oluwa\\Documents\\Codex\\2026-09-18\\you-are-working-on-a-fork\\work\\pub-cache\\git\\cache\\flutter_file_picker-794f4cf36ebea767c31b92b1c0590500888bf2b9",
+  "cached_bare_remote_url": "https://github.com/melWiss/flutter_file_picker.git",
+  "git_optional_locks": "0",
+  "git_no_lazy_fetch": "1",
+  "ownership_exception": "Command-scoped safe.directory only; no configuration changed",
+  "podspec_checksum_verified": false,
+  "observed_utc": "2026-10-09T18:32:18.0654762Z"
+}

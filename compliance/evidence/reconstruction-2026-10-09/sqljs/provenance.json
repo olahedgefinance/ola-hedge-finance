@@ -1,0 +1,33 @@
+{
+  "version": "1.6.2",
+  "sourceCommit": "997d56fb954b63e76cf8d549c4660c972381768e",
+  "archiveUrl": "https://registry.npmjs.org/sql.js/-/sql.js-1.6.2.tgz",
+  "archiveSha256": "db9cf2355af013ef85ac0674fc30f8fa241df610d76ee8207926100d8212e46b",
+  "registryIntegrity": "sha512-9iucI5fXQa+Gspeqf/BNB20PxJIn5LhXDt4mjXoFPqXdR+NqtFs15SdKpSIJ6s529aGL9zFR9p2eSCIEiMsNGA==",
+  "registryIntegrityVerified": true,
+  "artifacts": [
+    {
+      "path": "budget/web/sql-wasm.js",
+      "sha256": "445a230a983e32656a548b1e13cceafaf4aeb2281361477af389243380e2f542",
+      "upstreamSha256": "c097dfa41a1c1fe9321ddf38fec3c4a191306ed4f185844db853a41514b83bbe",
+      "equivalence": "CRLF-to-LF only"
+    },
+    {
+      "path": "budget/web/worker.sql-wasm.js",
+      "sha256": "119e8e32fd46307f72f1e4aaf1fd71b423160fc8a20fa116e4ed1234b8c52d39",
+      "upstreamSha256": "4f3b69d7dc1dd8c1e51e0aac74a8e68ebdfded24d1d976709ed9cf4ba4660b41",
+      "equivalence": "CRLF-to-LF only"
+    },
+    {
+      "path": "budget/web/sql-wasm.wasm",
+      "sha256": "19119b55864eb5e7266dc526487840a0ad4f7e828512f32e387ef60a6b17028b",
+      "upstreamSha256": "19119b55864eb5e7266dc526487840a0ad4f7e828512f32e387ef60a6b17028b",
+      "equivalence": "byte-identical"
+    }
+  ],
+  "status": "verified-with-conditions",
+  "limitations": [
+    "No from-source Emscripten build performed.",
+    "Exact source archive, SQLite contribution/licensing mapping, distribution notices and release-specific binary mapping remain required."
+  ]
+}

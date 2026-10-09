@@ -1,0 +1,18 @@
+name: expandable_page_view
+description: A PageView widget adjusting it's height to currently displayed page
+version: 1.0.17
+homepage: https://github.com/Limbou/expandable_page_view
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

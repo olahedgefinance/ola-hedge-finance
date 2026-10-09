@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-09-25T00:00:00Z",
+  "upstreamProject": "Cashew",
+  "upstreamRepository": "https://github.com/jameskokoska/Cashew",
+  "upstreamLicense": "GPL-3.0-or-later",
+  "originalCopyrightNotice": "Cashew: an expense budget tracking application; Copyright (C) 2023 James Kokoska",
+  "rootLicensePath": "LICENSE",
+  "rootLicenseGitBlob": "f98d1bda4e0515a2a865ae338f0d0f25aa34925d",
+  "rootLicenseUnchangedByThisPhase": true,
+  "historyRetained": true,
+  "tagsRetained": true,
+  "upstreamRemoteName": "upstream",
+  "upstreamFetchUrl": "https://github.com/jameskokoska/Cashew.git",
+  "upstreamPushDisabled": true,
+  "expectedUpstreamPushUrl": "https://example.invalid/NO_PUSH",
+  "olaRepository": "https://github.com/olahedgefinance/ola-hedge-finance",
+  "relationship": "modified fork",
+  "claimsOriginalCashewOwnership": false,
+  "ownershipBoundary": "ÓLA HEDGE FINANCE Inc. may identify and own its original modifications and additions, subject to contributor agreements and applicable law; it does not own or claim authorship of original Cashew code merely because the product is rebranded or modified.",
+  "releaseRule": "Every distributed binary must map to exact Corresponding Source, build/install scripts, GPL and third-party notices, and an immutable source revision or tag.",
+  "legalReviewRequired": true
+}

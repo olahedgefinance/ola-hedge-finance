@@ -1,0 +1,2 @@
+# Preserve authenticated upstream bytes, including original whitespace and line endings.
+* -text -whitespace

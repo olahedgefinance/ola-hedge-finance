@@ -1,0 +1,18 @@
+name: supercharged_dart
+description: Supercharged brings all the comfort features from languages like Kotlin to all Dart developers.
+version: 2.1.1
+homepage: https://github.com/felixblaschke/supercharged
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dev_dependencies:
+  test: ^1.16.5
+  collection: ^1.15.0
+  lints: ^1.0.1
+dependencies:
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# Run doc
+# dartdoc --exclude 'dart:async,dart:collection,dart:convert,dart:core,dart:developer,dart:ffi,dart:html,dart:io,dart:isolate,dart:js,dart:js_util,dart:math,dart:typed_data,dart:ui'

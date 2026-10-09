@@ -1,0 +1,7 @@
+name: transparent_image
+description: A transparent image in Dart code, represented as a Uint8List.
+version: 2.0.1
+homepage: https://github.com/brianegan/transparent_image
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
