@@ -208,3 +208,4 @@ Case 'shallow or partial checkout cannot claim full-history preservation' {
     Assert ((Run $baseRepo $validator @('-ExpectedPath', $baseRepo)).Code -ne 0) 'Partial canonical repository accepted'
 }
 Write-Host "$script:passes cases passed; 0 failed. Fixtures retained: $testRoot"
+exit 0
