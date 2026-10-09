@@ -55,13 +55,6 @@
       "releaseGate": "Any public binary",
       "requiredAction": "Review the exact release graph and source licence files, populate the final third-party notice bundle without guessing, and obtain qualified approval before distribution.",
       "scope": "All distributed third-party components"
-    },
-    {
-      "finding": "Current canonical baseline still contains com.budget.tracker_app / com.budget.tracker-app in 10 files; surviving repository compliance audit rejects these.",
-      "id": "inherited-application-identifiers",
-      "releaseGate": "Repository audit and any public binary",
-      "requiredAction": "Separately review and authorise the application identity migration and its platform validation; do not import unrelated historical application commits.",
-      "scope": "Android/iOS application identity"
     }
   ],
   "components": [

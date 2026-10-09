@@ -49,8 +49,10 @@ void main() {
       'dapperappdeveloper@gmail.com': 'upstream support identity',
       'folderName = "Cashew"': 'upstream Drive folder',
       '267621253497': 'upstream Google/Firebase numeric identity',
-      'com.budget.tracker_app': 'temporary Android application ID',
-      'com.budget.tracker-app': 'temporary iOS bundle ID',
+      'com.budget.tracker_app': 'inherited Android application ID',
+      'com.budget.tracker-app': 'inherited iOS bundle ID',
+      'com.budget.budget.RunnerTests': 'inherited iOS test bundle ID',
+      'HCL9V2D3XY': 'unowned Apple signing team',
     };
     final violations = <String>[];
 
@@ -58,13 +60,7 @@ void main() {
       final path = _normalizedPath(file);
       final contents = file.readAsStringSync();
       for (final entry in forbidden.entries) {
-        final temporaryAndroidId = entry.key == 'com.budget.tracker_app' &&
-            path.startsWith('android/app/');
-        final temporaryIosId = entry.key == 'com.budget.tracker-app' &&
-            path.endsWith('ios/Runner.xcodeproj/project.pbxproj');
-        if (contents.contains(entry.key) &&
-            !temporaryAndroidId &&
-            !temporaryIosId) {
+        if (contents.contains(entry.key)) {
           violations.add('$path: ${entry.value}');
         }
       }

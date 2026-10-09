@@ -565,13 +565,6 @@
       "finding": "Package licence identifiers and evidence paths are inventoried, but a release-specific compilation of every required copyright, attribution, NOTICE, modification, and source notice has not yet been legally reviewed.",
       "requiredAction": "Review the exact release graph and source licence files, populate the final third-party notice bundle without guessing, and obtain qualified approval before distribution.",
       "releaseGate": "Any public binary"
-    },
-    {
-      "id": "inherited-application-identifiers",
-      "scope": "Android/iOS application identity",
-      "finding": "Current canonical baseline still contains com.budget.tracker_app / com.budget.tracker-app in 10 files; surviving repository compliance audit rejects these.",
-      "requiredAction": "Separately review and authorise the application identity migration and its platform validation; do not import unrelated historical application commits.",
-      "releaseGate": "Repository audit and any public binary"
     }
   ]
 }

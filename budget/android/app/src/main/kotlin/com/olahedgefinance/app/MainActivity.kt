@@ -1,4 +1,4 @@
-package com.budget.tracker_app
+package com.olahedgefinance.app
 
 import io.flutter.embedding.android.FlutterFragmentActivity
 

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "scope": "Technical application identity evidence only; no platform registration, signing, Firebase setup or release clearance.",
+  "startingDevelop": "eb4adf8b6b8d8117bdf5f9ffa7288c6e42e3e94f",
+  "startingReconstruction": "d87469876b8f61f134371a549c3982bb47651082",
+  "approvedIdentitySourceCommit": "53024f373b3cb66eb3e7c13d0f2afbe41a8a3287",
+  "approvedIdentitySourcePath": "docs/transformation/16_APPLICATION_IDENTITY_ARCHITECTURE.md",
+  "historicalCheckpoint": "NOT RECOVERED: 7f3209eebb270aaef11d875c0d214467619a0627",
+  "identifiers": {
+    "namespace": "com.olahedgefinance.app",
+    "development": "com.olahedgefinance.app.dev",
+    "staging": "com.olahedgefinance.app.staging",
+    "production": "com.olahedgefinance.app"
+  },
+  "retained": [
+    "Dart budget package/private metadata and iOS CFBundleName",
+    "Historical README/doc attribution and retained evidence bytes",
+    "Negative test and audit literals",
+    "Existing Firebase development configuration and root Google Services plugin condition",
+    "All dependency lockfiles and manual deployment script"
+  ],
+  "deferred": [
+    "Native Firebase apps/OAuth/signing/store registrations and production domain require owner/platform setup",
+    "Android/iOS builds: NOT TESTED — ENVIRONMENT BLOCKER",
+    "Podfile.lock PODFILE CHECKSUM must be reconciled by real CocoaPods on macOS; dependency versions unchanged",
+    "Native callers must select --flavor explicitly; unchanged manual deploy helper is not native-release validation"
+  ],
+  "scopeRationale": "The approved environment matrix needs Gradle flavors, Kotlin namespace routing, nine Xcode/Pods configurations and three schemes. Explicit widget class names avoid application-ID suffix lookup failures. No unrelated Phase 2C changes were imported.",
+  "gate": "Owner permits evidence-only checkpoint after technical tests. Eight remaining release gap groups still block shipping; Phase 2A is not complete."
+}

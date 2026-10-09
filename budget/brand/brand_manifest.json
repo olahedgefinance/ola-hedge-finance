@@ -10,9 +10,20 @@
     "upstreamRepository": "https://github.com/jameskokoska/Cashew"
   },
   "preservedCompatibility": [
-    "application-identifiers-pending-owner-approval",
     "database-and-migrations",
     "historical-backup-wording",
     "source-and-license-references"
-  ]
+  ],
+  "identity": {
+    "android": {
+      "development": "com.olahedgefinance.app.dev",
+      "staging": "com.olahedgefinance.app.staging",
+      "production": "com.olahedgefinance.app"
+    },
+    "ios": {
+      "development": "com.olahedgefinance.app.dev",
+      "staging": "com.olahedgefinance.app.staging",
+      "production": "com.olahedgefinance.app"
+    }
+  }
 }

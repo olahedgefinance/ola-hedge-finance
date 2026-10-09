@@ -10,7 +10,35 @@
     },
     {
       "path": "budget/android/app/build.gradle",
-      "sha256": "0aca3cbca5ea6591d86132b920ff0e2a0ac3ba7c5388b4b1c0ad8692cce8c5a4"
+      "sha256": "cf6275c41dfef892fea8ee795e45ee68f16b6c1816374abee5c73042cc4577a0"
+    },
+    {
+      "path": "budget/android/app/src/debug/AndroidManifest.xml",
+      "sha256": "f04aca15c73d14818d2ae3cc9945c32d0dd4dfd8beb68d4cfa3fff50b9f083fd"
+    },
+    {
+      "path": "budget/android/app/src/main/AndroidManifest.xml",
+      "sha256": "58160aa8cca6183b444e3a19a8b9ffaecd752a09c9345741a31209da0c3f92a5"
+    },
+    {
+      "path": "budget/android/app/src/main/kotlin/com/olahedgefinance/app/MainActivity.kt",
+      "sha256": "83335c11569c0c93bd36c62d413a768b450850098649f3e217a3e705a0a8494e"
+    },
+    {
+      "path": "budget/android/app/src/main/kotlin/com/olahedgefinance/app/NetWorthPlusWidgetProvider.kt",
+      "sha256": "e58f3bb26894047c58027aec4ea136a3d7c6e1a42495351119b3c9c26910d00d"
+    },
+    {
+      "path": "budget/android/app/src/main/kotlin/com/olahedgefinance/app/NetWorthWidgetProvider.kt",
+      "sha256": "eec68411db48c72ebffde34ac36f2cbe2319f275f3b3e5a28813d71f4b0fe6e3"
+    },
+    {
+      "path": "budget/android/app/src/main/kotlin/com/olahedgefinance/app/PlusWidgetProvider.kt",
+      "sha256": "e9a52f1bceca8d49593b9d5a431b9d6527e1f924ce54ce68111bdcbd6b0cbd5e"
+    },
+    {
+      "path": "budget/android/app/src/main/kotlin/com/olahedgefinance/app/TransferWidgetProvider.kt",
+      "sha256": "e8df81930a0169125791ae6dde9bc39b39de914921521fe50f0db10ce6e2e3e4"
     },
     {
       "path": "budget/android/app/src/main/res/drawable/addtransaction.png",
@@ -139,6 +167,10 @@
     {
       "path": "budget/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_monochrome.png",
       "sha256": "50046074cfccd1568765cbd90018fa5d15b51de8435ac542fc760ea58634a62e"
+    },
+    {
+      "path": "budget/android/app/src/profile/AndroidManifest.xml",
+      "sha256": "f04aca15c73d14818d2ae3cc9945c32d0dd4dfd8beb68d4cfa3fff50b9f083fd"
     },
     {
       "path": "budget/android/build.gradle",
@@ -1409,8 +1441,68 @@
       "sha256": "97f9d3a51c3df2e21cdfbbd814c887e0180085bde09bab54f68ea55995000b3c"
     },
     {
+      "path": "budget/brand/brand_manifest.json",
+      "sha256": "5463e189ae15721be0863c8fc8a477eef4d1a6dd410415b6842a1a8a4df6e933"
+    },
+    {
+      "path": "budget/ios/Flutter/Debug-development.xcconfig",
+      "sha256": "77b1ef8212f63b684c7704ce855f325a808367d54cfb07cf6a38278861b687c4"
+    },
+    {
+      "path": "budget/ios/Flutter/Debug-production.xcconfig",
+      "sha256": "f6132e1d0a77fb6e368881344cc9f61c96b6abb250f3e1ecf7317de5252cf5f6"
+    },
+    {
+      "path": "budget/ios/Flutter/Debug-staging.xcconfig",
+      "sha256": "98d89bd75a403933dd7f3edc5a0e2c9a8152be3595191e65a5597542935aefb5"
+    },
+    {
+      "path": "budget/ios/Flutter/Profile-development.xcconfig",
+      "sha256": "07f3a40d34b4af3b28e111b438b6a4597abc45352d87e93fdea8c5bc20562e6b"
+    },
+    {
+      "path": "budget/ios/Flutter/Profile-production.xcconfig",
+      "sha256": "2d72a1af29aa6bea1bd615cdf637280512026ac4008a40bf729a4ad90ff804f5"
+    },
+    {
+      "path": "budget/ios/Flutter/Profile-staging.xcconfig",
+      "sha256": "e36286065f02e5b4d5858a23627e221b00858297ed7235e20eb6ba901651cba6"
+    },
+    {
+      "path": "budget/ios/Flutter/Release-development.xcconfig",
+      "sha256": "247df407f1ff61b9ef2e8b14c6e0bae71aeb019f8da7df39b808bbf8b2dccd01"
+    },
+    {
+      "path": "budget/ios/Flutter/Release-production.xcconfig",
+      "sha256": "026c6910488860cb15ac7ce5683dbcd5604d6a37b65008f6f14964149640c0e7"
+    },
+    {
+      "path": "budget/ios/Flutter/Release-staging.xcconfig",
+      "sha256": "d8ddc3ee429d7ef42c698a3f021cc103acd8be473dc89b42d06f7c718936e4bb"
+    },
+    {
+      "path": "budget/ios/Podfile",
+      "sha256": "b0c71ebd68e403f7c0e6056be699ac914b6c162aebfb867064501f62d8139441"
+    },
+    {
       "path": "budget/ios/Podfile.lock",
       "sha256": "a1ba8cc361413512b07015a828c9e4682d060166db95873c39d97108f9a3dbc5"
+    },
+    {
+      "path": "budget/ios/Runner.xcodeproj/project.pbxproj",
+      "sha256": "7b5b1954e8721087fa389100690c8ec58fd05effc9a5cadd90a7fb04ec7485ff"
+    },
+    {
+      "path": "budget/ios/Runner.xcodeproj/xcshareddata/xcschemes/development.xcscheme",
+      "sha256": "14542eabe6d4da9b6032c11950054cfe29b3f8916aff2fe571d0733465d197fd"
+    },
+    {
+      "path": "budget/ios/Runner.xcodeproj/xcshareddata/xcschemes/production.xcscheme",
+      "sha256": "00a5bff192e5a7c61f3fef4a30945757af28cfc2b3b4157a67684aae556f9a1f"
+    },
+    {
+      "path": "budget/ios/Runner.xcodeproj/xcshareddata/xcschemes/staging.xcscheme",
+      "sha256": "bd74e690ac5dda380691aba3e73ad594a0f761de3d9798c23ce113897a575939"
     },
     {
       "path": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-20@2x.png",
@@ -1533,6 +1625,10 @@
       "sha256": "7d18b4db2e62c23a15edfc284050016dbfdeb7e6df419bdf4c9f86d1b2da6679"
     },
     {
+      "path": "budget/lib/widgets/util/checkWidgetLaunch.dart",
+      "sha256": "0ce72b31930856856490957d552d4888f93f5f22aa0aa1a13d920fbfc5abb4d8"
+    },
+    {
       "path": "budget/packages/implicitly_animated_reorderable_list-0.4.2-modified/assets/demo.gif",
       "sha256": "91d37606002681127b010e91bc3c714d2da100572cf680d5779843d0176981f9"
     },
@@ -1589,6 +1685,22 @@
       "sha256": "1dcc4e40416370eacd22b7c57e2a2c385e6613f37a8b5942832c1b5966536c48"
     },
     {
+      "path": "budget/test/brand/brand_manifest_contract_test.dart",
+      "sha256": "f6a7ff1a84fdfb934aba2168321f5afb263b2759c9531c5f4864b3558f347d95"
+    },
+    {
+      "path": "budget/test/config/application_identity_architecture_test.dart",
+      "sha256": "8445e62924aaf8b61d226bc3d05c0fd02a65e9b9f960f388295f40fc396260e5"
+    },
+    {
+      "path": "budget/test/config/original_infrastructure_guard_test.dart",
+      "sha256": "ee1efcdb4075b0078fff0968a009b8a40449f2a5a33218b294da4a2c3b07df7a"
+    },
+    {
+      "path": "budget/tool/compliance/release_compliance.dart",
+      "sha256": "3c481478c5eef9e267cc79cf05bd8de5e88818aaa56a18b5f0528102f9f05de9"
+    },
+    {
       "path": "budget/web/favicon.ico",
       "sha256": "057f44a07d3a9aaeaaf0ff8d463f53de7fc82fbd0c00e7f1e2873dc359cb74f6"
     },
@@ -1610,7 +1722,19 @@
     },
     {
       "path": "compliance/components/non_pub_components.json",
-      "sha256": "dac7f72b827803bd7cf57fd3708727ba8e94ba550fe22d36dbd7686781c113bf"
+      "sha256": "63a0bdfac29fcd4fe04eebacfef8175c5c495d6fb144250d8d401fb567952a6b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/application-identity/approved-identity-source.md",
+      "sha256": "f16fa3ee9170811b5175908cd1ffa458bfcd03ba646f6bf253198ad302f51304"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/application-identity/manifest.json",
+      "sha256": "306e24371077b9c2b529d56dca0b813e4b70cfdad4c24b8b5bcd963e39622e6f"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/application-identity/occurrences-before.json",
+      "sha256": "fdb8649853ca646055861b59ae2fe85f6372f60586ec075b527b116675759d80"
     },
     {
       "path": "compliance/evidence/reconstruction-2026-10-09/asset-dataset-investigation.md",

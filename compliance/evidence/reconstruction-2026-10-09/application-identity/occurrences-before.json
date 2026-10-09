@@ -1,0 +1,260 @@
+[
+  {
+    "path": "README.md",
+    "line": 17,
+    "text": "  <a href=\"https://play.google.com/store/apps/details?id=com.budget.tracker_app\">",
+    "classification": "Historical documentation/upstream source attribution; retain"
+  },
+  {
+    "path": "README.md",
+    "line": 105,
+    "text": "This application is available on the [App Store](https://apps.apple.com/us/app/cashew-expense-budget-tracker/id6463662930), [Google Play](https://play.google.com/store/apps/details?id=com.budget.tracker_app), [GitHub](https://github.com/jameskokoska/Cashew/releases/) and as a [Web App (PWA)](https://budget-track.web.app/).",
+    "classification": "Historical documentation/upstream source attribution; retain"
+  },
+  {
+    "path": "budget/android/app/build.gradle",
+    "line": 48,
+    "text": "        applicationId \"com.budget.tracker_app\"",
+    "classification": "Android runtime application identity / package namespace"
+  },
+  {
+    "path": "budget/android/app/src/debug/AndroidManifest.xml",
+    "line": 2,
+    "text": "    package=\"com.budget.tracker_app\">",
+    "classification": "Android runtime application identity / package namespace"
+  },
+  {
+    "path": "budget/android/app/src/main/AndroidManifest.xml",
+    "line": 2,
+    "text": "    package=\"com.budget.tracker_app\">",
+    "classification": "Android runtime application identity / package namespace"
+  },
+  {
+    "path": "budget/android/app/src/main/kotlin/com/example/budget/MainActivity.kt",
+    "line": 1,
+    "text": "package com.budget.tracker_app",
+    "classification": "Android runtime application identity / package namespace"
+  },
+  {
+    "path": "budget/android/app/src/main/kotlin/com/example/budget/NetWorthPlusWidgetProvider.kt",
+    "line": 1,
+    "text": "package com.budget.tracker_app",
+    "classification": "Android runtime application identity / package namespace"
+  },
+  {
+    "path": "budget/android/app/src/main/kotlin/com/example/budget/NetWorthWidgetProvider.kt",
+    "line": 1,
+    "text": "package com.budget.tracker_app",
+    "classification": "Android runtime application identity / package namespace"
+  },
+  {
+    "path": "budget/android/app/src/main/kotlin/com/example/budget/PlusWidgetProvider.kt",
+    "line": 1,
+    "text": "package com.budget.tracker_app",
+    "classification": "Android runtime application identity / package namespace"
+  },
+  {
+    "path": "budget/android/app/src/main/kotlin/com/example/budget/TransferWidgetProvider.kt",
+    "line": 1,
+    "text": "package com.budget.tracker_app",
+    "classification": "Android runtime application identity / package namespace"
+  },
+  {
+    "path": "budget/android/app/src/profile/AndroidManifest.xml",
+    "line": 2,
+    "text": "    package=\"com.budget.tracker_app\">",
+    "classification": "Android runtime application identity / package namespace"
+  },
+  {
+    "path": "budget/ios/Runner.xcodeproj/project.pbxproj",
+    "line": 494,
+    "text": "\t\t\t\tDEVELOPMENT_TEAM = HCL9V2D3XY;",
+    "classification": "iOS signing identity"
+  },
+  {
+    "path": "budget/ios/Runner.xcodeproj/project.pbxproj",
+    "line": 504,
+    "text": "\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = \"com.budget.tracker-app\";",
+    "classification": "iOS runtime bundle identifier"
+  },
+  {
+    "path": "budget/ios/Runner.xcodeproj/project.pbxproj",
+    "line": 522,
+    "text": "\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = com.budget.budget.RunnerTests;",
+    "classification": "iOS test-target identifier"
+  },
+  {
+    "path": "budget/ios/Runner.xcodeproj/project.pbxproj",
+    "line": 540,
+    "text": "\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = com.budget.budget.RunnerTests;",
+    "classification": "iOS test-target identifier"
+  },
+  {
+    "path": "budget/ios/Runner.xcodeproj/project.pbxproj",
+    "line": 556,
+    "text": "\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = com.budget.budget.RunnerTests;",
+    "classification": "iOS test-target identifier"
+  },
+  {
+    "path": "budget/ios/Runner.xcodeproj/project.pbxproj",
+    "line": 682,
+    "text": "\t\t\t\tDEVELOPMENT_TEAM = HCL9V2D3XY;",
+    "classification": "iOS signing identity"
+  },
+  {
+    "path": "budget/ios/Runner.xcodeproj/project.pbxproj",
+    "line": 692,
+    "text": "\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = \"com.budget.tracker-app\";",
+    "classification": "iOS runtime bundle identifier"
+  },
+  {
+    "path": "budget/ios/Runner.xcodeproj/project.pbxproj",
+    "line": 712,
+    "text": "\t\t\t\tDEVELOPMENT_TEAM = HCL9V2D3XY;",
+    "classification": "iOS signing identity"
+  },
+  {
+    "path": "budget/ios/Runner.xcodeproj/project.pbxproj",
+    "line": 722,
+    "text": "\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = \"com.budget.tracker-app\";",
+    "classification": "iOS runtime bundle identifier"
+  },
+  {
+    "path": "budget/test/brand/brand_manifest_contract_test.dart",
+    "line": 158,
+    "text": "    expect(androidGradle, contains('applicationId \"com.budget.tracker_app\"'));",
+    "classification": "Test expectation or negative guard literal"
+  },
+  {
+    "path": "budget/test/config/original_infrastructure_guard_test.dart",
+    "line": 52,
+    "text": "      'com.budget.tracker_app': 'temporary Android application ID',",
+    "classification": "Test expectation or negative guard literal"
+  },
+  {
+    "path": "budget/test/config/original_infrastructure_guard_test.dart",
+    "line": 53,
+    "text": "      'com.budget.tracker-app': 'temporary iOS bundle ID',",
+    "classification": "Test expectation or negative guard literal"
+  },
+  {
+    "path": "budget/test/config/original_infrastructure_guard_test.dart",
+    "line": 61,
+    "text": "        final temporaryAndroidId = entry.key == 'com.budget.tracker_app' &&",
+    "classification": "Test expectation or negative guard literal"
+  },
+  {
+    "path": "budget/test/config/original_infrastructure_guard_test.dart",
+    "line": 63,
+    "text": "        final temporaryIosId = entry.key == 'com.budget.tracker-app' &&",
+    "classification": "Test expectation or negative guard literal"
+  },
+  {
+    "path": "budget/tool/compliance/release_compliance.dart",
+    "line": 468,
+    "text": "    'com.budget.tracker_app',",
+    "classification": "Audit negative-match rule; retain"
+  },
+  {
+    "path": "budget/tool/compliance/release_compliance.dart",
+    "line": 469,
+    "text": "    'com.budget.tracker-app',",
+    "classification": "Audit negative-match rule; retain"
+  },
+  {
+    "path": "compliance/OPEN_SOURCE_COMPONENTS.md",
+    "line": 351,
+    "text": "| Android/iOS application identity | Current canonical baseline still contains com.budget.tracker_app / com.budget.tracker-app in 10 files; surviving repository compliance audit rejects these. | Separately review and authorise the application identity migration and its platform validation; do not import unrelated historical application commits. | Repository audit and any public binary |",
+    "classification": "Current compliance input/generated gap; update only after audit passes"
+  },
+  {
+    "path": "compliance/components/non_pub_components.json",
+    "line": 572,
+    "text": "      \"finding\": \"Current canonical baseline still contains com.budget.tracker_app / com.budget.tracker-app in 10 files; surviving repository compliance audit rejects these.\",",
+    "classification": "Current compliance input/generated gap; update only after audit passes"
+  },
+  {
+    "path": "compliance/evidence/reconstruction-2026-10-09/native/inputs/budget/android/app/build.gradle",
+    "line": 48,
+    "text": "        applicationId \"com.budget.tracker_app\"",
+    "classification": "Historical source evidence; preserve exact bytes"
+  },
+  {
+    "path": "compliance/inventory/current-components.json",
+    "line": 60,
+    "text": "      \"finding\": \"Current canonical baseline still contains com.budget.tracker_app / com.budget.tracker-app in 10 files; surviving repository compliance audit rejects these.\",",
+    "classification": "Current compliance input/generated gap; update only after audit passes"
+  },
+  {
+    "path": "compliance/reports/current-components.md",
+    "line": 351,
+    "text": "| Android/iOS application identity | Current canonical baseline still contains com.budget.tracker_app / com.budget.tracker-app in 10 files; surviving repository compliance audit rejects these. | Separately review and authorise the application identity migration and its platform validation; do not import unrelated historical application commits. | Repository audit and any public binary |",
+    "classification": "Current compliance input/generated gap; update only after audit passes"
+  },
+  {
+    "path": "docs/superpowers/plans/2026-09-18-ola-edge-finance-brand-foundation.md",
+    "line": 196,
+    "text": "expect(androidGradle, contains('applicationId \"com.budget.tracker_app\"'));",
+    "classification": "Historical documentation/upstream source attribution; retain"
+  },
+  {
+    "path": "docs/superpowers/plans/2026-09-18-ola-edge-finance-brand-foundation.md",
+    "line": 197,
+    "text": "expect(androidManifest, contains('package=\"com.budget.tracker_app\"'));",
+    "classification": "Historical documentation/upstream source attribution; retain"
+  },
+  {
+    "path": "docs/superpowers/plans/2026-09-18-ola-edge-finance-brand-foundation.md",
+    "line": 199,
+    "text": "expect(iosProject, contains('PRODUCT_BUNDLE_IDENTIFIER = \"com.budget.tracker-app\"'));",
+    "classification": "Historical documentation/upstream source attribution; retain"
+  },
+  {
+    "path": "docs/transformation/01_CODEBASE_AUDIT.md",
+    "line": 72,
+    "text": "- Android application ID: `com.budget.tracker_app`.",
+    "classification": "Historical documentation/upstream source attribution; retain"
+  },
+  {
+    "path": "docs/transformation/01_CODEBASE_AUDIT.md",
+    "line": 73,
+    "text": "- iOS application bundle ID: `com.budget.tracker-app`.",
+    "classification": "Historical documentation/upstream source attribution; retain"
+  },
+  {
+    "path": "docs/transformation/01_CODEBASE_AUDIT.md",
+    "line": 84,
+    "text": "The Android project uses application ID `com.budget.tracker_app`, minimum SDK 23, compile/target SDK 34, Android Gradle Plugin 7.3.1, Gradle 7.5, Kotlin 1.9.0, and Java 8/desugaring configuration. The manifest includes billing, biometric, notification, boot/scheduling, storage/media, deep-link, home-widget, and notification-listener integration. The label and link host are Cashew-specific. Kotlin source files live in an older directory structure while declaring the current application package, which should be normalized only during the controlled identifier migration.",
+    "classification": "Historical documentation/upstream source attribution; retain"
+  },
+  {
+    "path": "docs/transformation/01_CODEBASE_AUDIT.md",
+    "line": 88,
+    "text": "The iOS bundle identifier is `com.budget.tracker-app`. The project contains Cashew display/permission text, Google OAuth URL-scheme configuration, push entitlement, and the associated domain for the Cashew web host. The test target retains an older bundle naming pattern. Signing, capabilities, Google sign-in, links, notifications, biometrics, camera/photo access, IAP, and widgets require verification on macOS/Xcode.",
+    "classification": "Historical documentation/upstream source attribution; retain"
+  },
+  {
+    "path": "docs/transformation/05_BRAND_SEPARATION.md",
+    "line": 24,
+    "text": "| Android | Application ID `com.budget.tracker_app`, manifest label, deep-link host, widget/service metadata | Choose a permanent reverse-DNS ID; update source paths, manifests, Firebase app, store listing, signing, links, and tests together |",
+    "classification": "Historical documentation/upstream source attribution; retain"
+  },
+  {
+    "path": "docs/transformation/05_BRAND_SEPARATION.md",
+    "line": 25,
+    "text": "| iOS | Bundle ID `com.budget.tracker-app`, display name, URL schemes, associated domain, usage strings | Register a new App ID and capabilities; update entitlements, OAuth scheme, signing, and tests |",
+    "classification": "Historical documentation/upstream source attribution; retain"
+  },
+  {
+    "path": "docs/transformation/14_INFRASTRUCTURE_SEPARATION.md",
+    "line": 34,
+    "text": "| Android application ID | `com.budget.tracker_app` and source namespace | KEEP TEMPORARILY | Candidate replacement documented; owner/store approval required |",
+    "classification": "Historical documentation/upstream source attribution; retain"
+  },
+  {
+    "path": "docs/transformation/14_INFRASTRUCTURE_SEPARATION.md",
+    "line": 35,
+    "text": "| iOS bundle ID | `com.budget.tracker-app`; test IDs use `com.budget...` | KEEP TEMPORARILY | Candidate replacement documented; Apple registration required |",
+    "classification": "Historical documentation/upstream source attribution; retain"
+  }
+]

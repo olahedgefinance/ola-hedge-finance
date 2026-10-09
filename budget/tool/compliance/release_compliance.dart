@@ -467,6 +467,8 @@ Future<List<String>> _validateOriginalServiceIdentity(
     'FIREBASE_SERVICE_ACCOUNT_BUDGET_APP_FLUTTER',
     'com.budget.tracker_app',
     'com.budget.tracker-app',
+    'com.budget.budget.RunnerTests',
+    'HCL9V2D3XY',
   ];
   const extensions = <String>[
     '.dart',

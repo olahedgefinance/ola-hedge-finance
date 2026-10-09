@@ -145,15 +145,19 @@ Future updateWidgetColorsAndText(BuildContext context) async {
     );
     await HomeWidget.updateWidget(
       name: 'NetWorthWidgetProvider',
+      qualifiedAndroidName: 'com.olahedgefinance.app.NetWorthWidgetProvider',
     );
     await HomeWidget.updateWidget(
       name: 'NetWorthPlusWidgetProvider',
+      qualifiedAndroidName: 'com.olahedgefinance.app.NetWorthPlusWidgetProvider',
     );
     await HomeWidget.updateWidget(
       name: 'PlusWidgetProvider',
+      qualifiedAndroidName: 'com.olahedgefinance.app.PlusWidgetProvider',
     );
     await HomeWidget.updateWidget(
       name: 'TransferWidgetProvider',
+      qualifiedAndroidName: 'com.olahedgefinance.app.TransferWidgetProvider',
     );
   });
 
@@ -214,9 +218,11 @@ class RenderHomePageWidgetsState extends State<RenderHomePageWidgets> {
                 );
                 await HomeWidget.updateWidget(
                   name: 'NetWorthWidgetProvider',
+                  qualifiedAndroidName: 'com.olahedgefinance.app.NetWorthWidgetProvider',
                 );
                 await HomeWidget.updateWidget(
                   name: 'NetWorthPlusWidgetProvider',
+                  qualifiedAndroidName: 'com.olahedgefinance.app.NetWorthPlusWidgetProvider',
                 );
               });
 

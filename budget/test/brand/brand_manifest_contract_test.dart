@@ -122,7 +122,7 @@ void main() {
       RegExp('INFOPLIST_KEY_CFBundleDisplayName = ÓLA HEDGE FINANCE;')
           .allMatches(iosProject)
           .length,
-      3,
+      9,
     );
   });
 
@@ -155,7 +155,7 @@ void main() {
     final databaseSource = _read('lib/database/tables.dart');
     final license = _read('../LICENSE');
 
-    expect(androidGradle, contains('applicationId "com.budget.tracker_app"'));
+    expect(androidGradle, contains('applicationId "com.olahedgefinance.app"'));
     expect(databaseSource, contains('schemaVersionGlobal = 47'));
     expect(license, contains('GNU GENERAL PUBLIC LICENSE'));
     expect(license, contains('Cashew: an expense budget tracking application'));
