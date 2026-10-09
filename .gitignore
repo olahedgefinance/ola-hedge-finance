@@ -2,3 +2,10 @@
 /.vscode/
 /tool-home/
 /tooling/
+
+# Local recovery payloads are not normal source history. Keep documentation.
+/recovery/checkpoints/*
+!/recovery/checkpoints/README.md
+*.bundle
+# Generated, machine-specific final setup report (preserve with recovery output).
+/CANONICAL_REPOSITORY_SETUP_REPORT.md
