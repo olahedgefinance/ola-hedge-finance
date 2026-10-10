@@ -1,0 +1,140 @@
+[
+  {
+    "path": "benchmark/benchmark.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/implicitly_animated_reorderable_list.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/custom_sliver_animated_list.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/diff/diff.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/diff/diff_callback.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/diff/diff_delegate.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/diff/diff_model.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/diff/myers_diff.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/diff/path_node.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/handle.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/implicitly_animated_list.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/implicitly_animated_list_base.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/implicitly_animated_reorderable_list.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/reorderable.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/src.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/transitions/size_fade_transition.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/transitions/transitions.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/util/handler.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/util/invisible.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/util/key_extensions.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/util/util.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/transitions.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "test/diff_test.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  }
+]

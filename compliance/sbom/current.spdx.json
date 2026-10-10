@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-Package-ola-hedge-finance"
   ],
-  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/54b2faebe6d1adc7",
+  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/44ef3effc9dda283",
   "name": "ola-hedge-finance-5.4.3+416",
   "packages": [
     {
@@ -2811,7 +2811,7 @@
     },
     {
       "SPDXID": "SPDXRef-Package-pub-file-picker-6.0.1",
-      "comment": "ecosystem=pub; relationship=direct-runtime; source=git; distributed=true; modified=true; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:file_picker; retained authenticated notice set; sourceRepository=https://github.com/miguelpruivo/flutter_file_picker; notes=Git fork selected to implement flutter_file_picker issue 1404; exact fork delta requires release review.",
+      "comment": "ecosystem=pub; relationship=direct-runtime; source=git; distributed=true; modified=true; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:file_picker; retained authenticated notice set; sourceRepository=https://github.com/miguelpruivo/flutter_file_picker; notes=Modified source comparison verified; compliance/evidence/reconstruction-2026-10-09/forks/manifest.json#file_picker records exact baseline, target, complete delta and modification notice. Published archive baselines do not assert historical Git ancestry. Release notices, native verification and legal clearance remain separate.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://github.com/melWiss/flutter_file_picker.git#ccbb9a384491cc0759f94618bb3859411e228091",
       "externalRefs": [
@@ -4281,7 +4281,7 @@
     },
     {
       "SPDXID": "SPDXRef-Package-pub-implicitly-animated-reorderable-list-0.4.2",
-      "comment": "ecosystem=pub; relationship=direct-runtime; source=path; distributed=true; modified=true; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:implicitly_animated_reorderable_list; retained authenticated notice set; sourceRepository=https://github.com/BendixMa/implicitly_animated_reorderable_list/tree/master/example/lib/ui; notes=Repository-vendored directory is explicitly named 0.4.2-modified; local MIT licence retained.",
+      "comment": "ecosystem=pub; relationship=direct-runtime; source=path; distributed=true; modified=true; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:implicitly_animated_reorderable_list; retained authenticated notice set; sourceRepository=https://github.com/BendixMa/implicitly_animated_reorderable_list/tree/master/example/lib/ui; notes=Modified source comparison verified; compliance/evidence/reconstruction-2026-10-09/forks/manifest.json#implicitly_animated_reorderable_list records exact baseline, target, complete delta and modification notice. Published archive baselines do not assert historical Git ancestry. Release notices, native verification and legal clearance remain separate.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://github.com/olahedgefinance/ola-hedge-finance",
       "externalRefs": [
@@ -5675,7 +5675,7 @@
     },
     {
       "SPDXID": "SPDXRef-Package-pub-reorderable-grid-view-2.2.6",
-      "comment": "ecosystem=pub; relationship=direct-runtime; source=git; distributed=true; modified=true; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:reorderable_grid_view; retained authenticated notice set; sourceRepository=https://github.com/huhuang03/reorderable_grid_view; notes=Git-hosted Cashew fork rather than the hosted package; exact fork delta requires release review.",
+      "comment": "ecosystem=pub; relationship=direct-runtime; source=git; distributed=true; modified=true; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:reorderable_grid_view; retained authenticated notice set; sourceRepository=https://github.com/huhuang03/reorderable_grid_view; notes=Modified source comparison verified; compliance/evidence/reconstruction-2026-10-09/forks/manifest.json#reorderable_grid_view records exact baseline, target, complete delta and modification notice. Published archive baselines do not assert historical Git ancestry. Release notices, native verification and legal clearance remain separate.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://github.com/jameskokoska/reorderable_grid_view#ad913fc157323c3dca9e05628e575f54b3c2b8b6",
       "externalRefs": [
@@ -6088,7 +6088,7 @@
     },
     {
       "SPDXID": "SPDXRef-Package-pub-sliding-sheet-0.5.2",
-      "comment": "ecosystem=pub; relationship=direct-runtime; source=path; distributed=true; modified=true; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:sliding_sheet; retained authenticated notice set; sourceRepository=https://github.com/bxqm/sliding_sheet; notes=Repository-vendored directory is explicitly named 0.5.2-modified; local MIT licence retained.",
+      "comment": "ecosystem=pub; relationship=direct-runtime; source=path; distributed=true; modified=true; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:sliding_sheet; retained authenticated notice set; sourceRepository=https://github.com/bxqm/sliding_sheet; notes=Modified source comparison verified; compliance/evidence/reconstruction-2026-10-09/forks/manifest.json#sliding_sheet records exact baseline, target, complete delta and modification notice. Published archive baselines do not assert historical Git ancestry. Release notices, native verification and legal clearance remain separate.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://github.com/olahedgefinance/ola-hedge-finance",
       "externalRefs": [

@@ -1,0 +1,82 @@
+[
+  {
+    "path": "android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerDelegate.java",
+    "kind": "modified",
+    "before": {
+      "path": "android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerDelegate.java",
+      "mode": "100644",
+      "sha256": "97d8cae358222a074b0372d26f91ed56a49a4eb23a048ec186fbc4a3c2f0c57c",
+      "lfSha256": "97d8cae358222a074b0372d26f91ed56a49a4eb23a048ec186fbc4a3c2f0c57c",
+      "size": 13799,
+      "gitBlob": "7b938a64cf22d10071d863eafdff45ae4cbca79c"
+    },
+    "after": {
+      "path": "android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerDelegate.java",
+      "mode": "100644",
+      "sha256": "0da21c7fcad1d4e2b22ee32704c438b0e83f1abaf549a82485e12bf88068e876",
+      "lfSha256": "0da21c7fcad1d4e2b22ee32704c438b0e83f1abaf549a82485e12bf88068e876",
+      "size": 14458,
+      "gitBlob": "34b76a1297700ba395f208740fa40d27cdf09ea4"
+    }
+  },
+  {
+    "path": "android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerPlugin.java",
+    "kind": "modified",
+    "before": {
+      "path": "android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerPlugin.java",
+      "mode": "100644",
+      "sha256": "f5567304ed3a61d621de64156f03fd80cd722491bcb409f7fd4728e410c343a3",
+      "lfSha256": "f5567304ed3a61d621de64156f03fd80cd722491bcb409f7fd4728e410c343a3",
+      "size": 11856,
+      "gitBlob": "585b24597aa0b0c30030374d483c2360c7b67d65"
+    },
+    "after": {
+      "path": "android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerPlugin.java",
+      "mode": "100644",
+      "sha256": "e356af929c5c35a78b857dcf81be07fb4143993ec4e188c5859c5c3be336758e",
+      "lfSha256": "e356af929c5c35a78b857dcf81be07fb4143993ec4e188c5859c5c3be336758e",
+      "size": 11920,
+      "gitBlob": "2f7bef10fc5208c29c4beed276e8406250d96341"
+    }
+  },
+  {
+    "path": "lib/src/file_picker_io.dart",
+    "kind": "modified",
+    "before": {
+      "path": "lib/src/file_picker_io.dart",
+      "mode": "100644",
+      "sha256": "72012336f27ae91afbf161a4be4ef3904a7ffe083169f6d524130c6543e32395",
+      "lfSha256": "72012336f27ae91afbf161a4be4ef3904a7ffe083169f6d524130c6543e32395",
+      "size": 3801,
+      "gitBlob": "2dc5df505ebdc82bd4b7de4a8d26aa198722d798"
+    },
+    "after": {
+      "path": "lib/src/file_picker_io.dart",
+      "mode": "100644",
+      "sha256": "db13221a63de264cb3b291c50f2f99e1a7180675a152ed6ecfcfc0a93d3a0614",
+      "lfSha256": "db13221a63de264cb3b291c50f2f99e1a7180675a152ed6ecfcfc0a93d3a0614",
+      "size": 3883,
+      "gitBlob": "74365aa94bb8b2cb89eeece46d21e39eef65c8f3"
+    }
+  },
+  {
+    "path": "pubspec.yaml",
+    "kind": "modified",
+    "before": {
+      "path": "pubspec.yaml",
+      "mode": "100644",
+      "sha256": "1d6ca0b57fb08877aeda47ec5ced19a3918300a275792e8660acef115f1eae8d",
+      "lfSha256": "1d6ca0b57fb08877aeda47ec5ced19a3918300a275792e8660acef115f1eae8d",
+      "size": 1164,
+      "gitBlob": "3e297bdd974811e0d7ce24db0519029e7fab0b8b"
+    },
+    "after": {
+      "path": "pubspec.yaml",
+      "mode": "100644",
+      "sha256": "6f259cd1b017b702663ab45f91695e363701b1f92bfbb8e42595fc637141c9e2",
+      "lfSha256": "6f259cd1b017b702663ab45f91695e363701b1f92bfbb8e42595fc637141c9e2",
+      "size": 1164,
+      "gitBlob": "8f2ffe04eef0530a3862dee9b882271a0a072039"
+    }
+  }
+]

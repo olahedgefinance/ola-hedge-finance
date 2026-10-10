@@ -1,0 +1,360 @@
+[
+  {
+    "path": "android/src/main/java/com/mr/flutter/plugin/filepicker/FileInfo.java",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerDelegate.java",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerPlugin.java",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "android/src/main/java/com/mr/flutter/plugin/filepicker/FileUtils.java",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/android/app/src/main/java/com/mr/flutter/plugin/filepicker/example/MainActivity.java",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/android/app/src/main/kotlin/com/mr/flutter/plugin/example/MainActivity.kt",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/android/app/src/main/kotlin/com/mr/flutter/plugin/filepicker/example/MainActivity.kt",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/ios/Runner/AppDelegate.h",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/ios/Runner/AppDelegate.m",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/ios/Runner/AppDelegate.swift",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/ios/Runner/File.swift",
+    "upstreamStatements": [
+      "//  Copyright \u00a9 2021 The Chromium Authors. All rights reserved."
+    ],
+    "forkStatements": [
+      "//  Copyright \u00a9 2021 The Chromium Authors. All rights reserved."
+    ],
+    "preserved": true
+  },
+  {
+    "path": "example/ios/Runner/Runner-Bridging-Header.h",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/ios/Runner/main.m",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/lib/generated_plugin_registrant.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/lib/main.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/lib/main_desktop.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/lib/src/file_picker_demo.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/linux/flutter/generated_plugin_registrant.h",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/linux/my_application.h",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/windows/flutter/generated_plugin_registrant.h",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/windows/runner/flutter_window.cpp",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/windows/runner/flutter_window.h",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/windows/runner/main.cpp",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/windows/runner/resource.h",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/windows/runner/utils.cpp",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/windows/runner/utils.h",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/windows/runner/win32_window.cpp",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/windows/runner/win32_window.h",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "ios/Classes/FileInfo.h",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "ios/Classes/FileInfo.m",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "ios/Classes/FilePickerPlugin.h",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "ios/Classes/FilePickerPlugin.m",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "ios/Classes/FileUtils.h",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "ios/Classes/FileUtils.m",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "ios/Classes/ImageUtils.h",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "ios/Classes/ImageUtils.m",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/_internal/file_picker_web.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/file_picker.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/exceptions.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/file_picker.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/file_picker_io.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/file_picker_macos.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/file_picker_result.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/linux/dialog_handler.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/linux/file_picker_linux.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/linux/kdialog_handler.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/linux/qarma_and_zenity_handler.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/platform_file.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/utils.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/windows/file_picker_windows.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/windows/file_picker_windows_ffi_types.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/windows/stub.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "test/common.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "test/file_picker_macos_test.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "test/file_picker_utils_test.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "test/file_picker_windows_test.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "test/linux/dialog_handler_test.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "test/linux/kdialog_handler_test.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "test/linux/qarma_and_zenity_handler_test.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  }
+]

@@ -1,0 +1,66 @@
+5e8ecf3c339dcd59fb2b413cf2f89f516992ee3d
+Parents: 561247de23a34304db4fc5e0541e6975445cb584
+Author: jameskokoska <50821962+jameskokoska@users.noreply.github.com>
+Date: 2024-10-08T00:06:50-04:00
+Subject: Reduce flickering when opacity changes when dismissing bottom sheet
+
+7583c535ec2c4f04c60956f0b6ea4ec543e0870b
+Parents: f4e9740cc6dc382c2d6e1f5ba83a48af08643268
+Author: jameskokoska <50821962+jameskokoska@users.noreply.github.com>
+Date: 2024-07-26T23:18:23-04:00
+Subject: New format for select amount when calculation overflows Ability to paste an amount to append to the calculation
+
+b001e9f18173479a90f685d550f8ec68dd2849ea
+Parents: be8af752b946c437c96b626ef0d991aa5176f39b
+Author: jameskokoska <50821962+jameskokoska@users.noreply.github.com>
+Date: 2024-07-01T14:48:14-04:00
+Subject: Hot fix for bottom sheet popup This fixes an issue with the emoji icon selector because the parent context would get unmounted resulting in a null reference check If the parent context does not exist anymore, use the build context instead Adjusted bottom sheet popup heights Fix bottom extra padding from a header height in the bottom sheet
+
+fce9ddf65f2074d8307c0e71135a680e0b49cac8
+Parents: 819d4cdfa248e6ea7b3cba107bc3d8f3f73ecff6
+Author: jameskokoska <50821962+jameskokoska@users.noreply.github.com>
+Date: 2024-06-01T12:48:53-04:00
+Subject: Improved RTL locale support Use BorderRadiusDirectional, AlignmentDirectional, EdgeInsetsDirectional Added OffsetDirectionality and AlignmentDirectionality
+
+b01c4c84a074e52c32a4bdaf1c2680323bad8f0d
+Parents: 05fbb2cf7bdbe34ad79892f6c3c8916d3cb80e52
+Author: jameskokoska <50821962+jameskokoska@users.noreply.github.com>
+Date: 2024-03-27T22:54:53-04:00
+Subject: Fix accidental auto dismiss when height changes too fast
+
+c5a697916c46ed39b26ddacb415121648c657939
+Parents: aa1f49803da8865dabceba776b2220d442d51f1b
+Author: jameskokoska <50821962+jameskokoska@users.noreply.github.com>
+Date: 2023-10-25T01:08:18-04:00
+Subject: Major performance improvements
+
+112eaaf3c73c7b2f4e83705107163c0f18ab81e7
+Parents: d5d8761cb5a6a07e75fdd01152ea8e7082a7621a
+Author: James Kokoska <50821962+jameskokoska@users.noreply.github.com>
+Date: 2023-08-31T15:40:16-04:00
+Subject: Secondary header to match iOS style     Fixed transition backdrop for popup sheet on iOS     Fixed mixup with status bar icon color on iOS
+
+1ff186250e2a39bd376c979dbdcf4f334b7b726b
+Parents: 0400385df70deb3bba79d8bf5622dcfd07241db2
+Author: jameskokoska <50821962+jameskokoska@users.noreply.github.com>
+Date: 2023-06-28T00:14:06-04:00
+Subject: Small Ui fixes, finished credit and debts, started filters in search page
+
+a252a31e912b53ac36b1baf96070545fe193a9ca
+Parents: 14d4133762f8422955180d78d5a3d63158fb72a5
+Author: James <50821962+jameskokoska@users.noreply.github.com>
+Date: 2023-03-19T23:57:26-04:00
+Subject: cross client sync feature started
+
+27c25ad9551d4630760c1db0bc7c6cc2b27c77db
+Parents: c216a865cc56ef1ead67c38a93448fa7c3296105
+Author: jameskokoska <50821962+jameskokoska@users.noreply.github.com>
+Date: 2023-02-12T03:29:54-05:00
+Subject: added new line graph for past budgets, scrollbar, colors for budget history page
+
+3683748e73ae85eb57a8008525e87de678948fc8
+Parents: 296c8dbaf1dcbda63701691a94aaff54c890a88b
+Author: jameskokoska <50821962+jameskokoska@users.noreply.github.com>
+Date: 2023-01-13T01:01:20-05:00
+Subject: New transaction list animations, other frontend and database tweaks
+

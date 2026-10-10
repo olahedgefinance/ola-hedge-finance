@@ -1,0 +1,56 @@
+[
+  {
+    "path": "lib/sliding_sheet.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/scrolling.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/sheet.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/sheet_container.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/sheet_dialog.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/sheet_listener_builder.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/specs.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/util.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "test/sliding_sheet_test.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  }
+]

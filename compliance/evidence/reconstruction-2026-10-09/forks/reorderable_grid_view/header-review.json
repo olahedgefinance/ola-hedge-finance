@@ -1,0 +1,164 @@
+[
+  {
+    "path": "example/android/app/src/main/kotlin/com/example/example/MainActivity.kt",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/ios/Runner/AppDelegate.swift",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/ios/Runner/Runner-Bridging-Header.h",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/lib/demo/demo_custom.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/lib/demo/demo_grid_sliver.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/lib/demo/demo_item_rebuild.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/lib/demo/demo_page_view.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/lib/demo/demo_reorderable_count.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/lib/demo/demo_reorderable_count_enable.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/lib/demo_grid_builder.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/lib/demo_incorrect_offset.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/lib/demo_placeholder.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/lib/main.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/lib/test_issue_24.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/macos/Flutter/GeneratedPluginRegistrant.swift",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/macos/Runner/AppDelegate.swift",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/macos/Runner/MainFlutterWindow.swift",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "example/test/widget_test.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/reorderable_grid_view.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/drag_info.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/reorderable_grid_mixin.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/reorderable_item.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/reorderable_sliver_grid_view.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/reorderable_wrapper_widget.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/sliver_grid_with_reorderable_pos_delegate.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "lib/src/util.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  },
+  {
+    "path": "test/reorderable_grid_test.dart",
+    "upstreamStatements": [],
+    "forkStatements": [],
+    "preserved": true
+  }
+]

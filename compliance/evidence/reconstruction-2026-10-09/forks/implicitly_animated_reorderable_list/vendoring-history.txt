@@ -1,0 +1,18 @@
+01ae3b4eea3e6f5062ef05e1178bd93329428eb6
+Parents: f8d0a58e9e3e3bc0b12e9f59ea61128558b7bd4d
+Author: jameskokoska <50821962+jameskokoska@users.noreply.github.com>
+Date: 2024-07-15T19:39:48-04:00
+Subject: Flutter SDK bump to 3.19.6
+
+a252a31e912b53ac36b1baf96070545fe193a9ca
+Parents: 14d4133762f8422955180d78d5a3d63158fb72a5
+Author: James <50821962+jameskokoska@users.noreply.github.com>
+Date: 2023-03-19T23:57:26-04:00
+Subject: cross client sync feature started
+
+3683748e73ae85eb57a8008525e87de678948fc8
+Parents: 296c8dbaf1dcbda63701691a94aaff54c890a88b
+Author: jameskokoska <50821962+jameskokoska@users.noreply.github.com>
+Date: 2023-01-13T01:01:20-05:00
+Subject: New transaction list animations, other frontend and database tweaks
+

@@ -1,0 +1,229 @@
+diff --git a/android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerDelegate.java b/android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerDelegate.java
+index 7b938a64cf22d10071d863eafdff45ae4cbca79c..34b76a1297700ba395f208740fa40d27cdf09ea4 100644
+--- a/android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerDelegate.java
++++ b/android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerDelegate.java
+@@ -1,5 +1,7 @@
+ package com.mr.flutter.plugin.filepicker;
+ 
++import static androidx.core.app.ActivityCompat.startActivityForResult;
++
+ import android.Manifest;
+ import android.app.Activity;
+ import android.content.Intent;
+@@ -39,6 +41,7 @@ public class FilePickerDelegate implements PluginRegistry.ActivityResultListener
+     private String type;
+     private String[] allowedExtensions;
+     private EventChannel.EventSink eventSink;
++    private String imagePickerTitle;
+ 
+     public FilePickerDelegate(final Activity activity) {
+         this(
+@@ -65,7 +68,11 @@ public class FilePickerDelegate implements PluginRegistry.ActivityResultListener
+     }
+ 
+     @VisibleForTesting
+-    FilePickerDelegate(final Activity activity, final MethodChannel.Result result, final PermissionManager permissionManager) {
++    FilePickerDelegate(
++            final Activity activity,
++            final MethodChannel.Result result,
++            final PermissionManager permissionManager
++    ) {
+         this.activity = activity;
+         this.pendingResult = result;
+         this.permissionManager = permissionManager;
+@@ -75,7 +82,7 @@ public class FilePickerDelegate implements PluginRegistry.ActivityResultListener
+     @Override
+     public boolean onActivityResult(final int requestCode, final int resultCode, final Intent data) {
+ 
+-        if(type == null) {
++        if (type == null) {
+             return false;
+         }
+ 
+@@ -96,7 +103,7 @@ public class FilePickerDelegate implements PluginRegistry.ActivityResultListener
+                                 final Uri currentUri = data.getClipData().getItemAt(currentItem).getUri();
+                                 final FileInfo file = FileUtils.openFileStream(FilePickerDelegate.this.activity, currentUri, loadDataToMemory);
+ 
+-                                if(file != null) {
++                                if (file != null) {
+                                     files.add(file);
+                                     Log.d(FilePickerDelegate.TAG, "[MultiFilePick] File #" + currentItem + " - URI: " + currentUri.getPath());
+                                 }
+@@ -113,7 +120,7 @@ public class FilePickerDelegate implements PluginRegistry.ActivityResultListener
+                                 Log.d(FilePickerDelegate.TAG, "[SingleFilePick] File URI:" + uri.toString());
+                                 final String dirPath = FileUtils.getFullPathFromTreeUri(uri, activity);
+ 
+-                                if(dirPath != null) {
++                                if (dirPath != null) {
+                                     finishWithSuccess(dirPath);
+                                 } else {
+                                     finishWithError("unknown_path", "Failed to retrieve directory path.");
+@@ -123,7 +130,7 @@ public class FilePickerDelegate implements PluginRegistry.ActivityResultListener
+ 
+                             final FileInfo file = FileUtils.openFileStream(FilePickerDelegate.this.activity, uri, loadDataToMemory);
+ 
+-                            if(file != null) {
++                            if (file != null) {
+                                 files.add(file);
+                             }
+ 
+@@ -134,7 +141,7 @@ public class FilePickerDelegate implements PluginRegistry.ActivityResultListener
+                                 finishWithError("unknown_path", "Failed to retrieve path.");
+                             }
+ 
+-                        } else if (data.getExtras() != null){
++                        } else if (data.getExtras() != null) {
+                             Bundle bundle = data.getExtras();
+                             if (bundle.keySet().contains("selectedItems")) {
+                                 ArrayList<Parcelable> fileUris = getSelectedItems(bundle);
+@@ -210,8 +217,8 @@ public class FilePickerDelegate implements PluginRegistry.ActivityResultListener
+     }
+ 
+     @SuppressWarnings("deprecation")
+-    private ArrayList<Parcelable> getSelectedItems(Bundle bundle){
+-        if(Build.VERSION.SDK_INT >= 33){
++    private ArrayList<Parcelable> getSelectedItems(Bundle bundle) {
++        if (Build.VERSION.SDK_INT >= 33) {
+             return bundle.getParcelableArrayList("selectedItems", Parcelable.class);
+         }
+ 
+@@ -221,6 +228,7 @@ public class FilePickerDelegate implements PluginRegistry.ActivityResultListener
+     @SuppressWarnings("deprecation")
+     private void startFileExplorer() {
+         final Intent intent;
++        Intent intentChooser = null;
+ 
+         // Temporary fix, remove this null-check after Flutter Engine 1.14 has landed on stable
+         if (type == null) {
+@@ -232,8 +240,9 @@ public class FilePickerDelegate implements PluginRegistry.ActivityResultListener
+         } else {
+             if (type.equals("image/*")) {
+                 intent = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
++                intentChooser = Intent.createChooser(intent, this.imagePickerTitle != null ? this.imagePickerTitle : "Select a photo");
+             } else {
+-                intent = new Intent(Intent.ACTION_GET_CONTENT);
++                intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
+                 intent.addCategory(Intent.CATEGORY_OPENABLE);
+             }
+             final Uri uri = Uri.parse(Environment.getExternalStorageDirectory().getPath() + File.separator);
+@@ -253,7 +262,11 @@ public class FilePickerDelegate implements PluginRegistry.ActivityResultListener
+         }
+ 
+         if (intent.resolveActivity(this.activity.getPackageManager()) != null) {
+-            this.activity.startActivityForResult(intent, REQUEST_CODE);
++            if (intentChooser != null) {
++                this.activity.startActivityForResult(intentChooser, REQUEST_CODE);
++            } else {
++                this.activity.startActivityForResult(intent, REQUEST_CODE);
++            }
+         } else {
+             Log.e(TAG, "Can't find a valid activity to handle the request. Make sure you've a file explorer installed.");
+             finishWithError("invalid_format_type", "Can't handle the provided file type.");
+@@ -261,7 +274,14 @@ public class FilePickerDelegate implements PluginRegistry.ActivityResultListener
+     }
+ 
+     @SuppressWarnings("deprecation")
+-    public void startFileExplorer(final String type, final boolean isMultipleSelection, final boolean withData, final String[] allowedExtensions, final MethodChannel.Result result) {
++    public void startFileExplorer(
++            final String type,
++            final boolean isMultipleSelection,
++            final boolean withData,
++            final String[] allowedExtensions,
++            final MethodChannel.Result result,
++            final String imagePickerTitle
++    ) {
+ 
+         if (!this.setPendingMethodCallAndResult(result)) {
+             finishWithAlreadyActiveError(result);
+@@ -269,6 +289,7 @@ public class FilePickerDelegate implements PluginRegistry.ActivityResultListener
+         }
+ 
+         this.type = type;
++        this.imagePickerTitle = imagePickerTitle;
+         this.isMultipleSelection = isMultipleSelection;
+         this.loadDataToMemory = withData;
+         this.allowedExtensions = allowedExtensions;
+@@ -292,10 +313,10 @@ public class FilePickerDelegate implements PluginRegistry.ActivityResultListener
+         // Temporary fix, remove this null-check after Flutter Engine 1.14 has landed on stable
+         if (this.pendingResult != null) {
+ 
+-            if(data != null && !(data instanceof String)) {
++            if (data != null && !(data instanceof String)) {
+                 final ArrayList<HashMap<String, Object>> files = new ArrayList<>();
+ 
+-                for (FileInfo file : (ArrayList<FileInfo>)data) {
++                for (FileInfo file : (ArrayList<FileInfo>) data) {
+                     files.add(file.toMap());
+                 }
+                 data = files;
+@@ -318,7 +339,7 @@ public class FilePickerDelegate implements PluginRegistry.ActivityResultListener
+ 
+     private void dispatchEventStatus(final boolean status) {
+ 
+-        if(eventSink == null || type.equals("dir")) {
++        if (eventSink == null || type.equals("dir")) {
+             return;
+         }
+ 
+diff --git a/android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerPlugin.java b/android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerPlugin.java
+index 585b24597aa0b0c30030374d483c2360c7b67d65..2f7bef10fc5208c29c4beed276e8406250d96341 100644
+--- a/android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerPlugin.java
++++ b/android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerPlugin.java
+@@ -5,6 +5,7 @@ import android.app.Application;
+ import android.os.Bundle;
+ import android.os.Handler;
+ import android.os.Looper;
++import android.util.Log;
+ 
+ import androidx.annotation.NonNull;
+ import androidx.lifecycle.DefaultLifecycleObserver;
+@@ -168,7 +169,7 @@ public class FilePickerPlugin implements MethodChannel.MethodCallHandler, Flutte
+         if (call.method != null && call.method.equals("custom") && (allowedExtensions == null || allowedExtensions.length == 0)) {
+             result.error(TAG, "Unsupported filter. Make sure that you are only using the extension without the dot, (ie., jpg instead of .jpg). This could also have happened because you are using an unsupported file extension.  If the problem persists, you may want to consider using FileType.all instead.", null);
+         } else {
+-            this.delegate.startFileExplorer(fileType, isMultipleSelection, withData, allowedExtensions, result);
++            this.delegate.startFileExplorer(fileType, isMultipleSelection, withData, allowedExtensions, result, (String) arguments.get("dialogTitle"));
+         }
+ 
+     }
+diff --git a/lib/src/file_picker_io.dart b/lib/src/file_picker_io.dart
+index 2dc5df505ebdc82bd4b7de4a8d26aa198722d798..74365aa94bb8b2cb89eeece46d21e39eef65c8f3 100644
+--- a/lib/src/file_picker_io.dart
++++ b/lib/src/file_picker_io.dart
+@@ -34,6 +34,7 @@ class FilePickerIO extends FilePicker {
+   }) =>
+       _getPath(
+         type,
++        dialogTitle,
+         allowMultiple,
+         allowCompression,
+         allowedExtensions,
+@@ -65,6 +66,7 @@ class FilePickerIO extends FilePicker {
+ 
+   Future<FilePickerResult?> _getPath(
+     FileType fileType,
++    String? dialogTitle,
+     bool allowMultipleSelection,
+     bool? allowCompression,
+     List<String>? allowedExtensions,
+@@ -93,6 +95,7 @@ class FilePickerIO extends FilePicker {
+         'allowedExtensions': allowedExtensions,
+         'allowCompression': allowCompression,
+         'withData': withData,
++        'dialogTitle': dialogTitle,
+       });
+ 
+       if (result == null) {
+diff --git a/pubspec.yaml b/pubspec.yaml
+index 3e297bdd974811e0d7ce24db0519029e7fab0b8b..8f2ffe04eef0530a3862dee9b882271a0a072039 100644
+--- a/pubspec.yaml
++++ b/pubspec.yaml
+@@ -3,7 +3,7 @@ description: A package that allows you to use a native file explorer to pick sin
+ homepage: https://github.com/miguelpruivo/plugins_flutter_file_picker
+ repository: https://github.com/miguelpruivo/flutter_file_picker
+ issue_tracker: https://github.com/miguelpruivo/flutter_file_picker/issues
+-version: 6.0.0
++version: 6.0.1
+ 
+ dependencies:
+   flutter:

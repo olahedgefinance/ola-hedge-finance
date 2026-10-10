@@ -1,0 +1,1738 @@
+[
+  {
+    "path": "CHANGELOG.md",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "sha256": "d74297db5c07a5114703ad9b3ecaf9dd5d8cc4c3527fcb41d4c78d7af68c87ea",
+      "lfSha256": "363911c76397874ff64cad141801e887317b025ffc7e3df768af5aa613077fae",
+      "size": 1259,
+      "gitBlob": "9b436899632b13ef6400230094fe412c438f1e5b"
+    },
+    "after": {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "sha256": "363911c76397874ff64cad141801e887317b025ffc7e3df768af5aa613077fae",
+      "lfSha256": "363911c76397874ff64cad141801e887317b025ffc7e3df768af5aa613077fae",
+      "size": 1210,
+      "gitBlob": "5b1abb14be2edc7fdc74b3cd5ef629e0fd2b88a8"
+    }
+  },
+  {
+    "path": "LICENSE",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "LICENSE",
+      "mode": "100644",
+      "sha256": "39834be1721e0f77c5cf09869215978f66f817b483a5d6f963a1e12e254cd870",
+      "lfSha256": "3b66347443b3767dad81d1771def491866888fc59ba7d504388d309ff923bfb3",
+      "size": 1080,
+      "gitBlob": "f90dba2f0510765bac865eef5ee804f9b9748b1e"
+    },
+    "after": {
+      "path": "LICENSE",
+      "mode": "100644",
+      "sha256": "3b66347443b3767dad81d1771def491866888fc59ba7d504388d309ff923bfb3",
+      "lfSha256": "3b66347443b3767dad81d1771def491866888fc59ba7d504388d309ff923bfb3",
+      "size": 1060,
+      "gitBlob": "83b469804b60a32440890d446fe3d4d2ba6d5112"
+    }
+  },
+  {
+    "path": "README.md",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "README.md",
+      "mode": "100644",
+      "sha256": "a20aa2ae28946ec2c3e0063977af215764dc2167497c4f24ab7fb461937d8641",
+      "lfSha256": "77080dba51783251b1056b405976ff3a13c97e449321ee3a268bd8a20b4a2c42",
+      "size": 7400,
+      "gitBlob": "83d5dbe7aaf7d112dbb9f8224afef11f039e2e03"
+    },
+    "after": {
+      "path": "README.md",
+      "mode": "100644",
+      "sha256": "77080dba51783251b1056b405976ff3a13c97e449321ee3a268bd8a20b4a2c42",
+      "lfSha256": "77080dba51783251b1056b405976ff3a13c97e449321ee3a268bd8a20b4a2c42",
+      "size": 7227,
+      "gitBlob": "4e2e93609472679ed156620ed7613e613bda309c"
+    }
+  },
+  {
+    "path": "analysis_options.yaml",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "analysis_options.yaml",
+      "mode": "100644",
+      "sha256": "660a15c86851165eb539cca234c0accf33b391d40119d687e5bec99f1f6ebff2",
+      "lfSha256": "6e23a24dc4378ce6984a82b3167850cd76e7c15bf8ab2665bda3bdd1d1dd5dec",
+      "size": 34295,
+      "gitBlob": "4c4ed9461e2ab8a985bb0fd69985bcfa04365d7c"
+    },
+    "after": {
+      "path": "analysis_options.yaml",
+      "mode": "100644",
+      "sha256": "6e23a24dc4378ce6984a82b3167850cd76e7c15bf8ab2665bda3bdd1d1dd5dec",
+      "lfSha256": "6e23a24dc4378ce6984a82b3167850cd76e7c15bf8ab2665bda3bdd1d1dd5dec",
+      "size": 33498,
+      "gitBlob": "1ed1a8e5ea9afd3d2cc602e11880b0394079a9bc"
+    }
+  },
+  {
+    "path": "benchmark/benchmark.dart",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "benchmark/benchmark.dart",
+      "mode": "100644",
+      "sha256": "f4a4d8267d0fa77f069afaad490af7e1ea1463cc68ffdca06135f5961509f811",
+      "lfSha256": "8989a5126b5da51c6b7b908e72dd67938ca7330151e3f3f5c9ab1950f374ff32",
+      "size": 862,
+      "gitBlob": "865b57c75dbe4eefef2e385a0ee1fb4ec16824a6"
+    },
+    "after": {
+      "path": "benchmark/benchmark.dart",
+      "mode": "100644",
+      "sha256": "8989a5126b5da51c6b7b908e72dd67938ca7330151e3f3f5c9ab1950f374ff32",
+      "lfSha256": "8989a5126b5da51c6b7b908e72dd67938ca7330151e3f3f5c9ab1950f374ff32",
+      "size": 829,
+      "gitBlob": "ab84591a9e1aafabbdaa422a4d9b26e7a0a7b8b5"
+    }
+  },
+  {
+    "path": "example/README.md",
+    "kind": "deleted",
+    "before": {
+      "path": "example/README.md",
+      "mode": "100644",
+      "sha256": "669c011f2b0f9788ef70402536396e4f3a61b71f18d233408a120d3c97cfa91b",
+      "lfSha256": "539f721a7f4e8c8f6baf69e5f4e19666da31913bf9f89f3c52d90505326b53b6",
+      "size": 13,
+      "gitBlob": "6b077abb1400df50be8d9ee65b0b4602d3bd3cbf"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/app/build.gradle",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/app/build.gradle",
+      "mode": "100644",
+      "sha256": "1acc661a60705b1cc7eb8746bcd3478e3311f936bf34c49c5d9762094e1f0e05",
+      "lfSha256": "09f4b6054bc688bafa09100937c179fefc0c7d052291f45a01e4f9aa7bd3891f",
+      "size": 2085,
+      "gitBlob": "5b1833dc45c248486550410ea15801a6769916ad"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/app/src/debug/AndroidManifest.xml",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/app/src/debug/AndroidManifest.xml",
+      "mode": "100644",
+      "sha256": "03b2bd8a7a8ca6c3fb8a132dfc2829066fad330426baa8a837aae205ed0ad39c",
+      "lfSha256": "928a3fa21271a092bef29531058fa0efb9d027758a330d5b28572d859ac4076b",
+      "size": 334,
+      "gitBlob": "8a498a1d253e3f51f7ce274fedb0b12c1e1581a3"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/app/src/main/AndroidManifest.xml",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/app/src/main/AndroidManifest.xml",
+      "mode": "100644",
+      "sha256": "fa4f456578b0446a55b24f8778fd59e6a597c6791a891d7174d274534137dca9",
+      "lfSha256": "0e1f66babe368cf3fb191f43b029910fae11b8c7875c0590d7489b7276efa1b1",
+      "size": 1559,
+      "gitBlob": "2f6153540bfca20318710bc79a5f332f40b0b700"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/app/src/main/kotlin/com/example/example/MainActivity.kt",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/app/src/main/kotlin/com/example/example/MainActivity.kt",
+      "mode": "100644",
+      "sha256": "c4b8c9e8b7ba57e2144606f6c446614b27c199e3ec1157aa2e49d7320e074768",
+      "lfSha256": "dc761fb22603ed62c040e1572065c53ab30003f5db26a3f8ce5c25e393fd3815",
+      "size": 423,
+      "gitBlob": "379404aba887e5e1a6efbbbed2c78be7cb1e392a"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/app/src/main/res/drawable-v21/launch_background.xml",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/app/src/main/res/drawable-v21/launch_background.xml",
+      "mode": "100644",
+      "sha256": "dca312ec77de83e43ef70a825c299b51451247286c29167d62f19165750b8793",
+      "lfSha256": "7ca6d5cec2169c5a98661a119db23a6f3399c8fef2256ff04f3a642831282478",
+      "size": 450,
+      "gitBlob": "1cb7aa2f6e8c2438e50149b6ec567b515c243c88"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/app/src/main/res/drawable/launch_background.xml",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/app/src/main/res/drawable/launch_background.xml",
+      "mode": "100644",
+      "sha256": "2df60e2cfbee873ce2858088cf003e6b93498f2f568476da437610467ea1a9d7",
+      "lfSha256": "94433756fe10005ddd6fc55cc5c0b1e9f3c10b66a08ceac795ece6713d34e28a",
+      "size": 446,
+      "gitBlob": "84037589b06bb17b24ba7acffee949159cd99a16"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "mode": "100644",
+      "sha256": "6a7c8f0d703e3682108f9662f813302236240d3f8f638bb391e32bfb96055fef",
+      "lfSha256": "0f8ba640389248ef1042f6ad5e1d227a9cb2289bd806d15deb84889096ecd7ce",
+      "size": 544,
+      "gitBlob": "db77bb4b7b0906d62b1847e87f15cdcacf6a4f29"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "mode": "100644",
+      "sha256": "c7c0c0189145e4e32a401c61c9bdc615754b0264e7afae24e834bb81049eaf81",
+      "lfSha256": "12bc7f24da8e062aa53882dfa05f1d47cb89977e1e6f37dbc62354c2efd09550",
+      "size": 442,
+      "gitBlob": "17987b79bb8a35cc66c3c1fd44f5a5526c1b78be"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "mode": "100644",
+      "sha256": "e14aa40904929bf313fded22cf7e7ffcbf1d1aac4263b5ef1be8bfce650397aa",
+      "lfSha256": "e72cd68c4fc86130aa94f3cfa3e5a84afad6ff5a365b25a279ed56059cc3e26a",
+      "size": 721,
+      "gitBlob": "09d4391482be68e9e4a07fab769b5de337d16eb1"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "mode": "100644",
+      "sha256": "4d470bf22d5c17d84edc5f82516d1ba8a1c09559cd761cefb792f86d9f52b540",
+      "lfSha256": "b247895d5083646dfd6a8039e990a59d9cd2ee2476540d0b780e7f0be00f9b72",
+      "size": 1031,
+      "gitBlob": "d5f1c8d34e7a88e3f88bea192c3a370d44689c3c"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "mode": "100644",
+      "sha256": "3c34e1f298d0c9ea3455d46db6b7759c8211a49e9ec6e44b635fc5c87dfb4180",
+      "lfSha256": "ac28999aa0f66c0855654e8a0a462a8dcbf0255e0ece057ff63865007aa4513e",
+      "size": 1443,
+      "gitBlob": "4d6372eebdb28e45604e46eeda8dd24651419bc0"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/app/src/main/res/values-night/styles.xml",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/app/src/main/res/values-night/styles.xml",
+      "mode": "100644",
+      "sha256": "6270046bb5fdb13a6a1bef09ebc4c90c2d99cb8a109f7acae103e1336d5f2208",
+      "lfSha256": "152a7f668caa69aba78879512eb6fcc542c2fbb209bc63f9bb4f8eafe553ceb8",
+      "size": 1011,
+      "gitBlob": "827f12fb013c4ea46e5105287b894f1f392db60b"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/app/src/main/res/values/styles.xml",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/app/src/main/res/values/styles.xml",
+      "mode": "100644",
+      "sha256": "e21220438f07fa018c90a370b1742fa6b50efc66d6dcac1a79ff05f0115846be",
+      "lfSha256": "d79b697ea949f625827a3d84a2cbfc6b3829d5c92ecb68386eefb30ed43f2500",
+      "size": 369,
+      "gitBlob": "4c573225f92138ca049f4d91ab6b98157026cbb4"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/app/src/profile/AndroidManifest.xml",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/app/src/profile/AndroidManifest.xml",
+      "mode": "100644",
+      "sha256": "03b2bd8a7a8ca6c3fb8a132dfc2829066fad330426baa8a837aae205ed0ad39c",
+      "lfSha256": "928a3fa21271a092bef29531058fa0efb9d027758a330d5b28572d859ac4076b",
+      "size": 334,
+      "gitBlob": "8a498a1d253e3f51f7ce274fedb0b12c1e1581a3"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/build.gradle",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/build.gradle",
+      "mode": "100644",
+      "sha256": "0242f2bdb7a5587eb990ebd55967e937da5304bee6a269a1eaa60aa1cf579ac9",
+      "lfSha256": "dcb4cc5a9209cb004aeed4528b231977524f04dbc9d29cf7071d61f61945a879",
+      "size": 613,
+      "gitBlob": "1c4d0c09d59862f23368f9e5a9dd8d77a5f2cb6b"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/gradle.properties",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/gradle.properties",
+      "mode": "100644",
+      "sha256": "c8966836b6213c5b6c91380dea94b7465e0903d9445b02666a28c4464ce143b1",
+      "lfSha256": "3c1fc1d9cad8765e2b44821c4774644b590bb58ecab6beb4bae2470ece0175be",
+      "size": 108,
+      "gitBlob": "74c1d924c6dd5ce4fda5cc69a946ebfb746428f7"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/gradle/wrapper/gradle-wrapper.properties",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/gradle/wrapper/gradle-wrapper.properties",
+      "mode": "100644",
+      "sha256": "60dff19ea2f72f7962a525453d95288fcf2f0d626b4b61ad44ab5cb692da9b70",
+      "lfSha256": "3396357c56aa75092bde0ec5e702268ba9a30e9f01840af2bf80809191c00d58",
+      "size": 237,
+      "gitBlob": "4f4dea8f599d154f49a2b997e99a10f87a41281d"
+    },
+    "after": null
+  },
+  {
+    "path": "example/android/settings.gradle",
+    "kind": "deleted",
+    "before": {
+      "path": "example/android/settings.gradle",
+      "mode": "100644",
+      "sha256": "4d52046d0f68086b446251c2c3277d9d1752ffea49459bf419f28d55fd434e76",
+      "lfSha256": "8916d9bb59c48f35da25be8fbc63e7af91e00c0cf2d8cbc4ed8c6704b4bbe15b",
+      "size": 499,
+      "gitBlob": "4f14f8e57abde9398fb76662c4c0763189c47d46"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Flutter/AppFrameworkInfo.plist",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Flutter/AppFrameworkInfo.plist",
+      "mode": "100644",
+      "sha256": "00921267b56b95a0de00f64cd69cb9a97ad67920f22882f6a48398b1d24f11a4",
+      "lfSha256": "ba4aad7ee024320c0690e1e8eb08b038dd65499e5a60064a8b37dbd7008b8130",
+      "size": 820,
+      "gitBlob": "58e65f9b51672cf0d8015c5d2df2c8b894093dd0"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Flutter/Debug.xcconfig",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Flutter/Debug.xcconfig",
+      "mode": "100644",
+      "sha256": "c0d1da54718e75f2028962b689258ecc741abf7cdaed50483aa5225264d0a7d7",
+      "lfSha256": "a82d7765b37116ee4821d2cd1d65942febf8032353757ffb0826eabde785b4a6",
+      "size": 31,
+      "gitBlob": "0b2d479c08504549ca6e74f0743bd584f068f9bd"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Flutter/Release.xcconfig",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Flutter/Release.xcconfig",
+      "mode": "100644",
+      "sha256": "c0d1da54718e75f2028962b689258ecc741abf7cdaed50483aa5225264d0a7d7",
+      "lfSha256": "a82d7765b37116ee4821d2cd1d65942febf8032353757ffb0826eabde785b4a6",
+      "size": 31,
+      "gitBlob": "0b2d479c08504549ca6e74f0743bd584f068f9bd"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/project.pbxproj",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner.xcodeproj/project.pbxproj",
+      "mode": "100644",
+      "sha256": "7f95e3214bc9f54bd488456a0093c8e88bf629645bf0952bd0f0da2fcd4c0677",
+      "lfSha256": "c60bf9d429ff9a49d6d4057de5c6f9c743fb1e3a35a1a0ad3ec92627a3ec1f15",
+      "size": 21436,
+      "gitBlob": "8e014487eb83ee023b331c0e0d8adfb60d4c0984"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "mode": "100644",
+      "sha256": "706a4c812f2a1e220e6785c27580020d58048e2ae4d30d1280f3c43344ce6b38",
+      "lfSha256": "46c3c9702ff7c5584e11c954d943cfb6e07fb26e3fbd072ddbc0f388aa352de1",
+      "size": 159,
+      "gitBlob": "59c6d39465edc08bd1e919a6248c68b1b72cfd33"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "mode": "100644",
+      "sha256": "d557c2c32fc6258ec28981fa45dc847b76c9968beb90a2e26d13ef9c4ea45c30",
+      "lfSha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542",
+      "size": 246,
+      "gitBlob": "fc6bf8074854f8fd9fea8d9cc80d5ca1b8d932db"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+      "mode": "100644",
+      "sha256": "dd64c0308ab2971c456871b990b24a008bdc3ece09833e8dbe9675e33a496e74",
+      "lfSha256": "11b247bc6796892d67c9a821d18604db4dd6a880981b34f38460b9866e6b247f",
+      "size": 234,
+      "gitBlob": "af0309c4dc26b0880121296bc3fd0bd14aad8420"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
+      "mode": "100644",
+      "sha256": "4946fe0df099d6d1f593d7085fd65b2939b1b3ffb3c6e152d0dc4cd73f531076",
+      "lfSha256": "867ab7fbf0c8c06a78d48d6ae2e5e36bd8b17ac9632d94aeaf64df11b207072e",
+      "size": 3382,
+      "gitBlob": "be0b92eff4249920984a4591df4fec6fba35e942"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner.xcworkspace/contents.xcworkspacedata",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner.xcworkspace/contents.xcworkspacedata",
+      "mode": "100644",
+      "sha256": "706a4c812f2a1e220e6785c27580020d58048e2ae4d30d1280f3c43344ce6b38",
+      "lfSha256": "46c3c9702ff7c5584e11c954d943cfb6e07fb26e3fbd072ddbc0f388aa352de1",
+      "size": 159,
+      "gitBlob": "59c6d39465edc08bd1e919a6248c68b1b72cfd33"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "mode": "100644",
+      "sha256": "d557c2c32fc6258ec28981fa45dc847b76c9968beb90a2e26d13ef9c4ea45c30",
+      "lfSha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542",
+      "size": 246,
+      "gitBlob": "fc6bf8074854f8fd9fea8d9cc80d5ca1b8d932db"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+      "mode": "100644",
+      "sha256": "dd64c0308ab2971c456871b990b24a008bdc3ece09833e8dbe9675e33a496e74",
+      "lfSha256": "11b247bc6796892d67c9a821d18604db4dd6a880981b34f38460b9866e6b247f",
+      "size": 234,
+      "gitBlob": "af0309c4dc26b0880121296bc3fd0bd14aad8420"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/AppDelegate.swift",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/AppDelegate.swift",
+      "mode": "100644",
+      "sha256": "b12dcef39c6c68ccdc06690291644dde54732a010caea105a2107b0e0e73d76a",
+      "lfSha256": "186ecb7ba1ff44c1c0279ed0e497fb010c39cc939ec2f69b0ee0f652f7cf7a68",
+      "size": 417,
+      "gitBlob": "3763683793b8430b3e8c7859ecbc87482fc1cc92"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "mode": "100644",
+      "sha256": "5f8b941b774bde4496d73347c1f79cbdd786bb76fbdab9ed1f3f0cb78a0fb0d3",
+      "lfSha256": "3b1e214f466ffedff74baa5598ad5c4421130eea6bc8d57b8fe23435e8280ae4",
+      "size": 2641,
+      "gitBlob": "1950fd80edd4b0b01afb3901a2f4787251280206"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "mode": "100644",
+      "sha256": "7770183009e914112de7d8ef1d235a6a30c5834424858e0d2f8253f6b8d31926",
+      "lfSha256": "414ed8460b86b24d092c907ad5c9a1ba4819832d9f64f18b74278efb832c11a5",
+      "size": 10932,
+      "gitBlob": "dc9ada4725e9b0ddb1deab583e5b5102493aa332"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png",
+      "mode": "100644",
+      "sha256": "5925dab509451f9ecbb12ce8a625f9d4c104718ee20caff8b1b51032d1cd8946",
+      "lfSha256": "bbc2f1241bd0b864f278cb66b8f5ced4b9ba7585867af6aefb5ee1e489ba8f34",
+      "size": 564,
+      "gitBlob": "28c6bf03016f6c994b70f38d1b7346e5831b531f"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png",
+      "mode": "100644",
+      "sha256": "c4d9a284c12301d0f50e248ec53ed51a19a10147b774b23308399250b0d44c55",
+      "lfSha256": "85b9062820021dd90100277c98832f2234098737ee43d67b4132b09b2d224306",
+      "size": 1283,
+      "gitBlob": "2ccbfd967d9697cd4b83225558af2911e9571c9b"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png",
+      "mode": "100644",
+      "sha256": "bf97f9d3233f33e1389b09f7b8add53741300cb834d6c7a5ca32cbed363a4fb2",
+      "lfSha256": "129a471596d47e99eb7b433ee0b8ce853f97128ff3c74a6a0d9e55cdb3544da9",
+      "size": 1588,
+      "gitBlob": "f091b6b0bca859a3f474b03065bef75ba58a9e4c"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png",
+      "mode": "100644",
+      "sha256": "285442f69a06b45d9d79df80321815b546473548a37b78819b68959c7b8ed237",
+      "lfSha256": "be2841741b60afd03e40fc4fb9a8bad39e4ef38620d6a3ebed5a5662e9f7fc84",
+      "size": 1025,
+      "gitBlob": "4cde12118dda48d71e01fcb589a74d069c5d7cb5"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png",
+      "mode": "100644",
+      "sha256": "2ab64af8ac727ea99c6ab9eaff847f46fbf2a9a0a78a0abcbf3180f3851645b4",
+      "lfSha256": "75d848268331e0c6f88c8ad048d9cb6db9aef718c562f88d49b6467ef821d652",
+      "size": 1716,
+      "gitBlob": "d0ef06e7edb86cdfe0d15b4b0d98334a86163658"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png",
+      "mode": "100644",
+      "sha256": "9dca09f4e5ed5684d3c4dff41f4e8b7cb864b438172d72be069315fa362930f9",
+      "lfSha256": "3bb137fc0f44b929ee1fb62d97127fb07c0af365f2e56f86f77a152ccf8a58a7",
+      "size": 1920,
+      "gitBlob": "dcdc2306c28505ebc0b6c3a359c4d252bf626b9f"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png",
+      "mode": "100644",
+      "sha256": "c4d9a284c12301d0f50e248ec53ed51a19a10147b774b23308399250b0d44c55",
+      "lfSha256": "85b9062820021dd90100277c98832f2234098737ee43d67b4132b09b2d224306",
+      "size": 1283,
+      "gitBlob": "2ccbfd967d9697cd4b83225558af2911e9571c9b"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png",
+      "mode": "100644",
+      "sha256": "d5ad04de321ef37cacc5a7b960afcce71bdcb96fa020c48249c1545dd1a0f497",
+      "lfSha256": "16b36118ffb875bea28346715a592276def9779602c051f09fb7338b86c3e129",
+      "size": 1895,
+      "gitBlob": "c8f9ed8f5cee1c98386d13b17e89f719e83555b2"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png",
+      "mode": "100644",
+      "sha256": "809abfe75c440770c13c4e2e46d09603c22053e9d4e0e2275dcb9c1dcfbb2c75",
+      "lfSha256": "617956fe1cae078e10f575a913acc7f26f9995e08a5a4e6826f3ee3baece44c8",
+      "size": 2665,
+      "gitBlob": "a6d6b8609df07bf62e5100a53a01510388bd2b22"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png",
+      "mode": "100644",
+      "sha256": "809abfe75c440770c13c4e2e46d09603c22053e9d4e0e2275dcb9c1dcfbb2c75",
+      "lfSha256": "617956fe1cae078e10f575a913acc7f26f9995e08a5a4e6826f3ee3baece44c8",
+      "size": 2665,
+      "gitBlob": "a6d6b8609df07bf62e5100a53a01510388bd2b22"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png",
+      "mode": "100644",
+      "sha256": "3db08cb79e7b01b9e81f956e3a0ae10148d0fafde3ea7aa70048df905aa52cfd",
+      "lfSha256": "7b3098a27ee43b51ff63f6f50bccdd9c0d175ca5df0b1c66d9392bdeb8dacc56",
+      "size": 3831,
+      "gitBlob": "75b2d164a5a98e212cca15ea7bf2ab5de5108680"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png",
+      "mode": "100644",
+      "sha256": "23c13d463f5dca5c1f14a14934003601c29f1218fd461016d8a22cef579a665f",
+      "lfSha256": "579afbffad8006e8887bfd708c353815c79458371fc518f4bef3c81c50b887da",
+      "size": 1888,
+      "gitBlob": "c4df70d39da7941ef3f6dcb7f06a192d8dcb308d"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png",
+      "mode": "100644",
+      "sha256": "6db7726530d71d3f52cb59793eb691313baa04796e129e1e043c0a58a1bffd2f",
+      "lfSha256": "892624c5f68efae0f25e9fb2fcd3d630baac8f1811763aaa1252de4c52c76688",
+      "size": 3294,
+      "gitBlob": "6a84f41e14e27f4b11f16f9ee39279ac98f8d5ac"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+      "mode": "100644",
+      "sha256": "cee565f5e62116569b64980b209fd5ca4b3d3739011f5343250b33a1a2c6eb65",
+      "lfSha256": "e37462131d4c7d26f842ec87d90ec5ba569693243919895b1d1f61df6d116206",
+      "size": 3612,
+      "gitBlob": "d0e1f58536026aebc4f1f70e481f6993c9ff088d"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json",
+      "mode": "100644",
+      "sha256": "fbd112a9f3b541a1d811f71ac8e4fe68b6176687d973a5f4d99b7aa4a722e94e",
+      "lfSha256": "ccc7950fd5f5b82067c85f667940a9d59189151460761ece8098ca78daa19469",
+      "size": 414,
+      "gitBlob": "d08a4de320fe20e3d3b11b519313713413c7e21e"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png",
+      "mode": "100644",
+      "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20",
+      "lfSha256": "704527a2f52283266843cf46bf0e631c881046e1a88826dde80ff4a2910f7122",
+      "size": 68,
+      "gitBlob": "9da19eacad3b03bb08bbddbbf4ac48dd78b3d838"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png",
+      "mode": "100644",
+      "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20",
+      "lfSha256": "704527a2f52283266843cf46bf0e631c881046e1a88826dde80ff4a2910f7122",
+      "size": 68,
+      "gitBlob": "9da19eacad3b03bb08bbddbbf4ac48dd78b3d838"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png",
+      "mode": "100644",
+      "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20",
+      "lfSha256": "704527a2f52283266843cf46bf0e631c881046e1a88826dde80ff4a2910f7122",
+      "size": 68,
+      "gitBlob": "9da19eacad3b03bb08bbddbbf4ac48dd78b3d838"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
+      "mode": "100644",
+      "sha256": "853ac958e2416fe2540f6f61165283a3618b71a7ba5f85f65ac41c2158dfcd21",
+      "lfSha256": "a985b626c4f7546a8ba392d135e9226c3547c8e2b46895f5f2bdf40d7b14ef9f",
+      "size": 340,
+      "gitBlob": "65a94b5db54ec02257c0fd4e74ebea1a7a34e881"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Base.lproj/LaunchScreen.storyboard",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Base.lproj/LaunchScreen.storyboard",
+      "mode": "100644",
+      "sha256": "bc3644fbb251ff1e18de25a4932c927850ae1a025be3dd1447940429633fe4b2",
+      "lfSha256": "857e61203b3deafb05766d8fcda898b86a7cb6f3d5e385ecc9926c4d698215e9",
+      "size": 2414,
+      "gitBlob": "497371ea23a88889b582a79836d65568268f5fd3"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Base.lproj/Main.storyboard",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Base.lproj/Main.storyboard",
+      "mode": "100644",
+      "sha256": "dcea4686c02065e56217fd19fcfb73d7509b41872e7486126149d47a18559363",
+      "lfSha256": "fd367b6c43006d61b730f674970dd48b9f662c8f2264e52ffc1558102a2c9f2d",
+      "size": 1631,
+      "gitBlob": "bbb83caaec5481ea63968cdfdf6e574aa9584a1b"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Info.plist",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Info.plist",
+      "mode": "100644",
+      "sha256": "6c7dae927ee3ed9ffd0292236731e62038912940fe4cabfc4913db36f22945dd",
+      "lfSha256": "cb1a0b53275e7fdadc39bcc665e65dd1a46526bd7c8e813f4bc75814a1730ea3",
+      "size": 1571,
+      "gitBlob": "8a6095a9fda9e32e910e14ac252b60fe7141288d"
+    },
+    "after": null
+  },
+  {
+    "path": "example/ios/Runner/Runner-Bridging-Header.h",
+    "kind": "deleted",
+    "before": {
+      "path": "example/ios/Runner/Runner-Bridging-Header.h",
+      "mode": "100644",
+      "sha256": "efe657d8b27f7f8595a0d416bffb33fe7d93bd2869d81f7353b556c439d7a1a7",
+      "lfSha256": "1a8d11d01d1cc92c650c9c9ed35299240052d4683a15a719a2315ef44185e074",
+      "size": 39,
+      "gitBlob": "fae207f9e2b9302728c2199314243bda2088bb8b"
+    },
+    "after": null
+  },
+  {
+    "path": "example/lib/examples.dart",
+    "kind": "deleted",
+    "before": {
+      "path": "example/lib/examples.dart",
+      "mode": "100644",
+      "sha256": "7f825e599f2b6df68416ff3774bc542be37c09741ded771438983f44274d8c43",
+      "lfSha256": "a8df2dcf34cea47ec4c7e313e3eca5f3603ca2dfd158eb949fc6061d99511c12",
+      "size": 3524,
+      "gitBlob": "8dd1645fbe763cc37660789316f71bfdd28fb0b3"
+    },
+    "after": null
+  },
+  {
+    "path": "example/lib/main.dart",
+    "kind": "deleted",
+    "before": {
+      "path": "example/lib/main.dart",
+      "mode": "100644",
+      "sha256": "70d6f2e5d3a6e0ed3888e79590b5793d524755e6e1e0ec55cf810f0b755c30e0",
+      "lfSha256": "fbe606ccc38dabfb83c73065956ded60e477a09c9eee8bbc941bbbfbdb6faad1",
+      "size": 789,
+      "gitBlob": "f46d9eeee975de348b0b9bd5efaa31672a95620f"
+    },
+    "after": null
+  },
+  {
+    "path": "example/lib/ui/lang_page.dart",
+    "kind": "deleted",
+    "before": {
+      "path": "example/lib/ui/lang_page.dart",
+      "mode": "100644",
+      "sha256": "84bf3bf82a09569dd36e2baea585d14bd2d77bbdde180bf10f22adcb2cc23164",
+      "lfSha256": "caaea33f72b8fe7aab4801f10df7810385c3c54b0cb0caeb2f7870203bdde45d",
+      "size": 12255,
+      "gitBlob": "eb557685b5213c85ca5473beb54274bd3398bb22"
+    },
+    "after": null
+  },
+  {
+    "path": "example/lib/ui/search_page.dart",
+    "kind": "deleted",
+    "before": {
+      "path": "example/lib/ui/search_page.dart",
+      "mode": "100644",
+      "sha256": "f6f494287a2b82298cf74c82a88866b508b0bb77d4af63993ca3ac975fe8ecb8",
+      "lfSha256": "6743df495216737dc47f695b7f0cbc60ee46656715be983f6e5e0aea614f129e",
+      "size": 6586,
+      "gitBlob": "3da1841d74feca2d52c5b9ad6de921d07eb6f796"
+    },
+    "after": null
+  },
+  {
+    "path": "example/lib/ui/test_page.dart",
+    "kind": "deleted",
+    "before": {
+      "path": "example/lib/ui/test_page.dart",
+      "mode": "100644",
+      "sha256": "6cdc10cc2dca12b213b8e2f69cfc5a1d5c55e1df4062b9ada828eb5efdbd4337",
+      "lfSha256": "a7053e8174d136e5254500da3d25d6de2f6006547d1de282557bdf06a663ae15",
+      "size": 4318,
+      "gitBlob": "6e0d24a802d6e85717f4b99ee5fef929d7d2d209"
+    },
+    "after": null
+  },
+  {
+    "path": "example/lib/ui/ui.dart",
+    "kind": "deleted",
+    "before": {
+      "path": "example/lib/ui/ui.dart",
+      "mode": "100644",
+      "sha256": "743baf39e7b3206e0dca86c55a1746e3c9b2555e139176eb3bcfc2cd88e0f658",
+      "lfSha256": "18d4d49b0d5b26ac26e8ea93150368b419221356029dae4136729800c498cbf5",
+      "size": 80,
+      "gitBlob": "65aa14bbc2b8cff515821f376ddc0d532abcc5f7"
+    },
+    "after": null
+  },
+  {
+    "path": "example/lib/util/box.dart",
+    "kind": "deleted",
+    "before": {
+      "path": "example/lib/util/box.dart",
+      "mode": "100644",
+      "sha256": "3fe9e47dcedbfadaeb9728c82a9b0acd6435de1d1980db8f28c07033cbf5e357",
+      "lfSha256": "9fe73f3b19a8ab33136cbf26ab3e12779bc1225d7ce99007993a3eb39f8d1588",
+      "size": 5034,
+      "gitBlob": "d9833bf0599b46f3ec4e51e10fe3b5b3fc92599b"
+    },
+    "after": null
+  },
+  {
+    "path": "example/lib/util/highlight_text.dart",
+    "kind": "deleted",
+    "before": {
+      "path": "example/lib/util/highlight_text.dart",
+      "mode": "100644",
+      "sha256": "f7dd20fae82f10f6f62df011b34a4a01f4ce747c4bff164469d2d1f5a3d551e5",
+      "lfSha256": "883f1298877a07ff2bb4173590c4aef7b1116f529288e4b2c789abc41b576eb1",
+      "size": 3856,
+      "gitBlob": "6a51a1e016dc649137c7a867986894a0d472a266"
+    },
+    "after": null
+  },
+  {
+    "path": "example/lib/util/languages.dart",
+    "kind": "deleted",
+    "before": {
+      "path": "example/lib/util/languages.dart",
+      "mode": "100644",
+      "sha256": "6c6fabab04d3e0c8f03ae1c970a52bb0874bd13dd4987dd903414ca99c14c460",
+      "lfSha256": "391520b5b48c00d322189872903f68782bd8a582c1cbb8f72d25f6d130228200",
+      "size": 1474,
+      "gitBlob": "87bc157ca91181b42dce0ad75a4928fcfaeda35f"
+    },
+    "after": null
+  },
+  {
+    "path": "example/lib/util/util.dart",
+    "kind": "deleted",
+    "before": {
+      "path": "example/lib/util/util.dart",
+      "mode": "100644",
+      "sha256": "e24f27126a83a1b612c3377d31142ef0a2ff23dd7ccbd8ed29deceaaff284aa7",
+      "lfSha256": "6e70a9ce5642bcab92efbcc239d3d44bad2600d5a182c9c5783e852dd5d40815",
+      "size": 75,
+      "gitBlob": "26b9a882b3154352b2a7a74c166a4bf7724b4996"
+    },
+    "after": null
+  },
+  {
+    "path": "example/pubspec.yaml",
+    "kind": "deleted",
+    "before": {
+      "path": "example/pubspec.yaml",
+      "mode": "100644",
+      "sha256": "16b7a825f826cf9822ec7a740884ce037983f8b9a37a4ce7ec21a285a470f782",
+      "lfSha256": "b9b00208306eb45c2124b1481c1e64d2e93d86204207e1ea4ed5470144ff7cd3",
+      "size": 450,
+      "gitBlob": "0c5101c91738001983a12fd8f77b6239a22d7114"
+    },
+    "after": null
+  },
+  {
+    "path": "example/test/widget_test.dart",
+    "kind": "deleted",
+    "before": {
+      "path": "example/test/widget_test.dart",
+      "mode": "100644",
+      "sha256": "a2ca0c89e9afe3d76f5e51a6e8fdc5909f27f035cba82a045bfe4b19d1613bd5",
+      "lfSha256": "a6984735e25c3da8920f632fe3741cfcc1d91707273058e7f18b7e8f40f3d2ab",
+      "size": 1076,
+      "gitBlob": "43628d36a2da239bcb07b23b3ab67b7b637bf6f9"
+    },
+    "after": null
+  },
+  {
+    "path": "example/web/favicon.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/web/favicon.png",
+      "mode": "100644",
+      "sha256": "7ab2525f4b86b65d3e4c70358a17e5a1aaf6f437f99cbcc046dad73d59bb9015",
+      "lfSha256": "1b53092d3e4e3878e23a9999512a204f552a8cf25f20fa5639e9121841d39955",
+      "size": 917,
+      "gitBlob": "8aaa46ac1ae21512746f852a42ba87e4165dfdd1"
+    },
+    "after": null
+  },
+  {
+    "path": "example/web/icons/Icon-192.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/web/icons/Icon-192.png",
+      "mode": "100644",
+      "sha256": "3dce99077602f70421c1c6b2a240bc9b83d64d86681d45f2154143310c980be3",
+      "lfSha256": "9930df3807e42c01acea3fb9205ef6c42cfae06c3d182c148a9ba0b5a17fc577",
+      "size": 5292,
+      "gitBlob": "b749bfef07473333cf1dd31e9eed89862a5d52aa"
+    },
+    "after": null
+  },
+  {
+    "path": "example/web/icons/Icon-512.png",
+    "kind": "deleted",
+    "before": {
+      "path": "example/web/icons/Icon-512.png",
+      "mode": "100644",
+      "sha256": "baccb205ae45f0b421be1657259b4943ac40c95094ab877f3bcbe12cd544dcbe",
+      "lfSha256": "66420e17d86a961c85218aa3fa20a9e283bdadc47725b51a9899191a8d65e1d3",
+      "size": 8252,
+      "gitBlob": "88cfd48dff1169879ba46840804b412fe02fefd6"
+    },
+    "after": null
+  },
+  {
+    "path": "example/web/index.html",
+    "kind": "deleted",
+    "before": {
+      "path": "example/web/index.html",
+      "mode": "100644",
+      "sha256": "9db817821904654f4a914c6ceb37a7c8e8b24f4309d553a50b63803edec16b60",
+      "lfSha256": "451ff46e97e86c36d372f1fccdd010b1a4c03bf0c7be01399a553debc529e4a3",
+      "size": 1548,
+      "gitBlob": "09905c22811ad6eca27eb0f61b1f10a1b1c96cce"
+    },
+    "after": null
+  },
+  {
+    "path": "example/web/manifest.json",
+    "kind": "deleted",
+    "before": {
+      "path": "example/web/manifest.json",
+      "mode": "100644",
+      "sha256": "06ce8f97e20012b400e49d87a3ccb5518cc8fb921ca01a230f51863ea9e4871c",
+      "lfSha256": "f94fecf8bb7e0148cb4deaf6bf5d83b339f2314640bfe2d9a5e98b10fba798fe",
+      "size": 593,
+      "gitBlob": "71f58dbd611dec1408d0e02a1a4c374acc5a92dc"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/CMakeLists.txt",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/CMakeLists.txt",
+      "mode": "100644",
+      "sha256": "aae60ad8ee8eb654b87f119d0d4fd90274890f1ae38f51fa8b0be06392a2bd93",
+      "lfSha256": "953e866b714c24711b20eddc1a3ef094e35b8b5284e56b053d48b5605edbf485",
+      "size": 3514,
+      "gitBlob": "6919d4c90de1e2db38f1f29abe82c481c70e2bcd"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/flutter/CMakeLists.txt",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/flutter/CMakeLists.txt",
+      "mode": "100644",
+      "sha256": "8ac9b149d5ddaf9900b52dee62f63e9ea41417b174b6bf9eb9cad09236adf047",
+      "lfSha256": "6a06d567f5ed7d33ed94f3aec43f62c9a93877c93f35cc5bcf34cfbb4fbbc9f6",
+      "size": 3592,
+      "gitBlob": "c10f4f62cb3d94eba21bf24b79c93ac4a0d6cb01"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/flutter/generated_plugin_registrant.cc",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/flutter/generated_plugin_registrant.cc",
+      "mode": "100644",
+      "sha256": "82e02567f2faf5e732dc92a2fb0d01104f7ba8c48973f8cfd41a860b4fac3f3b",
+      "lfSha256": "82e02567f2faf5e732dc92a2fb0d01104f7ba8c48973f8cfd41a860b4fac3f3b",
+      "size": 164,
+      "gitBlob": "8b6d4680af388f28db8742ef7fb8246e2bb1fffb"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/flutter/generated_plugin_registrant.h",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/flutter/generated_plugin_registrant.h",
+      "mode": "100644",
+      "sha256": "dbc11635d7b1ba1887adf40df5b83d634e9c3ab0bee34510c71528bb4d73602a",
+      "lfSha256": "dbc11635d7b1ba1887adf40df5b83d634e9c3ab0bee34510c71528bb4d73602a",
+      "size": 302,
+      "gitBlob": "dc139d85a93101cc0f6e9db03a3e1a9f68e8dd7e"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/flutter/generated_plugins.cmake",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/flutter/generated_plugins.cmake",
+      "mode": "100644",
+      "sha256": "3074851c60a956b2596aaf8055fdd8a185eaf0d74da3f6c36465342f8ea3d89f",
+      "lfSha256": "3074851c60a956b2596aaf8055fdd8a185eaf0d74da3f6c36465342f8ea3d89f",
+      "size": 459,
+      "gitBlob": "4d10c2518654eaadbb431f911a1b24860d5b68c6"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/runner/CMakeLists.txt",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/runner/CMakeLists.txt",
+      "mode": "100644",
+      "sha256": "223a8165ad894302d719d00550a54535d65da8113d6721cbdd6acba5b752240b",
+      "lfSha256": "0a2c6250d5a4ec27d1d1a6a5f5ee25abc5262535546e7bb68c0befacadb614bb",
+      "size": 607,
+      "gitBlob": "e99321763276c4bf00d6f57fdb84ca0729f0f247"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/runner/Runner.rc",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/runner/Runner.rc",
+      "mode": "100644",
+      "sha256": "5036042e626c4e81041ae4a16f8363164af1cc2f5620fac420153110c3dfe479",
+      "lfSha256": "a09df1b7b17d56d6b4436c87e666b904c6809b9d6a4f1f9c2cb8d3e901569e55",
+      "size": 2984,
+      "gitBlob": "03882381c2bb83a1cb581164f4dcdcfe89f320b7"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/runner/flutter_window.cpp",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/runner/flutter_window.cpp",
+      "mode": "100644",
+      "sha256": "bef7f4b29d783086bc0392894eeda6e131460a4aaba97b7c5d32c12181f49daa",
+      "lfSha256": "cdbde1f17f3c8b0d96d97e2dc9b2b5d99f226be34116915d9a21bf5484b9b743",
+      "size": 2038,
+      "gitBlob": "ac04f7790a3e7993dbe21287790ce5dbb9a8b2f7"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/runner/flutter_window.h",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/runner/flutter_window.h",
+      "mode": "100644",
+      "sha256": "bea864d665cc60f365e912f77ff4d784ed2dace683cb114250c6b4986743d9b0",
+      "lfSha256": "8bea4f971c92a34cf1b19dfe37b16b0db6951b8f052ec01a55a5d3a5b3c9f76d",
+      "size": 1137,
+      "gitBlob": "ba86031c6c4781c5d365b25df46b8c7229570cf1"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/runner/main.cpp",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/runner/main.cpp",
+      "mode": "100644",
+      "sha256": "a79c070c0a98e79d7d8fa039ac24e7673f46380c1d04b77a70b5f3b2c9bd4f5a",
+      "lfSha256": "80f78441176eb5469f64f5f390d7e98772abd52fbdde86e0773b35bf821752eb",
+      "size": 1259,
+      "gitBlob": "0844430ad4d902f2751d9a42a6cdc84fae7629f3"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/runner/resource.h",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/runner/resource.h",
+      "mode": "100644",
+      "sha256": "d0e8bf7835468b4b6b1f8f0747f2e8f25c19841f2df2ac60aaa584ddae3aa7c6",
+      "lfSha256": "1fa98588b04561590ba1cf0521ab86a9db4a878312f21c9d5861d965ddd8d1ae",
+      "size": 448,
+      "gitBlob": "ddc7f3efc0e6c820aec21ceccd42537b74645a9a"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/runner/resources/app_icon.ico",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/runner/resources/app_icon.ico",
+      "mode": "100644",
+      "sha256": "c098d3fc85cacff98b8e69811b48e9f0d852fcee278132d794411d978869cbf8",
+      "lfSha256": "4c87f0be48a71fec3983baa4638060ef7fec1fd0f9a23b1e0c356c511bfceede",
+      "size": 33772,
+      "gitBlob": "c04e20caf6370ebb9253ad831cc31de4a9c965f6"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/runner/run_loop.cpp",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/runner/run_loop.cpp",
+      "mode": "100644",
+      "sha256": "aac55bcaf5ac4a7c8e009d23440465a32265d42014711c1e61f5aa1dd59e8326",
+      "lfSha256": "03d4106ea17001ca5b9c8ae19377db81cd0eaa94f93008a9cc8ce19813155cf7",
+      "size": 2212,
+      "gitBlob": "0d912118c2e9f5c60549a7a082614bf3ca82a77e"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/runner/run_loop.h",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/runner/run_loop.h",
+      "mode": "100644",
+      "sha256": "b5e1856a0564e2d4643827bb05a455d6600c1a447cab7870467bd0a74009a2f6",
+      "lfSha256": "a9c7cf23d2df4318bf881d1728d4a4243ae45215c596fe0156726dd15c0d3449",
+      "size": 1056,
+      "gitBlob": "54927f9773b41f16453b3a8631a99190702716a1"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/runner/runner.exe.manifest",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/runner/runner.exe.manifest",
+      "mode": "100644",
+      "sha256": "5db95045347553faf6d1d276881d008ca033c22fc2b7f38eae8ed2dd799f5712",
+      "lfSha256": "bc0a5c549219bdd4dfba20cc89513668c7614674ccf0d714ab347ed3330006ce",
+      "size": 879,
+      "gitBlob": "2c680b8be2bab57eba3063f1addbbb5d9498960e"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/runner/utils.cpp",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/runner/utils.cpp",
+      "mode": "100644",
+      "sha256": "272a50c41363d8c337d4901702c048c055621f7d0a6c4134d8ae019cc92a8b0c",
+      "lfSha256": "010ec3c14d87227bd1f87c3fec52588295447acecf81dcba93fc2a7ca23a6618",
+      "size": 1715,
+      "gitBlob": "05b53c01b45d5df484e1a62bd468da2c438ea2dd"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/runner/utils.h",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/runner/utils.h",
+      "mode": "100644",
+      "sha256": "832e246b6758253f89016fb0374b30791242e97ad950d27fc678b3d9feacfdc4",
+      "lfSha256": "95a7f7dddb832997cefa937a96f89472332277e75734a5de553610760b744b03",
+      "size": 691,
+      "gitBlob": "3f0e05cba3cc07d7982c48e0e5a49129d4dddfbb"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/runner/win32_window.cpp",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/runner/win32_window.cpp",
+      "mode": "100644",
+      "sha256": "94f8999d10d463a9b4a8dc568454c6c8f762b16f32dfdc7cb1bcb1ee892623a2",
+      "lfSha256": "830d54b6f064b2dff05db53ec994828d400afbcf0f3ac16a1547cf4fe5ccfab2",
+      "size": 7269,
+      "gitBlob": "97f4439cd1643c45201ac9e8a804dbd60f3be3a2"
+    },
+    "after": null
+  },
+  {
+    "path": "example/windows/runner/win32_window.h",
+    "kind": "deleted",
+    "before": {
+      "path": "example/windows/runner/win32_window.h",
+      "mode": "100644",
+      "sha256": "8d66274e09904b50fcc3953153d6b0c1db13e3037d8753418e0830ffe4d824cb",
+      "lfSha256": "5bc707f655d9c18fdd7178eb2d8fa62dec5685d733a3a4d436fb445b436b5f9d",
+      "size": 3448,
+      "gitBlob": "d9bcac1b60c083c9c67d06395885ed9526caf8e3"
+    },
+    "after": null
+  },
+  {
+    "path": "lib/implicitly_animated_reorderable_list.dart",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "lib/implicitly_animated_reorderable_list.dart",
+      "mode": "100644",
+      "sha256": "af517596a5a7f650d00e572e1e01139d9144e09ab95b222d30e8a6c66c910eeb",
+      "lfSha256": "c953d6d79ce918c46d183696b0645c876ec75ee0a92f0d8cfeefe09760d74efe",
+      "size": 246,
+      "gitBlob": "de9e33ecd71691255e8500b8b1c48fbeec1bd9d7"
+    },
+    "after": {
+      "path": "lib/implicitly_animated_reorderable_list.dart",
+      "mode": "100644",
+      "sha256": "c953d6d79ce918c46d183696b0645c876ec75ee0a92f0d8cfeefe09760d74efe",
+      "lfSha256": "c953d6d79ce918c46d183696b0645c876ec75ee0a92f0d8cfeefe09760d74efe",
+      "size": 239,
+      "gitBlob": "bcb5af5b7832ad14fe511feed10a5f96f2160330"
+    }
+  },
+  {
+    "path": "lib/src/custom_sliver_animated_list.dart",
+    "kind": "modified",
+    "before": {
+      "path": "lib/src/custom_sliver_animated_list.dart",
+      "mode": "100644",
+      "sha256": "99d6214d2b98a2d99ec064ef577e8c4529cb1a031982bff3a5ee581e6c234a2d",
+      "lfSha256": "97849aa868a5a680abcce23be18ee8912d98efae1f66e8e73357e2b37917dadc",
+      "size": 10473,
+      "gitBlob": "a203186f8f941e04c1f1d463212905f50f2b6ee0"
+    },
+    "after": {
+      "path": "lib/src/custom_sliver_animated_list.dart",
+      "mode": "100644",
+      "sha256": "2a020180b8e05a402824ded8176966908d4fb179696ee576b1a82808845626c7",
+      "lfSha256": "2a020180b8e05a402824ded8176966908d4fb179696ee576b1a82808845626c7",
+      "size": 10412,
+      "gitBlob": "6360ddcf084084412ec8f4c2a905520ed5f0532b"
+    }
+  },
+  {
+    "path": "lib/src/diff/diff.dart",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "lib/src/diff/diff.dart",
+      "mode": "100644",
+      "sha256": "283e05731373355af03f332e3152b00e74f7828babc6f83ef60a5ef6aa41692a",
+      "lfSha256": "2ca0143746a42a3b9d69236b9ffa821f9de84fecd426b58cdd25553de863eef0",
+      "size": 140,
+      "gitBlob": "6660c36b2f88ebbb15627495218c6e7c4fd0bbee"
+    },
+    "after": {
+      "path": "lib/src/diff/diff.dart",
+      "mode": "100644",
+      "sha256": "2ca0143746a42a3b9d69236b9ffa821f9de84fecd426b58cdd25553de863eef0",
+      "lfSha256": "2ca0143746a42a3b9d69236b9ffa821f9de84fecd426b58cdd25553de863eef0",
+      "size": 135,
+      "gitBlob": "61f942c722a06f1c1620280a7b18cd77f4bb169b"
+    }
+  },
+  {
+    "path": "lib/src/diff/diff_callback.dart",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "lib/src/diff/diff_callback.dart",
+      "mode": "100644",
+      "sha256": "1469fa5b1786283ea10be42ed2f6b1758c7aaadd9f32748fd5e0843c49d939a3",
+      "lfSha256": "c0df813219eb4c60201a7f76ba2b186c5c93c7e5581556f7ab0263df4aa72d7a",
+      "size": 1323,
+      "gitBlob": "0260463554a1283d5c60bfa7db7c89474d34ecfb"
+    },
+    "after": {
+      "path": "lib/src/diff/diff_callback.dart",
+      "mode": "100644",
+      "sha256": "c0df813219eb4c60201a7f76ba2b186c5c93c7e5581556f7ab0263df4aa72d7a",
+      "lfSha256": "c0df813219eb4c60201a7f76ba2b186c5c93c7e5581556f7ab0263df4aa72d7a",
+      "size": 1288,
+      "gitBlob": "53cffe4bd5f8898be05f8222ecbf424a51e147ee"
+    }
+  },
+  {
+    "path": "lib/src/diff/diff_delegate.dart",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "lib/src/diff/diff_delegate.dart",
+      "mode": "100644",
+      "sha256": "52f7d99280b167ade0d21ea61f7f5136338fcd36f48d617011e9e81bdcda4414",
+      "lfSha256": "6c6eab188ddf99f3bd7572d0740c1000f30b5cb1c09d2946ed391fe5dc6dc191",
+      "size": 1535,
+      "gitBlob": "adacf9cf1bd2eb2a7c2999add0491729ad967057"
+    },
+    "after": {
+      "path": "lib/src/diff/diff_delegate.dart",
+      "mode": "100644",
+      "sha256": "6c6eab188ddf99f3bd7572d0740c1000f30b5cb1c09d2946ed391fe5dc6dc191",
+      "lfSha256": "6c6eab188ddf99f3bd7572d0740c1000f30b5cb1c09d2946ed391fe5dc6dc191",
+      "size": 1479,
+      "gitBlob": "b341f9ecd55b00967c9d144fd97e14a2130f3725"
+    }
+  },
+  {
+    "path": "lib/src/diff/diff_model.dart",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "lib/src/diff/diff_model.dart",
+      "mode": "100644",
+      "sha256": "591168dd0e0d818f65cb43644a96f9e3a017a4a42b2ce31873a65dae949c0d32",
+      "lfSha256": "32e5028eec6889594a80d546729e3d7f7d0d0141232a1abc9babf0499ddbffd4",
+      "size": 875,
+      "gitBlob": "ed5f64feb7399adf4ddb4be353a927f2b119a555"
+    },
+    "after": {
+      "path": "lib/src/diff/diff_model.dart",
+      "mode": "100644",
+      "sha256": "32e5028eec6889594a80d546729e3d7f7d0d0141232a1abc9babf0499ddbffd4",
+      "lfSha256": "32e5028eec6889594a80d546729e3d7f7d0d0141232a1abc9babf0499ddbffd4",
+      "size": 831,
+      "gitBlob": "2eef7821a04263f37d1f606c486a67d362475851"
+    }
+  },
+  {
+    "path": "lib/src/diff/myers_diff.dart",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "lib/src/diff/myers_diff.dart",
+      "mode": "100644",
+      "sha256": "bb5e5d5a3ec8f54916831ad35cee57d2435286dcefd7923fef04ed3bb108e72c",
+      "lfSha256": "ff1e853adc37294e26d1d6a36e9ea48d4303f70a321dc97f267e46f09b4ee770",
+      "size": 4505,
+      "gitBlob": "c5bab0852a04d9b045a1381140961cf9aedab76c"
+    },
+    "after": {
+      "path": "lib/src/diff/myers_diff.dart",
+      "mode": "100644",
+      "sha256": "ff1e853adc37294e26d1d6a36e9ea48d4303f70a321dc97f267e46f09b4ee770",
+      "lfSha256": "ff1e853adc37294e26d1d6a36e9ea48d4303f70a321dc97f267e46f09b4ee770",
+      "size": 4336,
+      "gitBlob": "c842af9f8bf041a7617cf35402a1de775f885111"
+    }
+  },
+  {
+    "path": "lib/src/diff/path_node.dart",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "lib/src/diff/path_node.dart",
+      "mode": "100644",
+      "sha256": "bf5dc1c7977fcb9b006ad5ead994242ce191c77edebbd749e5b62de601557291",
+      "lfSha256": "2c082db449bdbc2adee9458fd35d905ef259997c4b1c650bf728b9e2eea35bbf",
+      "size": 1449,
+      "gitBlob": "7bfd2219752411106504473d45c74cd41b04e638"
+    },
+    "after": {
+      "path": "lib/src/diff/path_node.dart",
+      "mode": "100644",
+      "sha256": "2c082db449bdbc2adee9458fd35d905ef259997c4b1c650bf728b9e2eea35bbf",
+      "lfSha256": "2c082db449bdbc2adee9458fd35d905ef259997c4b1c650bf728b9e2eea35bbf",
+      "size": 1381,
+      "gitBlob": "12397ad2cc3380adda4efab7ec48eb6dd1ea7250"
+    }
+  },
+  {
+    "path": "lib/src/handle.dart",
+    "kind": "modified",
+    "before": {
+      "path": "lib/src/handle.dart",
+      "mode": "100644",
+      "sha256": "5f622ba9debb400c1f80a7b440393aabe4111a2abf6e844bee005e00539fe6cb",
+      "lfSha256": "b8451d25bd5f285b24f90ba008de848bee62238328e6cef2cc9e94cb016bb2a4",
+      "size": 5825,
+      "gitBlob": "fd413cb3eb7ce0896baf7b9adb2d954333d24ecc"
+    },
+    "after": {
+      "path": "lib/src/handle.dart",
+      "mode": "100644",
+      "sha256": "97edc37811fe39976faa7e60edd6c763679bb07b8b94c3ba5c8b7f9724a8e289",
+      "lfSha256": "97edc37811fe39976faa7e60edd6c763679bb07b8b94c3ba5c8b7f9724a8e289",
+      "size": 5596,
+      "gitBlob": "aae8d7cc9a2f8f7f0dccc3d56e8d07988d7a7f93"
+    }
+  },
+  {
+    "path": "lib/src/implicitly_animated_list.dart",
+    "kind": "modified",
+    "before": {
+      "path": "lib/src/implicitly_animated_list.dart",
+      "mode": "100644",
+      "sha256": "6444ee1ce9720846e9ba7c7022f426a7fe6d517e4f2ff1903612e0c4332a8c6a",
+      "lfSha256": "15e9413ec7f9a2df1255cf72aadc6ae258d95fc4763505ab67d652066ec7c7e9",
+      "size": 10084,
+      "gitBlob": "29062eb040107607fe4bf83c01fe352c46f27eb2"
+    },
+    "after": {
+      "path": "lib/src/implicitly_animated_list.dart",
+      "mode": "100644",
+      "sha256": "8a753f564988374a2e6ca36281718a6619785ab4a346858d20dba687b3dc360a",
+      "lfSha256": "8a753f564988374a2e6ca36281718a6619785ab4a346858d20dba687b3dc360a",
+      "size": 9858,
+      "gitBlob": "ea03d890c606f155655fc8b536601ef486a1dd80"
+    }
+  },
+  {
+    "path": "lib/src/implicitly_animated_list_base.dart",
+    "kind": "modified",
+    "before": {
+      "path": "lib/src/implicitly_animated_list_base.dart",
+      "mode": "100644",
+      "sha256": "240a20f39c718af98b2073cc342749f58d142447fec9c0e4862a147b00ff5af2",
+      "lfSha256": "5911f71fe5b6fde44b0aa76500f3f4dc28d847e6baf84a19705d5ee20eea023c",
+      "size": 8639,
+      "gitBlob": "b4e2fe870586adc675477f02cd95a507b864cb0e"
+    },
+    "after": {
+      "path": "lib/src/implicitly_animated_list_base.dart",
+      "mode": "100644",
+      "sha256": "b1a7fbe511ccdd7e3748c295c76078c3340f61c169d3bcac2b7ef0e6a270e4fd",
+      "lfSha256": "b1a7fbe511ccdd7e3748c295c76078c3340f61c169d3bcac2b7ef0e6a270e4fd",
+      "size": 8343,
+      "gitBlob": "3a0391fddb035d6ee80deb1779fc4b26ec80d2ba"
+    }
+  },
+  {
+    "path": "lib/src/implicitly_animated_reorderable_list.dart",
+    "kind": "modified",
+    "before": {
+      "path": "lib/src/implicitly_animated_reorderable_list.dart",
+      "mode": "100644",
+      "sha256": "cdbbbb1c4b40c19deb018370cb2e245a57dee06b07ca23d487c38343b8f0cba9",
+      "lfSha256": "e418a7705acd3fb76204f41341015b67cfa609ffaa6bab3ab9c334f17009edcb",
+      "size": 28678,
+      "gitBlob": "7137cc6a7e1bccd998c6a16e2cf5d485bf9a55cf"
+    },
+    "after": {
+      "path": "lib/src/implicitly_animated_reorderable_list.dart",
+      "mode": "100644",
+      "sha256": "b9cb63de302b0dfb4d10e1bb32b04c05aa04e7c85913768bbca5f4b959001c0f",
+      "lfSha256": "b9cb63de302b0dfb4d10e1bb32b04c05aa04e7c85913768bbca5f4b959001c0f",
+      "size": 27803,
+      "gitBlob": "6c60cc8dfd6b5a7ef6d2e6079894281b1f46cbfc"
+    }
+  },
+  {
+    "path": "lib/src/reorderable.dart",
+    "kind": "modified",
+    "before": {
+      "path": "lib/src/reorderable.dart",
+      "mode": "100644",
+      "sha256": "d3b808c6edaeb186e7ecbbfc5dc8da776fac73a32a8b941eccd997ce79b60767",
+      "lfSha256": "8249adf269081b55ff7d4fa199b752cc2248391d071250b502bc5110c176067f",
+      "size": 4124,
+      "gitBlob": "1515210b6b9bf26e725d0130a265d47a92fea1d5"
+    },
+    "after": {
+      "path": "lib/src/reorderable.dart",
+      "mode": "100644",
+      "sha256": "9b07037f07957cd2678c0574be73b6d38b75226728b6c73ce8305c04dd276c86",
+      "lfSha256": "9b07037f07957cd2678c0574be73b6d38b75226728b6c73ce8305c04dd276c86",
+      "size": 3962,
+      "gitBlob": "2f17568254a163c837744f54eb30169bfa2aa377"
+    }
+  },
+  {
+    "path": "lib/src/src.dart",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "lib/src/src.dart",
+      "mode": "100644",
+      "sha256": "6dc60028bada3c28ac85f5bf1e698fba0cf93f48d7bcac21a8e9c122a88f3474",
+      "lfSha256": "42fc679091e6522b4a50b023dd1fc479b1a8842c77d195f5f9a6a324b839c05d",
+      "size": 243,
+      "gitBlob": "b2a713d65a4dce3dca93b01d7278951e2e74550e"
+    },
+    "after": {
+      "path": "lib/src/src.dart",
+      "mode": "100644",
+      "sha256": "42fc679091e6522b4a50b023dd1fc479b1a8842c77d195f5f9a6a324b839c05d",
+      "lfSha256": "42fc679091e6522b4a50b023dd1fc479b1a8842c77d195f5f9a6a324b839c05d",
+      "size": 236,
+      "gitBlob": "9a0cf055db92230eabc1a7e692e644f52da258f5"
+    }
+  },
+  {
+    "path": "lib/src/transitions/size_fade_transition.dart",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "lib/src/transitions/size_fade_transition.dart",
+      "mode": "100644",
+      "sha256": "c407928cdb744bed21d2403fcd5200e17bca4fa88c5ecd8c3457e7aacd4e52fc",
+      "lfSha256": "1608b59194c286eafed91d1cd821f99844b581b15b90d436d798723ea9741dcf",
+      "size": 2857,
+      "gitBlob": "1dacfb33f34b0dd90c4982a8d94731c5acb11585"
+    },
+    "after": {
+      "path": "lib/src/transitions/size_fade_transition.dart",
+      "mode": "100644",
+      "sha256": "1608b59194c286eafed91d1cd821f99844b581b15b90d436d798723ea9741dcf",
+      "lfSha256": "1608b59194c286eafed91d1cd821f99844b581b15b90d436d798723ea9741dcf",
+      "size": 2767,
+      "gitBlob": "9c51048f1d0ee39ab84c4f33997bc43da5f7aa06"
+    }
+  },
+  {
+    "path": "lib/src/util/handler.dart",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "lib/src/util/handler.dart",
+      "mode": "100644",
+      "sha256": "fcae0be6fd592879946348e9b405b422f4719eb6b1caf8355f51950e71df4108",
+      "lfSha256": "8c9756d845b9269082af940eda695ddab265919b7e580e84e8847699e97f89ca",
+      "size": 1133,
+      "gitBlob": "3923427cc63f926df6325872a3307c622c2981c7"
+    },
+    "after": {
+      "path": "lib/src/util/handler.dart",
+      "mode": "100644",
+      "sha256": "8c9756d845b9269082af940eda695ddab265919b7e580e84e8847699e97f89ca",
+      "lfSha256": "8c9756d845b9269082af940eda695ddab265919b7e580e84e8847699e97f89ca",
+      "size": 1087,
+      "gitBlob": "8e1d5cae35a26c3c26a9ade535dfcadafb3f5fcd"
+    }
+  },
+  {
+    "path": "lib/src/util/invisible.dart",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "lib/src/util/invisible.dart",
+      "mode": "100644",
+      "sha256": "318bafe7d83f368ae50a5504f37de3a4c688e31e9cf5f2add7325ddf88d84dbe",
+      "lfSha256": "6c96c78efa320cf8e164dbf3ceb28a6f3b0fccc90d477d3c15c6d2acc5ed59bc",
+      "size": 474,
+      "gitBlob": "b69d51e686a7404c39fd8566877f647545fba992"
+    },
+    "after": {
+      "path": "lib/src/util/invisible.dart",
+      "mode": "100644",
+      "sha256": "6c96c78efa320cf8e164dbf3ceb28a6f3b0fccc90d477d3c15c6d2acc5ed59bc",
+      "lfSha256": "6c96c78efa320cf8e164dbf3ceb28a6f3b0fccc90d477d3c15c6d2acc5ed59bc",
+      "size": 452,
+      "gitBlob": "d9a5f0f8315799400dbe392cd16ca768cc170fa1"
+    }
+  },
+  {
+    "path": "lib/src/util/key_extensions.dart",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "lib/src/util/key_extensions.dart",
+      "mode": "100644",
+      "sha256": "95cd5562ff6a0eec3a88914d11bc3c085307711dd98a2bf623abc07e15dd1de9",
+      "lfSha256": "cd800721296bd18fa511353c8d979ae61283c91355e66204aba521835c99837e",
+      "size": 704,
+      "gitBlob": "6e3c4bc48ce084602038152a985311ce30ab1c1f"
+    },
+    "after": {
+      "path": "lib/src/util/key_extensions.dart",
+      "mode": "100644",
+      "sha256": "cd800721296bd18fa511353c8d979ae61283c91355e66204aba521835c99837e",
+      "lfSha256": "cd800721296bd18fa511353c8d979ae61283c91355e66204aba521835c99837e",
+      "size": 675,
+      "gitBlob": "230682d4227a7a9e02a8e45924f408fc892725f4"
+    }
+  },
+  {
+    "path": "lib/src/util/util.dart",
+    "kind": "modified",
+    "before": {
+      "path": "lib/src/util/util.dart",
+      "mode": "100644",
+      "sha256": "91b98300a6ea661775806eb398549462124a7a22b34b62e1b1067755d9bda313",
+      "lfSha256": "778243fdbf588bca300e2582e7c933218b817185c1daf130c5cfd98740b1604e",
+      "size": 772,
+      "gitBlob": "30ea0619b35d05090ea7da6f71dc5b6d110d67e9"
+    },
+    "after": {
+      "path": "lib/src/util/util.dart",
+      "mode": "100644",
+      "sha256": "5e7b9c6d5142c23f10fca117d3027122f86ee82a29f31a6acdfc291d2c98a873",
+      "lfSha256": "5e7b9c6d5142c23f10fca117d3027122f86ee82a29f31a6acdfc291d2c98a873",
+      "size": 739,
+      "gitBlob": "2a525f0d9939b73558fbabc19b72960e49791220"
+    }
+  },
+  {
+    "path": "lib/transitions.dart",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "lib/transitions.dart",
+      "mode": "100644",
+      "sha256": "6acbd9ac6fc0e9b5f82e491c04aa6aae77dfbc71bf715750454364cd5014180c",
+      "lfSha256": "ba2a80acb6f4fb7c858f8d7057bd8ef4a317f57ae645f5cb0d253219886b85fd",
+      "size": 68,
+      "gitBlob": "ddb2c8ba78f61f1e7d57c70b8bbbdb3d88ae33d1"
+    },
+    "after": {
+      "path": "lib/transitions.dart",
+      "mode": "100644",
+      "sha256": "ba2a80acb6f4fb7c858f8d7057bd8ef4a317f57ae645f5cb0d253219886b85fd",
+      "lfSha256": "ba2a80acb6f4fb7c858f8d7057bd8ef4a317f57ae645f5cb0d253219886b85fd",
+      "size": 65,
+      "gitBlob": "f01b5fd79c7219de4f267a127a5e044c49abf96a"
+    }
+  },
+  {
+    "path": "pubspec.yaml",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "pubspec.yaml",
+      "mode": "100644",
+      "sha256": "52a7f7eee39d6a93f9ebc4ee74e3a3ac3e607b52522cf2ae0949549d8c0d8c30",
+      "lfSha256": "24212844493bb94c611b0224f9ac17516bafdb8092fbb3da53cc2a106ce07934",
+      "size": 491,
+      "gitBlob": "3604d217fc17e8c11298d936868e0b62f28e81ae"
+    },
+    "after": {
+      "path": "pubspec.yaml",
+      "mode": "100644",
+      "sha256": "24212844493bb94c611b0224f9ac17516bafdb8092fbb3da53cc2a106ce07934",
+      "lfSha256": "24212844493bb94c611b0224f9ac17516bafdb8092fbb3da53cc2a106ce07934",
+      "size": 471,
+      "gitBlob": "a5eb5c9a9a6ba04a888144cc524f8dd9b51b15e3"
+    }
+  },
+  {
+    "path": "test/diff_test.dart",
+    "kind": "line-endings-only",
+    "before": {
+      "path": "test/diff_test.dart",
+      "mode": "100644",
+      "sha256": "40e617db379a0a3502d5893fa5c3094d8f2e38a1c464acfc22c825ffa9645f9f",
+      "lfSha256": "0a5df7db49c48bc2a2936390ec61282cdb77e3578baa06977a28a1b69af3cfd8",
+      "size": 1114,
+      "gitBlob": "b945d0422e17f3e0dc63606d3cce95b7ef388437"
+    },
+    "after": {
+      "path": "test/diff_test.dart",
+      "mode": "100644",
+      "sha256": "0a5df7db49c48bc2a2936390ec61282cdb77e3578baa06977a28a1b69af3cfd8",
+      "lfSha256": "0a5df7db49c48bc2a2936390ec61282cdb77e3578baa06977a28a1b69af3cfd8",
+      "size": 1076,
+      "gitBlob": "a837dfb3ae1cd7db05923a61ffdd7448116c0342"
+    }
+  }
+]

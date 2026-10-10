@@ -1,0 +1,82 @@
+[
+  {
+    "path": "lib/reorderable_grid_view.dart",
+    "kind": "modified",
+    "before": {
+      "path": "lib/reorderable_grid_view.dart",
+      "mode": "100644",
+      "sha256": "a83f5e872fa760d5ba29c227d5af2fb42094c3ef0116242c7ddfcae172bf4e7e",
+      "lfSha256": "a83f5e872fa760d5ba29c227d5af2fb42094c3ef0116242c7ddfcae172bf4e7e",
+      "size": 12064,
+      "gitBlob": "657560e9470f65e90bd7077bc47d1b112df49634"
+    },
+    "after": {
+      "path": "lib/reorderable_grid_view.dart",
+      "mode": "100644",
+      "sha256": "a5c01de76804147739a7ffe1f9d653268e970392612c72a6d94ea184df628fcd",
+      "lfSha256": "a5c01de76804147739a7ffe1f9d653268e970392612c72a6d94ea184df628fcd",
+      "size": 12229,
+      "gitBlob": "7699d56705dce09195d740c27efbcf4083932ea6"
+    }
+  },
+  {
+    "path": "lib/src/reorderable_grid_mixin.dart",
+    "kind": "modified",
+    "before": {
+      "path": "lib/src/reorderable_grid_mixin.dart",
+      "mode": "100644",
+      "sha256": "954a70ea6d724d222a239b68e6ed8d7a88fff902362de699aefe578257eb5a29",
+      "lfSha256": "954a70ea6d724d222a239b68e6ed8d7a88fff902362de699aefe578257eb5a29",
+      "size": 9970,
+      "gitBlob": "1543933d2037c85a98a70cf68f00e701bb59beed"
+    },
+    "after": {
+      "path": "lib/src/reorderable_grid_mixin.dart",
+      "mode": "100644",
+      "sha256": "f888f5002e57a279ea5d1e82ad1a3b71329ef8dd727a05bbcd8bf1a8b2cbc879",
+      "lfSha256": "f888f5002e57a279ea5d1e82ad1a3b71329ef8dd727a05bbcd8bf1a8b2cbc879",
+      "size": 10073,
+      "gitBlob": "5bf84f36735121fdc882fcef4a5d969303485f33"
+    }
+  },
+  {
+    "path": "lib/src/reorderable_sliver_grid_view.dart",
+    "kind": "modified",
+    "before": {
+      "path": "lib/src/reorderable_sliver_grid_view.dart",
+      "mode": "100644",
+      "sha256": "d6ddf24449b22ad6042c24ae2ede34424e8c3c58451bffffa049a41ef3fdc5af",
+      "lfSha256": "d6ddf24449b22ad6042c24ae2ede34424e8c3c58451bffffa049a41ef3fdc5af",
+      "size": 3208,
+      "gitBlob": "0c95d8fc40a9bb926ca01bc1d3f3657f650a421f"
+    },
+    "after": {
+      "path": "lib/src/reorderable_sliver_grid_view.dart",
+      "mode": "100644",
+      "sha256": "51115f0624acc0b234523ca67bd50c563bb049af1dd939a018ed3d185a29917b",
+      "lfSha256": "51115f0624acc0b234523ca67bd50c563bb049af1dd939a018ed3d185a29917b",
+      "size": 3276,
+      "gitBlob": "9e264c31640995cb2b3dbcfd06d3b96923ad1a40"
+    }
+  },
+  {
+    "path": "lib/src/reorderable_wrapper_widget.dart",
+    "kind": "modified",
+    "before": {
+      "path": "lib/src/reorderable_wrapper_widget.dart",
+      "mode": "100644",
+      "sha256": "2b15bbb56fa9d57f0dfbadea401759e94d550030b992af7e00408a0a9e35f6a8",
+      "lfSha256": "2b15bbb56fa9d57f0dfbadea401759e94d550030b992af7e00408a0a9e35f6a8",
+      "size": 3685,
+      "gitBlob": "4256dbf057101e34bbeddcf30bd56ad2d4109d49"
+    },
+    "after": {
+      "path": "lib/src/reorderable_wrapper_widget.dart",
+      "mode": "100644",
+      "sha256": "f0ce5223e29a93b5c2df77e75aacc55a66e2da7c921381c98983b34b339e7c8d",
+      "lfSha256": "f0ce5223e29a93b5c2df77e75aacc55a66e2da7c921381c98983b34b339e7c8d",
+      "size": 3718,
+      "gitBlob": "d366faf99f01cfab094c43b2b9cb2feaec7dbd95"
+    }
+  }
+]

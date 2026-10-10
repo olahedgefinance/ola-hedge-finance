@@ -1,0 +1,9 @@
+{
+  "name": "file_picker",
+  "repository": "https://github.com/miguelpruivo/flutter_file_picker",
+  "base": "411bb01ea3b29ee625e717de9c7af2f107d7e6eb",
+  "fork": "ccbb9a384491cc0759f94618bb3859411e228091",
+  "verifiedUpstreamTip": "9f53465d5fe95fb6498c3ad45bd2357398df045f",
+  "baseAncestorOfUpstream": true,
+  "baseAncestorOfFork": true
+}

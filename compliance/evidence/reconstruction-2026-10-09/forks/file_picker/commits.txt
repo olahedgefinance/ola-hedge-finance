@@ -1,0 +1,66 @@
+ccbb9a384491cc0759f94618bb3859411e228091
+Parents: e30cf2e5e533bcb5a0036ec307b08f24d87f76af 411bb01ea3b29ee625e717de9c7af2f107d7e6eb
+Author: Oussama Maatallah <oussama.linfao.97@gmail.com>
+Date: 2023-10-16T19:28:55+01:00
+Subject: Merge branch 'master' into master
+
+e30cf2e5e533bcb5a0036ec307b08f24d87f76af
+Parents: f5ea08e86df39be7b0f5f4cf9edaa83cb5099825
+Author: Oussama Maatallah <Oussama.Maatallah@expensya.com>
+Date: 2023-10-11T10:55:33+01:00
+Subject: bumped minor version
+
+f5ea08e86df39be7b0f5f4cf9edaa83cb5099825
+Parents: 9ebba89802e87c101d88786ab6a8aadc90ddba08
+Author: Oussama Maatallah <Oussama.Maatallah@expensya.com>
+Date: 2023-10-10T09:26:12+01:00
+Subject: used dialogTitle
+
+9ebba89802e87c101d88786ab6a8aadc90ddba08
+Parents: 5db1b4917ba6e204e3e9418e4cc392631ca4280d
+Author: Oussama Maatallah <Oussama.Maatallah@expensya.com>
+Date: 2023-10-09T17:03:36+01:00
+Subject: Revert "bumped version number"
+
+5db1b4917ba6e204e3e9418e4cc392631ca4280d
+Parents: 9eb9d453fed3af110838e5305d6f0b1959a27501
+Author: Oussama Maatallah <Oussama.Maatallah@expensya.com>
+Date: 2023-10-09T17:02:56+01:00
+Subject: Revert "added necessary configs to make the image picker variable"
+
+9eb9d453fed3af110838e5305d6f0b1959a27501
+Parents: c15a7f22490e4961b87c181bbb2576c89713948c
+Author: Oussama Maatallah <Oussama.Maatallah@expensya.com>
+Date: 2023-10-09T17:02:31+01:00
+Subject: Revert "solved implementation exception"
+
+c15a7f22490e4961b87c181bbb2576c89713948c
+Parents: c97d51e073df1a57a6fac9d34ea85fd4c7bd3cff
+Author: Oussama Maatallah <Oussama.Maatallah@expensya.com>
+Date: 2023-10-09T16:29:05+01:00
+Subject: solved implementation exception
+
+c97d51e073df1a57a6fac9d34ea85fd4c7bd3cff
+Parents: 197af0c033dfa12f339bd8b4c5f831250501f8c2
+Author: Oussama Maatallah <Oussama.Maatallah@expensya.com>
+Date: 2023-10-09T12:29:06+01:00
+Subject: added necessary configs to make the image picker variable
+
+197af0c033dfa12f339bd8b4c5f831250501f8c2
+Parents: f60788b9fed0c5bcb337b96a2b9a46937491a9f9
+Author: Oussama Maatallah <Oussama.Maatallah@expensya.com>
+Date: 2023-10-06T16:26:54+01:00
+Subject: bumped version number
+
+f60788b9fed0c5bcb337b96a2b9a46937491a9f9
+Parents: feff4516e1b3f99210fb10798e2a1d77f03e5ba2
+Author: Oussama Maatallah <Oussama.Maatallah@expensya.com>
+Date: 2023-10-06T16:26:37+01:00
+Subject: fixed image picking with singleInstance
+
+feff4516e1b3f99210fb10798e2a1d77f03e5ba2
+Parents: 75980150dc9193f243452b8b2807fa1b5b998587
+Author: Oussama Maatallah <Oussama.Maatallah@expensya.com>
+Date: 2023-10-05T17:47:13+01:00
+Subject: fixed file picker
+

@@ -1,0 +1,20 @@
+tree eb276cc0344a4aaf629db994244b8cfb7bf939c2
+parent 75980150dc9193f243452b8b2807fa1b5b998587
+parent 3423d7beec4d8cd7c9ec0f10c1586165590cd697
+author Miguel Ruivo <miguel@miguelruivo.com> 1697214273 +0100
+committer GitHub <noreply@github.com> 1697214273 +0100
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsBcBAABCAAQBQJlKW9BCRBK7hj4Ov3rIwAAV8YIAGebQ++6AKUCe2+3EFmaSz53
+ kwZ1gOQrp4WTxy9TqtWevzuGRfLSnhXLRQPR+xWsbORUQ7tZBkd18zsdg4/JK+Gn
+ vu7QUgqcQTXX/46EihurutpBb/Fw0kLIWYsgPSSSlgbUJdV1bzsJYPvO4N13FRLj
+ rui+XrUdBe8xOKRc2pzQn1+xgDYmDIIv87DGh/kG8mtJVTqWpu8Wqoecmml/1Vt0
+ b6hSJziBHf3TzOoQ1hDQVBuLXkxiqrIFQAtGbyFI5ayHeNV9a31L9kdESfM14Wog
+ lDrgcM8SMpw3dKKigTbzdY359rGb/7hlNeqgcToKJfoKsq3IBaF2/mOV65l4o9w=
+ =GV+9
+ -----END PGP SIGNATURE-----
+ 
+
+Merge pull request #1383 from navaronbracke/ios_version_bump
+
+Bump min iOS version to 11

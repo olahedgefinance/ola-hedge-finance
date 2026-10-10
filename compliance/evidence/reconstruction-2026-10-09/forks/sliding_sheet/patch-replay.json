@@ -1,0 +1,8 @@
+{
+  "upstreamGitTree": "a50a043e01f0f74621a4be7b9c5db9965fd7815c",
+  "replayedGitTree": "604db78f1499ad4ee0894dde8f38eb743be3605b",
+  "patchSha256": "62486c4d4be4f30669b3c71f0c5aacf8301ae77d42a7affcc56a5631943b7419",
+  "exactTargetTreeMatched": true,
+  "command": "git apply --cached --binary --whitespace=nowarn <delta.patch>",
+  "scope": "Exact complete source tree; no code executed or native build performed."
+}

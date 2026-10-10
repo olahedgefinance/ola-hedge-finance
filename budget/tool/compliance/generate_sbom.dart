@@ -4,6 +4,7 @@ import 'package:crypto/crypto.dart';
 
 import 'sbom_lib.dart';
 import 'cocoapods_evidence.dart';
+import 'fork_evidence.dart';
 export 'sbom_lib.dart';
 
 class ComplianceArtifactBundle {
@@ -50,6 +51,7 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
       jsonDecode(await provenanceFile.readAsString()) as Map<String, dynamic>;
   final pubEntries = parsePubLock(await pubLockFile.readAsString());
   final podEntries = parsePodfileLock(await podLockFile.readAsString());
+  verifyForkEvidence(repositoryRoot, pubEntries);
   final retainedPub = jsonDecode(await File(_join(repositoryRoot.path,
           'compliance/evidence/reconstruction-2026-10-09/pub/manifest.json'))
       .readAsString()) as Map<String, dynamic>;

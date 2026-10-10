@@ -1,0 +1,9 @@
+{
+  "name": "reorderable_grid_view",
+  "repository": "https://github.com/huhuang03/reorderable_grid_view",
+  "base": "40fc5e043f89213add956101ceeb5fc58165a90d",
+  "fork": "ad913fc157323c3dca9e05628e575f54b3c2b8b6",
+  "verifiedUpstreamTip": "5fbc9c9bc496e5eb157fcb417eaf3e05ce98a55c",
+  "baseAncestorOfUpstream": true,
+  "baseAncestorOfFork": true
+}

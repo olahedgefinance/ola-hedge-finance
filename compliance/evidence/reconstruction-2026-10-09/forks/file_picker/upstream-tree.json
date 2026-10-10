@@ -1,0 +1,1514 @@
+[
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+    "mode": "100644",
+    "sha256": "4133a6e4c9b3cb3f1864b3498b57db9eeb10e5215d90bebdd6e2ca355bc345fa",
+    "lfSha256": "4133a6e4c9b3cb3f1864b3498b57db9eeb10e5215d90bebdd6e2ca355bc345fa",
+    "size": 1483,
+    "gitBlob": "7bb3e80f5db03510e19e22eb4a80789456067e6f"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/suggestion.md",
+    "mode": "100644",
+    "sha256": "3d0b5d05f145a8d5345b8d321b4bfa9423729a5e1eec2c42810470a584c973fb",
+    "lfSha256": "3d0b5d05f145a8d5345b8d321b4bfa9423729a5e1eec2c42810470a584c973fb",
+    "size": 297,
+    "gitBlob": "8772f90db65cf09acf2737b437cd49d076f04250"
+  },
+  {
+    "path": ".github/workflows/main.yml",
+    "mode": "100644",
+    "sha256": "ff2a38808c4ea9e4f604757e686fa15127a5a12803fc19e0254df20dc4a20783",
+    "lfSha256": "ff2a38808c4ea9e4f604757e686fa15127a5a12803fc19e0254df20dc4a20783",
+    "size": 867,
+    "gitBlob": "2c19035ac3de8a5e87a8fe8b9d516b7068db9479"
+  },
+  {
+    "path": ".github/workflows/maintainer.yml",
+    "mode": "100644",
+    "sha256": "90c74ec8f53bb98f250ce1a64e731e1331819bc8d01ef397a74887adb9dcd144",
+    "lfSha256": "90c74ec8f53bb98f250ce1a64e731e1331819bc8d01ef397a74887adb9dcd144",
+    "size": 694,
+    "gitBlob": "e4ef502ddc5498d542f1be54cf163439fd8dbab4"
+  },
+  {
+    "path": ".github/workflows/pub.yml",
+    "mode": "100644",
+    "sha256": "1290b291a46388507eb069d848afaec21543a70480c318558a0f5adc4590f191",
+    "lfSha256": "1290b291a46388507eb069d848afaec21543a70480c318558a0f5adc4590f191",
+    "size": 738,
+    "gitBlob": "1fd4e9cb943a773b50856ce5cb96ca5a19342581"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "sha256": "0647f593b409f341bd6e8e5f6735ac6622822d4555c317fd18e2fa02b2004da6",
+    "lfSha256": "0647f593b409f341bd6e8e5f6735ac6622822d4555c317fd18e2fa02b2004da6",
+    "size": 653,
+    "gitBlob": "db81ab8055d04ca1af959837b54225e10eb2aece"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "sha256": "167096b45eaa38852439ae5d2a007b9f7b29790919d8b727ddf41f1b9a538c82",
+    "lfSha256": "167096b45eaa38852439ae5d2a007b9f7b29790919d8b727ddf41f1b9a538c82",
+    "size": 31843,
+    "gitBlob": "bb2482e0324bb1fea6b215e7f150d360a50da35e"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "sha256": "8a8d05566acca711bafdcfa97575bf37c61acd990368d4997ced14e8f94281bc",
+    "lfSha256": "8a8d05566acca711bafdcfa97575bf37c61acd990368d4997ced14e8f94281bc",
+    "size": 1721,
+    "gitBlob": "04464d5cb80ed9524dabda69690e29abdd19e4af"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "sha256": "6278994817bd65fa32404e53c3a62a09d824d3f9a71f7fadcaca3e4f02641d66",
+    "lfSha256": "6278994817bd65fa32404e53c3a62a09d824d3f9a71f7fadcaca3e4f02641d66",
+    "size": 1069,
+    "gitBlob": "e8b4b280cf2ab1343cf57b8d0b6d951a646212e0"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "sha256": "3ba191478a744d02e2afa9d1951bfb941de8582ea62df9ac1c2b9491a15a778f",
+    "lfSha256": "3ba191478a744d02e2afa9d1951bfb941de8582ea62df9ac1c2b9491a15a778f",
+    "size": 7256,
+    "gitBlob": "138f5fbb0985e81ec9281551b044da3b9fbfd2ad"
+  },
+  {
+    "path": "analysis_options.yaml",
+    "mode": "100644",
+    "sha256": "7f1cf94b08ac3e7c57eb6c518b42199b6bc18cf8d15a5431d93a966c2e6e365f",
+    "lfSha256": "7f1cf94b08ac3e7c57eb6c518b42199b6bc18cf8d15a5431d93a966c2e6e365f",
+    "size": 1122,
+    "gitBlob": "f0cc4b3291968d5520650f794f8ddc2e7994d557"
+  },
+  {
+    "path": "android/.classpath",
+    "mode": "100644",
+    "sha256": "f0d91b8c86c439f02a4f620aaea07fce5982e3f685cf399697064e2a661a3b85",
+    "lfSha256": "f0d91b8c86c439f02a4f620aaea07fce5982e3f685cf399697064e2a661a3b85",
+    "size": 351,
+    "gitBlob": "3589094139205ce689ea416c9b23122df4afe33d"
+  },
+  {
+    "path": "android/.gitignore",
+    "mode": "100644",
+    "sha256": "570021ac4204ac6c98e352f79e7ace1ffca49eae05fb77b37df011ae14df28df",
+    "lfSha256": "570021ac4204ac6c98e352f79e7ace1ffca49eae05fb77b37df011ae14df28df",
+    "size": 152,
+    "gitBlob": "5aa89be56bb26262fd6bd82397c22a863e85d761"
+  },
+  {
+    "path": "android/.project",
+    "mode": "100644",
+    "sha256": "a73c1dbc61e6417b3340a3cd67115b92f4f8d939976e27ae7b11c820fcbafea0",
+    "lfSha256": "a73c1dbc61e6417b3340a3cd67115b92f4f8d939976e27ae7b11c820fcbafea0",
+    "size": 607,
+    "gitBlob": "8d3c9108216b3d8459c92ed9a11ffac2790a5ba7"
+  },
+  {
+    "path": "android/.settings/org.eclipse.buildship.core.prefs",
+    "mode": "100644",
+    "sha256": "e539dfee42bcb105906ee4e37b5dcb2fd6105b6f2b10854dcfdd0f039772f436",
+    "lfSha256": "e539dfee42bcb105906ee4e37b5dcb2fd6105b6f2b10854dcfdd0f039772f436",
+    "size": 54,
+    "gitBlob": "e8895216fd3c0c3af4c4522334775f41b7deb42e"
+  },
+  {
+    "path": "android/build.gradle",
+    "mode": "100644",
+    "sha256": "6a3c5bcc67b3eeeba59c710858e9ceee3264cd5ab87e7c9f5dae358cd363d98a",
+    "lfSha256": "6a3c5bcc67b3eeeba59c710858e9ceee3264cd5ab87e7c9f5dae358cd363d98a",
+    "size": 843,
+    "gitBlob": "347535f244d012c14f461e9cd02771427ae12b6b"
+  },
+  {
+    "path": "android/gradle.properties",
+    "mode": "100644",
+    "sha256": "46c39cbbc872349f1f36400af3107ccfa4d4c1e20a3ee771024094774b505e20",
+    "lfSha256": "46c39cbbc872349f1f36400af3107ccfa4d4c1e20a3ee771024094774b505e20",
+    "size": 55,
+    "gitBlob": "d172c4783551c92de0e235eb79ed98bc6d066b90"
+  },
+  {
+    "path": "android/gradle/wrapper/gradle-wrapper.properties",
+    "mode": "100644",
+    "sha256": "da4dffeb8d22c3bcbce1cba51b68f5bdf1ebd409b58e0813c38899051e5d4220",
+    "lfSha256": "da4dffeb8d22c3bcbce1cba51b68f5bdf1ebd409b58e0813c38899051e5d4220",
+    "size": 231,
+    "gitBlob": "39534d3ac580adacc0c9dbc81f32e4249daab136"
+  },
+  {
+    "path": "android/settings.gradle",
+    "mode": "100644",
+    "sha256": "3567e5655474823e920ba5041e2a3626454a1f4d3bac8248faace3dde2763261",
+    "lfSha256": "3567e5655474823e920ba5041e2a3626454a1f4d3bac8248faace3dde2763261",
+    "size": 33,
+    "gitBlob": "66834f5921985438f3e2dc5c04f6c89970a7d800"
+  },
+  {
+    "path": "android/src/main/AndroidManifest.xml",
+    "mode": "100644",
+    "sha256": "d94959d213badbd2b3e30d78f39625a8c21782cdb2939dd122fd039dad2f053b",
+    "lfSha256": "d94959d213badbd2b3e30d78f39625a8c21782cdb2939dd122fd039dad2f053b",
+    "size": 370,
+    "gitBlob": "745bc8168abf28cc60c769a95594b72977cdf8e7"
+  },
+  {
+    "path": "android/src/main/java/com/mr/flutter/plugin/filepicker/FileInfo.java",
+    "mode": "100644",
+    "sha256": "b1bc697d69c87bc5ed59ddb875873bb3ac4418de36a50cb0154fb56348dba400",
+    "lfSha256": "b1bc697d69c87bc5ed59ddb875873bb3ac4418de36a50cb0154fb56348dba400",
+    "size": 1634,
+    "gitBlob": "910896913a784d17f063ad06ac184e1e1377383e"
+  },
+  {
+    "path": "android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerDelegate.java",
+    "mode": "100644",
+    "sha256": "97d8cae358222a074b0372d26f91ed56a49a4eb23a048ec186fbc4a3c2f0c57c",
+    "lfSha256": "97d8cae358222a074b0372d26f91ed56a49a4eb23a048ec186fbc4a3c2f0c57c",
+    "size": 13799,
+    "gitBlob": "7b938a64cf22d10071d863eafdff45ae4cbca79c"
+  },
+  {
+    "path": "android/src/main/java/com/mr/flutter/plugin/filepicker/FilePickerPlugin.java",
+    "mode": "100644",
+    "sha256": "f5567304ed3a61d621de64156f03fd80cd722491bcb409f7fd4728e410c343a3",
+    "lfSha256": "f5567304ed3a61d621de64156f03fd80cd722491bcb409f7fd4728e410c343a3",
+    "size": 11856,
+    "gitBlob": "585b24597aa0b0c30030374d483c2360c7b67d65"
+  },
+  {
+    "path": "android/src/main/java/com/mr/flutter/plugin/filepicker/FileUtils.java",
+    "mode": "100644",
+    "sha256": "cb383849d88d7154f06327c76664dcfd8103a5f623150c2aac8311dd5f31c4e3",
+    "lfSha256": "cb383849d88d7154f06327c76664dcfd8103a5f623150c2aac8311dd5f31c4e3",
+    "size": 11426,
+    "gitBlob": "91eea20f8038f7b412741c518db75518cb94644e"
+  },
+  {
+    "path": "example/.gitignore",
+    "mode": "100644",
+    "sha256": "63c8760d93c6f8c4298506f86255aa29d47cc91a009b33c5e8092b3ea5bef86a",
+    "lfSha256": "63c8760d93c6f8c4298506f86255aa29d47cc91a009b33c5e8092b3ea5bef86a",
+    "size": 701,
+    "gitBlob": "24476c5d1eb55824c76d8b01a3965f94abad1ef8"
+  },
+  {
+    "path": "example/.metadata",
+    "mode": "100644",
+    "sha256": "98f8566f258e31be2c6cded06974d76809c79c956bbf861b46620a21121914ba",
+    "lfSha256": "98f8566f258e31be2c6cded06974d76809c79c956bbf861b46620a21121914ba",
+    "size": 1522,
+    "gitBlob": "1dfb3f7632bba78fcabd781b649bdf53220f2a80"
+  },
+  {
+    "path": "example/README.md",
+    "mode": "100644",
+    "sha256": "c05454b15cf92faa995f603593c2d16524c2de2dafea1b673380d0bc0f7626f1",
+    "lfSha256": "c05454b15cf92faa995f603593c2d16524c2de2dafea1b673380d0bc0f7626f1",
+    "size": 537,
+    "gitBlob": "a135626028224aae68d394c2da60bd48bb50aeea"
+  },
+  {
+    "path": "example/analysis_options.yaml",
+    "mode": "100644",
+    "sha256": "b51e122148d477516d45c68eb455a22dd0eacdde9c4979b16c656bb71215c99e",
+    "lfSha256": "b51e122148d477516d45c68eb455a22dd0eacdde9c4979b16c656bb71215c99e",
+    "size": 1453,
+    "gitBlob": "61b6c4de17c96863d24279f06b85e01b6ebbdb34"
+  },
+  {
+    "path": "example/android/.gitignore",
+    "mode": "100644",
+    "sha256": "6465544ea1ab74e4b02cfc786d7a26c35cd5fefad77aaa3b05b4e585f905cd7f",
+    "lfSha256": "6465544ea1ab74e4b02cfc786d7a26c35cd5fefad77aaa3b05b4e585f905cd7f",
+    "size": 285,
+    "gitBlob": "6f568019d3c69d4966bb5a0f759980a1472afc1e"
+  },
+  {
+    "path": "example/android/.project",
+    "mode": "100644",
+    "sha256": "a1d28031071a39a839d32dae2c948bee97aa3d17d33447ba5cee9ccdc9c34b85",
+    "lfSha256": "a1d28031071a39a839d32dae2c948bee97aa3d17d33447ba5cee9ccdc9c34b85",
+    "size": 433,
+    "gitBlob": "3964dd3f5b7fea7ecf391254ba292fcfe96bb513"
+  },
+  {
+    "path": "example/android/.settings/org.eclipse.buildship.core.prefs",
+    "mode": "100644",
+    "sha256": "e539dfee42bcb105906ee4e37b5dcb2fd6105b6f2b10854dcfdd0f039772f436",
+    "lfSha256": "e539dfee42bcb105906ee4e37b5dcb2fd6105b6f2b10854dcfdd0f039772f436",
+    "size": 54,
+    "gitBlob": "e8895216fd3c0c3af4c4522334775f41b7deb42e"
+  },
+  {
+    "path": "example/android/app/.classpath",
+    "mode": "100644",
+    "sha256": "f0d91b8c86c439f02a4f620aaea07fce5982e3f685cf399697064e2a661a3b85",
+    "lfSha256": "f0d91b8c86c439f02a4f620aaea07fce5982e3f685cf399697064e2a661a3b85",
+    "size": 351,
+    "gitBlob": "3589094139205ce689ea416c9b23122df4afe33d"
+  },
+  {
+    "path": "example/android/app/.project",
+    "mode": "100644",
+    "sha256": "770394ad4be6df537fe2779a84513788cf04fe5b6e5415ade86da606aae44918",
+    "lfSha256": "770394ad4be6df537fe2779a84513788cf04fe5b6e5415ade86da606aae44918",
+    "size": 591,
+    "gitBlob": "ac485d7c3e627d997f59da65ac961160079a0143"
+  },
+  {
+    "path": "example/android/app/.settings/org.eclipse.buildship.core.prefs",
+    "mode": "100644",
+    "sha256": "466d37e781546b68525b2ca543a3082772bdf95cabec4ea11ec4581f5d05154c",
+    "lfSha256": "466d37e781546b68525b2ca543a3082772bdf95cabec4ea11ec4581f5d05154c",
+    "size": 56,
+    "gitBlob": "b1886adb46c085de842f1283c1a3c25151bfc988"
+  },
+  {
+    "path": "example/android/app/build.gradle",
+    "mode": "100644",
+    "sha256": "5f6c887488bcac4f02cff219fa92bcddc4bb70b2a7532ce5ec197c58049f1caf",
+    "lfSha256": "5f6c887488bcac4f02cff219fa92bcddc4bb70b2a7532ce5ec197c58049f1caf",
+    "size": 1410,
+    "gitBlob": "fd9aa0e139dbb152b3f0e7a56637b3782f0d63a7"
+  },
+  {
+    "path": "example/android/app/src/debug/AndroidManifest.xml",
+    "mode": "100644",
+    "sha256": "ede8e0a0fa709ab8f877ab4473c7a64996e47a8d560d4abec5a427b7b242c57d",
+    "lfSha256": "ede8e0a0fa709ab8f877ab4473c7a64996e47a8d560d4abec5a427b7b242c57d",
+    "size": 348,
+    "gitBlob": "66063d7319ad73ee51d0078d1402e5fd9c5df15c"
+  },
+  {
+    "path": "example/android/app/src/main/AndroidManifest.xml",
+    "mode": "100644",
+    "sha256": "bc4110321057b9d28cc1f3c5b26a411615da56495a0ebcdd4cd936f33824b376",
+    "lfSha256": "bc4110321057b9d28cc1f3c5b26a411615da56495a0ebcdd4cd936f33824b376",
+    "size": 2319,
+    "gitBlob": "8591f7e0069671d96e37efe9880d5d99b1a3aad5"
+  },
+  {
+    "path": "example/android/app/src/main/java/com/mr/flutter/plugin/filepicker/example/MainActivity.java",
+    "mode": "100644",
+    "sha256": "b51c0afec852d612177cf0fc30511c87428154a2db937dc889c76244835b1969",
+    "lfSha256": "b51c0afec852d612177cf0fc30511c87428154a2db937dc889c76244835b1969",
+    "size": 159,
+    "gitBlob": "192f40ae8d688d981de9b37ac4fd2ce80ed7ee20"
+  },
+  {
+    "path": "example/android/app/src/main/kotlin/com/mr/flutter/plugin/example/MainActivity.kt",
+    "mode": "100644",
+    "sha256": "dfab9e3ca61a565247ec80f1243f2c7ec851012008e76d3af2fa0145f23d861a",
+    "lfSha256": "dfab9e3ca61a565247ec80f1243f2c7ec851012008e76d3af2fa0145f23d861a",
+    "size": 145,
+    "gitBlob": "58ac0010b1e4bcc1a778e22b4f67d551b669f905"
+  },
+  {
+    "path": "example/android/app/src/main/kotlin/com/mr/flutter/plugin/filepicker/example/MainActivity.kt",
+    "mode": "100644",
+    "sha256": "dfab9e3ca61a565247ec80f1243f2c7ec851012008e76d3af2fa0145f23d861a",
+    "lfSha256": "dfab9e3ca61a565247ec80f1243f2c7ec851012008e76d3af2fa0145f23d861a",
+    "size": 145,
+    "gitBlob": "58ac0010b1e4bcc1a778e22b4f67d551b669f905"
+  },
+  {
+    "path": "example/android/app/src/main/res/drawable-v21/launch_background.xml",
+    "mode": "100644",
+    "sha256": "7ca6d5cec2169c5a98661a119db23a6f3399c8fef2256ff04f3a642831282478",
+    "lfSha256": "7ca6d5cec2169c5a98661a119db23a6f3399c8fef2256ff04f3a642831282478",
+    "size": 438,
+    "gitBlob": "f74085f3f6a2b995f8ad1f9ff7b2c46dc118a9e0"
+  },
+  {
+    "path": "example/android/app/src/main/res/drawable/launch_background.xml",
+    "mode": "100644",
+    "sha256": "94433756fe10005ddd6fc55cc5c0b1e9f3c10b66a08ceac795ece6713d34e28a",
+    "lfSha256": "94433756fe10005ddd6fc55cc5c0b1e9f3c10b66a08ceac795ece6713d34e28a",
+    "size": 434,
+    "gitBlob": "304732f8842013497e14bd02f67a55f2614fb8f7"
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+    "mode": "100644",
+    "sha256": "6a7c8f0d703e3682108f9662f813302236240d3f8f638bb391e32bfb96055fef",
+    "lfSha256": "0f8ba640389248ef1042f6ad5e1d227a9cb2289bd806d15deb84889096ecd7ce",
+    "size": 544,
+    "gitBlob": "db77bb4b7b0906d62b1847e87f15cdcacf6a4f29"
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+    "mode": "100644",
+    "sha256": "c7c0c0189145e4e32a401c61c9bdc615754b0264e7afae24e834bb81049eaf81",
+    "lfSha256": "12bc7f24da8e062aa53882dfa05f1d47cb89977e1e6f37dbc62354c2efd09550",
+    "size": 442,
+    "gitBlob": "17987b79bb8a35cc66c3c1fd44f5a5526c1b78be"
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+    "mode": "100644",
+    "sha256": "e14aa40904929bf313fded22cf7e7ffcbf1d1aac4263b5ef1be8bfce650397aa",
+    "lfSha256": "e72cd68c4fc86130aa94f3cfa3e5a84afad6ff5a365b25a279ed56059cc3e26a",
+    "size": 721,
+    "gitBlob": "09d4391482be68e9e4a07fab769b5de337d16eb1"
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+    "mode": "100644",
+    "sha256": "4d470bf22d5c17d84edc5f82516d1ba8a1c09559cd761cefb792f86d9f52b540",
+    "lfSha256": "b247895d5083646dfd6a8039e990a59d9cd2ee2476540d0b780e7f0be00f9b72",
+    "size": 1031,
+    "gitBlob": "d5f1c8d34e7a88e3f88bea192c3a370d44689c3c"
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "mode": "100644",
+    "sha256": "3c34e1f298d0c9ea3455d46db6b7759c8211a49e9ec6e44b635fc5c87dfb4180",
+    "lfSha256": "ac28999aa0f66c0855654e8a0a462a8dcbf0255e0ece057ff63865007aa4513e",
+    "size": 1443,
+    "gitBlob": "4d6372eebdb28e45604e46eeda8dd24651419bc0"
+  },
+  {
+    "path": "example/android/app/src/main/res/values-night/styles.xml",
+    "mode": "100644",
+    "sha256": "8c5bad5152f217e837519f9c15211d19f39bd45f5f67faf6dd81cb4b299e518f",
+    "lfSha256": "8c5bad5152f217e837519f9c15211d19f39bd45f5f67faf6dd81cb4b299e518f",
+    "size": 995,
+    "gitBlob": "06952be745f9fa6fa75196e830d9578eb2ee631d"
+  },
+  {
+    "path": "example/android/app/src/main/res/values/styles.xml",
+    "mode": "100644",
+    "sha256": "d79b697ea949f625827a3d84a2cbfc6b3829d5c92ecb68386eefb30ed43f2500",
+    "lfSha256": "d79b697ea949f625827a3d84a2cbfc6b3829d5c92ecb68386eefb30ed43f2500",
+    "size": 361,
+    "gitBlob": "00fa4417cfbef8673c47c86eb24033fcd97056a8"
+  },
+  {
+    "path": "example/android/app/src/profile/AndroidManifest.xml",
+    "mode": "100644",
+    "sha256": "ede8e0a0fa709ab8f877ab4473c7a64996e47a8d560d4abec5a427b7b242c57d",
+    "lfSha256": "ede8e0a0fa709ab8f877ab4473c7a64996e47a8d560d4abec5a427b7b242c57d",
+    "size": 348,
+    "gitBlob": "66063d7319ad73ee51d0078d1402e5fd9c5df15c"
+  },
+  {
+    "path": "example/android/build.gradle",
+    "mode": "100644",
+    "sha256": "8aa3fe70bad274a95afd0db39b74162fe5a428b8b65b9ff136d012919f63638f",
+    "lfSha256": "8aa3fe70bad274a95afd0db39b74162fe5a428b8b65b9ff136d012919f63638f",
+    "size": 679,
+    "gitBlob": "ebf36fbfaa1d63d668607162da5bf2c56f87c588"
+  },
+  {
+    "path": "example/android/gradle.properties",
+    "mode": "100644",
+    "sha256": "6450eb8c2c8feaadd6d49f8c13b26c4e9662307a95052b2fe9de5f3e25928db0",
+    "lfSha256": "6450eb8c2c8feaadd6d49f8c13b26c4e9662307a95052b2fe9de5f3e25928db0",
+    "size": 83,
+    "gitBlob": "755300e3a0b567f6c9bc512b173a8581700a0d9c"
+  },
+  {
+    "path": "example/android/gradle/wrapper/gradle-wrapper.properties",
+    "mode": "100644",
+    "sha256": "6678790e4e3c1e84f4aea68a758e70edcc646409d482f14a26f1adec3938dd05",
+    "lfSha256": "6678790e4e3c1e84f4aea68a758e70edcc646409d482f14a26f1adec3938dd05",
+    "size": 230,
+    "gitBlob": "0d7c30581d5c5acb8b14a2235fda167a7a6992d3"
+  },
+  {
+    "path": "example/android/settings.gradle",
+    "mode": "100644",
+    "sha256": "8916d9bb59c48f35da25be8fbc63e7af91e00c0cf2d8cbc4ed8c6704b4bbe15b",
+    "lfSha256": "8916d9bb59c48f35da25be8fbc63e7af91e00c0cf2d8cbc4ed8c6704b4bbe15b",
+    "size": 484,
+    "gitBlob": "5a2f14fb18f6e8b8c4308ff0f0dc187d9d27a5aa"
+  },
+  {
+    "path": "example/android/settings_aar.gradle",
+    "mode": "100644",
+    "sha256": "4b919cfffaed71637d1ee9c89f21f4247273e14eb8433afdcd0672eba906b41f",
+    "lfSha256": "4b919cfffaed71637d1ee9c89f21f4247273e14eb8433afdcd0672eba906b41f",
+    "size": 15,
+    "gitBlob": "e7b4def49cb53d9aa04228dd3edb14c9e635e003"
+  },
+  {
+    "path": "example/ios/.gitignore",
+    "mode": "100644",
+    "sha256": "37380775aeb2499662b7aca80f4ac4c95ae827c3ba2bfa179aa3e9af4812c623",
+    "lfSha256": "37380775aeb2499662b7aca80f4ac4c95ae827c3ba2bfa179aa3e9af4812c623",
+    "size": 569,
+    "gitBlob": "7a7f9873ad7dceb4dc17087fb06c800fa0191376"
+  },
+  {
+    "path": "example/ios/Flutter/.last_build_id",
+    "mode": "100644",
+    "sha256": "049e3c175aa8d8919538786be36207cf5b257b528f9cc64da60921069c2d7f0b",
+    "lfSha256": "049e3c175aa8d8919538786be36207cf5b257b528f9cc64da60921069c2d7f0b",
+    "size": 32,
+    "gitBlob": "c6d537dbe2e20e0fc642a695d8db41f5320ead5c"
+  },
+  {
+    "path": "example/ios/Flutter/AppFrameworkInfo.plist",
+    "mode": "100644",
+    "sha256": "1797aca3a5858cd677c45d8fb48258dce5925279c89d9c1d804912e5dc677dca",
+    "lfSha256": "1797aca3a5858cd677c45d8fb48258dce5925279c89d9c1d804912e5dc677dca",
+    "size": 774,
+    "gitBlob": "9625e105df39e8429814f3189a8015087720cba1"
+  },
+  {
+    "path": "example/ios/Flutter/Debug.xcconfig",
+    "mode": "100644",
+    "sha256": "51dbac42fc0d48363442df1b5a0c4a63ac14f8a28b89916e8657362c72e09c7f",
+    "lfSha256": "51dbac42fc0d48363442df1b5a0c4a63ac14f8a28b89916e8657362c72e09c7f",
+    "size": 106,
+    "gitBlob": "e8efba114687be7d0e4e5d026a31f5efd04d20bf"
+  },
+  {
+    "path": "example/ios/Flutter/Release.xcconfig",
+    "mode": "100644",
+    "sha256": "d67cefeee792bd4e3b2242c4f871f0ad17a15e54684b733c8e10a249cea665c7",
+    "lfSha256": "d67cefeee792bd4e3b2242c4f871f0ad17a15e54684b733c8e10a249cea665c7",
+    "size": 108,
+    "gitBlob": "399e9340e6f617f68676161ad4a64edcbe483115"
+  },
+  {
+    "path": "example/ios/Podfile",
+    "mode": "100644",
+    "sha256": "c4e24125281673fd94ae16a8a376770609790866e0d33ebdeb0d89ac3815a268",
+    "lfSha256": "c4e24125281673fd94ae16a8a376770609790866e0d33ebdeb0d89ac3815a268",
+    "size": 1335,
+    "gitBlob": "11cfce663c4e449eb4036140838029ee26541729"
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/project.pbxproj",
+    "mode": "100644",
+    "sha256": "6b79caa764a2d6d8e7b8c2b4ec3fccd8d9738490d66c5aa7a31f6adced2c187f",
+    "lfSha256": "6b79caa764a2d6d8e7b8c2b4ec3fccd8d9738490d66c5aa7a31f6adced2c187f",
+    "size": 21418,
+    "gitBlob": "74d1f1df9a9aad4ea88123501796d2c103d161f6"
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+    "mode": "100644",
+    "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f",
+    "lfSha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f",
+    "size": 135,
+    "gitBlob": "919434a6254f0e9651f402737811be6634a03e9c"
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+    "mode": "100644",
+    "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542",
+    "lfSha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542",
+    "size": 238,
+    "gitBlob": "18d981003d68d0546c4804ac2ff47dd97c6e7921"
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+    "mode": "100644",
+    "sha256": "11b247bc6796892d67c9a821d18604db4dd6a880981b34f38460b9866e6b247f",
+    "lfSha256": "11b247bc6796892d67c9a821d18604db4dd6a880981b34f38460b9866e6b247f",
+    "size": 226,
+    "gitBlob": "f9b0d7c5ea15f194be85eb6ee8e6721a87ff4644"
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
+    "mode": "100644",
+    "sha256": "79304df8337b3c800161d7cf0999d7c41ff30b68c1873352df7972ce7ce4ca34",
+    "lfSha256": "79304df8337b3c800161d7cf0999d7c41ff30b68c1873352df7972ce7ce4ca34",
+    "size": 3185,
+    "gitBlob": "9c585c83b1d5a0b351420c0fb9ad2f33a4942e6e"
+  },
+  {
+    "path": "example/ios/Runner.xcworkspace/contents.xcworkspacedata",
+    "mode": "100644",
+    "sha256": "465e6de5660384eb6832e8078920ba6cd5305c445cb29a24a86a2fda4aa6b67e",
+    "lfSha256": "465e6de5660384eb6832e8078920ba6cd5305c445cb29a24a86a2fda4aa6b67e",
+    "size": 224,
+    "gitBlob": "21a3cc14c74e969ab1548274a8512ebfecc40f78"
+  },
+  {
+    "path": "example/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+    "mode": "100644",
+    "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542",
+    "lfSha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542",
+    "size": 238,
+    "gitBlob": "18d981003d68d0546c4804ac2ff47dd97c6e7921"
+  },
+  {
+    "path": "example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+    "mode": "100644",
+    "sha256": "11b247bc6796892d67c9a821d18604db4dd6a880981b34f38460b9866e6b247f",
+    "lfSha256": "11b247bc6796892d67c9a821d18604db4dd6a880981b34f38460b9866e6b247f",
+    "size": 226,
+    "gitBlob": "f9b0d7c5ea15f194be85eb6ee8e6721a87ff4644"
+  },
+  {
+    "path": "example/ios/Runner/AppDelegate.h",
+    "mode": "100644",
+    "sha256": "56223d9c5dc9edfad99964b879bed8f627a4c7cb433c103156c19bbc85bfcde2",
+    "lfSha256": "56223d9c5dc9edfad99964b879bed8f627a4c7cb433c103156c19bbc85bfcde2",
+    "size": 103,
+    "gitBlob": "36e21bbf9cf407bfa7968f28d35675da72c6c6c0"
+  },
+  {
+    "path": "example/ios/Runner/AppDelegate.m",
+    "mode": "100644",
+    "sha256": "a00c222beda0cbdfb7a2f6c0b9f7bb30e4d806029f9b5f125dbde958a2e3aab1",
+    "lfSha256": "a00c222beda0cbdfb7a2f6c0b9f7bb30e4d806029f9b5f125dbde958a2e3aab1",
+    "size": 424,
+    "gitBlob": "59a72e90be12e0aef464a1c3173b632db6237fd8"
+  },
+  {
+    "path": "example/ios/Runner/AppDelegate.swift",
+    "mode": "100644",
+    "sha256": "186ecb7ba1ff44c1c0279ed0e497fb010c39cc939ec2f69b0ee0f652f7cf7a68",
+    "lfSha256": "186ecb7ba1ff44c1c0279ed0e497fb010c39cc939ec2f69b0ee0f652f7cf7a68",
+    "size": 404,
+    "gitBlob": "70693e4a8c128fc4350b157416374ca599ac8c7b"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
+    "mode": "100644",
+    "sha256": "3b1e214f466ffedff74baa5598ad5c4421130eea6bc8d57b8fe23435e8280ae4",
+    "lfSha256": "3b1e214f466ffedff74baa5598ad5c4421130eea6bc8d57b8fe23435e8280ae4",
+    "size": 2519,
+    "gitBlob": "d36b1fab2d9dea668a4f83df94d525897d9e68dd"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+    "mode": "100644",
+    "sha256": "b5792ca06f48a431d4379aba2160bd5de92339fc64c6a0d3417aa359634cd905",
+    "lfSha256": "c857bab76d53be87eeb74a8140cf8d23c9be47939bc78921a7566dfb0d68e709",
+    "size": 11112,
+    "gitBlob": "3d43d11e66f4de3da27ed045ca4fe38ad8b48094"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png",
+    "mode": "100644",
+    "sha256": "5925dab509451f9ecbb12ce8a625f9d4c104718ee20caff8b1b51032d1cd8946",
+    "lfSha256": "bbc2f1241bd0b864f278cb66b8f5ced4b9ba7585867af6aefb5ee1e489ba8f34",
+    "size": 564,
+    "gitBlob": "28c6bf03016f6c994b70f38d1b7346e5831b531f"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png",
+    "mode": "100644",
+    "sha256": "c4d9a284c12301d0f50e248ec53ed51a19a10147b774b23308399250b0d44c55",
+    "lfSha256": "85b9062820021dd90100277c98832f2234098737ee43d67b4132b09b2d224306",
+    "size": 1283,
+    "gitBlob": "2ccbfd967d9697cd4b83225558af2911e9571c9b"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png",
+    "mode": "100644",
+    "sha256": "bf97f9d3233f33e1389b09f7b8add53741300cb834d6c7a5ca32cbed363a4fb2",
+    "lfSha256": "129a471596d47e99eb7b433ee0b8ce853f97128ff3c74a6a0d9e55cdb3544da9",
+    "size": 1588,
+    "gitBlob": "f091b6b0bca859a3f474b03065bef75ba58a9e4c"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png",
+    "mode": "100644",
+    "sha256": "285442f69a06b45d9d79df80321815b546473548a37b78819b68959c7b8ed237",
+    "lfSha256": "be2841741b60afd03e40fc4fb9a8bad39e4ef38620d6a3ebed5a5662e9f7fc84",
+    "size": 1025,
+    "gitBlob": "4cde12118dda48d71e01fcb589a74d069c5d7cb5"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png",
+    "mode": "100644",
+    "sha256": "2ab64af8ac727ea99c6ab9eaff847f46fbf2a9a0a78a0abcbf3180f3851645b4",
+    "lfSha256": "75d848268331e0c6f88c8ad048d9cb6db9aef718c562f88d49b6467ef821d652",
+    "size": 1716,
+    "gitBlob": "d0ef06e7edb86cdfe0d15b4b0d98334a86163658"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png",
+    "mode": "100644",
+    "sha256": "9dca09f4e5ed5684d3c4dff41f4e8b7cb864b438172d72be069315fa362930f9",
+    "lfSha256": "3bb137fc0f44b929ee1fb62d97127fb07c0af365f2e56f86f77a152ccf8a58a7",
+    "size": 1920,
+    "gitBlob": "dcdc2306c28505ebc0b6c3a359c4d252bf626b9f"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png",
+    "mode": "100644",
+    "sha256": "c4d9a284c12301d0f50e248ec53ed51a19a10147b774b23308399250b0d44c55",
+    "lfSha256": "85b9062820021dd90100277c98832f2234098737ee43d67b4132b09b2d224306",
+    "size": 1283,
+    "gitBlob": "2ccbfd967d9697cd4b83225558af2911e9571c9b"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png",
+    "mode": "100644",
+    "sha256": "d5ad04de321ef37cacc5a7b960afcce71bdcb96fa020c48249c1545dd1a0f497",
+    "lfSha256": "16b36118ffb875bea28346715a592276def9779602c051f09fb7338b86c3e129",
+    "size": 1895,
+    "gitBlob": "c8f9ed8f5cee1c98386d13b17e89f719e83555b2"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png",
+    "mode": "100644",
+    "sha256": "809abfe75c440770c13c4e2e46d09603c22053e9d4e0e2275dcb9c1dcfbb2c75",
+    "lfSha256": "617956fe1cae078e10f575a913acc7f26f9995e08a5a4e6826f3ee3baece44c8",
+    "size": 2665,
+    "gitBlob": "a6d6b8609df07bf62e5100a53a01510388bd2b22"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png",
+    "mode": "100644",
+    "sha256": "809abfe75c440770c13c4e2e46d09603c22053e9d4e0e2275dcb9c1dcfbb2c75",
+    "lfSha256": "617956fe1cae078e10f575a913acc7f26f9995e08a5a4e6826f3ee3baece44c8",
+    "size": 2665,
+    "gitBlob": "a6d6b8609df07bf62e5100a53a01510388bd2b22"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png",
+    "mode": "100644",
+    "sha256": "3db08cb79e7b01b9e81f956e3a0ae10148d0fafde3ea7aa70048df905aa52cfd",
+    "lfSha256": "7b3098a27ee43b51ff63f6f50bccdd9c0d175ca5df0b1c66d9392bdeb8dacc56",
+    "size": 3831,
+    "gitBlob": "75b2d164a5a98e212cca15ea7bf2ab5de5108680"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png",
+    "mode": "100644",
+    "sha256": "23c13d463f5dca5c1f14a14934003601c29f1218fd461016d8a22cef579a665f",
+    "lfSha256": "579afbffad8006e8887bfd708c353815c79458371fc518f4bef3c81c50b887da",
+    "size": 1888,
+    "gitBlob": "c4df70d39da7941ef3f6dcb7f06a192d8dcb308d"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png",
+    "mode": "100644",
+    "sha256": "6db7726530d71d3f52cb59793eb691313baa04796e129e1e043c0a58a1bffd2f",
+    "lfSha256": "892624c5f68efae0f25e9fb2fcd3d630baac8f1811763aaa1252de4c52c76688",
+    "size": 3294,
+    "gitBlob": "6a84f41e14e27f4b11f16f9ee39279ac98f8d5ac"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+    "mode": "100644",
+    "sha256": "cee565f5e62116569b64980b209fd5ca4b3d3739011f5343250b33a1a2c6eb65",
+    "lfSha256": "e37462131d4c7d26f842ec87d90ec5ba569693243919895b1d1f61df6d116206",
+    "size": 3612,
+    "gitBlob": "d0e1f58536026aebc4f1f70e481f6993c9ff088d"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json",
+    "mode": "100644",
+    "sha256": "ccc7950fd5f5b82067c85f667940a9d59189151460761ece8098ca78daa19469",
+    "lfSha256": "ccc7950fd5f5b82067c85f667940a9d59189151460761ece8098ca78daa19469",
+    "size": 391,
+    "gitBlob": "0bedcf2fd46788ae3a01a423467513ff59b5c120"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png",
+    "mode": "100644",
+    "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20",
+    "lfSha256": "704527a2f52283266843cf46bf0e631c881046e1a88826dde80ff4a2910f7122",
+    "size": 68,
+    "gitBlob": "9da19eacad3b03bb08bbddbbf4ac48dd78b3d838"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png",
+    "mode": "100644",
+    "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20",
+    "lfSha256": "704527a2f52283266843cf46bf0e631c881046e1a88826dde80ff4a2910f7122",
+    "size": 68,
+    "gitBlob": "9da19eacad3b03bb08bbddbbf4ac48dd78b3d838"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png",
+    "mode": "100644",
+    "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20",
+    "lfSha256": "704527a2f52283266843cf46bf0e631c881046e1a88826dde80ff4a2910f7122",
+    "size": 68,
+    "gitBlob": "9da19eacad3b03bb08bbddbbf4ac48dd78b3d838"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
+    "mode": "100644",
+    "sha256": "a985b626c4f7546a8ba392d135e9226c3547c8e2b46895f5f2bdf40d7b14ef9f",
+    "lfSha256": "a985b626c4f7546a8ba392d135e9226c3547c8e2b46895f5f2bdf40d7b14ef9f",
+    "size": 336,
+    "gitBlob": "89c2725b70f1882be97f5214fafe22d27a0ec01e"
+  },
+  {
+    "path": "example/ios/Runner/Base.lproj/LaunchScreen.storyboard",
+    "mode": "100644",
+    "sha256": "857e61203b3deafb05766d8fcda898b86a7cb6f3d5e385ecc9926c4d698215e9",
+    "lfSha256": "857e61203b3deafb05766d8fcda898b86a7cb6f3d5e385ecc9926c4d698215e9",
+    "size": 2377,
+    "gitBlob": "f2e259c7c9390ff69a6bbe1e0907e6dc366848e7"
+  },
+  {
+    "path": "example/ios/Runner/Base.lproj/Main.storyboard",
+    "mode": "100644",
+    "sha256": "fd367b6c43006d61b730f674970dd48b9f662c8f2264e52ffc1558102a2c9f2d",
+    "lfSha256": "fd367b6c43006d61b730f674970dd48b9f662c8f2264e52ffc1558102a2c9f2d",
+    "size": 1605,
+    "gitBlob": "f3c28516fb38e64d88cfcf5fb1791175df078f2f"
+  },
+  {
+    "path": "example/ios/Runner/File.swift",
+    "mode": "100644",
+    "sha256": "cd7c37323c69a7ec79615790f9c1a713d393db01accee99ab206c75ca9aaeae5",
+    "lfSha256": "cd7c37323c69a7ec79615790f9c1a713d393db01accee99ab206c75ca9aaeae5",
+    "size": 162,
+    "gitBlob": "1edb9d7076d91285b08c74d2979ea8cf5ce5a5fe"
+  },
+  {
+    "path": "example/ios/Runner/Info.plist",
+    "mode": "100644",
+    "sha256": "576291e697b93108fcde955317dce95ec9e55012a2a3d8f9110c7b14aaadbc76",
+    "lfSha256": "576291e697b93108fcde955317dce95ec9e55012a2a3d8f9110c7b14aaadbc76",
+    "size": 1948,
+    "gitBlob": "e2a096ac3282b6373fcb8f8b782c4789ffc9f383"
+  },
+  {
+    "path": "example/ios/Runner/Runner-Bridging-Header.h",
+    "mode": "100644",
+    "sha256": "1a8d11d01d1cc92c650c9c9ed35299240052d4683a15a719a2315ef44185e074",
+    "lfSha256": "1a8d11d01d1cc92c650c9c9ed35299240052d4683a15a719a2315ef44185e074",
+    "size": 38,
+    "gitBlob": "308a2a560b42f17aaf3c36e4e9c8cd07182fbb7e"
+  },
+  {
+    "path": "example/ios/Runner/main.m",
+    "mode": "100644",
+    "sha256": "3c0819ab0d1650de7a5f33cfe519bf0ffd1c1e13354d8337532a731951aa060e",
+    "lfSha256": "3c0819ab0d1650de7a5f33cfe519bf0ffd1c1e13354d8337532a731951aa060e",
+    "size": 226,
+    "gitBlob": "dff6597e4513dcf90c13b17495c78dd1069cdb20"
+  },
+  {
+    "path": "example/ios/gpxgenerator_path.gpx",
+    "mode": "100644",
+    "sha256": "56b0ce2c34d269cb7155fef3d36c4f1b85c8e55ca7c539d43c46ee1ad455cfa1",
+    "lfSha256": "56b0ce2c34d269cb7155fef3d36c4f1b85c8e55ca7c539d43c46ee1ad455cfa1",
+    "size": 439,
+    "gitBlob": "95faa417ec6e21579373804d289907e38f3ac25a"
+  },
+  {
+    "path": "example/lib/generated_plugin_registrant.dart",
+    "mode": "100644",
+    "sha256": "6888935b3a961bac35b8bbe47f5cccf4c06c7a1fcd16fd809fb808546577f099",
+    "lfSha256": "6888935b3a961bac35b8bbe47f5cccf4c06c7a1fcd16fd809fb808546577f099",
+    "size": 462,
+    "gitBlob": "f474f4333aa0e059b834bf4cc11b67287e665973"
+  },
+  {
+    "path": "example/lib/main.dart",
+    "mode": "100644",
+    "sha256": "6327eb0d5353bb698d5c61801905f54ed9ea631acbb04bb70bfc63654f06b491",
+    "lfSha256": "6327eb0d5353bb698d5c61801905f54ed9ea631acbb04bb70bfc63654f06b491",
+    "size": 145,
+    "gitBlob": "9002aba03072e1a5022afa7c21d1e639adb9d293"
+  },
+  {
+    "path": "example/lib/main_desktop.dart",
+    "mode": "100644",
+    "sha256": "10d78e92205cf75f67bf809f4b96edd2f6621398a0e0cd681555064dc278ec57",
+    "lfSha256": "10d78e92205cf75f67bf809f4b96edd2f6621398a0e0cd681555064dc278ec57",
+    "size": 253,
+    "gitBlob": "5aae668e1694365ac86bc2446cb67eeced22ef5c"
+  },
+  {
+    "path": "example/lib/src/file_picker_demo.dart",
+    "mode": "100644",
+    "sha256": "3ed570c94cd37d1a92299f80490cb351fcb2c9d84a25174eabbf1b896ba96aa9",
+    "lfSha256": "3ed570c94cd37d1a92299f80490cb351fcb2c9d84a25174eabbf1b896ba96aa9",
+    "size": 18751,
+    "gitBlob": "996d9f94bde644fafa3dfe052fef8ae0fe24b339"
+  },
+  {
+    "path": "example/linux/.gitignore",
+    "mode": "100644",
+    "sha256": "5ded4f1a9d10d34bf6ee5beb0711d88ee2ef07b0f07ace9ed77935a246e8eb82",
+    "lfSha256": "5ded4f1a9d10d34bf6ee5beb0711d88ee2ef07b0f07ace9ed77935a246e8eb82",
+    "size": 18,
+    "gitBlob": "d3896c98444fbe7288d434169a28c532258a4466"
+  },
+  {
+    "path": "example/linux/CMakeLists.txt",
+    "mode": "100644",
+    "sha256": "8fe5b128ff76c970950d5eaac9a301e252a00a91d6950bece4793b9324d8bc2b",
+    "lfSha256": "8fe5b128ff76c970950d5eaac9a301e252a00a91d6950bece4793b9324d8bc2b",
+    "size": 5203,
+    "gitBlob": "ef60f11574a77ff9df24559e9fc1611bf5d6c191"
+  },
+  {
+    "path": "example/linux/flutter/CMakeLists.txt",
+    "mode": "100644",
+    "sha256": "787189e2623313cfee590a0b553338eb9fc68b3af922ddd77c5d39c75f989aeb",
+    "lfSha256": "787189e2623313cfee590a0b553338eb9fc68b3af922ddd77c5d39c75f989aeb",
+    "size": 2815,
+    "gitBlob": "d5bd01648a96d50136b2a97c8bb9aa5b711f6c39"
+  },
+  {
+    "path": "example/linux/flutter/generated_plugin_registrant.cc",
+    "mode": "100644",
+    "sha256": "7861b227b10a10cc1d7643f82a246b7db35b503f2d9ff1d3c906136e6c260dce",
+    "lfSha256": "7861b227b10a10cc1d7643f82a246b7db35b503f2d9ff1d3c906136e6c260dce",
+    "size": 161,
+    "gitBlob": "e71a16d23d05881b554326e645083799ab9bfc5e"
+  },
+  {
+    "path": "example/linux/flutter/generated_plugin_registrant.h",
+    "mode": "100644",
+    "sha256": "00f93bb5b1faefdede8f6065df327522900fb0b8efee86bacf424fd947ed14bb",
+    "lfSha256": "00f93bb5b1faefdede8f6065df327522900fb0b8efee86bacf424fd947ed14bb",
+    "size": 303,
+    "gitBlob": "e0f0a47bc08f30b550b47b01de4c9206b6824dd9"
+  },
+  {
+    "path": "example/linux/flutter/generated_plugins.cmake",
+    "mode": "100644",
+    "sha256": "d5aaa52ef8594d3128b35b6619c6a353e1be5f3c5a63a9c29c0a32b424e91952",
+    "lfSha256": "d5aaa52ef8594d3128b35b6619c6a353e1be5f3c5a63a9c29c0a32b424e91952",
+    "size": 739,
+    "gitBlob": "2e1de87a7eb61e17463f7406106f6c413533cecf"
+  },
+  {
+    "path": "example/linux/main.cc",
+    "mode": "100644",
+    "sha256": "ea23f7cdf74091d63bba29ef60486370b766157b848f0cfe62bd8b1c1695a0c1",
+    "lfSha256": "ea23f7cdf74091d63bba29ef60486370b766157b848f0cfe62bd8b1c1695a0c1",
+    "size": 180,
+    "gitBlob": "e7c5c54370372a4cdde7288a32733998d87bd767"
+  },
+  {
+    "path": "example/linux/my_application.cc",
+    "mode": "100644",
+    "sha256": "dd1fce2290c64f6d2b52422b525cc08f889f62b5f7063761bc3705004287397a",
+    "lfSha256": "dd1fce2290c64f6d2b52422b525cc08f889f62b5f7063761bc3705004287397a",
+    "size": 3712,
+    "gitBlob": "0ba8f43096dba945ae0b376661f767590352a7dc"
+  },
+  {
+    "path": "example/linux/my_application.h",
+    "mode": "100644",
+    "sha256": "a044da4b485c93d0e1a79c62356b22c8856dd2bab537ffb6a9446fc905131316",
+    "lfSha256": "a044da4b485c93d0e1a79c62356b22c8856dd2bab537ffb6a9446fc905131316",
+    "size": 388,
+    "gitBlob": "72271d5e41701cfbffad74d38640bf9cc7c1f7be"
+  },
+  {
+    "path": "example/pubspec.yaml",
+    "mode": "100644",
+    "sha256": "55b1ce22708b96550816159fdcb59e90113f23db2e566d62abe9cdd3c1246957",
+    "lfSha256": "55b1ce22708b96550816159fdcb59e90113f23db2e566d62abe9cdd3c1246957",
+    "size": 307,
+    "gitBlob": "c536abfa8ac40d5c28cc0c3e4cf24342058e7c87"
+  },
+  {
+    "path": "example/screenshots/example_android.gif",
+    "mode": "100644",
+    "sha256": "37b75cd3ed8d3e952bf481ac44457c0693a3e675ef68810a7d98a8ad8773babf",
+    "lfSha256": "c069dad61bd28b811e2efc3e9525c43f2afd93b8abd018d4c412a4ab8d924ffa",
+    "size": 3507417,
+    "gitBlob": "932f7af87074cbb34f16fcddd37254ea6048c6b3"
+  },
+  {
+    "path": "example/screenshots/example_ios.gif",
+    "mode": "100644",
+    "sha256": "075aca3f857c474cf281831d7c3c488a7ed77f2cae9f83ddc89f548c0d7f4a0c",
+    "lfSha256": "4d464ff62342bf8dd8eefc63115c2bc4323b37ead56a02179aa34ba14fc95c43",
+    "size": 1629258,
+    "gitBlob": "ec2857f28c333b14182b9e0c2475cd5dd075dcf6"
+  },
+  {
+    "path": "example/screenshots/example_linux.gif",
+    "mode": "100644",
+    "sha256": "6b89984234bce7ded494b69cccaaef404e0b8edc80f7ad8a983ffaca0172ac99",
+    "lfSha256": "f85f5c7dbcabf413d4c04a7aec5ec6c9126e4b0f3bef496fb06f4a87760eb592",
+    "size": 2864007,
+    "gitBlob": "f6d051d41b560cab3b294c2ee445115dc2415075"
+  },
+  {
+    "path": "example/screenshots/example_macos.png",
+    "mode": "100644",
+    "sha256": "7476be920d541e9c1e751b151dd68b40b7e5913daedc3697e8f941c9c9722472",
+    "lfSha256": "9c670d8f1ff0f4ec1c9f12af96da366a12b73f0e4f7bba1cf3915ea8875f7bd7",
+    "size": 134311,
+    "gitBlob": "20ebe769b420f39dd31da73b27ca51bfcfa9b288"
+  },
+  {
+    "path": "example/screenshots/example_windows.gif",
+    "mode": "100755",
+    "sha256": "c6909a4f0ebc167420e1020d0ad9de87f2beb5ca93223d6ff31b0a8714c2c21a",
+    "lfSha256": "2e76678a1ea5a0ef8b92e94b77527da93f5804ff71829cc7f4ac1ea7ef64adf3",
+    "size": 4561146,
+    "gitBlob": "58f431d4526b077a2b64608c4caa32b6ff802626"
+  },
+  {
+    "path": "example/web/favicon.png",
+    "mode": "100644",
+    "sha256": "7ab2525f4b86b65d3e4c70358a17e5a1aaf6f437f99cbcc046dad73d59bb9015",
+    "lfSha256": "1b53092d3e4e3878e23a9999512a204f552a8cf25f20fa5639e9121841d39955",
+    "size": 917,
+    "gitBlob": "8aaa46ac1ae21512746f852a42ba87e4165dfdd1"
+  },
+  {
+    "path": "example/web/icons/Icon-192.png",
+    "mode": "100644",
+    "sha256": "3dce99077602f70421c1c6b2a240bc9b83d64d86681d45f2154143310c980be3",
+    "lfSha256": "9930df3807e42c01acea3fb9205ef6c42cfae06c3d182c148a9ba0b5a17fc577",
+    "size": 5292,
+    "gitBlob": "b749bfef07473333cf1dd31e9eed89862a5d52aa"
+  },
+  {
+    "path": "example/web/icons/Icon-512.png",
+    "mode": "100644",
+    "sha256": "baccb205ae45f0b421be1657259b4943ac40c95094ab877f3bcbe12cd544dcbe",
+    "lfSha256": "66420e17d86a961c85218aa3fa20a9e283bdadc47725b51a9899191a8d65e1d3",
+    "size": 8252,
+    "gitBlob": "88cfd48dff1169879ba46840804b412fe02fefd6"
+  },
+  {
+    "path": "example/web/index.html",
+    "mode": "100644",
+    "sha256": "03623593a1968efd7fce47d1e112e0937c41df1890f46cc7a745a45ce9fce43f",
+    "lfSha256": "03623593a1968efd7fce47d1e112e0937c41df1890f46cc7a745a45ce9fce43f",
+    "size": 1120,
+    "gitBlob": "9b7a438f823ae208e544ec3ec8c38b733f7166f7"
+  },
+  {
+    "path": "example/web/manifest.json",
+    "mode": "100644",
+    "sha256": "67c5c1b387c805e4b3258bd3bf5446268016021ff8189bccf938f5d7de99b678",
+    "lfSha256": "67c5c1b387c805e4b3258bd3bf5446268016021ff8189bccf938f5d7de99b678",
+    "size": 570,
+    "gitBlob": "c63800102369bf724d37875ce37de16c303a42cf"
+  },
+  {
+    "path": "example/windows/.gitignore",
+    "mode": "100644",
+    "sha256": "96345475f1a3c66bd32d28178fba151ab1506b35b1f7857b8f7651863093ea11",
+    "lfSha256": "96345475f1a3c66bd32d28178fba151ab1506b35b1f7857b8f7651863093ea11",
+    "size": 291,
+    "gitBlob": "d492d0d98c8fdc9f93ad2543bb4f531803e9df72"
+  },
+  {
+    "path": "example/windows/CMakeLists.txt",
+    "mode": "100644",
+    "sha256": "423a7aad3c8673d35775597cb99433c9fbbe737ffb3ead49fb9cce940e574a53",
+    "lfSha256": "423a7aad3c8673d35775597cb99433c9fbbe737ffb3ead49fb9cce940e574a53",
+    "size": 3899,
+    "gitBlob": "c0270746b1b9b8b81742a2d96be2eb3816783794"
+  },
+  {
+    "path": "example/windows/flutter/CMakeLists.txt",
+    "mode": "100644",
+    "sha256": "af04f4171572617594e633db5dea80948604b91013d2dffbebf5d32de9003b0b",
+    "lfSha256": "af04f4171572617594e633db5dea80948604b91013d2dffbebf5d32de9003b0b",
+    "size": 3562,
+    "gitBlob": "930d2071a324ee6050cccd87a14495557b63416f"
+  },
+  {
+    "path": "example/windows/flutter/generated_plugin_registrant.cc",
+    "mode": "100644",
+    "sha256": "82e02567f2faf5e732dc92a2fb0d01104f7ba8c48973f8cfd41a860b4fac3f3b",
+    "lfSha256": "82e02567f2faf5e732dc92a2fb0d01104f7ba8c48973f8cfd41a860b4fac3f3b",
+    "size": 164,
+    "gitBlob": "8b6d4680af388f28db8742ef7fb8246e2bb1fffb"
+  },
+  {
+    "path": "example/windows/flutter/generated_plugin_registrant.h",
+    "mode": "100644",
+    "sha256": "dbc11635d7b1ba1887adf40df5b83d634e9c3ab0bee34510c71528bb4d73602a",
+    "lfSha256": "dbc11635d7b1ba1887adf40df5b83d634e9c3ab0bee34510c71528bb4d73602a",
+    "size": 302,
+    "gitBlob": "dc139d85a93101cc0f6e9db03a3e1a9f68e8dd7e"
+  },
+  {
+    "path": "example/windows/flutter/generated_plugins.cmake",
+    "mode": "100644",
+    "sha256": "286346b0d5303dc6b41072f9582d4c52bca35255b85b27b310f858e264dfdc56",
+    "lfSha256": "286346b0d5303dc6b41072f9582d4c52bca35255b85b27b310f858e264dfdc56",
+    "size": 743,
+    "gitBlob": "b93c4c30c16703f640bc38523e56204ade09399e"
+  },
+  {
+    "path": "example/windows/runner/CMakeLists.txt",
+    "mode": "100644",
+    "sha256": "34119ec122e36940235ef4bc245fcfb43b6960ed443e28af1a8d833a81209b9e",
+    "lfSha256": "34119ec122e36940235ef4bc245fcfb43b6960ed443e28af1a8d833a81209b9e",
+    "size": 1796,
+    "gitBlob": "394917c053a04daa76d8b94f0a02db0bd99e1034"
+  },
+  {
+    "path": "example/windows/runner/Runner.rc",
+    "mode": "100644",
+    "sha256": "4661d50a550a1a33ebd97b286f2b6caca438998d9b7dc288fa4d05ce4c969c65",
+    "lfSha256": "4661d50a550a1a33ebd97b286f2b6caca438998d9b7dc288fa4d05ce4c969c65",
+    "size": 3067,
+    "gitBlob": "37c73985ba420d2a050d709a85d648c0b195a5a7"
+  },
+  {
+    "path": "example/windows/runner/flutter_window.cpp",
+    "mode": "100644",
+    "sha256": "36400cd34d06cb59ccb51fb2cb65f72bdac1b308080dbd46fc9ead1f8c626968",
+    "lfSha256": "36400cd34d06cb59ccb51fb2cb65f72bdac1b308080dbd46fc9ead1f8c626968",
+    "size": 1850,
+    "gitBlob": "b25e363efa423f6d2dd97d425eb0f1364dbcbe3e"
+  },
+  {
+    "path": "example/windows/runner/flutter_window.h",
+    "mode": "100644",
+    "sha256": "38e0fcd3a0b83895852ec295cb70d90179c0dcd40d58f065eb5232a4ecd84898",
+    "lfSha256": "38e0fcd3a0b83895852ec295cb70d90179c0dcd40d58f065eb5232a4ecd84898",
+    "size": 928,
+    "gitBlob": "6da0652f05f28fc6950cec20ebdfbae89b665479"
+  },
+  {
+    "path": "example/windows/runner/main.cpp",
+    "mode": "100644",
+    "sha256": "bc68fc87bbcf8690f7909aa84d8a1dc2001b38673150fe3a09e22ab3421e6e39",
+    "lfSha256": "bc68fc87bbcf8690f7909aa84d8a1dc2001b38673150fe3a09e22ab3421e6e39",
+    "size": 1260,
+    "gitBlob": "a61bf80d31fbd9aaf3e36d4eae1f1c3b6d73906b"
+  },
+  {
+    "path": "example/windows/runner/resource.h",
+    "mode": "100644",
+    "sha256": "1fa98588b04561590ba1cf0521ab86a9db4a878312f21c9d5861d965ddd8d1ae",
+    "lfSha256": "1fa98588b04561590ba1cf0521ab86a9db4a878312f21c9d5861d965ddd8d1ae",
+    "size": 432,
+    "gitBlob": "66a65d1e4a79f230031ec0e0959a721039e7282f"
+  },
+  {
+    "path": "example/windows/runner/resources/app_icon.ico",
+    "mode": "100644",
+    "sha256": "c098d3fc85cacff98b8e69811b48e9f0d852fcee278132d794411d978869cbf8",
+    "lfSha256": "4c87f0be48a71fec3983baa4638060ef7fec1fd0f9a23b1e0c356c511bfceede",
+    "size": 33772,
+    "gitBlob": "c04e20caf6370ebb9253ad831cc31de4a9c965f6"
+  },
+  {
+    "path": "example/windows/runner/runner.exe.manifest",
+    "mode": "100644",
+    "sha256": "c359297996f4d967b7768fa93ea1e01fb21c8e95c3f2041f101f0904e94bb333",
+    "lfSha256": "c359297996f4d967b7768fa93ea1e01fb21c8e95c3f2041f101f0904e94bb333",
+    "size": 874,
+    "gitBlob": "a42ea7687cb67e55af955dc8874a072e087ce3ed"
+  },
+  {
+    "path": "example/windows/runner/utils.cpp",
+    "mode": "100644",
+    "sha256": "cd9cfd4646e2df3f23c0b0825999ed36b32f5a68c1e671883c63ccc1acb17d98",
+    "lfSha256": "cd9cfd4646e2df3f23c0b0825999ed36b32f5a68c1e671883c63ccc1acb17d98",
+    "size": 1691,
+    "gitBlob": "f5bf9fa0f536c285b8c0c2ef39b9714c66fae243"
+  },
+  {
+    "path": "example/windows/runner/utils.h",
+    "mode": "100644",
+    "sha256": "95a7f7dddb832997cefa937a96f89472332277e75734a5de553610760b744b03",
+    "lfSha256": "95a7f7dddb832997cefa937a96f89472332277e75734a5de553610760b744b03",
+    "size": 672,
+    "gitBlob": "3879d54755798567f0f318d63340508d5668eb96"
+  },
+  {
+    "path": "example/windows/runner/win32_window.cpp",
+    "mode": "100644",
+    "sha256": "9c7fc6aea7e05875cc1f1bd9462ecca703bc78703e91fa3c5af5792e5910fe87",
+    "lfSha256": "9c7fc6aea7e05875cc1f1bd9462ecca703bc78703e91fa3c5af5792e5910fe87",
+    "size": 8533,
+    "gitBlob": "041a3855474575f3224e068641f65d9623220a8a"
+  },
+  {
+    "path": "example/windows/runner/win32_window.h",
+    "mode": "100644",
+    "sha256": "1fe2c42eea6dece54a13973bc5a00c3da315b84f5b145e81db29853f8410f55a",
+    "lfSha256": "1fe2c42eea6dece54a13973bc5a00c3da315b84f5b145e81db29853f8410f55a",
+    "size": 3526,
+    "gitBlob": "c86632d8a6b9c87253eb597d2607460abf793ad3"
+  },
+  {
+    "path": "go/README.md",
+    "mode": "100644",
+    "sha256": "fe0abcf84ddc2a0f66bcf0483ea6a81a779f709c9f6aa82c02138d682d98eda9",
+    "lfSha256": "fe0abcf84ddc2a0f66bcf0483ea6a81a779f709c9f6aa82c02138d682d98eda9",
+    "size": 440,
+    "gitBlob": "b6bc6b5bc08de819ae2de643aafb8538fa394558"
+  },
+  {
+    "path": "go/file_darwin.go",
+    "mode": "100644",
+    "sha256": "152877edfce551915998055010960c0c4a0066964336ff6f5bbb9a64905c2c32",
+    "lfSha256": "152877edfce551915998055010960c0c4a0066964336ff6f5bbb9a64905c2c32",
+    "size": 2604,
+    "gitBlob": "e8ee0072952aa5def37acf706625de5ed9ba2f1e"
+  },
+  {
+    "path": "go/file_linux.go",
+    "mode": "100644",
+    "sha256": "d7c6184e4e3a2113ae3a3f609dc6443fe07df051d253eee36a6f3b67cf21e8dc",
+    "lfSha256": "d7c6184e4e3a2113ae3a3f609dc6443fe07df051d253eee36a6f3b67cf21e8dc",
+    "size": 1136,
+    "gitBlob": "98e5d7c36e77fb27dafd96ee22d5f2a5f4eb4af2"
+  },
+  {
+    "path": "go/file_unsupported.go",
+    "mode": "100644",
+    "sha256": "7335ccba7f59c1ee8a47cf9601914949fd72520cbe78bb8cdabf4b48eab294ff",
+    "lfSha256": "7335ccba7f59c1ee8a47cf9601914949fd72520cbe78bb8cdabf4b48eab294ff",
+    "size": 416,
+    "gitBlob": "9c9b5b319574b5c656abf707f23e7573fa74e80e"
+  },
+  {
+    "path": "go/file_windows.go",
+    "mode": "100644",
+    "sha256": "0de2b15b2ad4799fae7a934f1a2bdc1d306d657b568248f1c92d78a22923ec52",
+    "lfSha256": "0de2b15b2ad4799fae7a934f1a2bdc1d306d657b568248f1c92d78a22923ec52",
+    "size": 1500,
+    "gitBlob": "3a16f13146b91153ea4871653b18f9efd280d77e"
+  },
+  {
+    "path": "go/go.mod",
+    "mode": "100644",
+    "sha256": "b2b91d0c4909b8fd2d48d1050a40573283b248b2c892735134bc0d5e39864954",
+    "lfSha256": "b2b91d0c4909b8fd2d48d1050a40573283b248b2c892735134bc0d5e39864954",
+    "size": 295,
+    "gitBlob": "b24a1edd81baaf17375fbd9e001d362b8a086976"
+  },
+  {
+    "path": "go/go.sum",
+    "mode": "100644",
+    "sha256": "1ceac44fe4806e97cde9399bc393a35139b59acc733628369b6e752496440fa2",
+    "lfSha256": "1ceac44fe4806e97cde9399bc393a35139b59acc733628369b6e752496440fa2",
+    "size": 1882,
+    "gitBlob": "56eb711c7c0bc27de9b7a595b62975467109a7b5"
+  },
+  {
+    "path": "go/import.go.tmpl",
+    "mode": "100644",
+    "sha256": "522449e1719446ce3d332179dc266af4180be17daa82a4fb3df7a91836920e2f",
+    "lfSha256": "522449e1719446ce3d332179dc266af4180be17daa82a4fb3df7a91836920e2f",
+    "size": 392,
+    "gitBlob": "f398fda010fbd8bd1c00e88956d533bd40ecd9c5"
+  },
+  {
+    "path": "go/plugin.go",
+    "mode": "100755",
+    "sha256": "0a8fc2f5aa16461c122e4ba6b401bf023b9eeca6c923cfca9133c5592391a74e",
+    "lfSha256": "0a8fc2f5aa16461c122e4ba6b401bf023b9eeca6c923cfca9133c5592391a74e",
+    "size": 3289,
+    "gitBlob": "67f7b0e5f7a6c3c4affa2817cf41259973f742cb"
+  },
+  {
+    "path": "ios/.gitignore",
+    "mode": "100644",
+    "sha256": "842bb33276e8e623647b3b951cb0a9a7e2045f1410395e6b7269dbc1a3404ab7",
+    "lfSha256": "842bb33276e8e623647b3b951cb0a9a7e2045f1410395e6b7269dbc1a3404ab7",
+    "size": 360,
+    "gitBlob": "710ec6cf1c71f1e8bbddf86c51313b2790667162"
+  },
+  {
+    "path": "ios/Assets/.gitkeep",
+    "mode": "100644",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "lfSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0,
+    "gitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "ios/Classes/FileInfo.h",
+    "mode": "100644",
+    "sha256": "541dd3b16af87d6cdd954db7b9f363e3ff806437c66f11694419bbbfa79f09a2",
+    "lfSha256": "541dd3b16af87d6cdd954db7b9f363e3ff806437c66f11694419bbbfa79f09a2",
+    "size": 581,
+    "gitBlob": "2ed24c162ee4b4b90d4f3c16542c8758076f3e8e"
+  },
+  {
+    "path": "ios/Classes/FileInfo.m",
+    "mode": "100644",
+    "sha256": "4e7fe73ac71c04bb972ef2ab019d59c116f279187c3f42e56f08fc390ab3a9ee",
+    "lfSha256": "4e7fe73ac71c04bb972ef2ab019d59c116f279187c3f42e56f08fc390ab3a9ee",
+    "size": 850,
+    "gitBlob": "bc783d8e3c43af1e66a326b05165624a43fb925b"
+  },
+  {
+    "path": "ios/Classes/FilePickerPlugin.h",
+    "mode": "100644",
+    "sha256": "8c2a7c02e7a28d5fe323c3a0b0d26a6ca0e58a507c637d5c830875d56a812f49",
+    "lfSha256": "8c2a7c02e7a28d5fe323c3a0b0d26a6ca0e58a507c637d5c830875d56a812f49",
+    "size": 786,
+    "gitBlob": "da0694e9c62386d46eed2e58ca89d84a990b3ba5"
+  },
+  {
+    "path": "ios/Classes/FilePickerPlugin.m",
+    "mode": "100644",
+    "sha256": "ea8b0369c5cd4fc709f0ff5fa92c1317f0a0741e7c0b6dc125441b6aef12090d",
+    "lfSha256": "ea8b0369c5cd4fc709f0ff5fa92c1317f0a0741e7c0b6dc125441b6aef12090d",
+    "size": 26673,
+    "gitBlob": "be6bc423d2e9315fdd33550cb26782b5f872bc01"
+  },
+  {
+    "path": "ios/Classes/FileUtils.h",
+    "mode": "100644",
+    "sha256": "63eb059c20a008a579417f80cabba280d53771d0cee80d4ecd16ef52b4c41cc4",
+    "lfSha256": "63eb059c20a008a579417f80cabba280d53771d0cee80d4ecd16ef52b4c41cc4",
+    "size": 801,
+    "gitBlob": "47c57c37bccd5d673d4fc60245560b56aa561563"
+  },
+  {
+    "path": "ios/Classes/FileUtils.m",
+    "mode": "100644",
+    "sha256": "5ec2acb79809f2b367af9296b53341202801570ad2173a3cb8a7f364bc8436e7",
+    "lfSha256": "5ec2acb79809f2b367af9296b53341202801570ad2173a3cb8a7f364bc8436e7",
+    "size": 6068,
+    "gitBlob": "82f2842ec6d86830ecc9c2cb3e18ef0688ced536"
+  },
+  {
+    "path": "ios/Classes/ImageUtils.h",
+    "mode": "100644",
+    "sha256": "cabe70549f097bdd760fbf3e66e7aaca2e06d1d07bf97a53765576f2e3770155",
+    "lfSha256": "cabe70549f097bdd760fbf3e66e7aaca2e06d1d07bf97a53765576f2e3770155",
+    "size": 343,
+    "gitBlob": "9c9a5a725379714b416d36566d71e0ce39abc0db"
+  },
+  {
+    "path": "ios/Classes/ImageUtils.m",
+    "mode": "100644",
+    "sha256": "e3b9f4de60b5e1a9a43472122b20ff6ec8e048ed7209c3013c0cb767f286bf91",
+    "lfSha256": "e3b9f4de60b5e1a9a43472122b20ff6ec8e048ed7209c3013c0cb767f286bf91",
+    "size": 2372,
+    "gitBlob": "752b4da2765d5ecda73951b74147c32b25889565"
+  },
+  {
+    "path": "ios/file_picker.podspec",
+    "mode": "100644",
+    "sha256": "9d974f1304d94a5aa5e9fbb3cad1ef83209b32b2727f110f81225a4b75a323a5",
+    "lfSha256": "9d974f1304d94a5aa5e9fbb3cad1ef83209b32b2727f110f81225a4b75a323a5",
+    "size": 1294,
+    "gitBlob": "0d429a2c2dc411e54bc3c78c1bccf3763cc3491c"
+  },
+  {
+    "path": "lib/_internal/file_picker_web.dart",
+    "mode": "100644",
+    "sha256": "953afc0fe2aec3f11a5a2f8ef0b136e9ae87c91b10e4f194ebb113edc85ccbd5",
+    "lfSha256": "953afc0fe2aec3f11a5a2f8ef0b136e9ae87c91b10e4f194ebb113edc85ccbd5",
+    "size": 5580,
+    "gitBlob": "1f59a273e40410df910742872a8dec839c9ed0f7"
+  },
+  {
+    "path": "lib/file_picker.dart",
+    "mode": "100644",
+    "sha256": "c89b33bf35354aae587b4ab8705039b72f97dc76147f2d07f940dbf851c09342",
+    "lfSha256": "c89b33bf35354aae587b4ab8705039b72f97dc76147f2d07f940dbf851c09342",
+    "size": 130,
+    "gitBlob": "7a75eb1524978583474eed52226e8533aeb2cb51"
+  },
+  {
+    "path": "lib/src/exceptions.dart",
+    "mode": "100644",
+    "sha256": "7a7be00bd1244174dcf4660be39308fe04e45c0321471264f1f8482e342e9297",
+    "lfSha256": "7a7be00bd1244174dcf4660be39308fe04e45c0321471264f1f8482e342e9297",
+    "size": 228,
+    "gitBlob": "35fb84b5601daca2102674c7e94afb754f8391db"
+  },
+  {
+    "path": "lib/src/file_picker.dart",
+    "mode": "100644",
+    "sha256": "991d0da593128e4e0f8774ad7a8903e1e75f504b23b3423ff34956e21f27fe35",
+    "lfSha256": "991d0da593128e4e0f8774ad7a8903e1e75f504b23b3423ff34956e21f27fe35",
+    "size": 8521,
+    "gitBlob": "174578c91375eee3bc4041db18af2d0079fc51be"
+  },
+  {
+    "path": "lib/src/file_picker_io.dart",
+    "mode": "100644",
+    "sha256": "72012336f27ae91afbf161a4be4ef3904a7ffe083169f6d524130c6543e32395",
+    "lfSha256": "72012336f27ae91afbf161a4be4ef3904a7ffe083169f6d524130c6543e32395",
+    "size": 3801,
+    "gitBlob": "2dc5df505ebdc82bd4b7de4a8d26aa198722d798"
+  },
+  {
+    "path": "lib/src/file_picker_macos.dart",
+    "mode": "100644",
+    "sha256": "6f29033201fce1e74ecab092e285a7510473ec0cbdbce0c85eb8bc595275c15a",
+    "lfSha256": "6f29033201fce1e74ecab092e285a7510473ec0cbdbce0c85eb8bc595275c15a",
+    "size": 6004,
+    "gitBlob": "ed75e9f5f0264fc9a49412cd4038bc51840f460b"
+  },
+  {
+    "path": "lib/src/file_picker_result.dart",
+    "mode": "100644",
+    "sha256": "c50f852602b2b4ab90ae0e0d99b0f2ed6823a2dae048bc62ffc00d8e76f228aa",
+    "lfSha256": "c50f852602b2b4ab90ae0e0d99b0f2ed6823a2dae048bc62ffc00d8e76f228aa",
+    "size": 1362,
+    "gitBlob": "03c8649c9166b5d8446ab14aeb6c7e968a4c29d5"
+  },
+  {
+    "path": "lib/src/linux/dialog_handler.dart",
+    "mode": "100644",
+    "sha256": "f9dd72f4ab8f92bc83c7861d4b15edc49b0189e7f12e053ebb8fef3df0aa9924",
+    "lfSha256": "f9dd72f4ab8f92bc83c7861d4b15edc49b0189e7f12e053ebb8fef3df0aa9924",
+    "size": 1644,
+    "gitBlob": "82e3a5fa23fd6be38c6f1a2bcdf48d912245879f"
+  },
+  {
+    "path": "lib/src/linux/file_picker_linux.dart",
+    "mode": "100644",
+    "sha256": "2404d19157b6597d8a7d407cc6ed86725a9c293cc0256e508d1609e5698d6fd3",
+    "lfSha256": "2404d19157b6597d8a7d407cc6ed86725a9c293cc0256e508d1609e5698d6fd3",
+    "size": 3834,
+    "gitBlob": "05573699f5ad0754658a2a3c609b4085b32bafc3"
+  },
+  {
+    "path": "lib/src/linux/kdialog_handler.dart",
+    "mode": "100644",
+    "sha256": "bf3a5f590180aec985e432ed1a84994fe1a4e968e42c488a0853ab4d895ac986",
+    "lfSha256": "bf3a5f590180aec985e432ed1a84994fe1a4e968e42c488a0853ab4d895ac986",
+    "size": 2581,
+    "gitBlob": "6b94f55303292d0bd599d41be7e5ded2e62def8f"
+  },
+  {
+    "path": "lib/src/linux/qarma_and_zenity_handler.dart",
+    "mode": "100644",
+    "sha256": "b87534f09496e62f0b34859e305f377809af7c4d5ac71ec0bf1bf938575e0771",
+    "lfSha256": "b87534f09496e62f0b34859e305f377809af7c4d5ac71ec0bf1bf938575e0771",
+    "size": 2181,
+    "gitBlob": "3089a0d5cf456f006db034abf4cb4818bd957bf5"
+  },
+  {
+    "path": "lib/src/platform_file.dart",
+    "mode": "100644",
+    "sha256": "99025b08960facd259e0030b0c5a1d3707c223e55b2fb7c3bb3daff96fb0b363",
+    "lfSha256": "99025b08960facd259e0030b0c5a1d3707c223e55b2fb7c3bb3daff96fb0b363",
+    "size": 3310,
+    "gitBlob": "7095ee2a02cccc72eb093ce385db94bc3359c0d4"
+  },
+  {
+    "path": "lib/src/utils.dart",
+    "mode": "100644",
+    "sha256": "9609f9dec93b3738ef7a597b8f07a817fb086e105543af8fc3821006acc43202",
+    "lfSha256": "9609f9dec93b3738ef7a597b8f07a817fb086e105543af8fc3821006acc43202",
+    "size": 1630,
+    "gitBlob": "be1c83ebe11459acd003189627858efbbd8ba095"
+  },
+  {
+    "path": "lib/src/windows/file_picker_windows.dart",
+    "mode": "100644",
+    "sha256": "970d8989ca09de8f36a174a5a9d41967b849c7f3d30c13e951757c190ca59922",
+    "lfSha256": "970d8989ca09de8f36a174a5a9d41967b849c7f3d30c13e951757c190ca59922",
+    "size": 13412,
+    "gitBlob": "da39ef72a55fabecafaeb5b66d61b792e1e5eb7c"
+  },
+  {
+    "path": "lib/src/windows/file_picker_windows_ffi_types.dart",
+    "mode": "100644",
+    "sha256": "d89887017c75b854946f6be01251b88c56897a4b05893d88cc14a774f44f208a",
+    "lfSha256": "d89887017c75b854946f6be01251b88c56897a4b05893d88cc14a774f44f208a",
+    "size": 11384,
+    "gitBlob": "f26b851b5fcbcf32ea621ef1bc1c10d79ee1e21d"
+  },
+  {
+    "path": "lib/src/windows/stub.dart",
+    "mode": "100644",
+    "sha256": "786a5259b155ba7085fc048d037fb706d49e5ec1e5ff430aeb7bf66738e48f60",
+    "lfSha256": "786a5259b155ba7085fc048d037fb706d49e5ec1e5ff430aeb7bf66738e48f60",
+    "size": 172,
+    "gitBlob": "af70b31f6aca61c554517895d54ff8ac649e1b48"
+  },
+  {
+    "path": "pubspec.yaml",
+    "mode": "100644",
+    "sha256": "1d6ca0b57fb08877aeda47ec5ced19a3918300a275792e8660acef115f1eae8d",
+    "lfSha256": "1d6ca0b57fb08877aeda47ec5ced19a3918300a275792e8660acef115f1eae8d",
+    "size": 1164,
+    "gitBlob": "3e297bdd974811e0d7ce24db0519029e7fab0b8b"
+  },
+  {
+    "path": "test/common.dart",
+    "mode": "100644",
+    "sha256": "a309e21c9812a9e8f794403b6dc4b3bee251087c81eb70411306bd07d8b27ad7",
+    "lfSha256": "a309e21c9812a9e8f794403b6dc4b3bee251087c81eb70411306bd07d8b27ad7",
+    "size": 818,
+    "gitBlob": "65bab2f1b70dd7b7378a85231b3c22a6e532ea60"
+  },
+  {
+    "path": "test/file_picker_macos_test.dart",
+    "mode": "100644",
+    "sha256": "9a4670348ae3651e6def4891f34efdf220a24c2c6a2286f481cd0c9b5b5d29fe",
+    "lfSha256": "9a4670348ae3651e6def4891f34efdf220a24c2c6a2286f481cd0c9b5b5d29fe",
+    "size": 11654,
+    "gitBlob": "a61ef717ac3838b91850a9cb7cb24188a08d01b5"
+  },
+  {
+    "path": "test/file_picker_utils_test.dart",
+    "mode": "100644",
+    "sha256": "4dc95f8bca2c8868145da600962b5b944aae20b7f6b3a27e9be932acd9a17e49",
+    "lfSha256": "4dc95f8bca2c8868145da600962b5b944aae20b7f6b3a27e9be932acd9a17e49",
+    "size": 4510,
+    "gitBlob": "0eb16856f527021992ea319da294ca0e59a53ac7"
+  },
+  {
+    "path": "test/file_picker_windows_test.dart",
+    "mode": "100644",
+    "sha256": "17b0586491bd85d6282d482e16fc05d42dd41d71f85f0fc05b43d29770b9e873",
+    "lfSha256": "17b0586491bd85d6282d482e16fc05d42dd41d71f85f0fc05b43d29770b9e873",
+    "size": 6688,
+    "gitBlob": "a04712baca2820636e8602bdf32f8491b1ef1117"
+  },
+  {
+    "path": "test/linux/dialog_handler_test.dart",
+    "mode": "100644",
+    "sha256": "978de08c6aeb7705e1831abc14a4b2ac1995fa4b611d7176456e6e3233da528d",
+    "lfSha256": "978de08c6aeb7705e1831abc14a4b2ac1995fa4b611d7176456e6e3233da528d",
+    "size": 1091,
+    "gitBlob": "e6de210bf4626aedeac9ec24bc135782f4f7fb9a"
+  },
+  {
+    "path": "test/linux/kdialog_handler_test.dart",
+    "mode": "100644",
+    "sha256": "7d257570296eed445a4434107e33f89c278a6c7112752d91b3ed54b940c5b368",
+    "lfSha256": "7d257570296eed445a4434107e33f89c278a6c7112752d91b3ed54b940c5b368",
+    "size": 8097,
+    "gitBlob": "1e7247809df9e648fb23f7a4abebb02cc0d67308"
+  },
+  {
+    "path": "test/linux/qarma_and_zenity_handler_test.dart",
+    "mode": "100644",
+    "sha256": "0e4056c6e63b5f581cde2b8bd058e1d22d0f9a324ee5ec57b5131bf82f2d7e7e",
+    "lfSha256": "0e4056c6e63b5f581cde2b8bd058e1d22d0f9a324ee5ec57b5131bf82f2d7e7e",
+    "size": 7601,
+    "gitBlob": "15784ac34271482a4d63256edd63e22a38dc32d4"
+  },
+  {
+    "path": "test/test_files/franz-michael-schneeberger-unsplash.jpg",
+    "mode": "100644",
+    "sha256": "6755e4e57b6b3fad4f1087c075952c085877515256b21b68c2241d07517bb6b2",
+    "lfSha256": "4cb24cc52676cfaceaf48a8a0754e1be434609d304776c585a07a00c4608956e",
+    "size": 4073378,
+    "gitBlob": "23ec1bdafc231362adab07e8cc7d51ef473efc56"
+  },
+  {
+    "path": "test/test_files/test.pdf",
+    "mode": "100644",
+    "sha256": "29550d778741b8ba2ed38d4e21b7bbc97d84925eec24422a55f8a4d5b1eb9a43",
+    "lfSha256": "6b30b72e9bce5ab30b6fc17d3329267d1ef505a8bc82564e93277b82c9e1a65d",
+    "size": 7478,
+    "gitBlob": "8da27b526712a5e417279d7dd2fd7e913b45d47e"
+  },
+  {
+    "path": "test/test_files/test.yml",
+    "mode": "100644",
+    "sha256": "0d81ee804b59335450f3f5e2d85bd0956a25e0391cefbad0e9bfbd7a3559a984",
+    "lfSha256": "0d81ee804b59335450f3f5e2d85bd0956a25e0391cefbad0e9bfbd7a3559a984",
+    "size": 213,
+    "gitBlob": "07ace06baeb62bd9d9cec11e2ed7ba6fc54f05f4"
+  }
+]

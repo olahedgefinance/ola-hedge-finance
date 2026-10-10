@@ -4,19 +4,19 @@
   "pubOverrides": {
     "file_picker": {
       "modified": true,
-      "notes": "Git fork selected to implement flutter_file_picker issue 1404; exact fork delta requires release review."
+      "notes": "Modified source comparison verified; compliance/evidence/reconstruction-2026-10-09/forks/manifest.json#file_picker records exact baseline, target, complete delta and modification notice. Published archive baselines do not assert historical Git ancestry. Release notices, native verification and legal clearance remain separate."
     },
     "reorderable_grid_view": {
       "modified": true,
-      "notes": "Git-hosted Cashew fork rather than the hosted package; exact fork delta requires release review."
+      "notes": "Modified source comparison verified; compliance/evidence/reconstruction-2026-10-09/forks/manifest.json#reorderable_grid_view records exact baseline, target, complete delta and modification notice. Published archive baselines do not assert historical Git ancestry. Release notices, native verification and legal clearance remain separate."
     },
     "sliding_sheet": {
       "modified": true,
-      "notes": "Repository-vendored directory is explicitly named 0.5.2-modified; local MIT licence retained."
+      "notes": "Modified source comparison verified; compliance/evidence/reconstruction-2026-10-09/forks/manifest.json#sliding_sheet records exact baseline, target, complete delta and modification notice. Published archive baselines do not assert historical Git ancestry. Release notices, native verification and legal clearance remain separate."
     },
     "implicitly_animated_reorderable_list": {
       "modified": true,
-      "notes": "Repository-vendored directory is explicitly named 0.4.2-modified; local MIT licence retained."
+      "notes": "Modified source comparison verified; compliance/evidence/reconstruction-2026-10-09/forks/manifest.json#implicitly_animated_reorderable_list records exact baseline, target, complete delta and modification notice. Published archive baselines do not assert historical Git ancestry. Release notices, native verification and legal clearance remain separate."
     }
   },
   "components": [
@@ -551,13 +551,6 @@
       "finding": "Source URLs exist but version, licence, transformation, and per-record provenance are not recorded.",
       "requiredAction": "Pin source revisions, confirm database/content rights, document transformations, and retain required attribution.",
       "releaseGate": "Any public binary"
-    },
-    {
-      "id": "fork-delta-review",
-      "scope": "Git/path Flutter packages",
-      "finding": "Modified/fork status is known, but exact upstream-to-fork patches and modification notices are not centrally recorded.",
-      "requiredAction": "Record upstream revision, fork revision, patch/diff provenance, and required modification notices for every local or Git fork.",
-      "releaseGate": "Corresponding Source package"
     },
     {
       "id": "third-party-notice-compilation",
