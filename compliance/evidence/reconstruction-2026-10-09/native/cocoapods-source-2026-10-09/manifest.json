@@ -1,0 +1,1676 @@
+{
+  "schemaVersion": 1,
+  "startingCommit": "36fb5da48f28090de9187d6afcf78a637ebeea6a",
+  "podLockSha256": "a1ba8cc361413512b07015a828c9e4682d060166db95873c39d97108f9a3dbc5",
+  "historicalSupplement": "48959137a32d9ff8c4a02c6b4707539b858e1ef1 unavailable; not reused",
+  "historicalCheckpoint": "7f3209eebb270aaef11d875c0d214467619a0627 NOT RECOVERED",
+  "nativeStatus": "NOT TESTED \u2014 MACOS/NATIVE ENVIRONMENT BLOCKER",
+  "records": [
+    {
+      "name": "AppAuth",
+      "version": "1.7.5",
+      "lockedSpecChecksum": "501c04eda8a8d11f179dbe8637b7a91bb7e5d2fa",
+      "packageRelationships": [
+        {
+          "pubPackage": "google_sign_in_ios",
+          "pubVersion": "5.7.6",
+          "podPath": [
+            "google_sign_in_ios",
+            "AppAuth"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/AppAuth/spec.json",
+      "specSha256": "a05125635d88ac5e43fb4401a1c5da6dc4c66670fd1205c4af7cfc487522fa9d",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/b/b/9/AppAuth/1.7.5/AppAuth.podspec.json",
+      "source": {
+        "git": "https://github.com/openid/AppAuth-iOS.git",
+        "tag": "1.7.5"
+      },
+      "licenceMetadata": "Apache License, Version 2.0",
+      "licenseDeclared": "Apache-2.0",
+      "sourceRepository": "https://github.com/openid/AppAuth-iOS.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "c89ed571ae140f8eb1142735e6e23d7bb8c34cb2",
+      "downloadLocation": "https://github.com/openid/AppAuth-iOS/tree/c89ed571ae140f8eb1142735e6e23d7bb8c34cb2",
+      "refReceipt": "pods/AppAuth/ls-remote.txt",
+      "licenceFile": "pods/AppAuth/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenceUrl": "https://raw.githubusercontent.com/openid/AppAuth-iOS/c89ed571ae140f8eb1142735e6e23d7bb8c34cb2/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "BoringSSL-GRPC",
+      "version": "0.0.32",
+      "lockedSpecChecksum": "1e2348957acdbcad360b80a264a90799984b2ba6",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "gRPC-Core",
+            "BoringSSL-GRPC"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "gRPC-Core",
+            "BoringSSL-GRPC"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "gRPC-Core",
+            "BoringSSL-GRPC"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/BoringSSL-GRPC/spec.json",
+      "specSha256": "0de850c59290dc5a56017276fc8f5d09c341b949fefc6c432ef18c1b3c4aea3e",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/f/8/8/BoringSSL-GRPC/0.0.32/BoringSSL-GRPC.podspec.json",
+      "source": {
+        "git": "https://github.com/google/boringssl.git",
+        "commit": "ae72a4514c7afd150596b0a80947f3ca9b8363b5"
+      },
+      "licenceMetadata": {
+        "type": "Mixed",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "NOASSERTION",
+      "sourceRepository": "https://github.com/google/boringssl.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification.",
+        "Mixed/custom/public-domain or copyright-only terms require source-level scope and qualified review; metadata alone does not resolve declaration."
+      ],
+      "resolvedCommit": "ae72a4514c7afd150596b0a80947f3ca9b8363b5",
+      "downloadLocation": "https://github.com/google/boringssl/tree/ae72a4514c7afd150596b0a80947f3ca9b8363b5",
+      "licenceFile": "pods/BoringSSL-GRPC/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "a78d37138db9a43843736b2973284b61af19cd5384cf3c752e922171b0d4fc56",
+      "licenceUrl": "https://raw.githubusercontent.com/google/boringssl/ae72a4514c7afd150596b0a80947f3ca9b8363b5/LICENSE",
+      "status": "review-required"
+    },
+    {
+      "name": "DKImagePickerController",
+      "version": "4.3.9",
+      "lockedSpecChecksum": "946cec48c7873164274ecc4624d19e3da4c1ef3c",
+      "packageRelationships": [
+        {
+          "pubPackage": "file_picker",
+          "pubVersion": "6.0.1",
+          "podPath": [
+            "file_picker",
+            "DKImagePickerController"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/DKImagePickerController/spec.json",
+      "specSha256": "53f2247b18640c5b8fe659826a8cbe743f2bb23d75b959472a5c47ff9a2a6050",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/1/6/1/DKImagePickerController/4.3.9/DKImagePickerController.podspec.json",
+      "source": {
+        "git": "https://github.com/zhangao0086/DKImagePickerController.git",
+        "tag": "4.3.9"
+      },
+      "licenceMetadata": {
+        "type": "MIT",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "MIT",
+      "sourceRepository": "https://github.com/zhangao0086/DKImagePickerController.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "0bdfeacefa308545adde07bef86e349186335915",
+      "downloadLocation": "https://github.com/zhangao0086/DKImagePickerController/tree/0bdfeacefa308545adde07bef86e349186335915",
+      "refReceipt": "pods/DKImagePickerController/ls-remote.txt",
+      "licenceFile": "pods/DKImagePickerController/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "5b2ac8951f9a39dacd520aefebd266ad1ced0066ac1d397ceaa0c45c4072a2fe",
+      "licenceUrl": "https://raw.githubusercontent.com/zhangao0086/DKImagePickerController/0bdfeacefa308545adde07bef86e349186335915/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "DKPhotoGallery",
+      "version": "0.0.19",
+      "lockedSpecChecksum": "b3834fecb755ee09a593d7c9e389d8b5d6deed60",
+      "packageRelationships": [
+        {
+          "pubPackage": "file_picker",
+          "pubVersion": "6.0.1",
+          "podPath": [
+            "file_picker",
+            "DKImagePickerController",
+            "DKPhotoGallery"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/DKPhotoGallery/spec.json",
+      "specSha256": "5423d18ab9457444a5ee013a787fc4749b0c06fa076b707315ca744db16e8728",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/0/d/e/DKPhotoGallery/0.0.19/DKPhotoGallery.podspec.json",
+      "source": {
+        "git": "https://github.com/zhangao0086/DKPhotoGallery.git",
+        "tag": "0.0.19"
+      },
+      "licenceMetadata": {
+        "type": "MIT",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "MIT",
+      "sourceRepository": "https://github.com/zhangao0086/DKPhotoGallery.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "ae75b13245761969d2714e69f2831b870534138c",
+      "downloadLocation": "https://github.com/zhangao0086/DKPhotoGallery/tree/ae75b13245761969d2714e69f2831b870534138c",
+      "refReceipt": "pods/DKPhotoGallery/ls-remote.txt",
+      "licenceFile": "pods/DKPhotoGallery/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "5b2ac8951f9a39dacd520aefebd266ad1ced0066ac1d397ceaa0c45c4072a2fe",
+      "licenceUrl": "https://raw.githubusercontent.com/zhangao0086/DKPhotoGallery/ae75b13245761969d2714e69f2831b870534138c/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "Firebase",
+      "version": "10.28.0",
+      "lockedSpecChecksum": "5121c624121af81cbc81df3bda414b3c28c4f3c3",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/Firebase/spec.json",
+      "specSha256": "b6a30f45aa80675aa016bdaa2ecf837037699ca286eb1f75e9ac055a3a501677",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/0/3/5/Firebase/10.28.0/Firebase.podspec.json",
+      "source": {
+        "git": "https://github.com/firebase/firebase-ios-sdk.git",
+        "tag": "CocoaPods-10.28.0"
+      },
+      "licenceMetadata": {
+        "type": "Apache-2.0",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "Apache-2.0",
+      "sourceRepository": "https://github.com/firebase/firebase-ios-sdk.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "03189348b7798fe94b892a35883f1dc745814fe0",
+      "downloadLocation": "https://github.com/firebase/firebase-ios-sdk/tree/03189348b7798fe94b892a35883f1dc745814fe0",
+      "refReceipt": "pods/Firebase/ls-remote.txt",
+      "licenceFile": "pods/Firebase/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenceUrl": "https://raw.githubusercontent.com/firebase/firebase-ios-sdk/03189348b7798fe94b892a35883f1dc745814fe0/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "FirebaseAppCheckInterop",
+      "version": "10.29.0",
+      "lockedSpecChecksum": "6a1757cfd4067d8e00fccd14fcc1b8fd78cfac07",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseAuth",
+            "FirebaseAppCheckInterop"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseAuth",
+            "FirebaseAppCheckInterop"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseAuth",
+            "FirebaseAppCheckInterop"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/FirebaseAppCheckInterop/spec.json",
+      "specSha256": "f38e876ad7a5414f0386c66a2e3e3793a59cdc51bb14a721f43edb9b59e88df3",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/e/9/8/FirebaseAppCheckInterop/10.29.0/FirebaseAppCheckInterop.podspec.json",
+      "source": {
+        "git": "https://github.com/firebase/firebase-ios-sdk.git",
+        "tag": "CocoaPods-10.29.0"
+      },
+      "licenceMetadata": {
+        "type": "Apache-2.0",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "Apache-2.0",
+      "sourceRepository": "https://github.com/firebase/firebase-ios-sdk.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "eca84fd638116dd6adb633b5a3f31cc7befcbb7d",
+      "downloadLocation": "https://github.com/firebase/firebase-ios-sdk/tree/eca84fd638116dd6adb633b5a3f31cc7befcbb7d",
+      "refReceipt": "pods/FirebaseAppCheckInterop/ls-remote.txt",
+      "licenceFile": "pods/FirebaseAppCheckInterop/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenceUrl": "https://raw.githubusercontent.com/firebase/firebase-ios-sdk/eca84fd638116dd6adb633b5a3f31cc7befcbb7d/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "FirebaseAuth",
+      "version": "10.28.0",
+      "lockedSpecChecksum": "3d872fbbfc4223edeb72769e488f325fa8b0a4a9",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseAuth"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseAuth"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseAuth"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/FirebaseAuth/spec.json",
+      "specSha256": "39254c3396802f2db78ccaaa1d4263351e6910ab9766c9e43ffd2f1170659405",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/6/3/6/FirebaseAuth/10.28.0/FirebaseAuth.podspec.json",
+      "source": {
+        "git": "https://github.com/firebase/firebase-ios-sdk.git",
+        "tag": "CocoaPods-10.28.0"
+      },
+      "licenceMetadata": {
+        "type": "Apache-2.0",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "Apache-2.0",
+      "sourceRepository": "https://github.com/firebase/firebase-ios-sdk.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "03189348b7798fe94b892a35883f1dc745814fe0",
+      "downloadLocation": "https://github.com/firebase/firebase-ios-sdk/tree/03189348b7798fe94b892a35883f1dc745814fe0",
+      "refReceipt": "pods/FirebaseAuth/ls-remote.txt",
+      "licenceFile": "pods/FirebaseAuth/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenceUrl": "https://raw.githubusercontent.com/firebase/firebase-ios-sdk/03189348b7798fe94b892a35883f1dc745814fe0/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "FirebaseCore",
+      "version": "10.28.0",
+      "lockedSpecChecksum": "857dc1c6dd1255675047404d8466f7dfaac5d779",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseCore"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseCore"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseCore"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/FirebaseCore/spec.json",
+      "specSha256": "a72727588700d5978422fefe70bdaafe6960107c5bfd6d16ae482b11ee981ed3",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/8/b/d/FirebaseCore/10.28.0/FirebaseCore.podspec.json",
+      "source": {
+        "git": "https://github.com/firebase/firebase-ios-sdk.git",
+        "tag": "CocoaPods-10.28.0"
+      },
+      "licenceMetadata": {
+        "type": "Apache-2.0",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "Apache-2.0",
+      "sourceRepository": "https://github.com/firebase/firebase-ios-sdk.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "03189348b7798fe94b892a35883f1dc745814fe0",
+      "downloadLocation": "https://github.com/firebase/firebase-ios-sdk/tree/03189348b7798fe94b892a35883f1dc745814fe0",
+      "refReceipt": "pods/FirebaseCore/ls-remote.txt",
+      "licenceFile": "pods/FirebaseCore/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenceUrl": "https://raw.githubusercontent.com/firebase/firebase-ios-sdk/03189348b7798fe94b892a35883f1dc745814fe0/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "FirebaseCoreExtension",
+      "version": "10.29.0",
+      "lockedSpecChecksum": "705ca5b14bf71d2564a0ddc677df1fc86ffa600f",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseCoreExtension"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseCoreExtension"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseCoreExtension"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/FirebaseCoreExtension/spec.json",
+      "specSha256": "281e820c2835a31997f29071621ef6ba0c3adb64a0961781e2e2fb8917009b06",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/4/7/f/FirebaseCoreExtension/10.29.0/FirebaseCoreExtension.podspec.json",
+      "source": {
+        "git": "https://github.com/firebase/firebase-ios-sdk.git",
+        "tag": "CocoaPods-10.29.0"
+      },
+      "licenceMetadata": {
+        "type": "Apache-2.0",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "Apache-2.0",
+      "sourceRepository": "https://github.com/firebase/firebase-ios-sdk.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "eca84fd638116dd6adb633b5a3f31cc7befcbb7d",
+      "downloadLocation": "https://github.com/firebase/firebase-ios-sdk/tree/eca84fd638116dd6adb633b5a3f31cc7befcbb7d",
+      "refReceipt": "pods/FirebaseCoreExtension/ls-remote.txt",
+      "licenceFile": "pods/FirebaseCoreExtension/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenceUrl": "https://raw.githubusercontent.com/firebase/firebase-ios-sdk/eca84fd638116dd6adb633b5a3f31cc7befcbb7d/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "FirebaseCoreInternal",
+      "version": "10.29.0",
+      "lockedSpecChecksum": "df84dd300b561c27d5571684f389bf60b0a5c934",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseCore",
+            "FirebaseCoreInternal"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseCore",
+            "FirebaseCoreInternal"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseCore",
+            "FirebaseCoreInternal"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/FirebaseCoreInternal/spec.json",
+      "specSha256": "42acca26a3e9e6e58cfcca1f4365a3bf1594ff535cc9d3d8787fb4165e415322",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/7/9/1/FirebaseCoreInternal/10.29.0/FirebaseCoreInternal.podspec.json",
+      "source": {
+        "git": "https://github.com/firebase/firebase-ios-sdk.git",
+        "tag": "CocoaPods-10.29.0"
+      },
+      "licenceMetadata": {
+        "type": "Apache-2.0",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "Apache-2.0",
+      "sourceRepository": "https://github.com/firebase/firebase-ios-sdk.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "eca84fd638116dd6adb633b5a3f31cc7befcbb7d",
+      "downloadLocation": "https://github.com/firebase/firebase-ios-sdk/tree/eca84fd638116dd6adb633b5a3f31cc7befcbb7d",
+      "refReceipt": "pods/FirebaseCoreInternal/ls-remote.txt",
+      "licenceFile": "pods/FirebaseCoreInternal/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenceUrl": "https://raw.githubusercontent.com/firebase/firebase-ios-sdk/eca84fd638116dd6adb633b5a3f31cc7befcbb7d/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "FirebaseFirestore",
+      "version": "10.28.0",
+      "lockedSpecChecksum": "55636df3da462136352b3465e26a86a988cc792c",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseFirestore"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseFirestore"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseFirestore"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/FirebaseFirestore/spec.json",
+      "specSha256": "bbfc2cbe8171435831b84e4bc62bbd8ca9b3b556a4c7356d9d9577a32ae68f3d",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/0/9/f/FirebaseFirestore/10.28.0/FirebaseFirestore.podspec.json",
+      "source": {
+        "git": "https://github.com/firebase/firebase-ios-sdk.git",
+        "tag": "CocoaPods-10.28.0"
+      },
+      "licenceMetadata": {
+        "type": "Apache-2.0",
+        "file": "Firestore/LICENSE"
+      },
+      "licenseDeclared": "NOASSERTION",
+      "sourceRepository": "https://github.com/firebase/firebase-ios-sdk.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification.",
+        "Mixed/custom/public-domain or copyright-only terms require source-level scope and qualified review; metadata alone does not resolve declaration."
+      ],
+      "resolvedCommit": "03189348b7798fe94b892a35883f1dc745814fe0",
+      "downloadLocation": "https://github.com/firebase/firebase-ios-sdk/tree/03189348b7798fe94b892a35883f1dc745814fe0",
+      "refReceipt": "pods/FirebaseFirestore/ls-remote.txt",
+      "licenceFile": "pods/FirebaseFirestore/LICENSE.source",
+      "licencePath": "Firestore/LICENSE",
+      "licenceSha256": "e5e9aa330f05975f328422e8dcc7086f5a0258ecbcca1fc5f10f7aa20f5abbfe",
+      "licenceUrl": "https://raw.githubusercontent.com/firebase/firebase-ios-sdk/03189348b7798fe94b892a35883f1dc745814fe0/Firestore/LICENSE",
+      "status": "review-required"
+    },
+    {
+      "name": "FirebaseFirestoreInternal",
+      "version": "10.28.0",
+      "lockedSpecChecksum": "354755e5745ca39862218087d9f754dde20f1059",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/FirebaseFirestoreInternal/spec.json",
+      "specSha256": "2a08f15f4fa941d05a3f645a107499496d419da85682ece32ca1b05ad2404c47",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/3/1/8/FirebaseFirestoreInternal/10.28.0/FirebaseFirestoreInternal.podspec.json",
+      "source": {
+        "git": "https://github.com/firebase/firebase-ios-sdk.git",
+        "tag": "CocoaPods-10.28.0"
+      },
+      "licenceMetadata": {
+        "type": "Apache-2.0",
+        "file": "Firestore/LICENSE"
+      },
+      "licenseDeclared": "NOASSERTION",
+      "sourceRepository": "https://github.com/firebase/firebase-ios-sdk.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification.",
+        "Mixed/custom/public-domain or copyright-only terms require source-level scope and qualified review; metadata alone does not resolve declaration."
+      ],
+      "resolvedCommit": "03189348b7798fe94b892a35883f1dc745814fe0",
+      "downloadLocation": "https://github.com/firebase/firebase-ios-sdk/tree/03189348b7798fe94b892a35883f1dc745814fe0",
+      "refReceipt": "pods/FirebaseFirestoreInternal/ls-remote.txt",
+      "licenceFile": "pods/FirebaseFirestoreInternal/LICENSE.source",
+      "licencePath": "Firestore/LICENSE",
+      "licenceSha256": "e5e9aa330f05975f328422e8dcc7086f5a0258ecbcca1fc5f10f7aa20f5abbfe",
+      "licenceUrl": "https://raw.githubusercontent.com/firebase/firebase-ios-sdk/03189348b7798fe94b892a35883f1dc745814fe0/Firestore/LICENSE",
+      "status": "review-required"
+    },
+    {
+      "name": "FirebaseSharedSwift",
+      "version": "10.29.0",
+      "lockedSpecChecksum": "20530f495084b8d840f78a100d8c5ee613375f6e",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseSharedSwift"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseSharedSwift"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseSharedSwift"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/FirebaseSharedSwift/spec.json",
+      "specSha256": "5252eccc5bec5373d072488c5620e36abf4375bb3f5fdc50d5b0dd93fcb6aad6",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/b/c/7/FirebaseSharedSwift/10.29.0/FirebaseSharedSwift.podspec.json",
+      "source": {
+        "git": "https://github.com/Firebase/firebase-ios-sdk.git",
+        "tag": "CocoaPods-10.29.0"
+      },
+      "licenceMetadata": {
+        "type": "Apache-2.0",
+        "file": "FirebaseSharedSwift/LICENSE"
+      },
+      "licenseDeclared": "Apache-2.0",
+      "sourceRepository": "https://github.com/Firebase/firebase-ios-sdk.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "eca84fd638116dd6adb633b5a3f31cc7befcbb7d",
+      "downloadLocation": "https://github.com/Firebase/firebase-ios-sdk/tree/eca84fd638116dd6adb633b5a3f31cc7befcbb7d",
+      "refReceipt": "pods/FirebaseSharedSwift/ls-remote.txt",
+      "licenceFile": "pods/FirebaseSharedSwift/LICENSE.source",
+      "licencePath": "FirebaseSharedSwift/LICENSE",
+      "licenceSha256": "e25e9130c16697529034ba88013a15bb38ab7c947daf17b0a14c12f932feb9b3",
+      "licenceUrl": "https://raw.githubusercontent.com/Firebase/firebase-ios-sdk/eca84fd638116dd6adb633b5a3f31cc7befcbb7d/FirebaseSharedSwift/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "GTMAppAuth",
+      "version": "4.1.1",
+      "lockedSpecChecksum": "f69bd07d68cd3b766125f7e072c45d7340dea0de",
+      "packageRelationships": [
+        {
+          "pubPackage": "google_sign_in_ios",
+          "pubVersion": "5.7.6",
+          "podPath": [
+            "google_sign_in_ios",
+            "GoogleSignIn",
+            "GTMAppAuth"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/GTMAppAuth/spec.json",
+      "specSha256": "0bea61b3f43a0b8363ae1f7ab844eaffc549607151344bbb68a83d4b696feb81",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/2/c/c/GTMAppAuth/4.1.1/GTMAppAuth.podspec.json",
+      "source": {
+        "git": "https://github.com/google/GTMAppAuth.git",
+        "tag": "4.1.1"
+      },
+      "licenceMetadata": {
+        "type": "Apache",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "Apache-2.0",
+      "sourceRepository": "https://github.com/google/GTMAppAuth.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "5d7d66f647400952b1758b230e019b07c0b4b22a",
+      "downloadLocation": "https://github.com/google/GTMAppAuth/tree/5d7d66f647400952b1758b230e019b07c0b4b22a",
+      "refReceipt": "pods/GTMAppAuth/ls-remote.txt",
+      "licenceFile": "pods/GTMAppAuth/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenceUrl": "https://raw.githubusercontent.com/google/GTMAppAuth/5d7d66f647400952b1758b230e019b07c0b4b22a/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "GTMSessionFetcher",
+      "version": "3.5.0",
+      "lockedSpecChecksum": "5aea5ba6bd522a239e236100971f10cb71b96ab6",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseAuth",
+            "GTMSessionFetcher"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseAuth",
+            "GTMSessionFetcher"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseAuth",
+            "GTMSessionFetcher"
+          ]
+        },
+        {
+          "pubPackage": "google_sign_in_ios",
+          "pubVersion": "5.7.6",
+          "podPath": [
+            "google_sign_in_ios",
+            "GTMSessionFetcher"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/GTMSessionFetcher/spec.json",
+      "specSha256": "b31045e7ac33570d99b3cf01a8a27926726201070b6c19909f9a9bdb6de89db5",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/c/e/3/GTMSessionFetcher/3.5.0/GTMSessionFetcher.podspec.json",
+      "source": {
+        "git": "https://github.com/google/gtm-session-fetcher.git",
+        "tag": "v3.5.0"
+      },
+      "licenceMetadata": {
+        "type": "Apache",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "Apache-2.0",
+      "sourceRepository": "https://github.com/google/gtm-session-fetcher.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "a2ab612cb980066ee56d90d60d8462992c07f24b",
+      "downloadLocation": "https://github.com/google/gtm-session-fetcher/tree/a2ab612cb980066ee56d90d60d8462992c07f24b",
+      "refReceipt": "pods/GTMSessionFetcher/ls-remote.txt",
+      "licenceFile": "pods/GTMSessionFetcher/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenceUrl": "https://raw.githubusercontent.com/google/gtm-session-fetcher/a2ab612cb980066ee56d90d60d8462992c07f24b/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "GoogleSignIn",
+      "version": "7.1.0",
+      "lockedSpecChecksum": "d4281ab6cf21542b1cfaff85c191f230b399d2db",
+      "packageRelationships": [
+        {
+          "pubPackage": "google_sign_in_ios",
+          "pubVersion": "5.7.6",
+          "podPath": [
+            "google_sign_in_ios",
+            "GoogleSignIn"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/GoogleSignIn/spec.json",
+      "specSha256": "fd9cce19bf7f69bfbefbdf9d6cd5fce68c549d31ceca80f9c3ebd509c044a2a2",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/d/4/0/GoogleSignIn/7.1.0/GoogleSignIn.podspec.json",
+      "source": {
+        "git": "https://github.com/google/GoogleSignIn-iOS.git",
+        "tag": "7.1.0"
+      },
+      "licenceMetadata": {
+        "type": "Apache",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "Apache-2.0",
+      "sourceRepository": "https://github.com/google/GoogleSignIn-iOS.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "a7965d134c5d3567026c523e0a8a583f73b62b0d",
+      "downloadLocation": "https://github.com/google/GoogleSignIn-iOS/tree/a7965d134c5d3567026c523e0a8a583f73b62b0d",
+      "refReceipt": "pods/GoogleSignIn/ls-remote.txt",
+      "licenceFile": "pods/GoogleSignIn/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenceUrl": "https://raw.githubusercontent.com/google/GoogleSignIn-iOS/a7965d134c5d3567026c523e0a8a583f73b62b0d/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "GoogleUtilities",
+      "version": "7.13.3",
+      "lockedSpecChecksum": "ea963c370a38a8069cc5f7ba4ca849a60b6d7d15",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseAuth",
+            "GoogleUtilities"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseAuth",
+            "GoogleUtilities"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseAuth",
+            "GoogleUtilities"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/GoogleUtilities/spec.json",
+      "specSha256": "8df9f88b3c7a52946e7e6aba3f7c64af7ef4c84c741ec0a4033a1a30b769df82",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/0/8/4/GoogleUtilities/7.13.3/GoogleUtilities.podspec.json",
+      "source": {
+        "git": "https://github.com/google/GoogleUtilities.git",
+        "tag": "CocoaPods-7.13.3"
+      },
+      "licenceMetadata": {
+        "type": "Apache-2.0",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "NOASSERTION",
+      "sourceRepository": "https://github.com/google/GoogleUtilities.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification.",
+        "Mixed/custom/public-domain or copyright-only terms require source-level scope and qualified review; metadata alone does not resolve declaration."
+      ],
+      "resolvedCommit": "57a1d307f42df690fdef2637f3e5b776da02aad6",
+      "downloadLocation": "https://github.com/google/GoogleUtilities/tree/57a1d307f42df690fdef2637f3e5b776da02aad6",
+      "refReceipt": "pods/GoogleUtilities/ls-remote.txt",
+      "licenceFile": "pods/GoogleUtilities/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "ad6d036b9a78f0e1700d68039c06058033fea063172ce2dc68e382a24b4d1928",
+      "licenceUrl": "https://raw.githubusercontent.com/google/GoogleUtilities/57a1d307f42df690fdef2637f3e5b776da02aad6/LICENSE",
+      "status": "review-required"
+    },
+    {
+      "name": "PromisesObjC",
+      "version": "2.4.0",
+      "lockedSpecChecksum": "f5707f49cb48b9636751c5b2e7d227e43fba9f47",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseAuth",
+            "GoogleUtilities",
+            "PromisesObjC"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseAuth",
+            "GoogleUtilities",
+            "PromisesObjC"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseAuth",
+            "GoogleUtilities",
+            "PromisesObjC"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/PromisesObjC/spec.json",
+      "specSha256": "517935b98697673ec2642faeab91487947c2d8dc964e7a4111b59f703df45eca",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/0/b/5/PromisesObjC/2.4.0/PromisesObjC.podspec.json",
+      "source": {
+        "git": "https://github.com/google/promises.git",
+        "tag": "2.4.0"
+      },
+      "licenceMetadata": {
+        "type": "Apache-2.0",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "Apache-2.0",
+      "sourceRepository": "https://github.com/google/promises.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "540318ecedd63d883069ae7f1ed811a2df00b6ac",
+      "downloadLocation": "https://github.com/google/promises/tree/540318ecedd63d883069ae7f1ed811a2df00b6ac",
+      "refReceipt": "pods/PromisesObjC/ls-remote.txt",
+      "licenceFile": "pods/PromisesObjC/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenceUrl": "https://raw.githubusercontent.com/google/promises/540318ecedd63d883069ae7f1ed811a2df00b6ac/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "RecaptchaEnterprise",
+      "version": "18.5.1",
+      "lockedSpecChecksum": "b00baf9826d82babbf2277bd27cdf72362c06b4a",
+      "packageRelationships": [
+        {
+          "pubPackage": "recaptcha_enterprise_flutter",
+          "pubVersion": "18.5.1",
+          "podPath": [
+            "recaptcha_enterprise_flutter",
+            "RecaptchaEnterprise"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/RecaptchaEnterprise/spec.json",
+      "specSha256": "08240de14039146ddf6c96aea3b33bf1c0b8d9b7aaa779ea36fb3fa84c19f8be",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/4/0/b/RecaptchaEnterprise/18.5.1/RecaptchaEnterprise.podspec.json",
+      "source": {
+        "http": "https://dl.google.com/dl/cpdc/82e73f66792f30a3/RecaptchaEnterprise-18.5.1.tar.gz"
+      },
+      "licenceMetadata": {
+        "text": "Copyright 2024 Google LLC",
+        "type": "Copyright"
+      },
+      "licenseDeclared": "NOASSERTION",
+      "sourceRepository": "https://cloud.google.com/recaptcha-enterprise",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification.",
+        "Archive SHA-256 is an observed acquisition digest; upstream podspec supplies no archive digest. Archive retained outside Git.",
+        "Mixed/custom/public-domain or copyright-only terms require source-level scope and qualified review; metadata alone does not resolve declaration."
+      ],
+      "archiveSha256": "1e7e561ad4432860e41dc445ec46d171046c4b8230cbc3a47ba2e433a055771e",
+      "archiveSize": 3019657,
+      "archiveFile": "archive-RecaptchaEnterprise.tar.gz",
+      "noticeMembers": [],
+      "downloadLocation": "https://dl.google.com/dl/cpdc/82e73f66792f30a3/RecaptchaEnterprise-18.5.1.tar.gz",
+      "status": "review-required"
+    },
+    {
+      "name": "RecaptchaInterop",
+      "version": "100.0.0",
+      "lockedSpecChecksum": "7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseAuth",
+            "RecaptchaInterop"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseAuth",
+            "RecaptchaInterop"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseAuth",
+            "RecaptchaInterop"
+          ]
+        },
+        {
+          "pubPackage": "recaptcha_enterprise_flutter",
+          "pubVersion": "18.5.1",
+          "podPath": [
+            "recaptcha_enterprise_flutter",
+            "RecaptchaEnterprise",
+            "RecaptchaInterop"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/RecaptchaInterop/spec.json",
+      "specSha256": "492d107eaca56c48ab8f7bcf8d191dcbcd6e03cd335bae1ba623d4fe06954b24",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/c/1/1/RecaptchaInterop/100.0.0/RecaptchaInterop.podspec.json",
+      "source": {
+        "git": "https://github.com/google/interop-ios-for-google-sdks.git",
+        "tag": "CocoaPods-100.0.0"
+      },
+      "licenceMetadata": {
+        "type": "Apache-2.0",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "Apache-2.0",
+      "sourceRepository": "https://github.com/google/interop-ios-for-google-sdks.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "2d12673670417654f08f5f90fdd62926dc3a2648",
+      "downloadLocation": "https://github.com/google/interop-ios-for-google-sdks/tree/2d12673670417654f08f5f90fdd62926dc3a2648",
+      "refReceipt": "pods/RecaptchaInterop/ls-remote.txt",
+      "licenceFile": "pods/RecaptchaInterop/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenceUrl": "https://raw.githubusercontent.com/google/interop-ios-for-google-sdks/2d12673670417654f08f5f90fdd62926dc3a2648/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "SDWebImage",
+      "version": "5.19.4",
+      "lockedSpecChecksum": "066c47b573f408f18caa467d71deace7c0f8280d",
+      "packageRelationships": [
+        {
+          "pubPackage": "file_picker",
+          "pubVersion": "6.0.1",
+          "podPath": [
+            "file_picker",
+            "DKImagePickerController",
+            "DKPhotoGallery",
+            "SDWebImage"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/SDWebImage/spec.json",
+      "specSha256": "5b43975dd76e4a6f6e345b7fea39565370d7b8b266880a243d28027b7a581a0c",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/1/1/7/SDWebImage/5.19.4/SDWebImage.podspec.json",
+      "source": {
+        "git": "https://github.com/SDWebImage/SDWebImage.git",
+        "tag": "5.19.4"
+      },
+      "licenceMetadata": "MIT",
+      "licenseDeclared": "MIT",
+      "sourceRepository": "https://github.com/SDWebImage/SDWebImage.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "be0bcd7823ce56629948491f2eaeaa19979514f7",
+      "downloadLocation": "https://github.com/SDWebImage/SDWebImage/tree/be0bcd7823ce56629948491f2eaeaa19979514f7",
+      "refReceipt": "pods/SDWebImage/ls-remote.txt",
+      "licenceFile": "pods/SDWebImage/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "db5ae21958ad3871339a53acfabc7e9c20553a35761878dfd304573de1e88740",
+      "licenceUrl": "https://raw.githubusercontent.com/SDWebImage/SDWebImage/be0bcd7823ce56629948491f2eaeaa19979514f7/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "SwiftyGif",
+      "version": "5.4.5",
+      "lockedSpecChecksum": "706c60cf65fa2bc5ee0313beece843c8eb8194d4",
+      "packageRelationships": [
+        {
+          "pubPackage": "file_picker",
+          "pubVersion": "6.0.1",
+          "podPath": [
+            "file_picker",
+            "DKImagePickerController",
+            "DKPhotoGallery",
+            "SwiftyGif"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/SwiftyGif/spec.json",
+      "specSha256": "ba6bd2d0ccae4dd1790ead0a89e3b622c4e8d7eed3aa81f15de3eb8e0d156666",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/2/2/8/SwiftyGif/5.4.5/SwiftyGif.podspec.json",
+      "source": {
+        "git": "https://github.com/kirualex/SwiftyGif.git",
+        "tag": "5.4.5"
+      },
+      "licenceMetadata": {
+        "type": "MIT",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "MIT",
+      "sourceRepository": "https://github.com/kirualex/SwiftyGif.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "licenceAcquisitionNote": "Original repository redirects; exact-revision GitHub contents API response is bound to the authenticated original source repository, path, and revision. Base64 payload and Git blob identity independently verified.",
+      "resolvedCommit": "4430cbc148baa3907651d40562d96325426f409a",
+      "downloadLocation": "https://github.com/kirualex/SwiftyGif/tree/4430cbc148baa3907651d40562d96325426f409a",
+      "refReceipt": "pods/SwiftyGif/ls-remote.txt",
+      "licenceFile": "pods/SwiftyGif/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "ca136c5ebb10cf8ee95b08222ee6acc92da0bd67ff6633abbde614c28ad07634",
+      "licenceUrl": "https://api.github.com/repos/kirualex/SwiftyGif/contents/LICENSE?ref=4430cbc148baa3907651d40562d96325426f409a",
+      "status": "verified-with-conditions",
+      "licenceTransport": "github-contents-api",
+      "licenceResponseFile": "pods/SwiftyGif/licence-contents-response.json",
+      "licenceResponseSha256": "c8cf2a4a1e1ae91543245e88783bcdbc02ffd46a97476a7b943b59491648b7dd"
+    },
+    {
+      "name": "UniversalDetector2",
+      "version": "2.0.1",
+      "lockedSpecChecksum": "7c9ffd935cf050eeb19edf7e90f6febe3743a1af",
+      "packageRelationships": [
+        {
+          "pubPackage": "flutter_charset_detector_ios",
+          "pubVersion": "1.0.2",
+          "podPath": [
+            "flutter_charset_detector_ios",
+            "UniversalDetector2"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/UniversalDetector2/spec.json",
+      "specSha256": "f97f4592c74dbbd9faa8fd475da49a186e6656ec7f11b2a628de01ed4e057aee",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/f/e/1/UniversalDetector2/2.0.1/UniversalDetector2.podspec.json",
+      "source": {
+        "git": "https://github.com/amake/UniversalDetector2.git",
+        "tag": "2.0.1",
+        "submodules": true
+      },
+      "licenceMetadata": {
+        "type": "Mozilla Public License",
+        "file": "LICENSE"
+      },
+      "licenseDeclared": "MPL-2.0",
+      "sourceRepository": "https://github.com/amake/UniversalDetector2.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "d3217b732a0c56af689ea38cb52c8e20e2399dd8",
+      "downloadLocation": "https://github.com/amake/UniversalDetector2/tree/d3217b732a0c56af689ea38cb52c8e20e2399dd8",
+      "refReceipt": "pods/UniversalDetector2/ls-remote.txt",
+      "licenceFile": "pods/UniversalDetector2/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85",
+      "licenceUrl": "https://raw.githubusercontent.com/amake/UniversalDetector2/d3217b732a0c56af689ea38cb52c8e20e2399dd8/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "abseil",
+      "version": "1.20240116.2",
+      "lockedSpecChecksum": "d121da9ef7e2ff4cab7666e76c5a3e0915ae08c3",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "abseil"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "abseil"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "abseil"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/abseil/spec.json",
+      "specSha256": "8f46078a3f0c5f7d8d31c9e171086398542f708e10c5475b00cd2459cb7fd13a",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/3/8/6/abseil/1.20240116.2/abseil.podspec.json",
+      "source": {
+        "git": "https://github.com/abseil/abseil-cpp.git",
+        "tag": "20240116.2"
+      },
+      "licenceMetadata": "Apache License, Version 2.0",
+      "licenseDeclared": "Apache-2.0",
+      "sourceRepository": "https://github.com/abseil/abseil-cpp.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "d7aaad83b488fd62bd51c81ecf16cd938532cc0a",
+      "downloadLocation": "https://github.com/abseil/abseil-cpp/tree/d7aaad83b488fd62bd51c81ecf16cd938532cc0a",
+      "refReceipt": "pods/abseil/ls-remote.txt",
+      "licenceFile": "pods/abseil/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "c79a7fea0e3cac04cd43f20e7b648e5a0ff8fa5344e644b0ee09ca1162b62747",
+      "licenceUrl": "https://raw.githubusercontent.com/abseil/abseil-cpp/d7aaad83b488fd62bd51c81ecf16cd938532cc0a/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "gRPC-C++",
+      "version": "1.62.5",
+      "lockedSpecChecksum": "e725ef63c4475d7cdb7e2cf16eb0fde84bd9ee51",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "gRPC-C++"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "gRPC-C++"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "gRPC-C++"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/gRPC-C++/spec.json",
+      "specSha256": "f45805dad769201b820fc2a9c753de5b641deb9ed6436dc979a0f947d2886b50",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/c/8/7/gRPC-C++/1.62.5/gRPC-C++.podspec.json",
+      "source": {
+        "git": "https://github.com/grpc/grpc-ios.git",
+        "tag": "v1.62.5"
+      },
+      "licenceMetadata": "Apache License, Version 2.0",
+      "licenseDeclared": "NOASSERTION",
+      "sourceRepository": "https://github.com/grpc/grpc-ios.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification.",
+        "Mixed/custom/public-domain or copyright-only terms require source-level scope and qualified review; metadata alone does not resolve declaration."
+      ],
+      "resolvedCommit": "2adbb0708f53823e670e940f3a8d0a5d4b5ee145",
+      "downloadLocation": "https://github.com/grpc/grpc-ios/tree/2adbb0708f53823e670e940f3a8d0a5d4b5ee145",
+      "refReceipt": "pods/gRPC-C++/ls-remote.txt",
+      "licenceFile": "pods/gRPC-C++/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "590198e3f305f2c347fde64d637c65492bbef554db6c8364e149cd375e3797ee",
+      "licenceUrl": "https://raw.githubusercontent.com/grpc/grpc-ios/2adbb0708f53823e670e940f3a8d0a5d4b5ee145/LICENSE",
+      "status": "review-required"
+    },
+    {
+      "name": "gRPC-Core",
+      "version": "1.62.5",
+      "lockedSpecChecksum": "eee4be35df218649fe66d721a05a7f27a28f069b",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "gRPC-Core"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "gRPC-Core"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "gRPC-Core"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/gRPC-Core/spec.json",
+      "specSha256": "ff43e0a1987a3037f56ea5b5237af4d9c7bbe273f9a00c2d19de6e6a00cd32ce",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/9/1/0/gRPC-Core/1.62.5/gRPC-Core.podspec.json",
+      "source": {
+        "git": "https://github.com/grpc/grpc-ios.git",
+        "tag": "v1.62.5",
+        "submodules": true
+      },
+      "licenceMetadata": "Apache License, Version 2.0",
+      "licenseDeclared": "NOASSERTION",
+      "sourceRepository": "https://github.com/grpc/grpc-ios.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification.",
+        "Mixed/custom/public-domain or copyright-only terms require source-level scope and qualified review; metadata alone does not resolve declaration."
+      ],
+      "resolvedCommit": "2adbb0708f53823e670e940f3a8d0a5d4b5ee145",
+      "downloadLocation": "https://github.com/grpc/grpc-ios/tree/2adbb0708f53823e670e940f3a8d0a5d4b5ee145",
+      "refReceipt": "pods/gRPC-Core/ls-remote.txt",
+      "licenceFile": "pods/gRPC-Core/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "590198e3f305f2c347fde64d637c65492bbef554db6c8364e149cd375e3797ee",
+      "licenceUrl": "https://raw.githubusercontent.com/grpc/grpc-ios/2adbb0708f53823e670e940f3a8d0a5d4b5ee145/LICENSE",
+      "status": "review-required"
+    },
+    {
+      "name": "leveldb-library",
+      "version": "1.22.5",
+      "lockedSpecChecksum": "e8eadf9008a61f9e1dde3978c086d2b6d9b9dc28",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "leveldb-library"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "leveldb-library"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "leveldb-library"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/leveldb-library/spec.json",
+      "specSha256": "e6d5f4ce83041150fd0958014e39f924b06aeaceca5c1840bbb458de66c617f8",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/a/d/a/leveldb-library/1.22.5/leveldb-library.podspec.json",
+      "source": {
+        "git": "https://github.com/firebase/leveldb.git",
+        "tag": "CocoaPods-1.22.5"
+      },
+      "licenceMetadata": "New BSD",
+      "licenseDeclared": "BSD-3-Clause",
+      "sourceRepository": "https://github.com/firebase/leveldb.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "a0bc79961d7be727d258d33d5a6b2f1023270ba1",
+      "downloadLocation": "https://github.com/firebase/leveldb/tree/a0bc79961d7be727d258d33d5a6b2f1023270ba1",
+      "refReceipt": "pods/leveldb-library/ls-remote.txt",
+      "licenceFile": "pods/leveldb-library/LICENSE.source",
+      "licencePath": "LICENSE",
+      "licenceSha256": "ccc19f1da0798ed666609b65a5b44dd8b3abe6fc08b9c0592eb76e82e174db19",
+      "licenceUrl": "https://raw.githubusercontent.com/firebase/leveldb/a0bc79961d7be727d258d33d5a6b2f1023270ba1/LICENSE",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "nanopb",
+      "version": "2.30910.0",
+      "lockedSpecChecksum": "438bc412db1928dac798aa6fd75726007be04262",
+      "packageRelationships": [
+        {
+          "pubPackage": "cloud_firestore",
+          "pubVersion": "5.1.0",
+          "podPath": [
+            "cloud_firestore",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "nanopb"
+          ]
+        },
+        {
+          "pubPackage": "firebase_auth",
+          "pubVersion": "5.1.2",
+          "podPath": [
+            "firebase_auth",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "nanopb"
+          ]
+        },
+        {
+          "pubPackage": "firebase_core",
+          "pubVersion": "3.2.0",
+          "podPath": [
+            "firebase_core",
+            "Firebase",
+            "FirebaseFirestore",
+            "FirebaseFirestoreInternal",
+            "nanopb"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/nanopb/spec.json",
+      "specSha256": "333f4a84540f344a4b209dbe9a5cd95af37a8346bd463da20cb71cd384e97aef",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/6/1/e/nanopb/2.30910.0/nanopb.podspec.json",
+      "source": {
+        "git": "https://github.com/nanopb/nanopb.git",
+        "tag": "0.3.9.10"
+      },
+      "licenceMetadata": {
+        "type": "zlib",
+        "file": "LICENSE.txt"
+      },
+      "licenseDeclared": "Zlib",
+      "sourceRepository": "https://github.com/nanopb/nanopb.git",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification."
+      ],
+      "resolvedCommit": "b7e1104502eca3a213b46303391ca4d3bc8ddec1",
+      "downloadLocation": "https://github.com/nanopb/nanopb/tree/b7e1104502eca3a213b46303391ca4d3bc8ddec1",
+      "refReceipt": "pods/nanopb/ls-remote.txt",
+      "licenceFile": "pods/nanopb/LICENSE.source",
+      "licencePath": "LICENSE.txt",
+      "licenceSha256": "e2f2fc8fe3faa7dcb09dbe995db48c6ec5c1f72705db915101e4a83fed44f66d",
+      "licenceUrl": "https://raw.githubusercontent.com/nanopb/nanopb/b7e1104502eca3a213b46303391ca4d3bc8ddec1/LICENSE.txt",
+      "status": "verified-with-conditions"
+    },
+    {
+      "name": "sqlite3",
+      "version": "3.41.2",
+      "lockedSpecChecksum": "fd89671d969f3e73efe503ce203e28b016b58f68",
+      "packageRelationships": [
+        {
+          "pubPackage": "sqlite3_flutter_libs",
+          "pubVersion": "0.5.15",
+          "podPath": [
+            "sqlite3_flutter_libs",
+            "sqlite3"
+          ]
+        }
+      ],
+      "distribution": "runtime-distributed candidate from Podfile.lock; native binary inclusion NOT TESTED",
+      "kind": "registry-pod",
+      "specFile": "pods/sqlite3/spec.json",
+      "specSha256": "0e6b1b8763ecc66ec8987fc79414e132354fdfe2520412fd57d7f7b66d8e1196",
+      "specUrl": "https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/d/c/2/sqlite3/3.41.2/sqlite3.podspec.json",
+      "source": {
+        "http": "https://www.sqlite.org/2023/sqlite-src-3410200.zip"
+      },
+      "licenceMetadata": {
+        "type": "Public Domain",
+        "text": "All of the code and documentation in SQLite has been dedicated to the public domain by the authors.\nAll code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci.\nAnyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.\n"
+      },
+      "licenseDeclared": "NOASSERTION",
+      "sourceRepository": "https://github.com/clemensg/sqlite3pod",
+      "conditions": [
+        "Source declaration evidence only; no native build, distribution/legal clearance or complete Corresponding Source claim.",
+        "Final selected subspecs, vendored/submodule dependencies and licence/notice delivery require native/release verification.",
+        "Archive SHA-256 is an observed acquisition digest; upstream podspec supplies no archive digest. Archive retained outside Git.",
+        "Mixed/custom/public-domain or copyright-only terms require source-level scope and qualified review; metadata alone does not resolve declaration."
+      ],
+      "archiveSha256": "87191fcecb8b707d9a10edb13607686317d7169c080b9bdc5d39d06358376ccc",
+      "archiveSize": 13836230,
+      "archiveFile": "archive-sqlite3.zip",
+      "noticeMembers": [
+        "sqlite-src-3410200/LICENSE.md",
+        "sqlite-src-3410200/autoconf/tea/license.terms",
+        "sqlite-src-3410200/ext/wasm/api/sqlite3-license-version-header.js"
+      ],
+      "downloadLocation": "https://www.sqlite.org/2023/sqlite-src-3410200.zip",
+      "licenceFile": "pods/sqlite3/LICENSE.source",
+      "licencePath": "sqlite-src-3410200/LICENSE.md",
+      "licenceSha256": "9c6479123f32a1ed50d9a0af203dfe8972e65035b0cdeef436b5f8d0924517fe",
+      "status": "review-required"
+    }
+  ]
+}

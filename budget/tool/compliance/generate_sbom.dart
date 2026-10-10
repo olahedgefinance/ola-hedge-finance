@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:crypto/crypto.dart';
 
 import 'sbom_lib.dart';
+import 'cocoapods_evidence.dart';
 export 'sbom_lib.dart';
 
 class ComplianceArtifactBundle {
@@ -147,36 +148,40 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
       throw StateError('Stale native wrapper evidence: ${pub.name}');
     }
   }
-  final podComponents = podEntries
-      .map((pod) => ComplianceComponent(
-            id: 'cocoapods:${pod.name}',
-            name: pod.name,
-            version: pod.version,
-            ecosystem: 'cocoapods',
-            relationship: ComponentRelationship.transitive,
-            source: 'Podfile.lock',
-            downloadLocation:
-                'https://cocoapods.org/pods/${Uri.encodeComponent(pod.name)}',
-            licenseDeclared: nativeMappings.containsKey(pod.name)
-                ? pubComponents
-                    .singleWhere((p) => p.name == pod.name)
-                    .licenseDeclared
-                : 'NOASSERTION',
-            licenseEvidence: nativeMappings.containsKey(pod.name)
-                ? 'compliance/evidence/reconstruction-2026-10-09/native/packages/${pod.name}/LICENSE; exact Pub wrapper only, CocoaPods checksum/native SDK obligations unverified.'
-                : 'Podfile.lock spec checksum ${pod.specChecksum}; native licence text and exact-source mapping unresolved.',
-            distributed: true,
-            modified: false,
-            reviewStatus: nativeMappings.containsKey(pod.name) &&
-                    pubComponents
-                            .singleWhere((p) => p.name == pod.name)
-                            .licenseDeclared !=
-                        'NOASSERTION'
-                ? 'verified-with-conditions'
-                : 'review-required',
-            dependencies: const <String>[],
-          ))
-      .toList();
+  final podSources = loadCocoaPodsSourceEvidence(repositoryRoot, podEntries);
+  final podComponents = podEntries.map((pod) {
+    final native = podSources[pod.name];
+    final wrapper = nativeMappings.containsKey(pod.name)
+        ? pubComponents.singleWhere((p) => p.name == pod.name)
+        : null;
+    final declaration = native?['licenseDeclared'] as String? ??
+        wrapper?.licenseDeclared ??
+        'NOASSERTION';
+    return ComplianceComponent(
+      id: 'cocoapods:${pod.name}',
+      name: pod.name,
+      version: pod.version,
+      ecosystem: 'cocoapods',
+      relationship: ComponentRelationship.transitive,
+      source: 'Podfile.lock',
+      downloadLocation: native?['downloadLocation'] as String? ??
+          'https://cocoapods.org/pods/${Uri.encodeComponent(pod.name)}',
+      sourceRepository: native?['sourceRepository'] as String?,
+      licenseDeclared: declaration,
+      licenseEvidence: native != null
+          ? '$cocoaPodsEvidencePath/manifest.json#${pod.name}; locked spec checksum, source identity and retained licence evidence; no native release verification.'
+          : wrapper != null
+              ? 'compliance/evidence/reconstruction-2026-10-09/native/packages/${pod.name}/LICENSE; exact Pub wrapper only, CocoaPods checksum/native SDK obligations unverified.'
+              : 'Podfile.lock spec checksum ${pod.specChecksum}; native licence text and exact-source mapping unresolved.',
+      distributed: true,
+      modified: false,
+      reviewStatus: declaration == 'NOASSERTION'
+          ? 'review-required'
+          : 'verified-with-conditions',
+      notes: native == null ? null : (native['conditions'] as List).join(' '),
+      dependencies: const <String>[],
+    );
+  }).toList();
 
   final manualComponents = (manifest['components'] as List<dynamic>)
       .cast<Map<String, dynamic>>()

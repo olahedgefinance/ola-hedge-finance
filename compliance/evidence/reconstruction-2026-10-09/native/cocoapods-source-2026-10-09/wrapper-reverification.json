@@ -1,0 +1,875 @@
+{
+  "records": [
+    {
+      "package": "app_links",
+      "locked_pub_version": "6.1.4",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "e70ca16b4b0f88253b3b3660200d4a10b4ea9795",
+      "pod_lock_external_path": ".symlinks/plugins/app_links/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "ae5f9a1b7d40d26178f605414be81ed4260350b4fae8259fe5ca4f89fe70c4af",
+      "sourceUrl": "https://pub.dev/api/archives/app_links-6.1.4.tar.gz",
+      "archiveSha256": "ae5f9a1b7d40d26178f605414be81ed4260350b4fae8259fe5ca4f89fe70c4af",
+      "files": [
+        {
+          "path": "packages/app_links/pubspec.yaml",
+          "sha256": "64e3f0fa04fa8ef7907e6d8334f765673b99c827d19def9ad9098a4e2eb5394d"
+        },
+        {
+          "path": "packages/app_links/ios/app_links.podspec",
+          "sha256": "d8a020537ba51f592f535a033357e3cf01eb235590c279b89ad3695dda0c7e03"
+        },
+        {
+          "path": "packages/app_links/LICENSE",
+          "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+        },
+        {
+          "path": "packages/app_links/android/build.gradle",
+          "sha256": "4ec0f505ad83f1941d341589c8885b41a2bc616aa1e0aec3121b88f177c63caf"
+        },
+        {
+          "path": "packages/app_links/android/gradle.properties",
+          "sha256": "0727c8c8bab57af764b53726dc617b1e67d50b4679187fb2a2c1d30daf83325a"
+        }
+      ],
+      "podspecPath": "packages/app_links/ios/app_links.podspec",
+      "rawPodspecSha1": "83b0fe384baa8e76214c1c3bd68e62230792543f",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "app_settings",
+      "locked_pub_version": "5.1.1",
+      "locked_pod_version": "5.1.1",
+      "locked_spec_checksum": "017320c6a680cdc94c799949d95b84cb69389ebc",
+      "pod_lock_external_path": ".symlinks/plugins/app_settings/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "09bc7fe0313a507087bec1a3baf555f0576e816a760cbb31813a88890a09d9e5",
+      "sourceUrl": "https://pub.dev/api/archives/app_settings-5.1.1.tar.gz",
+      "archiveSha256": "09bc7fe0313a507087bec1a3baf555f0576e816a760cbb31813a88890a09d9e5",
+      "files": [
+        {
+          "path": "packages/app_settings/pubspec.yaml",
+          "sha256": "5413b8d29d3067e9e7931a8aaae21d796e508c78929b76d90a70c369877de51e"
+        },
+        {
+          "path": "packages/app_settings/ios/app_settings.podspec",
+          "sha256": "edc0d440927f0d8b55b3a079894dadaedc816884059f2caeb2c96abf46ec836f"
+        },
+        {
+          "path": "packages/app_settings/LICENSE",
+          "sha256": "18bd137285f49767ff0e0de0a08e3459feeb5644db65cfa8738430c02bfb719b"
+        },
+        {
+          "path": "packages/app_settings/android/build.gradle",
+          "sha256": "28eeaa0a2cebc8e1f2cc7d780b80b857bcbc0f3e2d4629435c03a0434e7676f6"
+        },
+        {
+          "path": "packages/app_settings/android/gradle.properties",
+          "sha256": "034fd3f15ac7a699cf7393150e318cd3e0afb51826b0decc69a548db53fa1116"
+        }
+      ],
+      "podspecPath": "packages/app_settings/ios/app_settings.podspec",
+      "rawPodspecSha1": "d3f7aa8be9d3541e1a66d67da294ce48611ede1d",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "cloud_firestore",
+      "locked_pub_version": "5.1.0",
+      "locked_pod_version": "5.1.0",
+      "locked_spec_checksum": "71f0ffec97ce23c51587ec906f4cc470c518bc70",
+      "pod_lock_external_path": ".symlinks/plugins/cloud_firestore/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "240c1c3598e62ad58ee665b6df9c65172d2fbe4742770c21ed060e013cb8e037",
+      "sourceUrl": "https://pub.dev/api/archives/cloud_firestore-5.1.0.tar.gz",
+      "archiveSha256": "240c1c3598e62ad58ee665b6df9c65172d2fbe4742770c21ed060e013cb8e037",
+      "files": [
+        {
+          "path": "packages/cloud_firestore/pubspec.yaml",
+          "sha256": "8f8d7e7ae16022965ac6cf2b35d92def10b779ca20e82b16ede67b6a2566f7ac"
+        },
+        {
+          "path": "packages/cloud_firestore/ios/cloud_firestore.podspec",
+          "sha256": "0f04cd602c42b2dccc5d4e0728d7eab24a5aaed977fcc1893ed93cd0172b304a"
+        },
+        {
+          "path": "packages/cloud_firestore/LICENSE",
+          "sha256": "762fc7b205198bc1cfee88bbe618e2c485ec6aff335f56df3da109e422e39014"
+        },
+        {
+          "path": "packages/cloud_firestore/android/build.gradle",
+          "sha256": "15a71b78e4a671944261fe74a994db7662fcdc8cec402d58acce7ad4f0475930"
+        }
+      ],
+      "podspecPath": "packages/cloud_firestore/ios/cloud_firestore.podspec",
+      "rawPodspecSha1": "bc5204ee9e24b623be4f5f5466597ade9f22cac4",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "device_info_plus",
+      "locked_pub_version": "10.1.0",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "97af1d7e84681a90d0693e63169a5d50e0839a0d",
+      "pod_lock_external_path": ".symlinks/plugins/device_info_plus/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "eead12d1a1ed83d8283ab4c2f3fca23ac4082f29f25f29dff0f758f57d06ec91",
+      "sourceUrl": "https://pub.dev/api/archives/device_info_plus-10.1.0.tar.gz",
+      "archiveSha256": "eead12d1a1ed83d8283ab4c2f3fca23ac4082f29f25f29dff0f758f57d06ec91",
+      "files": [
+        {
+          "path": "packages/device_info_plus/pubspec.yaml",
+          "sha256": "282d4246ef21a8fe6b20e9347aac194b8ff0f9b5070726c8f96f9d8fc5d8ffe0"
+        },
+        {
+          "path": "packages/device_info_plus/ios/device_info_plus.podspec",
+          "sha256": "4adff274a2e70057114f923f65cabee81081eb2306e5e1c48c83d7fc9710c0a4"
+        },
+        {
+          "path": "packages/device_info_plus/LICENSE",
+          "sha256": "3b38d48befd0af70b892e13d10c9e34679416c24a9277f962629951c64d71f4c"
+        },
+        {
+          "path": "packages/device_info_plus/android/build.gradle",
+          "sha256": "88dd350f890247830533dcab2b0a0738d4926ab6e0ae1bf28a981bbd5e6dbeb6"
+        },
+        {
+          "path": "packages/device_info_plus/android/gradle.properties",
+          "sha256": "034fd3f15ac7a699cf7393150e318cd3e0afb51826b0decc69a548db53fa1116"
+        }
+      ],
+      "podspecPath": "packages/device_info_plus/ios/device_info_plus.podspec",
+      "rawPodspecSha1": "4ba685c79a239949d7ebc522a9ea754128f58900",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "file_picker",
+      "locked_pub_version": "6.0.1",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "15fd9539e4eb735dc54bae8c0534a7a9511a03de",
+      "pod_lock_external_path": ".symlinks/plugins/file_picker/ios",
+      "locked_git_revision": "ccbb9a384491cc0759f94618bb3859411e228091",
+      "locked_archive_sha256": "",
+      "sourceUrl": "https://github.com/melWiss/flutter_file_picker.git",
+      "files": [
+        {
+          "path": "packages/file_picker/pubspec.yaml",
+          "sha256": "baf9c672da06de82a10a7275c502fd23119f12ce449ecd9de3b576e51827f508",
+          "upstreamRawSha256": "6f259cd1b017b702663ab45f91695e363701b1f92bfbb8e42595fc637141c9e2",
+          "comparison": "CRLF checkout versus LF Git blob only",
+          "url": "https://raw.githubusercontent.com/melWiss/flutter_file_picker/ccbb9a384491cc0759f94618bb3859411e228091/pubspec.yaml"
+        },
+        {
+          "path": "packages/file_picker/LICENSE",
+          "sha256": "defd0d29457e5faae11c7727e609ebab1d04707d39860cbf37a9187a20b2e80a",
+          "upstreamRawSha256": "6278994817bd65fa32404e53c3a62a09d824d3f9a71f7fadcaca3e4f02641d66",
+          "comparison": "CRLF checkout versus LF Git blob only",
+          "url": "https://raw.githubusercontent.com/melWiss/flutter_file_picker/ccbb9a384491cc0759f94618bb3859411e228091/LICENSE"
+        },
+        {
+          "path": "packages/file_picker/ios/file_picker.podspec",
+          "sha256": "26d23cb131592ffba23091cf6e75cd3e582d2e897b623ad14bc78b1f896f7da6",
+          "upstreamRawSha256": "9d974f1304d94a5aa5e9fbb3cad1ef83209b32b2727f110f81225a4b75a323a5",
+          "comparison": "CRLF checkout versus LF Git blob only",
+          "url": "https://raw.githubusercontent.com/melWiss/flutter_file_picker/ccbb9a384491cc0759f94618bb3859411e228091/ios/file_picker.podspec"
+        }
+      ],
+      "podspecPath": "packages/file_picker/ios/file_picker.podspec",
+      "rawPodspecSha1": "e6fac7198f76191cd7bdbe01ca40e0b209cf0970",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "firebase_auth",
+      "locked_pub_version": "5.1.2",
+      "locked_pod_version": "5.1.2",
+      "locked_spec_checksum": "e778ee89483b86fe4200d1f8e9a1c52aa5fb64a8",
+      "pod_lock_external_path": ".symlinks/plugins/firebase_auth/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "a41b56878fa6aef3ea52962329b47eee333672d4b0ecc406e071b9fc729f242c",
+      "sourceUrl": "https://pub.dev/api/archives/firebase_auth-5.1.2.tar.gz",
+      "archiveSha256": "a41b56878fa6aef3ea52962329b47eee333672d4b0ecc406e071b9fc729f242c",
+      "files": [
+        {
+          "path": "packages/firebase_auth/pubspec.yaml",
+          "sha256": "b0bd001d3ad06224075ce1fb2b0ded006cf2579dfebbb170a0d655c6abf26a07"
+        },
+        {
+          "path": "packages/firebase_auth/ios/firebase_auth.podspec",
+          "sha256": "695aadc2e00c4d753c9264ad4651203f56422bfbd3df6be8b8dc7e1093fd2033"
+        },
+        {
+          "path": "packages/firebase_auth/LICENSE",
+          "sha256": "9f23ad2aa0fe3e877397294b6846868c2a7458fe394fbcd5b90ca4505a6b6ab8"
+        },
+        {
+          "path": "packages/firebase_auth/android/build.gradle",
+          "sha256": "469395d4258220b17cb5401d83f004e821b08588ca4a85ccba41748068c983d9"
+        },
+        {
+          "path": "packages/firebase_auth/android/gradle.properties",
+          "sha256": "034fd3f15ac7a699cf7393150e318cd3e0afb51826b0decc69a548db53fa1116"
+        }
+      ],
+      "podspecPath": "packages/firebase_auth/ios/firebase_auth.podspec",
+      "rawPodspecSha1": "5614e74e36791cf0297b767c54beefa75ae3d8b0",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "firebase_core",
+      "locked_pub_version": "3.2.0",
+      "locked_pod_version": "3.2.0",
+      "locked_spec_checksum": "a9d0180d5285527884d07a41eb4a9ec9ed12cdb6",
+      "pod_lock_external_path": ".symlinks/plugins/firebase_core/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "5159984ce9b70727473eb388394650677c02c925aaa6c9439905e1f30966a4d5",
+      "sourceUrl": "https://pub.dev/api/archives/firebase_core-3.2.0.tar.gz",
+      "archiveSha256": "5159984ce9b70727473eb388394650677c02c925aaa6c9439905e1f30966a4d5",
+      "files": [
+        {
+          "path": "packages/firebase_core/pubspec.yaml",
+          "sha256": "5b92f9aa5506eb606e8438eaebb86b100aa7b0519b6fddd073b806df9cca1ffe"
+        },
+        {
+          "path": "packages/firebase_core/ios/firebase_core.podspec",
+          "sha256": "a2f3bf9f64cf8969698f233b26ae185f6e463f488b2843afa1e6498c060e79ec"
+        },
+        {
+          "path": "packages/firebase_core/LICENSE",
+          "sha256": "9f23ad2aa0fe3e877397294b6846868c2a7458fe394fbcd5b90ca4505a6b6ab8"
+        },
+        {
+          "path": "packages/firebase_core/ios/firebase_sdk_version.rb",
+          "sha256": "e61321fa76ef4a43e2019bf3949a918d48cb31b6e09a406430d360b7846ef7c2"
+        },
+        {
+          "path": "packages/firebase_core/android/build.gradle",
+          "sha256": "7340c8394042907e43db38375accd24fc5a3a9b9f621956678ee6e3e8d06d606"
+        },
+        {
+          "path": "packages/firebase_core/android/gradle.properties",
+          "sha256": "4804abaf611b0dcd36205a8aedbf2cb2a807da639c253441f4da776d2b4793dc"
+        }
+      ],
+      "podspecPath": "packages/firebase_core/ios/firebase_core.podspec",
+      "rawPodspecSha1": "17d53d0107404b62a63f0ffd5072d5b06c379629",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "flutter_charset_detector_ios",
+      "locked_pub_version": "1.0.2",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "5157d0104855b9deb78e1395515a287197bc2d55",
+      "pod_lock_external_path": ".symlinks/plugins/flutter_charset_detector_ios/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "e0e2c7b819cd1f7c9a50da94bf7f0e6d7a095eb64e81196ec758e77793903d43",
+      "sourceUrl": "https://pub.dev/api/archives/flutter_charset_detector_ios-1.0.2.tar.gz",
+      "archiveSha256": "e0e2c7b819cd1f7c9a50da94bf7f0e6d7a095eb64e81196ec758e77793903d43",
+      "files": [
+        {
+          "path": "packages/flutter_charset_detector_ios/pubspec.yaml",
+          "sha256": "c4cbb3fea6193afa1ff2e1849154d8c77da0f89dd3d5f7e45fdbf1e9e02db74f"
+        },
+        {
+          "path": "packages/flutter_charset_detector_ios/ios/flutter_charset_detector_ios.podspec",
+          "sha256": "c3ce637be0a1c9b075fff9ec13f2971deae6696a67fdb2ea68aa808283e7a7c4"
+        },
+        {
+          "path": "packages/flutter_charset_detector_ios/LICENSE",
+          "sha256": "47aa01302693c2ab65f56c90c500f43d5fb4ddda5a4ced1cd102254df3865eb3"
+        }
+      ],
+      "podspecPath": "packages/flutter_charset_detector_ios/ios/flutter_charset_detector_ios.podspec",
+      "rawPodspecSha1": "e653c0a75017a969e2627887e1a8c2e09ede837d",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "flutter_local_notifications",
+      "locked_pub_version": "17.2.1+2",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "4cde75091f6327eb8517fa068a0a5950212d2086",
+      "pod_lock_external_path": ".symlinks/plugins/flutter_local_notifications/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "dd6676d8c2926537eccdf9f72128bbb2a9d0814689527b17f92c248ff192eaf3",
+      "sourceUrl": "https://pub.dev/api/archives/flutter_local_notifications-17.2.1+2.tar.gz",
+      "archiveSha256": "dd6676d8c2926537eccdf9f72128bbb2a9d0814689527b17f92c248ff192eaf3",
+      "files": [
+        {
+          "path": "packages/flutter_local_notifications/pubspec.yaml",
+          "sha256": "9de7f8da423a35c711bcd85a02000bf2f7406f58bbd2541e7147145650974b3f"
+        },
+        {
+          "path": "packages/flutter_local_notifications/ios/flutter_local_notifications.podspec",
+          "sha256": "3ea2375f17d5e323e025db09703fd297c2fe7e2c2075b8313a0780ed8696f2c8"
+        },
+        {
+          "path": "packages/flutter_local_notifications/LICENSE",
+          "sha256": "d6885e4633e08ec3a52cd90299b97831444d487f16721e5d092289bcfedfc511"
+        },
+        {
+          "path": "packages/flutter_local_notifications/android/build.gradle",
+          "sha256": "4b833b8f2e89288b5be6a93d251fb5da82e5152da48abf8ee68ec47ebd9f426a"
+        },
+        {
+          "path": "packages/flutter_local_notifications/android/gradle.properties",
+          "sha256": "be1dbf7a83b6fc197a94dcefb225f2286d240a6cf7d3fe987f057213a75ef6be"
+        }
+      ],
+      "podspecPath": "packages/flutter_local_notifications/ios/flutter_local_notifications.podspec",
+      "rawPodspecSha1": "68bb1309de228b24e5f3fb8d043fe7a0309d14da",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "flutter_timezone",
+      "locked_pub_version": "1.0.8",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "ffb07bdad3c6276af8dada0f11978d8a1f8a20bb",
+      "pod_lock_external_path": ".symlinks/plugins/flutter_timezone/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "06b35132c98fa188db3c4b654b7e1af7ccd01dfe12a004d58be423357605fb24",
+      "sourceUrl": "https://pub.dev/api/archives/flutter_timezone-1.0.8.tar.gz",
+      "archiveSha256": "06b35132c98fa188db3c4b654b7e1af7ccd01dfe12a004d58be423357605fb24",
+      "files": [
+        {
+          "path": "packages/flutter_timezone/pubspec.yaml",
+          "sha256": "817e56ab8ea2ac6292fc4c96088448184152af925b66b0072dce6f817aff26ed"
+        },
+        {
+          "path": "packages/flutter_timezone/ios/flutter_timezone.podspec",
+          "sha256": "350ef6f99c873fc321981315ab4f492a83efe953dc7ae8334a64e3981f145f62"
+        },
+        {
+          "path": "packages/flutter_timezone/LICENSE",
+          "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+        },
+        {
+          "path": "packages/flutter_timezone/android/build.gradle",
+          "sha256": "b9f95958d2955413f840808b3158fe5f323e41e0c0b116562580e28580c1be16"
+        },
+        {
+          "path": "packages/flutter_timezone/android/gradle.properties",
+          "sha256": "ff4b32b64cb9049979c4d59637c226eb5675a75e9543406b57c2de988a204adb"
+        }
+      ],
+      "podspecPath": "packages/flutter_timezone/ios/flutter_timezone.podspec",
+      "rawPodspecSha1": "6bd1d2da6420edba66f3ac043fb519f232094032",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "google_sign_in_ios",
+      "locked_pub_version": "5.7.6",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "07375bfbf2620bc93a602c0e27160d6afc6ead38",
+      "pod_lock_external_path": ".symlinks/plugins/google_sign_in_ios/darwin",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "a058c9880be456f21e2e8571c1126eaacd570bdc5b6c6d9d15aea4bdf22ca9fe",
+      "sourceUrl": "https://pub.dev/api/archives/google_sign_in_ios-5.7.6.tar.gz",
+      "archiveSha256": "a058c9880be456f21e2e8571c1126eaacd570bdc5b6c6d9d15aea4bdf22ca9fe",
+      "files": [
+        {
+          "path": "packages/google_sign_in_ios/pubspec.yaml",
+          "sha256": "2ededd7a13b368c08e54e50188b1d9810556ffdb94594a23d47965d8d7f9a794"
+        },
+        {
+          "path": "packages/google_sign_in_ios/darwin/google_sign_in_ios.podspec",
+          "sha256": "dfb54ca49db2535d1e5601e508e6844ed1b5fb329fa607d1bbce8492ba534dd3"
+        },
+        {
+          "path": "packages/google_sign_in_ios/LICENSE",
+          "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9"
+        }
+      ],
+      "podspecPath": "packages/google_sign_in_ios/darwin/google_sign_in_ios.podspec",
+      "rawPodspecSha1": "e754e24390c6041fc05259f6a753d305b7d662f6",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "home_widget",
+      "locked_pub_version": "0.5.0",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "0434835a4c9a75704264feff6be17ea40e0f0d57",
+      "pod_lock_external_path": ".symlinks/plugins/home_widget/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "29565bfee4b32eaf9e7e8b998d504618b779a74b2b1ac62dd4dac7468e66f1a3",
+      "sourceUrl": "https://pub.dev/api/archives/home_widget-0.5.0.tar.gz",
+      "archiveSha256": "29565bfee4b32eaf9e7e8b998d504618b779a74b2b1ac62dd4dac7468e66f1a3",
+      "files": [
+        {
+          "path": "packages/home_widget/pubspec.yaml",
+          "sha256": "3f785302efa113da2b120e61f5da6b9b3d49330a30ec714e62448673011c9585"
+        },
+        {
+          "path": "packages/home_widget/ios/home_widget.podspec",
+          "sha256": "21277a4c7a04b8187aa3ad866a2ee2bdbb5cb80d2c11dcc82467914d3ff5edb5"
+        },
+        {
+          "path": "packages/home_widget/LICENSE",
+          "sha256": "8d6b4ec8cc00da3eceef4c23f2ef0f2dd1908763827e0ff0f8e92d917d32788d"
+        },
+        {
+          "path": "packages/home_widget/android/build.gradle",
+          "sha256": "e1d938fcf429fd0ac49a45361be1b12025d8a4dc4cbfdd24c455f9df431e5e75"
+        },
+        {
+          "path": "packages/home_widget/android/gradle.properties",
+          "sha256": "3c1fc1d9cad8765e2b44821c4774644b590bb58ecab6beb4bae2470ece0175be"
+        }
+      ],
+      "podspecPath": "packages/home_widget/ios/home_widget.podspec",
+      "rawPodspecSha1": "0d41cea5d64e0fc4f269408c8374e3e8f1f41338",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "image_picker_ios",
+      "locked_pub_version": "0.8.8+4",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "4a8aadfbb6dc30ad5141a2ce3832af9214a705b5",
+      "pod_lock_external_path": ".symlinks/plugins/image_picker_ios/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "76ec722aeea419d03aa915c2c96bf5b47214b053899088c9abb4086ceecf97a7",
+      "sourceUrl": "https://pub.dev/api/archives/image_picker_ios-0.8.8+4.tar.gz",
+      "archiveSha256": "76ec722aeea419d03aa915c2c96bf5b47214b053899088c9abb4086ceecf97a7",
+      "files": [
+        {
+          "path": "packages/image_picker_ios/pubspec.yaml",
+          "sha256": "dcf4e81bf3ba23edbebab01b9a74a0f5f14f305e77003c1a66a86365647df1d8"
+        },
+        {
+          "path": "packages/image_picker_ios/ios/image_picker_ios.podspec",
+          "sha256": "b49a310a6e36d573e11264c870bdb03dda34f18c9396e9a43de248e947c571f9"
+        },
+        {
+          "path": "packages/image_picker_ios/LICENSE",
+          "sha256": "5be052679cb82ade21607d199dad720f03f00b8c4fb1e91629273f89fbe0fd60"
+        }
+      ],
+      "podspecPath": "packages/image_picker_ios/ios/image_picker_ios.podspec",
+      "rawPodspecSha1": "c213050752a0471951c82192523be37cdde7354b",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "in_app_purchase_storekit",
+      "locked_pub_version": "0.3.17",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "8c3b0b3eb1b0f04efbff401c3de6266d4258d433",
+      "pod_lock_external_path": ".symlinks/plugins/in_app_purchase_storekit/darwin",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "9a087c3c051266642468f031737c5a09f6fd90ff2b21d953e130563f3fd4cb34",
+      "sourceUrl": "https://pub.dev/api/archives/in_app_purchase_storekit-0.3.17.tar.gz",
+      "archiveSha256": "9a087c3c051266642468f031737c5a09f6fd90ff2b21d953e130563f3fd4cb34",
+      "files": [
+        {
+          "path": "packages/in_app_purchase_storekit/pubspec.yaml",
+          "sha256": "d005438e2f27eaa8d52fcc95e714867a5d8e08329f918406b752525a09af47a1"
+        },
+        {
+          "path": "packages/in_app_purchase_storekit/darwin/in_app_purchase_storekit.podspec",
+          "sha256": "8fcbaad7f6bf5588d0b30f218e574bf7276c8807a760cfd0528db04795f836fd"
+        },
+        {
+          "path": "packages/in_app_purchase_storekit/LICENSE",
+          "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9"
+        }
+      ],
+      "podspecPath": "packages/in_app_purchase_storekit/darwin/in_app_purchase_storekit.podspec",
+      "rawPodspecSha1": "966c817315ea2525a9a689e9f68483df51598820",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "in_app_review",
+      "locked_pub_version": "2.0.9",
+      "locked_pod_version": "0.2.0",
+      "locked_spec_checksum": "318597b3a06c22bb46dc454d56828c85f444f99d",
+      "pod_lock_external_path": ".symlinks/plugins/in_app_review/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "99869244d09adc76af16bf8fd731dd13cef58ecafd5917847589c49f378cbb30",
+      "sourceUrl": "https://pub.dev/api/archives/in_app_review-2.0.9.tar.gz",
+      "archiveSha256": "99869244d09adc76af16bf8fd731dd13cef58ecafd5917847589c49f378cbb30",
+      "files": [
+        {
+          "path": "packages/in_app_review/pubspec.yaml",
+          "sha256": "d3718276ee8a01d330308f0637ca3a6ea69a6576a52ce533c5c4120e1e5ea73e"
+        },
+        {
+          "path": "packages/in_app_review/ios/in_app_review.podspec",
+          "sha256": "37140a60fa8eeda887edc11558247e56534e3bc5f45e2de82459fa06f3f0ab6b"
+        },
+        {
+          "path": "packages/in_app_review/LICENSE",
+          "sha256": "06e7aabeead7e90a2b4eac0bf918e4820f946b6dda375c2291f66dd122872823"
+        },
+        {
+          "path": "packages/in_app_review/android/build.gradle",
+          "sha256": "353eef5fd6aa10503502e72a69007c1bfd198befecf794ddfdb5f954de68a211"
+        }
+      ],
+      "podspecPath": "packages/in_app_review/ios/in_app_review.podspec",
+      "rawPodspecSha1": "e5ca62f1e8cca89f0ee2f9f8b376c36272006098",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "local_auth_darwin",
+      "locked_pub_version": "1.3.1",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "4d56c90c2683319835a61274b57620df9c4520ab",
+      "pod_lock_external_path": ".symlinks/plugins/local_auth_darwin/darwin",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "e424ebf90d5233452be146d4a7da4bcd7a70278b67791592f3fde1bda8eef9e2",
+      "sourceUrl": "https://pub.dev/api/archives/local_auth_darwin-1.3.1.tar.gz",
+      "archiveSha256": "e424ebf90d5233452be146d4a7da4bcd7a70278b67791592f3fde1bda8eef9e2",
+      "files": [
+        {
+          "path": "packages/local_auth_darwin/pubspec.yaml",
+          "sha256": "4cb79a7a551b7e1af3a86fa7038894c01eace993e029bb6dbe7a7f135af2011c"
+        },
+        {
+          "path": "packages/local_auth_darwin/darwin/local_auth_darwin.podspec",
+          "sha256": "a7e65becbb7396204a0396a5efa6fe40ba5287cf0947292f0b5387933e26dc2e"
+        },
+        {
+          "path": "packages/local_auth_darwin/LICENSE",
+          "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9"
+        }
+      ],
+      "podspecPath": "packages/local_auth_darwin/darwin/local_auth_darwin.podspec",
+      "rawPodspecSha1": "3fa85d34a4bd703b3db8c8048a53df73d8146d5a",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "package_info_plus",
+      "locked_pub_version": "8.0.0",
+      "locked_pod_version": "0.4.5",
+      "locked_spec_checksum": "58f0028419748fad15bf008b270aaa8e54380b1c",
+      "pod_lock_external_path": ".symlinks/plugins/package_info_plus/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "b93d8b4d624b4ea19b0a5a208b2d6eff06004bc3ce74c06040b120eeadd00ce0",
+      "sourceUrl": "https://pub.dev/api/archives/package_info_plus-8.0.0.tar.gz",
+      "archiveSha256": "b93d8b4d624b4ea19b0a5a208b2d6eff06004bc3ce74c06040b120eeadd00ce0",
+      "files": [
+        {
+          "path": "packages/package_info_plus/pubspec.yaml",
+          "sha256": "04547b01e9fdc5d1605c011adec1113aff294696fc61579c95fa1c187b9b8d2f"
+        },
+        {
+          "path": "packages/package_info_plus/ios/package_info_plus.podspec",
+          "sha256": "4a7f9832740457bcbf4634f0e980fdd061bafbd1fb089a5961507278b52b0a04"
+        },
+        {
+          "path": "packages/package_info_plus/LICENSE",
+          "sha256": "3b38d48befd0af70b892e13d10c9e34679416c24a9277f962629951c64d71f4c"
+        },
+        {
+          "path": "packages/package_info_plus/android/build.gradle",
+          "sha256": "10beba354a1777db5e436060e98fa1b7732f41eae1a436cad7c1faae5115b482"
+        },
+        {
+          "path": "packages/package_info_plus/android/gradle.properties",
+          "sha256": "034fd3f15ac7a699cf7393150e318cd3e0afb51826b0decc69a548db53fa1116"
+        }
+      ],
+      "podspecPath": "packages/package_info_plus/ios/package_info_plus.podspec",
+      "rawPodspecSha1": "635ccf3ab07d1f46101935a8358dc821adbabfdf",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "path_provider_foundation",
+      "locked_pub_version": "2.4.0",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "2b6b4c569c0fb62ec74538f866245ac84301af46",
+      "pod_lock_external_path": ".symlinks/plugins/path_provider_foundation/darwin",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "f234384a3fdd67f989b4d54a5d73ca2a6c422fa55ae694381ae0f4375cd1ea16",
+      "sourceUrl": "https://pub.dev/api/archives/path_provider_foundation-2.4.0.tar.gz",
+      "archiveSha256": "f234384a3fdd67f989b4d54a5d73ca2a6c422fa55ae694381ae0f4375cd1ea16",
+      "files": [
+        {
+          "path": "packages/path_provider_foundation/pubspec.yaml",
+          "sha256": "9a3a1ac5247a4314906194b23a5ed98819dd02c177bbb97a940b968f2064d139"
+        },
+        {
+          "path": "packages/path_provider_foundation/darwin/path_provider_foundation.podspec",
+          "sha256": "9c4ae7a41578bb9839837be50e889761d442e8669b8204e986d75d6afafd0a93"
+        },
+        {
+          "path": "packages/path_provider_foundation/LICENSE",
+          "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9"
+        }
+      ],
+      "podspecPath": "packages/path_provider_foundation/darwin/path_provider_foundation.podspec",
+      "rawPodspecSha1": "45fa348ef345eb6551f3886ba81409dc3df4fdea",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "quick_actions_ios",
+      "locked_pub_version": "1.0.6",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "9e80dcfadfbc5d47d9cf8f47bcf428b11cf383d4",
+      "pod_lock_external_path": ".symlinks/plugins/quick_actions_ios/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "9ed8b003a65034de9f36a7f593026bf114c8796a38011b23240f8bf7e4668e2b",
+      "sourceUrl": "https://pub.dev/api/archives/quick_actions_ios-1.0.6.tar.gz",
+      "archiveSha256": "9ed8b003a65034de9f36a7f593026bf114c8796a38011b23240f8bf7e4668e2b",
+      "files": [
+        {
+          "path": "packages/quick_actions_ios/pubspec.yaml",
+          "sha256": "d2897174386102aeb0e9f93e4caf6162cf9231d87d940b1fb06f12db556bc978"
+        },
+        {
+          "path": "packages/quick_actions_ios/ios/quick_actions_ios.podspec",
+          "sha256": "61b85ee85f3b3dd9aac4849128c13fe31e60a1e63ee8270de7b3b71405000414"
+        },
+        {
+          "path": "packages/quick_actions_ios/LICENSE",
+          "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9"
+        }
+      ],
+      "podspecPath": "packages/quick_actions_ios/ios/quick_actions_ios.podspec",
+      "rawPodspecSha1": "7d0a324720aea92c5fed6246ba8bd75f13f05629",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "recaptcha_enterprise_flutter",
+      "locked_pub_version": "18.5.1",
+      "locked_pod_version": "18.5.1",
+      "locked_spec_checksum": "aa09df679d78b7fd88d339290394de5533601432",
+      "pod_lock_external_path": ".symlinks/plugins/recaptcha_enterprise_flutter/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "2b53a990c686272f4e6d6f614ce7b6d5d4ccd6468ae7300d3b6e0af940852b2e",
+      "sourceUrl": "https://pub.dev/api/archives/recaptcha_enterprise_flutter-18.5.1.tar.gz",
+      "archiveSha256": "2b53a990c686272f4e6d6f614ce7b6d5d4ccd6468ae7300d3b6e0af940852b2e",
+      "files": [
+        {
+          "path": "packages/recaptcha_enterprise_flutter/pubspec.yaml",
+          "sha256": "46b3d60e5fb0ab1b54c86ee2fda1b7838fa6b4309c97abe584059562a27b34ac"
+        },
+        {
+          "path": "packages/recaptcha_enterprise_flutter/ios/recaptcha_enterprise_flutter.podspec",
+          "sha256": "aab6309a2d1c3203ffb7256c2f9aad74ac79e3b584811d5215e89613eb0521f0"
+        },
+        {
+          "path": "packages/recaptcha_enterprise_flutter/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "packages/recaptcha_enterprise_flutter/android/build.gradle",
+          "sha256": "c43b367b6682997c36f9cbd4e30676a66a4deddb035beae34980814bf6574a17"
+        }
+      ],
+      "podspecPath": "packages/recaptcha_enterprise_flutter/ios/recaptcha_enterprise_flutter.podspec",
+      "rawPodspecSha1": "571a3d3db6c447ebbaea011a84f01a72779c42ab",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "share_plus",
+      "locked_pub_version": "10.0.0",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "8875f4f2500512ea181eef553c3e27dba5135aad",
+      "pod_lock_external_path": ".symlinks/plugins/share_plus/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "59dfd53f497340a0c3a81909b220cfdb9b8973a91055c4e5ab9b9b9ad7c513c0",
+      "sourceUrl": "https://pub.dev/api/archives/share_plus-10.0.0.tar.gz",
+      "archiveSha256": "59dfd53f497340a0c3a81909b220cfdb9b8973a91055c4e5ab9b9b9ad7c513c0",
+      "files": [
+        {
+          "path": "packages/share_plus/pubspec.yaml",
+          "sha256": "6accf5a340e2e207649ba30877f03281a3ce8a66880c5636e4e4db6ce9287b34"
+        },
+        {
+          "path": "packages/share_plus/ios/share_plus.podspec",
+          "sha256": "34b6bec0a12757c98330d49621f3eed9de48284d4e0833672e7ee6faad46997c"
+        },
+        {
+          "path": "packages/share_plus/LICENSE",
+          "sha256": "eb9741a672906ebd01fd9b3bef38f6c82eff250e91149cf404539ee7981079fd"
+        },
+        {
+          "path": "packages/share_plus/android/build.gradle",
+          "sha256": "8e6f794a66ba08b3f5fb62fed9dfe49f31bc7bae2f91c54f2887b64d309cf003"
+        },
+        {
+          "path": "packages/share_plus/android/gradle.properties",
+          "sha256": "034fd3f15ac7a699cf7393150e318cd3e0afb51826b0decc69a548db53fa1116"
+        }
+      ],
+      "podspecPath": "packages/share_plus/ios/share_plus.podspec",
+      "rawPodspecSha1": "2fe4b0798f47006bdfe5361c38ec0fbcdd70dbfd",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "shared_preferences_foundation",
+      "locked_pub_version": "2.4.0",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "fcdcbc04712aee1108ac7fda236f363274528f78",
+      "pod_lock_external_path": ".symlinks/plugins/shared_preferences_foundation/darwin",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "0a8a893bf4fd1152f93fec03a415d11c27c74454d96e2318a7ac38dd18683ab7",
+      "sourceUrl": "https://pub.dev/api/archives/shared_preferences_foundation-2.4.0.tar.gz",
+      "archiveSha256": "0a8a893bf4fd1152f93fec03a415d11c27c74454d96e2318a7ac38dd18683ab7",
+      "files": [
+        {
+          "path": "packages/shared_preferences_foundation/pubspec.yaml",
+          "sha256": "3b3d810342589fbfe4a459f8bffda70cf7b388aa11ee0a966d416a50204bd292"
+        },
+        {
+          "path": "packages/shared_preferences_foundation/darwin/shared_preferences_foundation.podspec",
+          "sha256": "616b9a5692e857a88bb347541889996345518b5339dfd1979691877709608ddb"
+        },
+        {
+          "path": "packages/shared_preferences_foundation/LICENSE",
+          "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9"
+        }
+      ],
+      "podspecPath": "packages/shared_preferences_foundation/darwin/shared_preferences_foundation.podspec",
+      "rawPodspecSha1": "34522d30a74666834c141a4eca1179a2f9176955",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "sqlite3_flutter_libs",
+      "locked_pub_version": "0.5.15",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "04ba0d14a04335a2fbf9a331e8664f401fbccdd5",
+      "pod_lock_external_path": ".symlinks/plugins/sqlite3_flutter_libs/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "1e20a88d5c7ae8400e009f38ddbe8b001800a6dffa37832481a86a219bc904c7",
+      "sourceUrl": "https://pub.dev/api/archives/sqlite3_flutter_libs-0.5.15.tar.gz",
+      "archiveSha256": "1e20a88d5c7ae8400e009f38ddbe8b001800a6dffa37832481a86a219bc904c7",
+      "files": [
+        {
+          "path": "packages/sqlite3_flutter_libs/pubspec.yaml",
+          "sha256": "c6cb1da63e9d26c096a651ca1ee18d0901399e253820dd4b063f05ff555e2c84"
+        },
+        {
+          "path": "packages/sqlite3_flutter_libs/ios/sqlite3_flutter_libs.podspec",
+          "sha256": "cf57fc17a561cf8b5f116afe2caebf3f4d5b69c8ffa60ab3b662adde9838e12b"
+        },
+        {
+          "path": "packages/sqlite3_flutter_libs/LICENSE",
+          "sha256": "67e5d73a3a0c6e41f33d688a672b1161bf7f16e04da9ae48a7a14f1ba7436a4d"
+        },
+        {
+          "path": "packages/sqlite3_flutter_libs/android/build.gradle",
+          "sha256": "3ec31e1d83bc00df9e730c9d122bc63e5701f6f70bfa34069e4e55f7d0b80d09"
+        },
+        {
+          "path": "packages/sqlite3_flutter_libs/android/gradle.properties",
+          "sha256": "b1e114bf6dc9c036895d0909014ffc9f6e8fe30cce98c109786f49bb3d29bcf4"
+        }
+      ],
+      "podspecPath": "packages/sqlite3_flutter_libs/ios/sqlite3_flutter_libs.podspec",
+      "rawPodspecSha1": "3961f7b7c54a0cecb41af82fd88df80b323028d1",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "system_theme",
+      "locked_pub_version": "3.0.0",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "bfc1b0913d08f38d8c6bbe94b202a58df599d9f7",
+      "pod_lock_external_path": ".symlinks/plugins/system_theme/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "a32db6caa3a5129d02c03443121662959fba7ec1a8b01c78ee9a42718fbb3ef6",
+      "sourceUrl": "https://pub.dev/api/archives/system_theme-3.0.0.tar.gz",
+      "archiveSha256": "a32db6caa3a5129d02c03443121662959fba7ec1a8b01c78ee9a42718fbb3ef6",
+      "files": [
+        {
+          "path": "packages/system_theme/pubspec.yaml",
+          "sha256": "b8d3458e0b932358bd2e8b4d2061fb89ea22ef407d93f4ad1c543ad15e477ca8"
+        },
+        {
+          "path": "packages/system_theme/ios/system_theme.podspec",
+          "sha256": "5155d910e1c728a62ef7b8aee28131a0a336199543d4624a7d62f304d2985111"
+        },
+        {
+          "path": "packages/system_theme/LICENSE",
+          "sha256": "7ea2c8d2893b918b19280aeccc807ab44eb9657e7f609ee8a5bb5df735fd9950"
+        },
+        {
+          "path": "packages/system_theme/android/build.gradle",
+          "sha256": "11c7b4fdbfb58e2eabf9980a01c416c12bc331a3297af3d2e0e26b776a7d4250"
+        },
+        {
+          "path": "packages/system_theme/android/gradle.properties",
+          "sha256": "0727c8c8bab57af764b53726dc617b1e67d50b4679187fb2a2c1d30daf83325a"
+        }
+      ],
+      "podspecPath": "packages/system_theme/ios/system_theme.podspec",
+      "rawPodspecSha1": "3dab1fb464b2e7e5e7fbc50f70f81a567d6546db",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    },
+    {
+      "package": "url_launcher_ios",
+      "locked_pub_version": "6.3.1",
+      "locked_pod_version": "0.0.1",
+      "locked_spec_checksum": "5334b05cef931de560670eeae103fd3e431ac3fe",
+      "pod_lock_external_path": ".symlinks/plugins/url_launcher_ios/ios",
+      "locked_git_revision": "",
+      "locked_archive_sha256": "e43b677296fadce447e987a2f519dcf5f6d1e527dc35d01ffab4fff5b8a7063e",
+      "sourceUrl": "https://pub.dev/api/archives/url_launcher_ios-6.3.1.tar.gz",
+      "archiveSha256": "e43b677296fadce447e987a2f519dcf5f6d1e527dc35d01ffab4fff5b8a7063e",
+      "files": [
+        {
+          "path": "packages/url_launcher_ios/pubspec.yaml",
+          "sha256": "db6ed79ac4f92d853a501a3b9c56f332a7bb09c73cafc3c99d7164e1a7bf4bb3"
+        },
+        {
+          "path": "packages/url_launcher_ios/ios/url_launcher_ios.podspec",
+          "sha256": "8d4a30f68f57bff8331db9d0c295f4d49ab6e5ffa104e688434434ea466642d6"
+        },
+        {
+          "path": "packages/url_launcher_ios/LICENSE",
+          "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9"
+        }
+      ],
+      "podspecPath": "packages/url_launcher_ios/ios/url_launcher_ios.podspec",
+      "rawPodspecSha1": "45cad8272cec005a37804088307b0d2076618784",
+      "cocoapodsEvaluated": false,
+      "lockedChecksumMatchesRawRuby": false,
+      "status": "source-bytes-reverified; evaluated-local-podspec-checksum-unverified"
+    }
+  ],
+  "scope": "Fresh source-byte comparison only; local CocoaPods evaluated JSON and native integration NOT TESTED \u2014 MACOS/NATIVE ENVIRONMENT BLOCKER."
+}

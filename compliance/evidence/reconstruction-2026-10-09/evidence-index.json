@@ -1722,7 +1722,7 @@
     },
     {
       "path": "compliance/components/non_pub_components.json",
-      "sha256": "63a0bdfac29fcd4fe04eebacfef8175c5c495d6fb144250d8d401fb567952a6b"
+      "sha256": "327c89297b1ed6f033044df0422288996edd939ba5d4a2ce9cfe90981fcecb91"
     },
     {
       "path": "compliance/evidence/reconstruction-2026-10-09/application-identity/approved-identity-source.md",
@@ -1803,6 +1803,370 @@
     {
       "path": "compliance/evidence/reconstruction-2026-10-09/native/authenticate-hosted-archives.ps1",
       "sha256": "75ebcd9c611d68ed9ab88c1ccc36eaae3f8b6c8ade36ec9f84db01a585e6c6af"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/README.md",
+      "sha256": "914a0d05ae3e81ea4bc3ef9bcd077cc25ad82670c634ae9579eb688a547189b3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/manifest.json",
+      "sha256": "34e9e2fef79941999c69889a9e0df4a4d6a08dd5355c7484cf7831b74a4e7a8d"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/AppAuth/LICENSE.source",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/AppAuth/ls-remote.txt",
+      "sha256": "eb9e4ea52746cc7adf7a849c760ae5550278f59d2bb0f01e49f124ab6c5660f9"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/AppAuth/spec.json",
+      "sha256": "a05125635d88ac5e43fb4401a1c5da6dc4c66670fd1205c4af7cfc487522fa9d"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/BoringSSL-GRPC/LICENSE.source",
+      "sha256": "a78d37138db9a43843736b2973284b61af19cd5384cf3c752e922171b0d4fc56"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/BoringSSL-GRPC/spec.json",
+      "sha256": "0de850c59290dc5a56017276fc8f5d09c341b949fefc6c432ef18c1b3c4aea3e"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/DKImagePickerController/LICENSE.source",
+      "sha256": "5b2ac8951f9a39dacd520aefebd266ad1ced0066ac1d397ceaa0c45c4072a2fe"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/DKImagePickerController/ls-remote.txt",
+      "sha256": "1a1addd7dc06b80727a92beb5520448abebf60dd64743889abbe47380527fd83"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/DKImagePickerController/spec.json",
+      "sha256": "53f2247b18640c5b8fe659826a8cbe743f2bb23d75b959472a5c47ff9a2a6050"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/DKPhotoGallery/LICENSE.source",
+      "sha256": "5b2ac8951f9a39dacd520aefebd266ad1ced0066ac1d397ceaa0c45c4072a2fe"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/DKPhotoGallery/ls-remote.txt",
+      "sha256": "c50dba79c5cf3fa1346598afcb220c14ff3871e816c3591756928117abeb9af6"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/DKPhotoGallery/spec.json",
+      "sha256": "5423d18ab9457444a5ee013a787fc4749b0c06fa076b707315ca744db16e8728"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/Firebase/LICENSE.source",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/Firebase/ls-remote.txt",
+      "sha256": "0076afac41bf9ac3034f9bd95db6070a6749bf08562bf6936ba1d7427baa98f4"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/Firebase/spec.json",
+      "sha256": "b6a30f45aa80675aa016bdaa2ecf837037699ca286eb1f75e9ac055a3a501677"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseAppCheckInterop/LICENSE.source",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseAppCheckInterop/ls-remote.txt",
+      "sha256": "ca9330dec29881bc7c4a1bfa6c74e31b48f88f54c6f94a0f392bfa351581f27a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseAppCheckInterop/spec.json",
+      "sha256": "f38e876ad7a5414f0386c66a2e3e3793a59cdc51bb14a721f43edb9b59e88df3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseAuth/LICENSE.source",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseAuth/ls-remote.txt",
+      "sha256": "0076afac41bf9ac3034f9bd95db6070a6749bf08562bf6936ba1d7427baa98f4"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseAuth/spec.json",
+      "sha256": "39254c3396802f2db78ccaaa1d4263351e6910ab9766c9e43ffd2f1170659405"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseCore/LICENSE.source",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseCore/ls-remote.txt",
+      "sha256": "0076afac41bf9ac3034f9bd95db6070a6749bf08562bf6936ba1d7427baa98f4"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseCore/spec.json",
+      "sha256": "a72727588700d5978422fefe70bdaafe6960107c5bfd6d16ae482b11ee981ed3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseCoreExtension/LICENSE.source",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseCoreExtension/ls-remote.txt",
+      "sha256": "ca9330dec29881bc7c4a1bfa6c74e31b48f88f54c6f94a0f392bfa351581f27a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseCoreExtension/spec.json",
+      "sha256": "281e820c2835a31997f29071621ef6ba0c3adb64a0961781e2e2fb8917009b06"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseCoreInternal/LICENSE.source",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseCoreInternal/ls-remote.txt",
+      "sha256": "ca9330dec29881bc7c4a1bfa6c74e31b48f88f54c6f94a0f392bfa351581f27a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseCoreInternal/spec.json",
+      "sha256": "42acca26a3e9e6e58cfcca1f4365a3bf1594ff535cc9d3d8787fb4165e415322"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseFirestore/LICENSE.source",
+      "sha256": "e5e9aa330f05975f328422e8dcc7086f5a0258ecbcca1fc5f10f7aa20f5abbfe"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseFirestore/ls-remote.txt",
+      "sha256": "0076afac41bf9ac3034f9bd95db6070a6749bf08562bf6936ba1d7427baa98f4"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseFirestore/spec.json",
+      "sha256": "bbfc2cbe8171435831b84e4bc62bbd8ca9b3b556a4c7356d9d9577a32ae68f3d"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseFirestoreInternal/LICENSE.source",
+      "sha256": "e5e9aa330f05975f328422e8dcc7086f5a0258ecbcca1fc5f10f7aa20f5abbfe"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseFirestoreInternal/ls-remote.txt",
+      "sha256": "0076afac41bf9ac3034f9bd95db6070a6749bf08562bf6936ba1d7427baa98f4"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseFirestoreInternal/spec.json",
+      "sha256": "2a08f15f4fa941d05a3f645a107499496d419da85682ece32ca1b05ad2404c47"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseSharedSwift/LICENSE.source",
+      "sha256": "e25e9130c16697529034ba88013a15bb38ab7c947daf17b0a14c12f932feb9b3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseSharedSwift/ls-remote.txt",
+      "sha256": "ca9330dec29881bc7c4a1bfa6c74e31b48f88f54c6f94a0f392bfa351581f27a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/FirebaseSharedSwift/spec.json",
+      "sha256": "5252eccc5bec5373d072488c5620e36abf4375bb3f5fdc50d5b0dd93fcb6aad6"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/GTMAppAuth/LICENSE.source",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/GTMAppAuth/ls-remote.txt",
+      "sha256": "52ae97db0faecc44ab0890431d48e7d2f48b0584858e2e761df7d4c71fa5f8a3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/GTMAppAuth/spec.json",
+      "sha256": "0bea61b3f43a0b8363ae1f7ab844eaffc549607151344bbb68a83d4b696feb81"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/GTMSessionFetcher/LICENSE.source",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/GTMSessionFetcher/ls-remote.txt",
+      "sha256": "4d83510e55a295cb69b9e4fda5ea2dbcf5103093c40028059d2db8a5332389e2"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/GTMSessionFetcher/spec.json",
+      "sha256": "b31045e7ac33570d99b3cf01a8a27926726201070b6c19909f9a9bdb6de89db5"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/GoogleSignIn/LICENSE.source",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/GoogleSignIn/ls-remote.txt",
+      "sha256": "4383273cf083b3d7ad6b45cf1b363a5e64275426dfdc23dbde764a572ed3ff3e"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/GoogleSignIn/spec.json",
+      "sha256": "fd9cce19bf7f69bfbefbdf9d6cd5fce68c549d31ceca80f9c3ebd509c044a2a2"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/GoogleUtilities/LICENSE.source",
+      "sha256": "ad6d036b9a78f0e1700d68039c06058033fea063172ce2dc68e382a24b4d1928"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/GoogleUtilities/ls-remote.txt",
+      "sha256": "128b20679cb844b33c8aa6eee99cfe79d972cea79771178b1ccedb0d984870e5"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/GoogleUtilities/spec.json",
+      "sha256": "8df9f88b3c7a52946e7e6aba3f7c64af7ef4c84c741ec0a4033a1a30b769df82"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/PromisesObjC/LICENSE.source",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/PromisesObjC/ls-remote.txt",
+      "sha256": "c6349baabf3e4c7febb153e1e67968ddff548ee30ee1b972618abbb01397280a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/PromisesObjC/spec.json",
+      "sha256": "517935b98697673ec2642faeab91487947c2d8dc964e7a4111b59f703df45eca"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/RecaptchaEnterprise/spec.json",
+      "sha256": "08240de14039146ddf6c96aea3b33bf1c0b8d9b7aaa779ea36fb3fa84c19f8be"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/RecaptchaInterop/LICENSE.source",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/RecaptchaInterop/ls-remote.txt",
+      "sha256": "221b9ef2a72605f4bf6f4e3f2f05eaa883e89b031b035da7f9eaa883f74ce7ce"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/RecaptchaInterop/spec.json",
+      "sha256": "492d107eaca56c48ab8f7bcf8d191dcbcd6e03cd335bae1ba623d4fe06954b24"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/SDWebImage/LICENSE.source",
+      "sha256": "db5ae21958ad3871339a53acfabc7e9c20553a35761878dfd304573de1e88740"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/SDWebImage/ls-remote.txt",
+      "sha256": "5166cfc8fae5ebf691fd913280ab74d100977252dd04e3b71f8d7705644fdb0c"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/SDWebImage/spec.json",
+      "sha256": "5b43975dd76e4a6f6e345b7fea39565370d7b8b266880a243d28027b7a581a0c"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/SwiftyGif/LICENSE.source",
+      "sha256": "ca136c5ebb10cf8ee95b08222ee6acc92da0bd67ff6633abbde614c28ad07634"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/SwiftyGif/licence-contents-response.json",
+      "sha256": "c8cf2a4a1e1ae91543245e88783bcdbc02ffd46a97476a7b943b59491648b7dd"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/SwiftyGif/license-blob.json",
+      "sha256": "92d97cdf5fae86dfe17b80cd622d7a5eb31a4925402bc32b60d850eea710c916"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/SwiftyGif/ls-remote.txt",
+      "sha256": "a0a18bc131bc62215b94cf641524192b29200cf8595b70bca063906897ba8647"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/SwiftyGif/source-tree.json",
+      "sha256": "e444733d8530a5a2f0865db27b2c60df2d52bc6b81c53d7de4bab78276f80ca5"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/SwiftyGif/spec.json",
+      "sha256": "ba6bd2d0ccae4dd1790ead0a89e3b622c4e8d7eed3aa81f15de3eb8e0d156666"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/UniversalDetector2/LICENSE.source",
+      "sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/UniversalDetector2/ls-remote.txt",
+      "sha256": "564b5cfe7b94448bb0739e0a08c505a8c8f7cd659df726961eb3db68892fe8c2"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/UniversalDetector2/spec.json",
+      "sha256": "f97f4592c74dbbd9faa8fd475da49a186e6656ec7f11b2a628de01ed4e057aee"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/abseil/LICENSE.source",
+      "sha256": "c79a7fea0e3cac04cd43f20e7b648e5a0ff8fa5344e644b0ee09ca1162b62747"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/abseil/ls-remote.txt",
+      "sha256": "560027f0439521790868facb9e031e4de9cafba05e5b8744709b62d3d460b112"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/abseil/spec.json",
+      "sha256": "8f46078a3f0c5f7d8d31c9e171086398542f708e10c5475b00cd2459cb7fd13a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/gRPC-C++/LICENSE.source",
+      "sha256": "590198e3f305f2c347fde64d637c65492bbef554db6c8364e149cd375e3797ee"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/gRPC-C++/ls-remote.txt",
+      "sha256": "4fb6256fa0f72cca0e4948b1b4ab77d9f5752d0407a56c272284bea601ce3e4f"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/gRPC-C++/spec.json",
+      "sha256": "f45805dad769201b820fc2a9c753de5b641deb9ed6436dc979a0f947d2886b50"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/gRPC-Core/LICENSE.source",
+      "sha256": "590198e3f305f2c347fde64d637c65492bbef554db6c8364e149cd375e3797ee"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/gRPC-Core/ls-remote.txt",
+      "sha256": "4fb6256fa0f72cca0e4948b1b4ab77d9f5752d0407a56c272284bea601ce3e4f"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/gRPC-Core/spec.json",
+      "sha256": "ff43e0a1987a3037f56ea5b5237af4d9c7bbe273f9a00c2d19de6e6a00cd32ce"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/leveldb-library/LICENSE.source",
+      "sha256": "ccc19f1da0798ed666609b65a5b44dd8b3abe6fc08b9c0592eb76e82e174db19"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/leveldb-library/ls-remote.txt",
+      "sha256": "2a24202b094e86f5cd81e3e3312ed7225f7df8ef7277c4e8a0915bfa9e57abbf"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/leveldb-library/spec.json",
+      "sha256": "e6d5f4ce83041150fd0958014e39f924b06aeaceca5c1840bbb458de66c617f8"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/nanopb/LICENSE.source",
+      "sha256": "e2f2fc8fe3faa7dcb09dbe995db48c6ec5c1f72705db915101e4a83fed44f66d"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/nanopb/ls-remote.txt",
+      "sha256": "9359e71fba79764e981a24e141c66a885a7aeb0b4cc9c0663bcc7e20f3c1f28a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/nanopb/spec.json",
+      "sha256": "333f4a84540f344a4b209dbe9a5cd95af37a8346bd463da20cb71cd384e97aef"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/sqlite3/LICENSE.source",
+      "sha256": "9c6479123f32a1ed50d9a0af203dfe8972e65035b0cdeef436b5f8d0924517fe"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/pods/sqlite3/spec.json",
+      "sha256": "0e6b1b8763ecc66ec8987fc79414e132354fdfe2520412fd57d7f7b66d8e1196"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/replay.py",
+      "sha256": "9383b11aa11024efe20fed47db754f2f370cf7d21c9a5bf7512728b0ef594341"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/unresolved-start-inventory.json",
+      "sha256": "0b345b87dffdab2da0a9c7a6d799c0659672b59e9927c445764bd91f762672f2"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/native/cocoapods-source-2026-10-09/wrapper-reverification.json",
+      "sha256": "b5bbb8f2a4266c12403d42a8790df0a056ef9ad9e0ab9232f75f650df0354df9"
     },
     {
       "path": "compliance/evidence/reconstruction-2026-10-09/native/collect-native-evidence.ps1",

@@ -520,7 +520,7 @@
     {
       "id": "cocoapods-licence-evidence",
       "scope": "iOS/CocoaPods",
-      "finding": "25 Pub wrapper mappings independently authenticated; CocoaPods podspec checksum replay and native SDK/transitive licences remain unverified.",
+      "finding": "29 registry podspec checksums replayed; 21 native source licence declarations corroborated and 25 wrapper source mappings reverified. 11 CocoaPods declarations, local evaluated podspecs, native binary/transitive coverage and release obligations remain unresolved.",
       "requiredAction": "Resolve pods on the iOS build host, retain podspec/licence evidence, review notices, and regenerate before shipping iOS.",
       "releaseGate": "iOS release"
     },

@@ -1,0 +1,2 @@
+e3b2b9b8ce97383a762ef177e27c9a29b5c246c5	refs/tags/CocoaPods-100.0.0
+2d12673670417654f08f5f90fdd62926dc3a2648	refs/tags/CocoaPods-100.0.0^{}

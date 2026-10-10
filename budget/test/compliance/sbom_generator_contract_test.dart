@@ -26,7 +26,11 @@ void main() {
     expect(byId['pub:file_picker']!.modified, isTrue);
     expect(byId['pub:file_picker']!.downloadLocation,
         contains('flutter_file_picker.git'));
-    expect(byId['cocoapods:Firebase']!.licenseDeclared, 'NOASSERTION');
+    expect(byId['cocoapods:Firebase']!.licenseDeclared, 'Apache-2.0');
+    expect(
+        byId['cocoapods:Firebase']!.reviewStatus, 'verified-with-conditions');
+    expect(byId['cocoapods:Firebase']!.licenseEvidence,
+        contains('cocoapods-source-2026-10-09/manifest.json#Firebase'));
     expect(byId['font:Avenir']!.reviewStatus, 'review-required');
     expect(byId['web:sql-wasm.js']!.checksumSha256,
         '445a230a983e32656a548b1e13cceafaf4aeb2281361477af389243380e2f542');
