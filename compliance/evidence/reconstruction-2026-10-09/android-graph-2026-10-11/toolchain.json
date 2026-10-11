@@ -1,0 +1,62 @@
+{
+  "diagnostic-environment.json": {
+    "JAVA_HOME": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\tools\\jdk-17.0.20.1+1",
+    "GRADLE_USER_HOME": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\gradle-home",
+    "ANDROID_HOME": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\sdk",
+    "ANDROID_SDK_ROOT": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\sdk",
+    "ANDROID_USER_HOME": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\android-home",
+    "GRADLE_OPTS": "-Dorg.gradle.daemon=false",
+    "PATH_prefix": [
+      "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\tools\\jdk-17.0.20.1+1\\bin",
+      "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\tools\\gradle-7.5\\bin"
+    ],
+    "PUB_CACHE": "C:\\Users\\Oluwa\\Documents\\Codex\\2026-09-18\\you-are-working-on-a-fork\\work\\pub-cache"
+  },
+  "download-manifest.json": [
+    {
+      "name": "jdk",
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_x64_windows_hotspot_17.0.20.1_1.zip",
+      "algorithm": "sha256",
+      "expected": "e53a79c3c3d86865bd7e787903884331068e71321714ffd44f145785affc7cb0",
+      "filename": "OpenJDK17U-jdk_x64_windows_hotspot_17.0.20.1_1.zip",
+      "localPath": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\archives\\OpenJDK17U-jdk_x64_windows_hotspot_17.0.20.1_1.zip",
+      "sha256": "e53a79c3c3d86865bd7e787903884331068e71321714ffd44f145785affc7cb0",
+      "bytes": 190817615
+    },
+    {
+      "name": "gradle",
+      "url": "https://services.gradle.org/distributions/gradle-7.5-bin.zip",
+      "algorithm": "sha256",
+      "expected": "cb87f222c5585bd46838ad4db78463a5c5f3d336e5e2b98dc7c0c586527351c2",
+      "filename": "gradle-7.5-bin.zip",
+      "localPath": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\archives\\gradle-7.5-bin.zip",
+      "sha256": "cb87f222c5585bd46838ad4db78463a5c5f3d336e5e2b98dc7c0c586527351c2",
+      "bytes": 120632782
+    },
+    {
+      "name": "cmdline",
+      "url": "https://dl.google.com/android/repository/commandlinetools-win-11076708_latest.zip",
+      "algorithm": "sha1",
+      "expected": "3d2917302740f476999a091bc5558837c7a863c5",
+      "filename": "commandlinetools-win-11076708_latest.zip",
+      "localPath": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\archives\\commandlinetools-win-11076708_latest.zip",
+      "sha256": "4d6931209eebb1bfb7c7e8b240a6a3cb3ab24479ea294f3539429574b1eec862",
+      "bytes": 153583359
+    }
+  ],
+  "debug-assembly-result.json": {
+    "exit": 0,
+    "seconds": 627.0,
+    "changedSourceFiles": []
+  },
+  "export-result.json": {
+    "exit": 0,
+    "seconds": 50.3,
+    "changedSourceFiles": []
+  },
+  "replay-result.json": {
+    "exit": 0,
+    "seconds": 191.4,
+    "changedSourceFiles": []
+  }
+}

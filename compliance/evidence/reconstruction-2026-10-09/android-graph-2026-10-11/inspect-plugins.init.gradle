@@ -1,0 +1,22 @@
+gradle.beforeProject { p ->
+    println("OLA_PROJECT_BEGIN ${p.path}")
+    p.buildscript.configurations.matching { it.name == 'classpath' }.all { c ->
+        c.incoming.afterResolve {
+            c.incoming.resolutionResult.allComponents.each { component ->
+                def mv = component.moduleVersion
+                if (mv != null && mv.group == 'com.android.tools.build' && mv.name == 'gradle') {
+                    println("OLA_BUILDSCRIPT_AGP ${p.path} ${mv}")
+                }
+            }
+        }
+    }
+    ['com.android.application', 'com.android.library'].each { id ->
+        p.plugins.withId(id) { plugin ->
+            def version = plugin.class.classLoader.loadClass('com.android.Version').getField('ANDROID_GRADLE_PLUGIN_VERSION').get(null)
+            println("OLA_APPLIED_AGP ${p.path} ${id} ${version} ${plugin.class.protectionDomain.codeSource.location}")
+        }
+    }
+}
+gradle.afterProject { p, state ->
+    println("OLA_PROJECT_END ${p.path} failure=${state.failure != null}")
+}

@@ -513,8 +513,8 @@
     {
       "id": "android-transitive-resolution",
       "scope": "Android/Maven",
-      "finding": "Declared app Firebase BOM 31.1.1 differs from firebase_core wrapper SDK default 33.1.0. Exact-coordinate POMs retained, but no release-variant graph resolves actual selected native versions.",
-      "requiredAction": "Generate and review a release-variant dependency graph and licence report on the Android build host, then add the resolved components before shipping Android.",
+      "finding": "Exact productionRelease compile/runtime and desugaring graphs reproduced with Gradle 7.5 and applied AGP 7.3.1; development debug assembly passed. Newly observed native modules are inventoried conservatively. Native licence/source review, graph-to-release-binary reconciliation and production release verification remain incomplete.",
+      "requiredAction": "Review exact resolved module source/licence evidence and notices; verify the production release artefacts before closing this Android release gap. Dependency resolution and a debug APK do not establish release clearance.",
       "releaseGate": "Android release"
     },
     {

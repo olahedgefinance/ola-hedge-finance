@@ -1,0 +1,236 @@
+[
+  {
+    "module": "com.android.tools:desugar_jdk_libs:1.2.2",
+    "files": [
+      {
+        "url": "https://dl.google.com/dl/android/maven2/com/android/tools/desugar_jdk_libs/1.2.2/desugar_jdk_libs-1.2.2.pom",
+        "sha256": "e0e87be252272df1f05ea3b22f18e1d37ef4f0b8e0bc84a0875c3af958b9a11f",
+        "bytes": 1257,
+        "status": 200,
+        "licenses": [
+          {
+            "name": "GNU General Public License, version 2, with the Classpath Exception",
+            "url": "https://github.com/google/desugar_jdk_libs/blob/master/LICENSE"
+          }
+        ],
+        "localFileName": "com.android.tools.desugar_jdk_libs-1.2.2.pom",
+        "evidencePath": "targets/com.android.tools.desugar_jdk_libs-1.2.2.pom"
+      },
+      {
+        "url": "https://dl.google.com/dl/android/maven2/com/android/tools/desugar_jdk_libs/1.2.2/desugar_jdk_libs-1.2.2-sources.jar",
+        "status": 404
+      },
+      {
+        "url": "https://dl.google.com/dl/android/maven2/com/android/tools/desugar_jdk_libs/1.2.2/desugar_jdk_libs-1.2.2.jar",
+        "sha256": "563069c5ae127e5b3dff27aedd499271871e2eebca9830b18715c6726a6d1602",
+        "bytes": 2836917,
+        "status": 200,
+        "localFileName": "com.android.tools.desugar_jdk_libs-1.2.2.jar"
+      }
+    ],
+    "licenseDeclared": "NOASSERTION",
+    "classification": "Needs Verification",
+    "legalClearance": false,
+    "reason": "Exact selected version and binary hash verified; complete source/licence obligations and release-binary mapping remain unverified.",
+    "retainedNotices": []
+  },
+  {
+    "module": "com.google.android.play:review-ktx:2.0.1",
+    "files": [
+      {
+        "url": "https://dl.google.com/dl/android/maven2/com/google/android/play/review-ktx/2.0.1/review-ktx-2.0.1.pom",
+        "sha256": "2ed3fec6af3f3e81f2d4d06a421f2e5d6164f0640f33360a18566147f8d2a4ea",
+        "bytes": 2386,
+        "status": 200,
+        "licenses": [
+          {
+            "name": "Play Core Software Development Kit Terms of Service",
+            "url": "https://developer.android.com/guide/playcore/license"
+          }
+        ],
+        "localFileName": "com.google.android.play.review-ktx-2.0.1.pom",
+        "evidencePath": "targets/com.google.android.play.review-ktx-2.0.1.pom"
+      },
+      {
+        "url": "https://dl.google.com/dl/android/maven2/com/google/android/play/review-ktx/2.0.1/review-ktx-2.0.1-sources.jar",
+        "status": 404
+      },
+      {
+        "url": "https://dl.google.com/dl/android/maven2/com/google/android/play/review-ktx/2.0.1/review-ktx-2.0.1.aar",
+        "sha256": "10798224d2035d1f8298dde967eeac5793aecd57725391a4cbca37be5a23504d",
+        "bytes": 107555,
+        "status": 200,
+        "localFileName": "com.google.android.play.review-ktx-2.0.1.aar"
+      }
+    ],
+    "licenseDeclared": "NOASSERTION",
+    "classification": "Needs Verification",
+    "legalClearance": false,
+    "reason": "Exact selected version and binary hash verified; complete source/licence obligations and release-binary mapping remain unverified.",
+    "retainedNotices": [
+      {
+        "archiveEntry": "LICENSE",
+        "path": "targets/com.google.android.play_review-ktx_2.0.1/LICENSE",
+        "sha256": "1dfa8ea1ba95c5ed3126ea39538f1c1f672399a27990c7303eed59847ab2858c"
+      },
+      {
+        "archiveEntry": "third_party_licenses.json",
+        "path": "targets/com.google.android.play_review-ktx_2.0.1/third_party_licenses.json",
+        "sha256": "4116448ef83ffbe33e82cf954325cd40c24a22c7197e4cfbfbacf8d83d01fc45"
+      },
+      {
+        "archiveEntry": "third_party_licenses.txt",
+        "path": "targets/com.google.android.play_review-ktx_2.0.1/third_party_licenses.txt",
+        "sha256": "1dfa8ea1ba95c5ed3126ea39538f1c1f672399a27990c7303eed59847ab2858c"
+      }
+    ]
+  },
+  {
+    "module": "com.google.android.play:review:2.0.1",
+    "files": [
+      {
+        "url": "https://dl.google.com/dl/android/maven2/com/google/android/play/review/2.0.1/review-2.0.1.pom",
+        "sha256": "721731fd7132e776edd208f967edf038e23de6e650f0f055c42d46d9364bce74",
+        "bytes": 1331,
+        "status": 200,
+        "licenses": [
+          {
+            "name": "Play Core Software Development Kit Terms of Service",
+            "url": "https://developer.android.com/guide/playcore/license"
+          }
+        ],
+        "localFileName": "com.google.android.play.review-2.0.1.pom",
+        "evidencePath": "targets/com.google.android.play.review-2.0.1.pom"
+      },
+      {
+        "url": "https://dl.google.com/dl/android/maven2/com/google/android/play/review/2.0.1/review-2.0.1-sources.jar",
+        "status": 404
+      },
+      {
+        "url": "https://dl.google.com/dl/android/maven2/com/google/android/play/review/2.0.1/review-2.0.1.aar",
+        "sha256": "269c6241658756edeee5993db4577199d806ab1252fe74e20d0241878a483603",
+        "bytes": 127609,
+        "status": 200,
+        "localFileName": "com.google.android.play.review-2.0.1.aar"
+      }
+    ],
+    "licenseDeclared": "NOASSERTION",
+    "classification": "Needs Verification",
+    "legalClearance": false,
+    "reason": "Exact selected version and binary hash verified; complete source/licence obligations and release-binary mapping remain unverified.",
+    "retainedNotices": [
+      {
+        "archiveEntry": "LICENSE",
+        "path": "targets/com.google.android.play_review_2.0.1/LICENSE",
+        "sha256": "a560add9077599227978308385b6c090373e17d4639701b3b92150bb961e9e5b"
+      },
+      {
+        "archiveEntry": "third_party_licenses.json",
+        "path": "targets/com.google.android.play_review_2.0.1/third_party_licenses.json",
+        "sha256": "cb4f51418d43801e249818c46611b3bc0c4647ea81ebaf8e7fb698a47a46a7ac"
+      },
+      {
+        "archiveEntry": "third_party_licenses.txt",
+        "path": "targets/com.google.android.play_review_2.0.1/third_party_licenses.txt",
+        "sha256": "a560add9077599227978308385b6c090373e17d4639701b3b92150bb961e9e5b"
+      }
+    ]
+  },
+  {
+    "module": "com.google.firebase:firebase-auth:23.0.0",
+    "files": [
+      {
+        "url": "https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-auth/23.0.0/firebase-auth-23.0.0.pom",
+        "sha256": "175e0e957c41aca54ce317fa3c513c7ea83933f28f274ef89bd7d996b84647fd",
+        "bytes": 4584,
+        "status": 200,
+        "licenses": [
+          {
+            "name": "Android Software Development Kit License",
+            "url": "https://developer.android.com/studio/terms.html"
+          }
+        ],
+        "localFileName": "com.google.firebase.firebase-auth-23.0.0.pom",
+        "evidencePath": "targets/com.google.firebase.firebase-auth-23.0.0.pom"
+      },
+      {
+        "url": "https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-auth/23.0.0/firebase-auth-23.0.0-sources.jar",
+        "status": 404
+      },
+      {
+        "url": "https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-auth/23.0.0/firebase-auth-23.0.0.aar",
+        "sha256": "29aeb53bb6bab86579b0483dc58a7b3da2f754ffae0aa96e3a2a08e012e9ef22",
+        "bytes": 1262804,
+        "status": 200,
+        "localFileName": "com.google.firebase.firebase-auth-23.0.0.aar"
+      }
+    ],
+    "licenseDeclared": "NOASSERTION",
+    "classification": "Needs Verification",
+    "legalClearance": false,
+    "reason": "Exact selected version and binary hash verified; complete source/licence obligations and release-binary mapping remain unverified.",
+    "retainedNotices": [
+      {
+        "archiveEntry": "third_party_licenses.json",
+        "path": "targets/com.google.firebase_firebase-auth_23.0.0/third_party_licenses.json",
+        "sha256": "757c78092e179ad2843827917d7cd7407e8d1d5d4995a5e1c7dfe3a66b74e976"
+      },
+      {
+        "archiveEntry": "third_party_licenses.txt",
+        "path": "targets/com.google.firebase_firebase-auth_23.0.0/third_party_licenses.txt",
+        "sha256": "62eb914f2895645bb8f986a412c37c63dc105011401f75f3f3e1a5df5f06580a"
+      }
+    ]
+  },
+  {
+    "module": "com.google.firebase:firebase-firestore:25.0.0",
+    "files": [
+      {
+        "url": "https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-firestore/25.0.0/firebase-firestore-25.0.0.pom",
+        "sha256": "1cfe10ef2d731aaba1cdb564bbd8c4ecd5b398ecbbdefd6c5a0802ee24b0da74",
+        "bytes": 5181,
+        "status": 200,
+        "licenses": [
+          {
+            "name": "The Apache Software License, Version 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        ],
+        "localFileName": "com.google.firebase.firebase-firestore-25.0.0.pom",
+        "evidencePath": "targets/com.google.firebase.firebase-firestore-25.0.0.pom"
+      },
+      {
+        "url": "https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-firestore/25.0.0/firebase-firestore-25.0.0-sources.jar",
+        "sha256": "15d565c3378cbf557b277c9c8619a321e328d87b330f7de9260fef5c914acdc0",
+        "bytes": 825392,
+        "status": 200,
+        "sourceFiles": 402,
+        "noticePaths": [],
+        "localFileName": "com.google.firebase.firebase-firestore-25.0.0-sources.jar"
+      },
+      {
+        "url": "https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-firestore/25.0.0/firebase-firestore-25.0.0.aar",
+        "sha256": "93edd79b12e407bfee8767a6f95231948e7d724fdb8d3e450ee3aca4f7c74160",
+        "bytes": 1428440,
+        "status": 200,
+        "localFileName": "com.google.firebase.firebase-firestore-25.0.0.aar"
+      }
+    ],
+    "licenseDeclared": "NOASSERTION",
+    "classification": "Needs Verification",
+    "legalClearance": false,
+    "reason": "Exact selected version and binary hash verified; complete source/licence obligations and release-binary mapping remain unverified.",
+    "retainedNotices": [
+      {
+        "archiveEntry": "third_party_licenses.json",
+        "path": "targets/com.google.firebase_firebase-firestore_25.0.0/third_party_licenses.json",
+        "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+      },
+      {
+        "archiveEntry": "third_party_licenses.txt",
+        "path": "targets/com.google.firebase_firebase-firestore_25.0.0/third_party_licenses.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

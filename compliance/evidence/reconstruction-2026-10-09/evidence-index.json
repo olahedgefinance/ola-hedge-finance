@@ -1722,7 +1722,215 @@
     },
     {
       "path": "compliance/components/non_pub_components.json",
-      "sha256": "0391d24ee40d2eec92ff815898248e98cd42405560a06a3c4a9129639928efb2"
+      "sha256": "a03c7a0c7c7750efd12d713e25f8c1d6f67846f56afeb2a12e5de280c95f44d2"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/README.md",
+      "sha256": "87f16116bb69e5e9de4ebb3c4b4143f2660280140d1eb7e3be737e10ff464b0c"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/export-graph.init.gradle",
+      "sha256": "ad005985d7b88dc47e5ffa41af5e642cd7092984fa62d8c3400cb243fbfc828f"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/inspect-plugins.init.gradle",
+      "sha256": "0c6bd1e6678704c5372e116c452d43e3e27e56cc04653b809863f36e06c91fed"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/installed-sdk.json",
+      "sha256": "5c9a80205404b7683f1a974c0e0d3fc12eeb8debbbddc70c7d471b546017d04e"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/manifest.json",
+      "sha256": "5fbed9760d55ffbeb1026143862349b493d70acab155bf08f6daf3ea776bf886"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugin-inputs.json",
+      "sha256": "cbb5322a2ba24ea7870e04c81a36853ec8817853fc0b6dae4ac90db3ac8cb478"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/app_links/build.gradle",
+      "sha256": "4ec0f505ad83f1941d341589c8885b41a2bc616aa1e0aec3121b88f177c63caf"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/app_settings/build.gradle",
+      "sha256": "28eeaa0a2cebc8e1f2cc7d780b80b857bcbc0f3e2d4629435c03a0434e7676f6"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/cloud_firestore/build.gradle",
+      "sha256": "15a71b78e4a671944261fe74a994db7662fcdc8cec402d58acce7ad4f0475930"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/device_info_plus/build.gradle",
+      "sha256": "88dd350f890247830533dcab2b0a0738d4926ab6e0ae1bf28a981bbd5e6dbeb6"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/file_picker/build.gradle",
+      "sha256": "a48e98954c22d56d2cb067ea234280553328d6b92e98b6519bd7635c432e686d"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/firebase_auth/build.gradle",
+      "sha256": "469395d4258220b17cb5401d83f004e821b08588ca4a85ccba41748068c983d9"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/firebase_core/build.gradle",
+      "sha256": "7340c8394042907e43db38375accd24fc5a3a9b9f621956678ee6e3e8d06d606"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/flutter_charset_detector_android/build.gradle",
+      "sha256": "590f0bea10856c32fdd42484123c831c8cc74e41e77a9ee6ed68c05d4f32289b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/flutter_displaymode/build.gradle",
+      "sha256": "80de40fed9c6df25da790739269113ec3af453a2f22951a4cbe42053079d043c"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/flutter_local_notifications/build.gradle",
+      "sha256": "4b833b8f2e89288b5be6a93d251fb5da82e5152da48abf8ee68ec47ebd9f426a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/flutter_plugin_android_lifecycle/build.gradle",
+      "sha256": "ca5276d43e23cc055e2e7ee7c471e4c201f8d3cdda47aa0fc31a364ac6ed6d36"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/flutter_timezone/build.gradle",
+      "sha256": "b9f95958d2955413f840808b3158fe5f323e41e0c0b116562580e28580c1be16"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/google_sign_in_android/build.gradle",
+      "sha256": "8c149b827cc96ea0a76878d6e4aa0fd2ea70986f7682f1723a6b03d492d2e531"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/home_widget/build.gradle",
+      "sha256": "e1d938fcf429fd0ac49a45361be1b12025d8a4dc4cbfdd24c455f9df431e5e75"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/image_picker_android/build.gradle",
+      "sha256": "402078db66ca651bc419a175d97c853ebee9303f2a0068eed84bef0b7e8696d6"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/in_app_purchase_android/build.gradle",
+      "sha256": "3637f6fe55f0bc1ffc8395d98469c4fee9d6c2d0b23aa3d8d445d319fbd85c92"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/in_app_review/build.gradle",
+      "sha256": "353eef5fd6aa10503502e72a69007c1bfd198befecf794ddfdb5f954de68a211"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/local_auth_android/build.gradle",
+      "sha256": "6a3bc69bae2d29e5abcc817c119ae83162eeec50917d0b3a8d9fa920652899bb"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/notification_listener_service/build.gradle",
+      "sha256": "4c246607de9b03e5742cdd98be26a97fa913a66ef731d24e82544fb1c5b37b2e"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/package_info_plus/build.gradle",
+      "sha256": "10beba354a1777db5e436060e98fa1b7732f41eae1a436cad7c1faae5115b482"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/path_provider_android/build.gradle",
+      "sha256": "879201b9e40d02929be92382befe113800fac2998ede4c23ca3e193166afc3ca"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/quick_actions_android/build.gradle",
+      "sha256": "20081a24db29faca5c1d95c17c8935f01b897694a8e2ee7ade0ebdebf3981ffe"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/recaptcha_enterprise_flutter/build.gradle",
+      "sha256": "c43b367b6682997c36f9cbd4e30676a66a4deddb035beae34980814bf6574a17"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/share_plus/build.gradle",
+      "sha256": "8e6f794a66ba08b3f5fb62fed9dfe49f31bc7bae2f91c54f2887b64d309cf003"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/shared_preferences_android/build.gradle",
+      "sha256": "8339b45d7ef366834b7711fecec4e30dfac1855d128a29df482f0f794c8537c2"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/sqlite3_flutter_libs/build.gradle",
+      "sha256": "3ec31e1d83bc00df9e730c9d122bc63e5701f6f70bfa34069e4e55f7d0b80d09"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/system_theme/build.gradle",
+      "sha256": "11c7b4fdbfb58e2eabf9980a01c416c12bc331a3297af3d2e0e26b776a7d4250"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/plugins/url_launcher_android/build.gradle",
+      "sha256": "ad403736bf309a4263e60a336ae228736dd4db05b5c55527e76573a897fbcf2a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json",
+      "sha256": "63f239fb4f4da24611b385fa8f31ed72df0fb7c68cc340b213016dc7a7faf133"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/target-provenance.json",
+      "sha256": "bdaa216ff17e910c90850fe46d24e4e3053642603aef8882b0e49a47e72cafaf"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/targets/com.android.tools.desugar_jdk_libs-1.2.2.pom",
+      "sha256": "e0e87be252272df1f05ea3b22f18e1d37ef4f0b8e0bc84a0875c3af958b9a11f"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/targets/com.google.android.play.review-2.0.1.pom",
+      "sha256": "721731fd7132e776edd208f967edf038e23de6e650f0f055c42d46d9364bce74"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/targets/com.google.android.play.review-ktx-2.0.1.pom",
+      "sha256": "2ed3fec6af3f3e81f2d4d06a421f2e5d6164f0640f33360a18566147f8d2a4ea"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/targets/com.google.android.play_review-ktx_2.0.1/LICENSE",
+      "sha256": "1dfa8ea1ba95c5ed3126ea39538f1c1f672399a27990c7303eed59847ab2858c"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/targets/com.google.android.play_review-ktx_2.0.1/third_party_licenses.json",
+      "sha256": "4116448ef83ffbe33e82cf954325cd40c24a22c7197e4cfbfbacf8d83d01fc45"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/targets/com.google.android.play_review-ktx_2.0.1/third_party_licenses.txt",
+      "sha256": "1dfa8ea1ba95c5ed3126ea39538f1c1f672399a27990c7303eed59847ab2858c"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/targets/com.google.android.play_review_2.0.1/LICENSE",
+      "sha256": "a560add9077599227978308385b6c090373e17d4639701b3b92150bb961e9e5b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/targets/com.google.android.play_review_2.0.1/third_party_licenses.json",
+      "sha256": "cb4f51418d43801e249818c46611b3bc0c4647ea81ebaf8e7fb698a47a46a7ac"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/targets/com.google.android.play_review_2.0.1/third_party_licenses.txt",
+      "sha256": "a560add9077599227978308385b6c090373e17d4639701b3b92150bb961e9e5b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/targets/com.google.firebase.firebase-auth-23.0.0.pom",
+      "sha256": "175e0e957c41aca54ce317fa3c513c7ea83933f28f274ef89bd7d996b84647fd"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/targets/com.google.firebase.firebase-firestore-25.0.0.pom",
+      "sha256": "1cfe10ef2d731aaba1cdb564bbd8c4ecd5b398ecbbdefd6c5a0802ee24b0da74"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/targets/com.google.firebase_firebase-auth_23.0.0/third_party_licenses.json",
+      "sha256": "757c78092e179ad2843827917d7cd7407e8d1d5d4995a5e1c7dfe3a66b74e976"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/targets/com.google.firebase_firebase-auth_23.0.0/third_party_licenses.txt",
+      "sha256": "62eb914f2895645bb8f986a412c37c63dc105011401f75f3f3e1a5df5f06580a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/targets/com.google.firebase_firebase-firestore_25.0.0/third_party_licenses.json",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/targets/com.google.firebase_firebase-firestore_25.0.0/third_party_licenses.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/toolchain.json",
+      "sha256": "d6ffa6aa598aec2a55c84ba813f907b0722bec68c957f62b63b3e848fdebad1a"
     },
     {
       "path": "compliance/evidence/reconstruction-2026-10-09/application-identity/approved-identity-source.md",

@@ -37,7 +37,30 @@ void main() {
 
     final directProduction = bundle.components.where((component) =>
         component.relationship == ComponentRelationship.directRuntime);
-    expect(directProduction.length, 79);
+    final manifest = jsonDecode(File(
+            '${repositoryRoot.path}/compliance/components/non_pub_components.json')
+        .readAsStringSync());
+    final graph = jsonDecode(File(
+            '${repositoryRoot.path}/compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json')
+        .readAsStringSync());
+    final expectedDirect = <String>{
+      ...parsePubLock(File('${repositoryRoot.path}/budget/pubspec.lock')
+              .readAsStringSync())
+          .where((p) => p.relationship == ComponentRelationship.directRuntime)
+          .map((p) => 'pub:${p.name}'),
+      ...(manifest['components'] as List)
+          .where(
+              (c) => c['relationship'] == ComponentRelationship.directRuntime)
+          .map((c) => c['id'] as String),
+      for (final config in graph['configurations'] as List)
+        for (final node in config['components'] as List)
+          if (node['id'] == 'project :app')
+            for (final dep in node['dependencies'] as List)
+              if (dep['constraint'] == false &&
+                  !(dep['selected'] as String).startsWith('project :'))
+                'maven:${(dep['selected'] as String).split(':').take(2).join(':')}',
+    };
+    expect(directProduction.map((c) => c.id), unorderedEquals(expectedDirect));
     for (final component in directProduction) {
       expect(component.licenseDeclared, isNotEmpty, reason: component.id);
       if (component.licenseDeclared == 'NOASSERTION') {

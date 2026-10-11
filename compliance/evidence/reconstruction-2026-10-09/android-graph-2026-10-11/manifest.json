@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "db04e9087b545568ede24982cc2572d0c3cca1ef",
+  "scope": "productionRelease compile/runtime resolution and coreLibraryDesugaring; no release build, binary inventory or legal clearance",
+  "legalClearance": false,
+  "releaseClearance": false,
+  "inputs": [
+    {
+      "path": "budget/pubspec.lock",
+      "sha256Lf": "df4018999ce61660bac140d6fa07a5230151b3aeaf2d2fb694a5c2431b33b667"
+    },
+    {
+      "path": "budget/android/build.gradle",
+      "sha256Lf": "87f96823ed31b80b13a5a40eab9831cbc441af8acfa06f96f25dce4dfd967854"
+    },
+    {
+      "path": "budget/android/app/build.gradle",
+      "sha256Lf": "cf6275c41dfef892fea8ee795e45ee68f16b6c1816374abee5c73042cc4577a0"
+    },
+    {
+      "path": "budget/android/settings.gradle",
+      "sha256Lf": "d477b869c688dc63c619e4cfcf094679e709b0ddebabb262c4594604772dcce6"
+    },
+    {
+      "path": "budget/android/gradle.properties",
+      "sha256Lf": "b1e114bf6dc9c036895d0909014ffc9f6e8fe30cce98c109786f49bb3d29bcf4"
+    },
+    {
+      "path": "budget/android/gradle/wrapper/gradle-wrapper.properties",
+      "sha256Lf": "89780b2d8b97046c98abc37e51970385f3cfa2f4ec3da7865061e3e07983aa4a"
+    }
+  ],
+  "appliedPlugins": [
+    {
+      "project": ":app",
+      "plugin": "com.android.application",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":app_links",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":app_settings",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":cloud_firestore",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":device_info_plus",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":file_picker",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":firebase_auth",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":firebase_core",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":flutter_charset_detector_android",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":flutter_displaymode",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":flutter_local_notifications",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":flutter_plugin_android_lifecycle",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":flutter_timezone",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":google_sign_in_android",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":home_widget",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":image_picker_android",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":in_app_purchase_android",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":in_app_review",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":local_auth_android",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":notification_listener_service",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":package_info_plus",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":path_provider_android",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":quick_actions_android",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":recaptcha_enterprise_flutter",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":share_plus",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":shared_preferences_android",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":sqlite3_flutter_libs",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":system_theme",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    },
+    {
+      "project": ":url_launcher_android",
+      "plugin": "com.android.library",
+      "appliedVersion": "7.3.1"
+    }
+  ],
+  "replay": "Fresh --refresh-dependencies replay matched normalized graph, selected versions, artifact bytes and SHA-256 exactly",
+  "graphSha256": "63f239fb4f4da24611b385fa8f31ed72df0fb7c68cc340b213016dc7a7faf133",
+  "nativeBuild": "assembleDevelopmentDebug passed; not a release build",
+  "historicalCheckpoint": "7f3209eebb270aaef11d875c0d214467619a0627 NOT RECOVERED"
+}

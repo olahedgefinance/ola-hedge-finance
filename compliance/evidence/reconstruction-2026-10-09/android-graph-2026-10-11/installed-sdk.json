@@ -1,0 +1,98 @@
+[
+  {
+    "path": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\sdk\\build-tools\\30.0.3\\source.properties",
+    "properties": {
+      "Pkg.UserSrc": "false",
+      "Pkg.Revision": "30.0.3"
+    }
+  },
+  {
+    "path": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\sdk\\cmdline-tools\\12.0\\source.properties",
+    "properties": {
+      "Pkg.Revision": "12.0",
+      "Pkg.Path": "cmdline-tools;12.0",
+      "Pkg.Desc": "Android SDK Command-line Tools"
+    }
+  },
+  {
+    "path": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\sdk\\platform-tools\\source.properties",
+    "properties": {
+      "Pkg.UserSrc": "false",
+      "Pkg.Revision": "37.0.1"
+    }
+  },
+  {
+    "path": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\sdk\\platforms\\android-30\\source.properties",
+    "properties": {
+      "Pkg.Desc": "Android SDK Platform 11",
+      "Pkg.UserSrc": "false",
+      "Platform.Version": "11",
+      "Platform.CodeName": "",
+      "Pkg.Revision": "3",
+      "AndroidVersion.ApiLevel": "30",
+      "Layoutlib.Api": "15",
+      "Layoutlib.Revision": "1",
+      "Platform.MinToolsRev": "22"
+    }
+  },
+  {
+    "path": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\sdk\\platforms\\android-31\\source.properties",
+    "properties": {
+      "Pkg.Desc": "Android SDK Platform 12",
+      "Pkg.UserSrc": "false",
+      "Platform.Version": "12",
+      "Platform.CodeName": "",
+      "Pkg.Revision": "1",
+      "AndroidVersion.ApiLevel": "31",
+      "Layoutlib.Api": "15",
+      "Layoutlib.Revision": "1",
+      "Platform.MinToolsRev": "22"
+    }
+  },
+  {
+    "path": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\sdk\\platforms\\android-32\\source.properties",
+    "properties": {
+      "Pkg.Desc": "Android SDK Platform 12",
+      "Pkg.UserSrc": "false",
+      "Platform.Version": "12",
+      "Platform.CodeName": "",
+      "Pkg.Revision": "1",
+      "AndroidVersion.ApiLevel": "32",
+      "Layoutlib.Api": "15",
+      "Layoutlib.Revision": "1",
+      "Platform.MinToolsRev": "22"
+    }
+  },
+  {
+    "path": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\sdk\\platforms\\android-33\\source.properties",
+    "properties": {
+      "Pkg.Desc": "Android SDK Platform 13",
+      "Pkg.UserSrc": "false",
+      "Platform.Version": "13",
+      "Platform.CodeName": "",
+      "Pkg.Revision": "3",
+      "AndroidVersion.ApiLevel": "33",
+      "AndroidVersion.ExtensionLevel": "3",
+      "AndroidVersion.IsBaseSdk": "true",
+      "Layoutlib.Api": "15",
+      "Layoutlib.Revision": "1",
+      "Platform.MinToolsRev": "22"
+    }
+  },
+  {
+    "path": "C:\\Users\\Oluwa\\.cache\\ola-android-graph-20261011\\sdk\\platforms\\android-34\\source.properties",
+    "properties": {
+      "Pkg.Desc": "Android SDK Platform 14",
+      "Pkg.UserSrc": "false",
+      "Platform.Version": "14",
+      "Platform.CodeName": "",
+      "Pkg.Revision": "3",
+      "AndroidVersion.ApiLevel": "34",
+      "AndroidVersion.ExtensionLevel": "7",
+      "AndroidVersion.IsBaseSdk": "true",
+      "Layoutlib.Api": "15",
+      "Layoutlib.Revision": "1",
+      "Platform.MinToolsRev": "22"
+    }
+  }
+]

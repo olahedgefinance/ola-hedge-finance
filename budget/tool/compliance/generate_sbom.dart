@@ -7,6 +7,7 @@ import 'cocoapods_evidence.dart';
 import 'fork_evidence.dart';
 import 'pub_composite_evidence.dart';
 import 'font_evidence.dart';
+import 'android_evidence.dart';
 export 'sbom_lib.dart';
 
 class ComplianceArtifactBundle {
@@ -53,6 +54,8 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
       jsonDecode(await provenanceFile.readAsString()) as Map<String, dynamic>;
   final pubEntries = parsePubLock(await pubLockFile.readAsString());
   final podEntries = parsePodfileLock(await podLockFile.readAsString());
+  final android = loadAndroidEvidence(repositoryRoot, pubEntries,
+      (manifest['components'] as List).cast<Map<String, dynamic>>());
   verifyForkEvidence(repositoryRoot, pubEntries);
   final compositeReviews =
       verifyPubCompositeEvidence(repositoryRoot, pubEntries);
@@ -110,6 +113,9 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
         .map((name) => 'pub:$name')
         .toList()
       ..sort();
+    dependencies.addAll(
+        android.pubDependencies['pub:${entry.name}'] ?? const <String>[]);
+    dependencies.sort();
     final textDeclaration = classifyLicenseText(evidence.text);
     unscopedPubDeclarations[entry.name] = textDeclaration;
     final composite = compositeReviews[entry.name];
@@ -199,8 +205,13 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
   }).toList();
 
   final fontReviews = verifyFontEvidence(repositoryRoot);
-  final manualRows =
-      (manifest['components'] as List<dynamic>).cast<Map<String, dynamic>>();
+  final androidIds = android.components.map((r) => r['id']).toSet();
+  final manualRows = <Map<String, dynamic>>[
+    ...(manifest['components'] as List)
+        .cast<Map<String, dynamic>>()
+        .where((r) => !androidIds.contains(r['id'])),
+    ...android.components,
+  ];
   final fontIds = manualRows
       .where((r) => r['ecosystem'] == 'font')
       .map((r) => r['id'])
@@ -232,7 +243,8 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
       })
       .map(_componentFromJson)
       .toList();
-  final rootDependencies = <String>[
+  final rootDependencies = <String>{
+    ...android.appDependencies,
     ...pubEntries
         .where((entry) => entry.relationship.startsWith('direct-'))
         .map((entry) => 'pub:${entry.name}'),
@@ -242,7 +254,8 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
             (component.relationship == ComponentRelationship.directRuntime ||
                 component.relationship == ComponentRelationship.bundledAsset))
         .map((component) => component.id),
-  ]..sort();
+  }.toList()
+    ..sort();
   final rootComponent = ComplianceComponent(
     id: 'application:ola-hedge-finance',
     name: 'ola-hedge-finance',

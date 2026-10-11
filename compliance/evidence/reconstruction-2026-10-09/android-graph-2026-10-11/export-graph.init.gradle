@@ -1,0 +1,34 @@
+import groovy.json.JsonOutput
+import java.security.MessageDigest
+
+gradle.projectsEvaluated {
+    rootProject.tasks.register('olaExportAndroidGraph') {
+        doLast {
+            def app = rootProject.project(':app')
+            def result = [schemaVersion:1, gradleVersion:gradle.gradleVersion, javaVersion:System.getProperty('java.version'), configurations:[]]
+            ['productionReleaseRuntimeClasspath','productionReleaseCompileClasspath','coreLibraryDesugaring'].each { name ->
+                def config = app.configurations.getByName(name)
+                if (!config.canBeResolved) { throw new GradleException("Configuration is not resolvable: ${name}") }
+                def resolution = config.incoming.resolutionResult
+                def unresolved = resolution.allDependencies.findAll { it instanceof org.gradle.api.artifacts.result.UnresolvedDependencyResult }
+                if (!unresolved.empty) { throw new GradleException("Unresolved dependencies in ${name}: ${unresolved*.attempted}") }
+                def nodes = resolution.allComponents.collect { node ->
+                    [id:node.id.displayName, module:node.moduleVersion?.toString(), reason:node.selectionReason.descriptions.collect { it.description }.sort(), dependencies:node.dependencies.collect { dep ->
+                        [requested:dep.requested.displayName, selected:dep.selected.id.displayName, constraint:dep.constraint]
+                    }.sort { a,b -> (a.requested+a.selected+a.constraint) <=> (b.requested+b.selected+b.constraint) }]
+                }.sort { it.id }
+                def artifacts = config.incoming.artifactView { componentFilter { id -> id instanceof org.gradle.api.artifacts.component.ModuleComponentIdentifier } }.artifacts.artifacts.collect { artifact ->
+                    def file = artifact.file
+                    def digest = MessageDigest.getInstance('SHA-256')
+                    file.withInputStream { input -> byte[] buffer=new byte[1024*1024]; int count; while((count=input.read(buffer))!=-1) { digest.update(buffer,0,count) } }
+                    [module:artifact.id.componentIdentifier.displayName, artifact:artifact.id.displayName, file:file.absolutePath, bytes:file.length(), sha256:digest.digest().encodeHex().toString()]
+                }.sort { it.module+it.artifact }
+                result.configurations << [name:name, root:resolution.root.id.displayName, artifactScope:"published module artifacts only; project outputs not built", components:nodes, artifacts:artifacts]
+                println("OLA_GRAPH_EXPORTED ${name} nodes=${nodes.size()} artifacts=${artifacts.size()}")
+            }
+            def target=new File(System.getenv('OLA_GRAPH_OUTPUT'))
+            target.text=JsonOutput.prettyPrint(JsonOutput.toJson(result))+"\n"
+        }
+    }
+}
+
