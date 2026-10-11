@@ -1,0 +1,1148 @@
+[
+  {
+    "url": "https://github.com/rsms/inter/releases/download/v3.19/Inter-3.19.zip",
+    "sha256": "150ab6230d1762a57bebf35dfc04d606ff91598a31d785f7f100356ecdcc0032",
+    "archiveFonts": [
+      {
+        "path": "Inter Desktop/Inter-Black.otf",
+        "sha256": "d108d003dd5e5a692a586e25aec09f5643f8078613e53d6d5e7ae45e1adf2fb4",
+        "bytes": 266240
+      },
+      {
+        "path": "Inter Desktop/Inter-BlackItalic.otf",
+        "sha256": "fdd250fe1eadd2d48151f9e18d989840d308450486ec4a2e4e4fde4b0d435f6c",
+        "bytes": 273196
+      },
+      {
+        "path": "Inter Desktop/Inter-Bold.otf",
+        "sha256": "1e9dfd6a6e33ac63a8fe3b4ed7ae0df9eac2d0b25e444e8e7daef4ac77943fc1",
+        "bytes": 271436
+      },
+      {
+        "path": "Inter Desktop/Inter-BoldItalic.otf",
+        "sha256": "db4356b780ed61e0d0597a07566bef5bd7497d6f0edc2d88dbf8deaedaf1ace4",
+        "bytes": 278016
+      },
+      {
+        "path": "Inter Desktop/Inter-ExtraBold.otf",
+        "sha256": "158144ef2ad48baf0e45907951a00a1d3264f85c742ccfbc087e90d3d9288cfa",
+        "bytes": 271868
+      },
+      {
+        "path": "Inter Desktop/Inter-ExtraBoldItalic.otf",
+        "sha256": "6afee6b920d669c589b47fc2abbcad7d459f3d22f6c934c39c33105b39c238da",
+        "bytes": 279140
+      },
+      {
+        "path": "Inter Desktop/Inter-ExtraLight.otf",
+        "sha256": "a0f33dfec7784ebf09b19d4ea50ffa49e2595f880082351124aacf9ebfa48442",
+        "bytes": 264196
+      },
+      {
+        "path": "Inter Desktop/Inter-ExtraLightItalic.otf",
+        "sha256": "df1d6a77ed02425ec3456dfb488f05bba51e20d62dad2a92edf4ab7425247697",
+        "bytes": 275152
+      },
+      {
+        "path": "Inter Desktop/Inter-Italic.otf",
+        "sha256": "45ecfe6cbadfd4803de6214e02c336a95163a7703973bc8a5ce7ac2d174ecaf7",
+        "bytes": 271400
+      },
+      {
+        "path": "Inter Desktop/Inter-Light.otf",
+        "sha256": "e66f130fbadda71e297a9a78025e2f05e8d225ae9dfcea9f51f6570b68fdd905",
+        "bytes": 265000
+      },
+      {
+        "path": "Inter Desktop/Inter-LightItalic.otf",
+        "sha256": "9e9b0aa66832affca1f1bed090eb7b49236de1ac7b7e81f8c7c80864de49a974",
+        "bytes": 274996
+      },
+      {
+        "path": "Inter Desktop/Inter-Medium.otf",
+        "sha256": "99dab2bdcb613c4c8264000a94351d1227f74dc95a86d1249493aeee0c0179c4",
+        "bytes": 269692
+      },
+      {
+        "path": "Inter Desktop/Inter-MediumItalic.otf",
+        "sha256": "a0d825963fd0040dd3445c42bf769472dd0777b4e76323486caf72d955bb4723",
+        "bytes": 278472
+      },
+      {
+        "path": "Inter Desktop/Inter-Regular.otf",
+        "sha256": "a7e791e8f5a0fb02b65663f7fca73e1d1ca9543f772ad480cbd76f4e3fe3f8cc",
+        "bytes": 258992
+      },
+      {
+        "path": "Inter Desktop/Inter-SemiBold.otf",
+        "sha256": "8c1990b6012254ea2b487161697d107357dd0ee55811cfd91c8c11227bbef457",
+        "bytes": 270760
+      },
+      {
+        "path": "Inter Desktop/Inter-SemiBoldItalic.otf",
+        "sha256": "404251faffd4c55dfcb53007e7afb9d5c2891584c842165e35050345ab97744b",
+        "bytes": 279536
+      },
+      {
+        "path": "Inter Desktop/Inter-Thin.otf",
+        "sha256": "4d9bb6a256c5a9a4f3c7a7f5f27eb0f7e849a1ceee20638d44c9073b41a0b015",
+        "bytes": 257356
+      },
+      {
+        "path": "Inter Desktop/Inter-ThinItalic.otf",
+        "sha256": "e8ecee2030f42da7214c7d5dae3c9c29dfb5e728c7f14020b4ce813da6aff12d",
+        "bytes": 269448
+      },
+      {
+        "path": "Inter Desktop/Inter-V.ttf",
+        "sha256": "69b1af837d101ab90b003d61d4ccc5e5320a6dcaefeb69906fa31c01a06e5837",
+        "bytes": 805396
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-Black.ttf",
+        "sha256": "53a941c664bba47e36a20fe71e89eae3cc92c47b5acb85d7436c39758ddaf530",
+        "bytes": 720988
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-BlackItalic.ttf",
+        "sha256": "44da566c7fdde3e2e6da0d3828788f4edefae84798baa9488c89333d87cbfb27",
+        "bytes": 735120
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-Bold.ttf",
+        "sha256": "e6c172fd8a2f957414a7a63ec8deb7f2aa239182394cfa5ee2ea6927c6194389",
+        "bytes": 715204
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-BoldItalic.ttf",
+        "sha256": "858eff8227a495097364ad2b90fb4602c4f55ddec01663b61d7391fe51266322",
+        "bytes": 732964
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-ExtraBold.ttf",
+        "sha256": "e86e6fc54d1468bde5175c02d2193c2431fbed50b168c0a58738ebb81473c428",
+        "bytes": 746208
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-ExtraBoldItalic.ttf",
+        "sha256": "bf1e7381432fcfd907b46da3bf7b139a05ad32daab7bc81369f5fab0f4b09fac",
+        "bytes": 757300
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-ExtraLight.ttf",
+        "sha256": "c47ce8df0d6921ef13dca21244e87c8c3f04f60d5079617ba0717a938bbb51d7",
+        "bytes": 671148
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-ExtraLightItalic.ttf",
+        "sha256": "b706dec4fe032f6c6f1cb06fd4be1c54a9259bb4bbcf75060f6b30a25dfb04f1",
+        "bytes": 694724
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-Italic.ttf",
+        "sha256": "1cbe9c8cd83a2b04a0b8bd7b0ff1372a56e0935feea33aa132d91c2899291542",
+        "bytes": 699224
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-Light.ttf",
+        "sha256": "d253c410f4d0fd7f16d7b2ecaea19b60fb877cb94f5b2752fda272a3a86fa908",
+        "bytes": 675196
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-LightItalic.ttf",
+        "sha256": "692fc1f9f083ca8025f972c65718304ff43e4c10d6ad3d790005e5cfe5d4ae8c",
+        "bytes": 698232
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-Medium.ttf",
+        "sha256": "6df88fcb83ac96582350f801355c6eff55f15710093e9627fb431caa40521151",
+        "bytes": 694512
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-MediumItalic.ttf",
+        "sha256": "2188c12b90e2970f97adf7d4946e06eaca8fd3cf1566cae60cfc72135781aa1f",
+        "bytes": 716704
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-Regular.ttf",
+        "sha256": "529be850e06f62f8904f22bda77e45bde4834498fdbec4ff4201fa3177447a3a",
+        "bytes": 680240
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-SemiBold.ttf",
+        "sha256": "2de533bda937a063c595b07c6bd9b70c8c5087d0649a1c8330f7ac11fcc05602",
+        "bytes": 710040
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-SemiBoldItalic.ttf",
+        "sha256": "f395cf9f5f9fecc85def61244d2439eeefff62adcdb67cbd8ffcc09e7cca2a22",
+        "bytes": 729744
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-Thin.ttf",
+        "sha256": "880b9e6e8936d828ff72139e5d885e35cc1c2aabe05e1d2df233b5ef33414da6",
+        "bytes": 636620
+      },
+      {
+        "path": "Inter Hinted for Windows/Desktop/Inter-ThinItalic.ttf",
+        "sha256": "b798a4503d83584304827a802006034cf703c1d679f9a11dfdb489b662d0874a",
+        "bytes": 658780
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-Black.woff",
+        "sha256": "ef74edb7d5a2b9c2c2f9d72adad51e9825928688f66c900834b57f11695ebcb6",
+        "bytes": 260392
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-Black.woff2",
+        "sha256": "4a457d329f9481fde9e9bc64089c462c6358fcd50dd32e61d89242fad5f8ab26",
+        "bytes": 178212
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-BlackItalic.woff",
+        "sha256": "9da1a8193a97c16e7646b71a9a1ab0ebad88cfcbf62ad62e96cff5ec846fa0a7",
+        "bytes": 269820
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-BlackItalic.woff2",
+        "sha256": "526769f123ec8da15a64426d157fe830c0b0611d7c9b6376627e336a2c943454",
+        "bytes": 182928
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-Bold.woff",
+        "sha256": "956a11879e03e3ce79d69ce8cfcbd4566b209dca3dd8f0d034446376408f3feb",
+        "bytes": 261084
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-Bold.woff2",
+        "sha256": "0f624904bc09600a1ed87541d19ce1bc4a664602b75e89c4f901d65e939471a7",
+        "bytes": 177900
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-BoldItalic.woff",
+        "sha256": "b133c957ed5a8f6c17dfbe1ba0935c3089f2618820a8eebcc2ead5fc2ab78925",
+        "bytes": 270928
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-BoldItalic.woff2",
+        "sha256": "d6d00e9677c4ab92c2c6bed3b113428cfbde71f8858bc4c7c25c17420d5ebb75",
+        "bytes": 183760
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-ExtraBold.woff",
+        "sha256": "0c90e4b7405104e96baeeb79d0e968a7e16b55fd0ad17d9514655505ad9ec4a6",
+        "bytes": 265652
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-ExtraBold.woff2",
+        "sha256": "5134a7871bb6deec7e9b82c52e0a71c6f6a3fbc356ba79fe18980b9e768b9da6",
+        "bytes": 181316
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-ExtraBoldItalic.woff",
+        "sha256": "d0b207b90052e9ac1ff1ec6903d5dcf0b1d19e9e03746cf64a948de03342c9b7",
+        "bytes": 274616
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-ExtraBoldItalic.woff2",
+        "sha256": "60a98e7a9f528542a69eee8a2d13c89f2c780374a595454fdb361cbc7ad1472f",
+        "bytes": 186564
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-ExtraLight.woff",
+        "sha256": "7fa38cf5becec78eaaba389a9e5d4b85dc1deb289339953bcc3eed4142eb8a31",
+        "bytes": 246476
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-ExtraLight.woff2",
+        "sha256": "4513aa573b60cadcf4c8b45caf954fa8ec2da4974bdfb5505d9f731d54c93fd5",
+        "bytes": 167628
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-ExtraLightItalic.woff",
+        "sha256": "94e7ab0e5962cef57736fbde14a138ca7c0475c586f29fa7568a5491b0b6fe01",
+        "bytes": 259564
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-ExtraLightItalic.woff2",
+        "sha256": "3a8bd04cb97272bb12802236a5231c629fdb8034cc3920b872d5017c736a5a46",
+        "bytes": 175392
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-Italic.woff",
+        "sha256": "5351fdd6f27bef1328602a0c63ad0bfa8c088bb64a95e71c917cbcf1f6920c67",
+        "bytes": 259444
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-Italic.woff2",
+        "sha256": "058446d669a8f7d50cf8403b1f9ae9a9f1bf38d56e613439670b4a7d48ccd79f",
+        "bytes": 176020
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-Light.woff",
+        "sha256": "c5642adf49dc741d7e4280e6a5d74a985c73f35c38b863ecfafd473ba6f3f1ed",
+        "bytes": 246980
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-Light.woff2",
+        "sha256": "9a466ef89e601732e8cbf3d6f3931f11473a4c684b2db941e25a2308f25945df",
+        "bytes": 168176
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-LightItalic.woff",
+        "sha256": "86052a9c0f4e334652f9e5af08f2a07595cb8c0cca778772c08a84f23be56ed5",
+        "bytes": 261068
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-LightItalic.woff2",
+        "sha256": "9f43752c94928faa5f28622f6b1c984967106618ac353583a311b01453d2d163",
+        "bytes": 177000
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-Medium.woff",
+        "sha256": "460490cb548b0e8e7db6ff505d311015f202c3c559794edbdf97443f9a5f5f91",
+        "bytes": 256312
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-Medium.woff2",
+        "sha256": "e1526ba450b69b9455760e05ab3b716e634778d3d3bb222ef78f9b4a54adf55f",
+        "bytes": 174680
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-MediumItalic.woff",
+        "sha256": "e086602947982236dc4a0e26d60822a92088a610a10f0dc4351fa962cb7b8fa9",
+        "bytes": 268684
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-MediumItalic.woff2",
+        "sha256": "35f456b26eb74ea5409c9d12a30f5c884cc33a12c03d3856abe6fda876d66b58",
+        "bytes": 181884
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-Regular.woff",
+        "sha256": "17623a90b770c7b762fce4d6d261a01a9e4e58d13426ce09bc0b452e60fd307a",
+        "bytes": 245736
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-Regular.woff2",
+        "sha256": "c54a9457000c68361e4937142b57fca658840150f958fbcc0fa456bc1f0410cf",
+        "bytes": 167924
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-SemiBold.woff",
+        "sha256": "c56631533519c23486dbc41c66258a1e5fec2bace67e64c22b9fa3ce4861d6d1",
+        "bytes": 259404
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-SemiBold.woff2",
+        "sha256": "3fdd9c4940a0e28927c727bd3c57fa81a5902a53918405c2d128be69d048dc32",
+        "bytes": 177076
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-SemiBoldItalic.woff",
+        "sha256": "1f3734a459d9e2a646827b353a7f9dcda61a3b6ef69d1944742d5f672bceea7e",
+        "bytes": 271156
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-SemiBoldItalic.woff2",
+        "sha256": "9dda36d883698f15245cb53d9131c828d5c20a0e9ce60c57a851c67ce20186c6",
+        "bytes": 184072
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-Thin.woff",
+        "sha256": "480f30311cdbb45ea81e2557c758ec511f74e1a8fdec6717eb86e2bae426d9b8",
+        "bytes": 234488
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-Thin.woff2",
+        "sha256": "69a2dc75f7fe61642b3748912c7c99f38984dcb7ad32fab314eff76a68b14e90",
+        "bytes": 158580
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-ThinItalic.woff",
+        "sha256": "9debdfd9c010df9c597d30222c3ae7f548470b67a404c8d10bbaa09527159fb9",
+        "bytes": 247608
+      },
+      {
+        "path": "Inter Hinted for Windows/Web/Inter-ThinItalic.woff2",
+        "sha256": "7a3f2a119b0194557787121eed972719a887b9129125a774134e158adf01d5c6",
+        "bytes": 166728
+      },
+      {
+        "path": "Inter Variable/Inter.ttf",
+        "sha256": "9ee35efa458e90e993897c32c5101bd9e0b14d6d40716798aa8ce426216e72a9",
+        "bytes": 805360
+      },
+      {
+        "path": "Inter Variable/Single axis/Inter-italic.ttf",
+        "sha256": "ae7f78865f4e4c77c50f1ee0fbe603665e48539c3da815c04d99ffec8afc3c6d",
+        "bytes": 613300
+      },
+      {
+        "path": "Inter Variable/Single axis/Inter-roman.ttf",
+        "sha256": "459fb40d1d555bc6cbc944de94a8c400fdb5126fc325753dfa027d5555583bbd",
+        "bytes": 601792
+      },
+      {
+        "path": "Inter Web/Inter-Black.woff",
+        "sha256": "8b21d5bec8586bbb327d16e37bfcbd6916f9a1cb9bcfb78be9071c6577d28f6f",
+        "bytes": 138764
+      },
+      {
+        "path": "Inter Web/Inter-Black.woff2",
+        "sha256": "fc10113c4619d729ad5cbf23434a0967817d80bf05ce3d6a752100bd7f5bb14b",
+        "bytes": 102868
+      },
+      {
+        "path": "Inter Web/Inter-BlackItalic.woff",
+        "sha256": "87235581cb667b25a58ac60c71f40ffc1585c439861e74807f44263d29057d2f",
+        "bytes": 146824
+      },
+      {
+        "path": "Inter Web/Inter-BlackItalic.woff2",
+        "sha256": "bc80081d1b8c704d4a2acc541aa3b2e71dbfa9eacdc1c15eea9a6e06546a455e",
+        "bytes": 108752
+      },
+      {
+        "path": "Inter Web/Inter-Bold.woff",
+        "sha256": "3e24208007d86f8c99149b8f0425be22e32524534002f1e0c6987e3b3d32199d",
+        "bytes": 143208
+      },
+      {
+        "path": "Inter Web/Inter-Bold.woff2",
+        "sha256": "c63158babcb7902203ed73476ccf901db34825ea524d4a36a52b5e5f97e1abf7",
+        "bytes": 106140
+      },
+      {
+        "path": "Inter Web/Inter-BoldItalic.woff",
+        "sha256": "ace8e0946757b53579185500e1ca66a8950cf1c93c8d74e88c55a238aa476b0a",
+        "bytes": 151052
+      },
+      {
+        "path": "Inter Web/Inter-BoldItalic.woff2",
+        "sha256": "3f211964817c633da5c9bddaf4da971d77b3dcf2048bc89cbd0ed80db5dda99d",
+        "bytes": 111808
+      },
+      {
+        "path": "Inter Web/Inter-ExtraBold.woff",
+        "sha256": "f053602c2c4591030830b3e74c6928a9d7054843a7bb0e0717dfa32d572bf33f",
+        "bytes": 142920
+      },
+      {
+        "path": "Inter Web/Inter-ExtraBold.woff2",
+        "sha256": "307d980962214ffa01b106339edcb5d2e6ef3a9607b9b815bb7287d2c735c68f",
+        "bytes": 106108
+      },
+      {
+        "path": "Inter Web/Inter-ExtraBoldItalic.woff",
+        "sha256": "6deefddf7ac89f6f53f242a61c9815b3329ab1a76f4ce18a623baefbe3f89fe2",
+        "bytes": 150628
+      },
+      {
+        "path": "Inter Web/Inter-ExtraBoldItalic.woff2",
+        "sha256": "cf6b1d6cc9a72c12e8276c2544bbd1c81fb337b80c760d9482a5ccfbc8203b66",
+        "bytes": 111708
+      },
+      {
+        "path": "Inter Web/Inter-ExtraLight.woff",
+        "sha256": "015dad27236811e059dadc97e0a144ed5ef3f7ebc7be4997972fbe92077869dc",
+        "bytes": 140724
+      },
+      {
+        "path": "Inter Web/Inter-ExtraLight.woff2",
+        "sha256": "b6cd094ac0266d57a2ad005d1e2e2125cfd2475cd816b33e4774795d14242afc",
+        "bytes": 104232
+      },
+      {
+        "path": "Inter Web/Inter-ExtraLightItalic.woff",
+        "sha256": "32e53d8a6a7a5661f5249d31ac84d422cfacf92c825d24ac6aa270cd69f869f6",
+        "bytes": 149996
+      },
+      {
+        "path": "Inter Web/Inter-ExtraLightItalic.woff2",
+        "sha256": "db229bf3f23243c477b99a004f00421d6a6a46fe0229673ed3f4cfecbd2b572b",
+        "bytes": 111392
+      },
+      {
+        "path": "Inter Web/Inter-Italic.woff",
+        "sha256": "cd1eda977987edbf87fb89d8b7bc48718217460a3babc7d11429e878eb3afa2e",
+        "bytes": 144372
+      },
+      {
+        "path": "Inter Web/Inter-Italic.woff2",
+        "sha256": "900058dffaf216c9a853e2d7e4109bfa2a58994237b2d4e5793734e4c2ecb4ac",
+        "bytes": 106876
+      },
+      {
+        "path": "Inter Web/Inter-Light.woff",
+        "sha256": "4871aed072df62f0ede71318da0e04baf1d9440a45a78bc0ce906852e9ff2ad2",
+        "bytes": 140632
+      },
+      {
+        "path": "Inter Web/Inter-Light.woff2",
+        "sha256": "36b86832422c8b2f8eb7a0de635369c10fcebbeb8d3a0f80edeacf8252bfd6da",
+        "bytes": 104332
+      },
+      {
+        "path": "Inter Web/Inter-LightItalic.woff",
+        "sha256": "7d291e859da395d0c5f7439fdbfc332784094f05824bef03d344c78243d523f3",
+        "bytes": 150092
+      },
+      {
+        "path": "Inter Web/Inter-LightItalic.woff2",
+        "sha256": "737ac201e9a60a94abbfc409036ce5591ad330bb28e50df2c1b381c106de05f4",
+        "bytes": 111332
+      },
+      {
+        "path": "Inter Web/Inter-Medium.woff",
+        "sha256": "53deda460acaea14863a06c034744da8207fa696f3cc7958dc9d99e77ac452dc",
+        "bytes": 142552
+      },
+      {
+        "path": "Inter Web/Inter-Medium.woff2",
+        "sha256": "1b498b959e5b7decbf9185803591d25bc1fbf83e798372ed30d32d5c79d82ff6",
+        "bytes": 105924
+      },
+      {
+        "path": "Inter Web/Inter-MediumItalic.woff",
+        "sha256": "205c8989618637ea98df21b8379e74671f599612cb13623e2ce13a557a3166e0",
+        "bytes": 150988
+      },
+      {
+        "path": "Inter Web/Inter-MediumItalic.woff2",
+        "sha256": "816008586a180c0037b4ec1b5f45e08fe8fdbedec770f5d715339cd70accf118",
+        "bytes": 112184
+      },
+      {
+        "path": "Inter Web/Inter-Regular.woff",
+        "sha256": "ef1f23c01b18f45995df6ad0c206c36660b6f50a0df25d12c000ce63df9c66dd",
+        "bytes": 133844
+      },
+      {
+        "path": "Inter Web/Inter-Regular.woff2",
+        "sha256": "d612f1212b452af07f1a5defb2b672e76a91f7139e7499fa48bb9b2b985c22d6",
+        "bytes": 98868
+      },
+      {
+        "path": "Inter Web/Inter-SemiBold.woff",
+        "sha256": "653fed7a93046f1178f252570958104ad64a670d71e29518d0998dc0d7551fca",
+        "bytes": 142932
+      },
+      {
+        "path": "Inter Web/Inter-SemiBold.woff2",
+        "sha256": "152261291c938aa5aad6a56d52b47ffcb893d1c0387e76d7f270a7382ff786d5",
+        "bytes": 105804
+      },
+      {
+        "path": "Inter Web/Inter-SemiBoldItalic.woff",
+        "sha256": "95e68b6bc5a30ecc28a393a88f1be6afde4dcf05787d7a1d8c0c591760ae3c53",
+        "bytes": 151180
+      },
+      {
+        "path": "Inter Web/Inter-SemiBoldItalic.woff2",
+        "sha256": "3b6df7d05e725d5982f8525531129a0a840905f7e12be845daeaa3ff7c821033",
+        "bytes": 112048
+      },
+      {
+        "path": "Inter Web/Inter-Thin.woff",
+        "sha256": "e6bced8e0c7655fae96c33ff4208369ebd83730149b202f8c9a1be70970f2cb2",
+        "bytes": 135920
+      },
+      {
+        "path": "Inter Web/Inter-Thin.woff2",
+        "sha256": "77d96c1c4720112317af9b3b1bdd44a674dd3ce80a12779e8a315eeb2011c575",
+        "bytes": 99632
+      },
+      {
+        "path": "Inter Web/Inter-ThinItalic.woff",
+        "sha256": "70648e9b367d1e36eea13b71a1ace5bf65fb56b864f3e2bb0455a4a9e7d41f0c",
+        "bytes": 145480
+      },
+      {
+        "path": "Inter Web/Inter-ThinItalic.woff2",
+        "sha256": "d82beee8990b1b658a2272dd5efae0e9968c801d1894c8c4627545744e80ed2c",
+        "bytes": 106496
+      },
+      {
+        "path": "Inter Web/Inter-italic.var.woff2",
+        "sha256": "d1401419dc30587008d4d7fe1230ca068442635ef9b46538e515725d68e0791a",
+        "bytes": 245036
+      },
+      {
+        "path": "Inter Web/Inter-roman.var.woff2",
+        "sha256": "17fe38ab302c7e5dbfb5c3d87801092d79be958500db6412ed3bc0f126bd53d3",
+        "bytes": 227180
+      },
+      {
+        "path": "Inter Web/Inter.var.woff2",
+        "sha256": "85f08b5f51e36ca7e961a033c6bb61d7f0e44aa0984646383ecac648e98fdcc8",
+        "bytes": 324864
+      }
+    ],
+    "exactBundledMatches": [],
+    "candidateLicensePath": "comparisons/Inter-3.19.zip.LICENSE.txt"
+  },
+  {
+    "url": "https://github.com/googlefonts/roboto-3-classic/releases/download/v3.008/Roboto_v3.008.zip",
+    "sha256": "64c51d5d69c36c9a71dca214cd80b699e637a57d1c19744ef46a23f91347bd24",
+    "archiveFonts": [
+      {
+        "path": "Roboto_v3.008/android/Roboto[ital,wdth,wght].ttf",
+        "sha256": "efcff74e4f23d0b85578bbe9341bc5ec2ee40b3df03b794d83c4f2254b558acf",
+        "bytes": 2411056
+      },
+      {
+        "path": "Roboto_v3.008/android/static/Roboto-Black.ttf",
+        "sha256": "19dadaa7d62c4a34ce1ec94ea93b0d6c4176351b4148ce1e9742a06be6984709",
+        "bytes": 366384
+      },
+      {
+        "path": "Roboto_v3.008/android/static/Roboto-BlackItalic.ttf",
+        "sha256": "c6f6e50885cbe2b914deb51941e9aecdbac1c9d36251b7f44ebb133f46324afc",
+        "bytes": 386500
+      },
+      {
+        "path": "Roboto_v3.008/android/static/Roboto-Bold.ttf",
+        "sha256": "5564c26b8c8e6fdd988691ff356e97dcccc9da0821eb031977f37e826e66271b",
+        "bytes": 366328
+      },
+      {
+        "path": "Roboto_v3.008/android/static/Roboto-BoldItalic.ttf",
+        "sha256": "e2d5dcc0672a12f377175b7cd0b894e47ccd38d662013df33c72b63fc53c237f",
+        "bytes": 386120
+      },
+      {
+        "path": "Roboto_v3.008/android/static/Roboto-Italic.ttf",
+        "sha256": "0e79a26518f90912e1bbadedb7d5dc7afea44dfb477aad825e676c623de9822a",
+        "bytes": 382468
+      },
+      {
+        "path": "Roboto_v3.008/android/static/Roboto-Light.ttf",
+        "sha256": "7b5c4009e851690c76714e10ccc07dd131f8bfe988b053828198c709038a63ab",
+        "bytes": 364436
+      },
+      {
+        "path": "Roboto_v3.008/android/static/Roboto-LightItalic.ttf",
+        "sha256": "f6c5877323aeb643127612de0f67f581821ddb3aac2c97adc9d59ea4813448b3",
+        "bytes": 381600
+      },
+      {
+        "path": "Roboto_v3.008/android/static/Roboto-Medium.ttf",
+        "sha256": "b1d85bce42aedb9adee1ca7814d0c3e98434c65e686617e976de0b183efa940c",
+        "bytes": 363656
+      },
+      {
+        "path": "Roboto_v3.008/android/static/Roboto-MediumItalic.ttf",
+        "sha256": "8106ad95beed78e84288162643ed98f922c08c3bdaa2f8c9040e27a3fe192c9b",
+        "bytes": 383168
+      },
+      {
+        "path": "Roboto_v3.008/android/static/Roboto-Regular.ttf",
+        "sha256": "90cc44da89f2e015479b776fad22ae18c393d57d9c2ca9c471707fdfa29ea561",
+        "bytes": 363252
+      },
+      {
+        "path": "Roboto_v3.008/android/static/Roboto-Thin.ttf",
+        "sha256": "112d321070484acd75a115638b4f001f9e2f308e92ef03991c2246779c09ea71",
+        "bytes": 363460
+      },
+      {
+        "path": "Roboto_v3.008/android/static/Roboto-ThinItalic.ttf",
+        "sha256": "bc201683f071aa2389e20227d784eecfa0637764514170ea8f5f0a793883c5c8",
+        "bytes": 378244
+      },
+      {
+        "path": "Roboto_v3.008/android/static/RobotoCondensed-Bold.ttf",
+        "sha256": "a70a93d534e06f2f9985254e5fae0278c4d574cafa86351c7a5be4e9810c0eab",
+        "bytes": 365164
+      },
+      {
+        "path": "Roboto_v3.008/android/static/RobotoCondensed-BoldItalic.ttf",
+        "sha256": "fc743c96cef84fc760cd553ddd17e3be607e85516e13ea73d5851af3af5159b3",
+        "bytes": 384116
+      },
+      {
+        "path": "Roboto_v3.008/android/static/RobotoCondensed-Italic.ttf",
+        "sha256": "08fc5197353979e96b1002fc2dc576e21500c64e302f14f7370d8197b292c9e9",
+        "bytes": 383000
+      },
+      {
+        "path": "Roboto_v3.008/android/static/RobotoCondensed-Light.ttf",
+        "sha256": "2c54bbc40c129580bb1a889bd4416913898766a809f9b42729d70d29f0d9bbf5",
+        "bytes": 363672
+      },
+      {
+        "path": "Roboto_v3.008/android/static/RobotoCondensed-LightItalic.ttf",
+        "sha256": "21e1af8c0464995c1f420bddb468ba735704c3cc71f72931888a17fd386197e0",
+        "bytes": 382520
+      },
+      {
+        "path": "Roboto_v3.008/android/static/RobotoCondensed-Medium.ttf",
+        "sha256": "510062634b71340ab1a921022d3ddc8a9e45870e9ce367c603bd65459fae1524",
+        "bytes": 362552
+      },
+      {
+        "path": "Roboto_v3.008/android/static/RobotoCondensed-MediumItalic.ttf",
+        "sha256": "ce05980e84de245a460c83f08cefcf277f5159ab7fd4712670bf7cc5cb74c834",
+        "bytes": 382340
+      },
+      {
+        "path": "Roboto_v3.008/android/static/RobotoCondensed-Regular.ttf",
+        "sha256": "43e58782f8dec46eb4d9bdc6765dd9c8292aa81c1f62cd43befa9db1528214aa",
+        "bytes": 362376
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/Roboto[ital,wdth,wght].ttf",
+        "sha256": "bc0fa893cd23f8781195247d7d088b0390cde2926374943762a6c0260855904c",
+        "bytes": 2476728
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/Roboto-Black.ttf",
+        "sha256": "3f06827a760b90d3b2e9fbff3d746325116626df2903c635184d5cb109af92f2",
+        "bytes": 432044
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/Roboto-BlackItalic.ttf",
+        "sha256": "761eb672c6eadd8a7ae16d8b69b4ff5cc93e290b18ab16e593866976409a2ff4",
+        "bytes": 452148
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/Roboto-Bold.ttf",
+        "sha256": "59b14c5fcfadb3aa886296afcd763382c153f8dd6dfaeceef95cc295468b76e3",
+        "bytes": 431988
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/Roboto-BoldItalic.ttf",
+        "sha256": "fc42cfa01264440e5dd87f7305858168685145bbd1f7564be5bdcc59aa3368d8",
+        "bytes": 451768
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/Roboto-Italic.ttf",
+        "sha256": "f284ee51bf6dd54ec0f0b9e3b1831e887474668dd60bdc10cfcff8ee625b68ff",
+        "bytes": 448124
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/Roboto-Light.ttf",
+        "sha256": "2d1b666e3ac3cc5069908d91f5c0a4858ac46e3077a733bc02bc1a9d256d22bd",
+        "bytes": 430096
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/Roboto-LightItalic.ttf",
+        "sha256": "7d56abd4660eb396703680ff0e775d4905a892cb8f2dbb4545f728110f73b573",
+        "bytes": 447248
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/Roboto-Medium.ttf",
+        "sha256": "3e97beecb77b59cd02ed9f879db8782d77d5e46f4fa0cd24f0a0de47f6b845b4",
+        "bytes": 429316
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/Roboto-MediumItalic.ttf",
+        "sha256": "87424a66de96c5125a9b57149c58242a8c5bed2816d49a84fb32817e46645b25",
+        "bytes": 448812
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/Roboto-Regular.ttf",
+        "sha256": "e8ddc07f50f467a19cde9ec1a04f68a0fa11fa90082629c4876111559bfe075d",
+        "bytes": 428924
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/Roboto-Thin.ttf",
+        "sha256": "d1b14b7f944e434e5144215ad2414bc7d542038072d428967ac02492d566804d",
+        "bytes": 429124
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/Roboto-ThinItalic.ttf",
+        "sha256": "b02c0b3c8562d49554f694b0a064b2e804f679f4ed542e446be132ae7043b5f0",
+        "bytes": 443892
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/RobotoCondensed-Bold.ttf",
+        "sha256": "27ed176f230ffe7506642cfbff78ee2424df1f2ac4c4c2d9a3e8d5c72a614ef8",
+        "bytes": 430808
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/RobotoCondensed-BoldItalic.ttf",
+        "sha256": "59928ace8cbbc846c475941ad3388ddfe292a7fdac7597e218c1626eaa5876bd",
+        "bytes": 449744
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/RobotoCondensed-Italic.ttf",
+        "sha256": "b6c98636943c8ba0e0b1ae99fb0fb2af88d3db8f729c6d4933d973d8f8b227ed",
+        "bytes": 448640
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/RobotoCondensed-Light.ttf",
+        "sha256": "9c7160c8e7aa924a29d0498c7a6f8b5b08c54925356fbd63572e8754c3af547a",
+        "bytes": 429312
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/RobotoCondensed-LightItalic.ttf",
+        "sha256": "4ace109f002653119435f7788f00e3dd56d89ac78b0692ac1d99c2f87513e492",
+        "bytes": 448144
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/RobotoCondensed-Medium.ttf",
+        "sha256": "187a4b5976399d8d2e372533ce341de4a0a60dcc243199b0cad48e23202fbd60",
+        "bytes": 428188
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/RobotoCondensed-MediumItalic.ttf",
+        "sha256": "fd749d36053351a35f485ce5e85686c685d74f5181ed275b3426c30295ac5a27",
+        "bytes": 447964
+      },
+      {
+        "path": "Roboto_v3.008/chromeos/static/RobotoCondensed-Regular.ttf",
+        "sha256": "893c71a3795506fe6e9d6000b9307ce105db79646ced23d6d315f0d3a0ad46cd",
+        "bytes": 428028
+      },
+      {
+        "path": "Roboto_v3.008/hinted/Roboto[ital,wdth,wght].ttf",
+        "sha256": "1f10e72584a2c2856e5fb573104e1edbdd0e4eb3b6fa902618ac07bd1059d78e",
+        "bytes": 2534244
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/Roboto-Black.ttf",
+        "sha256": "3961c650051b7848bb60e44db2bb6654db886fc89977778cbf9881d9e37b1b27",
+        "bytes": 472860
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/Roboto-BlackItalic.ttf",
+        "sha256": "c338cb9bfb567fcfa6029549398ec3ccb472ffd5fc1e13328514e9bba14d6504",
+        "bytes": 493136
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/Roboto-Bold.ttf",
+        "sha256": "e5e25c1e60acd802b2921e21f162dfeb0438ee344d68831191688a8f57b60117",
+        "bytes": 472792
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/Roboto-BoldItalic.ttf",
+        "sha256": "415341061c614a6310c7163fc9b872c6cc79d2e3e4367d9d13cd0ea23c4f1178",
+        "bytes": 492732
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/Roboto-Italic.ttf",
+        "sha256": "a4b319ae8e59abf8a23cd36a30a1b7c8602891642a0bcacbf12b76e1f0de8fa6",
+        "bytes": 489064
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/Roboto-Light.ttf",
+        "sha256": "8a9b08ab05706cadcb871b05cd3ad6452220f1951b654f333f1fb5499045c81d",
+        "bytes": 470876
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/Roboto-LightItalic.ttf",
+        "sha256": "16098e3c610b202436c13b5f4d6e8565a0d392d0de551c37c55b289a6b8c493d",
+        "bytes": 488204
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/Roboto-Medium.ttf",
+        "sha256": "c16e3d3e5ebdbed13b9a925c72aa6b89a36241832b80ff60c93f30447d4d6852",
+        "bytes": 470104
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/Roboto-MediumItalic.ttf",
+        "sha256": "8b5897461608b8ccb4edac6252d989f8557a00f50256b98459dac504042f6a52",
+        "bytes": 489784
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/Roboto-Regular.ttf",
+        "sha256": "cd5f0e8bf02805fa7dbb704f4d3e745d4d569c2cfe6f126d47b071674792b7b8",
+        "bytes": 469704
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/Roboto-Thin.ttf",
+        "sha256": "ea593f445d2059838bfda445fc0f3cf4a2cdce6b7787f183d9204879c7bc7502",
+        "bytes": 469900
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/Roboto-ThinItalic.ttf",
+        "sha256": "05edc1c5af2e010b673e3a355c736118abb62f7c4f1e4692281208c489cbf939",
+        "bytes": 484804
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/RobotoCondensed-Bold.ttf",
+        "sha256": "dbdb744bb15be1c65a491d05753c8717dde034ae3c37c590a6b0c53ff3458a33",
+        "bytes": 471632
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/RobotoCondensed-BoldItalic.ttf",
+        "sha256": "3cd0f85fb00205394b2795cf6dce4658b293fcdcf2704b15ff76af330047f802",
+        "bytes": 490736
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/RobotoCondensed-Italic.ttf",
+        "sha256": "10f4d05553f591435db8f62373361c5126192b95d6f4375f599a26ee2d1f241a",
+        "bytes": 489604
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/RobotoCondensed-Light.ttf",
+        "sha256": "a1f7e75c6ef26146f646d3e531e12335fa6cdec5ef4b2068ddaa16c6cd8ea2c7",
+        "bytes": 470108
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/RobotoCondensed-LightItalic.ttf",
+        "sha256": "69ea4f2c8c69130d6b69d0294c19e54a207e7f541068f1e98ad7e0eb4804524d",
+        "bytes": 489120
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/RobotoCondensed-Medium.ttf",
+        "sha256": "05c3af935b32be3ac46270d8e6a4c37b55fb4e8cc5407e5165afe46b85de70db",
+        "bytes": 468996
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/RobotoCondensed-MediumItalic.ttf",
+        "sha256": "ab99a2fe4dc01ca22d8a40b0fc0fdaeb0879323832bb648965eb0fc777c312f9",
+        "bytes": 488956
+      },
+      {
+        "path": "Roboto_v3.008/hinted/static/RobotoCondensed-Regular.ttf",
+        "sha256": "5d4b57bbd49d25520cbd6f9be56053be85a050149e4f41f5ba47cb1463314086",
+        "bytes": 468824
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/Roboto[ital,wdth,wght].ttf",
+        "sha256": "5f5eb7ab92f14970646e7bfd507176c001651b6d7bd1801b73c9f3aedc14c6bd",
+        "bytes": 2468660
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/Roboto-Black.ttf",
+        "sha256": "a2ab6979edb2691a4a99fbb18015dfce589ec5758bba428d41c5848987d8be89",
+        "bytes": 406500
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/Roboto-BlackItalic.ttf",
+        "sha256": "5a121a8c1aff5ff1ee67c11c5929773aa971deb8f91df65fa98b29cc26adb3af",
+        "bytes": 426772
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/Roboto-Bold.ttf",
+        "sha256": "ac27be196007b0d1e53cdf86c8d400200322e1487eebc0c64ba02e8a3b160666",
+        "bytes": 406428
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/Roboto-BoldItalic.ttf",
+        "sha256": "8363b13772c6b6b5eac8b8e125faed3573315714e2f9f8b8463bdff401a539b2",
+        "bytes": 426368
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/Roboto-Italic.ttf",
+        "sha256": "8d272bcacb606525b0c01b0fb5dabdf502dc9a0f1fbdecbcd35a6df4bb96b813",
+        "bytes": 422704
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/Roboto-Light.ttf",
+        "sha256": "2293aba57b62f997befed1c1ac36b824d090327e42b12d404511d8ab4757dfe6",
+        "bytes": 404516
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/Roboto-LightItalic.ttf",
+        "sha256": "5bfa51f98efe9bec00334880bcd3231608d8a757e28e7bf1a3d0fdaa02db811e",
+        "bytes": 421840
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/Roboto-Medium.ttf",
+        "sha256": "a603e9506911f11aa01927d486352fedf50342fe8faae4e8cef299541cb8bc5f",
+        "bytes": 403744
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/Roboto-MediumItalic.ttf",
+        "sha256": "8fb88201a1887ab0ce6c74e2af61f05337217b004476167e0b8fa9cf4f82f612",
+        "bytes": 423424
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/Roboto-Regular.ttf",
+        "sha256": "5f0661b2eb40ab40741a25bac48a402bcd1aa26711bae37b73d72df84756acc0",
+        "bytes": 403340
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/Roboto-Thin.ttf",
+        "sha256": "60e97b0e7834f62ee395773f9e9e11ecc42443329f53b3258ead0c35b23dadff",
+        "bytes": 403536
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/Roboto-ThinItalic.ttf",
+        "sha256": "328083acd88220c5287371fda5e95439bbf8c22ce64aa948c660bcf6f8110db3",
+        "bytes": 418440
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/RobotoCondensed-Bold.ttf",
+        "sha256": "84cd0492c880414c9d7f1e581ff5f3d83015ab11b310bafb62022e0d7bc5f89b",
+        "bytes": 405268
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/RobotoCondensed-BoldItalic.ttf",
+        "sha256": "14166b109d4a69f5461b0a12fddc55143cc1036f454d848f1c1122c2f418da68",
+        "bytes": 424376
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/RobotoCondensed-Italic.ttf",
+        "sha256": "91b22ac5cf7d118e799370f8484ef10f2ce69d2a715c66f6c246060784aaa9c0",
+        "bytes": 423240
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/RobotoCondensed-Light.ttf",
+        "sha256": "15a59937dbbfbf635b414efbc374299440d76bd7f939de2d51c2c043271f12d7",
+        "bytes": 403744
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/RobotoCondensed-LightItalic.ttf",
+        "sha256": "739296488bc2be17934ff640a2115c466bb743e9e5dd6aea5d549d6d452daf3b",
+        "bytes": 422756
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/RobotoCondensed-Medium.ttf",
+        "sha256": "8bd1b39b9222c78d5ff0299a278818c8c48361998236c624f13e1b1d8d7fcc81",
+        "bytes": 402632
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/RobotoCondensed-MediumItalic.ttf",
+        "sha256": "9102fee86dce6fab0e073fc9981b4d72c565a6893f5aefe19dc1223d8bef16fc",
+        "bytes": 422592
+      },
+      {
+        "path": "Roboto_v3.008/unhinted/static/RobotoCondensed-Regular.ttf",
+        "sha256": "ce520239353f83c016ff7f406ab009081f607a6989c35b05f94f7d82566fac13",
+        "bytes": 402460
+      },
+      {
+        "path": "Roboto_v3.008/web/Roboto[ital,wdth,wght].ttf",
+        "sha256": "00b289155852bf8d4a94ec7b8dc9a11699d33033b29ccbb19379fda0d10f9bc9",
+        "bytes": 793604
+      },
+      {
+        "path": "Roboto_v3.008/web/condensed/RobotoCondensed-Italic[wght].ttf",
+        "sha256": "78f643b1923008b00dfc9b371a2ecd4d80a017722925f1a3fac9940be56d1b7d",
+        "bytes": 388124
+      },
+      {
+        "path": "Roboto_v3.008/web/condensed/RobotoCondensed[wght].ttf",
+        "sha256": "dace262afcee68a5276f200d8026c57221735c0118ab5fda8c2c0d3dc409a8d0",
+        "bytes": 371616
+      },
+      {
+        "path": "Roboto_v3.008/web/split/Roboto-Italic[wdth,wght].ttf",
+        "sha256": "329f2a48cbb124f6cb0a3760ab36b61eb60c7540e2f5b5f99bc0d44dc8adac52",
+        "bytes": 498280
+      },
+      {
+        "path": "Roboto_v3.008/web/split/Roboto[wdth,wght].ttf",
+        "sha256": "d328ce17c6276aadcb15067cb5e45682393ce51eb492a394138e5edb01116374",
+        "bytes": 469128
+      },
+      {
+        "path": "Roboto_v3.008/web/static/Roboto-Black.ttf",
+        "sha256": "321c7914fde66d2c1e9e9d464c9566a9d48e293116fd7bf2cdeb2778511701c2",
+        "bytes": 145340
+      },
+      {
+        "path": "Roboto_v3.008/web/static/Roboto-BlackItalic.ttf",
+        "sha256": "d2e7de3fc15adf7e90aa2494dc244ebcc3c34903952628bc868d7b2bf54f80a9",
+        "bytes": 151132
+      },
+      {
+        "path": "Roboto_v3.008/web/static/Roboto-Bold.ttf",
+        "sha256": "e593094a13e2cd91115160ae175042e3e1127dafbc5c79bfe82b21cab1cfda08",
+        "bytes": 144684
+      },
+      {
+        "path": "Roboto_v3.008/web/static/Roboto-BoldItalic.ttf",
+        "sha256": "011cdfbcd9ac98dd8efedeabe2dd4a54eb9206b33f8cfa75c30b8163ec0fe9ab",
+        "bytes": 150452
+      },
+      {
+        "path": "Roboto_v3.008/web/static/Roboto-Italic.ttf",
+        "sha256": "1174ad5f262dd5c009031832781e281948719be957614049ed5bcf69960ce4a1",
+        "bytes": 149616
+      },
+      {
+        "path": "Roboto_v3.008/web/static/Roboto-Light.ttf",
+        "sha256": "6ede35dd850ecdf9b7f20d245eede734b18bfa79da8d89d0547a49d045007101",
+        "bytes": 144052
+      },
+      {
+        "path": "Roboto_v3.008/web/static/Roboto-LightItalic.ttf",
+        "sha256": "5cdba1e5580f0f94407067fb5669d78dc4c24509e3974dd838d22bf8f68cb5ba",
+        "bytes": 149380
+      },
+      {
+        "path": "Roboto_v3.008/web/static/Roboto-Medium.ttf",
+        "sha256": "1fa3e3d17bcc9c20f921fe2b0e813d0ca36d56249d481c8345a83ad93c4b33d7",
+        "bytes": 144096
+      },
+      {
+        "path": "Roboto_v3.008/web/static/Roboto-MediumItalic.ttf",
+        "sha256": "c07f56a92cac66f83ef66d1bdd708746c69739dde081a6825cd7a845083a5cec",
+        "bytes": 149812
+      },
+      {
+        "path": "Roboto_v3.008/web/static/Roboto-Regular.ttf",
+        "sha256": "e06196e1ff5c40eb6c0daad73d02ece32fcbaae456094d213be228dbd5e62191",
+        "bytes": 143972
+      },
+      {
+        "path": "Roboto_v3.008/web/static/Roboto-Thin.ttf",
+        "sha256": "37d46c0867712ff48a6f1e250ce7c43e1be97df96351c7ca5e14ce4c8b9695e3",
+        "bytes": 143908
+      },
+      {
+        "path": "Roboto_v3.008/web/static/Roboto-ThinItalic.ttf",
+        "sha256": "5fa4f115253cf9e049cb31bc1976eecd13b07b5207496eb1a334d671679ec3e5",
+        "bytes": 148560
+      },
+      {
+        "path": "Roboto_v3.008/web/static/RobotoCondensed-Bold.ttf",
+        "sha256": "e32a3fc8fe7fd6336748c30774361512de9408e0323a2370ead396c8ce53e285",
+        "bytes": 144396
+      },
+      {
+        "path": "Roboto_v3.008/web/static/RobotoCondensed-BoldItalic.ttf",
+        "sha256": "31bb27a9e1e46367570e4849c18856818e89df35becdc850f656f1c70002f3cb",
+        "bytes": 150204
+      },
+      {
+        "path": "Roboto_v3.008/web/static/RobotoCondensed-Italic.ttf",
+        "sha256": "a6daf863bfa92740bb6a470a2f053caad41c0cd100e37cfd6ae8a08f8afa4160",
+        "bytes": 149504
+      },
+      {
+        "path": "Roboto_v3.008/web/static/RobotoCondensed-Light.ttf",
+        "sha256": "9fa370001568a838ead4eba742e679bf21b7011af697b82c2a9ffa5c1b225eb0",
+        "bytes": 143840
+      },
+      {
+        "path": "Roboto_v3.008/web/static/RobotoCondensed-LightItalic.ttf",
+        "sha256": "c2f4f46ee2b68b63f3bfdea795a1adb9a76c3b375ef5f90167b83d4e403942e5",
+        "bytes": 149692
+      },
+      {
+        "path": "Roboto_v3.008/web/static/RobotoCondensed-Medium.ttf",
+        "sha256": "8571b62545a08b988851e791fc0cdcbfee1aa548c0ca20db2e54940899e4d28d",
+        "bytes": 143780
+      },
+      {
+        "path": "Roboto_v3.008/web/static/RobotoCondensed-MediumItalic.ttf",
+        "sha256": "71a54fca9d5bdb5230f0ed6f403631d9e14dafc0c8627ef506b89540e9fbdf4f",
+        "bytes": 149696
+      },
+      {
+        "path": "Roboto_v3.008/web/static/RobotoCondensed-Regular.ttf",
+        "sha256": "72c8c05070c34c56cf77f68826cb747d95da9471fb4c893e86a60ed8a39daea0",
+        "bytes": 143700
+      }
+    ],
+    "exactBundledMatches": [],
+    "candidateLicensePath": "comparisons/Roboto_v3.008.zip.LICENSE.txt"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/googlefonts/Inconsolata/fc1fc21081558b39a2db43bfd9b65bf9acb50701/fonts/ttf/Inconsolata-Regular.ttf",
+    "sha256": "ab56ea18c5c24d2b909261f0c63a14f9576dfabaf2e9ebd353062aa4149cefc7",
+    "exactBundledMatches": []
+  },
+  {
+    "url": "https://raw.githubusercontent.com/googlefonts/Inconsolata/fc1fc21081558b39a2db43bfd9b65bf9acb50701/fonts/ttf/Inconsolata-Bold.ttf",
+    "sha256": "a33bab199e02c06da55d8136746659686f1974c6a390c3bd1ada6361c607ee9a",
+    "exactBundledMatches": []
+  }
+]

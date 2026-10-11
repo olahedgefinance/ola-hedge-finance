@@ -6,6 +6,7 @@ import 'sbom_lib.dart';
 import 'cocoapods_evidence.dart';
 import 'fork_evidence.dart';
 import 'pub_composite_evidence.dart';
+import 'font_evidence.dart';
 export 'sbom_lib.dart';
 
 class ComplianceArtifactBundle {
@@ -197,8 +198,38 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
     );
   }).toList();
 
-  final manualComponents = (manifest['components'] as List<dynamic>)
-      .cast<Map<String, dynamic>>()
+  final fontReviews = verifyFontEvidence(repositoryRoot);
+  final manualRows =
+      (manifest['components'] as List<dynamic>).cast<Map<String, dynamic>>();
+  final fontIds = manualRows
+      .where((r) => r['ecosystem'] == 'font')
+      .map((r) => r['id'])
+      .toSet();
+  if (fontIds.length != fontReviews.length ||
+      !fontIds.containsAll(fontReviews.keys)) {
+    throw StateError('Font component coverage differs from verified evidence.');
+  }
+  final manualComponents = manualRows
+      .map((source) {
+        final review = fontReviews[source['id']];
+        if (review == null) return source;
+        return <String, dynamic>{
+          ...source,
+          'licenseDeclared': review['licenseDeclared'],
+          'reviewStatus': review['licenseDeclared'] == 'NOASSERTION'
+              ? 'review-required'
+              : 'verified-with-conditions',
+          'licenseEvidence':
+              '$fontEvidencePath/manifest.json#${source['id']}; ${review['reason']}',
+          if (review['proof'] != null) ...{
+            'downloadLocation':
+                '${review['proof']['repository']}/tree/${review['proof']['commit']}/Sans/Exports',
+            'version':
+                '1.200; ttfautohint 1.8.3 (exact upstream bytes verified)',
+            'notes': (review['proof']['conditions'] as List).join(' '),
+          },
+        };
+      })
       .map(_componentFromJson)
       .toList();
   final rootDependencies = <String>[

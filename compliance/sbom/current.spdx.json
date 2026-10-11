@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-Package-ola-hedge-finance"
   ],
-  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/4f5efbeefeb6c346",
+  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/1f2f25d1adb1a7b1",
   "name": "ola-hedge-finance-5.4.3+416",
   "packages": [
     {
@@ -1134,7 +1134,7 @@
     },
     {
       "SPDXID": "SPDXRef-Package-font-Avenir-font-files-OTF-1.029-embedded-metadata-source-not-authenticated",
-      "comment": "ecosystem=font; relationship=bundled-asset; source=repository-files; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/asset-dataset-investigation.md; current binary metadata/hash only; no exact-source licence clearance.",
+      "comment": "ecosystem=font; relationship=bundled-asset; source=repository-files; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/fonts-2026-10-11/manifest.json#font:Avenir; No acquisition record or embedding/redistribution EULA. Embedded copyright and commercial vendor URL are not a grant.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
@@ -1146,7 +1146,7 @@
     },
     {
       "SPDXID": "SPDXRef-Package-font-Custom-Icons-font-MoreIcons-1.0-embedded-metadata-source-not-authenticated",
-      "comment": "ecosystem=font; relationship=bundled-asset; source=repository-file; distributed=true; modified=true; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/asset-dataset-investigation.md; current binary metadata/hash only; no exact-source licence clearance.",
+      "comment": "ecosystem=font; relationship=bundled-asset; source=repository-file; distributed=true; modified=true; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/fonts-2026-10-11/manifest.json#font:Icons; MoreIcons 1.0 generator metadata does not identify glyph sources, licences or reproducible build; historical replacement NOT RECOVERED.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
@@ -1157,20 +1157,20 @@
       "versionInfo": "MoreIcons 1.0 (embedded metadata; source not authenticated)"
     },
     {
-      "SPDXID": "SPDXRef-Package-font-DM-Sans-font-files-1.200-embedded-metadata-source-not-authenticated",
-      "comment": "ecosystem=font; relationship=bundled-asset; source=repository-files; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/asset-dataset-investigation.md; current binary metadata/hash only; no exact-source licence clearance.",
+      "SPDXID": "SPDXRef-Package-font-DM-Sans-font-files-1.200-ttfautohint-1.8.3-exact-upstream-bytes-verified",
+      "comment": "ecosystem=font; relationship=bundled-asset; source=repository-files; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/fonts-2026-10-11/manifest.json#font:DMSans; Both bundled files match exact official Git blobs and independently downloaded bytes. All supplied copyright/licence texts retained. Runtime licence/notice delivery still requires release verification.; notes=Preserve all supplied copyright and licence text; OFL 1.1 conditions remain applicable. Do not sell the font by itself; preserve OFL for redistribution and review reserved names if modifying. Embedded historical Poppins reserved-name notice is preserved; no font modification or rename was performed. Retained repository notices do not prove native release notice bundling or legal clearance.",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://github.com/googlefonts/dm-fonts/tree/4412393b7d2de9fe7a92064c2dce9b5af5d7fd26/Sans/Exports",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "OFL-1.1",
       "name": "DM Sans font files",
       "supplier": "NOASSERTION",
-      "versionInfo": "1.200 (embedded metadata; source not authenticated)"
+      "versionInfo": "1.200; ttfautohint 1.8.3 (exact upstream bytes verified)"
     },
     {
       "SPDXID": "SPDXRef-Package-font-Inconsolata-font-files-3.001-embedded-metadata-source-not-authenticated",
-      "comment": "ecosystem=font; relationship=bundled-asset; source=repository-files; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/asset-dataset-investigation.md; current binary metadata/hash only; no exact-source licence clearance.",
+      "comment": "ecosystem=font; relationship=bundled-asset; source=repository-files; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/fonts-2026-10-11/manifest.json#font:Inconsolata; Official upstream and Google Fonts v3.001 static files and current CDN checked; no exact byte match.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
@@ -1182,7 +1182,7 @@
     },
     {
       "SPDXID": "SPDXRef-Package-font-Inter-font-files-3.019-git-0a5106e0b-embedded-metadata-source-not-authenticated",
-      "comment": "ecosystem=font; relationship=bundled-asset; source=repository-files; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/asset-dataset-investigation.md; current binary metadata/hash only; no exact-source licence clearance.",
+      "comment": "ecosystem=font; relationship=bundled-asset; source=repository-files; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/fonts-2026-10-11/manifest.json#font:Inter; Official v3.19 archive checked in full; no exact SHA-256 match. Version label alone does not establish byte provenance.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
@@ -1194,7 +1194,7 @@
     },
     {
       "SPDXID": "SPDXRef-Package-font-Metropolis-font-files-1.000-embedded-metadata-source-not-authenticated",
-      "comment": "ecosystem=font; relationship=bundled-asset; source=repository-files; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/asset-dataset-investigation.md; current binary metadata/hash only; no exact-source licence clearance.",
+      "comment": "ecosystem=font; relationship=bundled-asset; source=repository-files; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/fonts-2026-10-11/manifest.json#font:Metropolis; Former author repository returns HTTP 404. No authenticated exact-source licence payload found.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
@@ -1206,7 +1206,7 @@
     },
     {
       "SPDXID": "SPDXRef-Package-font-Roboto-Condensed-font-files-3.008-2023-embedded-metadata-source-not-authenticated",
-      "comment": "ecosystem=font; relationship=bundled-asset; source=repository-files; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/asset-dataset-investigation.md; current binary metadata/hash only; no exact-source licence clearance.",
+      "comment": "ecosystem=font; relationship=bundled-asset; source=repository-files; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/fonts-2026-10-11/manifest.json#font:RobotoCondensed; Official Roboto v3.008 archive checked in full across static variants; no exact byte match.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
@@ -7353,7 +7353,7 @@
       "spdxElementId": "SPDXRef-Package-ola-hedge-finance"
     },
     {
-      "relatedSpdxElement": "SPDXRef-Package-font-DM-Sans-font-files-1.200-embedded-metadata-source-not-authenticated",
+      "relatedSpdxElement": "SPDXRef-Package-font-DM-Sans-font-files-1.200-ttfautohint-1.8.3-exact-upstream-bytes-verified",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-ola-hedge-finance"
     },

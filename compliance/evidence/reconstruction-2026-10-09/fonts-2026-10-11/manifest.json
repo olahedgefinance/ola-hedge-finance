@@ -1,0 +1,2140 @@
+{
+  "schemaVersion": 1,
+  "startingCommit": "bb9f0bbc640c502267fdd58bc6f8a71a5c9d4780",
+  "scope": "Exact font source evidence only; no binary replacements, no legal/release clearance. Historical 7f3209eebb270aaef11d875c0d214467619a0627 NOT RECOVERED.",
+  "records": [
+    {
+      "id": "font:Avenir",
+      "classification": "Counsel Review Required",
+      "licenseDeclared": "NOASSERTION",
+      "legalClearance": false,
+      "releaseClearance": false,
+      "files": [
+        {
+          "path": "budget/assets/fonts/AvenirLTStd-Black.otf",
+          "sha256": "63c31b44c3953be39a056f29afe090a5aa113862744384d2341c2b2275046a8f",
+          "bytes": 27912,
+          "names": {
+            "0": [
+              "Copyright © 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. © 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved."
+            ],
+            "1": [
+              "Avenir LT Std",
+              "Avenir LT Std 65 Medium"
+            ],
+            "2": [
+              "95 Black",
+              "Bold"
+            ],
+            "3": [
+              "1.029;ADBE;AvenirLTStd-Black"
+            ],
+            "4": [
+              "Avenir LT Std 95 Black",
+              "AvenirLTStd-Black"
+            ],
+            "5": [
+              "OTF 1.029;PS 001.001;Core 1.0.33;makeotf.lib1.4.1585"
+            ],
+            "6": [
+              "AvenirLTStd-Black"
+            ],
+            "7": [
+              "Avenir is a trademark of Heidelberger Druckmaschinen AG, exclusively licensed through Linotype Library GmbH, and may be registered in certain jurisdictions."
+            ],
+            "9": [
+              "Adrian Frutiger"
+            ],
+            "11": [
+              "http://www.adobe.com/type"
+            ],
+            "14": [
+              "http://www.adobe.com/type/legal.html"
+            ],
+            "16": [
+              "Avenir LT Std"
+            ],
+            "17": [
+              "95 Black"
+            ]
+          },
+          "weight": 750,
+          "style": "95 Black",
+          "family": "Avenir LT Std",
+          "version": "OTF 1.029;PS 001.001;Core 1.0.33;makeotf.lib1.4.1585",
+          "distribution": "runtime-distributed",
+          "manifestWeight": 700
+        },
+        {
+          "path": "budget/assets/fonts/AvenirLTStd-Roman.otf",
+          "sha256": "79c4a6763cd37a08c07c061494eb890d6703197796f124ed66842cc73dedb5ed",
+          "bytes": 27176,
+          "names": {
+            "0": [
+              "Copyright © 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. © 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved."
+            ],
+            "1": [
+              "Avenir LT Std",
+              "Avenir LT Std 55 Roman"
+            ],
+            "2": [
+              "55 Roman",
+              "Regular"
+            ],
+            "3": [
+              "1.029;ADBE;AvenirLTStd-Roman"
+            ],
+            "4": [
+              "Avenir LT Std 55 Roman",
+              "AvenirLTStd-Roman"
+            ],
+            "5": [
+              "OTF 1.029;PS 001.001;Core 1.0.33;makeotf.lib1.4.1585"
+            ],
+            "6": [
+              "AvenirLTStd-Roman"
+            ],
+            "7": [
+              "Avenir is a trademark of Heidelberger Druckmaschinen AG, exclusively licensed through Linotype Library GmbH, and may be registered in certain jurisdictions."
+            ],
+            "9": [
+              "Adrian Frutiger"
+            ],
+            "11": [
+              "http://www.adobe.com/type"
+            ],
+            "14": [
+              "http://www.adobe.com/type/legal.html"
+            ],
+            "16": [
+              "Avenir LT Std"
+            ],
+            "17": [
+              "55 Roman"
+            ]
+          },
+          "weight": 400,
+          "style": "55 Roman",
+          "family": "Avenir LT Std",
+          "version": "OTF 1.029;PS 001.001;Core 1.0.33;makeotf.lib1.4.1585",
+          "distribution": "runtime-distributed",
+          "manifestWeight": 400
+        }
+      ],
+      "reason": "No acquisition record or embedding/redistribution EULA. Embedded copyright and commercial vendor URL are not a grant.",
+      "proof": null
+    },
+    {
+      "id": "font:Inter",
+      "classification": "Needs Verification / Do Not Ship",
+      "licenseDeclared": "NOASSERTION",
+      "legalClearance": false,
+      "releaseClearance": false,
+      "files": [
+        {
+          "path": "budget/assets/fonts/Inter-Bold.ttf",
+          "sha256": "f9342f2d916aa89c924bc2adcc1d3bfbb6eb54675e48953bacc49024fc768f76",
+          "bytes": 309772,
+          "names": {
+            "0": [
+              "Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)"
+            ],
+            "1": [
+              "Inter"
+            ],
+            "2": [
+              "Bold"
+            ],
+            "3": [
+              "3.019;RSMS;Inter-Bold"
+            ],
+            "4": [
+              "Inter Bold"
+            ],
+            "5": [
+              "Version 3.019;git-0a5106e0b"
+            ],
+            "6": [
+              "Inter-Bold"
+            ],
+            "14": [
+              "http://scripts.sil.org/OFL"
+            ],
+            "271": [
+              "Weight"
+            ],
+            "272": [
+              "Slant"
+            ],
+            "279": [
+              "Regular"
+            ],
+            "285": [
+              "Bold"
+            ]
+          },
+          "weight": 700,
+          "style": "Bold",
+          "family": "Inter",
+          "version": "Version 3.019;git-0a5106e0b",
+          "distribution": "runtime-distributed",
+          "manifestWeight": 700
+        },
+        {
+          "path": "budget/assets/fonts/Inter-Regular.ttf",
+          "sha256": "eeab48280aacd4fc83c1c7e735681df9edd1b59588dde23d0339bcf6552fb788",
+          "bytes": 303504,
+          "names": {
+            "0": [
+              "Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)"
+            ],
+            "1": [
+              "Inter"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "3": [
+              "3.019;RSMS;Inter-Regular"
+            ],
+            "4": [
+              "Inter Regular"
+            ],
+            "5": [
+              "Version 3.019;git-0a5106e0b"
+            ],
+            "6": [
+              "Inter-Regular"
+            ],
+            "14": [
+              "http://scripts.sil.org/OFL"
+            ],
+            "271": [
+              "Weight"
+            ],
+            "272": [
+              "Slant"
+            ],
+            "279": [
+              "Regular"
+            ]
+          },
+          "weight": 400,
+          "style": "Regular",
+          "family": "Inter",
+          "version": "Version 3.019;git-0a5106e0b",
+          "distribution": "runtime-distributed",
+          "manifestWeight": 400
+        }
+      ],
+      "reason": "Official v3.19 archive checked in full; no exact SHA-256 match. Version label alone does not establish byte provenance.",
+      "proof": null
+    },
+    {
+      "id": "font:DMSans",
+      "classification": "Verified with conditions",
+      "licenseDeclared": "OFL-1.1",
+      "legalClearance": false,
+      "releaseClearance": false,
+      "files": [
+        {
+          "path": "budget/assets/fonts/DMSans-Bold.ttf",
+          "sha256": "9d801f8a966a9860a9fd2921a54362a7d7058c7821e2cafc7f75ed055884a034",
+          "bytes": 73452,
+          "names": {
+            "0": [
+              "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com) with Reserved Font Name 'Poppins'. Copyright 2019 Google LLC."
+            ],
+            "1": [
+              "DM Sans"
+            ],
+            "2": [
+              "Bold"
+            ],
+            "3": [
+              "1.200;GOOG;DMSans-Bold"
+            ],
+            "4": [
+              "DM Sans Bold"
+            ],
+            "5": [
+              "Version 1.200; ttfautohint (v1.8.3)"
+            ],
+            "6": [
+              "DMSans-Bold"
+            ],
+            "8": [
+              "Colophon Foundry"
+            ],
+            "9": [
+              "Colophon Foundry, Jonny Pinhorn"
+            ],
+            "11": [
+              "http://www.colophon-foundry.org"
+            ],
+            "12": [
+              "https://www.indiantypefoundry.com"
+            ],
+            "13": [
+              "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+            ],
+            "14": [
+              "http://scripts.sil.org/OFL"
+            ]
+          },
+          "weight": 700,
+          "style": "Bold",
+          "family": "DM Sans",
+          "version": "Version 1.200; ttfautohint (v1.8.3)",
+          "distribution": "runtime-distributed",
+          "manifestWeight": 700
+        },
+        {
+          "path": "budget/assets/fonts/DMSans-Regular.ttf",
+          "sha256": "1adb096acaa3d14f5ed678e99b808b0c8800f62cb342fa5c276298ad8030b458",
+          "bytes": 73524,
+          "names": {
+            "0": [
+              "Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com) with Reserved Font Name 'Poppins'. Copyright 2019 Google LLC."
+            ],
+            "1": [
+              "DM Sans"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "3": [
+              "1.200;GOOG;DMSans-Regular"
+            ],
+            "4": [
+              "DM Sans Regular"
+            ],
+            "5": [
+              "Version 1.200; ttfautohint (v1.8.3)"
+            ],
+            "6": [
+              "DMSans-Regular"
+            ],
+            "8": [
+              "Colophon Foundry"
+            ],
+            "9": [
+              "Colophon Foundry, Jonny Pinhorn"
+            ],
+            "11": [
+              "http://www.colophon-foundry.org"
+            ],
+            "12": [
+              "https://www.indiantypefoundry.com"
+            ],
+            "13": [
+              "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+            ],
+            "14": [
+              "http://scripts.sil.org/OFL"
+            ]
+          },
+          "weight": 400,
+          "style": "Regular",
+          "family": "DM Sans",
+          "version": "Version 1.200; ttfautohint (v1.8.3)",
+          "distribution": "runtime-distributed",
+          "manifestWeight": 400
+        }
+      ],
+      "reason": "Both bundled files match exact official Git blobs and independently downloaded bytes. All supplied copyright/licence texts retained. Runtime licence/notice delivery still requires release verification.",
+      "proof": {
+        "repository": "https://github.com/googlefonts/dm-fonts",
+        "commit": "4412393b7d2de9fe7a92064c2dce9b5af5d7fd26",
+        "commitPath": "DMSans/commit.json",
+        "treePath": "DMSans/tree.json",
+        "licensePaths": [
+          "DMSans/LICENSE.txt",
+          "DMSans/OFL.txt",
+          "DMSans/AUTHORS.txt"
+        ],
+        "conditions": [
+          "Preserve all supplied copyright and licence text; OFL 1.1 conditions remain applicable.",
+          "Do not sell the font by itself; preserve OFL for redistribution and review reserved names if modifying.",
+          "Embedded historical Poppins reserved-name notice is preserved; no font modification or rename was performed.",
+          "Retained repository notices do not prove native release notice bundling or legal clearance."
+        ],
+        "matches": [
+          {
+            "path": "budget/assets/fonts/DMSans-Bold.ttf",
+            "upstreamPath": "Sans/Exports/DMSans-Bold.ttf",
+            "upstreamBlob": "32bc5dfba1198ecea84e8e28b0693662cf940266",
+            "retainedPath": "DMSans/DMSans-Bold.ttf",
+            "url": "https://raw.githubusercontent.com/googlefonts/dm-fonts/4412393b7d2de9fe7a92064c2dce9b5af5d7fd26/Sans/Exports/DMSans-Bold.ttf"
+          },
+          {
+            "path": "budget/assets/fonts/DMSans-Regular.ttf",
+            "upstreamPath": "Sans/Exports/DMSans-Regular.ttf",
+            "upstreamBlob": "40c9bfd60a545793cc5205294913a82d0d2a8416",
+            "retainedPath": "DMSans/DMSans-Regular.ttf",
+            "url": "https://raw.githubusercontent.com/googlefonts/dm-fonts/4412393b7d2de9fe7a92064c2dce9b5af5d7fd26/Sans/Exports/DMSans-Regular.ttf"
+          }
+        ],
+        "licenceSources": [
+          {
+            "path": "DMSans/LICENSE.txt",
+            "upstreamPath": "Sans/LICENSE.txt",
+            "upstreamBlob": "6bde33e33005f405a0ac75f581a67f2a16b50878"
+          },
+          {
+            "path": "DMSans/OFL.txt",
+            "upstreamPath": "Sans/OFL.txt",
+            "upstreamBlob": "4430b85ac62998e2edb914360f9ebdfe43f4deaa"
+          },
+          {
+            "path": "DMSans/AUTHORS.txt",
+            "upstreamPath": "AUTHORS.txt",
+            "upstreamBlob": "30c5bf07dfc329df4dd687eb2f853f38320ee982"
+          }
+        ]
+      }
+    },
+    {
+      "id": "font:Metropolis",
+      "classification": "Needs Verification / Do Not Ship",
+      "licenseDeclared": "NOASSERTION",
+      "legalClearance": false,
+      "releaseClearance": false,
+      "files": [
+        {
+          "path": "budget/assets/fonts/Metropolis-Bold.otf",
+          "sha256": "a470d16eb70e97992529479e751032e8cfd0146043d2245ad63d312a6991de63",
+          "bytes": 23664,
+          "names": {
+            "0": [
+              "Copyright © 2016 by Chris Simpson."
+            ],
+            "1": [
+              "Metropolis"
+            ],
+            "2": [
+              "Bold"
+            ],
+            "3": [
+              "1.000;UKWN;Metropolis-Bold"
+            ],
+            "4": [
+              "Metropolis Bold"
+            ],
+            "5": [
+              "Version 1.000;PS 001.000;hotconv 1.0.88;makeotf.lib2.5.64775"
+            ],
+            "6": [
+              "Metropolis-Bold"
+            ],
+            "8": [
+              "Victory One Media Pty Ltd"
+            ],
+            "9": [
+              "Chris Simpson"
+            ],
+            "11": [
+              "http://victoryonemedia.com"
+            ],
+            "12": [
+              "https://github.com/chrismsimpson/Metropolis"
+            ]
+          },
+          "weight": 700,
+          "style": "Bold",
+          "family": "Metropolis",
+          "version": "Version 1.000;PS 001.000;hotconv 1.0.88;makeotf.lib2.5.64775",
+          "distribution": "runtime-distributed",
+          "manifestWeight": 700
+        },
+        {
+          "path": "budget/assets/fonts/Metropolis-Regular.otf",
+          "sha256": "6f8992eb58eeced41efea7076be4d468ac678f9778420438fab4a3358aa2b462",
+          "bytes": 23124,
+          "names": {
+            "0": [
+              "Copyright © 2016 by Chris Simpson."
+            ],
+            "1": [
+              "Metropolis"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "3": [
+              "1.000;UKWN;Metropolis-Regular"
+            ],
+            "4": [
+              "Metropolis",
+              "Metropolis-Regular"
+            ],
+            "5": [
+              "Version 1.000;PS 001.000;hotconv 1.0.88;makeotf.lib2.5.64775"
+            ],
+            "6": [
+              "Metropolis-Regular"
+            ],
+            "8": [
+              "Victory One Media Pty Ltd"
+            ],
+            "9": [
+              "Chris Simpson"
+            ],
+            "11": [
+              "http://victoryonemedia.com"
+            ],
+            "12": [
+              "https://github.com/chrismsimpson/Metropolis"
+            ]
+          },
+          "weight": 400,
+          "style": "Regular",
+          "family": "Metropolis",
+          "version": "Version 1.000;PS 001.000;hotconv 1.0.88;makeotf.lib2.5.64775",
+          "distribution": "runtime-distributed",
+          "manifestWeight": 400
+        }
+      ],
+      "reason": "Former author repository returns HTTP 404. No authenticated exact-source licence payload found.",
+      "proof": null
+    },
+    {
+      "id": "font:RobotoCondensed",
+      "classification": "Needs Verification / Do Not Ship",
+      "licenseDeclared": "NOASSERTION",
+      "legalClearance": false,
+      "releaseClearance": false,
+      "files": [
+        {
+          "path": "budget/assets/fonts/RobotoCondensed-Bold.ttf",
+          "sha256": "9bc003d6f29ab9a6c80c30201c977b07ba01cca926446ddd313d0b7869cab3ef",
+          "bytes": 145532,
+          "names": {
+            "0": [
+              "Copyright 2011 Google Inc. All Rights Reserved."
+            ],
+            "1": [
+              "Roboto Condensed"
+            ],
+            "2": [
+              "Bold"
+            ],
+            "3": [
+              "3.008;GOOG;RobotoCondensed-Bold"
+            ],
+            "4": [
+              "Roboto Condensed Bold"
+            ],
+            "5": [
+              "Version 3.008; 2023"
+            ],
+            "6": [
+              "RobotoCondensed-Bold"
+            ],
+            "7": [
+              "Roboto is a trademark of Google."
+            ],
+            "8": [
+              "Google"
+            ],
+            "9": [
+              "Christian Robertson"
+            ],
+            "11": [
+              "Google.com"
+            ],
+            "12": [
+              "Google.com"
+            ],
+            "13": [
+              "Licensed under the Apache License, Version 2.0"
+            ],
+            "14": [
+              "http://www.apache.org/licenses/LICENSE-2.0"
+            ],
+            "25": [
+              "RobotoCondensed"
+            ],
+            "256": [
+              "Weight"
+            ],
+            "257": [
+              "Width"
+            ],
+            "258": [
+              "Italic"
+            ],
+            "259": [
+              "Thin"
+            ],
+            "260": [
+              "ExtraLight"
+            ],
+            "261": [
+              "Light"
+            ],
+            "262": [
+              "Regular"
+            ],
+            "263": [
+              "Medium"
+            ],
+            "264": [
+              "SemiBold"
+            ],
+            "265": [
+              "Bold"
+            ],
+            "266": [
+              "ExtraBold"
+            ],
+            "267": [
+              "Black"
+            ],
+            "276": [
+              "Thin"
+            ],
+            "277": [
+              "ExtraLight"
+            ],
+            "278": [
+              "Light"
+            ],
+            "279": [
+              "Regular"
+            ],
+            "280": [
+              "Medium"
+            ],
+            "281": [
+              "SemiBold"
+            ],
+            "282": [
+              "Bold"
+            ],
+            "283": [
+              "ExtraBold"
+            ],
+            "284": [
+              "Black"
+            ],
+            "294": [
+              "Condensed"
+            ],
+            "296": [
+              "Roman"
+            ],
+            "315": [
+              "RobotoCondensed-Thin"
+            ],
+            "316": [
+              "RobotoCondensed-ExtraLight"
+            ],
+            "317": [
+              "RobotoCondensed-Light"
+            ],
+            "318": [
+              "RobotoCondensed-Regular"
+            ],
+            "319": [
+              "RobotoCondensed-Medium"
+            ],
+            "320": [
+              "RobotoCondensed-SemiBold"
+            ],
+            "321": [
+              "RobotoCondensed-Bold"
+            ],
+            "322": [
+              "RobotoCondensed-ExtraBold"
+            ],
+            "323": [
+              "RobotoCondensed-Black"
+            ]
+          },
+          "weight": 700,
+          "style": "Bold",
+          "family": "Roboto Condensed",
+          "version": "Version 3.008; 2023",
+          "distribution": "runtime-distributed",
+          "manifestWeight": 700
+        },
+        {
+          "path": "budget/assets/fonts/RobotoCondensed-Regular.ttf",
+          "sha256": "2af71369b6e1ab597407c5d720ca6e3fcf33554762c14953aa21dbb8667c55f0",
+          "bytes": 144852,
+          "names": {
+            "0": [
+              "Copyright 2011 Google Inc. All Rights Reserved."
+            ],
+            "1": [
+              "Roboto Condensed"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "3": [
+              "3.008;GOOG;RobotoCondensed-Regular"
+            ],
+            "4": [
+              "Roboto Condensed Regular"
+            ],
+            "5": [
+              "Version 3.008; 2023"
+            ],
+            "6": [
+              "RobotoCondensed-Regular"
+            ],
+            "7": [
+              "Roboto is a trademark of Google."
+            ],
+            "8": [
+              "Google"
+            ],
+            "9": [
+              "Christian Robertson"
+            ],
+            "11": [
+              "Google.com"
+            ],
+            "12": [
+              "Google.com"
+            ],
+            "13": [
+              "Licensed under the Apache License, Version 2.0"
+            ],
+            "14": [
+              "http://www.apache.org/licenses/LICENSE-2.0"
+            ],
+            "25": [
+              "RobotoCondensed"
+            ],
+            "256": [
+              "Weight"
+            ],
+            "257": [
+              "Width"
+            ],
+            "258": [
+              "Italic"
+            ],
+            "259": [
+              "Thin"
+            ],
+            "260": [
+              "ExtraLight"
+            ],
+            "261": [
+              "Light"
+            ],
+            "262": [
+              "Regular"
+            ],
+            "263": [
+              "Medium"
+            ],
+            "264": [
+              "SemiBold"
+            ],
+            "265": [
+              "Bold"
+            ],
+            "266": [
+              "ExtraBold"
+            ],
+            "267": [
+              "Black"
+            ],
+            "276": [
+              "Thin"
+            ],
+            "277": [
+              "ExtraLight"
+            ],
+            "278": [
+              "Light"
+            ],
+            "279": [
+              "Regular"
+            ],
+            "280": [
+              "Medium"
+            ],
+            "281": [
+              "SemiBold"
+            ],
+            "282": [
+              "Bold"
+            ],
+            "283": [
+              "ExtraBold"
+            ],
+            "284": [
+              "Black"
+            ],
+            "294": [
+              "Condensed"
+            ],
+            "296": [
+              "Roman"
+            ],
+            "315": [
+              "RobotoCondensed-Thin"
+            ],
+            "316": [
+              "RobotoCondensed-ExtraLight"
+            ],
+            "317": [
+              "RobotoCondensed-Light"
+            ],
+            "318": [
+              "RobotoCondensed-Regular"
+            ],
+            "319": [
+              "RobotoCondensed-Medium"
+            ],
+            "320": [
+              "RobotoCondensed-SemiBold"
+            ],
+            "321": [
+              "RobotoCondensed-Bold"
+            ],
+            "322": [
+              "RobotoCondensed-ExtraBold"
+            ],
+            "323": [
+              "RobotoCondensed-Black"
+            ]
+          },
+          "weight": 400,
+          "style": "Regular",
+          "family": "Roboto Condensed",
+          "version": "Version 3.008; 2023",
+          "distribution": "runtime-distributed",
+          "manifestWeight": 400
+        }
+      ],
+      "reason": "Official Roboto v3.008 archive checked in full across static variants; no exact byte match.",
+      "proof": null
+    },
+    {
+      "id": "font:Inconsolata",
+      "classification": "Needs Verification / Do Not Ship",
+      "licenseDeclared": "NOASSERTION",
+      "legalClearance": false,
+      "releaseClearance": false,
+      "files": [
+        {
+          "path": "budget/assets/fonts/Inconsolata-Bold.ttf",
+          "sha256": "ea7ce405b485b36d65e11fe0269dbe722421eafdb36b5638f338f640fee7cddf",
+          "bytes": 102152,
+          "names": {
+            "0": [
+              "Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)"
+            ],
+            "1": [
+              "Inconsolata"
+            ],
+            "2": [
+              "Bold"
+            ],
+            "3": [
+              "3.001;CYRE;Inconsolata-Bold"
+            ],
+            "4": [
+              "Inconsolata Bold"
+            ],
+            "5": [
+              "Version 3.001"
+            ],
+            "6": [
+              "Inconsolata-Bold"
+            ],
+            "8": [
+              "Raph Levien, Cyreal, Google"
+            ],
+            "9": [
+              "Raph Levien, Cyreal, Brenton Simpson"
+            ],
+            "11": [
+              "http://www.levien.com | http://www.cyreal.org | http://fonts.google.com"
+            ],
+            "12": [
+              "http://www.levien.com | http://www.cyreal.org | http://appsforartists.com"
+            ],
+            "13": [
+              "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+            ],
+            "14": [
+              "http://scripts.sil.org/OFL"
+            ],
+            "256": [
+              "Weight"
+            ],
+            "257": [
+              "Width"
+            ],
+            "258": [
+              "UltraCondensed ExtraLight"
+            ],
+            "259": [
+              "UltraCondensed Light"
+            ],
+            "260": [
+              "UltraCondensed Regular"
+            ],
+            "261": [
+              "UltraCondensed Medium"
+            ],
+            "262": [
+              "UltraCondensed SemiBold"
+            ],
+            "263": [
+              "UltraCondensed Bold"
+            ],
+            "264": [
+              "UltraCondensed ExtraBold"
+            ],
+            "265": [
+              "UltraCondensed Black"
+            ],
+            "266": [
+              "ExtraCondensed ExtraLight"
+            ],
+            "267": [
+              "ExtraCondensed Light"
+            ],
+            "268": [
+              "ExtraCondensed Regular"
+            ],
+            "269": [
+              "ExtraCondensed Medium"
+            ],
+            "270": [
+              "ExtraCondensed SemiBold"
+            ],
+            "271": [
+              "ExtraCondensed Bold"
+            ],
+            "272": [
+              "ExtraCondensed ExtraBold"
+            ],
+            "273": [
+              "ExtraCondensed Black"
+            ],
+            "274": [
+              "Condensed ExtraLight"
+            ],
+            "275": [
+              "Condensed Light"
+            ],
+            "276": [
+              "Condensed Regular"
+            ],
+            "277": [
+              "Condensed Medium"
+            ],
+            "278": [
+              "Condensed SemiBold"
+            ],
+            "279": [
+              "Condensed Bold"
+            ],
+            "280": [
+              "Condensed ExtraBold"
+            ],
+            "281": [
+              "Condensed Black"
+            ],
+            "282": [
+              "SemiCondensed ExtraLight"
+            ],
+            "283": [
+              "SemiCondensed Light"
+            ],
+            "284": [
+              "SemiCondensed Regular"
+            ],
+            "285": [
+              "SemiCondensed Medium"
+            ],
+            "286": [
+              "SemiCondensed SemiBold"
+            ],
+            "287": [
+              "SemiCondensed Bold"
+            ],
+            "288": [
+              "SemiCondensed ExtraBold"
+            ],
+            "289": [
+              "SemiCondensed Black"
+            ],
+            "290": [
+              "ExtraLight"
+            ],
+            "291": [
+              "Light"
+            ],
+            "292": [
+              "Regular"
+            ],
+            "293": [
+              "Medium"
+            ],
+            "294": [
+              "SemiBold"
+            ],
+            "295": [
+              "Bold"
+            ],
+            "296": [
+              "ExtraBold"
+            ],
+            "297": [
+              "Black"
+            ],
+            "298": [
+              "SemiExpanded ExtraLight"
+            ],
+            "299": [
+              "SemiExpanded Light"
+            ],
+            "300": [
+              "SemiExpanded Regular"
+            ],
+            "301": [
+              "SemiExpanded Medium"
+            ],
+            "302": [
+              "SemiExpanded SemiBold"
+            ],
+            "303": [
+              "SemiExpanded Bold"
+            ],
+            "304": [
+              "SemiExpanded ExtraBold"
+            ],
+            "305": [
+              "SemiExpanded Black"
+            ],
+            "306": [
+              "Expanded ExtraLight"
+            ],
+            "307": [
+              "Expanded Light"
+            ],
+            "308": [
+              "Expanded Regular"
+            ],
+            "309": [
+              "Expanded Medium"
+            ],
+            "310": [
+              "Expanded SemiBold"
+            ],
+            "311": [
+              "Expanded Bold"
+            ],
+            "312": [
+              "Expanded ExtraBold"
+            ],
+            "313": [
+              "Expanded Black"
+            ],
+            "314": [
+              "ExtraExpanded ExtraLight"
+            ],
+            "315": [
+              "ExtraExpanded Light"
+            ],
+            "316": [
+              "ExtraExpanded Regular"
+            ],
+            "317": [
+              "ExtraExpanded Medium"
+            ],
+            "318": [
+              "ExtraExpanded SemiBold"
+            ],
+            "319": [
+              "ExtraExpanded Bold"
+            ],
+            "320": [
+              "ExtraExpanded ExtraBold"
+            ],
+            "321": [
+              "ExtraExpanded Black"
+            ],
+            "322": [
+              "UltraExpanded ExtraLight"
+            ],
+            "323": [
+              "UltraExpanded Light"
+            ],
+            "324": [
+              "UltraExpanded Regular"
+            ],
+            "325": [
+              "UltraExpanded Medium"
+            ],
+            "326": [
+              "UltraExpanded SemiBold"
+            ],
+            "327": [
+              "UltraExpanded Bold"
+            ],
+            "328": [
+              "UltraExpanded ExtraBold"
+            ],
+            "329": [
+              "UltraExpanded Black"
+            ],
+            "330": [
+              "Regular"
+            ],
+            "331": [
+              "Bold"
+            ],
+            "332": [
+              "UltraCondensed"
+            ],
+            "333": [
+              "ExtraCondensed"
+            ],
+            "334": [
+              "Condensed"
+            ],
+            "335": [
+              "SemiCondensed"
+            ],
+            "336": [
+              "Normal"
+            ],
+            "337": [
+              "SemiExpanded"
+            ],
+            "338": [
+              "Expanded"
+            ],
+            "339": [
+              "ExtraExpanded"
+            ],
+            "340": [
+              "UltraExpanded"
+            ],
+            "341": [
+              "ExtraLight"
+            ],
+            "342": [
+              "Light"
+            ],
+            "343": [
+              "Regular"
+            ],
+            "344": [
+              "Medium"
+            ],
+            "345": [
+              "SemiBold"
+            ],
+            "346": [
+              "Bold"
+            ],
+            "347": [
+              "ExtraBold"
+            ],
+            "348": [
+              "Black"
+            ]
+          },
+          "weight": 700,
+          "style": "Bold",
+          "family": "Inconsolata",
+          "version": "Version 3.001",
+          "distribution": "runtime-distributed",
+          "manifestWeight": 700
+        },
+        {
+          "path": "budget/assets/fonts/Inconsolata-Regular.ttf",
+          "sha256": "9d542b954a5ccbf5edd68f240f4a4de9c99acbe3cb4291f0089796e99cddb02e",
+          "bytes": 101752,
+          "names": {
+            "0": [
+              "Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)"
+            ],
+            "1": [
+              "Inconsolata"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "3": [
+              "3.001;CYRE;Inconsolata-Regular"
+            ],
+            "4": [
+              "Inconsolata Regular"
+            ],
+            "5": [
+              "Version 3.001"
+            ],
+            "6": [
+              "Inconsolata-Regular"
+            ],
+            "8": [
+              "Raph Levien, Cyreal, Google"
+            ],
+            "9": [
+              "Raph Levien, Cyreal, Brenton Simpson"
+            ],
+            "11": [
+              "http://www.levien.com | http://www.cyreal.org | http://fonts.google.com"
+            ],
+            "12": [
+              "http://www.levien.com | http://www.cyreal.org | http://appsforartists.com"
+            ],
+            "13": [
+              "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+            ],
+            "14": [
+              "http://scripts.sil.org/OFL"
+            ],
+            "256": [
+              "Weight"
+            ],
+            "257": [
+              "Width"
+            ],
+            "258": [
+              "UltraCondensed ExtraLight"
+            ],
+            "259": [
+              "UltraCondensed Light"
+            ],
+            "260": [
+              "UltraCondensed Regular"
+            ],
+            "261": [
+              "UltraCondensed Medium"
+            ],
+            "262": [
+              "UltraCondensed SemiBold"
+            ],
+            "263": [
+              "UltraCondensed Bold"
+            ],
+            "264": [
+              "UltraCondensed ExtraBold"
+            ],
+            "265": [
+              "UltraCondensed Black"
+            ],
+            "266": [
+              "ExtraCondensed ExtraLight"
+            ],
+            "267": [
+              "ExtraCondensed Light"
+            ],
+            "268": [
+              "ExtraCondensed Regular"
+            ],
+            "269": [
+              "ExtraCondensed Medium"
+            ],
+            "270": [
+              "ExtraCondensed SemiBold"
+            ],
+            "271": [
+              "ExtraCondensed Bold"
+            ],
+            "272": [
+              "ExtraCondensed ExtraBold"
+            ],
+            "273": [
+              "ExtraCondensed Black"
+            ],
+            "274": [
+              "Condensed ExtraLight"
+            ],
+            "275": [
+              "Condensed Light"
+            ],
+            "276": [
+              "Condensed Regular"
+            ],
+            "277": [
+              "Condensed Medium"
+            ],
+            "278": [
+              "Condensed SemiBold"
+            ],
+            "279": [
+              "Condensed Bold"
+            ],
+            "280": [
+              "Condensed ExtraBold"
+            ],
+            "281": [
+              "Condensed Black"
+            ],
+            "282": [
+              "SemiCondensed ExtraLight"
+            ],
+            "283": [
+              "SemiCondensed Light"
+            ],
+            "284": [
+              "SemiCondensed Regular"
+            ],
+            "285": [
+              "SemiCondensed Medium"
+            ],
+            "286": [
+              "SemiCondensed SemiBold"
+            ],
+            "287": [
+              "SemiCondensed Bold"
+            ],
+            "288": [
+              "SemiCondensed ExtraBold"
+            ],
+            "289": [
+              "SemiCondensed Black"
+            ],
+            "290": [
+              "ExtraLight"
+            ],
+            "291": [
+              "Light"
+            ],
+            "292": [
+              "Regular"
+            ],
+            "293": [
+              "Medium"
+            ],
+            "294": [
+              "SemiBold"
+            ],
+            "295": [
+              "Bold"
+            ],
+            "296": [
+              "ExtraBold"
+            ],
+            "297": [
+              "Black"
+            ],
+            "298": [
+              "SemiExpanded ExtraLight"
+            ],
+            "299": [
+              "SemiExpanded Light"
+            ],
+            "300": [
+              "SemiExpanded Regular"
+            ],
+            "301": [
+              "SemiExpanded Medium"
+            ],
+            "302": [
+              "SemiExpanded SemiBold"
+            ],
+            "303": [
+              "SemiExpanded Bold"
+            ],
+            "304": [
+              "SemiExpanded ExtraBold"
+            ],
+            "305": [
+              "SemiExpanded Black"
+            ],
+            "306": [
+              "Expanded ExtraLight"
+            ],
+            "307": [
+              "Expanded Light"
+            ],
+            "308": [
+              "Expanded Regular"
+            ],
+            "309": [
+              "Expanded Medium"
+            ],
+            "310": [
+              "Expanded SemiBold"
+            ],
+            "311": [
+              "Expanded Bold"
+            ],
+            "312": [
+              "Expanded ExtraBold"
+            ],
+            "313": [
+              "Expanded Black"
+            ],
+            "314": [
+              "ExtraExpanded ExtraLight"
+            ],
+            "315": [
+              "ExtraExpanded Light"
+            ],
+            "316": [
+              "ExtraExpanded Regular"
+            ],
+            "317": [
+              "ExtraExpanded Medium"
+            ],
+            "318": [
+              "ExtraExpanded SemiBold"
+            ],
+            "319": [
+              "ExtraExpanded Bold"
+            ],
+            "320": [
+              "ExtraExpanded ExtraBold"
+            ],
+            "321": [
+              "ExtraExpanded Black"
+            ],
+            "322": [
+              "UltraExpanded ExtraLight"
+            ],
+            "323": [
+              "UltraExpanded Light"
+            ],
+            "324": [
+              "UltraExpanded Regular"
+            ],
+            "325": [
+              "UltraExpanded Medium"
+            ],
+            "326": [
+              "UltraExpanded SemiBold"
+            ],
+            "327": [
+              "UltraExpanded Bold"
+            ],
+            "328": [
+              "UltraExpanded ExtraBold"
+            ],
+            "329": [
+              "UltraExpanded Black"
+            ],
+            "330": [
+              "Regular"
+            ],
+            "331": [
+              "Bold"
+            ],
+            "332": [
+              "UltraCondensed"
+            ],
+            "333": [
+              "ExtraCondensed"
+            ],
+            "334": [
+              "Condensed"
+            ],
+            "335": [
+              "SemiCondensed"
+            ],
+            "336": [
+              "Normal"
+            ],
+            "337": [
+              "SemiExpanded"
+            ],
+            "338": [
+              "Expanded"
+            ],
+            "339": [
+              "ExtraExpanded"
+            ],
+            "340": [
+              "UltraExpanded"
+            ],
+            "341": [
+              "ExtraLight"
+            ],
+            "342": [
+              "Light"
+            ],
+            "343": [
+              "Regular"
+            ],
+            "344": [
+              "Medium"
+            ],
+            "345": [
+              "SemiBold"
+            ],
+            "346": [
+              "Bold"
+            ],
+            "347": [
+              "ExtraBold"
+            ],
+            "348": [
+              "Black"
+            ]
+          },
+          "weight": 400,
+          "style": "Regular",
+          "family": "Inconsolata",
+          "version": "Version 3.001",
+          "distribution": "runtime-distributed",
+          "manifestWeight": 400
+        }
+      ],
+      "reason": "Official upstream and Google Fonts v3.001 static files and current CDN checked; no exact byte match.",
+      "proof": null
+    },
+    {
+      "id": "font:Icons",
+      "classification": "Needs Verification / Do Not Ship",
+      "licenseDeclared": "NOASSERTION",
+      "legalClearance": false,
+      "releaseClearance": false,
+      "files": [
+        {
+          "path": "budget/assets/icons/Icons.ttf",
+          "sha256": "0dd01c83f96c00a5a8ec89fde587e98f2c0edae63bf653ba410c4540bcb98d78",
+          "bytes": 5096,
+          "names": {
+            "0": [
+              "Copyright (C) 2023 by original authors @ fluttericon.com, fontello.com"
+            ],
+            "1": [
+              "MoreIcons"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "3": [
+              "MoreIcons"
+            ],
+            "4": [
+              "MoreIcons"
+            ],
+            "5": [
+              "Version 1.0"
+            ],
+            "6": [
+              "MoreIcons"
+            ],
+            "10": [
+              "Generated by svg2ttf from Fontello project."
+            ],
+            "11": [
+              "http://fontello.com"
+            ]
+          },
+          "weight": 400,
+          "style": "Regular",
+          "family": "MoreIcons",
+          "version": "Version 1.0",
+          "distribution": "runtime-distributed",
+          "manifestWeight": 400
+        }
+      ],
+      "reason": "MoreIcons 1.0 generator metadata does not identify glyph sources, licences or reproducible build; historical replacement NOT RECOVERED.",
+      "proof": null
+    }
+  ],
+  "dependencyFonts": [
+    {
+      "componentId": "pub:material_symbols_icons",
+      "path": "rawFontsUnfixed/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].ttf",
+      "distribution": "source-only (package input; not in Flutter font manifest)",
+      "bytes": 7207100,
+      "sha256": "1f7895ece5052f69212bddb0fb19c9104b5580a364f6d80bda3423aef387935a",
+      "names": {
+        "0": [
+          "Copyright 2020-2024 Google LLC.  All Rights Reserved."
+        ],
+        "1": [
+          "Material Symbols Sharp"
+        ],
+        "2": [
+          "Regular"
+        ],
+        "3": [
+          "2.768;GOOG;MaterialSymbolsSharp-Regular"
+        ],
+        "4": [
+          "Material Symbols Sharp Regular"
+        ],
+        "5": [
+          "Version 2.768"
+        ],
+        "6": [
+          "MaterialSymbolsSharp-Regular"
+        ],
+        "256": [
+          "Fill"
+        ],
+        "257": [
+          "Grade"
+        ],
+        "258": [
+          "Optical Size"
+        ],
+        "259": [
+          "Weight"
+        ],
+        "260": [
+          "Thin"
+        ],
+        "261": [
+          "ExtraLight"
+        ],
+        "262": [
+          "Light"
+        ],
+        "263": [
+          "Regular"
+        ],
+        "264": [
+          "Medium"
+        ],
+        "265": [
+          "SemiBold"
+        ],
+        "266": [
+          "Bold"
+        ],
+        "267": [
+          "Normal"
+        ],
+        "268": [
+          "24pt"
+        ]
+      },
+      "weight": 400,
+      "archiveUrl": "https://pub.dev/api/archives/material_symbols_icons-4.2768.0.tar.gz",
+      "archiveSha256": "6102193e0c451426e9bb5e6cbc8533609e464bb2afa7fce42d9d79790e012beb",
+      "licensePath": "dependencies/material-symbols-LICENSE",
+      "classification": "Verified with conditions",
+      "condition": "Exact locked archive bytes matched; package Apache notice retained. No native release or icon-rights clearance inferred. Preserve Google/Tim Maffett Apache copyright and licence; rawFontsUnfixed inputs are not selected for runtime.",
+      "licenseDeclared": "Apache-2.0",
+      "version": "material_symbols_icons 4.2768.0"
+    },
+    {
+      "componentId": "pub:material_symbols_icons",
+      "path": "rawFontsUnfixed/MaterialSymbolsRounded[FILL,GRAD,opsz,wght].ttf",
+      "distribution": "source-only (package input; not in Flutter font manifest)",
+      "bytes": 12559832,
+      "sha256": "ea18989c91fc029ceea6047cd79c7f0821fa7a9ede41371e7830e1aac5872ab1",
+      "names": {
+        "0": [
+          "Copyright 2020-2024 Google LLC.  All Rights Reserved."
+        ],
+        "1": [
+          "Material Symbols Rounded"
+        ],
+        "2": [
+          "Regular"
+        ],
+        "3": [
+          "2.768;GOOG;MaterialSymbolsRounded-Regular"
+        ],
+        "4": [
+          "Material Symbols Rounded Regular"
+        ],
+        "5": [
+          "Version 2.768"
+        ],
+        "6": [
+          "MaterialSymbolsRounded-Regular"
+        ],
+        "256": [
+          "Fill"
+        ],
+        "257": [
+          "Grade"
+        ],
+        "258": [
+          "Optical Size"
+        ],
+        "259": [
+          "Weight"
+        ],
+        "260": [
+          "Thin"
+        ],
+        "261": [
+          "ExtraLight"
+        ],
+        "262": [
+          "Light"
+        ],
+        "263": [
+          "Regular"
+        ],
+        "264": [
+          "Medium"
+        ],
+        "265": [
+          "SemiBold"
+        ],
+        "266": [
+          "Bold"
+        ],
+        "267": [
+          "Normal"
+        ],
+        "268": [
+          "24pt"
+        ]
+      },
+      "weight": 400,
+      "archiveUrl": "https://pub.dev/api/archives/material_symbols_icons-4.2768.0.tar.gz",
+      "archiveSha256": "6102193e0c451426e9bb5e6cbc8533609e464bb2afa7fce42d9d79790e012beb",
+      "licensePath": "dependencies/material-symbols-LICENSE",
+      "classification": "Verified with conditions",
+      "condition": "Exact locked archive bytes matched; package Apache notice retained. No native release or icon-rights clearance inferred. Preserve Google/Tim Maffett Apache copyright and licence; rawFontsUnfixed inputs are not selected for runtime.",
+      "licenseDeclared": "Apache-2.0",
+      "version": "material_symbols_icons 4.2768.0"
+    },
+    {
+      "componentId": "pub:material_symbols_icons",
+      "path": "rawFontsUnfixed/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].ttf",
+      "distribution": "source-only (package input; not in Flutter font manifest)",
+      "bytes": 8728880,
+      "sha256": "cbaa65d6f16e6f381f237dab94a10e2686286d99557cd9752a391df63fb5d566",
+      "names": {
+        "0": [
+          "Copyright 2020-2024 Google LLC.  All Rights Reserved."
+        ],
+        "1": [
+          "Material Symbols Outlined"
+        ],
+        "2": [
+          "Regular"
+        ],
+        "3": [
+          "2.768;GOOG;MaterialSymbolsOutlined-Regular"
+        ],
+        "4": [
+          "Material Symbols Outlined Regular"
+        ],
+        "5": [
+          "Version 2.768"
+        ],
+        "6": [
+          "MaterialSymbolsOutlined-Regular"
+        ],
+        "256": [
+          "Fill"
+        ],
+        "257": [
+          "Grade"
+        ],
+        "258": [
+          "Optical Size"
+        ],
+        "259": [
+          "Weight"
+        ],
+        "260": [
+          "Thin"
+        ],
+        "261": [
+          "ExtraLight"
+        ],
+        "262": [
+          "Light"
+        ],
+        "263": [
+          "Regular"
+        ],
+        "264": [
+          "Medium"
+        ],
+        "265": [
+          "SemiBold"
+        ],
+        "266": [
+          "Bold"
+        ],
+        "267": [
+          "Normal"
+        ],
+        "268": [
+          "24pt"
+        ]
+      },
+      "weight": 400,
+      "archiveUrl": "https://pub.dev/api/archives/material_symbols_icons-4.2768.0.tar.gz",
+      "archiveSha256": "6102193e0c451426e9bb5e6cbc8533609e464bb2afa7fce42d9d79790e012beb",
+      "licensePath": "dependencies/material-symbols-LICENSE",
+      "classification": "Verified with conditions",
+      "condition": "Exact locked archive bytes matched; package Apache notice retained. No native release or icon-rights clearance inferred. Preserve Google/Tim Maffett Apache copyright and licence; rawFontsUnfixed inputs are not selected for runtime.",
+      "licenseDeclared": "Apache-2.0",
+      "version": "material_symbols_icons 4.2768.0"
+    },
+    {
+      "componentId": "pub:material_symbols_icons",
+      "path": "lib/fonts/MaterialSymbolsSharp.ttf",
+      "distribution": "runtime-distributed",
+      "bytes": 7207100,
+      "sha256": "a27b3e86e9e65aca00b49914939ae33d7449bc7addaba5a3938f32806640a243",
+      "names": {
+        "0": [
+          "Copyright 2020-2024 Google LLC.  All Rights Reserved."
+        ],
+        "1": [
+          "Material Symbols Sharp"
+        ],
+        "2": [
+          "Regular"
+        ],
+        "3": [
+          "2.768;GOOG;MaterialSymbolsSharp-Regular"
+        ],
+        "4": [
+          "Material Symbols Sharp Regular"
+        ],
+        "5": [
+          "Version 2.768"
+        ],
+        "6": [
+          "MaterialSymbolsSharp-Regular"
+        ],
+        "256": [
+          "Fill"
+        ],
+        "257": [
+          "Grade"
+        ],
+        "258": [
+          "Optical Size"
+        ],
+        "259": [
+          "Weight"
+        ],
+        "260": [
+          "Thin"
+        ],
+        "261": [
+          "ExtraLight"
+        ],
+        "262": [
+          "Light"
+        ],
+        "263": [
+          "Regular"
+        ],
+        "264": [
+          "Medium"
+        ],
+        "265": [
+          "SemiBold"
+        ],
+        "266": [
+          "Bold"
+        ],
+        "267": [
+          "Normal"
+        ],
+        "268": [
+          "24pt"
+        ]
+      },
+      "weight": 400,
+      "archiveUrl": "https://pub.dev/api/archives/material_symbols_icons-4.2768.0.tar.gz",
+      "archiveSha256": "6102193e0c451426e9bb5e6cbc8533609e464bb2afa7fce42d9d79790e012beb",
+      "licensePath": "dependencies/material-symbols-LICENSE",
+      "classification": "Verified with conditions",
+      "condition": "Exact locked archive bytes matched; package Apache notice retained. No native release or icon-rights clearance inferred. Preserve Google/Tim Maffett Apache copyright and licence; rawFontsUnfixed inputs are not selected for runtime.",
+      "licenseDeclared": "Apache-2.0",
+      "version": "material_symbols_icons 4.2768.0"
+    },
+    {
+      "componentId": "pub:material_symbols_icons",
+      "path": "lib/fonts/MaterialSymbolsRounded.ttf",
+      "distribution": "runtime-distributed",
+      "bytes": 12559832,
+      "sha256": "48bc911932df863aa4008ed12a2a191914628be857ab6eadacd0cf6b7a33d43e",
+      "names": {
+        "0": [
+          "Copyright 2020-2024 Google LLC.  All Rights Reserved."
+        ],
+        "1": [
+          "Material Symbols Rounded"
+        ],
+        "2": [
+          "Regular"
+        ],
+        "3": [
+          "2.768;GOOG;MaterialSymbolsRounded-Regular"
+        ],
+        "4": [
+          "Material Symbols Rounded Regular"
+        ],
+        "5": [
+          "Version 2.768"
+        ],
+        "6": [
+          "MaterialSymbolsRounded-Regular"
+        ],
+        "256": [
+          "Fill"
+        ],
+        "257": [
+          "Grade"
+        ],
+        "258": [
+          "Optical Size"
+        ],
+        "259": [
+          "Weight"
+        ],
+        "260": [
+          "Thin"
+        ],
+        "261": [
+          "ExtraLight"
+        ],
+        "262": [
+          "Light"
+        ],
+        "263": [
+          "Regular"
+        ],
+        "264": [
+          "Medium"
+        ],
+        "265": [
+          "SemiBold"
+        ],
+        "266": [
+          "Bold"
+        ],
+        "267": [
+          "Normal"
+        ],
+        "268": [
+          "24pt"
+        ]
+      },
+      "weight": 400,
+      "archiveUrl": "https://pub.dev/api/archives/material_symbols_icons-4.2768.0.tar.gz",
+      "archiveSha256": "6102193e0c451426e9bb5e6cbc8533609e464bb2afa7fce42d9d79790e012beb",
+      "licensePath": "dependencies/material-symbols-LICENSE",
+      "classification": "Verified with conditions",
+      "condition": "Exact locked archive bytes matched; package Apache notice retained. No native release or icon-rights clearance inferred. Preserve Google/Tim Maffett Apache copyright and licence; rawFontsUnfixed inputs are not selected for runtime.",
+      "licenseDeclared": "Apache-2.0",
+      "version": "material_symbols_icons 4.2768.0"
+    },
+    {
+      "componentId": "pub:material_symbols_icons",
+      "path": "lib/fonts/MaterialSymbolsOutlined.ttf",
+      "distribution": "runtime-distributed",
+      "bytes": 8728880,
+      "sha256": "614edbc1066f4352cea5fb2f4aeae31d9b2c3def0f4b63861671db96d982bafd",
+      "names": {
+        "0": [
+          "Copyright 2020-2024 Google LLC.  All Rights Reserved."
+        ],
+        "1": [
+          "Material Symbols Outlined"
+        ],
+        "2": [
+          "Regular"
+        ],
+        "3": [
+          "2.768;GOOG;MaterialSymbolsOutlined-Regular"
+        ],
+        "4": [
+          "Material Symbols Outlined Regular"
+        ],
+        "5": [
+          "Version 2.768"
+        ],
+        "6": [
+          "MaterialSymbolsOutlined-Regular"
+        ],
+        "256": [
+          "Fill"
+        ],
+        "257": [
+          "Grade"
+        ],
+        "258": [
+          "Optical Size"
+        ],
+        "259": [
+          "Weight"
+        ],
+        "260": [
+          "Thin"
+        ],
+        "261": [
+          "ExtraLight"
+        ],
+        "262": [
+          "Light"
+        ],
+        "263": [
+          "Regular"
+        ],
+        "264": [
+          "Medium"
+        ],
+        "265": [
+          "SemiBold"
+        ],
+        "266": [
+          "Bold"
+        ],
+        "267": [
+          "Normal"
+        ],
+        "268": [
+          "24pt"
+        ]
+      },
+      "weight": 400,
+      "archiveUrl": "https://pub.dev/api/archives/material_symbols_icons-4.2768.0.tar.gz",
+      "archiveSha256": "6102193e0c451426e9bb5e6cbc8533609e464bb2afa7fce42d9d79790e012beb",
+      "licensePath": "dependencies/material-symbols-LICENSE",
+      "classification": "Verified with conditions",
+      "condition": "Exact locked archive bytes matched; package Apache notice retained. No native release or icon-rights clearance inferred. Preserve Google/Tim Maffett Apache copyright and licence; rawFontsUnfixed inputs are not selected for runtime.",
+      "licenseDeclared": "Apache-2.0",
+      "version": "material_symbols_icons 4.2768.0"
+    },
+    {
+      "componentId": "tool:flutter-sdk",
+      "path": "MaterialIcons-Regular.otf",
+      "distribution": "runtime-distributed",
+      "bytes": 1645184,
+      "sha256": "d9865b671a09d683d13a863089d8825e0f61a37696ce5d7d448bc8023aa62453",
+      "names": {
+        "0": [
+          "Copyright 2019 Google LLC. All Rights Reserved."
+        ],
+        "1": [
+          "Material Icons"
+        ],
+        "2": [
+          "Regular"
+        ],
+        "3": [
+          "Material Icons : 2022-09-07"
+        ],
+        "4": [
+          "MaterialIcons-Regular"
+        ],
+        "5": [
+          "2022-09-06T15:00:38.819903"
+        ],
+        "6": [
+          "MaterialIcons-Regular"
+        ]
+      },
+      "weight": 400,
+      "archiveUrl": "https://storage.googleapis.com/flutter_infra_release/flutter/fonts/3012db47f3130e62f7cc0beabff968a33cbec8d8/fonts.zip",
+      "archiveSha256": "e56fa8e9bb4589fde964be3de451f3e5b251e4a1eafb1dc98d94add034dd5a86",
+      "licensePath": "dependencies/MaterialIcons_LICENSE.txt",
+      "classification": "Verified with conditions",
+      "condition": "Exact SDK cache archive bytes matched to generated test asset; SDK-pinned archive licence retained. No release build verification. Archive supplies CC-BY-4.0 for this font, distinct from Flutter SDK BSD licence; preserve attribution and verify release delivery.",
+      "licenseDeclared": "CC-BY-4.0",
+      "version": "Flutter material font archive 3012db47f3130e62f7cc0beabff968a33cbec8d8"
+    }
+  ],
+  "retainedFiles": [
+    {
+      "path": "DMSans/LICENSE.txt",
+      "sha256": "e14588e37145ecc0350c4cc1e96452497b63e4df8413a3d3517548eb26efa8a5",
+      "bytes": 4493
+    },
+    {
+      "path": "DMSans/OFL.txt",
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+      "bytes": 4482
+    },
+    {
+      "path": "DMSans/AUTHORS.txt",
+      "sha256": "a36623dc6f60826a9a0076aac5e6763466500f8a014314d926c88aef71edfa59",
+      "bytes": 338
+    },
+    {
+      "path": "DMSans/README.md",
+      "sha256": "66ee74996b3d44ad8a3158feaa7385522a9fb681910fa32e9935a0eea88b7b2d",
+      "bytes": 840
+    },
+    {
+      "path": "DMSans/commit.json",
+      "sha256": "5681072309d3431cb3438155a630984f303ad3742c21f84ab46ac50ee9b5f7f1",
+      "bytes": 43018
+    },
+    {
+      "path": "DMSans/tree.json",
+      "sha256": "6d27a19e2f52d3688c1a231f056f43b0f01a4c5e9594b642751207b74563730d",
+      "bytes": 81114
+    },
+    {
+      "path": "DMSans/DMSans-Regular.ttf",
+      "sha256": "1adb096acaa3d14f5ed678e99b808b0c8800f62cb342fa5c276298ad8030b458",
+      "bytes": 73524
+    },
+    {
+      "path": "DMSans/DMSans-Bold.ttf",
+      "sha256": "9d801f8a966a9860a9fd2921a54362a7d7058c7821e2cafc7f75ed055884a034",
+      "bytes": 73452
+    },
+    {
+      "path": "dependencies/material-symbols-release.json",
+      "sha256": "22731ad0e036265938da0a45b221b3f4c01497e345733130011e01c961e740a5",
+      "bytes": 1162
+    },
+    {
+      "path": "dependencies/material-symbols-LICENSE",
+      "sha256": "7d9e9efcbcaea0d8f2bdc2f25040e4b45eb8713b53e9772b092f41ce1367dfc7",
+      "bytes": 11605
+    },
+    {
+      "path": "dependencies/material-symbols-pubspec.yaml",
+      "sha256": "d7a630b063c528a11fae709c3d5b9e28f85e55c3564a039688ce87e842987bb0",
+      "bytes": 979
+    },
+    {
+      "path": "dependencies/MaterialIcons_LICENSE.txt",
+      "sha256": "be698262aecd042c0de6f886cc0af622f8def446462026992cc530275d8a9e74",
+      "bytes": 18531
+    },
+    {
+      "path": "font-manifest.observed.json",
+      "sha256": "157708dc521fbf88f8ab51fbc0edb87978d058db7a630e09bdc6dd262d4ab0b2",
+      "bytes": 1449
+    },
+    {
+      "path": "comparisons/Inter-3.19.zip.LICENSE.txt",
+      "sha256": "4d7d9c95e7d7f2f0ebf76d5e0b344826b74e903a34028ee18ab54bb639e45906",
+      "bytes": 4426
+    },
+    {
+      "path": "comparisons/Roboto_v3.008.zip.LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "path": "comparisons.json",
+      "sha256": "8110a6c1c1cd87a4fa214aeb8a69ae27f87e638263ec7e6697b64b426ea53d95",
+      "bytes": 44240
+    },
+    {
+      "path": "dependencies/material_fonts.version",
+      "sha256": "532f782264831c4186d45c290159d1b26c16566e2d8393e32c821b76d21a3a61",
+      "bytes": 87
+    }
+  ],
+  "flutterSource": {
+    "version": "3.19.6",
+    "commit": "54e66469a933b60ddf175f858f82eaeb97e48c8d",
+    "pinUrl": "https://raw.githubusercontent.com/flutter/flutter/54e66469a933b60ddf175f858f82eaeb97e48c8d/bin/internal/material_fonts.version",
+    "pinPath": "dependencies/material_fonts.version"
+  }
+}
