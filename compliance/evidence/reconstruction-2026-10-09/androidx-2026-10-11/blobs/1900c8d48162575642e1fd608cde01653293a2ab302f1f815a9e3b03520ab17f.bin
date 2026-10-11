@@ -1,0 +1,170 @@
+{
+  "archives": {
+    "customview-1.0.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/customview/view/AbsSavedState.java",
+          "bytes": 3355,
+          "sha256": "d0364ff3bbe52f108642349f5a6e7ff5f3f7ca9a1aa5e999122fd7124d2b4d20"
+        },
+        {
+          "path": "androidx/customview/widget/ExploreByTouchHelper.java",
+          "bytes": 52323,
+          "sha256": "434081a841fc314fc73753fb7a8ddb698fc84ce47f2967167d3f1bb8f4d2bc0d"
+        },
+        {
+          "path": "androidx/customview/widget/FocusStrategy.java",
+          "bytes": 18458,
+          "sha256": "54100153cce858836daf8f9097e6c1bff41f21f0e1fb79424ff81306a8edd598"
+        },
+        {
+          "path": "androidx/customview/widget/ViewDragHelper.java",
+          "bytes": 62105,
+          "sha256": "b305a759c8a5268cda7894365a21b66e98fe18075a4b7bea377f6d77003d00b7"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/customview/view/AbsSavedState.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/customview/widget/ExploreByTouchHelper.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/customview/widget/FocusStrategy.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/customview/widget/ViewDragHelper.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": [
+        {
+          "path": "androidx/customview/widget/FocusStrategy.java",
+          "text": "* Implements absolute and relative focus movement strategies. Adapted from"
+        }
+      ]
+    },
+    "customview-1.0.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 833,
+          "sha256": "d2b9d01dca583a16b369f047697c1845d16897addc00b5c52103890cdac9ad37"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 6283,
+          "sha256": "6d21a0b45c6febbd655e3e56f1cdb865f9825a2e9ffc3f5de23d40bdc2e2d63e"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 33627,
+          "sha256": "319f904d5ee4b9fa9d4f0755fcc8549a0dd9a576510648e3e31afe10c2cf8fc0"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.customview_customview.version",
+          "bytes": 6,
+          "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        },
+        {
+          "path": "classes.jar!androidx/customview/view/AbsSavedState$1.class",
+          "bytes": 448,
+          "sha256": "44edc922ac400078ef9ab208696754f4d4fca9c6a8c8a186d5ac6a76a749138a"
+        },
+        {
+          "path": "classes.jar!androidx/customview/view/AbsSavedState$2.class",
+          "bytes": 1906,
+          "sha256": "494da6d84e454b69ff771b6324ff70128a5b216b696b1173a70629bcd8d8eb13"
+        },
+        {
+          "path": "classes.jar!androidx/customview/view/AbsSavedState.class",
+          "bytes": 2502,
+          "sha256": "8e98795fc7f376ed95f7eb50bc6a9c71485064fce7034d0ed0a3ebbaa9239f83"
+        },
+        {
+          "path": "classes.jar!androidx/customview/widget/ExploreByTouchHelper$1.class",
+          "bytes": 1298,
+          "sha256": "95f0fbe8f559d7ffda56e127f85da586224dc63747dc642ea3d099e7af7bc10d"
+        },
+        {
+          "path": "classes.jar!androidx/customview/widget/ExploreByTouchHelper$2.class",
+          "bytes": 2100,
+          "sha256": "1cda444324eee6a1ba51bc54052a8af6692dccd7eb92d328245a89fca517aa16"
+        },
+        {
+          "path": "classes.jar!androidx/customview/widget/ExploreByTouchHelper$MyNodeProvider.class",
+          "bytes": 1692,
+          "sha256": "62516ff25f530156c8460581a845458e62dc5a1f9d7eb303be1ac7b53e47fd8f"
+        },
+        {
+          "path": "classes.jar!androidx/customview/widget/ExploreByTouchHelper.class",
+          "bytes": 18430,
+          "sha256": "8ee149c2d8d8dd3a63a81ee5f30b21185aa4e3c74122fc77da1fea9e09b90d29"
+        },
+        {
+          "path": "classes.jar!androidx/customview/widget/FocusStrategy$BoundsAdapter.class",
+          "bytes": 414,
+          "sha256": "9741e9931915825cd4ace7035ef901d1a326cdf86fe98fd50477555870ff7177"
+        },
+        {
+          "path": "classes.jar!androidx/customview/widget/FocusStrategy$CollectionAdapter.class",
+          "bytes": 464,
+          "sha256": "6967a2b2451b3a70046ee01bfd5b6b51336be4fddad1fc9557c1394fef3a3cf2"
+        },
+        {
+          "path": "classes.jar!androidx/customview/widget/FocusStrategy$SequentialComparator.class",
+          "bytes": 2078,
+          "sha256": "ad876de65687aeb7a866ecca7b8e155698607be2c668490f1ebe9df59e0de4a6"
+        },
+        {
+          "path": "classes.jar!androidx/customview/widget/FocusStrategy.class",
+          "bytes": 8306,
+          "sha256": "46139ff36b57d14f23e3934918998d8285cc72b05021e0556fbbe7d4e1622799"
+        },
+        {
+          "path": "classes.jar!androidx/customview/widget/ViewDragHelper$1.class",
+          "bytes": 594,
+          "sha256": "5d7e67c528df1f15f01cdd477b687428b0c58e4a8ae7b940f64aed70762bd252"
+        },
+        {
+          "path": "classes.jar!androidx/customview/widget/ViewDragHelper$2.class",
+          "bytes": 701,
+          "sha256": "33ec8f74f2792c9c4d30d294816ee38633461b0a467370deca43dc226c03c34d"
+        },
+        {
+          "path": "classes.jar!androidx/customview/widget/ViewDragHelper$Callback.class",
+          "bytes": 2264,
+          "sha256": "4bb2d0cf476f758975bb2f991230b9f05a59aee2f757f0872fb16bb48f2f2d53"
+        },
+        {
+          "path": "classes.jar!androidx/customview/widget/ViewDragHelper.class",
+          "bytes": 21899,
+          "sha256": "f0fd05a53aeed27dd76f6a9edb1ebe81dc73fc16398ab93bf42716ef3c6d57d4"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

@@ -1,0 +1,1451 @@
+{
+  "archives": {
+    "media-1.1.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "android/support/v4/media/MediaBrowserCompat.java",
+          "bytes": 97119,
+          "sha256": "206e6efd2b7eb670d8fa504e4bfd9f27eb8f57146316ace8afdec304da7cb3d6"
+        },
+        {
+          "path": "android/support/v4/media/MediaDescriptionCompat.java",
+          "bytes": 18123,
+          "sha256": "16f53c7a26be14cdb8d601319449eac80bb5d6c8e043112d29f9b802a0c3d82d"
+        },
+        {
+          "path": "android/support/v4/media/MediaMetadataCompat.java",
+          "bytes": 34123,
+          "sha256": "d14feaa065ef8cb1aa6360f383dc75198ec22b5bed3a62d41a04481f9531a8b0"
+        },
+        {
+          "path": "android/support/v4/media/RatingCompat.java",
+          "bytes": 14206,
+          "sha256": "300b4cf82713c7144715949893903edc1c77f3ec4d411e5288758135e884376e"
+        },
+        {
+          "path": "android/support/v4/media/session/MediaControllerCompat.java",
+          "bytes": 95777,
+          "sha256": "e9d812657362d05f09d14a53f5e71505fce649caa6068a1fbf733ead04f77d45"
+        },
+        {
+          "path": "android/support/v4/media/session/MediaSessionCompat.java",
+          "bytes": 163032,
+          "sha256": "4ce247e0d3ed785becd4d7a309ef2a234e4599880775e5849f2a31fd3bdf4853"
+        },
+        {
+          "path": "android/support/v4/media/session/ParcelableVolumeInfo.java",
+          "bytes": 2468,
+          "sha256": "910a4c2315949b9fdc0e597e369d1c7fb065699ba164b8231c6bea1b956ec74f"
+        },
+        {
+          "path": "android/support/v4/media/session/PlaybackStateCompat.java",
+          "bytes": 50784,
+          "sha256": "758c1124a31a3d87fe45fd33bf578f4f99b2cb7504ab43a7abfbd352cfe3bf1a"
+        },
+        {
+          "path": "androidx/media/AudioAttributesCompat.java",
+          "bytes": 27610,
+          "sha256": "a779e86e0ece000967755a8ffec297a33a05f86696423f85f56937c58a03ccc8"
+        },
+        {
+          "path": "androidx/media/AudioAttributesImpl.java",
+          "bytes": 1374,
+          "sha256": "6d62e51b8af23fa66a9e72fac26489a9887d97d432e44b0c4ddf9f6b4e19dc04"
+        },
+        {
+          "path": "androidx/media/AudioAttributesImplApi21.java",
+          "bytes": 4820,
+          "sha256": "0bac0d44bf7f1ccef32b9f79ac0b9e0cccac4bd97805c3ff213d5f34ce8ba2bf"
+        },
+        {
+          "path": "androidx/media/AudioAttributesImplApi26.java",
+          "bytes": 2061,
+          "sha256": "eeb0083cdcef20a47233a593ca66cd1f12ce0ed1f1d369a9f8187d86185d3774"
+        },
+        {
+          "path": "androidx/media/AudioAttributesImplBase.java",
+          "bytes": 9392,
+          "sha256": "142c6f1948600933b39de23769978f37e6874777462308692b4116d80c785c9f"
+        },
+        {
+          "path": "androidx/media/AudioFocusRequestCompat.java",
+          "bytes": 19067,
+          "sha256": "1120d29cf761d5b9ffc83396c7b26bb2992f9755e3baf5525f5024297b1662f8"
+        },
+        {
+          "path": "androidx/media/AudioManagerCompat.java",
+          "bytes": 5664,
+          "sha256": "97b509e3e7b2cc9961ec6dd4a9f440bfe4a65a0e2a4f62b7125c0e4568a72a00"
+        },
+        {
+          "path": "androidx/media/MediaBrowserCompatUtils.java",
+          "bytes": 3058,
+          "sha256": "86c496bfa9066504b5c2f7f487ee3e507ed4dcece045a74cd2c40f9fe3bfac07"
+        },
+        {
+          "path": "androidx/media/MediaBrowserProtocol.java",
+          "bytes": 9218,
+          "sha256": "736369b0388933a1e374bdfe5aa13e02f2849cadc6186229e696358d3b3a4efb"
+        },
+        {
+          "path": "androidx/media/MediaBrowserServiceCompat.java",
+          "bytes": 83903,
+          "sha256": "9567cd57c8166cf7a2f711cd65fadb8f71d4c6cf5ff2ba6ea286f12a0151bf5c"
+        },
+        {
+          "path": "androidx/media/MediaSessionManager.java",
+          "bytes": 8171,
+          "sha256": "a32ca71daaae7945ab9500746edf3e99ee660054b8f38c5970a598595b1ff883"
+        },
+        {
+          "path": "androidx/media/MediaSessionManagerImplApi21.java",
+          "bytes": 1668,
+          "sha256": "9007ab91c3178f9fa9bf3bc95bacda805b43e06c573f661f59c62e0a87c44fef"
+        },
+        {
+          "path": "androidx/media/MediaSessionManagerImplApi28.java",
+          "bytes": 3774,
+          "sha256": "cb16c1414586ebf24de7da717ee5f9d0426596655998c3d603fb3b6fe3fb98d9"
+        },
+        {
+          "path": "androidx/media/MediaSessionManagerImplBase.java",
+          "bytes": 6092,
+          "sha256": "f343b5d1631c1ec557fc7797a4782890ab163ca2e1b0042031ba87c4d6e13aae"
+        },
+        {
+          "path": "androidx/media/VolumeProviderCompat.java",
+          "bytes": 5921,
+          "sha256": "bf29e7297458a4af40ae8fb8641bdfebad6de856431020a1e0d012cac44d5b20"
+        },
+        {
+          "path": "androidx/media/app/NotificationCompat.java",
+          "bytes": 21309,
+          "sha256": "b30920e7677d4e5df485f283cb673e23e04d9c608391a4b4b288ebde7635d354"
+        },
+        {
+          "path": "androidx/media/session/MediaButtonReceiver.java",
+          "bytes": 14380,
+          "sha256": "ed5663a81b24471b77241d8c3580a482476bf1a5727d8f3c0e24a5e2c6f5d318"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "android/support/v4/media/MediaBrowserCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "android/support/v4/media/MediaDescriptionCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "android/support/v4/media/MediaMetadataCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "android/support/v4/media/RatingCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "android/support/v4/media/session/MediaControllerCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "android/support/v4/media/session/MediaSessionCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "android/support/v4/media/session/ParcelableVolumeInfo.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "android/support/v4/media/session/PlaybackStateCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/AudioAttributesCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/AudioAttributesImpl.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/AudioAttributesImplApi21.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/AudioAttributesImplApi26.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/AudioAttributesImplBase.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/AudioFocusRequestCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/AudioManagerCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/MediaBrowserCompatUtils.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/MediaBrowserProtocol.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/MediaBrowserServiceCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/MediaSessionManager.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/MediaSessionManagerImplApi21.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/MediaSessionManagerImplApi28.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/MediaSessionManagerImplBase.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/VolumeProviderCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/app/NotificationCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/media/session/MediaButtonReceiver.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "media-1.1.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 874,
+          "sha256": "ce3f1fff85d2e0c08e2151acbc1601d608ac64f9b95d21228125587f0acb51a5"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 9620,
+          "sha256": "337b577bd9044946e5511330c37c8160f432027eb4b28c8591319c5cb158712b"
+        },
+        {
+          "path": "aidl/android/support/v4/media/MediaDescriptionCompat.aidl",
+          "bytes": 683,
+          "sha256": "8795317abf741558b4cb1e1f695f10d282c6cffac8e9b5fe4f455d384bd3798c"
+        },
+        {
+          "path": "aidl/android/support/v4/media/MediaMetadataCompat.aidl",
+          "bytes": 680,
+          "sha256": "8069a7af2b1f276d3d373508e2f808a4ccfb9235c5c42bd43db10f1b475c6e68"
+        },
+        {
+          "path": "aidl/android/support/v4/media/RatingCompat.aidl",
+          "bytes": 673,
+          "sha256": "4ec86ad07b2b23d2a75ee349dad54b6c30ab66d5990ccbb2cda9b45a1b0ae8d9"
+        },
+        {
+          "path": "aidl/android/support/v4/media/session/MediaSessionCompat.aidl",
+          "bytes": 787,
+          "sha256": "16840dc65ef29a1c764aeb8ae3702f4c088885a11bb1cecbe3ea8121346eb06d"
+        },
+        {
+          "path": "aidl/android/support/v4/media/session/ParcelableVolumeInfo.aidl",
+          "bytes": 689,
+          "sha256": "0926d5aaa149ce85bf2145ccbeec59d68386e4a20235d505ff8112dd21802c94"
+        },
+        {
+          "path": "aidl/android/support/v4/media/session/PlaybackStateCompat.aidl",
+          "bytes": 688,
+          "sha256": "a1d188e640d1a697d65edb5e81e1dfb2ec97650bd673fa8c7a06805a4f47db7f"
+        },
+        {
+          "path": "annotations.zip",
+          "bytes": 4514,
+          "sha256": "1d6ff4b3d139d69645368534bd2760d77bfc37629b40fceec6dd9100d113ef9b"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 330361,
+          "sha256": "3ab889aa8c8f8d0cd2dad265d4a19fd12149148edd02a650e276876e1e5da3b8"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.media_media.version",
+          "bytes": 6,
+          "sha256": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/AudioAttributesCompatParcelizer.class",
+          "bytes": 1117,
+          "sha256": "068bda1a8443addaf0073a5a001e6bf129b76948490f0f5114c6867df07d0691"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/AudioAttributesImplApi21Parcelizer.class",
+          "bytes": 1138,
+          "sha256": "8a48d3671bf3a69e49bb97bf87376788702c2447b06e68aeb90e811fa9574ef3"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/AudioAttributesImplApi26Parcelizer.class",
+          "bytes": 1138,
+          "sha256": "e8448043aca9e3dda6d8acc092cab8cd6f9091df9182a8f740f9fc9d98ab0118"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/AudioAttributesImplBaseParcelizer.class",
+          "bytes": 1131,
+          "sha256": "a85e7785856ca77be3feaa4604e24bebb69bb83a5e1254cad5f0f3722b8f4c63"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$CallbackHandler.class",
+          "bytes": 3851,
+          "sha256": "0bfed055bbcf61085c252122160bb29fb8bb88e22f0eba507f266ced577eb351"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$ConnectionCallback$ConnectionCallbackApi21.class",
+          "bytes": 1677,
+          "sha256": "6c936017780cfc24286265339174cbef41c976969f3b920b6dafba5b7574326f"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$ConnectionCallback$ConnectionCallbackInternal.class",
+          "bytes": 483,
+          "sha256": "9f0c1d326ab590473642e5a821889d99e09a8569e472697c88731caa0130698d"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$ConnectionCallback.class",
+          "bytes": 1793,
+          "sha256": "b37c154f2cdea23b524e999046a49ca26e89e4c7b57934cb22a4abc414f75a1e"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$CustomActionCallback.class",
+          "bytes": 918,
+          "sha256": "e61a676a7a12128e5fef32f5e406f1120b519baf7e39ae23709b583bd762ab3c"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$CustomActionResultReceiver.class",
+          "bytes": 2137,
+          "sha256": "1270d2d05599502d1f4686156653e943356564957abc53bce4107ce1b51f0f84"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$ItemCallback$ItemCallbackApi23.class",
+          "bytes": 1661,
+          "sha256": "592837b719e708ea1ba8b39f72fb47912c5b2efa2f21f6e9ed8fc02c9615f104"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$ItemCallback.class",
+          "bytes": 1497,
+          "sha256": "78d21a04670852cb5bd32f0269fb240ba4576af487ffb054854e07c9d907c553"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$ItemReceiver.class",
+          "bytes": 1840,
+          "sha256": "bbb8e5c0638d9e658c242d039090a4d2b6f9e67feba422c2e6841893bba84aa2"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImpl.class",
+          "bytes": 2006,
+          "sha256": "97dea567d6557facfce5599fba1063aa2a11061e9ef62028fff961b416fdde30"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21$1.class",
+          "bytes": 1330,
+          "sha256": "f7a7c94260bcbe731fe25452d857d45cfc9fd14ec4da8ab8f23a6cfb7f3d7841"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21$2.class",
+          "bytes": 1330,
+          "sha256": "068fa505f15e8ffadc6361416da5438800a057b7643cd6debf18e28684e4488e"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21$3.class",
+          "bytes": 1330,
+          "sha256": "446c80774d2e401305e3d15240594939cb6811127c0c5ad9c6640dc0442d9131"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21$4.class",
+          "bytes": 1463,
+          "sha256": "5f77069e1c4bb7d6cf1f8d02ccfbfa561e4224d04cee0f28c2ba985d53b12d4c"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21$5.class",
+          "bytes": 1463,
+          "sha256": "33eb6438dd1a7eb99d539f598d67ce614c417e98af778ea034f831f043f348ae"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21$6.class",
+          "bytes": 1524,
+          "sha256": "15ebb64b4c56572346e91f4cf7a0e275ff962172db31761dde31fd3be74eb5e2"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21$7.class",
+          "bytes": 1524,
+          "sha256": "3c253a1d31113f58031c518abe5c72e48736d8b94a00512bc791a9a3d77460a0"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21.class",
+          "bytes": 16567,
+          "sha256": "5b6578c48e39df68ccc1746b11fc32c4ca9ef9373846aec3978d9ad9273340e1"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi23.class",
+          "bytes": 2186,
+          "sha256": "9951a784925f34529bc9f7f097f52f60ccb9c2d08226f2d58b5f761d0211ebe1"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi26.class",
+          "bytes": 2880,
+          "sha256": "6776a9392c18f627793b04409f889a23512e2e0039b9f9570e135f7518760582"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$1.class",
+          "bytes": 3329,
+          "sha256": "8d1afd17ae496dd2ff31dab7a7893b6cb266cf1f87db62b8ccd68b7185d8a912"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$2.class",
+          "bytes": 2010,
+          "sha256": "9f3e3ac1e654fbe7b1b767e4700a4a1c0899d54361a7b1bee8fb2c777394f48d"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$3.class",
+          "bytes": 1324,
+          "sha256": "10bbbb725acb017ad91a2e07535f4cdebf2ee476c2ab8c25015d02a759416e91"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$4.class",
+          "bytes": 1324,
+          "sha256": "5dd2659c26553061be1136509c146815ac261e9270b7775a7a94993572f817f7"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$5.class",
+          "bytes": 1457,
+          "sha256": "33bd9899faf13d541b847842a8bae18e9d2d6e1e742c5e38f926d1e3d827fbba"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$6.class",
+          "bytes": 1518,
+          "sha256": "e8dc61831a3f93a8c4c51f334fa1ce3bef7330aecebc694c336eea4f179196ee"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$MediaServiceConnection$1.class",
+          "bytes": 3288,
+          "sha256": "aff7a521ebc42496977685e61da915ef5a91c4233f6acf97e1cde37f2e5a53fe"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$MediaServiceConnection$2.class",
+          "bytes": 2799,
+          "sha256": "2c3d925085354ff1b2ef48da320a837fedae66d1326705c97f54c2fed17a9838"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$MediaServiceConnection.class",
+          "bytes": 3093,
+          "sha256": "921eae00353b60a815d5ba92f995acecc2353f0f524b605416ad5510ad1c432b"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase.class",
+          "bytes": 17143,
+          "sha256": "a43d797e888567308944958236ff982d2aef83a2c2003a0b10dba3a552163553"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaBrowserServiceCallbackImpl.class",
+          "bytes": 759,
+          "sha256": "8fd9961c015765b213a758fedd70a785d830e5927da91df67a0424e97ced96b0"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaItem$1.class",
+          "bytes": 1352,
+          "sha256": "b4e2dab7e3bd8d3942d41cf6114f0f1267bc81773884766666a1359601d810cd"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaItem$Flags.class",
+          "bytes": 749,
+          "sha256": "64c32008fed99e01b7eb03b0d2946f233e5f681b7559325a166e9d868fc74afd"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$MediaItem.class",
+          "bytes": 4934,
+          "sha256": "337dc8d652401ca061f9cd130c6f64d90f8d1a6c0a1d0b60fe901eff97361fbc"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$SearchCallback.class",
+          "bytes": 1277,
+          "sha256": "a3ea8036c410a4b41a91c3d44697138c6b8fc87681dbd789b8cd96dd70eb769e"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$SearchResultReceiver.class",
+          "bytes": 2343,
+          "sha256": "8e74aaa36be8e097012ab1a6dc25025f2e5ca999c33327ca0d30e54291c8beda"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$ServiceBinderWrapper.class",
+          "bytes": 4315,
+          "sha256": "a7bc0bbb3a38c2d43aa9f9dff445a9ab525a19179ba012384f7b3418e6512324"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$Subscription.class",
+          "bytes": 2303,
+          "sha256": "d44ded64a7fc472efbc8f95f5c2b44278880405c540ba35dc9770006e99835a3"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$SubscriptionCallback$SubscriptionCallbackApi21.class",
+          "bytes": 3894,
+          "sha256": "642b7ec95ddee95efa393f21ba08fb27210c3243954e9f73033aa29745b7842c"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$SubscriptionCallback$SubscriptionCallbackApi26.class",
+          "bytes": 2173,
+          "sha256": "9224863029aad9eec1210824f2f8e337dd1e73fdc7e7a1963fefdcf92857d604"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat$SubscriptionCallback.class",
+          "bytes": 3100,
+          "sha256": "a20e948b0dc180a949c93c0d457d2a36dfd672a67c41eec747c6ed8f12c55759"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaBrowserCompat.class",
+          "bytes": 7642,
+          "sha256": "bc44f5f7530ea5e7e0619d3f6a3970edfd92859bf7320b26883a9325c5ffeec6"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaDescriptionCompat$1.class",
+          "bytes": 1600,
+          "sha256": "116c397e64a072525eaf94a8fb63a23c0d97672db442da3547fe3d85e3567a77"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaDescriptionCompat$Builder.class",
+          "bytes": 2542,
+          "sha256": "719e232f7dbc9f2e20a4609120d272ba9cdade386f4ab7465ad4c67a75a5f297"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaDescriptionCompat.class",
+          "bytes": 8364,
+          "sha256": "f85f8721f7ce989c8f0b0906529a1bb3fc72eaa5e2d69a0fd9a85fbb9e4fbb9f"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaMetadataCompat$1.class",
+          "bytes": 1230,
+          "sha256": "badd4c5276f8b8b8b9d54a229a69fbc0eb77fa4eede57152a9bbf8c4f4b94de8"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaMetadataCompat$BitmapKey.class",
+          "bytes": 671,
+          "sha256": "3e17a2e11f3d55f0b19024d8bd5714f8bec0605953609a4a05be590885b8bf4e"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaMetadataCompat$Builder.class",
+          "bytes": 5172,
+          "sha256": "9f20679adc3ad85489d9646024fb6070292401223a4e7ffdf24caf645e2676a8"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaMetadataCompat$LongKey.class",
+          "bytes": 667,
+          "sha256": "aa30516cfccd320614067e7637b296982e4004dbc0d4ac518da8525abb2390f2"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaMetadataCompat$RatingKey.class",
+          "bytes": 671,
+          "sha256": "6df09497b2f51aac19649ba1f5b4c2aaf0bd1898de9c7d8d6f53fd6179895416"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaMetadataCompat$TextKey.class",
+          "bytes": 667,
+          "sha256": "1d87d6d719886d255114576561ed2281cc714ae323ffbb7be8fc6fec9912a4cc"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/MediaMetadataCompat.class",
+          "bytes": 11334,
+          "sha256": "944d98d1080cf38e1602ed3e4afc09d04f9671576531d3d61bbcd6901c1ef6a6"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/RatingCompat$1.class",
+          "bytes": 1247,
+          "sha256": "64f2efe4429bf58e7f774f04396f6a1307cc9ca0b65042cc62453a5e85ea4558"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/RatingCompat$StarStyle.class",
+          "bytes": 650,
+          "sha256": "537129dc09da57ac093862e7d451101a5ea58009c88c1c143450c9e280ea5a11"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/RatingCompat$Style.class",
+          "bytes": 642,
+          "sha256": "619bb5c3d1fb5e059a6e869eae839620341bdcb53b1a622536a625af815d2107"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/RatingCompat.class",
+          "bytes": 5497,
+          "sha256": "c9a1f35b18f7f53e4f962ba3f64983d25978bb4c2308ba131d54b4f90d1cc7dd"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/IMediaControllerCallback$Stub$Proxy.class",
+          "bytes": 5757,
+          "sha256": "1d1130cdd1274718af6e2c860494c78beaa08932ab679814d0796e41197bf88b"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/IMediaControllerCallback$Stub.class",
+          "bytes": 5497,
+          "sha256": "2955851ea1d2b9eca45d378376cfc529d0f48543d3bb3327124bdc8d8279284e"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/IMediaControllerCallback.class",
+          "bytes": 1416,
+          "sha256": "7c6efb022ffc004cb20e15a9e9246cb047461eb10629c1f815cfeed1e0266eb0"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/IMediaSession$Stub$Proxy.class",
+          "bytes": 19538,
+          "sha256": "cf4556c074363bba3e7184aaa34dd3f9eb4a7566441b9a12a4a6db3fc167a132"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/IMediaSession$Stub.class",
+          "bytes": 13664,
+          "sha256": "5ba6e69bfd012441872a0d5f400b4a5decddb912732879d25c1b58f47b995e8b"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/IMediaSession.class",
+          "bytes": 3327,
+          "sha256": "ecd60f58ab5e92fe0f7b759f4d10f2cdd61686674f0cc64b0606e777649ab344"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaControllerCompat$Callback$MediaControllerCallbackApi21.class",
+          "bytes": 4928,
+          "sha256": "f83016b6b49811e9cd683e592e4134ce28ce82e9e6cb6cda7d9e77bfe17e23b7"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaControllerCompat$Callback$MessageHandler.class",
+          "bytes": 3391,
+          "sha256": "bcdf347028c4330cb03ee067a12b782a23ec51d58fe7a677ff5d17daa88aa94e"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaControllerCompat$Callback$StubCompat.class",
+          "bytes": 5008,
+          "sha256": "b134f2f0c34e847a9eaedcdc01867648ec9933a30cebcad6e5510d30275cef4c"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaControllerCompat$Callback.class",
+          "bytes": 5207,
+          "sha256": "835d7f5a1bce5ef2845366745546250a16ef77ec4301df41f7323ac7582220eb"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaControllerCompat$MediaControllerExtraData.class",
+          "bytes": 954,
+          "sha256": "5a3f095bfde5ddfd5cd06a7937940ede8800c598028b250655b41c52bb967b0d"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaControllerCompat$MediaControllerImpl.class",
+          "bytes": 2281,
+          "sha256": "ab1bfe9ae4a15211839c151416f5823ecf2fce51e68a2de26197794745de6d93"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaControllerCompat$MediaControllerImplApi21$ExtraBinderRequestResultReceiver.class",
+          "bytes": 2837,
+          "sha256": "6d0ba7a17a8a3a072e84f1f8957335adbab84c1164ce2bb7f9c4135171777832"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaControllerCompat$MediaControllerImplApi21$ExtraCallback.class",
+          "bytes": 2476,
+          "sha256": "9634bc3fd8389ab3faa6692c979e287298b6bca70711bf73dc5c418f69f5bf51"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaControllerCompat$MediaControllerImplApi21.class",
+          "bytes": 13125,
+          "sha256": "5a9470a01d5d8d772201749d2710d2dc78a649c344a2c07d031e35df1ab21aa5"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaControllerCompat$MediaControllerImplBase.class",
+          "bytes": 10604,
+          "sha256": "de44a2730c014185d39c73660194b628f336e45930ea71473b7187f4d28ab6a2"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaControllerCompat$PlaybackInfo.class",
+          "bytes": 2162,
+          "sha256": "7c3ef4bb976da6e21175b4c843ac9f3df2bcbf48a10b42ba1bea32c944eda6f2"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaControllerCompat$TransportControls.class",
+          "bytes": 1944,
+          "sha256": "3eb4b4f8cbb13d3e0ce5d0f1977a7e06519664ec9f3cd0047fc44b35c01046b3"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaControllerCompat$TransportControlsApi21.class",
+          "bytes": 7034,
+          "sha256": "fb81302410b384c26fe17b2bbd7d83988b96ea98bebf438491acd28795340ba7"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaControllerCompat$TransportControlsBase.class",
+          "bytes": 6608,
+          "sha256": "16fd5c8814c59ce109b409cfe53eceb58632daa9c36112296ea0f60a6c07867a"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaControllerCompat.class",
+          "bytes": 13651,
+          "sha256": "7761a22d523926c1cb037cdfb5b2d8e471564c866ddaad35223b8a179ce38889"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$1.class",
+          "bytes": 866,
+          "sha256": "d5f58f01911959a3f953d4f2995c207d33808e91f01c1927f7930f05db15a331"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$2.class",
+          "bytes": 866,
+          "sha256": "ec56a4d3153a0d68cab0d73c7caeb009ba2a3c0544482437db6b57ac3f4bde77"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$Callback$CallbackHandler.class",
+          "bytes": 1933,
+          "sha256": "5e330ed26336e93592df39a5f23276c9f6d614bcda54d191c580ca2aaa2016ab"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$Callback$MediaSessionCallbackApi21.class",
+          "bytes": 11562,
+          "sha256": "12f7ec585e215215bc7d441536d551c8e2c7d02fff50fa7b95750b56e1ae835e"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$Callback.class",
+          "bytes": 7892,
+          "sha256": "614dad12fa451ff7b762a3ea20abc21503ab4a2cbd264942af914fd6613e86fe"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$MediaSessionImpl.class",
+          "bytes": 2128,
+          "sha256": "91c7f43b3e4d36ffbf27878c04b74df87d2fc6fdcbbf2673c687e5416ce67eb8"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi18$1.class",
+          "bytes": 1679,
+          "sha256": "bd5fa299eb15466812bd8a25d7e9be707c734fa6bfb70e4e8f7be6b32d1055c4"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi18.class",
+          "bytes": 4171,
+          "sha256": "2f948ec14c1818a5b07eabac4c4d03e886dac2bbdb174b659fa20845467ab8be"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi19$1.class",
+          "bytes": 1883,
+          "sha256": "fa21a3116c6d91a06b4bc808edcb21f40dc6f45c6da9307ea6eff5f6704a20f8"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi19.class",
+          "bytes": 3661,
+          "sha256": "4e8fb69cfff1fdf80ffa7c95ef7f8efa9176e03960ae38e13d984b68a96f951a"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi21$ExtraSession.class",
+          "bytes": 8742,
+          "sha256": "5af60e48845bc3321327bf94d7dad070a2392df94db1912b7594f2a73d8c024e"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi21.class",
+          "bytes": 11807,
+          "sha256": "9c8f7d3e8804195d881b85101f44978fe94057a330f1b936ccd8e96a83227cdb"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi28.class",
+          "bytes": 2158,
+          "sha256": "182c0a708a9bea5db01bb8fa71237420a17a97c8438d4d56a73e850746af05e5"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase$1.class",
+          "bytes": 1611,
+          "sha256": "988e89164fe831793d9e38cd1f63f270dd2333d23f3e194dd91018b93652146a"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase$Command.class",
+          "bytes": 894,
+          "sha256": "766f30dc79139a042d439e73e80d3dbc9a474432a2698a1ad3e44eb57814b4bb"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase$MediaSessionStub.class",
+          "bytes": 12394,
+          "sha256": "0e14ee2c799913b94f4fa503e0647e7fb58b0fe56ca20ed4e0a640f62a00182b"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase$MessageHandler.class",
+          "bytes": 8084,
+          "sha256": "0ca7ec1b68b28f03e854ea9d2e0636a4a48cdabd8be2dc58f7ef5d885a9acbc8"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase.class",
+          "bytes": 20555,
+          "sha256": "a61cc464dd0c47ae60240b1a99c8c8769e85279df00b4b4ec88953ca3b0fd7cb"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$OnActiveChangeListener.class",
+          "bytes": 318,
+          "sha256": "d054ff01a34d0a27de0f4acde2152fe6a44e2fa64dbfcac08c645d4e17a1ebe2"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$QueueItem$1.class",
+          "bytes": 1407,
+          "sha256": "1059237a039eab5833487733cfb2a9088dc935a77ff92a77a5c8a6d5a8383cbe"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$QueueItem.class",
+          "bytes": 4805,
+          "sha256": "f5e3265b2bed05f40f2efb42d72d92ba7c255c5f46f69706cd3c444f98de3cff"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$ResultReceiverWrapper$1.class",
+          "bytes": 1491,
+          "sha256": "f071a920d7ee09c604de194462d94f188fb83c29e88dc3c2258514c74df35ce1"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$ResultReceiverWrapper.class",
+          "bytes": 1960,
+          "sha256": "72ef5e311199cc5336e4609ab8470e43514ff0c675531f14274fa2e47edf4e90"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$SessionFlags.class",
+          "bytes": 690,
+          "sha256": "26db83df36597cb13b6ea6f78f5b586bcf20e3e3c6aec1fd540cf05cf74674fe"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$Token$1.class",
+          "bytes": 1741,
+          "sha256": "ef894bef9da5645ba19de40cb144fdfbe3caded3b6e28d7a949feef59670230c"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat$Token.class",
+          "bytes": 5982,
+          "sha256": "cf6a25f9073582c295730c3ff6bb6876ef7acf57cae1d6c9c0406038fe042147"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/MediaSessionCompat.class",
+          "bytes": 17667,
+          "sha256": "18637dc43a9317c92c1884dc250c67551f5dbc06ff8292bb0b37e3ba8b272280"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/ParcelableVolumeInfo$1.class",
+          "bytes": 1285,
+          "sha256": "8710db43c1e979ba8100bd79186d5b4ebb89a819e476c4f3c6aaaf52357234a9"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/ParcelableVolumeInfo.class",
+          "bytes": 1690,
+          "sha256": "e68c85080725ed3ad6057cfd0c428315f0b9048a90d94d0abf782c39b8364182"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/PlaybackStateCompat$1.class",
+          "bytes": 1278,
+          "sha256": "6358cc340fdc2e10911d2cfe18730500059754603becd5334136aab840f70a6e"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/PlaybackStateCompat$Actions.class",
+          "bytes": 683,
+          "sha256": "d84aa446d32f38259da5591460c824b3dcc9ce423a8c268f930d43006f3506dc"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/PlaybackStateCompat$Builder.class",
+          "bytes": 4486,
+          "sha256": "d469f7014c976010f282c6234b70189a460d21a9b4fbaa6009ac116d6b219974"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/PlaybackStateCompat$CustomAction$1.class",
+          "bytes": 1436,
+          "sha256": "f0d465f592bf10bf8714fefab51fc0a5f812f05b517f2591b403798787f055c6"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/PlaybackStateCompat$CustomAction$Builder.class",
+          "bytes": 1828,
+          "sha256": "f74b269d7e9a67061dc8f881eb18b24888252aecc0be605462dd03b7b6737e85"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/PlaybackStateCompat$CustomAction.class",
+          "bytes": 4430,
+          "sha256": "23c11f90c0d20c28f2f51d4fc27606c657ad6c9929e3012903c952fbe3152549"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/PlaybackStateCompat$ErrorCode.class",
+          "bytes": 687,
+          "sha256": "0367c4379cff18fe0fac10b85384a5276ce56fcb8095537f1dbc5ccde0790013"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/PlaybackStateCompat$MediaKeyAction.class",
+          "bytes": 697,
+          "sha256": "153523d965595cfbaf1f73013672c9eb957c86c426ee9686281efad95e8cc13f"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/PlaybackStateCompat$RepeatMode.class",
+          "bytes": 689,
+          "sha256": "6f6c868593a3a12834fd74a6ee5f1dfb27838029b186aebbd8dc2a18678597e7"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/PlaybackStateCompat$ShuffleMode.class",
+          "bytes": 691,
+          "sha256": "f2455897b979f832ab7e1d2f15b344b34c84410edeea7cf39a9adbadfc958640"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/PlaybackStateCompat$State.class",
+          "bytes": 679,
+          "sha256": "694606b171d2c02d14b49756f1bce62fe79d7a8c66b943e61ef230358d4096c4"
+        },
+        {
+          "path": "classes.jar!android/support/v4/media/session/PlaybackStateCompat.class",
+          "bytes": 12493,
+          "sha256": "db32479f52e6eff7c485bad3432d7927332c9513285f82fab8a2d544a2d12834"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesCompat$AttributeContentType.class",
+          "bytes": 679,
+          "sha256": "8b042a1364282883ec2220ee00c2c9ea625720169f71d11f07895c9ea95a6de8"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesCompat$AttributeUsage.class",
+          "bytes": 667,
+          "sha256": "09fb94160161194927bcb1e87dc7097567c76ea77b2b25d405c4afbd10c4cda7"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesCompat$AudioManagerHidden.class",
+          "bytes": 642,
+          "sha256": "00c6ba484c0d18849942b0eb760d5c65fbb70250c0065ec67b4299d115be660c"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesCompat$Builder.class",
+          "bytes": 2403,
+          "sha256": "a5d48e2082ae5a812a096d7e6c34040299f03d637b83cfc3589779d585d95b9f"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesCompat.class",
+          "bytes": 6434,
+          "sha256": "1e3761a6ebbf723cb6756c8bfad0802e64beb110dd417112c99b4c8beb176181"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesCompatParcelizer.class",
+          "bytes": 1572,
+          "sha256": "acff9762cfa5233ee36a6d1762fb46d155c713e9b33f3367968dd48ef9acdc84"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesImpl$Builder.class",
+          "bytes": 423,
+          "sha256": "69983c939fba73a7e057e795274155c56a32086a7f12c0ef3a6166c16291cdfc"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesImpl.class",
+          "bytes": 496,
+          "sha256": "906dfe8365f22ac354dd33b209225128029217876ba2646bfb1b8d5b5e8e81e5"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesImplApi21$Builder.class",
+          "bytes": 2025,
+          "sha256": "50fd1d795b4ffd1cc12d67aacfaadaec907640d58d4797e6570cd49a9088a479"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesImplApi21.class",
+          "bytes": 2830,
+          "sha256": "bf0fdb66ca5ace5f2291ee8472409924a1535871c0bea96fe9a474123f9d23df"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesImplApi21Parcelizer.class",
+          "bytes": 1616,
+          "sha256": "2d32b70f1b2ba211df6fd6fcb94f6c4adaaab03fe5ca965b2f897441fa5a61f2"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesImplApi26$Builder.class",
+          "bytes": 1567,
+          "sha256": "1350e00b0ab79f19131c874514d8ecd8532a45f159cf77ed27893659b2ecd76f"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesImplApi26.class",
+          "bytes": 1264,
+          "sha256": "75bd0022826aad977c0fc2beb34feb1ab09250022a074f01ceb6197728196eb6"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesImplApi26Parcelizer.class",
+          "bytes": 1616,
+          "sha256": "bad6e5999a170cf70d30ad701ace829d42b7d82d2373e35e498e8d4137ab616b"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesImplBase$Builder.class",
+          "bytes": 2559,
+          "sha256": "011d16d63a914c096547efd93e7c2ef707e774f93cbd104de88d6056316254ca"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesImplBase.class",
+          "bytes": 3319,
+          "sha256": "35eb89f1128da59b6b9ca324a4f35aa5d23800d5165775a36e518db3e8262280"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioAttributesImplBaseParcelizer.class",
+          "bytes": 1490,
+          "sha256": "157a45d4ef0881265259422cfde3eb12446424146ad25f13f350949915060a7f"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioFocusRequestCompat$Builder.class",
+          "bytes": 4618,
+          "sha256": "07531c6b13502f386a86ec16c2eac631abf382d6ab6fff68e17242d8d6aa831e"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioFocusRequestCompat$FocusGainType.class",
+          "bytes": 671,
+          "sha256": "70bea23cb32d9816aa29513ea8ceeca1cb44f22ab51dfc963b35ba930ef576da"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioFocusRequestCompat$OnAudioFocusChangeListenerHandlerCompat.class",
+          "bytes": 1775,
+          "sha256": "5a2d425e9c5cabf45fa69f910a99bd70a61a70dd2539fb80d9108eeb9840b403"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioFocusRequestCompat.class",
+          "bytes": 4635,
+          "sha256": "8d03aa18b0db523ba3ac1edc3b8f5c0c575be241fa9114afbc95d088d5ba9b3b"
+        },
+        {
+          "path": "classes.jar!androidx/media/AudioManagerCompat.class",
+          "bytes": 2365,
+          "sha256": "a892dd37a89bdd3d41f1ab302ccc7a422fb8af5f2433d2272f2df78e37a6ee4a"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserCompatUtils.class",
+          "bytes": 1795,
+          "sha256": "3cf50817fd232cb89183bcb9b704a6dcf5b97c5fd69295855c0240d34e1a2ecf"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserProtocol.class",
+          "bytes": 2685,
+          "sha256": "0f2063568817f67233702c4bdae58e7572067a3c08d3bdd84e30d34ef1165e35"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$1.class",
+          "bytes": 3497,
+          "sha256": "6ca10e0f410e4131a5c2134cbedf0217e940c74bafb8d677081031c10b460712"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$2.class",
+          "bytes": 1962,
+          "sha256": "12ce256d2a531e20984c736fd65bd7684728fbb8a383c63acab9eb475396bb4d"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$3.class",
+          "bytes": 2274,
+          "sha256": "28245f4aed6c3f8ac61be5358e0ef9fecd5916cc845e41e709e75788ce696739"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$4.class",
+          "bytes": 1703,
+          "sha256": "7cd4de295b0197d2a9b240baacfa7ec6f931ab63e32c53a27ccf6e8be42aeb96"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$BrowserRoot.class",
+          "bytes": 1954,
+          "sha256": "5e2263b670572309f365c4d75fb128203b60687ea12c818b97492177671014ca"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ConnectionRecord$1.class",
+          "bytes": 1305,
+          "sha256": "5bb12bcabb1aedc870414b96d74aeb1974f8557bf63dd057ad63970d22b395fa"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ConnectionRecord.class",
+          "bytes": 2326,
+          "sha256": "0225dc4b64986d97fabf895af755d255f38d23f03c65d3593421080758865975"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImpl.class",
+          "bytes": 1030,
+          "sha256": "73df968fc392a5325dbeeb8140e6f61858dab742d3b803eb4c4915bd7041d708"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplApi21$1.class",
+          "bytes": 2504,
+          "sha256": "bdfd872a75a373b8d9c3697d139941839d41d1be4f43d8e310b5a64a1889a9ea"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplApi21$2.class",
+          "bytes": 2764,
+          "sha256": "f373d8561420e182a95354170f316548c0da4e4ec6681fad06ce8b39f3436b2c"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplApi21$3.class",
+          "bytes": 2058,
+          "sha256": "4cad95d3b8b3c50b490d18fdab4b538ab1a5d7f9a22fc288538286aab868e964"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplApi21$4.class",
+          "bytes": 2214,
+          "sha256": "b3c55f0da6d33966832375799fda078b1f2b7545b277c772c47e2446eea44861"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplApi21$MediaBrowserServiceApi21.class",
+          "bytes": 3362,
+          "sha256": "6166e4985ae606b2baab792e529fc7bf301bbeca0bca2a320e4c12425c3feded"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplApi21.class",
+          "bytes": 9807,
+          "sha256": "9bec1fb521918f9c129729df33399d6b4dd5ffdbbba643ab0e2c80c00ac0cb42"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplApi23$1.class",
+          "bytes": 2166,
+          "sha256": "29088b0556a3608a1fc11980adfc900ca3a1700f99ea52ab8bb5e50038a00160"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplApi23$MediaBrowserServiceApi23.class",
+          "bytes": 2281,
+          "sha256": "9eee1e837cd7b27b64e7a945a71493e31452b90eefbf96ff021a226dbea6a0c2"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplApi23.class",
+          "bytes": 2881,
+          "sha256": "16aa952c7ac780eaffeae21ea56d179f01d7c5f36a7d1d845c7b027a493e22bb"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplApi26$1.class",
+          "bytes": 3080,
+          "sha256": "9db854f49ab2ff6ef452cf2b85a93efe04933cc16979fe32a1bbcb54ad8aa68d"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplApi26$MediaBrowserServiceApi26.class",
+          "bytes": 2856,
+          "sha256": "e5de3e0dad154a943f141834a0354b18d176bf0294af0acebadb77537373d09e"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplApi26.class",
+          "bytes": 3812,
+          "sha256": "00a2dfd8a329aea7bb6ebf6578e23fd5837f20c4f04a661bcef4652925705fee"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplApi28.class",
+          "bytes": 2027,
+          "sha256": "8b61852c4ad76c3dc8b1575121f9f627744850edf329ab63aa22b70f44432679"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplBase$1.class",
+          "bytes": 3145,
+          "sha256": "3e8f93d1ab03b48c29bf151b88d185dfdad088f2ecac9cb23345cd87457e5955"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplBase$2.class",
+          "bytes": 2034,
+          "sha256": "204e27bad06a6d2a944a0f61d9c2e3fe86f7561b144ccdbd141fec214973365b"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplBase$3.class",
+          "bytes": 2197,
+          "sha256": "c47bda6f5a60e5e026d41a4782e7335dc125fd682d7a3c4ba57bdb03e8d8daa5"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$MediaBrowserServiceImplBase.class",
+          "bytes": 5529,
+          "sha256": "400fff2633242143b27bed4951565350fe049eb97b580ab7d00280d36abc395d"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$Result.class",
+          "bytes": 4051,
+          "sha256": "830e1371eb0aa49657b106697e3f608af64489b50580e580da5f3da4b9655df8"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ResultWrapper.class",
+          "bytes": 2678,
+          "sha256": "35793000a0ce1ea097017d439671ef17065dd8b8a7f9ba9e44f95da94b6c7d5e"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ServiceBinderImpl$1.class",
+          "bytes": 4104,
+          "sha256": "3f8b3bb63b55c5380b305e5cd9b946da974fe627ed0b8a7646b331983ccda5d0"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ServiceBinderImpl$2.class",
+          "bytes": 1909,
+          "sha256": "e83885d5d7ea5473e9939a78befa148274ba26b9175c89110777bb496fa513f1"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ServiceBinderImpl$3.class",
+          "bytes": 2503,
+          "sha256": "0bdb4e8c7d7d65a8d400180d42970cbc8dc6182725dafea990bab0626523fdcf"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ServiceBinderImpl$4.class",
+          "bytes": 2495,
+          "sha256": "9d2436e8b48efaa802b7f80d1f2a2223db871a7ae2a21ea7711cdbacf2cf20c8"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ServiceBinderImpl$5.class",
+          "bytes": 2497,
+          "sha256": "7528275f71e64ac640aed1c1daa6337847d9feac0f54e3577f8d38721bdc05b1"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ServiceBinderImpl$6.class",
+          "bytes": 3406,
+          "sha256": "5839f2427b6af3aef82bf2a33a304de38fa63f813d0417bac00722bf8bc94aff"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ServiceBinderImpl$7.class",
+          "bytes": 1888,
+          "sha256": "929b1ea74bcad757dc96a91e2f89d7b5970664ea0cb9ddebbfaff13f248251ba"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ServiceBinderImpl$8.class",
+          "bytes": 2604,
+          "sha256": "498499ff4b191ffbb4575929a232dfaf50d64d8caaf1c9665ce2f53839a238e6"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ServiceBinderImpl$9.class",
+          "bytes": 2717,
+          "sha256": "512505d046675a1a75edc44dfdc5b232ed093b0546fdc05575233a7aa7a006aa"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ServiceBinderImpl.class",
+          "bytes": 5669,
+          "sha256": "d2f536c9511fa22be19fbff3083f52aa7c36f25fe206ea6a7e43028a9ad21174"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ServiceCallbacks.class",
+          "bytes": 1054,
+          "sha256": "b6f79e826374853466923f146fac459eeec981ff39c9fc38ec72e3deccf8a666"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ServiceCallbacksCompat.class",
+          "bytes": 3569,
+          "sha256": "32079f7d71386d05c88e033a10abab6b600514a1519c6c65ff7a7aec163c814b"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat$ServiceHandler.class",
+          "bytes": 5671,
+          "sha256": "879d0fbc2616a38e054bc9d999a7cbe3f8f4a7df44325293f9b7adfe44a6c9e0"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaBrowserServiceCompat.class",
+          "bytes": 16465,
+          "sha256": "a1dd489b570d076020753b8727e1b22c943d4ffcc18d41c15cd2360ff676c977"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaSessionManager$MediaSessionManagerImpl.class",
+          "bytes": 490,
+          "sha256": "9f1ec20cbcef06144a538812b76e359e6ca86540b85be9bf39d8f44b7540289c"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaSessionManager$RemoteUserInfo.class",
+          "bytes": 2825,
+          "sha256": "10d3b92f1ab002edfd15de8e273e2ae26a3775f34934dd22511a673e9934321e"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaSessionManager$RemoteUserInfoImpl.class",
+          "bytes": 333,
+          "sha256": "9528b88324abcea45f2b87ed031ecd6815c6aaae60d449674f1072a2f89221dc"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaSessionManager.class",
+          "bytes": 2636,
+          "sha256": "62cffc2a73bf002124413dec0e068e23f72d8ca8702f90c62ddc489f93e8b2dc"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaSessionManagerImplApi21.class",
+          "bytes": 1555,
+          "sha256": "1bf9a1f4788c3808410ae99f5314e2bd7d02119fbaf5e8b93514f1e03e7904f3"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaSessionManagerImplApi28$RemoteUserInfoImplApi28.class",
+          "bytes": 1256,
+          "sha256": "fde55434889e50f9b487d62e3637605f8b7307d999097240e39d64aaaae3a24a"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaSessionManagerImplApi28.class",
+          "bytes": 1297,
+          "sha256": "9c5c0ce323fac7646cc5cc8fd510f4b05c1efca8c87e160efefadb4c168a690e"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaSessionManagerImplBase$RemoteUserInfoImplBase.class",
+          "bytes": 1828,
+          "sha256": "a6b25d489ee0ba2948c4cdf7c353b8d89794ae9e69f25ab670f888c6c9f65cd9"
+        },
+        {
+          "path": "classes.jar!androidx/media/MediaSessionManagerImplBase.class",
+          "bytes": 4082,
+          "sha256": "ab73164993fa1cb3864161c21007c081a0e0f90056728c3a018913d44656b99b"
+        },
+        {
+          "path": "classes.jar!androidx/media/VolumeProviderCompat$1.class",
+          "bytes": 902,
+          "sha256": "95a936e401b4f5923c18a25e5f12ecd710fad965f8259ce8a165b04395210664"
+        },
+        {
+          "path": "classes.jar!androidx/media/VolumeProviderCompat$Callback.class",
+          "bytes": 485,
+          "sha256": "1d6b8da5d73f7fcb5a21a69ca1541f90c996bb7757d621660e091a9d8796061b"
+        },
+        {
+          "path": "classes.jar!androidx/media/VolumeProviderCompat$ControlType.class",
+          "bytes": 658,
+          "sha256": "666ab7d5c0056cbb7a7ff0730a1c575e937bf5124f6d30c3cd05cd18589088b0"
+        },
+        {
+          "path": "classes.jar!androidx/media/VolumeProviderCompat.class",
+          "bytes": 2283,
+          "sha256": "3e2a777a4756eb313ab993020ab7b159d65907d11faa1fedc13945b245d47dfd"
+        },
+        {
+          "path": "classes.jar!androidx/media/app/NotificationCompat$DecoratedMediaCustomViewStyle.class",
+          "bytes": 4581,
+          "sha256": "d9ab7ed54cc8384501402646d32629ea79d2e0d437bf2c2c9a9d32f7b88f6508"
+        },
+        {
+          "path": "classes.jar!androidx/media/app/NotificationCompat$MediaStyle.class",
+          "bytes": 9130,
+          "sha256": "f6c07ddf92b21f98083de4fcb0731d3200b4ef9332cf1374d4e43742a7380aec"
+        },
+        {
+          "path": "classes.jar!androidx/media/app/NotificationCompat.class",
+          "bytes": 532,
+          "sha256": "93858ff49f40922fe289dde25243a4f6cebb0a225678629f9fd3fcec7674fa9d"
+        },
+        {
+          "path": "classes.jar!androidx/media/session/MediaButtonReceiver$MediaButtonConnectionCallback.class",
+          "bytes": 2867,
+          "sha256": "43feb94c35ae36e08652ffab8d2b2e7a8be4a52c351d66958bf2aab0a8760fc3"
+        },
+        {
+          "path": "classes.jar!androidx/media/session/MediaButtonReceiver.class",
+          "bytes": 7874,
+          "sha256": "c6da58e80d48a9e456334e784574bce867dd78c52b6a607611c73bc0ace9f26f"
+        },
+        {
+          "path": "proguard.txt",
+          "bytes": 979,
+          "sha256": "1a880712eeeef1abcd5081b65c45ac0dee55dd22a10eafdcd8f8ad5b40d61e1e"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 257,
+          "sha256": "2d7dd0e4059b0725a4208f042311e1dd7d4ccc0df5c595dea1bbc4957db7b267"
+        },
+        {
+          "path": "res/layout/notification_media_action.xml",
+          "bytes": 1027,
+          "sha256": "f93de2b843dfc38ad448388c638f30b0e8f43b766e0472411b8712492e847642"
+        },
+        {
+          "path": "res/layout/notification_media_cancel_action.xml",
+          "bytes": 1188,
+          "sha256": "c949e0b60301fbdd935070217d2161248c1e6b8aaf19dd66710bbd7124fd4573"
+        },
+        {
+          "path": "res/layout/notification_template_big_media.xml",
+          "bytes": 2555,
+          "sha256": "86f3bbd44ef00d749794ec86ea4b19d37526692b42286e169d2e00fe8548578e"
+        },
+        {
+          "path": "res/layout/notification_template_big_media_custom.xml",
+          "bytes": 4789,
+          "sha256": "4a48c8fafc87d8c3542c69bd9f2ef0f2d530ccfd0464d3fe594903a0dabc0f3a"
+        },
+        {
+          "path": "res/layout/notification_template_big_media_narrow.xml",
+          "bytes": 2672,
+          "sha256": "ce19296daafeb10e4ca5a4946e35d7297c397b4c4a2381e473a8e041dbe9e503"
+        },
+        {
+          "path": "res/layout/notification_template_big_media_narrow_custom.xml",
+          "bytes": 4941,
+          "sha256": "379cc2ff9f62f3c71c6b129dea2780932fca1cc5760c648aa8657754a7ed4487"
+        },
+        {
+          "path": "res/layout/notification_template_lines_media.xml",
+          "bytes": 4693,
+          "sha256": "bb2d087c26a1a89373a97739e99c0db9bb40b8d7fa571aba3805ade3901560f7"
+        },
+        {
+          "path": "res/layout/notification_template_media.xml",
+          "bytes": 2044,
+          "sha256": "a117e77aca78afffa5326f8398b406ba96a6356de994ebe93112b9e222699178"
+        },
+        {
+          "path": "res/layout/notification_template_media_custom.xml",
+          "bytes": 4419,
+          "sha256": "c9b2295abd29a7c27cf8c51f02164ebca735e1e7c31a1e96671c70451fbfd05e"
+        },
+        {
+          "path": "res/values-v21/values-v21.xml",
+          "bytes": 729,
+          "sha256": "b2e6b8a4b8e2d91b34bceabd2726dede6e42d03fccb7d072e7601ab1ad0c71bf"
+        },
+        {
+          "path": "res/values-v24/values-v24.xml",
+          "bytes": 323,
+          "sha256": "c13486198e9e27425ea96773071bb9431fa7fc5404d11361b8ed895a5c27b627"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 950,
+          "sha256": "d9cb1f9a1953241e5104e38e9576a88dac73c856705a79d8b6442d87529e6b6a"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

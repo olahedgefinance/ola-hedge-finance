@@ -1,0 +1,218 @@
+{
+  "archives": {
+    "work-runtime-ktx-2.7.1-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/work/CoroutineWorker.kt",
+          "bytes": 5187,
+          "sha256": "f212fdbb65cb9291812ae2b3a440705a617dcd703eee9d1758af14c2917340a5"
+        },
+        {
+          "path": "androidx/work/Data.kt",
+          "bytes": 1485,
+          "sha256": "34b645c32d70bb8d6a3c06ec45251edb4b66f81b1bc1a19b22dd8c9c8b3a669e"
+        },
+        {
+          "path": "androidx/work/DirectExecutor.kt",
+          "bytes": 1017,
+          "sha256": "431a727ed4e378f02d963bd2f1440380c6b722e431fd0845d14f49c1fb96c624"
+        },
+        {
+          "path": "androidx/work/ListenableFuture.kt",
+          "bytes": 2870,
+          "sha256": "30fd08cea700954adeba15f4ce0959a2ffbbfe57e50c2e604afd49a6392a10ed"
+        },
+        {
+          "path": "androidx/work/OneTimeWorkRequest.kt",
+          "bytes": 1301,
+          "sha256": "39febc7e4c3951b22a22fa3b6734ef48aafca5f5db7382a6d854a6ce031177b6"
+        },
+        {
+          "path": "androidx/work/Operation.kt",
+          "bytes": 1082,
+          "sha256": "46b057cefe910059cb4b1bd2d4ca02481f9fe6c364fef60c44c1ca60851262b5"
+        },
+        {
+          "path": "androidx/work/PeriodicWorkRequest.kt",
+          "bytes": 2981,
+          "sha256": "b8ea77b61e92c2bf06c5c08466830d6770234dcaba0e64d64687abc526916e13"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/work/CoroutineWorker.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/work/Data.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/work/DirectExecutor.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/work/ListenableFuture.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/work/OneTimeWorkRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/work/Operation.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/work/PeriodicWorkRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "work-runtime-ktx-2.7.1.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 880,
+          "sha256": "7ee0a8035f180134336e6a31d0f2c24c9658b4d3df84b0473bef9961d7dc1e14"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 61,
+          "sha256": "54af3dbf6d950eef6a046bf0a7b1694a17f2b63084d6a8ea3ae9edb02d439d4e"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 25207,
+          "sha256": "64303ce1443b2007246e6d7d3e24e7e8b9f985f9db3ef64f59827df594ec47d1"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.work_work-runtime-ktx.version",
+          "bytes": 6,
+          "sha256": "9927e4392d0216300aa135317885771db7cb72706f05e6a3c1e9ff63194b8cae"
+        },
+        {
+          "path": "classes.jar!META-INF/work-runtime-ktx_release.kotlin_module",
+          "bytes": 127,
+          "sha256": "973a9431c8dc6e337674a6869211da3a33e8da36814345a79932fc246c06dcca"
+        },
+        {
+          "path": "classes.jar!androidx/work/CoroutineWorker$1.class",
+          "bytes": 1369,
+          "sha256": "0619f2605343d9c2ae7fd94d574166f60257ec4838e55e178c401097769093aa"
+        },
+        {
+          "path": "classes.jar!androidx/work/CoroutineWorker$getForegroundInfoAsync$1.class",
+          "bytes": 3866,
+          "sha256": "a620068dd6f66c473e8eeb24c4383d3a752c9228a54e16d653e9bd9894e422b0"
+        },
+        {
+          "path": "classes.jar!androidx/work/CoroutineWorker$startWork$1.class",
+          "bytes": 3889,
+          "sha256": "735571f34df7e5fd69742845dc7627993c93cc00f8c592dea9bb2ba872baa419"
+        },
+        {
+          "path": "classes.jar!androidx/work/CoroutineWorker.class",
+          "bytes": 10627,
+          "sha256": "8416e02a4117cc23d3091a1a6ea20ad784e5972e1e673864e44f481d10399a78"
+        },
+        {
+          "path": "classes.jar!androidx/work/DataKt.class",
+          "bytes": 2135,
+          "sha256": "4f7fbe73b7727098dccd1d273dea6d6b5e22547dcac5fcba87457aa593def62e"
+        },
+        {
+          "path": "classes.jar!androidx/work/DirectExecutor.class",
+          "bytes": 2242,
+          "sha256": "d6275ffa31bfa99ff46838b09a89f4a3524f7fda61cfe50ac19d0b07fee3c8e5"
+        },
+        {
+          "path": "classes.jar!androidx/work/JobListenableFuture$1.class",
+          "bytes": 2314,
+          "sha256": "5c85711e315893c57e75058014dbb2a5df1237c36e76f04fa1ecd28c936e8f10"
+        },
+        {
+          "path": "classes.jar!androidx/work/JobListenableFuture.class",
+          "bytes": 3814,
+          "sha256": "355843c0e004bb63f397dba50d5597739148c9f4b5b938ba5c7a2b95b38a1eb5"
+        },
+        {
+          "path": "classes.jar!androidx/work/ListenableFutureKt$await$2$1.class",
+          "bytes": 2474,
+          "sha256": "79ee5d4d246363189a27687024dae642d715578ea5f32c3a4bb6a5d2d6bf6f23"
+        },
+        {
+          "path": "classes.jar!androidx/work/ListenableFutureKt$await$2$2.class",
+          "bytes": 1942,
+          "sha256": "9340c6281c74577100edd9d836d26ffd0b65962c34e9e66ed096c33f042c0745"
+        },
+        {
+          "path": "classes.jar!androidx/work/ListenableFutureKt.class",
+          "bytes": 4400,
+          "sha256": "27eb9f8033b0f24ac06d8b9c9ed6d5133405c23349a797cfd3cad094e056cb82"
+        },
+        {
+          "path": "classes.jar!androidx/work/OneTimeWorkRequestKt.class",
+          "bytes": 2113,
+          "sha256": "84fdd57d7729506dbe44f1521e202eebe2ac71742792a8b9ca3fdfff7101299d"
+        },
+        {
+          "path": "classes.jar!androidx/work/OperationKt$await$1.class",
+          "bytes": 1559,
+          "sha256": "9014b00f8cb5dac42dd7a90d26d5d6e5b3431da83e0e92126af5fb43ca292eb8"
+        },
+        {
+          "path": "classes.jar!androidx/work/OperationKt.class",
+          "bytes": 5578,
+          "sha256": "3b4c8973d11b7c9ac8d2471143a568d348d1d9e07433b78f9d8b9621345b7b93"
+        },
+        {
+          "path": "classes.jar!androidx/work/PeriodicWorkRequestKt.class",
+          "bytes": 2959,
+          "sha256": "fcfc9ea374ba3b5b9e731ad9cd907157a44115a5544c9d9c7b474cd5aa096b24"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 63,
+          "sha256": "0aed495e21a70cab045e3b4792a02f2c7ad68fc1687d73474a09db0b269bc041"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

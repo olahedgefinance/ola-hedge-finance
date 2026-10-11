@@ -1,0 +1,109 @@
+{
+  "archives": {
+    "core-common-2.2.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/arch/core/internal/FastSafeIterableMap.java",
+          "bytes": 2272,
+          "sha256": "8d53462b6ff7f2b2f1cf58957fc663f94da4df09a777070e2473e6278497fcdb"
+        },
+        {
+          "path": "androidx/arch/core/internal/SafeIterableMap.java",
+          "bytes": 11805,
+          "sha256": "b515f3b2057d32dd530beea898896aaf21b7f3eb6dc086e82a8ebb3582e86040"
+        },
+        {
+          "path": "androidx/arch/core/util/Function.java",
+          "bytes": 989,
+          "sha256": "36414a393fedc874802900da4f6a61ba651caa5872bd27a7a9aa4338f3352dfd"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/arch/core/internal/FastSafeIterableMap.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/arch/core/internal/SafeIterableMap.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/arch/core/util/Function.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "core-common-2.2.0.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/arch/core/internal/FastSafeIterableMap.class",
+          "bytes": 2907,
+          "sha256": "05f9787953a95f3878704a7ebbb54d57ec39d59db5ee209525d935a283355620"
+        },
+        {
+          "path": "androidx/arch/core/internal/SafeIterableMap$AscendingIterator.class",
+          "bytes": 1775,
+          "sha256": "8b1056b276e85d898f202b3f89442ed70999e757f994d2fb0445bbe08ec174b7"
+        },
+        {
+          "path": "androidx/arch/core/internal/SafeIterableMap$DescendingIterator.class",
+          "bytes": 1779,
+          "sha256": "ab4e0ba2eaa5d51d643f98e653749469d79bd7a21139e64a35754c76798ac7f0"
+        },
+        {
+          "path": "androidx/arch/core/internal/SafeIterableMap$Entry.class",
+          "bytes": 2378,
+          "sha256": "00f45c0318ffa027049ce71c87e3e3c808eb335ccc4cb7453330846cbc13f6c1"
+        },
+        {
+          "path": "androidx/arch/core/internal/SafeIterableMap$IteratorWithAdditions.class",
+          "bytes": 2551,
+          "sha256": "659dacaf376880d0b1408cebb9c2c08d9d933a7a77c6ee7385318ac76d160690"
+        },
+        {
+          "path": "androidx/arch/core/internal/SafeIterableMap$ListIterator.class",
+          "bytes": 2977,
+          "sha256": "332487794e8e0e60d04c76ab36f3ddcb31a4032b41465c42a3a909fd610ee176"
+        },
+        {
+          "path": "androidx/arch/core/internal/SafeIterableMap$SupportRemove.class",
+          "bytes": 1208,
+          "sha256": "1800e754c3e2f9b606a3ecadaac635bff0300935946d4e17f9a1d5186498065c"
+        },
+        {
+          "path": "androidx/arch/core/internal/SafeIterableMap.class",
+          "bytes": 7303,
+          "sha256": "ec98a56a34af801c78a6e4f290066efc098f89cdbedc748e10185cb6da4c00d9"
+        },
+        {
+          "path": "androidx/arch/core/util/Function.class",
+          "bytes": 280,
+          "sha256": "7f7909dd0ffe674d47e6f5fdee6414d5d5a90cc5124a29c1b339b58bf6b4b0b6"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

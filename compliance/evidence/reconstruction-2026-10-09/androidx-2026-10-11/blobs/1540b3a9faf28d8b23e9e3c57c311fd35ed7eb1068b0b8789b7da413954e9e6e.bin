@@ -1,0 +1,77 @@
+{
+  "archives": {
+    "localbroadcastmanager-1.0.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/localbroadcastmanager/content/LocalBroadcastManager.java",
+          "bytes": 12154,
+          "sha256": "3d69710aeefa9ec2c87d826c6a54f5ead3436c6317207386c05bb7223bd7d198"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/localbroadcastmanager/content/LocalBroadcastManager.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "localbroadcastmanager-1.0.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 844,
+          "sha256": "1dfe0d3f9be3ecf00f84fb197417cf3adee4784e7f08282c2f146678a024a424"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 6875,
+          "sha256": "0ef151b4191734878dec89f7c2a088f9e0b0022cb2a92acc3331539e77eb1ff3"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version",
+          "bytes": 6,
+          "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        },
+        {
+          "path": "classes.jar!androidx/localbroadcastmanager/content/LocalBroadcastManager$1.class",
+          "bytes": 1102,
+          "sha256": "5fe6eedbd73e72c32b4c3255b769b72695785a3495ca3ed7f4a793723a576e8c"
+        },
+        {
+          "path": "classes.jar!androidx/localbroadcastmanager/content/LocalBroadcastManager$BroadcastRecord.class",
+          "bytes": 1147,
+          "sha256": "e6dfda7488c74db37d8053caf7bcd83930aa78ca9e1c095ce116b78442a437e8"
+        },
+        {
+          "path": "classes.jar!androidx/localbroadcastmanager/content/LocalBroadcastManager$ReceiverRecord.class",
+          "bytes": 1324,
+          "sha256": "34b6b3e04dacbfad37c96a4429f064dd238f202f9842d03165ef7f0c9d6ff686"
+        },
+        {
+          "path": "classes.jar!androidx/localbroadcastmanager/content/LocalBroadcastManager.class",
+          "bytes": 8262,
+          "sha256": "8f240a2667c72d3bda054ddd1c93cdbb5b48a006fad05e003ce298c9080fa0e0"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

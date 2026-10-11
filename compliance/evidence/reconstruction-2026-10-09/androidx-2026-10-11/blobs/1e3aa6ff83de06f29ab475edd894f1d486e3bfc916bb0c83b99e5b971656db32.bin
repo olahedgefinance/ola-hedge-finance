@@ -1,0 +1,180 @@
+{
+  "archives": {
+    "lifecycle-runtime-2.6.2-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleRegistry.kt",
+          "bytes": 13148,
+          "sha256": "b441aec48292fd0c10bb951e1799788ecd95529db792b733689fb92f0d293b1e"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleRegistryOwner.java",
+          "bytes": 1036,
+          "sha256": "ce8f662e3afb08d09d4cdc3cde1dc480023185a9c46fd1a2a16207c44985994c"
+        },
+        {
+          "path": "androidx/lifecycle/ReportFragment.kt",
+          "bytes": 6949,
+          "sha256": "c7c270f1eecf2cd4e47f2f6068fe2a039e60b4f92708c08b48d249a87ce2bb01"
+        },
+        {
+          "path": "androidx/lifecycle/ViewTreeLifecycleOwner.kt",
+          "bytes": 2182,
+          "sha256": "bff84cd359499b5efaae6872b62b9c7d1f480b3ef33dfcb3057440d8db749031"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/lifecycle/LifecycleRegistry.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleRegistryOwner.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/ReportFragment.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/ViewTreeLifecycleOwner.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "lifecycle-runtime-2.6.2.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 208,
+          "sha256": "c9416d1c1fb83ea65e017f0136eae444cc6d3bbb55c7c8f0ed8bc2dfa42a5ea1"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 122,
+          "sha256": "4d71d4cc4d860d8def346517658ee6dff00f82fa89a0d3e7bef99114b15d53b9"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 37,
+          "sha256": "78556fdd59c14fad6564b9e3595cdfcc5afde5c5b0194ea51599dddd59f476ed"
+        },
+        {
+          "path": "baseline-prof.txt",
+          "bytes": 4641,
+          "sha256": "1215f86533a5dc23ff83594b8e7d2e0b7f34b97b6437dfc3b86186c0b680c88a"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 20559,
+          "sha256": "6ea060cc3ded80fe7ba7407d8b0b6fc7f8ce67c025f67c893ed07b386a86fc77"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.lifecycle_lifecycle-runtime.version",
+          "bytes": 72,
+          "sha256": "4257cccbba3f7aea521a40937d1bfdd5949f5f3e1ed689c402a4f2977109030b"
+        },
+        {
+          "path": "classes.jar!META-INF/lifecycle-runtime_release.kotlin_module",
+          "bytes": 70,
+          "sha256": "1d910e90cb88f282b1befad8ae5d684d6a91d27f36bc47eddda4f47ab9ba7c29"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/LifecycleRegistry$Companion.class",
+          "bytes": 2203,
+          "sha256": "de09a50d450e224e6fb2dca67e6cf5eba032477ba4ab5ddc9b666398190c23af"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/LifecycleRegistry$ObserverWithState.class",
+          "bytes": 3221,
+          "sha256": "00140bbe8185171ce4b6e9a193d52a74750a2da9c9a57febb86f3e4210852a49"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/LifecycleRegistry.class",
+          "bytes": 11316,
+          "sha256": "92c8ec43fad2a8c8d3fee4284ec88c58ec5c7c3e748f2168aa9ce4d87102cf80"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/LifecycleRegistryOwner.class",
+          "bytes": 628,
+          "sha256": "7c587674397a78fb6c19d278cca3fd35154dfb7aa4280ebb08703e0ed1bba0b2"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ReportFragment$ActivityInitializationListener.class",
+          "bytes": 672,
+          "sha256": "4adb8c4544258ac7e175408c9d618fde9c003ac9b15285ee96e6db49dd27f19b"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ReportFragment$Companion.class",
+          "bytes": 3889,
+          "sha256": "a6e35a33034885499321e9f70358530636a5aad18ace132826171b0c60946905"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ReportFragment$LifecycleCallbacks$Companion.class",
+          "bytes": 1657,
+          "sha256": "8be32ce285207cdef07d1ab1a32824b6af5bfaf9bbdb86771aaef9605d14d64b"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ReportFragment$LifecycleCallbacks.class",
+          "bytes": 4134,
+          "sha256": "6244e098435a29abe42f856e0f9e77a24c34cb05efefd6ab5a863f89864a4764"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ReportFragment.class",
+          "bytes": 4770,
+          "sha256": "96a3e033176b4a67071a41f57fafe17bd71a8287dbac25e10d62a28b0e08640a"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewTreeLifecycleOwner$findViewTreeLifecycleOwner$1.class",
+          "bytes": 1786,
+          "sha256": "40f7fef87fea3fecba404dc48aa698d31ba58bfb3dc1483d84723ef9554483fb"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewTreeLifecycleOwner$findViewTreeLifecycleOwner$2.class",
+          "bytes": 1957,
+          "sha256": "4acc332a5f363fa64115ec73485790a5f05200aedc3f4f1efa2c18bd7722df48"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewTreeLifecycleOwner.class",
+          "bytes": 2382,
+          "sha256": "eb18b0748df260c410c14a384fc7a4f1e09d312cc3e50ff2d1a2f90cb675b678"
+        },
+        {
+          "path": "proguard.txt",
+          "bytes": 712,
+          "sha256": "ee198989becbabbf408a4d086a33aacb35e32ba38177808545eab6a250ec061e"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 106,
+          "sha256": "886c33fd6e7ed77e15bf67b53df14dfa892f46048a8cf86c8b448faf6289996a"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

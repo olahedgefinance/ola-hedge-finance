@@ -1,0 +1,488 @@
+{
+  "archives": {
+    "room-common-2.2.5-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/room/ColumnInfo.java",
+          "bytes": 6611,
+          "sha256": "dc07324228eb1bbd6f79375a87ae9d6497655fb6374ffb9fa45dedd7ed4e6a67"
+        },
+        {
+          "path": "androidx/room/Dao.java",
+          "bytes": 1604,
+          "sha256": "3347141d8512d55b9097e7b1a2c3fab9ec1f7b827b17e3d11e57cc39715a89e0"
+        },
+        {
+          "path": "androidx/room/Database.java",
+          "bytes": 4346,
+          "sha256": "15cebe77814f3948a562fdd0e7aeb57f6d8fcf57e2684e9d1d15c285da0e8b24"
+        },
+        {
+          "path": "androidx/room/DatabaseView.java",
+          "bytes": 2169,
+          "sha256": "2be89538d9c24c0ab1d455cca9027e956c0986f96d6082e384cffd8b196a9f9a"
+        },
+        {
+          "path": "androidx/room/Delete.java",
+          "bytes": 2874,
+          "sha256": "a51d9482863c13e9afd47de6bdf995c3a90084f7f8e3683562f14486e0524cb8"
+        },
+        {
+          "path": "androidx/room/Embedded.java",
+          "bytes": 3671,
+          "sha256": "cb3317c5dc8ef19cf8a5fe876f0538408cd68f5eea54d3438609b2155745dccd"
+        },
+        {
+          "path": "androidx/room/Entity.java",
+          "bytes": 5265,
+          "sha256": "f9832bf8bde7ad553b68f562d25bdfd38a3d6d5c5c3477029731f74f53b3217d"
+        },
+        {
+          "path": "androidx/room/ForeignKey.java",
+          "bytes": 7216,
+          "sha256": "c67ed32bbc68f3d87f853c5b3a1a6dd0c48c205d6794f939544608fcedc3a2f7"
+        },
+        {
+          "path": "androidx/room/Fts3.java",
+          "bytes": 3997,
+          "sha256": "bc9b8a3dee4cc7ce378d05db21f919cf2953414f8f515a5053cf488a08d498e9"
+        },
+        {
+          "path": "androidx/room/Fts4.java",
+          "bytes": 7766,
+          "sha256": "e4d27433c56e5292349140046ffa75e7666f7602c1a59ada0c5cb0b91330107c"
+        },
+        {
+          "path": "androidx/room/FtsOptions.java",
+          "bytes": 2439,
+          "sha256": "2df7511f8e893646d65888dfdbf80a338aa1db3108be260fc4dcdacec201b79c"
+        },
+        {
+          "path": "androidx/room/Ignore.java",
+          "bytes": 1198,
+          "sha256": "7f9e582d682aeabcaf71da8569f34a3d2d02ceda4c449fe343ef539fd5f71546"
+        },
+        {
+          "path": "androidx/room/Index.java",
+          "bytes": 2997,
+          "sha256": "37b8c948f39db548b2ecfaf68499d8aef389686adf30e561b865c810bfe7892f"
+        },
+        {
+          "path": "androidx/room/Insert.java",
+          "bytes": 3901,
+          "sha256": "8677ff7312cbac6e84c1c25680db322e9c6299580d015b7d4d079608f4444237"
+        },
+        {
+          "path": "androidx/room/Junction.java",
+          "bytes": 2830,
+          "sha256": "640e509571baaee9a22c87c4b3d8cd72c1dc39720cb89817f08fd8a068e95ccd"
+        },
+        {
+          "path": "androidx/room/OnConflictStrategy.java",
+          "bytes": 2297,
+          "sha256": "214a771bf2df502ab40a84cb1cb9751c8e82e472315d6b64e179c79c790ebe71"
+        },
+        {
+          "path": "androidx/room/PrimaryKey.java",
+          "bytes": 2406,
+          "sha256": "ed7b044f0520929f9998fccb6dbff8ac26c63d63307779ed1404b3826c1d2135"
+        },
+        {
+          "path": "androidx/room/Query.java",
+          "bytes": 5903,
+          "sha256": "9b3732b497707d093901996e67caabd24e0d6a63950fb4c9aa61e459dc6a2802"
+        },
+        {
+          "path": "androidx/room/RawQuery.java",
+          "bytes": 5937,
+          "sha256": "8d4f0e1cfd89499df089dea014000973f80acb708e1dddb733df175459132c5b"
+        },
+        {
+          "path": "androidx/room/Relation.java",
+          "bytes": 5923,
+          "sha256": "fd968fe4bae04582a696a04a8eaab3e61be1a7e3ca6bcb13fe11e86ed70d25c7"
+        },
+        {
+          "path": "androidx/room/RoomMasterTable.java",
+          "bytes": 2064,
+          "sha256": "4d60717509b3cf999b5e1753500f6cb7f0fe485449f342815513df6d21e11a0a"
+        },
+        {
+          "path": "androidx/room/RoomWarnings.java",
+          "bytes": 6392,
+          "sha256": "60d68fa6f0173143f6f4a789e64e6d1a6bc2d2afe08589b916e7e5f9f7a3a313"
+        },
+        {
+          "path": "androidx/room/SkipQueryVerification.java",
+          "bytes": 1746,
+          "sha256": "e123f1a7ef33d8e6abc229b2d95d6c858f47437dc05f35c3753fdb10b8f0778e"
+        },
+        {
+          "path": "androidx/room/Transaction.java",
+          "bytes": 3693,
+          "sha256": "6610513af69ba810ab481b9318e335cab2f7c9e0fe60d02d70f7274e7de78b6f"
+        },
+        {
+          "path": "androidx/room/TypeConverter.java",
+          "bytes": 1560,
+          "sha256": "ae76f1b6a3b0674a760b31ed413b48ead040dae6bb47b4d4d70f529595cac753"
+        },
+        {
+          "path": "androidx/room/TypeConverters.java",
+          "bytes": 2151,
+          "sha256": "9a97afcbe449673f354e15bf632720b0ae55ffe522f98a7076343755d14d55a5"
+        },
+        {
+          "path": "androidx/room/Update.java",
+          "bytes": 3734,
+          "sha256": "05a941507046d1b919d14636ee575f72e995bc8ce0c4c6d8c955701406a918ab"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/room/ColumnInfo.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/Dao.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/Database.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/DatabaseView.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/Delete.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/Embedded.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/Entity.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/ForeignKey.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/Fts3.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/Fts4.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/FtsOptions.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/Ignore.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/Index.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/Insert.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/Junction.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/OnConflictStrategy.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/PrimaryKey.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/Query.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/RawQuery.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/Relation.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/RoomMasterTable.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/RoomWarnings.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/SkipQueryVerification.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/Transaction.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/TypeConverter.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/TypeConverters.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/room/Update.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "room-common-2.2.5.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/room/ColumnInfo$Collate.class",
+          "bytes": 372,
+          "sha256": "2e98de4d8c0ecc336b977d55412c9588e32ce846f3f8ea87e1b771e8b14583b8"
+        },
+        {
+          "path": "androidx/room/ColumnInfo$SQLiteTypeAffinity.class",
+          "bytes": 394,
+          "sha256": "f2a39d405ba6ac5af82d44200faa617da21efec9658a0e3f4908e9007954eb30"
+        },
+        {
+          "path": "androidx/room/ColumnInfo.class",
+          "bytes": 1437,
+          "sha256": "b64b99b1447b84148ffcbda249682e53eda13bd8580344c89be0c3be658c41fa"
+        },
+        {
+          "path": "androidx/room/Dao.class",
+          "bytes": 369,
+          "sha256": "cdb7dfc21f2f9ebf36d8eb8d51871f7fc9fffcc3964a8c91fc22e8742fcc70b9"
+        },
+        {
+          "path": "androidx/room/Database.class",
+          "bytes": 587,
+          "sha256": "03fdc479114d6dd2a770f0480fff42f541b6d4199afaac40a00930cefbdce033"
+        },
+        {
+          "path": "androidx/room/DatabaseView.class",
+          "bytes": 478,
+          "sha256": "b45dd4161f21fe5c52ecf79d729cdbbd1f6ddeaa62c2429dc08b596342721deb"
+        },
+        {
+          "path": "androidx/room/Delete.class",
+          "bytes": 511,
+          "sha256": "7f4b1495121030a5b8e2d573d61276fe1a49ffd1081eba3072dcf483a8454dbf"
+        },
+        {
+          "path": "androidx/room/Embedded.class",
+          "bytes": 466,
+          "sha256": "e93b830323d464de8d562327ca03104b7b431c11f1b7b8d551c3f6ebbf9e7b1e"
+        },
+        {
+          "path": "androidx/room/Entity.class",
+          "bytes": 706,
+          "sha256": "4b4c0ff8fe025a37a82eb4d5f7c135b6594d634b6352d9d2c3a2a366788f82af"
+        },
+        {
+          "path": "androidx/room/ForeignKey$Action.class",
+          "bytes": 370,
+          "sha256": "4edc80bb6b06f77874400eb391a6c3d15a436fee8a0c28181511b825989c4669"
+        },
+        {
+          "path": "androidx/room/ForeignKey.class",
+          "bytes": 919,
+          "sha256": "af9bea37567376e146f31a9ad7e024eeb47d33440746649c7e49eaa7f781d40f"
+        },
+        {
+          "path": "androidx/room/Fts3.class",
+          "bytes": 597,
+          "sha256": "fa49a48edcf3f250cae8c3ed1d253cd52d619676c4994df88b411ade160ae095"
+        },
+        {
+          "path": "androidx/room/Fts4.class",
+          "bytes": 1202,
+          "sha256": "861248582d96d7c6cd801a81eea3a0476ea6eaf723cd137e83823754e0daef2f"
+        },
+        {
+          "path": "androidx/room/FtsOptions$MatchInfo.class",
+          "bytes": 1093,
+          "sha256": "3149ff3a66a50e8d16b2f61cb1fff820e207a96d44398f715576db0f701ca385"
+        },
+        {
+          "path": "androidx/room/FtsOptions$Order.class",
+          "bytes": 1064,
+          "sha256": "b7c4f90702e418ac21b2d5fb17364455cfa740ecd6a7f3d06c846612d5625c20"
+        },
+        {
+          "path": "androidx/room/FtsOptions.class",
+          "bytes": 743,
+          "sha256": "b3da290443d9d23351b2d838d6167ab6a8e5927862c6ee365292980686eb2262"
+        },
+        {
+          "path": "androidx/room/Ignore.class",
+          "bytes": 409,
+          "sha256": "9f16eec054dc89bce287a73712159033f96392f428956b244b80279129a1d885"
+        },
+        {
+          "path": "androidx/room/Index.class",
+          "bytes": 463,
+          "sha256": "fef88c251f381d3c11e1bdb290cb746c0baea9fc48e42233a5d428cae924aee8"
+        },
+        {
+          "path": "androidx/room/Insert.class",
+          "bytes": 631,
+          "sha256": "217a25d6c2b93c20e70bc8279404811da343682846aa52b9e9c4ce0baae3f8e5"
+        },
+        {
+          "path": "androidx/room/Junction.class",
+          "bytes": 515,
+          "sha256": "de623f0979c1fd063b58936c34453aae47c55d883b29978503b2113751ec552e"
+        },
+        {
+          "path": "androidx/room/OnConflictStrategy.class",
+          "bytes": 553,
+          "sha256": "2aabaf79d3a3f6ca879ced7cce67625c00389f9a68e98c977a7995410d85c66c"
+        },
+        {
+          "path": "androidx/room/PrimaryKey.class",
+          "bytes": 461,
+          "sha256": "77b0a18d5a27c03f3e35db68e3cd6935fdecf2b08135b42c21934a1cf232a2e6"
+        },
+        {
+          "path": "androidx/room/Query.class",
+          "bytes": 406,
+          "sha256": "badccabe7833ee5906ac617693b0c0303dc174b10e324eb8b61612404d06cb90"
+        },
+        {
+          "path": "androidx/room/RawQuery.class",
+          "bytes": 506,
+          "sha256": "24eda56ff24f802671e8402ea59c5cef21bd110bf69d403db6de09542b7d18c4"
+        },
+        {
+          "path": "androidx/room/Relation.class",
+          "bytes": 745,
+          "sha256": "e7e49b971ae5e861562348f13c389ea568d247df75bc50223ff5b091ab6b0ca0"
+        },
+        {
+          "path": "androidx/room/RoomMasterTable.class",
+          "bytes": 1426,
+          "sha256": "a258c261ef899ee81bb1a947ec64f010cfa43d4e1fceb3f37c4146a1632a2775"
+        },
+        {
+          "path": "androidx/room/RoomWarnings.class",
+          "bytes": 1516,
+          "sha256": "c37a752d4dc0beea457b764ee13ca3684f4377c964d9b153ac2a50f6bde396c6"
+        },
+        {
+          "path": "androidx/room/SkipQueryVerification.class",
+          "bytes": 419,
+          "sha256": "de6b3179f22501a95c208818d78c860d16eb3bda666a3d14413e6ffd22f76e54"
+        },
+        {
+          "path": "androidx/room/Transaction.class",
+          "bytes": 387,
+          "sha256": "f404659d23b27fe719e57462f19d12eeb8e7f7aad4db5a534a7355e89f096705"
+        },
+        {
+          "path": "androidx/room/TypeConverter.class",
+          "bytes": 391,
+          "sha256": "785e283afe4fc91852aededb8a942fb4126a2840167b093aa42d6f8fcdc048bd"
+        },
+        {
+          "path": "androidx/room/TypeConverters.class",
+          "bytes": 512,
+          "sha256": "dae4fbfd29019e4942c18666841fc24027975c36e88ccbe037eb3687708ec587"
+        },
+        {
+          "path": "androidx/room/Update.class",
+          "bytes": 539,
+          "sha256": "90fec303229a6dacb4a94ba9e957dcde2fdbc7bb0aba1cef8d1cafcbe6b0060b"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

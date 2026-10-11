@@ -1,0 +1,845 @@
+{
+  "archives": {
+    "activity-1.7.2-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/activity/Cancellable.kt",
+          "bytes": 875,
+          "sha256": "f3395e9346d2d41929be06c9d3446bd62797aaa8ec5b4586b0afb2e5910c9b72"
+        },
+        {
+          "path": "androidx/activity/ComponentActivity.java",
+          "bytes": 49954,
+          "sha256": "fce0aa3a5ae655a1673cb93f3849ebefbc90da1857e191075082e804fd2dd83c"
+        },
+        {
+          "path": "androidx/activity/ComponentDialog.kt",
+          "bytes": 4266,
+          "sha256": "5eba295983105630971ffa96a1bbb2af99fe407b4651371bac620b20ea633596"
+        },
+        {
+          "path": "androidx/activity/FullyDrawnReporter.kt",
+          "bytes": 5773,
+          "sha256": "1070be1b30dc129c522cc60362800b7609e2d650bf8b51ec9e23881d13f02b1f"
+        },
+        {
+          "path": "androidx/activity/FullyDrawnReporterOwner.kt",
+          "bytes": 1052,
+          "sha256": "acab3cf6b51d8b308024b31ff185474f5941ebaeba1927be1e4eb761897f7156"
+        },
+        {
+          "path": "androidx/activity/ImmLeaksCleaner.java",
+          "bytes": 4325,
+          "sha256": "bea28fbd4fbe2041fddfebf2410a4ad6cdd9958015e462e314844e094235b23f"
+        },
+        {
+          "path": "androidx/activity/OnBackPressedCallback.kt",
+          "bytes": 3003,
+          "sha256": "07d81dc8812bdb85cf20d875a3dd4547a00804ab40deade6bc6f84dc4c4914d0"
+        },
+        {
+          "path": "androidx/activity/OnBackPressedDispatcher.kt",
+          "bytes": 11941,
+          "sha256": "d8e5d0fe46fccac4527b33a691fb9a95bbaf6ab752c2da454c4f817da58dd5d3"
+        },
+        {
+          "path": "androidx/activity/OnBackPressedDispatcherOwner.kt",
+          "bytes": 1197,
+          "sha256": "57cb455da2b1915895276354fcb21ca94cb08ef0daafd2e0fa43f567517a8e68"
+        },
+        {
+          "path": "androidx/activity/ViewTreeFullyLoadedReporterOwner.kt",
+          "bytes": 1903,
+          "sha256": "7b1bc7ac44a980ed4903015223bc9b000f8efebe6bde76e91e1cd7fede51c48f"
+        },
+        {
+          "path": "androidx/activity/ViewTreeOnBackPressedDispatcherOwner.kt",
+          "bytes": 2079,
+          "sha256": "c021adaaba32baa3442fb094d79e138ca2fc027e06ec09a4b2cc05784ad20548"
+        },
+        {
+          "path": "androidx/activity/contextaware/ContextAware.kt",
+          "bytes": 3593,
+          "sha256": "10a9a41ce43dca6d03fbfa8dc30aa6e1598653822ff39c7f326885bba4a79d16"
+        },
+        {
+          "path": "androidx/activity/contextaware/ContextAwareHelper.kt",
+          "bytes": 3256,
+          "sha256": "2ae3adf8f1cd8e3b0599feae45299c58b56874216522a69d98c1cdd5cf2b6ccd"
+        },
+        {
+          "path": "androidx/activity/contextaware/OnContextAvailableListener.kt",
+          "bytes": 1176,
+          "sha256": "73836d5a01beac96b1097285ee8109a5da9f5a0d91d57be896413c5e83645344"
+        },
+        {
+          "path": "androidx/activity/result/ActivityResult.java",
+          "bytes": 3316,
+          "sha256": "e31524893164547c1168375e72579ae8eb36b76e2639bb6f515133dbf063cfff"
+        },
+        {
+          "path": "androidx/activity/result/ActivityResultCallback.kt",
+          "bytes": 933,
+          "sha256": "e71ec968910ce7c65e8a2e2a2472e8b94a7f81a8227ee97ebc4993529d12d2c0"
+        },
+        {
+          "path": "androidx/activity/result/ActivityResultCaller.java",
+          "bytes": 3568,
+          "sha256": "e90ee86d28db54e85145c2c83497796c5f036ac1d2d6360fbaf4b7c9ce6bbdf4"
+        },
+        {
+          "path": "androidx/activity/result/ActivityResultLauncher.java",
+          "bytes": 2829,
+          "sha256": "6aa2839ab60f57452c96f783dbf9c8e5f7439e1c9b22176f220d316e753d874b"
+        },
+        {
+          "path": "androidx/activity/result/ActivityResultRegistry.java",
+          "bytes": 20710,
+          "sha256": "d420ddc1d26f247b34196de57a384330b671b3712d3346cbcfdeb2a7cd758cd4"
+        },
+        {
+          "path": "androidx/activity/result/ActivityResultRegistryOwner.kt",
+          "bytes": 1274,
+          "sha256": "72fb7e904a76b1fb7d358a7c331ed960f5d5aa5e9c16c3246f38b33fed9af8b7"
+        },
+        {
+          "path": "androidx/activity/result/IntentSenderRequest.kt",
+          "bytes": 6335,
+          "sha256": "c4c35599a2289c918dd3797e647c9d289380217171f99ae5a289375956d932e7"
+        },
+        {
+          "path": "androidx/activity/result/PickVisualMediaRequest.kt",
+          "bytes": 2708,
+          "sha256": "e48b0d6e916fce215b76aa10d132929a9e472a85a5f5bbd4d652a4c8f3454388"
+        },
+        {
+          "path": "androidx/activity/result/contract/ActivityResultContract.kt",
+          "bytes": 1981,
+          "sha256": "e62277824000dac73ab431878dfba091e03ae2087d0dfbb420b7d60d444647e9"
+        },
+        {
+          "path": "androidx/activity/result/contract/ActivityResultContracts.kt",
+          "bytes": 41067,
+          "sha256": "5967a62a80f059913af240e62d745f3dfacae1d22d975a2c941502999552561c"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/activity/Cancellable.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/ComponentActivity.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/ComponentDialog.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/FullyDrawnReporter.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/FullyDrawnReporterOwner.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/ImmLeaksCleaner.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/OnBackPressedCallback.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/OnBackPressedDispatcher.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/OnBackPressedDispatcherOwner.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/ViewTreeFullyLoadedReporterOwner.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/ViewTreeOnBackPressedDispatcherOwner.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/contextaware/ContextAware.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/contextaware/ContextAwareHelper.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/contextaware/OnContextAvailableListener.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/result/ActivityResult.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/result/ActivityResultCallback.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/result/ActivityResultCaller.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/result/ActivityResultLauncher.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/result/ActivityResultRegistry.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/result/ActivityResultRegistryOwner.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/result/IntentSenderRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/result/PickVisualMediaRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/result/contract/ActivityResultContract.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/activity/result/contract/ActivityResultContracts.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "activity-1.7.2.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 827,
+          "sha256": "84ac371e64b28907cf7abe43a6fd561897b3b26f13ed29686460b395b9079296"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 122,
+          "sha256": "4d71d4cc4d860d8def346517658ee6dff00f82fa89a0d3e7bef99114b15d53b9"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 78,
+          "sha256": "b5953e392b98b0c78198433fb770a3362d231244cdbef6e28ffda4de995ac268"
+        },
+        {
+          "path": "baseline-prof.txt",
+          "bytes": 7105,
+          "sha256": "defc1b1d1be2f198a742aaeabd4a5a87a61149e28723734339522fbed02f4986"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 143226,
+          "sha256": "39edc698b5254c408abaaa1692e91d6cba4dc17749b982f938eda3f69be8a638"
+        },
+        {
+          "path": "classes.jar!META-INF/activity_release.kotlin_module",
+          "bytes": 270,
+          "sha256": "7abfaee6447a52c27bf78e9a2d06ecfe18a48f0dd4eeb623e3c705cdeb310fbc"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.activity_activity.version",
+          "bytes": 6,
+          "sha256": "e6b7255e251fae180891178dc54e93117e0e522c67cd10145600f71c36216ee9"
+        },
+        {
+          "path": "classes.jar!androidx/activity/Cancellable.class",
+          "bytes": 421,
+          "sha256": "bb8efc009b6bf8a69b0c69090d937593e74f8269f375de36dcb51bbeb3369f89"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ComponentActivity$1.class",
+          "bytes": 1028,
+          "sha256": "85c76937387d765d93fe59b7f3a1f3803c8910635e5aecad512ed7a12883b245"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ComponentActivity$2$1.class",
+          "bytes": 1345,
+          "sha256": "3c1e8573cc05161068068d1cee9a46a82b978c904a7c785caa1e3664c6649823"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ComponentActivity$2$2.class",
+          "bytes": 1758,
+          "sha256": "50bf14bbe892f32c342dd10507a975157e17dcce2fc92b5257e1d0babe007583"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ComponentActivity$2.class",
+          "bytes": 5565,
+          "sha256": "1e956ba2f2d5aae4f886be2bb2360500a1bba10a829bcd236055213c2875fa98"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ComponentActivity$3.class",
+          "bytes": 1513,
+          "sha256": "691eeb1d8cf37181c30125df7bab75b263f672f8830f97909b9b277063997741"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ComponentActivity$4.class",
+          "bytes": 1732,
+          "sha256": "00461e78fa71d78808a01843643ac8942c37e1746d018761d2b1ed672c0d1592"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ComponentActivity$5.class",
+          "bytes": 1225,
+          "sha256": "b847ffba03730f2672b3652348a8bbfd6fbfa8581ef153d83a6d001e49da7276"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ComponentActivity$Api19Impl.class",
+          "bytes": 691,
+          "sha256": "762fb1195f1da1914a3b85a6150198716ad2df2982c58c4594cd846d345d9cd8"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ComponentActivity$Api33Impl.class",
+          "bytes": 834,
+          "sha256": "f098e530ac7fdb6aca4f7965b68e328547e3bdfa2a08b43a5feee3f600b8bb71"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ComponentActivity$NonConfigurationInstances.class",
+          "bytes": 565,
+          "sha256": "95626cc41a475f8a5be1c393750e19eb18640df8ca5334ff3ecb355a82b3a6fa"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ComponentActivity$ReportFullyDrawnExecutor.class",
+          "bytes": 459,
+          "sha256": "8e304c50dd6238fb6d335bff500f8b9a508cdeea46fdee4b968ee12e3e3fd936"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi1.class",
+          "bytes": 1578,
+          "sha256": "2f1efed32a8bf7cb493c37bd8e40d0b6282344aee81858b2f0458514ef10ace0"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl.class",
+          "bytes": 3495,
+          "sha256": "d919fca59223ae8c274cba0524ede2c6d27b49e896ab7181f0de29b608c89b1f"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ComponentActivity.class",
+          "bytes": 28385,
+          "sha256": "1dd476f63bd1ab4df89ea8bf7f481f27c1fe5248a28187be81390e292d38f441"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ComponentDialog.class",
+          "bytes": 8186,
+          "sha256": "70b62f7e623b58532fa98b666e7b2201d8c961734d69e2217f11bb95170c3276"
+        },
+        {
+          "path": "classes.jar!androidx/activity/FullyDrawnReporter.class",
+          "bytes": 6883,
+          "sha256": "e024f9ed268ae0a73f33a0c23e8ff7c1914ca13e3be65cc1edcd7057f17d7631"
+        },
+        {
+          "path": "classes.jar!androidx/activity/FullyDrawnReporterKt$reportWhenComplete$1.class",
+          "bytes": 2011,
+          "sha256": "34d0877b1af60d7592ecaa05cb6ae3760f33b70b4e2f61a1482d2d0f4fdc0fb4"
+        },
+        {
+          "path": "classes.jar!androidx/activity/FullyDrawnReporterKt.class",
+          "bytes": 3115,
+          "sha256": "7c7ae6d26f2c59db2b319b9d72eaf685b33c4e7075887de6e670033602b0d9fc"
+        },
+        {
+          "path": "classes.jar!androidx/activity/FullyDrawnReporterOwner.class",
+          "bytes": 670,
+          "sha256": "afa6ed44434f7777cf07e7fca0e616a5cae007e6593d4c58a00cd222b37b53ea"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ImmLeaksCleaner.class",
+          "bytes": 3285,
+          "sha256": "b9910671d86cf7c7584e7a2d6b6194d3dba1aaadf8da9d2e79a0f2571f20fc31"
+        },
+        {
+          "path": "classes.jar!androidx/activity/OnBackPressedCallback.class",
+          "bytes": 4126,
+          "sha256": "253d059f48d0800ab85d26bd9c6b8932eb55dab6a11e4c894620e21500bbea5a"
+        },
+        {
+          "path": "classes.jar!androidx/activity/OnBackPressedDispatcher$1.class",
+          "bytes": 1251,
+          "sha256": "7173234297d2b68b065b152e057f175d73ebfef41d1d532f4c44bca8eb6d6329"
+        },
+        {
+          "path": "classes.jar!androidx/activity/OnBackPressedDispatcher$2.class",
+          "bytes": 1213,
+          "sha256": "7a600958349eb9fc800ce2cbfd92c27506d5ca6c830675c718a50cd01654b588"
+        },
+        {
+          "path": "classes.jar!androidx/activity/OnBackPressedDispatcher$Api33Impl.class",
+          "bytes": 3101,
+          "sha256": "e0a9412071e0b489bbadf3f70cd86dafa1bd8ccd51e4ac2b5df3a908a29ef504"
+        },
+        {
+          "path": "classes.jar!androidx/activity/OnBackPressedDispatcher$LifecycleOnBackPressedCancellable.class",
+          "bytes": 3083,
+          "sha256": "b5c09b20e3bf25b3908685edfcb552ff2103752d52db8951279873cbfd201df0"
+        },
+        {
+          "path": "classes.jar!androidx/activity/OnBackPressedDispatcher$OnBackPressedCancellable.class",
+          "bytes": 2163,
+          "sha256": "19ffd6a21aad98ffbb81ed2b9b59a899cbe490e87c4b547e70f6c209534ae075"
+        },
+        {
+          "path": "classes.jar!androidx/activity/OnBackPressedDispatcher.class",
+          "bytes": 8556,
+          "sha256": "6181d79ea0f90f45a6b2e0c00af9f03c163dae66b0cb03c8c7c953bdf84e092a"
+        },
+        {
+          "path": "classes.jar!androidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1.class",
+          "bytes": 1519,
+          "sha256": "8c0a0b36d954028a8bd8120a6bc96bff3df2ffcb652756c25fef2cfbf3caca6c"
+        },
+        {
+          "path": "classes.jar!androidx/activity/OnBackPressedDispatcherKt.class",
+          "bytes": 2481,
+          "sha256": "19f90380991cba64376a761a5cf51bf41f423915dfd2c681be2a080e66189109"
+        },
+        {
+          "path": "classes.jar!androidx/activity/OnBackPressedDispatcherOwner.class",
+          "bytes": 780,
+          "sha256": "3ecd01cd56ced0699920ad329c8417306c7080d360aec89207566bee5d200e3f"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$1.class",
+          "bytes": 1837,
+          "sha256": "8b876992a6487d4412f5585d14da7c51c2b1f3edc3c9abc37b7632c90347206a"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$2.class",
+          "bytes": 2002,
+          "sha256": "9973ac297013a08b52b850c90a33123ac2bfe47d81f71da8c8a4b35feadbe2f2"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ViewTreeFullyDrawnReporterOwner.class",
+          "bytes": 2521,
+          "sha256": "6aae965ab399f6412703038e9b6c14580943710d6cf205d8a59f8c70427a3088"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ViewTreeOnBackPressedDispatcherOwner$findViewTreeOnBackPressedDispatcherOwner$1.class",
+          "bytes": 1871,
+          "sha256": "2121379982f57489da24db89510e2d6170b9ef5f1f1a684787f19c7539b04126"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ViewTreeOnBackPressedDispatcherOwner$findViewTreeOnBackPressedDispatcherOwner$2.class",
+          "bytes": 2081,
+          "sha256": "a056f260b1e38ad20b43360c66196bf55ea7fb38e7a5dcacc1e93f4213e96eff"
+        },
+        {
+          "path": "classes.jar!androidx/activity/ViewTreeOnBackPressedDispatcherOwner.class",
+          "bytes": 2650,
+          "sha256": "a0ffdd252fdad15d6290aaa4521f63cea8de66e43e3de32ccc04500600a6484b"
+        },
+        {
+          "path": "classes.jar!androidx/activity/contextaware/ContextAware.class",
+          "bytes": 989,
+          "sha256": "66c5b6e552f36321d24914dac636458cdc0956173656dc0bdc5189b2dc81bd51"
+        },
+        {
+          "path": "classes.jar!androidx/activity/contextaware/ContextAwareHelper.class",
+          "bytes": 2642,
+          "sha256": "6fbd94491c6666ea09ef1bb7db2fdda58334b16308cb5b488eab27cb8104a376"
+        },
+        {
+          "path": "classes.jar!androidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$1.class",
+          "bytes": 2647,
+          "sha256": "38850e2a87f2520ce6f3839e731e1a4bacdbc83c8b8af55df7985ffec6efadaf"
+        },
+        {
+          "path": "classes.jar!androidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1.class",
+          "bytes": 3237,
+          "sha256": "3572ad9714a7b1b8153aaaf0bb84e45792c7c68dcdc0c2a19c8fd6071014f9e9"
+        },
+        {
+          "path": "classes.jar!androidx/activity/contextaware/ContextAwareKt.class",
+          "bytes": 5086,
+          "sha256": "46ec68c508a02b5fc8df69362ce5cadb251665d3372a55807a3978045958f3bc"
+        },
+        {
+          "path": "classes.jar!androidx/activity/contextaware/OnContextAvailableListener.class",
+          "bytes": 682,
+          "sha256": "6c843bc6e3d5ed37acb1534a8bd84e0821598ee53532701231c82dd7c1bc5d0e"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/ActivityResult$1.class",
+          "bytes": 1292,
+          "sha256": "be5da7acd94cf357765910b610ae2a07ef96fa91ea4cabe887d8a2524501438f"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/ActivityResult.class",
+          "bytes": 2722,
+          "sha256": "d9cdc22578ebfd567d859ddd71ce554f82b23fd3da4530094b29afdffd57fb8b"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/ActivityResultCallback.class",
+          "bytes": 628,
+          "sha256": "8ababcfac603e0d869ede846746627fb2f20551acabf48697e48609c9f60c25b"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/ActivityResultCaller.class",
+          "bytes": 1249,
+          "sha256": "9f771f2ff25d8697d52d5bc671b96fc29cc2606c687ef7aabccf4049ab649b35"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/ActivityResultLauncher.class",
+          "bytes": 1321,
+          "sha256": "1dd8afb120f15a3f8721a43a36c1de67f7b3544ed998a4ca2c64d28c2fc8cfbe"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/ActivityResultRegistry$1.class",
+          "bytes": 3391,
+          "sha256": "ecfe715e614ae887c748b2f8e7105f2ad28a6c3d10c2a6853fa565f84c4cb453"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/ActivityResultRegistry$2.class",
+          "bytes": 3198,
+          "sha256": "e1fef0247a872c148d10bb22a6ef8c3439b1140e5bf930d014db08fcca0d1081"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/ActivityResultRegistry$3.class",
+          "bytes": 3163,
+          "sha256": "f6886d13caedbfa831508d3eb41013a8d44e97ce546d95da498fcf350bab2696"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/ActivityResultRegistry$CallbackAndContract.class",
+          "bytes": 1312,
+          "sha256": "502b9968178f176a6a965136db93a25855237937780ad3bd6c15e20f6fb13a97"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/ActivityResultRegistry$LifecycleContainer.class",
+          "bytes": 1651,
+          "sha256": "c8e81b4d74c755f7454620340a62c4e77d3596a36b6f612d650a248c3cc1c90b"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/ActivityResultRegistry.class",
+          "bytes": 12075,
+          "sha256": "5c43f49b5db6a125b76bc338eb961be4f303a76c549d32d273366fa5edc384c9"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/ActivityResultRegistryOwner.class",
+          "bytes": 726,
+          "sha256": "56c417b1143a42c0dfca66a79b08ecb1ad55a4bc7aa785c87bccefca77131df0"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/IntentSenderRequest$Builder$Flag.class",
+          "bytes": 816,
+          "sha256": "277c8b89a84f65be19679533e4a449da520bb39601ad70ef89c943a8d6cc743a"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/IntentSenderRequest$Builder.class",
+          "bytes": 2552,
+          "sha256": "ea16e3858e7173e50f10d4ae71bfe42fccb46be27474d1515171653dcf1c62a1"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/IntentSenderRequest$Companion$CREATOR$1.class",
+          "bytes": 1958,
+          "sha256": "f1e3d434efd0dbabf3f341e58c78c8340dbe5425944c1c578358ff40c5f85d83"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/IntentSenderRequest$Companion.class",
+          "bytes": 1070,
+          "sha256": "c42c779a671656fee07e9debd3e51c745f947e84b1fbf5f697791d3ac5f936f8"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/IntentSenderRequest.class",
+          "bytes": 3926,
+          "sha256": "afba9e90512acf0aae816db9bb6b50986ed1699c8a476d231e926edb5879e1e4"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/PickVisualMediaRequest$Builder.class",
+          "bytes": 2378,
+          "sha256": "a3472363205c201989cf71896f2d14f6125ecec7574c9b9341b1161a167eef6f"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/PickVisualMediaRequest.class",
+          "bytes": 2042,
+          "sha256": "3f2dc8df3ce2d028c25a95b3ec58b9592bf524576817c7a3d110f7733bfd54a1"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/PickVisualMediaRequestKt.class",
+          "bytes": 2319,
+          "sha256": "891f3eefea5ca05cbc58c04ee664773ad96a882d8f656588c1cd4e3eb50838c6"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContract$SynchronousResult.class",
+          "bytes": 1068,
+          "sha256": "179260fb7fd4e73f0e2fa7778333de7c1e39ca3d9f243fd9356ded81e70a1d93"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContract.class",
+          "bytes": 2153,
+          "sha256": "9ff088ea6629981fe21c85d23b8f320cb9e6006b3356b05ce99953abdf677111"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$CaptureVideo.class",
+          "bytes": 3553,
+          "sha256": "03084f53db48b5e3dc3f37cbfaba63cb6d20926999745fa35c2e53f55749b665"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$CreateDocument.class",
+          "bytes": 5018,
+          "sha256": "50353651f82a25d8f2f94d8af0f8f46979e801b4fdfac7b89e50b039c6ddc18c"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$GetContent.class",
+          "bytes": 4248,
+          "sha256": "ce43411bc9c0862fa0874d8436dfc451b74dbafb8bc124bc745c74d41ae2b612"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$GetMultipleContents$Companion.class",
+          "bytes": 2857,
+          "sha256": "fff7f5391142bc4c062c82fb8b0f9711c071f87803392220f6ab97fa9b5584d7"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$GetMultipleContents.class",
+          "bytes": 4689,
+          "sha256": "a266cd95b26ae102a2dbe65561a165765085a357fce14f74aed1b08643f5e835"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$OpenDocument.class",
+          "bytes": 4414,
+          "sha256": "3e8781c0948482e27afb14401da54100b012ccf8fcecfbb342603050b25079b2"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$OpenDocumentTree.class",
+          "bytes": 4333,
+          "sha256": "eebd5f60ae20fb38fbde2aaf70732f4bad68cb37ab9a2df068249cb886d6f3c5"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$OpenMultipleDocuments.class",
+          "bytes": 4764,
+          "sha256": "c36a77b959dc4fa07d6606b189a480ff2153b2f032ab9530304d6991b6509ea7"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$PickContact.class",
+          "bytes": 3388,
+          "sha256": "dc388c1e9e678db14a644588f2700b72f91b3a6cb246b9799fa1a886502b5b73"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$PickMultipleVisualMedia$Companion.class",
+          "bytes": 1822,
+          "sha256": "bcaa965b7eee76b76e4d82061ffb0e1d98a749109b468b7275f656c59b631f05"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$PickMultipleVisualMedia.class",
+          "bytes": 9191,
+          "sha256": "34a54d0c11b43938793c3cbd2b7707a802da469997fad4a9f482db03fc4edfb2"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion.class",
+          "bytes": 5626,
+          "sha256": "39671435eb60b8854b9fcb4aa035c0fff578d41ea6761cf0cc4f2def37779054"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$ImageAndVideo.class",
+          "bytes": 1229,
+          "sha256": "624eb00136252daefa62db5e644896ce0801a9898d28afe1340538a4b941568c"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$ImageOnly.class",
+          "bytes": 1217,
+          "sha256": "8ff71169f0e8531d23c2b9d2c959daa190f556aabf90e39da5fe35fc04079679"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$SingleMimeType.class",
+          "bytes": 1567,
+          "sha256": "2243f065ddede66f9a74d1d385b7a25400aa55c80e012ab6677450a763449da2"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$VideoOnly.class",
+          "bytes": 1217,
+          "sha256": "fade733b9ea97cad008261590e434bfe178c816fbf7252cee6cf734a98223317"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$VisualMediaType.class",
+          "bytes": 1121,
+          "sha256": "f5c5d0f9e4161f192ca03292b932347e273522ac3b8e6735522c191438f077b2"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$PickVisualMedia.class",
+          "bytes": 9913,
+          "sha256": "0a2c2b6917f1ada2dade1e01d1e1f9470d55889fc34eead68ef78d775be6d71f"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$RequestMultiplePermissions$Companion.class",
+          "bytes": 2161,
+          "sha256": "d92afa4292a519dad5876a686d08a707f312998c02d06c24c098556200accd89"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$RequestMultiplePermissions.class",
+          "bytes": 8429,
+          "sha256": "d6d61930bb60d34d1086cdce1857b39526509b31aa9919ed1b63604e5c94944f"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$RequestPermission.class",
+          "bytes": 5298,
+          "sha256": "ceaa61b78f834d9597c6b931757558cc32dfa65a61d9cfac9c0fe589dff7b29f"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$StartActivityForResult$Companion.class",
+          "bytes": 1121,
+          "sha256": "d701ab755308ef649eec7023b022c28cc9a83e43068d5653a6b550359c023b5d"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$StartActivityForResult.class",
+          "bytes": 3003,
+          "sha256": "7f25b93b6132f70d6600e05881df841f00f8a2c2a3aa573158e34f72cab59d60"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$StartIntentSenderForResult$Companion.class",
+          "bytes": 1241,
+          "sha256": "eed4b049d7d8cb22f5227691b6d5487a028be81cede0378a0555c6f9977cf32c"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$StartIntentSenderForResult.class",
+          "bytes": 3709,
+          "sha256": "6fb09a99fb7716675683533a0f642e77ecbdb49105cb3c254f5785840e337fcd"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$TakePicture.class",
+          "bytes": 3550,
+          "sha256": "a82a40eb06f983716e5e02c2746c640540a68db52bce57d51e189834f761fcad"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$TakePicturePreview.class",
+          "bytes": 4112,
+          "sha256": "717d445cb2ad8756f62382137ca6668b371cabe7ecda38ef240a85e16b9b7df1"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts$TakeVideo.class",
+          "bytes": 4558,
+          "sha256": "76bee1d6d14d5cd9df3d5d77013d0f3aed84ed107869223645f70bb0f4842e9c"
+        },
+        {
+          "path": "classes.jar!androidx/activity/result/contract/ActivityResultContracts.class",
+          "bytes": 2507,
+          "sha256": "ecb3d17ef65660c8f97d99730b8739ff4758f456962849746f6f9f33c37d0cb5"
+        },
+        {
+          "path": "lint.jar",
+          "bytes": 12240,
+          "sha256": "5352e5b2addf1303696e15bd40f3ced447f112e0759f465e875dd62f4b90167b"
+        },
+        {
+          "path": "lint.jar!META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "lint.jar!META-INF/activity-lint.kotlin_module",
+          "bytes": 24,
+          "sha256": "78fdfa8e7eb07d3e6d9cb340da3f4f5d83aa7edb9cce6d3350d93a443aa2100f"
+        },
+        {
+          "path": "lint.jar!META-INF/services/com.android.tools.lint.client.api.IssueRegistry",
+          "bytes": 646,
+          "sha256": "77a2ad39dd2339d1c04c047166ab43812a3636a51a2364c6b8d28da97898af7a"
+        },
+        {
+          "path": "lint.jar!androidx/activity/lint/ActivityIssueRegistry.class",
+          "bytes": 2352,
+          "sha256": "b2e7246ca593689d446d676505cb0ce1ecf2cf3d322a7c8ea4dc0776b5dcae4f"
+        },
+        {
+          "path": "lint.jar!androidx/activity/lint/ActivityResultFragmentVersionDetector$Companion.class",
+          "bytes": 1288,
+          "sha256": "455698fd47f7a8da80261a005b282eb598f7913aac7f2cf63eafc1874813ffe7"
+        },
+        {
+          "path": "lint.jar!androidx/activity/lint/ActivityResultFragmentVersionDetector$createUastHandler$1.class",
+          "bytes": 2470,
+          "sha256": "f6b4441f9b5a6586360217e86e2c6b4f55a6a7f4b28ddf6230500dae603b2406"
+        },
+        {
+          "path": "lint.jar!androidx/activity/lint/ActivityResultFragmentVersionDetector.class",
+          "bytes": 17592,
+          "sha256": "f3c1208f0201f05b2a317c656b86a942390c4af13fe3911bc9ced908d1bc15f0"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 165,
+          "sha256": "fb1bd3d7142ee2a52ebc2dcff1a2c1621d6fcaa84dd201e1389a5dc209340085"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

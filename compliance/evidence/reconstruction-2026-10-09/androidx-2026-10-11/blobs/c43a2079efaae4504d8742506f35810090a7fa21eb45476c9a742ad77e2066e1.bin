@@ -1,0 +1,344 @@
+{
+  "archives": {
+    "profileinstaller-1.3.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/profileinstaller/BenchmarkOperation.java",
+          "bytes": 3139,
+          "sha256": "6e7038056021999f02bbcf4bb14fd56c1cf7f4bc4d4394e8c2c57ab08857a2c7"
+        },
+        {
+          "path": "androidx/profileinstaller/DeviceProfileWriter.java",
+          "bytes": 15199,
+          "sha256": "66bb79e95d39e81396bfbea816cdff6db63e484234ce257a400ef00ffe481778"
+        },
+        {
+          "path": "androidx/profileinstaller/DexProfileData.java",
+          "bytes": 1747,
+          "sha256": "76689722a02acc6124413c01bfff0c2064b66108eb7aaf84a7454ff7af47748a"
+        },
+        {
+          "path": "androidx/profileinstaller/Encoding.java",
+          "bytes": 6975,
+          "sha256": "d879a6dd081ff0bfb32ece660cf95f7d8a97697ed191c112e4b39ac70cb027ca"
+        },
+        {
+          "path": "androidx/profileinstaller/FileSectionType.java",
+          "bytes": 1622,
+          "sha256": "dd9bf5b3e47413afa245b36aec7dbf93186e5362a4bce4975176431c635d7f83"
+        },
+        {
+          "path": "androidx/profileinstaller/ProfileInstallReceiver.java",
+          "bytes": 7273,
+          "sha256": "6189b59e272ca2d1a90622399956bd1396b37e4b361995a9736da101155be0b2"
+        },
+        {
+          "path": "androidx/profileinstaller/ProfileInstaller.java",
+          "bytes": 25812,
+          "sha256": "93a607b43bb4e3f26c24d2bfaed8a09e634c3dc23c30b39521edcab1e52bed03"
+        },
+        {
+          "path": "androidx/profileinstaller/ProfileInstallerInitializer.java",
+          "bytes": 6131,
+          "sha256": "1746f89821e435657cbfe0c025696e2c83db5a2cfbcbbb4d2ec65b47d315cbdb"
+        },
+        {
+          "path": "androidx/profileinstaller/ProfileTranscoder.java",
+          "bytes": 51939,
+          "sha256": "0b9303daf86cd25accea45ae6e73fe8a7b390b9f2d45145b45d9814ad88403b8"
+        },
+        {
+          "path": "androidx/profileinstaller/ProfileVerifier.java",
+          "bytes": 26803,
+          "sha256": "b5a237d6c9eb7e84ed35ce40206802d4d6797a17aedc1af128bb93b94fac79ed"
+        },
+        {
+          "path": "androidx/profileinstaller/ProfileVersion.java",
+          "bytes": 1748,
+          "sha256": "94b52b6322ce6d3efe0f931cb9fec3a2c4c049cd8acf87e953616e9ec84e5005"
+        },
+        {
+          "path": "androidx/profileinstaller/WritableFileSection.java",
+          "bytes": 1284,
+          "sha256": "95e872439281afeeb85288b7485c07eef9b663b84f3f1c0c878c14bbba89dac4"
+        },
+        {
+          "path": "androidx/profileinstaller/package-info.java",
+          "bytes": 942,
+          "sha256": "73884a6a6498c8d15f002422a0b0046c7e959c6258192c8e007445d3b93f1ff6"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/profileinstaller/BenchmarkOperation.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/profileinstaller/DeviceProfileWriter.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/profileinstaller/DexProfileData.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/profileinstaller/Encoding.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/profileinstaller/FileSectionType.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/profileinstaller/ProfileInstallReceiver.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/profileinstaller/ProfileInstaller.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/profileinstaller/ProfileInstallerInitializer.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/profileinstaller/ProfileTranscoder.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/profileinstaller/ProfileVerifier.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/profileinstaller/ProfileVersion.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/profileinstaller/WritableFileSection.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/profileinstaller/package-info.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": true
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "profileinstaller-1.3.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 2177,
+          "sha256": "d9219cdf13ecc51da10d3d8e931d2cedacf4dd5c3e115d146471d55f16a93b90"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 122,
+          "sha256": "4d71d4cc4d860d8def346517658ee6dff00f82fa89a0d3e7bef99114b15d53b9"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "annotations.zip",
+          "bytes": 1300,
+          "sha256": "a6de26a4a3664436acdbf695e26b5a5e618cd47e12f6bc415c944a27d25a852c"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 47432,
+          "sha256": "1c0cf0c4281dd2588a3582ce1977bb6a73fa84b0924125458e706c3542fb84b7"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.profileinstaller_profileinstaller.version",
+          "bytes": 6,
+          "sha256": "64d23f858ef51b0f996e4966d4e27c0371b437e2d2787890b1f7ad22d4ec5663"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/BenchmarkOperation$Api21ContextHelper.class",
+          "bytes": 784,
+          "sha256": "f35fd733ad459487a4944f39bb8a968c765015389a395562d63df325412f19b8"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/BenchmarkOperation$Api24ContextHelper.class",
+          "bytes": 898,
+          "sha256": "959fa4e5499b7f786f5a1979fabe9e7340b84edc781ff97e6eb51b796566b057"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/BenchmarkOperation.class",
+          "bytes": 2217,
+          "sha256": "084241336e27c477d782b985b166f226a0baa3b3ba6d699718de609ed83ccc77"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/DeviceProfileWriter.class",
+          "bytes": 9771,
+          "sha256": "3726e87af08571eedbcf6df4a3def978483111ec0cf4cb6a16d033d93202242f"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/DexProfileData.class",
+          "bytes": 1352,
+          "sha256": "b70b6e886ff105f11f3744515db5aa8d3191dcff5ff903c7b4663d5b8adb37b4"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/Encoding.class",
+          "bytes": 6317,
+          "sha256": "e763b8f5e929d012a2bc066cb40ba37ee070b150859cfb2ae67e97214789dfcf"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/FileSectionType.class",
+          "bytes": 2112,
+          "sha256": "56bfe0e2921e3a09d12fdb2695a7a60c3cc3f6b6510a11a332310633ea8c5ed9"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileInstallReceiver$ResultDiagnostics.class",
+          "bytes": 1333,
+          "sha256": "14c0a7b919ab112c8d373d0d93aa999485f467e9c032ddf943b627ac4b7dfc28"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileInstallReceiver.class",
+          "bytes": 4379,
+          "sha256": "881f47ea94f9b0bd5a6aa4e62206fcce75779f362c2e8426c5c81c2e479ae8f3"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileInstaller$1.class",
+          "bytes": 898,
+          "sha256": "86fd9495be4d7e5b39e4a006246e6a548799a9af58854cf6ff9a6a3f4bd8fdb8"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileInstaller$2.class",
+          "bytes": 2193,
+          "sha256": "2e266207d875320b4ab079fff3ba6e2d7b9a8eb995c0b696e90908a737ea8bc6"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileInstaller$DiagnosticCode.class",
+          "bytes": 661,
+          "sha256": "b5e56fec80939ed7519c243b65cf7edfefe670c70c60fbc02559b13f3c066938"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileInstaller$DiagnosticsCallback.class",
+          "bytes": 445,
+          "sha256": "a13394d7c72de9d972f2d88f6996fad4fed2b39379b30e7ec0e6b21b87c8288a"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileInstaller$ResultCode.class",
+          "bytes": 653,
+          "sha256": "97a0bee000f682cd8a6f91e6fc891d24bbae4877f1f11d935d69aeb76347504a"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileInstaller.class",
+          "bytes": 11365,
+          "sha256": "c4dc803917f6fb0b71a10ad7432b4ebbff3ac45b54c0dea5478ab3f92b956744"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileInstallerInitializer$Choreographer16Impl.class",
+          "bytes": 1730,
+          "sha256": "9e74113cfb9b94299629d89f8e0feb0650073ce9ca9129d0b5aeb77fac012932"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileInstallerInitializer$Handler28Impl.class",
+          "bytes": 824,
+          "sha256": "0a64208feadf4d38ca3e70f5aa85ec37969b9f0f559f42ea7d022a7551304c63"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileInstallerInitializer$Result.class",
+          "bytes": 471,
+          "sha256": "17226f21e6e79198b2a79455d3014501fc438d93deb0ae63d1870559bbf119d1"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileInstallerInitializer.class",
+          "bytes": 4426,
+          "sha256": "62e4b588e6800b17c4d84767e169669622a9bee96b1d00563462b93f1ae8ef31"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileTranscoder.class",
+          "bytes": 21736,
+          "sha256": "5c8da65a204763a4be54452e7fb195e8ad6a4c3717fabf98d78b8749ede1c33c"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileVerifier$Api33Impl.class",
+          "bytes": 1385,
+          "sha256": "9bbb9fa5b939e381ba7be4a0d745519976fe5261b69f468e60ceaee8728e1690"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileVerifier$Cache.class",
+          "bytes": 2936,
+          "sha256": "d5ea9c38492328440ef1711bc5fbe2ae840d228c7fc541c26528e7a1f25f8433"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileVerifier$CompilationStatus$ResultCode.class",
+          "bytes": 761,
+          "sha256": "1745a5b1e13414e32063850859953a88c7940172e7bc369e87d4102e323f4dcd"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileVerifier$CompilationStatus.class",
+          "bytes": 1698,
+          "sha256": "215b43afbc9c94082830e1e4ed10ec4d04b729659b020c7248a0123915ba3d22"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileVerifier.class",
+          "bytes": 5863,
+          "sha256": "91a687c0ada3b26d37c0b7344969ecb6cf054afc327aa0e549722bfaf4fde9f6"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/ProfileVersion.class",
+          "bytes": 1474,
+          "sha256": "a496089849df875f570d5ca92021d1ea05fc2e16c20e510f970cae629671b162"
+        },
+        {
+          "path": "classes.jar!androidx/profileinstaller/WritableFileSection.class",
+          "bytes": 815,
+          "sha256": "b0fd08fc3b6daa880ec33da902c98bfdbd34af592154a69f92a6b12250004f96"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 63,
+          "sha256": "0aed495e21a70cab045e3b4792a02f2c7ad68fc1687d73474a09db0b269bc041"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

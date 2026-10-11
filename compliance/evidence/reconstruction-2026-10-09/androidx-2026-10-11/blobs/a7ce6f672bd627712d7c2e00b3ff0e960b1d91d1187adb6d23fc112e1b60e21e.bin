@@ -1,0 +1,146 @@
+{
+  "archives": {
+    "sqlite-framework-2.1.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java",
+          "bytes": 9917,
+          "sha256": "09e948a297669b5aa3312ac0a2fda3389b3023a1274805c20b062f52a5387e1f"
+        },
+        {
+          "path": "androidx/sqlite/db/framework/FrameworkSQLiteOpenHelper.java",
+          "bytes": 7573,
+          "sha256": "57e16e7264c375b3bd6b642e99a19bf3756e379eeb28b7993a71f2d514cee884"
+        },
+        {
+          "path": "androidx/sqlite/db/framework/FrameworkSQLiteOpenHelperFactory.java",
+          "bytes": 1356,
+          "sha256": "02224e181523baaabbfcf7893d78558f2346c49b799048511dbc653366b55ca6"
+        },
+        {
+          "path": "androidx/sqlite/db/framework/FrameworkSQLiteProgram.java",
+          "bytes": 1776,
+          "sha256": "a9f0166b904cadc368d2a335dc6bbc306b5628396cbc82295b252446b7e49a37"
+        },
+        {
+          "path": "androidx/sqlite/db/framework/FrameworkSQLiteStatement.java",
+          "bytes": 1745,
+          "sha256": "585ef775dddf95ce144ce5009401a25599333b3953b681a69aec52b264874be7"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/sqlite/db/framework/FrameworkSQLiteOpenHelper.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/sqlite/db/framework/FrameworkSQLiteOpenHelperFactory.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/sqlite/db/framework/FrameworkSQLiteProgram.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/sqlite/db/framework/FrameworkSQLiteStatement.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "sqlite-framework-2.1.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 891,
+          "sha256": "38bdb3b6436678d7e0fc408eaebf42e528e0d2d4d660ebfbda151cf5ead483b2"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 12630,
+          "sha256": "f9de9f4f6ed20af865dc2f7b64347ade25219a244de2d0c90fa5973ffe338454"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.sqlite_sqlite-framework.version",
+          "bytes": 6,
+          "sha256": "c89b87c262e9d5ffd20e73aac74a1772adcc9f5a21682cc33adcf5086e5fef5c"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/framework/FrameworkSQLiteDatabase$1.class",
+          "bytes": 1836,
+          "sha256": "745189ae0514d8856d6ed35283b8cdd24712bf27b1c1c6c97fdf385454e0cd55"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/framework/FrameworkSQLiteDatabase$2.class",
+          "bytes": 1867,
+          "sha256": "1a476c346fb1d0af77807d2d004701c4bc5dcb36aed4385a47ea616f8dfa4667"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/framework/FrameworkSQLiteDatabase.class",
+          "bytes": 9451,
+          "sha256": "e9471fa33a2497111af7eacca6ce15150c71bec4a98f4aaee043072287fa7e99"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/framework/FrameworkSQLiteOpenHelper$OpenHelper$1.class",
+          "bytes": 1662,
+          "sha256": "72b66def4183161ee2952bfd5e07e7a6921038eb25f419eeb60796cfd0691d7b"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/framework/FrameworkSQLiteOpenHelper$OpenHelper.class",
+          "bytes": 3870,
+          "sha256": "0027b7462b24d8062f66aef79f095b34730d4d664c9431c71d51e21908ac0754"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/framework/FrameworkSQLiteOpenHelper.class",
+          "bytes": 3377,
+          "sha256": "eeeeb0ff47de196405b4eab60b46343b00aa9f6e58cb3ed190258701ebf53844"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/framework/FrameworkSQLiteOpenHelperFactory.class",
+          "bytes": 1470,
+          "sha256": "a03e03e028bd2dd3cda9afb35cdfeaf30f7b4b2f0b46db192071c3adf2f13b4e"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/framework/FrameworkSQLiteProgram.class",
+          "bytes": 1429,
+          "sha256": "8b7192baed717d95b6466ea3ab9c4e72e7d1d910dfc2e7f933f00fccffc19ba3"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/framework/FrameworkSQLiteStatement.class",
+          "bytes": 1186,
+          "sha256": "8b29f78db6e953501d4479672a129038f0705efa605bc40911fa217402458731"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

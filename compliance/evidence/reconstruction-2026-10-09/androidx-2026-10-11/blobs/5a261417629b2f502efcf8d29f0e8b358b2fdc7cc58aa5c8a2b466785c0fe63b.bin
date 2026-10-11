@@ -1,0 +1,201 @@
+{
+  "archives": {
+    "startup-runtime-1.1.1-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/startup/AppInitializer.java",
+          "bytes": 8967,
+          "sha256": "33d0356a690a41e7b51dd790fef6cab5b8b74c6c0c8296ef8894cf8fd0a449e7"
+        },
+        {
+          "path": "androidx/startup/InitializationProvider.java",
+          "bytes": 3134,
+          "sha256": "950ba8c1daf30849fbf6679b4647fc7b86319ab3ef24ba89dd2b559c6dc784b6"
+        },
+        {
+          "path": "androidx/startup/Initializer.java",
+          "bytes": 1601,
+          "sha256": "1e0de5c3c581daba6d1dc49872faf5396eeb9f6d39dde5265332618e3b0d3871"
+        },
+        {
+          "path": "androidx/startup/StartupException.java",
+          "bytes": 1246,
+          "sha256": "8e41c66855b71fc3563b54e61c67f2b681677753de1a833c8480bbaa84abe655"
+        },
+        {
+          "path": "androidx/startup/StartupLogger.java",
+          "bytes": 1830,
+          "sha256": "03884530195c1c761cefb2dcb855bca1d72d73199def7111a8044053da0058c0"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/startup/AppInitializer.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/startup/InitializationProvider.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/startup/Initializer.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/startup/StartupException.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/startup/StartupLogger.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "startup-runtime-1.1.1.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 1192,
+          "sha256": "9d930697094678f96c09b7508dcf163bbbcf7103afb8f60db7a1a1fbf282e034"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 97,
+          "sha256": "eab031b3d62072a31ac4c3dc038ea9aadce41d0177a68317d8672376c77216b5"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 32,
+          "sha256": "792e042db05fb5af7a04a74a9553e42019702bbdf9eed82a9e4e111bddc0f249"
+        },
+        {
+          "path": "baseline-prof.txt",
+          "bytes": 128,
+          "sha256": "05800311c1ff915e95fa3280b37717b2c64fcd7638d382a7303e092e8490a6df"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 6788,
+          "sha256": "7f90b874051d50d5e662a432b94c2bf6bb8461faf8b388e117b860022dafa844"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.startup_startup-runtime.version",
+          "bytes": 6,
+          "sha256": "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989"
+        },
+        {
+          "path": "classes.jar!androidx/startup/AppInitializer.class",
+          "bytes": 7553,
+          "sha256": "1cb893011c108a53a90459caece1ea124d481476806df8877b8b28d20429ead1"
+        },
+        {
+          "path": "classes.jar!androidx/startup/InitializationProvider.class",
+          "bytes": 2530,
+          "sha256": "c9cdae35d59af8820c62481d01251b5d2dee630c6ca704664caedad81d03561a"
+        },
+        {
+          "path": "classes.jar!androidx/startup/Initializer.class",
+          "bytes": 555,
+          "sha256": "7a858431d06081742165e5b5de684269a9e5edb484987bb2adca2dc8bc7c8481"
+        },
+        {
+          "path": "classes.jar!androidx/startup/StartupException.class",
+          "bytes": 1051,
+          "sha256": "541395fc82899c7d0c8c0bccacf51315b8491150fe8f09035748194e30531208"
+        },
+        {
+          "path": "classes.jar!androidx/startup/StartupLogger.class",
+          "bytes": 1324,
+          "sha256": "235cc3f8387b9ea2464ef488515504801cba4d85f93f3a56c2784412248dd856"
+        },
+        {
+          "path": "lint.jar",
+          "bytes": 12135,
+          "sha256": "068101d5bb09df622a1c4bdcc98b78c58ac1ada82cab610b803f72132b920e0c"
+        },
+        {
+          "path": "lint.jar!META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "lint.jar!META-INF/services/com.android.tools.lint.client.api.IssueRegistry",
+          "bytes": 49,
+          "sha256": "f7034b8d6176321ed623ae70332b627388b5e7d8abba496f77101927c7daf9a1"
+        },
+        {
+          "path": "lint.jar!META-INF/startup-runtime-lint.kotlin_module",
+          "bytes": 24,
+          "sha256": "79283a996847a39fb882b26435e7289e10dc3295baf47b3d4f2f7e42a9f98ef0"
+        },
+        {
+          "path": "lint.jar!androidx/startup/lint/EnsureInitializerMetadataDetector$Companion.class",
+          "bytes": 1271,
+          "sha256": "1430a8f85af9f639500964c558e40a773a733919f2e6d2aff26a899d0094d83e"
+        },
+        {
+          "path": "lint.jar!androidx/startup/lint/EnsureInitializerMetadataDetector$visitClass$visitor$1.class",
+          "bytes": 2200,
+          "sha256": "2f2e4b100c452f1cae51e589fe5ffc277ee3f84c47af941ae1dced707af4db54"
+        },
+        {
+          "path": "lint.jar!androidx/startup/lint/EnsureInitializerMetadataDetector.class",
+          "bytes": 9310,
+          "sha256": "208794ef744c0312c24209fc94fed4d8d7f038cd8a8b0cf774b460ffde0d3edb"
+        },
+        {
+          "path": "lint.jar!androidx/startup/lint/InitializerConstructorDetector$Companion.class",
+          "bytes": 1259,
+          "sha256": "7025379d1bb9ad63a77e39b9fbb6055462fcf3056748eb9cf23bf8cac7957ac7"
+        },
+        {
+          "path": "lint.jar!androidx/startup/lint/InitializerConstructorDetector.class",
+          "bytes": 5504,
+          "sha256": "e0ee30321251e5dd13cd14d35247abeed1aa430a6bea0b9aa6627cf873f1baff"
+        },
+        {
+          "path": "lint.jar!androidx/startup/lint/StartupRuntimeIssueRegistry.class",
+          "bytes": 2610,
+          "sha256": "acc4f230afb60fe52450aa835cbb4d085ac00559c4584f5e6002069ec6f7b51b"
+        },
+        {
+          "path": "proguard.txt",
+          "bytes": 629,
+          "sha256": "4477be65367a7d51da777aa079b858f3bc5d336d15a8268c516a6578b7e31968"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 146,
+          "sha256": "79ad40956584016326adac40d7cd49b3094678e2c56b38fc7d9ba92cd45e3d40"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

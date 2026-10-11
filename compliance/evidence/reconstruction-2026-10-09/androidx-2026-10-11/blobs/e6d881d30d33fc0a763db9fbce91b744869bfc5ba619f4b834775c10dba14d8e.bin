@@ -1,0 +1,170 @@
+{
+  "archives": {
+    "concurrent-futures-1.1.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/concurrent/futures/AbstractResolvableFuture.java",
+          "bytes": 52855,
+          "sha256": "893d265754ae72f987764adcf997afbf14ca392d2e36b25be5381e7b7d6b8351"
+        },
+        {
+          "path": "androidx/concurrent/futures/CallbackToFutureAdapter.java",
+          "bytes": 13747,
+          "sha256": "b55ebfa87347f36e43e3e4fbeebdb0219b2a8ecf39536c5313057761ac984121"
+        },
+        {
+          "path": "androidx/concurrent/futures/DirectExecutor.java",
+          "bytes": 1142,
+          "sha256": "f63acccee7ae3ee3c07c089ac8c8315ea0173830b14e9020328c798b02d92778"
+        },
+        {
+          "path": "androidx/concurrent/futures/ResolvableFuture.java",
+          "bytes": 2064,
+          "sha256": "52458bdd421942fbb182d7f35cd243cee47d51f1be5881e2fb5549f6fe2635f1"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/concurrent/futures/AbstractResolvableFuture.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/concurrent/futures/CallbackToFutureAdapter.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/concurrent/futures/DirectExecutor.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/concurrent/futures/ResolvableFuture.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "concurrent-futures-1.1.0.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/concurrent/futures/AbstractResolvableFuture$1.class",
+          "bytes": 276,
+          "sha256": "7e4c0d3e75b96c22b998ed7bfaa92398ec8b6c4f83dcf287ec000c689994e3ec"
+        },
+        {
+          "path": "androidx/concurrent/futures/AbstractResolvableFuture$AtomicHelper.class",
+          "bytes": 2208,
+          "sha256": "57cacfe1f66cbf3e9c5559d2b7cbfd9a33ec38b68a9be7332555de777eb804a7"
+        },
+        {
+          "path": "androidx/concurrent/futures/AbstractResolvableFuture$Cancellation.class",
+          "bytes": 1041,
+          "sha256": "24728d2ee6259e9613bb20a07fbd7b7dd4b15b13ec25534c6ed05b27903add30"
+        },
+        {
+          "path": "androidx/concurrent/futures/AbstractResolvableFuture$Failure$1.class",
+          "bytes": 737,
+          "sha256": "f4d86a3ee6b8a921597eff578bcf7ad8aea1789059b289c86035cb97ca023241"
+        },
+        {
+          "path": "androidx/concurrent/futures/AbstractResolvableFuture$Failure.class",
+          "bytes": 951,
+          "sha256": "c68ff25448f388c28a9364290270d8d7692eb53fa2bdef36cb6528ede85c21e6"
+        },
+        {
+          "path": "androidx/concurrent/futures/AbstractResolvableFuture$Listener.class",
+          "bytes": 873,
+          "sha256": "fcf7a01ad6fb264f0b3a3d82114a4917440512a9c8d4b60281b2c118aef5e86c"
+        },
+        {
+          "path": "androidx/concurrent/futures/AbstractResolvableFuture$SafeAtomicHelper.class",
+          "bytes": 5564,
+          "sha256": "4fde766472e6dad1cce14bd90809c2756bda8b3d623e747fd0cdfc4982d86aaf"
+        },
+        {
+          "path": "androidx/concurrent/futures/AbstractResolvableFuture$SetFuture.class",
+          "bytes": 2033,
+          "sha256": "56cc25f352730440ed2216795b8ffba48ecb962a0f5e0e1d20e4fe53ac406768"
+        },
+        {
+          "path": "androidx/concurrent/futures/AbstractResolvableFuture$SynchronizedHelper.class",
+          "bytes": 3421,
+          "sha256": "75736885d5847d2119786e36636232d276bf17ff8b52a0ad8c584df57adf85bc"
+        },
+        {
+          "path": "androidx/concurrent/futures/AbstractResolvableFuture$Waiter.class",
+          "bytes": 1723,
+          "sha256": "f20d1515fd8661050618b329cf86674e8aeda5eda3845ac9e7bdee39cb4116bb"
+        },
+        {
+          "path": "androidx/concurrent/futures/AbstractResolvableFuture.class",
+          "bytes": 18591,
+          "sha256": "e891f551ad0f6716694a245632a11402fcc63f69e66639c529e84cc69c8f074d"
+        },
+        {
+          "path": "androidx/concurrent/futures/CallbackToFutureAdapter$Completer.class",
+          "bytes": 3784,
+          "sha256": "4163b2763d9994dc36b204a5c8a4dfd5fee3cdc4c31b7496c42963a1fed3049e"
+        },
+        {
+          "path": "androidx/concurrent/futures/CallbackToFutureAdapter$FutureGarbageCollectedException.class",
+          "bytes": 706,
+          "sha256": "54aea854dcfd3022ba128728f73dfb9045a0e1155d1a5bb80d9848b84f2a2341"
+        },
+        {
+          "path": "androidx/concurrent/futures/CallbackToFutureAdapter$Resolver.class",
+          "bytes": 831,
+          "sha256": "291b7d7c9aa9b5541c7b898c155bd4b9d583b8d162f0db022dd85eea37964bd9"
+        },
+        {
+          "path": "androidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture$1.class",
+          "bytes": 1829,
+          "sha256": "03d2e9be6ac26584163f4dfafc6812156b0efb72b478b7c7c92e724c2884fe5c"
+        },
+        {
+          "path": "androidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture.class",
+          "bytes": 3934,
+          "sha256": "c2c04cdd475863dbac0d9d61c0ff55eabbfbff5ed37c8cde7989e3e6c1077481"
+        },
+        {
+          "path": "androidx/concurrent/futures/CallbackToFutureAdapter.class",
+          "bytes": 2370,
+          "sha256": "4e607b0eb6f2de939f5bb478b94515f0ac685472157c71d2821d693d81064c2a"
+        },
+        {
+          "path": "androidx/concurrent/futures/DirectExecutor.class",
+          "bytes": 1661,
+          "sha256": "9b04b88e05644b55fcd43fb7b09485f5a3dcd8ad285839b03ea04e117f7d66f4"
+        },
+        {
+          "path": "androidx/concurrent/futures/ResolvableFuture.class",
+          "bytes": 1867,
+          "sha256": "0808fa24436dddc710c83e8b28c57704c7d6acf206e3f4bea2949ac10c2d6014"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

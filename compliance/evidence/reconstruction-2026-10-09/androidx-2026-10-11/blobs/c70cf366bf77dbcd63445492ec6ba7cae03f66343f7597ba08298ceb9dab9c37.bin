@@ -1,0 +1,169 @@
+{
+  "archives": {
+    "lifecycle-livedata-2.6.2-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/lifecycle/ComputableLiveData.kt",
+          "bytes": 4137,
+          "sha256": "8250211ba1394d91e1b27b0ac1a5207ab91916662d06e59aecbc3bcb41fa0512"
+        },
+        {
+          "path": "androidx/lifecycle/MediatorLiveData.java",
+          "bytes": 5974,
+          "sha256": "f7ba4a3d9358ccaefdd199c85f9c3f8ea536cf2fd7cadf83c7ce5e2b9a733736"
+        },
+        {
+          "path": "androidx/lifecycle/Transformations.kt",
+          "bytes": 6614,
+          "sha256": "93823571e58bd25bb866192210aff2a20ae159f96c47c47fd47c2cf6f24bb644"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/lifecycle/ComputableLiveData.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/MediatorLiveData.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/Transformations.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "lifecycle-livedata-2.6.2.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 840,
+          "sha256": "be7d00b36ad133e0f1ee7026ecd3efcf5bb3cf09b82ab350623c55d19b00f5b9"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 122,
+          "sha256": "4d71d4cc4d860d8def346517658ee6dff00f82fa89a0d3e7bef99114b15d53b9"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "baseline-prof.txt",
+          "bytes": 1807,
+          "sha256": "5c14f1c5f821a4033e968f6724cd92d945b48f8396f32e4b6ea7f53284deb700"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 18379,
+          "sha256": "4fdb7ab6023c3ebce0ccd864a169f4671f4f63d5248d0b89018b1e99855aa2b3"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.lifecycle_lifecycle-livedata.version",
+          "bytes": 73,
+          "sha256": "8fb16c24c98902ba99917588dbfd038df0d9bf8693c9256e2ba9952c78b44b33"
+        },
+        {
+          "path": "classes.jar!META-INF/lifecycle-livedata_release.kotlin_module",
+          "bytes": 63,
+          "sha256": "0d19f030994c320b08f023771ac233ed6cd2d71faf674bd723b10ed247a5ae17"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ComputableLiveData$_liveData$1.class",
+          "bytes": 1469,
+          "sha256": "763267526658359f1bf83f33d00900e52d1f240abae71cac3150c7df60cfec23"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ComputableLiveData.class",
+          "bytes": 5204,
+          "sha256": "a670c43503f706c5f619c1668e0f7fe98f2f9cd9500f73499cb27c031cf70a84"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/MediatorLiveData$Source.class",
+          "bytes": 1808,
+          "sha256": "1775890450ad9104bf7db65fec9658c9d9f94ea22895d7790fc3bccaa076ef9a"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/MediatorLiveData.class",
+          "bytes": 3589,
+          "sha256": "f17550acd14d79a1f26598a458e5216460216d8d0007ad19aa2cae605540efe2"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/Transformations$distinctUntilChanged$1.class",
+          "bytes": 2160,
+          "sha256": "3d3372821fb37cfbefbfd7b244bb3e1a3c1b49ca713cdfc0bc2de0b3ad9ad914"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/Transformations$map$1.class",
+          "bytes": 1801,
+          "sha256": "0fde0ef1be81c9d95889478c5cc5e187c19c04b675fb613b93b3170dd3dc5832"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/Transformations$map$2.class",
+          "bytes": 1859,
+          "sha256": "3052d0e0e74d2a994d6cf9dcc250f0d7d72672d096ddeb598ce917d1a6144a27"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0.class",
+          "bytes": 1761,
+          "sha256": "c7a44cd466b3c47a11fff8bca1bcbfc8e52349109353bc439f8111d2c9f3fb14"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/Transformations$switchMap$1$onChanged$1.class",
+          "bytes": 1545,
+          "sha256": "5bcbd3d7f32917235ad6d1f457ec1582d2f230691574e7aec81ef2b2a9a9243b"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/Transformations$switchMap$1.class",
+          "bytes": 3034,
+          "sha256": "be13212e19d53bac4d2dade626813cbb32c8f04af537921ade9b06a395d849ce"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/Transformations$switchMap$2$onChanged$1.class",
+          "bytes": 1545,
+          "sha256": "1d2891cc8195ca666cb43e15d4f4090850e4af46e48fbb02d5eb7cb478d16a06"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/Transformations$switchMap$2.class",
+          "bytes": 3089,
+          "sha256": "f087f5b388e424e0a71f69e1dc15c41a60fc88f4b02c09828501246220638c88"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/Transformations.class",
+          "bytes": 4794,
+          "sha256": "45072c112dc31d0c894249444e8f97138349c3b8fbb47f7d94939785be4b136a"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 63,
+          "sha256": "0aed495e21a70cab045e3b4792a02f2c7ad68fc1687d73474a09db0b269bc041"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

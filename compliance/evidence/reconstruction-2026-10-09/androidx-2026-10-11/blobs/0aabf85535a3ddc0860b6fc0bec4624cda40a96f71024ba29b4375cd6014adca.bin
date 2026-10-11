@@ -1,0 +1,110 @@
+{
+  "archives": {
+    "interpolator-1.0.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/interpolator/view/animation/FastOutLinearInInterpolator.java",
+          "bytes": 3405,
+          "sha256": "ae4283baa2bb9213c9b2d059962baf4d60407afee23e58fe738b6d6f2c5c5379"
+        },
+        {
+          "path": "androidx/interpolator/view/animation/FastOutSlowInInterpolator.java",
+          "bytes": 3400,
+          "sha256": "b97b3fc1684a59b7c5bc849ea4cf48ef7d914a01c3d730c1fd8280eddbfe20f8"
+        },
+        {
+          "path": "androidx/interpolator/view/animation/LinearOutSlowInInterpolator.java",
+          "bytes": 3404,
+          "sha256": "d44f6fe7dfbefdbd7343b35cccaaf0dd3f0230b9518cce5921bb34e2e4cb1028"
+        },
+        {
+          "path": "androidx/interpolator/view/animation/LookupTableInterpolator.java",
+          "bytes": 1921,
+          "sha256": "4f4eccf9a9e403eb0b760d1d4a5514da072bd9512f5e2bd327844d80720beef4"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/interpolator/view/animation/FastOutLinearInInterpolator.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/interpolator/view/animation/FastOutSlowInInterpolator.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/interpolator/view/animation/LinearOutSlowInInterpolator.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/interpolator/view/animation/LookupTableInterpolator.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "interpolator-1.0.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 835,
+          "sha256": "51a222181da047bd59cbc6c97e1daa6e60479ec72f7f76f44148667afb04e7ed"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 7661,
+          "sha256": "041d65e8566445b97a2ae741227ce05ab6783c783a83e6fb173d8abc9eabd55b"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.interpolator_interpolator.version",
+          "bytes": 6,
+          "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        },
+        {
+          "path": "classes.jar!androidx/interpolator/view/animation/FastOutLinearInInterpolator.class",
+          "bytes": 2893,
+          "sha256": "0cda4ff76bf637ce17df60911ba4208501b19b536a7d055eb05dcc6d87c4e895"
+        },
+        {
+          "path": "classes.jar!androidx/interpolator/view/animation/FastOutSlowInInterpolator.class",
+          "bytes": 2876,
+          "sha256": "c6de7bb9ebb69ad9c511f4842bda5a4b966acdab490bf1318a16deb45b7a624b"
+        },
+        {
+          "path": "classes.jar!androidx/interpolator/view/animation/LinearOutSlowInInterpolator.class",
+          "bytes": 2882,
+          "sha256": "8b3e356b1067eb6695d3bd17ef99f8650b86e371fed8ae62456ebb31a9910b55"
+        },
+        {
+          "path": "classes.jar!androidx/interpolator/view/animation/LookupTableInterpolator.class",
+          "bytes": 907,
+          "sha256": "2e8996578d3182430ae9058b1a9814e37f4a88aefdaa94ff76212b266c44476f"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

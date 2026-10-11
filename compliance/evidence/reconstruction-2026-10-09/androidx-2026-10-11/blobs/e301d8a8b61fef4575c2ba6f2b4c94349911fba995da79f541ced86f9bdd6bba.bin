@@ -1,0 +1,178 @@
+{
+  "archives": {
+    "sqlite-2.1.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/sqlite/db/SimpleSQLiteQuery.java",
+          "bytes": 3803,
+          "sha256": "1f1a83cf8bce0e743072a832f3140876b5662b94022bf4ac68528a1b6f76782c"
+        },
+        {
+          "path": "androidx/sqlite/db/SupportSQLiteDatabase.java",
+          "bytes": 26306,
+          "sha256": "180dcfc2a100d1f93317603481bcbfcd341840ec0684b9241b11515a4b403e8f"
+        },
+        {
+          "path": "androidx/sqlite/db/SupportSQLiteOpenHelper.java",
+          "bytes": 18406,
+          "sha256": "bf15abbe5707e75b2aea00f76e0362fe47677807987b854308fb0abc88bda118"
+        },
+        {
+          "path": "androidx/sqlite/db/SupportSQLiteProgram.java",
+          "bytes": 2412,
+          "sha256": "0c02f16cb299c74149ce7d8b0b246c2bd4518b065e8a584798b6a3f8341e5916"
+        },
+        {
+          "path": "androidx/sqlite/db/SupportSQLiteQuery.java",
+          "bytes": 1540,
+          "sha256": "ecc1ae8b30616169fe7f26471fd6e28674c3b4b52de821f1701a3fcb874fb1d0"
+        },
+        {
+          "path": "androidx/sqlite/db/SupportSQLiteQueryBuilder.java",
+          "bytes": 5679,
+          "sha256": "60fd40080a08ae3e7080bcabfbf9f86c3c71775f51e98e4f236ab1a130793ad2"
+        },
+        {
+          "path": "androidx/sqlite/db/SupportSQLiteStatement.java",
+          "bytes": 2633,
+          "sha256": "85bbd70ef4a9d90a477171ce1da46fbf659ca6da040620474a2878e6039080f0"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/sqlite/db/SimpleSQLiteQuery.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/sqlite/db/SupportSQLiteDatabase.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/sqlite/db/SupportSQLiteOpenHelper.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/sqlite/db/SupportSQLiteProgram.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/sqlite/db/SupportSQLiteQuery.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/sqlite/db/SupportSQLiteQueryBuilder.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/sqlite/db/SupportSQLiteStatement.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "sqlite-2.1.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 881,
+          "sha256": "27384d48fdc4eb5ca3d539278b47f5593f07ba3afb9f8b9ec8e8c14e42455497"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 12120,
+          "sha256": "c296677c6ba9c9396a179948c6774fb9d1233e8e48bd5b104fe826325579c9d5"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.sqlite_sqlite.version",
+          "bytes": 6,
+          "sha256": "c89b87c262e9d5ffd20e73aac74a1772adcc9f5a21682cc33adcf5086e5fef5c"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/SimpleSQLiteQuery.class",
+          "bytes": 3072,
+          "sha256": "d6649f1f1d00a8e31f74da7cb9b44b6ff656d7db88442be4a218b9f1114e870d"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/SupportSQLiteDatabase.class",
+          "bytes": 2237,
+          "sha256": "c2b5ed95433615fc76e8cec5930bee5f856846c9e2704410cade7a5fb6c0c75c"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/SupportSQLiteOpenHelper$Callback.class",
+          "bytes": 4020,
+          "sha256": "3ca56f4468c1e134df41ca9cbe0e786318e0e99cb4a71713923857fb84d38b46"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/SupportSQLiteOpenHelper$Configuration$Builder.class",
+          "bytes": 2462,
+          "sha256": "23f5360cb2b6495f86ea6654bd8ef64da371321181fedb2b3ebc8378b714a94d"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/SupportSQLiteOpenHelper$Configuration.class",
+          "bytes": 1705,
+          "sha256": "12aaf520b7b1bba69c976693acb05a38439964f00be6d493ad07deacdcf276d0"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/SupportSQLiteOpenHelper$Factory.class",
+          "bytes": 579,
+          "sha256": "9b8d3751250cbe95de7633f1423956b0141cd393bc19abd0c2efe95b9f3331bc"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/SupportSQLiteOpenHelper.class",
+          "bytes": 792,
+          "sha256": "0860e2461b59958d126b4dcf92b5586cb8d07c8711cefdf9b0a0500b6d47de9a"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/SupportSQLiteProgram.class",
+          "bytes": 351,
+          "sha256": "587b214bd1fa45a3d30cd637a9383f4d35459a41293b7b5f05568e26cbf53df5"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/SupportSQLiteQuery.class",
+          "bytes": 268,
+          "sha256": "7d17fe0905333a23681877741cbd9aeb7094bf4096af2c8b28aac8eeffce6dd4"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/SupportSQLiteQueryBuilder.class",
+          "bytes": 3934,
+          "sha256": "e433d84582219c888243c628d846809a58c7df6e05d302028f01448690b6df42"
+        },
+        {
+          "path": "classes.jar!androidx/sqlite/db/SupportSQLiteStatement.class",
+          "bytes": 364,
+          "sha256": "11875c64c9fb66f0db8f29c71ff44ee18ed969e6290580ab63f0993cf0605d25"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

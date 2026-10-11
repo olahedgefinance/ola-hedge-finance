@@ -1,0 +1,352 @@
+{
+  "archives": {
+    "lifecycle-viewmodel-2.6.2-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/lifecycle/AndroidViewModel.kt",
+          "bytes": 1076,
+          "sha256": "57c0d560fc58a79cb68e918d42d96c5c46eb6c75af0759b56df9fb5d8b5f38ad"
+        },
+        {
+          "path": "androidx/lifecycle/HasDefaultViewModelProviderFactory.kt",
+          "bytes": 1453,
+          "sha256": "e83691ea5b4fca944cf98888bb52cbff5c9dc85f7b1255f0eb51a102cdae0fd9"
+        },
+        {
+          "path": "androidx/lifecycle/ViewModel.java",
+          "bytes": 9153,
+          "sha256": "1f6970671b8f59d80585f765671dad69ee1c82b0333b153b3f261d34a2b63e66"
+        },
+        {
+          "path": "androidx/lifecycle/ViewModelLazy.kt",
+          "bytes": 2287,
+          "sha256": "622562cc024b73a5cb9f550cba8addfc4e290ce6f9aee3da26cfcde6023c0ab0"
+        },
+        {
+          "path": "androidx/lifecycle/ViewModelProvider.kt",
+          "bytes": 15195,
+          "sha256": "d4d682f7614b232de221dc833651fdd95023e1192d601609dc7b250b733975e1"
+        },
+        {
+          "path": "androidx/lifecycle/ViewModelStore.kt",
+          "bytes": 2248,
+          "sha256": "e32f8426a5c5bbdfe90274b86a57d0abcb56579fc4e59d9cc3949749075a47fe"
+        },
+        {
+          "path": "androidx/lifecycle/ViewModelStoreOwner.kt",
+          "bytes": 1067,
+          "sha256": "c056b47bf8a546793820e7f309deca3deb3cf1ad08538627b70d651151e95123"
+        },
+        {
+          "path": "androidx/lifecycle/ViewTreeViewModel.kt",
+          "bytes": 1262,
+          "sha256": "c2f08f013965cb4abbf24018377d82c958f0fb283788246c0245ea86180d83bc"
+        },
+        {
+          "path": "androidx/lifecycle/ViewTreeViewModelStoreOwner.kt",
+          "bytes": 2114,
+          "sha256": "35b9dff4bdc9038b06ad701f0801d980c992b2c6a7caec5d529a6b1300982768"
+        },
+        {
+          "path": "androidx/lifecycle/viewmodel/CreationExtras.kt",
+          "bytes": 2083,
+          "sha256": "d698302ce4651dd467358b4f583e8319fb9fd7b95ac1a00301a81678bfdddaf4"
+        },
+        {
+          "path": "androidx/lifecycle/viewmodel/InitializerViewModelFactory.kt",
+          "bytes": 3850,
+          "sha256": "b4deb3f3ef35b753ba3e009703ccee9ab76de37a5b902200e140f7d12fca5537"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/lifecycle/AndroidViewModel.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/HasDefaultViewModelProviderFactory.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/ViewModel.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/ViewModelLazy.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/ViewModelProvider.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/ViewModelStore.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/ViewModelStoreOwner.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/ViewTreeViewModel.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/ViewTreeViewModelStoreOwner.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/viewmodel/CreationExtras.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/viewmodel/InitializerViewModelFactory.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "lifecycle-viewmodel-2.6.2.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 841,
+          "sha256": "84594f9bf05ae095ee42b603b15aabc2448f8a07d317e6677c5c2f129a2cdca2"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 122,
+          "sha256": "4d71d4cc4d860d8def346517658ee6dff00f82fa89a0d3e7bef99114b15d53b9"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 44,
+          "sha256": "43da6c5a826877ba74a536363343fc2340d25c86c47188fa9308d23167c5effd"
+        },
+        {
+          "path": "baseline-prof.txt",
+          "bytes": 1092,
+          "sha256": "486852ef21d5b1b50f8abfaf3f9414243e10c3a0301e0c6cc95ddabd85eb6515"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 41698,
+          "sha256": "09921eeb90b986140ee04ad76afd8b73e345f066b900d499d512034f2e87800c"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.lifecycle_lifecycle-viewmodel.version",
+          "bytes": 74,
+          "sha256": "405e9f0f83651ca097dac96b53a9d149a9b6f1c890d232e1f3e86bc03fcc62b1"
+        },
+        {
+          "path": "classes.jar!META-INF/lifecycle-viewmodel_release.kotlin_module",
+          "bytes": 183,
+          "sha256": "6028cb7085e3b2d97c5cc6ddd17ba6f92cdf3faba41b408ca40d4c1f04afd7ce"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/AndroidViewModel.class",
+          "bytes": 1321,
+          "sha256": "7029e177b89dcdea33e953da5a16b1a2c6a64d35e6413a4af218d6793898f804"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/HasDefaultViewModelProviderFactory.class",
+          "bytes": 1425,
+          "sha256": "5ecf08279c1ead46d0386bbdecf13955f0af1ea393f900dc22c742f4feb7a586"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModel.class",
+          "bytes": 3594,
+          "sha256": "45252091270898922e69063a23e363f93c2c50ef13f0c70493cf21a77e246ea5"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModelLazy$1.class",
+          "bytes": 1590,
+          "sha256": "fa26739df6210698ab21d7880988329bb97dad86150257c27dff5bec2691e81b"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModelLazy.class",
+          "bytes": 4709,
+          "sha256": "5ef35523be7ab8ffc989ffb9b1075a0545d546d178aae050086aec751a559e76"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModelProvider$AndroidViewModelFactory$Companion$ApplicationKeyImpl.class",
+          "bytes": 1424,
+          "sha256": "233a2c18f80a3f0a2c4acba678633d1f25f96b793512cc007bc5b8b033ca7499"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModelProvider$AndroidViewModelFactory$Companion.class",
+          "bytes": 3267,
+          "sha256": "c7af30cba40a867c8eb13be60ded2696669b67d3aabb6fe9aac5a598c3e8426a"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModelProvider$AndroidViewModelFactory.class",
+          "bytes": 6463,
+          "sha256": "a7ac163176bb29d4da2700d9add5d565be022e2170221f7d9de85c492286c05d"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModelProvider$Factory$Companion.class",
+          "bytes": 1899,
+          "sha256": "eff91fb0ed21008da2d3aff79bced1703edac88230f3f601724c0d1609af37e8"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModelProvider$Factory.class",
+          "bytes": 2537,
+          "sha256": "46d54b12c59145016096606210c82470a6994df19b86fbb13511009b5a5b3394"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModelProvider$NewInstanceFactory$Companion$ViewModelKeyImpl.class",
+          "bytes": 1361,
+          "sha256": "6842ccbbe9bb992d33bc426aba0bfced2df770bd95c487f209d083db179a8d77"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModelProvider$NewInstanceFactory$Companion.class",
+          "bytes": 2168,
+          "sha256": "77260afe123879b05f1cc1cd06550149a68a03aa41725d6bb15fe4ce36a1b420"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModelProvider$NewInstanceFactory.class",
+          "bytes": 4099,
+          "sha256": "a004b0c7f2a9606a782ad7304232be91882c32fda11397316d03d8feecd8b017"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModelProvider$OnRequeryFactory.class",
+          "bytes": 1329,
+          "sha256": "906590eacc7554ea9c49a5f1bbb92c15e3022cf674c00a9b04d3695aa6b4d31b"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModelProvider.class",
+          "bytes": 6832,
+          "sha256": "63d9380e50d3f553208d4b37d8357b10d75c6e473d80aa7c6efe6eef17f00f6f"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModelProviderGetKt.class",
+          "bytes": 2176,
+          "sha256": "02d4186a29b588e06c0750809eef5b503d70eae42968ed6c58eb0146d604a9a8"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModelStore.class",
+          "bytes": 2811,
+          "sha256": "b7077424f362fff4be2ea00d7c9179bb931c1e1951e1fcf5d5c2f0af16cb09ec"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewModelStoreOwner.class",
+          "bytes": 657,
+          "sha256": "34fcf9df1075ce2d21bb3f2d8c3856bc04ad10891ffb061633fd28137b86bae9"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewTreeViewModelKt.class",
+          "bytes": 1209,
+          "sha256": "4662902d4d2f414efc4f5b8b3bb56990948be966fa4f16ff59d238821e3faec9"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewTreeViewModelStoreOwner$findViewTreeViewModelStoreOwner$1.class",
+          "bytes": 1814,
+          "sha256": "cc98735e4ac75b9162576c44cfe3b41fea6d07fed93bae59fbe00572489b561f"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewTreeViewModelStoreOwner$findViewTreeViewModelStoreOwner$2.class",
+          "bytes": 2012,
+          "sha256": "86c32c58c0416b948dc74004fa6b1b3518e303496955f467c43812b67e9e220b"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ViewTreeViewModelStoreOwner.class",
+          "bytes": 2495,
+          "sha256": "f127ba813a6a475e931484d7359cbe109c8d8f5382a5a478b99fc5b698e61713"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/viewmodel/CreationExtras$Empty.class",
+          "bytes": 1504,
+          "sha256": "177239e9d6511168abfad5af933ee7ff1e44f178e03b626fc96f17ab9f6eb042"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/viewmodel/CreationExtras$Key.class",
+          "bytes": 591,
+          "sha256": "48a8791c492edb6d93577df7108c57196e900e8fcab276f2a38e40aff9df86bf"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/viewmodel/CreationExtras.class",
+          "bytes": 1730,
+          "sha256": "be98ff4f141f8446f04ca308f385633b90028236fdaa18800a0c8dd57a3f59b8"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/viewmodel/InitializerViewModelFactory.class",
+          "bytes": 4210,
+          "sha256": "3f21b020ebb6abd0530aea016218b66813b397946dfc4b1e84b5a89a46c0430a"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/viewmodel/InitializerViewModelFactoryBuilder.class",
+          "bytes": 3927,
+          "sha256": "b96e23c4fcb7b4ff2d3060ab0eb5a989a7fe8f94e61c3d4eba0aaae318e399fe"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/viewmodel/InitializerViewModelFactoryKt.class",
+          "bytes": 2730,
+          "sha256": "5f773878e97313782cc4cc6de909a627233d0b41d03de290285ad74d7dcabaa9"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/viewmodel/MutableCreationExtras.class",
+          "bytes": 2582,
+          "sha256": "97454774137343a278e3e7141372c8e4da0bc3bca3f06984a0a012852e0e2910"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/viewmodel/ViewModelFactoryDsl.class",
+          "bytes": 632,
+          "sha256": "470fbce401c910cd62cfbcd98ab39d6b764a2487b3d078fcc122383906799631"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/viewmodel/ViewModelInitializer.class",
+          "bytes": 2135,
+          "sha256": "bdacd1ecf787653a8db8646834bd16cf44f509b81b9fdfd4c5bfcc4ad3ebd48b"
+        },
+        {
+          "path": "proguard.txt",
+          "bytes": 227,
+          "sha256": "87a42a104052a6ff5b8d260c6be4c3a67568d46d323bec118cf7e15d8709ea70"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 113,
+          "sha256": "19407702d770cfc238d2b32198895afaa8b14913b100cfe41c06f9081140b6f8"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

@@ -1,0 +1,1589 @@
+{
+  "archives": {
+    "fragment-1.6.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/fragment/app/BackStackRecord.java",
+          "bytes": 27455,
+          "sha256": "2edee8c2d05b17d1b328c5ae9d8622abe484b8db1c7bef22d5053daa7d0b10cb"
+        },
+        {
+          "path": "androidx/fragment/app/BackStackRecordState.java",
+          "bytes": 8816,
+          "sha256": "48ba8c1ae867452b9284f2b1ecc4741db41d7810d6c74d9ad6f57528f2bed70b"
+        },
+        {
+          "path": "androidx/fragment/app/BackStackState.java",
+          "bytes": 4785,
+          "sha256": "df0a832527c3294b1bd4ef5b6a513077a1eecc9208239239157f03b8f4ccf1c8"
+        },
+        {
+          "path": "androidx/fragment/app/DefaultSpecialEffectsController.kt",
+          "bytes": 44334,
+          "sha256": "0846545a7556c1cf4b4eb2c5ff13295c3fbfcfebc14d642f07c8d7567ce19d54"
+        },
+        {
+          "path": "androidx/fragment/app/DialogFragment.java",
+          "bytes": 40838,
+          "sha256": "fed25bde8faec77d2978b38527845c47a0b05c548cdefe91a5129275eb7bb666"
+        },
+        {
+          "path": "androidx/fragment/app/Fragment.java",
+          "bytes": 157092,
+          "sha256": "43f17fd2bb55a1a6eb4e92bed013c31a2d30159c0d5c0ba7562f5a48083d527f"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentActivity.java",
+          "bytes": 29472,
+          "sha256": "0b53f5a52355f374ae5c9a4049f08885be6c5c508152b6603bd3e87b41a0bb38"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentAnim.java",
+          "bytes": 10577,
+          "sha256": "d31c4c408bb1277cb47b4f7d5e2300d7a68054685ed14c0687f2f97762a0c166"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentContainer.java",
+          "bytes": 1923,
+          "sha256": "56856bad8aff2b6db09f675164a2a982ecf44d03a53358841abbdb57c34a95cf"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentContainerView.kt",
+          "bytes": 13683,
+          "sha256": "397a505b134ef3e866a7407e79c47ca7f775fa1395c2971ca6ca88b28cf43dd1"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentController.java",
+          "bytes": 20747,
+          "sha256": "62696cca64f0ebbb93172137122d53654a0b3a152326ff6c1c8482fcbcb93f6e"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentFactory.java",
+          "bytes": 6208,
+          "sha256": "eff4a3d3a9f18c713229666a1af72a17f5b491d5ab7f3b33cb8bedf81e738f8f"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentHostCallback.java",
+          "bytes": 9801,
+          "sha256": "8cf0a3a397e1ed357ca8627f83aa8ddb8d1acaaee03bd7bcaca3a8a8982bf358"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentLayoutInflaterFactory.java",
+          "bytes": 7948,
+          "sha256": "54850d09a05f3a0464d0f5429b10f0c12e176a2dba654606d033b8f2dd14181c"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentLifecycleCallbacksDispatcher.java",
+          "bytes": 12645,
+          "sha256": "193dd81e11fd74943905ff88d47566fafe574cd4ada10b8a927ef1995028f62c"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentManager.java",
+          "bytes": 151857,
+          "sha256": "c00d62df3dfc71ba6a239aaf9cce64718646f723e2a4d9e0943529afa8941877"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentManagerImpl.java",
+          "bytes": 1088,
+          "sha256": "b67a77c7cce8d5489f6b5b602356ce71f286c33cf2cdb3964332210135a41fd3"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentManagerNonConfig.java",
+          "bytes": 2853,
+          "sha256": "9010c3c702940bdfc02f41ecc2fe533f460a01e8e8488fae5b0c557d8ae14fc6"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentManagerState.java",
+          "bytes": 2757,
+          "sha256": "65e2236d23b5409a3179bca2c5bf49a6044b995e8adfeec179ffb798375e5a08"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentManagerViewModel.java",
+          "bytes": 12695,
+          "sha256": "ab545beb4468d685f0ee5c6794f54e23b8efa42b2d3f2ca6657c663df727acaa"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentOnAttachListener.java",
+          "bytes": 1941,
+          "sha256": "49024174e232fca764465ada28e2b672ebb8e484181bcf2f347edfb7a5378d4e"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentPagerAdapter.java",
+          "bytes": 11265,
+          "sha256": "0fb8fe7fefd2b17a0cbd6fdc42ca57a99800d0d77523a26fc470bb88ffcc7bf6"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentResultListener.java",
+          "bytes": 1453,
+          "sha256": "1611803aecd7db4b0123241178e00006c81b1d56a5b326ec16ef36245b8ed29f"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentResultOwner.java",
+          "bytes": 3473,
+          "sha256": "e88e3b9524be6af16e095fe7fe8d5273f050bfa72b03af463c8867e84f76dc2e"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentState.java",
+          "bytes": 5862,
+          "sha256": "8c24cee5c7395fccf5acf0bb16ad264da58ef4029727b25008e28b646e82ec5e"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentStateManager.java",
+          "bytes": 39992,
+          "sha256": "551be520f08c57a405236bab01d925682c948ce4592f92f4b046dfc8ae9d617a"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentStatePagerAdapter.java",
+          "bytes": 13317,
+          "sha256": "045d9adec101b15381264cdb787a91bf9fbe1f9e47c15df90dca36f77a25e2dd"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentStore.java",
+          "bytes": 15448,
+          "sha256": "56405496d8677474fa9edb3df76e2532ab05ccf18d01b3baaf5963057d6d2a03"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentTabHost.java",
+          "bytes": 14859,
+          "sha256": "71d55d2372354006e6199d7d97189ab9963028217989b06b159b7745856e28ab"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentTransaction.java",
+          "bytes": 40452,
+          "sha256": "093ab4d833713f863f067cefd20cfb46433b0a5371207957ba92b59878887e53"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentTransition.kt",
+          "bytes": 3994,
+          "sha256": "9a0972658f8d1419cb8d1378cc1ee82c983cc3b24f8afb30b2a0582e701caac8"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentTransitionCompat21.java",
+          "bytes": 14288,
+          "sha256": "942edea6876336ca6606082e738d83d6e7839b5096a771442fcb68a6c6c2fe78"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentTransitionImpl.java",
+          "bytes": 13320,
+          "sha256": "179046904ccb3e1ad7400090c7cdf1cb5e8cdbf83ce1206776a70c2d5b7f8350"
+        },
+        {
+          "path": "androidx/fragment/app/FragmentViewLifecycleOwner.java",
+          "bytes": 6321,
+          "sha256": "ee47c2077bac58c464ec063dcb047b5c6cf8188209a0fd8710a047c9e395605e"
+        },
+        {
+          "path": "androidx/fragment/app/ListFragment.java",
+          "bytes": 14808,
+          "sha256": "ca55ce078f866851e741859d6c1410359700facf7d541e6f124c8fa62ff2c1c8"
+        },
+        {
+          "path": "androidx/fragment/app/LogWriter.java",
+          "bytes": 1601,
+          "sha256": "4217d80be35722bb64fa8597ec31977157ec5e95947619652bd1b3218c645921"
+        },
+        {
+          "path": "androidx/fragment/app/SpecialEffectsController.kt",
+          "bytes": 28614,
+          "sha256": "332f6b2719b83f84c028e719d5c82057787ff93563fc61550ea4f6a03def3b1a"
+        },
+        {
+          "path": "androidx/fragment/app/SpecialEffectsControllerFactory.java",
+          "bytes": 1197,
+          "sha256": "3503f224046ab1185052a2d44a6068d4a91b8c8463a5e1a42dba630f958f3674"
+        },
+        {
+          "path": "androidx/fragment/app/SuperNotCalledException.java",
+          "bytes": 842,
+          "sha256": "5f39ae04edffc408e073a982d0c385adfbbf7ab3ce5571515b5c767da07bbbfd"
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/FragmentReuseViolation.kt",
+          "bytes": 1100,
+          "sha256": "41eb1e6b87ace0f007902358100101703773552f3e2735002156c74503c56092"
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/FragmentStrictMode.kt",
+          "bytes": 19121,
+          "sha256": "1646707f4bee1c22988dc9443527ccccdac6a7e254b21ce705273feb9985bdc7"
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/FragmentTagUsageViolation.kt",
+          "bytes": 1166,
+          "sha256": "f6ebdb0f1907e84d1a2834cc4c38b55c596df6e2497402cc62fd0bb3c95c72f4"
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/GetRetainInstanceUsageViolation.kt",
+          "bytes": 982,
+          "sha256": "7df2a5b41aa54201fcdfa83041dab20f794f91acbfb62e6a16199cb4d2a5422e"
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/GetTargetFragmentRequestCodeUsageViolation.kt",
+          "bytes": 997,
+          "sha256": "f727ac8989ada29bf2397b7f77db3ab50893eff51b93024c68893952831e740e"
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/GetTargetFragmentUsageViolation.kt",
+          "bytes": 982,
+          "sha256": "d6e167a770c98f0929188c39ce57c0d3bfefda23df8031ad98e0e03632abe0f9"
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/RetainInstanceUsageViolation.kt",
+          "bytes": 926,
+          "sha256": "51051b83336dbbd39f9cf7224d5e54f06d225817aae6d43dc23143bff7868341"
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/SetRetainInstanceUsageViolation.kt",
+          "bytes": 981,
+          "sha256": "3a496314b85f9a210ed5459413745abe9bfee091fc5ab20a5f6b70067bd48c1f"
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/SetTargetFragmentUsageViolation.kt",
+          "bytes": 1291,
+          "sha256": "2344f91adc039b28eef7b20ef57c331ed1845bb2287af83a60d51d9d3ab74b31"
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/SetUserVisibleHintViolation.kt",
+          "bytes": 1135,
+          "sha256": "cf930f4d2b315314b2beba6ef693d6aba7ababa5ff3dedfcf4db6e1e31c36762"
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/TargetFragmentUsageViolation.kt",
+          "bytes": 925,
+          "sha256": "e7e67f5a1fdac152fadcab68e532d9a4863d8ebc417d02613a7a4bb4bdcd5fbe"
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/Violation.kt",
+          "bytes": 1006,
+          "sha256": "b2d8a0515e13df44da7346ba53fe924e151ae4003e768b6ab6c395f24e9d618f"
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/WrongFragmentContainerViolation.kt",
+          "bytes": 1180,
+          "sha256": "ef6ef7e8b088527931ff247e3ad9f3058afb71fd19d68779dc64867615ce1eca"
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/WrongNestedHierarchyViolation.kt",
+          "bytes": 1397,
+          "sha256": "2802f8eb6e91bf342edf933c28cd89e3006d0eb53299e15891b60f1dda138057"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/fragment/app/BackStackRecord.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/BackStackRecordState.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/BackStackState.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/DefaultSpecialEffectsController.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/DialogFragment.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/Fragment.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentActivity.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentAnim.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentContainer.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentContainerView.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentController.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentFactory.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentHostCallback.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentLayoutInflaterFactory.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentLifecycleCallbacksDispatcher.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentManager.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentManagerImpl.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentManagerNonConfig.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentManagerState.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentManagerViewModel.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentOnAttachListener.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentPagerAdapter.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentResultListener.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentResultOwner.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentState.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentStateManager.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentStatePagerAdapter.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentStore.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentTabHost.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentTransaction.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentTransition.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentTransitionCompat21.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentTransitionImpl.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/FragmentViewLifecycleOwner.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/ListFragment.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/LogWriter.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/SpecialEffectsController.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/SpecialEffectsControllerFactory.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/SuperNotCalledException.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/FragmentReuseViolation.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/FragmentStrictMode.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/FragmentTagUsageViolation.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/GetRetainInstanceUsageViolation.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/GetTargetFragmentRequestCodeUsageViolation.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/GetTargetFragmentUsageViolation.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/RetainInstanceUsageViolation.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/SetRetainInstanceUsageViolation.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/SetTargetFragmentUsageViolation.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/SetUserVisibleHintViolation.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/TargetFragmentUsageViolation.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/Violation.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/WrongFragmentContainerViolation.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/fragment/app/strictmode/WrongNestedHierarchyViolation.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": [
+        {
+          "path": "androidx/fragment/app/DialogFragment.java",
+          "text": "* Copied from {@link Dialog}."
+        }
+      ]
+    },
+    "fragment-1.6.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 831,
+          "sha256": "c09a13340030bc54e5b4ed38dca26279937b1ccb40f18b81404d90dffb4f5b94"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 122,
+          "sha256": "4d71d4cc4d860d8def346517658ee6dff00f82fa89a0d3e7bef99114b15d53b9"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 734,
+          "sha256": "b98cb23befb2875b68d6c738c12a14d9bb5ac861edfeabdd0c556ccc622853d5"
+        },
+        {
+          "path": "annotations.zip",
+          "bytes": 610,
+          "sha256": "b9f90c5767aca586f34b8099ec175fe5bd36fe064566b9e851e4c9c43f3abac0"
+        },
+        {
+          "path": "baseline-prof.txt",
+          "bytes": 44068,
+          "sha256": "9c77cf6ef2e0f37ded73d49476f18be1c266fa6fa0046706014cd1b425d5775a"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 300494,
+          "sha256": "d8e7e2a62ffe33edaec761f8c1b5e02418f78998e62145bf50c967ad0dff9226"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.fragment_fragment.version",
+          "bytes": 6,
+          "sha256": "cb1d9a30bc4ab8a397f39b7d786bb82aca0b816077eefc35d7c822017d75f6a5"
+        },
+        {
+          "path": "classes.jar!META-INF/fragment_release.kotlin_module",
+          "bytes": 24,
+          "sha256": "78fdfa8e7eb07d3e6d9cb340da3f4f5d83aa7edb9cce6d3350d93a443aa2100f"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/BackStackRecord.class",
+          "bytes": 16258,
+          "sha256": "86279417d1ba400f2212042786dafa723511fb91e1fc672c98f030bf978ec8e8"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/BackStackRecordState$1.class",
+          "bytes": 1219,
+          "sha256": "ae94c17ad8439275a3a00fdd691668507c875dd0128e5dbe4862e7b248b02bec"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/BackStackRecordState.class",
+          "bytes": 7485,
+          "sha256": "a86ee2225c1b7a330471dafa18d61709b6eb13644c10aa9516e8366722e3d627"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/BackStackState$1.class",
+          "bytes": 1177,
+          "sha256": "587f6fabbcb189cb2ec492953e6d345f041c12c120c7ce9d5c4cd8ff12192bea"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/BackStackState.class",
+          "bytes": 5544,
+          "sha256": "8afd216f7fb75079cdb5f27065a50ad268713243466ce1e39d4c8c66d2dcb06b"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo.class",
+          "bytes": 3282,
+          "sha256": "95294d2f81c5e9473904d14295aa82aeab317b0be8791b681915f74252d425a5"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo.class",
+          "bytes": 3037,
+          "sha256": "c77de4c01437d44177a526e8913990fa8ef992b1c434c7d87fca3c9f507adf86"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/DefaultSpecialEffectsController$TransitionInfo.class",
+          "bytes": 5302,
+          "sha256": "d089f784e9c7e75527932e7976e2fd6833f4a9fc34d6f6488f8e318135f6be52"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/DefaultSpecialEffectsController$retainMatchingViews$1.class",
+          "bytes": 2443,
+          "sha256": "dae69b5773ee593da37b35de10257782a14ac6583a909655f0e62e0b890f4634"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/DefaultSpecialEffectsController$startAnimations$1.class",
+          "bytes": 3194,
+          "sha256": "aa4e3a331ab61b87d61887c789b5dad037e5ed8ec619981e74fc7714ccdaa254"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/DefaultSpecialEffectsController$startAnimations$3.class",
+          "bytes": 4171,
+          "sha256": "546a4e1f705216b6189551b253f43ecbe9f74a9b93f1c0d7f32d5b09f9b91952"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/DefaultSpecialEffectsController.class",
+          "bytes": 33706,
+          "sha256": "015c311db3e77d0bd69938b622b1bec6d8c78c0c8db043b2ec59072ba910bb52"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/DialogFragment$1.class",
+          "bytes": 1153,
+          "sha256": "22865a8dae76a61fb371fc580e2566bf3277635426f9d50dc504ce72344a30e3"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/DialogFragment$2.class",
+          "bytes": 1177,
+          "sha256": "635ebb8884605ce2b7b500baab19535ccee61ddd5d9cbb17f4236463b4db9d14"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/DialogFragment$3.class",
+          "bytes": 1180,
+          "sha256": "640de9fdb4d7393c59e80425ff11339ab620a6d49f28ef91ed503a8e0ce812de"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/DialogFragment$4.class",
+          "bytes": 2272,
+          "sha256": "00ffeeca9f25f4245e9110aace52f30a8024a9461f1ed06cb41f69237449af49"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/DialogFragment$5.class",
+          "bytes": 1170,
+          "sha256": "e788e7ddfeb654f87b426b0da3338b09f4bb493eab8d9a5afdcc8c021fcde2f3"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/DialogFragment.class",
+          "bytes": 14979,
+          "sha256": "8fa8fd25e15be333e8e0db1e237c7a8f482e84d94295ae914f5542b92c865661"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$1.class",
+          "bytes": 649,
+          "sha256": "d0dc367b7cb2237ec12b324d04cd29e3dee58c2412933e97bfb8d8f96ea823f6"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$10.class",
+          "bytes": 2454,
+          "sha256": "f4b46155b18c125191d919a0f677e7b6760b3eb77ee58d1edaccf22ae1660048"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$2.class",
+          "bytes": 1449,
+          "sha256": "4168020408587da2f4d936ddabf0d6bbc702244e1c9383c6cafdd9371e21e618"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$3.class",
+          "bytes": 692,
+          "sha256": "9976d967fda0320512576c4b46eaa4f6cc471839617328494111539856a04430"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$4.class",
+          "bytes": 897,
+          "sha256": "079fab4c45d43b3ec13e51afcf724070b4d0d5164664c5b2842699770979a3da"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$5.class",
+          "bytes": 1394,
+          "sha256": "310c88418b3700ebdb3f844f38f206942bf29799943a2931d327c13f5a9258c5"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$6.class",
+          "bytes": 1299,
+          "sha256": "8893199d964eceb856c758cce2b842ce12b3fbb7cd169f11d8311ccb86f05caa"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$7.class",
+          "bytes": 1600,
+          "sha256": "a95eb37362ec2fe5dd1e3000ac29b9b3efed3789fce57b231d52829483b08868"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$8.class",
+          "bytes": 1391,
+          "sha256": "1f915c390888ccaf3ff09d76f3f412c1bbbea09e67ded2f1ab8d34808f0a8688"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$9.class",
+          "bytes": 2201,
+          "sha256": "5264d51e5f9443e852caeb97d011f464139e192adc56fb96f69e31d4708be7a8"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$AnimationInfo.class",
+          "bytes": 1622,
+          "sha256": "a43d252f57471bf0ed3daeb2bdb3a4046911d0785e6c750668e3f6f7b17ce856"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$Api19Impl.class",
+          "bytes": 751,
+          "sha256": "6765dcb15fc63efbf03341921a392dcb5ebf5cd0cbf88bdd3f67373bda99b4f5"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$InstantiationException.class",
+          "bytes": 733,
+          "sha256": "6549842dd911f32310654e1a3903b69f2f53f616e14f6e2648926e04cb156eb3"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$OnPreAttachedListener.class",
+          "bytes": 656,
+          "sha256": "83c4b16ad10417ef7dae10e078094f343433e013dc1b38a91f0daa20228f5e01"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$SavedState$1.class",
+          "bytes": 1664,
+          "sha256": "158cc9db0a1b28db36f055573010df886d7aa7fa843400fef497cdbba911a68f"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment$SavedState.class",
+          "bytes": 1856,
+          "sha256": "02c0bd2253e29fb1c36fe51420914781305804959f49e84a96093f074f17ac60"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/Fragment.class",
+          "bytes": 58456,
+          "sha256": "721fc18a96758da92f4bed372ba12f2e30ccc00ec41dfaa5d9ff939bcbe67b2a"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentActivity$HostCallbacks.class",
+          "bytes": 8487,
+          "sha256": "b9ee418db9a404ae1dc6390a9fb5208f2dcaa36202043a72cd47b3913182e14f"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentActivity.class",
+          "bytes": 14073,
+          "sha256": "a1160294a4fe15dc18d5372db275885a449246560c79812b5d4b76f04682077f"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentAnim$AnimationOrAnimator.class",
+          "bytes": 1066,
+          "sha256": "eafae311bf9becf1a5d7b85938c3ce946c7027161bf539273a33504e8153080b"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentAnim$EndViewTransitionAnimation.class",
+          "bytes": 2188,
+          "sha256": "b085b2ce0c2603e22009e58bf2edf079ba1f3a926a16296f9700af8072c66d8e"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentAnim.class",
+          "bytes": 4952,
+          "sha256": "d360e8b68924149b72296c97c204e0b8a66957e2b97ed9b0e5b0d6c3bb184696"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentContainer.class",
+          "bytes": 1063,
+          "sha256": "9ff9e7a2bbb0b286f7cbb567935b4e608ea9a04bf41373a877ebdec3c9fcfe81"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentContainerView$Api20Impl.class",
+          "bytes": 1870,
+          "sha256": "dda55cbc40aa150d5f71543306cfa47ff40b80b10ed78012a4f331641cb93151"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentContainerView.class",
+          "bytes": 16473,
+          "sha256": "95477c69f119d1d348b7e681fa40292c85146eb83a707a8568a94454f70a9658"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentController.class",
+          "bytes": 10142,
+          "sha256": "d2ee5719285b7c72da9693cd1f30a2ce874dce9f69995054c56768f5ffb0eb09"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentFactory.class",
+          "bytes": 4280,
+          "sha256": "365c826aabe5abc51e463136802c8661053924e0fd9fdd560a992cc6ca1ce42b"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentHostCallback.class",
+          "bytes": 6379,
+          "sha256": "12c74e7cad195ec17bb843d6adff520f044c0bd84dbaf57ca4929fb6af5e0916"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentLayoutInflaterFactory$1.class",
+          "bytes": 2055,
+          "sha256": "87a5d089e64f0baa185a2f8cec5703b4a4b285f645b141d259a63b44f39aba44"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentLayoutInflaterFactory.class",
+          "bytes": 6709,
+          "sha256": "ef84054922255efa55d475d766dc4529934623af1654259bdcd49d5bb9289d69"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentLifecycleCallbacksDispatcher$FragmentLifecycleCallbacksHolder.class",
+          "bytes": 1123,
+          "sha256": "1881884f8fa4ed242c95a4d4cec38c3c98f901e1686d7153f07d8ca1217fe8f4"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentLifecycleCallbacksDispatcher.class",
+          "bytes": 8822,
+          "sha256": "252e82244c46a48fe4e6e4950ab34b79317099abc920d22c5132e50329b98c3d"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$1.class",
+          "bytes": 702,
+          "sha256": "38f99b2cebc9fe45696f3e5cd589d81930651c9816c8ed90acd28af7894e62ef"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$10.class",
+          "bytes": 3676,
+          "sha256": "c5564e1393a3e85a5529ac0892f3675ec766dbe4b229cbe4eb5dae44c9d99654"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$2.class",
+          "bytes": 1558,
+          "sha256": "0be644fc891d4b522b18e01a3e30ace989f206dba85928ce0406e8e643a431ff"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$3.class",
+          "bytes": 1245,
+          "sha256": "f6b3efaf6ed2e712d0e9655528118ca80e22fb846a8d6d2c4b01160b0e4e49ca"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$4.class",
+          "bytes": 1045,
+          "sha256": "3efbab79a6386fe2cc24a7c2fe7740b507aac3f4be250d247e5f7fef45005449"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$5.class",
+          "bytes": 689,
+          "sha256": "86d71ed789e5cae27eac2edcbb0e0ca7c885c1389fa995b3e41204611629084c"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$6.class",
+          "bytes": 2225,
+          "sha256": "68a22727e730d5c03bb22391323ad0705667a1bad46edcbff0101d81b0091df8"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$7.class",
+          "bytes": 1184,
+          "sha256": "ff5488eb0b47720d6034eb3d62689abaab6b44663f2e30c0dc233bb2eaa20f36"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$8.class",
+          "bytes": 2713,
+          "sha256": "bb46154705a29e5a17fdbb516f06c34ca5bd058d27145449561e765908172ede"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$9.class",
+          "bytes": 2711,
+          "sha256": "daec6fb9433a2cc4b99b9916ef369939b7de986ea628384598f057814f4457e7"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$BackStackEntry.class",
+          "bytes": 758,
+          "sha256": "3e7d2e0db0f720297a26dfce1974513f425cc96f8393b6a53356cff3e03068d8"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$ClearBackStackState.class",
+          "bytes": 1437,
+          "sha256": "a2054389fd195020873bb4921e1377158f8cc229bd758ab08eba15fd0167debf"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$FragmentIntentSenderContract.class",
+          "bytes": 4056,
+          "sha256": "3c13dc9179fe1e123966067ca44046b57e6eb16c27f1ff0c019321f4130476a0"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks.class",
+          "bytes": 3043,
+          "sha256": "baa2fd301333621856388495b324178bae42e48e0892d4fb928bf75feca7718d"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$LaunchedFragmentInfo$1.class",
+          "bytes": 1384,
+          "sha256": "877390ee688392077a26f9daac92dc8464327688a0b775b6561d6176d3806c7c"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$LaunchedFragmentInfo.class",
+          "bytes": 1793,
+          "sha256": "1e25bf513e69ce71e4aeefa5975d3a3b0b279b6fd95a1e0665e0ccf65d988ab2"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$LifecycleAwareResultListener.class",
+          "bytes": 1803,
+          "sha256": "e3b1ad445cb0b308dabec3513136bc78ab0ac53d73c66c08af7b7846d045db43"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$OnBackStackChangedListener.class",
+          "bytes": 927,
+          "sha256": "5db8c26039f0302b035037c3962add629358f1f80bd5e9c5dbd1f90b179103ed"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$OpGenerator.class",
+          "bytes": 523,
+          "sha256": "c38f5a3a636ced37ca58865c5d8195de91d9f7dc7a881bfb1dc1d1263089fc97"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$PopBackStackState.class",
+          "bytes": 1910,
+          "sha256": "817258be4f5be5b4933f2fff61e9d8883fc155fcfe0cfbc4d1bf5888ebda3a6f"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$RestoreBackStackState.class",
+          "bytes": 1445,
+          "sha256": "3ca85a2fa8127d43e8908b557ad8ccac09af80e73fad76ed19959b01f8867af7"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager$SaveBackStackState.class",
+          "bytes": 1433,
+          "sha256": "2335dd2592ac6f1761281c4ee832bfde7e472ca25ee739b3ea78c8cda18e5eab"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManager.class",
+          "bytes": 76392,
+          "sha256": "230ac17c0ea9fe84a00de71d05b6307d00daa9235f3108d5b2eec5625f716c12"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManagerImpl.class",
+          "bytes": 347,
+          "sha256": "18186370bf4aac0f479de9b4c33aa4dc0e180cfb5814a956535b7d59fa56ac79"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManagerNonConfig.class",
+          "bytes": 2295,
+          "sha256": "7e89ebd3ebb3061832b19c16a8d144585fdc83ee666b063436b1a222b7668ac8"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManagerState$1.class",
+          "bytes": 1219,
+          "sha256": "a9baf33176409c9aecddc9826c61d0058a56efb87624de26fd3070aea4bdacbc"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManagerState.class",
+          "bytes": 2886,
+          "sha256": "66f8e96cf69fb8ed9f81a3e1775b325606b06d0d7b6325420d1d8e4a260915cb"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManagerViewModel$1.class",
+          "bytes": 1111,
+          "sha256": "c436ca58981aab8c9092787d21769ba0c239417a1b1d6a3ae9c5558918500867"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentManagerViewModel.class",
+          "bytes": 9895,
+          "sha256": "4a768c258fe4c0b40dbebe9add2975946c73d5a0190f75ee4dbc32a46646ac8c"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentOnAttachListener.class",
+          "bytes": 422,
+          "sha256": "95959f95069358e5f8c6285205bef340d2386f2eb27ef6db764282f8faba4a1e"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentPagerAdapter.class",
+          "bytes": 5478,
+          "sha256": "138f43ad3cbf2fad84ca14e89bc73897bc1d95c993f9f8db631083061701215c"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentResultListener.class",
+          "bytes": 307,
+          "sha256": "5f844f3bccb5236e8410b02814a5cb09109aa21f7f9e9138c80e502c00059963"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentResultOwner.class",
+          "bytes": 586,
+          "sha256": "5d3d4f2517fcfe6874179a8eeabc04def2e8ccdf451dcaf5ea233c0ca13c7348"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentState$1.class",
+          "bytes": 1170,
+          "sha256": "0a0fb41032e025a3c2c0448e949ecc9475b4e07a63f365ead90ab0a3d36d021b"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentState.class",
+          "bytes": 4927,
+          "sha256": "70b7d8f12120de37c873ec409820d9270aa65c8e8cadd89d39735bf509245285"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentStateManager$1.class",
+          "bytes": 1217,
+          "sha256": "adad15ca62c54de37ee7b0bed99a7d367187d120f99e5613cbc3dc9c27bb12ba"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentStateManager$2.class",
+          "bytes": 910,
+          "sha256": "1515ef03cd798186f9856a7d0bd72e9c8a2bda05029a974f163bd14354e8abfc"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentStateManager.class",
+          "bytes": 23797,
+          "sha256": "5f70ed916bdcfaeaf1e310f53d09826d429cee193d9fc1067acfed1e5617752b"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentStatePagerAdapter.class",
+          "bytes": 8006,
+          "sha256": "8c6ca1cf0063ccb2728cb1eb02ed67772c089ac5d2ebd1ecec7871df92e6f242"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentStore.class",
+          "bytes": 12329,
+          "sha256": "2a19f6793670f58fe6313989e32ce1f6a066ad5e9e4fd04086d30e1bf52c15de"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTabHost$DummyTabFactory.class",
+          "bytes": 986,
+          "sha256": "12b4e39bef1fc4d49121e62170c05e44aafc71787dccc7f3a9536b8b97729d7c"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTabHost$SavedState$1.class",
+          "bytes": 1314,
+          "sha256": "4ba540ec2a0d397a2efa145f64c3434e063fe75795c0403dc172fa1527c2fc78"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTabHost$SavedState.class",
+          "bytes": 1939,
+          "sha256": "ede9d806b518845415e4faba829ee8f744ead7ad2248bc60934082f6d4c75359"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTabHost$TabInfo.class",
+          "bytes": 1102,
+          "sha256": "79e4bda0130a4a9f501f114ff8d814d03aedf676579c7241f86ae19f543c353f"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTabHost.class",
+          "bytes": 9415,
+          "sha256": "417551507e07ba46072261f729f0e45996235d37e3b52b5f80af6769c7446c15"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTransaction$Op.class",
+          "bytes": 1903,
+          "sha256": "d11ec13f140a4a34737d84fdec54d04465ab85d87859b055cf1d078e458dc0e5"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTransaction.class",
+          "bytes": 15281,
+          "sha256": "35934cac48679dbee0bd85cc2adb2e1d826348acce6bbcbde7829c7a7698ce67"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTransition.class",
+          "bytes": 9004,
+          "sha256": "63020bfbf687760e4b00a6a4cfccaa07c94c4daa10f1cc5d815d4bcee6319549"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTransitionCompat21$1.class",
+          "bytes": 1054,
+          "sha256": "9c677dcd08178bb9fda0750f4bee6d1ee3bfebe0291333f7f333d69e072aa4ad"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTransitionCompat21$2.class",
+          "bytes": 1987,
+          "sha256": "8714c341a47e3c0e1b219c9870f8c8c71e17e367b957666f104d8677753b0ceb"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTransitionCompat21$3.class",
+          "bytes": 2219,
+          "sha256": "f1cd20bf8b4ba676b83ed4fa7b901242c891f37569e2d95d2a43e9e349ece906"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTransitionCompat21$4.class",
+          "bytes": 1574,
+          "sha256": "92c1272475af770c72408fd949e7f14bc345cab60b07826731e112a31caa31d0"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTransitionCompat21$5.class",
+          "bytes": 1164,
+          "sha256": "7f8d7c6ac2747e9c2b286f703f046c613f023b8cdd94336ff475c7bcb7b7895f"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTransitionCompat21.class",
+          "bytes": 9696,
+          "sha256": "942065fce3501bc32433374fe8155cce2ff54dc959d4b28a71e08722073117b4"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTransitionImpl$1.class",
+          "bytes": 1512,
+          "sha256": "16a965871213559c612ebb58706d97e2cb7f67a062762e759286624fa416ec1f"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentTransitionImpl.class",
+          "bytes": 8331,
+          "sha256": "5630a359457926c0e163ec0f1ee662bba6328d96a05c6f1d3b822b27a9d9d07c"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/FragmentViewLifecycleOwner.class",
+          "bytes": 5502,
+          "sha256": "9f043bb00ddbb3e26ba7c3bd10737fa2f2f6cf567a5244a0ca3ef03916f3900c"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/ListFragment$1.class",
+          "bytes": 776,
+          "sha256": "f05529130a1c94232cd9159caa102e75659d6a0dc85414d4710003897cc3ab3e"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/ListFragment$2.class",
+          "bytes": 1186,
+          "sha256": "9d76598a623d14d1fa57cfa72c777647ecae821d8186ef4ebafd46fbad06e2e8"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/ListFragment.class",
+          "bytes": 7947,
+          "sha256": "74864ee64baf0ca3fa216f5834d33398bd983d311854dde74ac06a23766a0178"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/LogWriter.class",
+          "bytes": 1330,
+          "sha256": "23d91905733c404edc278b99c8e0966c18d0d2e9ff3516fc4b1b49cb8e45e481"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/SpecialEffectsController$Companion.class",
+          "bytes": 2860,
+          "sha256": "2054c8edc9a63e4000fc59bcb4413510e82ee2e2b6207ce57a5cfa9d1fe4150e"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/SpecialEffectsController$FragmentStateManagerOperation.class",
+          "bytes": 4397,
+          "sha256": "7ccec93b12b5a583cb72e38012b7fec789bc813b46472650fdef59829e343704"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact.class",
+          "bytes": 1846,
+          "sha256": "fc578f818d4af3bf32c0eacbdb0607b9c05c2d8815e567fa094d342b3c45abc6"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/SpecialEffectsController$Operation$State$Companion.class",
+          "bytes": 2522,
+          "sha256": "02cc204590fc00c17f518e71954e74d86d454c437adb8bd85f830b83ec4693c4"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/SpecialEffectsController$Operation$State$WhenMappings.class",
+          "bytes": 1110,
+          "sha256": "9a9639e7b5c197981cc7eba3b2e137f3bdc333d3221566cace05ff4aa8b104d1"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/SpecialEffectsController$Operation$State.class",
+          "bytes": 4128,
+          "sha256": "537ebe8687c8344dd4866cfd95725297edd8cda265e1901257ca25927986b3c3"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/SpecialEffectsController$Operation$WhenMappings.class",
+          "bytes": 1095,
+          "sha256": "a3174ba141f10a0f03b8bdba7de3b96336f6462a5b6d8648f6e6b43c477c634d"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/SpecialEffectsController$Operation.class",
+          "bytes": 9354,
+          "sha256": "f49bda8e4746b1673b6d9ec802d0d44fd51ee6205b6c481e611f2abf7956aef0"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/SpecialEffectsController$WhenMappings.class",
+          "bytes": 991,
+          "sha256": "8e8dba2809bbe57090c3855c9ee8430b869d9367b55ccd07edcbd5e80205c1c2"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/SpecialEffectsController.class",
+          "bytes": 16446,
+          "sha256": "fbbd1af126b996e25e3c53de952ff165aab6cd73b82ef6f36467f5aa09c54ed0"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/SpecialEffectsControllerFactory.class",
+          "bytes": 395,
+          "sha256": "99021259c22fcc31a88ea54a539481dbdd7cce717a3e52f0cfc472058a509324"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/SuperNotCalledException.class",
+          "bytes": 418,
+          "sha256": "fe5df1fcc9bebadc012119480b78b4e24d99915f3e75279bf13c2bc9399173ad"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/FragmentReuseViolation.class",
+          "bytes": 1580,
+          "sha256": "c38b73a7c60966e3143d910922ca0a390fdf9de7047e4a6187e107c9e5b94908"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/FragmentStrictMode$Flag.class",
+          "bytes": 2183,
+          "sha256": "b99b8fe09fff3ce480d0ef189880f91eea70c63c81eee3ac2d60c8b342d5f1d3"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/FragmentStrictMode$OnViolationListener.class",
+          "bytes": 845,
+          "sha256": "18e1b873ef9012c72d67524894c06c5584bcff61288a15f56115214aecc2a225"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/FragmentStrictMode$Policy$Builder.class",
+          "bytes": 6091,
+          "sha256": "7c0850e81fdfc16a1c791637ef8240ddbd91cc6cc9fee9b8e528f4c2ad290c81"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/FragmentStrictMode$Policy$Companion.class",
+          "bytes": 1067,
+          "sha256": "e65619494f49651407f3985527ce5b01c67ab10eeace0612969b7d60df8f47bd"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/FragmentStrictMode$Policy.class",
+          "bytes": 4430,
+          "sha256": "5f291cb4f4b0a904ec0f3b31f380b5bd55f5e30b0f72b9f9d93d2da924f86c59"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/FragmentStrictMode.class",
+          "bytes": 12610,
+          "sha256": "1b199ee5183f17179d91cf08aab1327850c3dc0c9699e60df97040d3b89efdb2"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/FragmentTagUsageViolation.class",
+          "bytes": 1727,
+          "sha256": "d1acf2a2fbabc6df809135f9e78c588ecbedf878e2b7b7e375aec69b8207b6a1"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/GetRetainInstanceUsageViolation.class",
+          "bytes": 1384,
+          "sha256": "b43c12d1016d126ffaca610757e3d25036dc596ae867014ebfd1381222ad31eb"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/GetTargetFragmentRequestCodeUsageViolation.class",
+          "bytes": 1422,
+          "sha256": "1ea361bbe31c5e6a4adc052892fa5fdf969bfe4cbb5e970d915bdad1536968b8"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/GetTargetFragmentUsageViolation.class",
+          "bytes": 1385,
+          "sha256": "7370be9141d5dd1643c99cf1f173fe4a4f50a24b99d2b2aef66cea483511facc"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/RetainInstanceUsageViolation.class",
+          "bytes": 1316,
+          "sha256": "93fdff26f8d278d878300a2d9a19190cb609d6797449d5ca0a3ca6b64230b984"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/SetRetainInstanceUsageViolation.class",
+          "bytes": 1384,
+          "sha256": "4602c239a6c1365c64beddc1157a48f2f8a06282cd73c63d62caeb55a8856dff"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/SetTargetFragmentUsageViolation.class",
+          "bytes": 2004,
+          "sha256": "b8935ed1ea378ea3f95b535bc503a38a97570f0045ba6d375580684faa2d2a10"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/SetUserVisibleHintViolation.class",
+          "bytes": 1573,
+          "sha256": "4ffe77a22caf2fc3c7f26147a51de568e017a6d7b8978ad5a0a2c3c290011aec"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/TargetFragmentUsageViolation.class",
+          "bytes": 1316,
+          "sha256": "da2a80db26b88d6c5b88ad410f2ac6d12e8f010478e9700006d0c7456fe06443"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/Violation.class",
+          "bytes": 1523,
+          "sha256": "871d3779b63417498b3e2f273ae4299af4196f1099173d860e367a792bde61bf"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/WrongFragmentContainerViolation.class",
+          "bytes": 1725,
+          "sha256": "7525bd8f7b29118ca30832cc618e4897907263acb92ea21419bc0dc9e330bd59"
+        },
+        {
+          "path": "classes.jar!androidx/fragment/app/strictmode/WrongNestedHierarchyViolation.class",
+          "bytes": 2059,
+          "sha256": "870df02b1629cb4c8078cc592507f6b1b6ca6173793ab080c343dff9a27c1699"
+        },
+        {
+          "path": "lint.jar",
+          "bytes": 62150,
+          "sha256": "049b1cc447a086269d9568114c9ae2fcd5c6767a74662c6967a468c1712f17de"
+        },
+        {
+          "path": "lint.jar!META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "lint.jar!META-INF/fragment-lint.kotlin_module",
+          "bytes": 235,
+          "sha256": "2773de03a81830af67a4a5ecaae3cbdee2b01df9001259af85de23adbf01a43d"
+        },
+        {
+          "path": "lint.jar!META-INF/services/com.android.tools.lint.client.api.IssueRegistry",
+          "bytes": 45,
+          "sha256": "a53fdef7f7e466d4fcf919e2adbdc4d658cd01d62133186a0888ec700edc02d1"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/AttachAndDetachInSameTransactionDetector$Issues.class",
+          "bytes": 1561,
+          "sha256": "b0fe04e429cc88d77df461b87d94c4068d606e7047b4f8fd0a470b8f1962d5a6"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/AttachAndDetachInSameTransactionDetector$checkTransactionCommits$visitor$1.class",
+          "bytes": 6077,
+          "sha256": "374292096c75e025c5591e7ee46058a1865f79ddb64e830c5cd9cd6f54ba683f"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/AttachAndDetachInSameTransactionDetector.class",
+          "bytes": 9491,
+          "sha256": "9bc78ed72902d2daab2b3291f8afe8cb7783ad068252546d169c4f8c629fd5d5"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/FragmentIssueRegistry.class",
+          "bytes": 3966,
+          "sha256": "9cb849c908e15f01a6f1f575116a6f563c26cfe95e8a76b996fe7f388b6b6e62"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/FragmentTagDetector$Companion.class",
+          "bytes": 1165,
+          "sha256": "f856295f44c1c6c53be1d033767d32afe56f06ae94bd11e87f687bf3221ba44f"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/FragmentTagDetector.class",
+          "bytes": 5700,
+          "sha256": "a46202d2d3a8a87e12929dde12061fcdbdd2854aa25ddc59cb5c87950a7f83d6"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/LintUtilsKt$walkUp$1.class",
+          "bytes": 1699,
+          "sha256": "4585ce4b9c0099f43d1e222fec5f8fdbd9e95adab7296de1a3fc011c9bc309a8"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/LintUtilsKt.class",
+          "bytes": 5155,
+          "sha256": "f6cb657699100da9fa52379857ce9aa6ffdcb67c32d6f2aed5457329919d0910"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/Method.class",
+          "bytes": 2859,
+          "sha256": "09c1ee15fc219c0a14ed83024f6d6d4ecbb66d615f5a24e835b7fa596455771c"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/OnCreateDialogIncorrectCallbackDetector$Issues.class",
+          "bytes": 1236,
+          "sha256": "6936f3be6c302b679ecfb5e9d8b49a7be61265d95a611993e65daec3d7f19b09"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/OnCreateDialogIncorrectCallbackDetector$UastHandler.class",
+          "bytes": 5346,
+          "sha256": "1ca1d2a3680c01c9c00b02ea97036512ab8c104768ea7e14cb534d3ae33a3265"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/OnCreateDialogIncorrectCallbackDetector$UastMethodsVisitor.class",
+          "bytes": 3709,
+          "sha256": "956bbf29622c33442abc6b4f55964779e1e2922abe4fd1e9c96342f96736d324"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/OnCreateDialogIncorrectCallbackDetector.class",
+          "bytes": 4794,
+          "sha256": "57305e5afebdd60dee61e2d6837914ebb1b14b02091bce3a46b384eec0ddf486"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/OnCreateDialogIncorrectCallbackDetectorKt.class",
+          "bytes": 861,
+          "sha256": "eb2ba562416b921819a8d145b752a0101337f3fe1699ceb97d4732a21d39240d"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/RecursiveMethodVisitor.class",
+          "bytes": 10194,
+          "sha256": "d24772c9a66a3e5a9aeab95a0f65edb37d27b59530ed2447734135440a6e203d"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/UnsafeFragmentLifecycleObserverDetector$Issues.class",
+          "bytes": 1654,
+          "sha256": "f16be8f6d49d729e55ad3488a0a5a3c6308973f8ec669ec92ad7ef9364d4fbc6"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/UnsafeFragmentLifecycleObserverDetector.class",
+          "bytes": 8179,
+          "sha256": "3a9ce45632111e6ffb0af0dccfafac5c73f10e53c5e4aad7f1e22c064bfcf0b7"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/UnsafeFragmentLifecycleObserverDetectorKt.class",
+          "bytes": 5569,
+          "sha256": "c3a97925e6bdec7699e8742d87bc7f89488facbaa85f0f3d6f9e425b35517919"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/UnsafeRepeatOnLifecycleDetector$Companion.class",
+          "bytes": 1213,
+          "sha256": "f248935b0bc1062abb6f9ab4c40118dcc00b71cd672ecaa2f9be748c9f937b36"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/UnsafeRepeatOnLifecycleDetector.class",
+          "bytes": 9111,
+          "sha256": "3decf0edb3a36187083d5d58ff2051ebcfae7a35fb95ebf07a71c656518975ad"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/UnsafeRepeatOnLifecycleDetectorKt.class",
+          "bytes": 884,
+          "sha256": "6c9022ffcb43b8b101da21cdaf7ea1400a10a4b3adb856037a1e52a51b9ac3fa"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/UseGetLayoutInflater$Issues.class",
+          "bytes": 1160,
+          "sha256": "9f0d1fbb4582061cbc56e9454f6f0bdab19b855adaf6a31a9fe999973521ede9"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/UseGetLayoutInflater.class",
+          "bytes": 8655,
+          "sha256": "85c25baafc5119bc29daf13f67064241a35b19b139d210689d616729042b9515"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/UseGetLayoutInflaterKt.class",
+          "bytes": 714,
+          "sha256": "3c4cf346f211e584cbb6400fef05473ee096b06e213deb2b82508c808f3b2ae4"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/UseRequireInsteadOfGet$Companion.class",
+          "bytes": 2050,
+          "sha256": "a097a780f7217bae4f6586286087c0e25b20a2a65f49acd37d7189753764e553"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/UseRequireInsteadOfGet$createUastHandler$1$visitSimpleNameReferenceExpression$1.class",
+          "bytes": 3192,
+          "sha256": "e0980b3426d9710fbfe66e16d684d5d560f57d29df12fbc1e982ae02840372af"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/UseRequireInsteadOfGet$createUastHandler$1$visitSimpleNameReferenceExpression$2.class",
+          "bytes": 1640,
+          "sha256": "8872de3dc62bbf3e9ad51d91409d407dac3d6e6f8fd02e3b03788ee9aa8aebfa"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/UseRequireInsteadOfGet$createUastHandler$1.class",
+          "bytes": 11071,
+          "sha256": "df3d38787269b3219781acb02e03b7422702690873f3ee513567148e7fad0275"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/UseRequireInsteadOfGet.class",
+          "bytes": 8161,
+          "sha256": "65231300f020b73e819e3e9a4e7f490a5ddcb77b92ecae5d81d1af9525ca870c"
+        },
+        {
+          "path": "lint.jar!androidx/fragment/lint/UseRequireInsteadOfGetKt.class",
+          "bytes": 3873,
+          "sha256": "a9d0abc8ce867410e8c25a87a9c3d233ed7e9be717b0dd4a8139f4751454ae2a"
+        },
+        {
+          "path": "proguard.txt",
+          "bytes": 1216,
+          "sha256": "926ce06ea3919ef8e97bba99da0855c2fb4cfc0c1c7af76a724240260fe909b5"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/anim-v21/fragment_fast_out_extra_slow_in.xml",
+          "bytes": 971,
+          "sha256": "19c67c1824895c4cdcedf0b51ad3638c8b0b124f6db51ec82fd652796bb070d9"
+        },
+        {
+          "path": "res/anim/fragment_fast_out_extra_slow_in.xml",
+          "bytes": 809,
+          "sha256": "843a9f2cc59629681068c1756a8dd5e17b6cb7f95db62be2a9d004eb2abc025f"
+        },
+        {
+          "path": "res/animator/fragment_close_enter.xml",
+          "bytes": 1656,
+          "sha256": "79c94b2ee08f85f9dcc2b3f49f12b990fe7c09eb0617a947620cf321f4cb647a"
+        },
+        {
+          "path": "res/animator/fragment_close_exit.xml",
+          "bytes": 1656,
+          "sha256": "a8764b02f08da6f4a9fc58ee94a189425cf948d17343576f2ec71618da284fbc"
+        },
+        {
+          "path": "res/animator/fragment_fade_enter.xml",
+          "bytes": 892,
+          "sha256": "dc6d2598c04a98c7c4d18b465a71d7ef90ffc99cd27df78c2bcd77bd51fbc68c"
+        },
+        {
+          "path": "res/animator/fragment_fade_exit.xml",
+          "bytes": 892,
+          "sha256": "ab1a3b7c142a7c59cf1c1032b6e6d9241621f4b7a82a96d8fb436941adf84fcb"
+        },
+        {
+          "path": "res/animator/fragment_open_enter.xml",
+          "bytes": 1658,
+          "sha256": "881334d547cae8b3e8a8c8e7fd38cae14e189cd2d8cb3425810da756a9413297"
+        },
+        {
+          "path": "res/animator/fragment_open_exit.xml",
+          "bytes": 1657,
+          "sha256": "63fe4ee3f2f4a1f0524e81a94d2bddb6a84e0398796e5cd569cee7df003462fd"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 568,
+          "sha256": "3ac72b5592d2b8a939d30e44839a112a2fb8cdac9e2105b6ccd90725f6f5f8a2"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "archives": {
+    "lifecycle-service-2.6.2-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleService.kt",
+          "bytes": 2070,
+          "sha256": "09cb578bbcd480f0583ef2fb93ae6dc2e5a1e3a14f12314f6ad85a4c637b1258"
+        },
+        {
+          "path": "androidx/lifecycle/ServiceLifecycleDispatcher.kt",
+          "bytes": 2932,
+          "sha256": "596986ccd44aa61b77b0b7797256fc295f3295720bed9d27531ec9801f39b280"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/lifecycle/LifecycleService.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/ServiceLifecycleDispatcher.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "lifecycle-service-2.6.2.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 843,
+          "sha256": "4dac49c1e9bc56631484b8f961fd73f5d447c4edecc02c06139202b985ef1282"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 122,
+          "sha256": "4d71d4cc4d860d8def346517658ee6dff00f82fa89a0d3e7bef99114b15d53b9"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 5029,
+          "sha256": "a2eb89cf853d956ea989b336192e421e1ffbc0aaaba3961f1f5ed801338360ea"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.lifecycle_lifecycle-service.version",
+          "bytes": 72,
+          "sha256": "7f6fa137a5c28f6911408a6fa6d73cb1db86b1813ac4895bfec6029326b283f0"
+        },
+        {
+          "path": "classes.jar!META-INF/lifecycle-service_release.kotlin_module",
+          "bytes": 24,
+          "sha256": "78fdfa8e7eb07d3e6d9cb340da3f4f5d83aa7edb9cce6d3350d93a443aa2100f"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/LifecycleService.class",
+          "bytes": 2899,
+          "sha256": "85fd333ad66b08345cb19b657599ae173b509af2abb3a49e90cf93314e80e7f2"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ServiceLifecycleDispatcher$DispatchRunnable.class",
+          "bytes": 1918,
+          "sha256": "b7f4a2627f26615098d646867df9f9d390c2a39342cdcd4d20caa4b0970941a4"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/ServiceLifecycleDispatcher.class",
+          "bytes": 2975,
+          "sha256": "fd512351a31f0ec54d644771210e9956355f2453ae44af91e686346573bfea19"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 63,
+          "sha256": "0aed495e21a70cab045e3b4792a02f2c7ad68fc1687d73474a09db0b269bc041"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "archives": {
+    "cursoradapter-1.0.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/cursoradapter/widget/CursorAdapter.java",
+          "bytes": 17284,
+          "sha256": "c83d9910cc12e65ff311fdfcd990d5a6c1b851a33fea21a3f64848ac55290b01"
+        },
+        {
+          "path": "androidx/cursoradapter/widget/CursorFilter.java",
+          "bytes": 2255,
+          "sha256": "a40ade748c6f6cf34970e25036104823eb8a82ebefbe53d22ba83bd20a5f84b8"
+        },
+        {
+          "path": "androidx/cursoradapter/widget/ResourceCursorAdapter.java",
+          "bytes": 5834,
+          "sha256": "80784554cbd63f18f5c0966ee1b13a7ff31224d95468d39de921208bb01d5ca1"
+        },
+        {
+          "path": "androidx/cursoradapter/widget/SimpleCursorAdapter.java",
+          "bytes": 15801,
+          "sha256": "f5196638b193ca66e6b3397bedc1efd781b14e17631d88424f9043087ad0d883"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/cursoradapter/widget/CursorAdapter.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/cursoradapter/widget/CursorFilter.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/cursoradapter/widget/ResourceCursorAdapter.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/cursoradapter/widget/SimpleCursorAdapter.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "cursoradapter-1.0.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 836,
+          "sha256": "0fdb487b29956e2175afe27bd38f555d69c0b05e859627912abe1dadb2adc9a8"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 11504,
+          "sha256": "f99bc7e162bffaa6273973606e4cb89fd21c7cd95fb4f5a33c72ee8939bd7d31"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.cursoradapter_cursoradapter.version",
+          "bytes": 6,
+          "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        },
+        {
+          "path": "classes.jar!androidx/cursoradapter/widget/CursorAdapter$ChangeObserver.class",
+          "bytes": 906,
+          "sha256": "1126f2b3b715939a5cdc8c2f772f80278b8d18cf7debdeb772fbf808978e541a"
+        },
+        {
+          "path": "classes.jar!androidx/cursoradapter/widget/CursorAdapter$MyDataSetObserver.class",
+          "bytes": 896,
+          "sha256": "d897fcde996e8b7cf06d32f00e6a83a959ba46a9d339aefa01dd4b2f672242a7"
+        },
+        {
+          "path": "classes.jar!androidx/cursoradapter/widget/CursorAdapter.class",
+          "bytes": 7375,
+          "sha256": "98c75c554353af9e7609030c579ebbb8b37af20f4e4a0164d2af5222c3e7375d"
+        },
+        {
+          "path": "classes.jar!androidx/cursoradapter/widget/CursorFilter$CursorFilterClient.class",
+          "bytes": 529,
+          "sha256": "719b4f1c1cf3f1a3dfa3f66ae6866c9a10125b434f631c4da9e1c085d75bd47d"
+        },
+        {
+          "path": "classes.jar!androidx/cursoradapter/widget/CursorFilter.class",
+          "bytes": 1945,
+          "sha256": "ec8c84222a5bbec475c98aaca3bb2191978b90a8ecc59bc98230fc0af855541f"
+        },
+        {
+          "path": "classes.jar!androidx/cursoradapter/widget/ResourceCursorAdapter.class",
+          "bytes": 2230,
+          "sha256": "0012b682631516a11c6c2006b9fd8ca2641b975d47f92ad99ef00b5b9877540b"
+        },
+        {
+          "path": "classes.jar!androidx/cursoradapter/widget/SimpleCursorAdapter$CursorToStringConverter.class",
+          "bytes": 365,
+          "sha256": "d5103ec2ef3b2253c3dc762c4e2cada663279426f9473ab05d5c2cac93845dab"
+        },
+        {
+          "path": "classes.jar!androidx/cursoradapter/widget/SimpleCursorAdapter$ViewBinder.class",
+          "bytes": 333,
+          "sha256": "e4602afed7b03a5c61149bf255474239d1cf786d9e0f6869c9737f15022e87ac"
+        },
+        {
+          "path": "classes.jar!androidx/cursoradapter/widget/SimpleCursorAdapter.class",
+          "bytes": 6154,
+          "sha256": "acddd9f1bb23cbef6c3b99a519f33c14334bdbde6d37ac2a35c34dbebe37a121"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

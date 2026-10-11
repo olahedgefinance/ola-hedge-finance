@@ -1,0 +1,1343 @@
+{
+  "archives": {
+    "core-ktx-1.13.1-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/core/animation/Animator.kt",
+          "bytes": 4132,
+          "sha256": "e3ce48ea48259517c97c0c69dbd8c893bb52d80f828d26c7a3bdce303c09bac8"
+        },
+        {
+          "path": "androidx/core/content/ContentValues.kt",
+          "bytes": 1657,
+          "sha256": "15076f0ab6b942d50fa00da9a8b59a6f4f7a16a8ed2b047eadd1cbe8ff58f103"
+        },
+        {
+          "path": "androidx/core/content/Context.kt",
+          "bytes": 3043,
+          "sha256": "5abdd9c8f34b54a433c8087b7c1db6d359c6f592f7a78eb28a90284b40fc6d33"
+        },
+        {
+          "path": "androidx/core/content/SharedPreferences.kt",
+          "bytes": 1469,
+          "sha256": "b688d087c911e07e7a45ffea0d908f34b9f85542701b809ed2b9e3763c2fa5bb"
+        },
+        {
+          "path": "androidx/core/content/res/TypedArray.kt",
+          "bytes": 6932,
+          "sha256": "0c1aa63c30d6048b534997081958d05920262a2b7bd1de3e29ed5185adbfaea6"
+        },
+        {
+          "path": "androidx/core/database/Cursor.kt",
+          "bytes": 3372,
+          "sha256": "90652e4fa5a8b958b25ec24b9862b33b0a854311bdc86c8cb8964152ce6486ba"
+        },
+        {
+          "path": "androidx/core/database/sqlite/SQLiteDatabase.kt",
+          "bytes": 1264,
+          "sha256": "25bb61e08473d5dbc000b54672a15c289726f6c5de142b05f9fc89325dd35e25"
+        },
+        {
+          "path": "androidx/core/graphics/Bitmap.kt",
+          "bytes": 4766,
+          "sha256": "565a23b2792b17c621331d1fb188a46ce7c1acdc60547d7e682e571217cfd840"
+        },
+        {
+          "path": "androidx/core/graphics/Canvas.kt",
+          "bytes": 4790,
+          "sha256": "d3e3672b44844035e16204a284c9d67abffa95fc8f9f1e72e4b84dedc45f26b7"
+        },
+        {
+          "path": "androidx/core/graphics/Color.kt",
+          "bytes": 14449,
+          "sha256": "789a8c81868d4b2ce79d5e96081384648527dbbade113a0fa5e5e8e17798bed5"
+        },
+        {
+          "path": "androidx/core/graphics/ImageDecoder.kt",
+          "bytes": 1733,
+          "sha256": "ba5262dd773d9dcbb67b702eb899d745a2cef4ffa11cb4eb9eafa6145a933ac8"
+        },
+        {
+          "path": "androidx/core/graphics/Matrix.kt",
+          "bytes": 1829,
+          "sha256": "84dacac4799ef07ad93135d8c5b91fba1130bd6d0496bf497fa707440c9b59bc"
+        },
+        {
+          "path": "androidx/core/graphics/Paint.kt",
+          "bytes": 1051,
+          "sha256": "8b29cfe22c70a845f84a64f4d40e60fd4d43202831b88f0fdd60fa2519fb8d75"
+        },
+        {
+          "path": "androidx/core/graphics/Path.kt",
+          "bytes": 2287,
+          "sha256": "4f52ab0b6dc9f993f847b7777c169420d6266d6ba2c1af2abd281e9d9177da36"
+        },
+        {
+          "path": "androidx/core/graphics/Picture.kt",
+          "bytes": 1277,
+          "sha256": "0f95a662a74853ba062ec9a525f306bc4c85098a579a920481b24cf3c787cadb"
+        },
+        {
+          "path": "androidx/core/graphics/Point.kt",
+          "bytes": 5120,
+          "sha256": "051d087f7e1abac4e750bcc1b7e11d5e615df351a7f2eaacd4f426ad295c1760"
+        },
+        {
+          "path": "androidx/core/graphics/PorterDuff.kt",
+          "bytes": 1315,
+          "sha256": "f712d370f4a882e5937923f9fed843b834ff3ae1b6df6d1d26b4b04e96c17d70"
+        },
+        {
+          "path": "androidx/core/graphics/Rect.kt",
+          "bytes": 10007,
+          "sha256": "c627302c31912e556a4a80657529a99dbade9a123e3f9fba703fe6672795a59a"
+        },
+        {
+          "path": "androidx/core/graphics/Region.kt",
+          "bytes": 4217,
+          "sha256": "bd8a7c89fe19c7225ccb5bd018c401e6c61503e27446f460f790dfb3a12c9480"
+        },
+        {
+          "path": "androidx/core/graphics/Shader.kt",
+          "bytes": 983,
+          "sha256": "db8f935de971039581e229d5ccb37f47a5549eb785f56f0598dafca2613d3111"
+        },
+        {
+          "path": "androidx/core/graphics/drawable/BitmapDrawable.kt",
+          "bytes": 1040,
+          "sha256": "f8f81be2c1a7896a45258078d03325571a12234d44f8799c98fc00a41969fa01"
+        },
+        {
+          "path": "androidx/core/graphics/drawable/ColorDrawable.kt",
+          "bytes": 1318,
+          "sha256": "4e34d3a923f720d6b5f5883d0c24d83ac2abdde9912c364f734d3709260e83a8"
+        },
+        {
+          "path": "androidx/core/graphics/drawable/Drawable.kt",
+          "bytes": 4597,
+          "sha256": "6d3d9dca5a4f725bb0c6b01a19c6f3df95242203278a6715198ff7305cee8258"
+        },
+        {
+          "path": "androidx/core/graphics/drawable/Icon.kt",
+          "bytes": 1699,
+          "sha256": "cca80e407f2aa33912adf55a5ecca1a28df491699e309968cd588ed7b4da2779"
+        },
+        {
+          "path": "androidx/core/location/Location.kt",
+          "bytes": 1278,
+          "sha256": "a3020f7cce06404051ca16fec0e08d52b6f74b1e7818015ecc3f42d75fda24e7"
+        },
+        {
+          "path": "androidx/core/net/Uri.kt",
+          "bytes": 1350,
+          "sha256": "32ff12ed3a8d1582581fe5f8538c28c3fec7bc3b6e844f2249219a4caa8f952a"
+        },
+        {
+          "path": "androidx/core/os/Bundle.kt",
+          "bytes": 4735,
+          "sha256": "48331ed22c07b916d548f8e3482d0fc11c89e707abc55ed44f2ac5a86cf1d914"
+        },
+        {
+          "path": "androidx/core/os/Handler.kt",
+          "bytes": 1852,
+          "sha256": "89f2d0e0b7e66d5f6c607b872c11790fb3e89e061b1989496a73223c1c532e17"
+        },
+        {
+          "path": "androidx/core/os/OutcomeReceiver.kt",
+          "bytes": 2974,
+          "sha256": "994989cf3b825666c8a829fe8205c21efc2e98bfcb2920e1eb321ef741e5e097"
+        },
+        {
+          "path": "androidx/core/os/PersistableBundle.kt",
+          "bytes": 5783,
+          "sha256": "8d83fab794de4e244d22ec4fc97ec7add6f10f64abaf9171e767f8cab3aa349e"
+        },
+        {
+          "path": "androidx/core/os/Trace.kt",
+          "bytes": 1178,
+          "sha256": "4370cceac8ac55b392b8eb706f291cc32102ff8bff960d19d2231da1de07ba2a"
+        },
+        {
+          "path": "androidx/core/text/CharSequence.kt",
+          "bytes": 1239,
+          "sha256": "1efda975e92bce8adf172bbfac650d89f28d8cda14bf97aad03a4a45526ac658"
+        },
+        {
+          "path": "androidx/core/text/Html.kt",
+          "bytes": 1868,
+          "sha256": "b419c0d1c11176691bf3c5d8605f734fcfcf3fda7068a39658e6645d14e7bde9"
+        },
+        {
+          "path": "androidx/core/text/Locale.kt",
+          "bytes": 909,
+          "sha256": "2ef9c62c5c07a2c735cc49ff40259083725096f881ea455f5c97995e2ecab1e2"
+        },
+        {
+          "path": "androidx/core/text/SpannableString.kt",
+          "bytes": 1958,
+          "sha256": "580ef9485e4080494d73f22d9948f926cbf9029e7e7fcee15fed47efeecd1a57"
+        },
+        {
+          "path": "androidx/core/text/SpannableStringBuilder.kt",
+          "bytes": 5604,
+          "sha256": "fd848456218eaa23e79ed6da01580b0c18738c6fe5e8516586e8295192bd4d4d"
+        },
+        {
+          "path": "androidx/core/text/SpannedString.kt",
+          "bytes": 1159,
+          "sha256": "d483ce4746c003b4d1516ef3c7991a9d3b7d1accaa409dcf6fc79f662ff7d48c"
+        },
+        {
+          "path": "androidx/core/text/String.kt",
+          "bytes": 886,
+          "sha256": "f68a5fb6e3d088b7769e8be5072bad634490a58dcce4d55c4c1354bb3738ac52"
+        },
+        {
+          "path": "androidx/core/transition/Transition.kt",
+          "bytes": 2944,
+          "sha256": "45ff45633ac12a78a44f11202b5a37758d59b38977d53ac4959d33af00b269d7"
+        },
+        {
+          "path": "androidx/core/util/AndroidXConsumer.kt",
+          "bytes": 2477,
+          "sha256": "78edd097611ecf03342efdf260668fd5033d2d08221aedf7677e19016e175d6e"
+        },
+        {
+          "path": "androidx/core/util/AtomicFile.kt",
+          "bytes": 2315,
+          "sha256": "458e4ecd7427d39b062d7e18a3364d7db961039765c2f01490c2b89925c6891b"
+        },
+        {
+          "path": "androidx/core/util/Half.kt",
+          "bytes": 1751,
+          "sha256": "ab5870287b84269c7cb36f261b8ae12d3627f9411544bf9fe40a257a22b24f44"
+        },
+        {
+          "path": "androidx/core/util/LongSparseArray.kt",
+          "bytes": 3727,
+          "sha256": "719962162131300ef5d3220188265426b4d6db0fb6e70f9d410647f3696fcfdb"
+        },
+        {
+          "path": "androidx/core/util/LruCache.kt",
+          "bytes": 2212,
+          "sha256": "5a273d469f98609b253343898f387ff4290277493ffce47231d966cf5878df78"
+        },
+        {
+          "path": "androidx/core/util/Pair.kt",
+          "bytes": 3357,
+          "sha256": "e59dd77f86bb4b41d38b6a7a320b4b682b6eef685296a81bbe1794e89a170031"
+        },
+        {
+          "path": "androidx/core/util/PlatformConsumer.kt",
+          "bytes": 2698,
+          "sha256": "9dda5d80a6cd507f1902a6d0a968c45ab6a46f6635998a251c81e2b89f73a614"
+        },
+        {
+          "path": "androidx/core/util/Range.kt",
+          "bytes": 2208,
+          "sha256": "b2ee67d21d79ca874ea9ccf87c2aa2e7fbf4596d57f3bdcf6a068b191b5eea3b"
+        },
+        {
+          "path": "androidx/core/util/Runnable.kt",
+          "bytes": 2411,
+          "sha256": "0872ed5018e04328c987e96acd44ff7d99d0637f1b5ee50c63c60d9225791146"
+        },
+        {
+          "path": "androidx/core/util/Size.kt",
+          "bytes": 2574,
+          "sha256": "4939475307a89cb71314baab24f4a234594820395ee411ad80480486c6767b19"
+        },
+        {
+          "path": "androidx/core/util/SparseArray.kt",
+          "bytes": 3701,
+          "sha256": "3f272767c2c09381abdbdd6085b0c6d3df3a6619f759d39e3edd6e7242be6d21"
+        },
+        {
+          "path": "androidx/core/util/SparseBooleanArray.kt",
+          "bytes": 3838,
+          "sha256": "5e42fb1f67867db04814cab2827ddc8786ecd798ac6fdf78a37d265a3ad7f7a0"
+        },
+        {
+          "path": "androidx/core/util/SparseIntArray.kt",
+          "bytes": 3629,
+          "sha256": "76b12204c2b7203c5025b604cc18c403aa3de37aa6b6e95e4a94f5528b1b5dad"
+        },
+        {
+          "path": "androidx/core/util/SparseLongArray.kt",
+          "bytes": 3659,
+          "sha256": "c3854954102c9767aa041ed4030cc93952693e72d5ab7e392389dc5f1646a2c3"
+        },
+        {
+          "path": "androidx/core/view/Menu.kt",
+          "bytes": 3067,
+          "sha256": "e5e3f85e0bd7911b5a41e525ffdd314ce18abf31a0ecb4d97cd129ee782e8530"
+        },
+        {
+          "path": "androidx/core/view/View.kt",
+          "bytes": 12397,
+          "sha256": "15bd3da4295f247389736d567fd39a43afe3f4aad29a254e8bbb49ceb8b64ec4"
+        },
+        {
+          "path": "androidx/core/view/ViewGroup.kt",
+          "bytes": 7329,
+          "sha256": "254b80080d746f1d6000a825d49f7f6cf7fb8194058cb700074b8497bb77bde8"
+        },
+        {
+          "path": "androidx/core/widget/TextView.kt",
+          "bytes": 2919,
+          "sha256": "e4d2e26134dd89e5160224546c660000171c01d4055b45101c3d9aa3501517c1"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/core/animation/Animator.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/content/ContentValues.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/content/Context.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/content/SharedPreferences.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/content/res/TypedArray.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/database/Cursor.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/database/sqlite/SQLiteDatabase.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/Bitmap.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/Canvas.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/Color.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/ImageDecoder.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/Matrix.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/Paint.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/Path.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/Picture.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/Point.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/PorterDuff.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/Rect.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/Region.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/Shader.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/drawable/BitmapDrawable.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/drawable/ColorDrawable.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/drawable/Drawable.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/graphics/drawable/Icon.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/location/Location.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/net/Uri.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/os/Bundle.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/os/Handler.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/os/OutcomeReceiver.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/os/PersistableBundle.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/os/Trace.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/text/CharSequence.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/text/Html.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/text/Locale.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/text/SpannableString.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/text/SpannableStringBuilder.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/text/SpannedString.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/text/String.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/transition/Transition.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/util/AndroidXConsumer.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/util/AtomicFile.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/util/Half.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/util/LongSparseArray.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/util/LruCache.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/util/Pair.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/util/PlatformConsumer.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/util/Range.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/util/Runnable.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/util/Size.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/util/SparseArray.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/util/SparseBooleanArray.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/util/SparseIntArray.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/util/SparseLongArray.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/view/Menu.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/view/View.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/view/ViewGroup.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/widget/TextView.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "core-ktx-1.13.1.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 199,
+          "sha256": "0f6894407536288ce17f80c8ee0987e50122ae90dc2e79e2a86866a6733f61b8"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 157,
+          "sha256": "6e8a8e41513bc2d63867491e5db201172ba20b4717201b05911f667e7bb010fb"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 188652,
+          "sha256": "831cb9a10747b1d8351b2e06c27effd9d431b01f034ee59684b31881ef764d8b"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.core_core-ktx.version",
+          "bytes": 7,
+          "sha256": "ca0bc79c4cde0ad64e1ec9df2882425197b5ba85704a4ac6bd67f8f99936eb25"
+        },
+        {
+          "path": "classes.jar!META-INF/core-ktx_release.kotlin_module",
+          "bytes": 1150,
+          "sha256": "db839f02aafde886932a02c4133e61ef0a2a00005d3764caa5f5803f7ebc02be"
+        },
+        {
+          "path": "classes.jar!androidx/core/animation/AnimatorKt$addListener$1.class",
+          "bytes": 2072,
+          "sha256": "8caccdef86652504818f3b1f691b4b34911ed39fd6ff85dd1de0a57cf6ae244a"
+        },
+        {
+          "path": "classes.jar!androidx/core/animation/AnimatorKt$addListener$2.class",
+          "bytes": 2072,
+          "sha256": "219c7350a7b07fcf466d3e84cca77f5ee6d81e5fbceaddfc317b45e8303bc057"
+        },
+        {
+          "path": "classes.jar!androidx/core/animation/AnimatorKt$addListener$3.class",
+          "bytes": 2072,
+          "sha256": "6516de1893be48f01674b701374980b2300920b538dd70da1f63c15aed9db737"
+        },
+        {
+          "path": "classes.jar!androidx/core/animation/AnimatorKt$addListener$4.class",
+          "bytes": 2072,
+          "sha256": "645bc1aa509637f57e4723518f437b6297d28389078a9161e2f61f7ea828f8d3"
+        },
+        {
+          "path": "classes.jar!androidx/core/animation/AnimatorKt$addListener$listener$1.class",
+          "bytes": 3004,
+          "sha256": "0a94ac1a1a3aee23f6c91c558e5b41f9dd15382a80d95c787b6b5671dd647402"
+        },
+        {
+          "path": "classes.jar!androidx/core/animation/AnimatorKt$addPauseListener$1.class",
+          "bytes": 1667,
+          "sha256": "a0732fc0a0872c95ffcbcd117dca0eda33e45941fe30807959de1212f09912df"
+        },
+        {
+          "path": "classes.jar!androidx/core/animation/AnimatorKt$addPauseListener$2.class",
+          "bytes": 1667,
+          "sha256": "77621128e44169f65cdce10dda8887145d19cccd2e4889d5438582ed37ff66e7"
+        },
+        {
+          "path": "classes.jar!androidx/core/animation/AnimatorKt$addPauseListener$listener$1.class",
+          "bytes": 2005,
+          "sha256": "947982d6ea4af02d6ab1d173ca77043bfa10da3fc84201b1f54e0e326d014b5d"
+        },
+        {
+          "path": "classes.jar!androidx/core/animation/AnimatorKt$doOnCancel$$inlined$addListener$default$1.class",
+          "bytes": 3227,
+          "sha256": "3efcc3d52daf333fc937aa1340fb21c19168edd3d6ba2e9832bf106b1f823f75"
+        },
+        {
+          "path": "classes.jar!androidx/core/animation/AnimatorKt$doOnEnd$$inlined$addListener$default$1.class",
+          "bytes": 3215,
+          "sha256": "5ce2a471a6678f247cd5a18fcc6de3ef2f8fe44d77409193b7d18ec8fccdce61"
+        },
+        {
+          "path": "classes.jar!androidx/core/animation/AnimatorKt$doOnRepeat$$inlined$addListener$default$1.class",
+          "bytes": 3227,
+          "sha256": "fa029f49db87b1dfe06b684a7a4eff8236e07811adc421872bf397a51f1a8217"
+        },
+        {
+          "path": "classes.jar!androidx/core/animation/AnimatorKt$doOnStart$$inlined$addListener$default$1.class",
+          "bytes": 3223,
+          "sha256": "b778aed162291929d64514ef76c5c71fa73a40e256fa1f47dc4d51136cde6b65"
+        },
+        {
+          "path": "classes.jar!androidx/core/animation/AnimatorKt.class",
+          "bytes": 8763,
+          "sha256": "b396c9e94f61e117e3945a2ee1629b7fa89e93102235ad2ad0f252f249cef9a2"
+        },
+        {
+          "path": "classes.jar!androidx/core/content/ContentValuesKt.class",
+          "bytes": 2836,
+          "sha256": "0dccc405ef2ea6c0dac509998bf3bad8893634325f9ce06c83749ac02b36ac36"
+        },
+        {
+          "path": "classes.jar!androidx/core/content/ContextKt.class",
+          "bytes": 3226,
+          "sha256": "af95bb1f8c077bb6be9435ccf2b6676ea8f2ab38e32d74e43ed4bf6636296588"
+        },
+        {
+          "path": "classes.jar!androidx/core/content/SharedPreferencesKt.class",
+          "bytes": 2001,
+          "sha256": "e67e661ca000d495b43893d727e1f2e93044c0e223e19300bf671ff00c2f0ea1"
+        },
+        {
+          "path": "classes.jar!androidx/core/content/res/TypedArrayApi26ImplKt.class",
+          "bytes": 1430,
+          "sha256": "2e45e1e6842315191a5d32d9fa35e0812060b94a21f5ed090af64f0ab4d866bf"
+        },
+        {
+          "path": "classes.jar!androidx/core/content/res/TypedArrayKt.class",
+          "bytes": 6760,
+          "sha256": "657aecfb090093ec78de908ae3b353310751c885bd6eb011e01d022d3246a654"
+        },
+        {
+          "path": "classes.jar!androidx/core/database/CursorKt.class",
+          "bytes": 3230,
+          "sha256": "219e70d861d4ffb8654b655c0c2ed267626178578ae9f0f4d74b34916d152652"
+        },
+        {
+          "path": "classes.jar!androidx/core/database/sqlite/SQLiteDatabaseKt.class",
+          "bytes": 2183,
+          "sha256": "3c3867516d7e4970a0576cf19f62d2c9119aa5d8ef0c5b09ded6a5ae4811c494"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/BitmapKt.class",
+          "bytes": 5026,
+          "sha256": "dc36e484e416c9ac0b945fb532b5253f165acf762a4b6083d6b4361c39f77d64"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/CanvasKt.class",
+          "bytes": 9550,
+          "sha256": "61700aecede851ce161307d21b7140a2ebf4b48da294c6e3d050cbb868ed1004"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/ColorKt.class",
+          "bytes": 7674,
+          "sha256": "29f789fcf8417edc7fdf3db3736a19da6215a4de5aed423d1d18f204666ef893"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/ImageDecoderKt$decodeBitmap$1.class",
+          "bytes": 2549,
+          "sha256": "fd280816360b944a1cc67adce5d54bf312944c2c4de1a8f6de0247b311dec8e7"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/ImageDecoderKt$decodeDrawable$1.class",
+          "bytes": 2570,
+          "sha256": "9c3b8dfc6a192fb3221e5d47f6ef468ed0e57677326ff047beb110e14b7dc9f4"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/ImageDecoderKt.class",
+          "bytes": 3044,
+          "sha256": "5fba749a1f99013a40fec2277fdf2fea48c570f5664c4465538d0b620fc6c939"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/MatrixKt.class",
+          "bytes": 3218,
+          "sha256": "42c86a3944eae1dfbb68f4bdfd037b37ed0398a2d7851fd1068772d9c37eb4fb"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/PaintKt.class",
+          "bytes": 891,
+          "sha256": "35ca1d42cf4f7519258f0a74650b5a0f552ca25ce6d938ad36fbb3f9db96cf74"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/PathKt.class",
+          "bytes": 3760,
+          "sha256": "953c444d7af487ed36f05343eae7061f03cc8333d8653a19df104e3af9436f29"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/PictureKt.class",
+          "bytes": 1684,
+          "sha256": "607178001bde482974764265857328a76cbde515bd1c255e2bfbaac5f9a3544b"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/PointKt.class",
+          "bytes": 5437,
+          "sha256": "dc80234095a3674c16b021ffb19ccb88b6d522b96aefa3afc923e54c35592cd0"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/PorterDuffKt.class",
+          "bytes": 1466,
+          "sha256": "af105548c1ac8a6c633b8fa259108fd286b97bdf9f5536e5d74f33a50123ae1c"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/RectKt.class",
+          "bytes": 12156,
+          "sha256": "d9717296a99ef773774b7012ce061a034daa1995f8befcf78d378725ee16a5f0"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/RegionKt$iterator$1.class",
+          "bytes": 2153,
+          "sha256": "27cfb2885ce0c9d1d2b2439b348fcb4920cb5fc0085c46f8ba9fa5d447292ac4"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/RegionKt.class",
+          "bytes": 6921,
+          "sha256": "95275c3620114e41cbd8e65ca3837f90f4a6fd9d3858ac723632650ce8ad69d7"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/ShaderKt.class",
+          "bytes": 1359,
+          "sha256": "4059d0069cd5e28a91cfd5730bec07c7156fad4424b2682a9b3b31b7bacde3bd"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/drawable/BitmapDrawableKt.class",
+          "bytes": 1055,
+          "sha256": "00fd8a8819256764aa8ad3d503ccad093dcff5771a5552885790ce530834ce79"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/drawable/ColorDrawableKt.class",
+          "bytes": 1276,
+          "sha256": "704d050e2c753615954c523b279e549a781bd9cee9771ea6b7368aa44eefb8b2"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/drawable/DrawableKt.class",
+          "bytes": 4693,
+          "sha256": "f64c2ae6f35c43b16eaa083d21d7268eb9b9d9499d732b2fe7c43a05b49cb920"
+        },
+        {
+          "path": "classes.jar!androidx/core/graphics/drawable/IconKt.class",
+          "bytes": 1676,
+          "sha256": "0c17eb691269d3df22f468a6b07a17f6a931c6182faa43922509679bb51ef3fb"
+        },
+        {
+          "path": "classes.jar!androidx/core/location/LocationKt.class",
+          "bytes": 909,
+          "sha256": "c1a4de30250a7791ee74dcefda12df2ec2dd2dfb801a06c3029bc4e188000827"
+        },
+        {
+          "path": "classes.jar!androidx/core/net/UriKt.class",
+          "bytes": 2253,
+          "sha256": "e79e21d14d2bc5a19cc898b9225f34ca3b26b6972140552c965695398755e8e9"
+        },
+        {
+          "path": "classes.jar!androidx/core/os/BundleApi21ImplKt.class",
+          "bytes": 1663,
+          "sha256": "1908a20ff4ec9808cd3c79e3b34e9da8a54c2543b5894f3bde1a7474f90f3f78"
+        },
+        {
+          "path": "classes.jar!androidx/core/os/BundleKt.class",
+          "bytes": 5925,
+          "sha256": "6f2362c3c8141c4903244aa2f0be13a4b9af12069565b7e996207cdd1860bb98"
+        },
+        {
+          "path": "classes.jar!androidx/core/os/ContinuationOutcomeReceiver.class",
+          "bytes": 2623,
+          "sha256": "7d2391f1c159a3e292cc7f940ea5aa8f9bc7f8c6e0c15384f0eaa53e407fffb4"
+        },
+        {
+          "path": "classes.jar!androidx/core/os/HandlerKt$postAtTime$runnable$1.class",
+          "bytes": 1511,
+          "sha256": "c11f7737d142ab4689ec8ef9929c26375ef28c5534f78c7a764690279f5c8844"
+        },
+        {
+          "path": "classes.jar!androidx/core/os/HandlerKt$postDelayed$runnable$1.class",
+          "bytes": 1516,
+          "sha256": "4c995fca9fd22d03c7e70e9d26be1d04f5590b0017a979826d2fa69e4908f6c0"
+        },
+        {
+          "path": "classes.jar!androidx/core/os/HandlerKt.class",
+          "bytes": 2721,
+          "sha256": "55aebd9bf90b450717fe63e3ef8eb62da0dd19799efb967cb5f6ff53e1d09669"
+        },
+        {
+          "path": "classes.jar!androidx/core/os/OutcomeReceiverKt.class",
+          "bytes": 1188,
+          "sha256": "db00189b846a6a66ffe7f2800fcf9bdbac6eb4258a8f324ec891028740483b66"
+        },
+        {
+          "path": "classes.jar!androidx/core/os/PersistableBundleApi21ImplKt.class",
+          "bytes": 4296,
+          "sha256": "75de7321efd307a384c9d730486d284b544b3edbe2de4939339d12c5afd0662b"
+        },
+        {
+          "path": "classes.jar!androidx/core/os/PersistableBundleApi22ImplKt.class",
+          "bytes": 1657,
+          "sha256": "100bb854475f1d8d4ede7ec0d02d8fe598700ba7bde65c87de30bded0280dfb0"
+        },
+        {
+          "path": "classes.jar!androidx/core/os/PersistableBundleKt.class",
+          "bytes": 3346,
+          "sha256": "cd7aedd8fc2a8c330c51465daf2470192b9e5a0d542cf03d36c056963c3c47fb"
+        },
+        {
+          "path": "classes.jar!androidx/core/os/TraceKt.class",
+          "bytes": 1576,
+          "sha256": "24d96d3015bc04580bddd9fc6b74396648b955dbf6a534eeef8876ba177f902b"
+        },
+        {
+          "path": "classes.jar!androidx/core/text/CharSequenceKt.class",
+          "bytes": 942,
+          "sha256": "b873f4b2ce3532f383d8ccefc44dc2bbcfb0c368fb7d4ba632f465b858f40ec2"
+        },
+        {
+          "path": "classes.jar!androidx/core/text/HtmlKt.class",
+          "bytes": 2102,
+          "sha256": "c5ca7beba03c97cdd6495ff1f3f3a6c2620bc41b16b452fe2ba5520b1a1596ef"
+        },
+        {
+          "path": "classes.jar!androidx/core/text/LocaleKt.class",
+          "bytes": 766,
+          "sha256": "76f449ea31193c33028da8496aaf1affdc2985a3a9fb01b51dcdcd370d0862ac"
+        },
+        {
+          "path": "classes.jar!androidx/core/text/SpannableStringBuilderKt.class",
+          "bytes": 8033,
+          "sha256": "e34134b992733f3d3d1738e50fb7458f093e9c592444a10adebea7e452373efa"
+        },
+        {
+          "path": "classes.jar!androidx/core/text/SpannableStringKt.class",
+          "bytes": 3365,
+          "sha256": "87970580a34964cf6f61ff5e3cc38e3265163f14f90c9d10d1e22ad5ee08f507"
+        },
+        {
+          "path": "classes.jar!androidx/core/text/SpannedStringKt.class",
+          "bytes": 1780,
+          "sha256": "ed14d2fc7d44789df573440990e913799cd6881abbdb75952c07f394f4df6a4a"
+        },
+        {
+          "path": "classes.jar!androidx/core/text/StringKt.class",
+          "bytes": 731,
+          "sha256": "5a231dc99f47e476d7be944d3185d76cd07a2f07cbd21dea5bafcd85c9c2548b"
+        },
+        {
+          "path": "classes.jar!androidx/core/transition/TransitionKt$addListener$1.class",
+          "bytes": 2154,
+          "sha256": "cca1740628c6f5bc5f00adc4f7eb1a7ac567df5358c9eb642f88df49911ed90d"
+        },
+        {
+          "path": "classes.jar!androidx/core/transition/TransitionKt$addListener$2.class",
+          "bytes": 2154,
+          "sha256": "9d5be6fe81f6cdd3edf83614a1ec71ac3cb3239b622f352ac49be43b09b8a140"
+        },
+        {
+          "path": "classes.jar!androidx/core/transition/TransitionKt$addListener$3.class",
+          "bytes": 2154,
+          "sha256": "dd6e5c2e18cf58128c1fe1d29ee8da6f3366c0304c91aa3eb2899cf446be91e6"
+        },
+        {
+          "path": "classes.jar!androidx/core/transition/TransitionKt$addListener$4.class",
+          "bytes": 2154,
+          "sha256": "b6f9dfefad6f872170c35f7ed82d7c1195ef5b44083376b8de26b585653c29c5"
+        },
+        {
+          "path": "classes.jar!androidx/core/transition/TransitionKt$addListener$5.class",
+          "bytes": 2154,
+          "sha256": "183c39c66b8155bcaf86468b9b404dd4fda06e0f74ee168ee2f068fec2ea5a68"
+        },
+        {
+          "path": "classes.jar!androidx/core/transition/TransitionKt$addListener$listener$1.class",
+          "bytes": 3405,
+          "sha256": "e48705f1f1434e655657dc5e48eb4396b9df1d5231da7334054788bda5b28f73"
+        },
+        {
+          "path": "classes.jar!androidx/core/transition/TransitionKt$doOnCancel$$inlined$addListener$default$1.class",
+          "bytes": 3717,
+          "sha256": "46ca0fa18272e77b846eeef01ea91d02b423c5dcb521423ccd92cbad065ba232"
+        },
+        {
+          "path": "classes.jar!androidx/core/transition/TransitionKt$doOnEnd$$inlined$addListener$default$1.class",
+          "bytes": 3705,
+          "sha256": "60593925e59747309a51b3cb561113b2496450c6a4d2b5d27a07c5f1d7f90078"
+        },
+        {
+          "path": "classes.jar!androidx/core/transition/TransitionKt$doOnPause$$inlined$addListener$default$1.class",
+          "bytes": 3713,
+          "sha256": "aa6c3c0ef73d20927418d99970b6247a9e23cd4bad9d61bd88bfb5b750a9c920"
+        },
+        {
+          "path": "classes.jar!androidx/core/transition/TransitionKt$doOnResume$$inlined$addListener$default$1.class",
+          "bytes": 3717,
+          "sha256": "922813f3326b5143aa3b4e0fc3f1f632bac5f43935f9c624638c21ffd974da58"
+        },
+        {
+          "path": "classes.jar!androidx/core/transition/TransitionKt$doOnStart$$inlined$addListener$default$1.class",
+          "bytes": 3713,
+          "sha256": "3d25069690ac107e14fc09247776f86eff45cebae5286965971fe55f6d009293"
+        },
+        {
+          "path": "classes.jar!androidx/core/transition/TransitionKt.class",
+          "bytes": 7563,
+          "sha256": "2ff355f9926b5ed81b3aee05416ce7122dad41bd69a05cb4493cc358a5fbdf5c"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/AndroidXConsumerKt.class",
+          "bytes": 1064,
+          "sha256": "53880bad54b43f983400b5d4ee8fc101c8939a5235bd12f50a77136a8a5c7eab"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/AndroidXContinuationConsumer.class",
+          "bytes": 2163,
+          "sha256": "3158d8bbd7a99d36115449204647ff826488c3932240ae1dd860073203b59044"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/AtomicFileKt.class",
+          "bytes": 4257,
+          "sha256": "71ce4956bffb6eb276f32e5809c9985dada0c3233d46e2d66a0d7260d7f9dac1"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/ConsumerKt.class",
+          "bytes": 1161,
+          "sha256": "e025f7ecbc2474dd7cc01c3f2d16b3dcd3e4b4ab6f69580ecb1c97be76dd59f3"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/ContinuationConsumer.class",
+          "bytes": 2205,
+          "sha256": "8e573b55fae0a7dcc8990a0da4e0642fffa57ea0620ee9e2860162acf8659854"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/ContinuationRunnable.class",
+          "bytes": 1967,
+          "sha256": "c7303164ff459f1bc1d88457400b2764fae42c77c5f0358757a5a9ad4e2058f1"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/HalfKt.class",
+          "bytes": 1815,
+          "sha256": "053226dba58017fdd99c201d924ca201e2419e4f8e853ff1005d7a9e4a9bfc27"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/LongSparseArrayKt$keyIterator$1.class",
+          "bytes": 1625,
+          "sha256": "bc624e45ae490f8a23dc6c127bf4b80b5d9d4cb08b70cd86e6fa8194c2136fd0"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/LongSparseArrayKt$valueIterator$1.class",
+          "bytes": 2036,
+          "sha256": "bac4b119ab3e89f8cc6941fb1b501549bdf815655228a7950a2fe2ec803208e6"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/LongSparseArrayKt.class",
+          "bytes": 7840,
+          "sha256": "4c8f74b1d2a39b2c280f6dd55361adf906bf767ca2b50a93691f4b4358ec0db1"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/LruCacheKt$lruCache$1.class",
+          "bytes": 2023,
+          "sha256": "e476247754efb789a1ee5b8fd734dd5715153a63686a083b2c9be441d6356f00"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/LruCacheKt$lruCache$2.class",
+          "bytes": 1711,
+          "sha256": "b5930884a67a28824bf9793b9a6cb752b328cc86d49ae970ea0854656940aed2"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/LruCacheKt$lruCache$3.class",
+          "bytes": 2251,
+          "sha256": "cfbd3a13749f0551426421593168392780227778a8075346f55a4939e8c2a718"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/LruCacheKt$lruCache$4.class",
+          "bytes": 3354,
+          "sha256": "b421ee43cba40a8cce0c6428c19b844ee417e23036e38a474fa960fd1dfb048f"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/LruCacheKt.class",
+          "bytes": 2804,
+          "sha256": "fa51f0061a29e08f013d227d9f7fa9528d1178cdce81a01e3b4191f4126d304f"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/PairKt.class",
+          "bytes": 3497,
+          "sha256": "a5d7d09cab8cb9d09addf56549ec7ecfc731bd7a67a0ebe9df338b04d9c50b9b"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/RangeKt$toClosedRange$1.class",
+          "bytes": 1925,
+          "sha256": "ae3ad38dbbf492c9b19d68033181a185361cfc47c21717021dacf549b87fc70e"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/RangeKt.class",
+          "bytes": 3230,
+          "sha256": "72855d6a23b70073c878a43146d5d9a0a14a7a6eb58fd1cd9222858c0d7b6882"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/RunnableKt.class",
+          "bytes": 958,
+          "sha256": "457a1dd6c87eb57cb8e748a9167ce47dfca6b42f994e282663bbb12d45b8af4e"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/SizeKt.class",
+          "bytes": 1746,
+          "sha256": "63e842de3bcf2035d22e95d13edf923039242da849db1844558df9940c3b6100"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/SparseArrayKt$keyIterator$1.class",
+          "bytes": 1566,
+          "sha256": "04346e2a5ba8410bfd3a850a71518b1a22f864b66632ef16b7168a18682766aa"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/SparseArrayKt$valueIterator$1.class",
+          "bytes": 1996,
+          "sha256": "bba14b55b6730c0376ffdff0f1d300a1651f0a87a80d41a2426e74e15ce4313e"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/SparseArrayKt.class",
+          "bytes": 7589,
+          "sha256": "66cc175db8f175b2f56ba65cbfa51e5e1af779fc51a944a6508789949f6db5c5"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/SparseBooleanArrayKt$keyIterator$1.class",
+          "bytes": 1523,
+          "sha256": "161d000e975f823c0dc23820e373854ed8aa57ddcb81ad55909cf4d13f7f6992"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/SparseBooleanArrayKt$valueIterator$1.class",
+          "bytes": 1549,
+          "sha256": "0be05eb9cb988ed9ec006bfa3bcfd82caea6e0d3c73a0599dfda5d822367f0c1"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/SparseBooleanArrayKt.class",
+          "bytes": 6638,
+          "sha256": "ef62a46fa7bb1f46cb891a73e686bf923b721eafecad77d9b07f5ba4cec4e5b9"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/SparseIntArrayKt$keyIterator$1.class",
+          "bytes": 1491,
+          "sha256": "59900029d3e2b1048980247b29b1b69a6329473081e56c4e9b7c3f8cfb852e40"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/SparseIntArrayKt$valueIterator$1.class",
+          "bytes": 1501,
+          "sha256": "b2ea06c83fe69852142ee523a81ca8a3ccc42548d33e07254bcfe515f268b4d1"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/SparseIntArrayKt.class",
+          "bytes": 6274,
+          "sha256": "16d08abb9e837a1cf6f2befb386eb2f8d68521aa8d8005ae8b9a59f37e01758d"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/SparseLongArrayKt$keyIterator$1.class",
+          "bytes": 1499,
+          "sha256": "c79fdfae9c1df835d74b424c2d5898c7aede6ab7359fa86485b9765682f31555"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/SparseLongArrayKt$valueIterator$1.class",
+          "bytes": 1528,
+          "sha256": "521c6670f4b7be20ff984989de39d90df6d070df32ba241fa1db0e3c9f3e404d"
+        },
+        {
+          "path": "classes.jar!androidx/core/util/SparseLongArrayKt.class",
+          "bytes": 6585,
+          "sha256": "1a3d98cedc53561208c14627c157cf60a109c59ce038ae9ed1fcb4bbdc8e9702"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/MenuKt$children$1.class",
+          "bytes": 1291,
+          "sha256": "187ef2a12487d2cabe606bc62ae5cf9506d02323a0a1cfb05f402a9aea67e939"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/MenuKt$iterator$1.class",
+          "bytes": 2852,
+          "sha256": "27b79d8416c7df04c1a3be313d3e5cea2e4cb982ba77a32fe100dabb53173c44"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/MenuKt.class",
+          "bytes": 5223,
+          "sha256": "8f32f7ed4f8ac06d5484715700625b22d9f500722e237be303ad6e8fabde72bb"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/TreeIterator.class",
+          "bytes": 2921,
+          "sha256": "0d58b5ee237081ff83be4371eb6ef8861ec27df66ebc9f1d50c4275582e49ec8"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/ViewGroupKt$children$1.class",
+          "bytes": 1319,
+          "sha256": "69cc0680a7ef465758b3c5a513c77aa94507da378bff91fc5d375dd9f180749d"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/ViewGroupKt$descendants$1$1.class",
+          "bytes": 1821,
+          "sha256": "07dff276d88903eff8bd10aa14959068143590bbb641a341f58f89bcc8b17efa"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/ViewGroupKt$iterator$1.class",
+          "bytes": 1897,
+          "sha256": "926e2a119c3253cefaf55461141da7c9a17f5f005d665cddd1558ffde510d60a"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/ViewGroupKt$special$$inlined$Sequence$1.class",
+          "bytes": 2323,
+          "sha256": "aa0b07fe19092950a268733fbb5fbb926d761852ac0d3b8b4fca020cdd96e201"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/ViewGroupKt.class",
+          "bytes": 7598,
+          "sha256": "e28241f77d7152d7ec67c1edac01a7d4eca9c558f952f378ac48d30e061d4856"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/ViewKt$allViews$1.class",
+          "bytes": 3857,
+          "sha256": "977a4a3d2658a116e0572c63d4353c663c9b99e107b36ade637bc3156a9a0c46"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/ViewKt$ancestors$1.class",
+          "bytes": 1480,
+          "sha256": "dae31eaef7de0bb1b305bf4142d8325647e3089002b1b0fb7a4d02209bd252da"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/ViewKt$doOnAttach$1.class",
+          "bytes": 2137,
+          "sha256": "1673be5f496c9621ad0347a72feed4dddfe431002acdf14bfbd41ccd46b10512"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/ViewKt$doOnDetach$1.class",
+          "bytes": 2137,
+          "sha256": "8c97d77586eb1eccd5413b2f563da12b7bc4ff4f70db65a027263d3cf05ea355"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/ViewKt$doOnLayout$$inlined$doOnNextLayout$1.class",
+          "bytes": 2349,
+          "sha256": "3c88a04116c7ec386321e4670817ace82a8840871d112e10fa5f1535e061c255"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/ViewKt$doOnNextLayout$1.class",
+          "bytes": 2226,
+          "sha256": "ae58a795867301d7b56f39d2e12d21882280e71fc46dd2180ed1c0f853ee182e"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/ViewKt$doOnPreDraw$1.class",
+          "bytes": 1651,
+          "sha256": "998834e4398f0749cfc7072be81428d84e2449f26b5fce70ef2c529472a8346a"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/ViewKt$postDelayed$runnable$1.class",
+          "bytes": 1479,
+          "sha256": "0ebd1652c57db6cf30a33dfb20269e5a858f8fb892b0a9b5218d12d94957a0a3"
+        },
+        {
+          "path": "classes.jar!androidx/core/view/ViewKt.class",
+          "bytes": 14739,
+          "sha256": "5dfa037d3dda3481ece9f9a1e3ec401b589ce3ea8a72153f97a8297e4b0c4d5f"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/TextViewKt$addTextChangedListener$1.class",
+          "bytes": 2309,
+          "sha256": "2ec43de77c36081d0b979b10da961494d261b9e1ca50043ae683578e7c40ebf5"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/TextViewKt$addTextChangedListener$2.class",
+          "bytes": 2309,
+          "sha256": "3db68651f3ef0510a397c149e86aeb2359fdd5c5b850fdafca71b6fa23008d85"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/TextViewKt$addTextChangedListener$3.class",
+          "bytes": 1963,
+          "sha256": "76fc0627f8eb1396e000e4d3bb002a77a00ef17ac40e7fd4c04b084af53b02ba"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1.class",
+          "bytes": 3399,
+          "sha256": "4765e81fc6a22a1f62740c820ab8129c3b6452dbd43a7c5ae8a5f53c89c9e6af"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/TextViewKt$doAfterTextChanged$$inlined$addTextChangedListener$default$1.class",
+          "bytes": 3110,
+          "sha256": "98acb685975d821c56b237dc5edca69e11349066c2114d685154ffc9936a75ef"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/TextViewKt$doBeforeTextChanged$$inlined$addTextChangedListener$default$1.class",
+          "bytes": 3258,
+          "sha256": "45b987b0ae87ac38c05bdfac8d89b46a6d249c8b7722453231cbd2b56e201858"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/TextViewKt$doOnTextChanged$$inlined$addTextChangedListener$default$1.class",
+          "bytes": 3242,
+          "sha256": "0c559b6499e3304066948b807f69b2849eceb9a9920d44e19f98574697ce8cbb"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/TextViewKt.class",
+          "bytes": 6573,
+          "sha256": "c6c9d74859692b86c0242e5cbc625fc3558b7b610ac15f3c715922091dc070b1"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 63,
+          "sha256": "0aed495e21a70cab045e3b4792a02f2c7ad68fc1687d73474a09db0b269bc041"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

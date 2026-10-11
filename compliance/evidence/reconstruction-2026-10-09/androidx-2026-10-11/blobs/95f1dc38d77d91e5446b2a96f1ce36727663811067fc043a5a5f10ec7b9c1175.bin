@@ -1,0 +1,1566 @@
+{
+  "archives": {
+    "browser-1.5.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/browser/browseractions/BrowserActionItem.java",
+          "bytes": 4728,
+          "sha256": "5bd3ecc870714a2a537ef41028040a6f6b91477218d010f64de8f59963aa1ba0"
+        },
+        {
+          "path": "androidx/browser/browseractions/BrowserActionsFallbackMenuAdapter.java",
+          "bytes": 5060,
+          "sha256": "6ee1821eeddfe93c2e4d09815943368bde09d48661f3f7379e834f67ab3d14fc"
+        },
+        {
+          "path": "androidx/browser/browseractions/BrowserActionsFallbackMenuDialog.java",
+          "bytes": 3162,
+          "sha256": "8606cdafece0b0b2d94f868344ac0e1cd74177bfea8560b359e3593c4138377d"
+        },
+        {
+          "path": "androidx/browser/browseractions/BrowserActionsFallbackMenuUi.java",
+          "bytes": 7924,
+          "sha256": "370a17a1f7d58cc6be66684cc55ca5202f0e20f70f2f6c313615534710931b7c"
+        },
+        {
+          "path": "androidx/browser/browseractions/BrowserActionsFallbackMenuView.java",
+          "bytes": 2237,
+          "sha256": "86f8a04aa8aaeda4bf624f39840225f6eee8cd316b0da7c52f408e29f413cd22"
+        },
+        {
+          "path": "androidx/browser/browseractions/BrowserActionsIntent.java",
+          "bytes": 19912,
+          "sha256": "3fdba01b285a336b19e12ee7b78ebc055cf64a4f81951331277cf5bd67949e8a"
+        },
+        {
+          "path": "androidx/browser/browseractions/BrowserServiceFileProvider.java",
+          "bytes": 12696,
+          "sha256": "03a2c0fee0c0c50bf197772a2206ae4188309194447c85661e07da78c3bee7ee"
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabColorSchemeParams.java",
+          "bytes": 6887,
+          "sha256": "e223f275bc06bd0e6257a9a798b0b17849593f86c6c72d0911727162159d0da0"
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabsCallback.java",
+          "bytes": 6469,
+          "sha256": "8e72a654280d0a9d2e43481025b1514619d86e9918bfc0134abba17da3505d83"
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabsClient.java",
+          "bytes": 18882,
+          "sha256": "a9571771f0c55baabfd0490811445bd0ded3436eb20c597863793c379b236717"
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabsIntent.java",
+          "bytes": 51522,
+          "sha256": "ac10c2cc533a13225a424d377eeb90a296233ba652d20104a3af40eeef2de3a8"
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabsService.java",
+          "bytes": 20230,
+          "sha256": "01de7e9fa581ad8862e80a618306857d5071b1541c2e1c32a93e74ca7dbf2d5b"
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabsServiceConnection.java",
+          "bytes": 2740,
+          "sha256": "76ee8f79c459986fd4dbb79bed5a412f1facea9cc1c8861247590eaa62afee6b"
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabsSession.java",
+          "bytes": 16774,
+          "sha256": "4838a64854e6eb5326ff16b2f31bdfd1a58e1fdd3b24923d40452fd8586dd6cd"
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabsSessionToken.java",
+          "bytes": 10334,
+          "sha256": "edd6cb3da200cea901d1b28732aa53454f906167650ebad0cd6f53d35c868c3f"
+        },
+        {
+          "path": "androidx/browser/customtabs/PostMessageBackend.java",
+          "bytes": 2031,
+          "sha256": "83b3e281a3d2fdaee5083997f1a8266d4360f907995cabdf684a97963630cad3"
+        },
+        {
+          "path": "androidx/browser/customtabs/PostMessageService.java",
+          "bytes": 1968,
+          "sha256": "022e01a75fc29435a8d09272c80ed65e7558acd67afdca7a2a99cd8a14adb475"
+        },
+        {
+          "path": "androidx/browser/customtabs/PostMessageServiceConnection.java",
+          "bytes": 8636,
+          "sha256": "0f828d1c3b1c10aa3ebdbb5b30ec2db528b2b450c4dabc483bdbc2c23a07f8a8"
+        },
+        {
+          "path": "androidx/browser/customtabs/TrustedWebUtils.java",
+          "bytes": 8922,
+          "sha256": "f77733911e733eff79bbab9c078e0b1996d4c369d9236487ef674fd8b93ecf61"
+        },
+        {
+          "path": "androidx/browser/trusted/ConnectionHolder.java",
+          "bytes": 5762,
+          "sha256": "ac50a8d9453ee7edbcaedf54b44838512293fa71a1bec1830af91a127553e242"
+        },
+        {
+          "path": "androidx/browser/trusted/FutureUtils.java",
+          "bytes": 1140,
+          "sha256": "8fb5268047137464f86e1076b7f25080552a6c66b84a01c088d68920e7fbb434"
+        },
+        {
+          "path": "androidx/browser/trusted/NotificationApiHelperForM.java",
+          "bytes": 1670,
+          "sha256": "c2de661a30d8282d2290d5133dd95a9d89917cf202a2c3999690620d471f7a8e"
+        },
+        {
+          "path": "androidx/browser/trusted/NotificationApiHelperForO.java",
+          "bytes": 2460,
+          "sha256": "ea3d098aeb7fa56637ad5ec14c86e37dd1da811a47f8c4053b349a9c6f808f90"
+        },
+        {
+          "path": "androidx/browser/trusted/PackageIdentityUtils.java",
+          "bytes": 6848,
+          "sha256": "9b18b202a9f6f8b1c4764ed52a232d495be590abe8be8bd0510f749b1e171c8c"
+        },
+        {
+          "path": "androidx/browser/trusted/ScreenOrientation.java",
+          "bytes": 3891,
+          "sha256": "579db49fd12ea5cbcb7ed5e4e22022db6ca5dca569e044eba0b410916c72fbfd"
+        },
+        {
+          "path": "androidx/browser/trusted/Token.java",
+          "bytes": 3679,
+          "sha256": "d19d31526d72f01bf9aa4b53cfe8926fd3244bd4514a63f96a8b9ea6c113ca7a"
+        },
+        {
+          "path": "androidx/browser/trusted/TokenContents.java",
+          "bytes": 6258,
+          "sha256": "6bb7652cbb8d58a15b6d5f698e29e6a535bc33c789cd793ae1ee8b0dd644e7c8"
+        },
+        {
+          "path": "androidx/browser/trusted/TokenStore.java",
+          "bytes": 2274,
+          "sha256": "cde3f4a8331067e0b1f8b62cc58ea2bb4156e22fa30617b31e272ea58ebd31d5"
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityCallback.java",
+          "bytes": 1622,
+          "sha256": "8518511e63122182ec7d602ba4ba7efcff7ea68c6800f11d0e98c37f204ea2bb"
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityCallbackRemote.java",
+          "bytes": 2166,
+          "sha256": "f490a1f223dcbd0367559adb4ab2e9887ecd97e99c5fa0911908efe7429810c9"
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityDisplayMode.java",
+          "bytes": 4717,
+          "sha256": "9ffc9bffb18a09db2f64ca5e52514fbd57b6b7d3b2021c344151f72f8ce3b268"
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityIntent.java",
+          "bytes": 1971,
+          "sha256": "588e76ca3fbfb759236995d5ab4fa1da3ae0090428db4790af5a0dc51a8634be"
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityIntentBuilder.java",
+          "bytes": 13117,
+          "sha256": "a08dfc8b7d997923b9b311035f29a3b747b294273b90ec098a1f011ab8c12314"
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityService.java",
+          "bytes": 17188,
+          "sha256": "c0d94221d26ab84ba140010a27e982a0ba4d3c130394dbf2d0aec33c71b754ba"
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityServiceConnection.java",
+          "bytes": 13776,
+          "sha256": "2e0cb4b11ceed4c8032be04e6aca7845236cf214e0e97325f7d398bedf7ad4f2"
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityServiceConnectionPool.java",
+          "bytes": 10904,
+          "sha256": "016d61b370d75f196742ac7309e7a93d0f71c3e3e49c7a8a3be897115771eaaf"
+        },
+        {
+          "path": "androidx/browser/trusted/sharing/ShareData.java",
+          "bytes": 2769,
+          "sha256": "f460d902c9eb9b91504c0ebd69b71d33e6ee2e913eae4423245fedc95bb722d4"
+        },
+        {
+          "path": "androidx/browser/trusted/sharing/ShareTarget.java",
+          "bytes": 11088,
+          "sha256": "3e63eb4b51feb38c4ba09f7c86dfd526b81e770826d1de90aabbc6c9461fe696"
+        },
+        {
+          "path": "androidx/browser/trusted/splashscreens/SplashScreenParamKey.java",
+          "bytes": 2996,
+          "sha256": "60018a4a8d19bbe6563e7a4e08605cf40b6e4444b6552e3dce9fe8bf3dcbe38d"
+        },
+        {
+          "path": "androidx/browser/trusted/splashscreens/SplashScreenVersion.java",
+          "bytes": 1783,
+          "sha256": "81149593fceea20f64fec97a653ae1cf456d397969855e1c742cf8d238f5c9a9"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/browser/browseractions/BrowserActionItem.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/browseractions/BrowserActionsFallbackMenuAdapter.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/browseractions/BrowserActionsFallbackMenuDialog.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/browseractions/BrowserActionsFallbackMenuUi.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/browseractions/BrowserActionsFallbackMenuView.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/browseractions/BrowserActionsIntent.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/browseractions/BrowserServiceFileProvider.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabColorSchemeParams.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabsCallback.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabsClient.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabsIntent.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabsService.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabsServiceConnection.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabsSession.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/customtabs/CustomTabsSessionToken.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/customtabs/PostMessageBackend.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/customtabs/PostMessageService.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/customtabs/PostMessageServiceConnection.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/customtabs/TrustedWebUtils.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/ConnectionHolder.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/FutureUtils.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/NotificationApiHelperForM.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/NotificationApiHelperForO.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/PackageIdentityUtils.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/ScreenOrientation.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/Token.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/TokenContents.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/TokenStore.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityCallback.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityCallbackRemote.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityDisplayMode.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityIntent.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityIntentBuilder.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityService.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityServiceConnection.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/TrustedWebActivityServiceConnectionPool.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/sharing/ShareData.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/sharing/ShareTarget.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/splashscreens/SplashScreenParamKey.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/browser/trusted/splashscreens/SplashScreenVersion.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "browser-1.5.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 826,
+          "sha256": "3a1e34da2b1aaaeb05f640cf1d4f8c5bb7cad906654f868700dfdd27002384b9"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 122,
+          "sha256": "4d71d4cc4d860d8def346517658ee6dff00f82fa89a0d3e7bef99114b15d53b9"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 771,
+          "sha256": "65ece8dabb7e7b628cb3c8bc5d16a6d2c826e26871bccd893d22cf132343baa1"
+        },
+        {
+          "path": "annotations.zip",
+          "bytes": 2714,
+          "sha256": "a3fd7801fdce46f509e984a89fedb5a2e7518a72c7fc441c23ee9255efec3226"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 169180,
+          "sha256": "4a2f78cb919da0e63048a2db161ceaa67a90996b6f12aaf634c2d5d684a0e788"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.browser_browser.version",
+          "bytes": 60,
+          "sha256": "ca92576f7af9e521912986df67a9cbacdc89b77daffe97580eaae3ddff9562bc"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/ICustomTabsCallback$Default.class",
+          "bytes": 1773,
+          "sha256": "dfd896057008fdfb2f020ba6d018ebff463c9acd55fca0e2e70bdc66975ca76e"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/ICustomTabsCallback$Stub$Proxy.class",
+          "bytes": 4283,
+          "sha256": "3e89376eb4a853d6a2a181a2fecfbdb1b64f40de4dce6b329dbcba2cd26bea12"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/ICustomTabsCallback$Stub.class",
+          "bytes": 3875,
+          "sha256": "34e0ff6cb07f53656fdb3e750b4237b24f84f3db61b5a61c02d3e3cb5592f29e"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/ICustomTabsCallback$_Parcel.class",
+          "bytes": 1745,
+          "sha256": "cbcb30685f2629519327b24bf44e3f5f78db687426c4caa2800b8f3b6c44fe90"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/ICustomTabsCallback.class",
+          "bytes": 1096,
+          "sha256": "f96ce3dcf747c5bed9cb0309077d1e9adc9ef1d0539759571e63a9ce8e2e2c2c"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/ICustomTabsService$Default.class",
+          "bytes": 3075,
+          "sha256": "fdd108a51f24ee4b2184335cbd2fc93fca33f9ed26bcf9e09f7b36ee171a6a2a"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/ICustomTabsService$Stub$Proxy.class",
+          "bytes": 7605,
+          "sha256": "b0af536222690190489f19f6769452a4c7b18cbdd48e4b9e1edf632fe7641e88"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/ICustomTabsService$Stub.class",
+          "bytes": 6620,
+          "sha256": "4acbc2f609dbdb88b80a62edde076e2a705b60ec57b3f5103dc1504d00bedc36"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/ICustomTabsService$_Parcel.class",
+          "bytes": 1741,
+          "sha256": "98b29946c0dc3296876d3a79e1bf4d5a18a8035bfb7ac647772fc847349d5dff"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/ICustomTabsService.class",
+          "bytes": 1871,
+          "sha256": "c7f02ccee029f86cb8f85efd8a83a4be1965d163e35b8d7002d243251ba601c5"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/IPostMessageService$Default.class",
+          "bytes": 1098,
+          "sha256": "04990b0f21bc7aac70618476ea4731fb53e6b2b1f676e691611905b1ac02599e"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/IPostMessageService$Stub$Proxy.class",
+          "bytes": 2561,
+          "sha256": "686a310966b0023e5d6b9775b3cbd687e635fcde2aa1ad1387e8c6707d1392d1"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/IPostMessageService$Stub.class",
+          "bytes": 3063,
+          "sha256": "08fed90c1a606268fd48265cd084751065a2f143dbe859d0888e7583de74e968"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/IPostMessageService$_Parcel.class",
+          "bytes": 1745,
+          "sha256": "e185eb48ca13a901901a96aa2ddac7a4ebde06a338ea7839d765f651bdc2468b"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/IPostMessageService.class",
+          "bytes": 829,
+          "sha256": "40d4e3b3dfed0624b88a9feec025248e57ee1462e8f38da4113ad69275b9ae1c"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/trusted/ITrustedWebActivityCallback$Default.class",
+          "bytes": 857,
+          "sha256": "c6d39bbceb186344bdbd7771f60b7f638221062847aefc5523aa76b1b60d94e0"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/trusted/ITrustedWebActivityCallback$Stub$Proxy.class",
+          "bytes": 2029,
+          "sha256": "c98556f63f702929f937a2e780676f97343b0d07dd8e0196717f97ab487fc453"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/trusted/ITrustedWebActivityCallback$Stub.class",
+          "bytes": 2577,
+          "sha256": "e95e16c469d64a08927f48b3fb33896a6b1245fffb020198aa1c9928e8770ea5"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/trusted/ITrustedWebActivityCallback$_Parcel.class",
+          "bytes": 1801,
+          "sha256": "1e1ba2506951a1e4e1bfe0f6c00b26c75e8867e979f8cace21846023d2c53b12"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/trusted/ITrustedWebActivityCallback.class",
+          "bytes": 756,
+          "sha256": "86a681b0b8e897e2c746fe7a2d8cad276c47ed1b28fc47610d34f6b7c52d35db"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/trusted/ITrustedWebActivityService$Default.class",
+          "bytes": 1607,
+          "sha256": "826f07cbd3503ae97dec12dfd92e161df278e60be03bd6d9e8818a157a5dc7be"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/trusted/ITrustedWebActivityService$Stub$Proxy.class",
+          "bytes": 4398,
+          "sha256": "fe29b4b0fad8d7ef8aeb8c2fd50635828cb8108e0b675467791fee4219cd6234"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/trusted/ITrustedWebActivityService$Stub.class",
+          "bytes": 3803,
+          "sha256": "8b7b9220043e6cf4968a02ac07f9ddf0aec7817c74270ceecb8ee64e6d71edc6"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/trusted/ITrustedWebActivityService$_Parcel.class",
+          "bytes": 1797,
+          "sha256": "ec3090ec1daea2cea51ccba471711dfb852cf2db1b0dfdb76cd3df13b8703971"
+        },
+        {
+          "path": "classes.jar!android/support/customtabs/trusted/ITrustedWebActivityService.class",
+          "bytes": 1133,
+          "sha256": "0b1b151d93bd02f0aabd0911819a86a9f01e1cef913232780adf4269c01a4826"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionItem.class",
+          "bytes": 2619,
+          "sha256": "57111ad38ef4b31eecd550be624c22a817132e77a8ffddcbc3f919c662a08a10"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$1.class",
+          "bytes": 2329,
+          "sha256": "4c4f523aeb5e7584a67b795b173e54a1227c38e05868b7c10c98827fb8dcba60"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$2.class",
+          "bytes": 1098,
+          "sha256": "3adaadb3e198cb3ee2249c66d037c5ae2d3703538e3dff3b35ffad4477f4a078"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$ViewHolderItem.class",
+          "bytes": 759,
+          "sha256": "4d3feced8725d24db7d14bc8bf2be354768846c7dd7ff286060886b2ac7c2f13"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsFallbackMenuAdapter.class",
+          "bytes": 5191,
+          "sha256": "cd0637254cc92172b4b589b6d90f5c3941639979b09139c96eeac071f0b8b9c9"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsFallbackMenuDialog$1.class",
+          "bytes": 1109,
+          "sha256": "8951d7a01593a09be9f75eb730b89e523329a30b7548080266d96946be77129b"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsFallbackMenuDialog.class",
+          "bytes": 2998,
+          "sha256": "e5fbe7d730af7bc49ee7584c771748295bd1c7acf2bc7be2efaae2c865d8e9c7"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsFallbackMenuUi$1.class",
+          "bytes": 1853,
+          "sha256": "edcbc705dd3174aec7a5e0d44819bdfbdec74efd22749d17d5ee4b63ea130995"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsFallbackMenuUi$2.class",
+          "bytes": 1625,
+          "sha256": "c888859277d2d7ccb893c91546daa157614b4841c386326f60d2f12378c27259"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsFallbackMenuUi$3.class",
+          "bytes": 1608,
+          "sha256": "be606dce685a858b063c6f1ebcb4b7b0cf4fae4fc0b747a49631cc267bcdb365"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsFallbackMenuUi$BrowserActionsFallMenuUiListener.class",
+          "bytes": 680,
+          "sha256": "2d36e9fcbc93888bcc23c78f070f7c83827cf7759d64a8e110ee0abcb353efa1"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsFallbackMenuUi.class",
+          "bytes": 8442,
+          "sha256": "89a38793dc4e9697eb387222a0f4c84dabac3bed82663a4e25b4f5860deb2883"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsFallbackMenuView.class",
+          "bytes": 1989,
+          "sha256": "c9ae6e52d4cbaacad41a382f569fa235631dab1ce9f4c2da5570b22dfeeffad0"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsIntent$BrowserActionsFallDialogListener.class",
+          "bytes": 639,
+          "sha256": "299869fa6e609d22ace34da0d448d123c60548787c0558ab80807c87af8c7cb6"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsIntent$BrowserActionsItemId.class",
+          "bytes": 710,
+          "sha256": "477674d76b61423b9816694a3c90e9611375e4783f80b34990d18e16d505086b"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsIntent$BrowserActionsUrlType.class",
+          "bytes": 712,
+          "sha256": "6127cfedea5c36d88d8ac6d07390f9cbb588c6f93ae1554f9c776f98c558a788"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsIntent$Builder.class",
+          "bytes": 5600,
+          "sha256": "eebbe0668f42a110667a8e1e933cc1990fabfb956f0b49b213d79d894f1e11f6"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserActionsIntent.class",
+          "bytes": 10198,
+          "sha256": "d4b63bcd09e549e1d5c35c68dff6bb67b533244942fb30ecbeb7f58449eea831"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserServiceFileProvider$1.class",
+          "bytes": 2180,
+          "sha256": "b9184d0c30c030558f0433045f28b022dae0832bdad7b9dc4e83bbb08d1b4ba2"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserServiceFileProvider$FileCleanupTask.class",
+          "bytes": 3975,
+          "sha256": "b8d7a21d94918f2b623521e925ce4f7c9e11e6fb820ca9f2cb7c32c2716155f1"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserServiceFileProvider$FileSaveTask.class",
+          "bytes": 4789,
+          "sha256": "2e250e3b6592d50388731aee5bf188eb1aaebdd53838d30e14e0294476078b59"
+        },
+        {
+          "path": "classes.jar!androidx/browser/browseractions/BrowserServiceFileProvider.class",
+          "bytes": 5844,
+          "sha256": "cb4f1f8c486bd4b4d0acb410b86baab634e972dbc520e0cba368d6f772ee613b"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabColorSchemeParams$Builder.class",
+          "bytes": 1827,
+          "sha256": "d2e9b63a0c02702b876f4e1f870dde02de54e3f694a74997b3d19d60c63b44c0"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabColorSchemeParams.class",
+          "bytes": 2710,
+          "sha256": "e01e0d641434dafbec0e8c54640a53052410743d98511d71f75d312093c3dbc8"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsCallback.class",
+          "bytes": 2323,
+          "sha256": "08b04c362d19307c41e40218133e4aeb16a2876e35a970da36faa677a5605fba"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsClient$1.class",
+          "bytes": 1333,
+          "sha256": "6f60bf271fd5f688bfd579c5730ff6ffb4a18a7f4bbf354bc53ff366c4c4f0ec"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsClient$2$1.class",
+          "bytes": 1045,
+          "sha256": "f4fb502271183cbc4b3a518f10d32d86cf4b4e7d99230596562575093e6258fd"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsClient$2$2.class",
+          "bytes": 1087,
+          "sha256": "780d0ba346d19b069f304854c27912c1712792e8cd982f1983e40fcf17bb3921"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsClient$2$3.class",
+          "bytes": 994,
+          "sha256": "f0056244e5edd429656f124cef8b1515f7ab813637e5ae700c6b735e50ca1eee"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsClient$2$4.class",
+          "bytes": 1084,
+          "sha256": "05eaf1bd543c662bd59aad73edfdf21d92fc847e3cce5eccdb08edf763c81e4a"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsClient$2$5.class",
+          "bytes": 1202,
+          "sha256": "896caf4618b2959936b618fe9e78783c5239d124bcbc43afd3275ba305555e0c"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsClient$2$6.class",
+          "bytes": 1078,
+          "sha256": "c2d71c017e0dd2784a7d9117e2940ae5dcdffa3473ef40f1e2de61269593de65"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsClient$2.class",
+          "bytes": 3795,
+          "sha256": "314d9c4ed124fd3cde2170a9caf27757afac47f2fb05a1e2325bbccf1fb5f5ba"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsClient.class",
+          "bytes": 9410,
+          "sha256": "0fabceb7cafe9d59488379e552b5014e2556610da1af13555c02d8f095a26a5d"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsIntent$ActivityHeightResizeBehavior.class",
+          "bytes": 693,
+          "sha256": "1ead91ab1ad30dc787a54133a5db0d98716beca2e6d87e2efaeadee00ab7db16"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsIntent$Api24Impl.class",
+          "bytes": 1046,
+          "sha256": "8f74b03ad6cbf67ebd4fed3abdea3b1a6ed953c4a79642b92780d74697625f4e"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsIntent$Builder.class",
+          "bytes": 14890,
+          "sha256": "1b171ebbb8a0d5e88c65ab4fb9718acfd3b3b4822bfe9a58d6d3151f1a200c04"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsIntent$CloseButtonPosition.class",
+          "bytes": 675,
+          "sha256": "0bf376b251250297737c10bb1050fce88f44d0dd68105065b10bf123b01cee8c"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsIntent$ColorScheme.class",
+          "bytes": 659,
+          "sha256": "320643c04430ff18509c4d011c7736171680ca92e3cd11eff8ba26633808292d"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsIntent$ShareState.class",
+          "bytes": 657,
+          "sha256": "d420eb1877cf4d612a22b5f3643de4d74e9632d5e443cbf5405fb54ff03a1183"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsIntent.class",
+          "bytes": 9063,
+          "sha256": "f9a58f4ea0bf1337f4c9197e3f18c939932fd8f893fc46bfd7e10f21ff2efd83"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsService$1.class",
+          "bytes": 6957,
+          "sha256": "1a394b63b212b158ac1f1b2ba64e322336c95247e47b1c08231156a3090832fb"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsService$FilePurpose.class",
+          "bytes": 662,
+          "sha256": "37eb440063e00c87ace13c4e2318382c72c4e61b1e55d1d3f4b3ffc774db0d17"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsService$Relation.class",
+          "bytes": 424,
+          "sha256": "d0338f805471dae550d7c97590b03007dd72064cb28a670b59b62d94718e88c8"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsService$Result.class",
+          "bytes": 420,
+          "sha256": "9913570f4d864e4eac9a641a652ade18df04624a654afeec35b21cabcc2d4f5b"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsService.class",
+          "bytes": 4916,
+          "sha256": "c36e94ba015691030613b94d9358bd59d02ac4051bf18c0cd9f0dbd5181ed629"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsServiceConnection$1.class",
+          "bytes": 1161,
+          "sha256": "7e96e88f178dfc5ed54bcfd82ed427584f1d332cbf1c0667dbd700d03e723b00"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsServiceConnection.class",
+          "bytes": 2247,
+          "sha256": "a87c4b03a81cf4dfe138fe02058247c1eab52aafb8aa55639fb7cd41497d1379"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsSession$MockSession.class",
+          "bytes": 3090,
+          "sha256": "a392a2e70f294aef3c71e96c7d6069dc9cab1afe92d7282797b1cddb6358827c"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsSession$PendingSession.class",
+          "bytes": 1350,
+          "sha256": "2009a80467db6da4a07d97334e40b7adee750d5ffccea21509c364774455b434"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsSession.class",
+          "bytes": 7444,
+          "sha256": "72ee8d541d2d1c63cb3c85aaf27376d09b5bfc842b2a5e1f612e783449170ca9"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsSessionToken$1.class",
+          "bytes": 3080,
+          "sha256": "0bf8622c62889f89b77bb996c3b60575870ca36a783800a1c7a239d99fcba2dc"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsSessionToken$MockCallback.class",
+          "bytes": 1797,
+          "sha256": "24700682a7970e5a5af0dfb77529823297ced24d460857e8bd52e72649d37879"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/CustomTabsSessionToken.class",
+          "bytes": 4711,
+          "sha256": "6fff6ccd939516856b8b1694da0b0fb08ad98ea434308c5675247b4f42ca85b0"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/PostMessageBackend.class",
+          "bytes": 748,
+          "sha256": "752331bb1af36b8e9fa8628f8487a646803b1669910c247b79cfe73233a86dfc"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/PostMessageService$1.class",
+          "bytes": 1567,
+          "sha256": "4b48ffb1f0018a421a180132957724156d9803197e6c6557565cf51f33ebb590"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/PostMessageService.class",
+          "bytes": 1035,
+          "sha256": "c22d1ed0b6d70e13470a43cad332b9c1f016f0e0c9614ee83423f9daab5fa353"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/PostMessageServiceConnection.class",
+          "bytes": 6163,
+          "sha256": "af51fdaa5b7b0a786622f4ed2944fa75d3077e1072ae00ab5f2bea71461196a2"
+        },
+        {
+          "path": "classes.jar!androidx/browser/customtabs/TrustedWebUtils.class",
+          "bytes": 5130,
+          "sha256": "448c83a166d235bc5790a6f109c3ae0ecbee3a279f9d0975d8aafeeb22ed40a3"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/ConnectionHolder$WrapperFactory.class",
+          "bytes": 1262,
+          "sha256": "9b15cb929f5d0e2848ae86ffa8a8f5531bdbd772d892351ef788cddfbcb9848e"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/ConnectionHolder.class",
+          "bytes": 5419,
+          "sha256": "184e5af8a42fe29bc18fb63ec96ed0595272a35f852197d585b01cc49a45414a"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/FutureUtils.class",
+          "bytes": 1106,
+          "sha256": "026d4bec37672c1d765dc5c521f3dba5bfc557dcec837ff4be4171dd54fc0c02"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/NotificationApiHelperForM.class",
+          "bytes": 1006,
+          "sha256": "66965a68074f10ec5339746b43b00b4ce03e3a1942112b2b4c5bed69edc4d4cb"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/NotificationApiHelperForO.class",
+          "bytes": 2219,
+          "sha256": "d487d1046d409e86a4d91e843763606c1f6455f78404769563fc27a6abd52bc1"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/PackageIdentityUtils$Api28Implementation.class",
+          "bytes": 3047,
+          "sha256": "114d4c24766cc4b57017f8865088ec3e2f9445cbda1a66ae46e8e0c0b13da966"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/PackageIdentityUtils$Pre28Implementation.class",
+          "bytes": 2750,
+          "sha256": "7a573deea6f26348cee292b45b5868d87e1cb2087b474c0a7396756ba935cda8"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/PackageIdentityUtils$SignaturesCompat.class",
+          "bytes": 868,
+          "sha256": "e09ebf0bfcb6ef8e12f2d738c1aa74903176e401e7a8c5a6e37d7050f6067d11"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/PackageIdentityUtils.class",
+          "bytes": 2816,
+          "sha256": "ea9e82b0fa8261bce796038849bdee39229923a62fafb5f93aac953feb0156f3"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/ScreenOrientation$LockType.class",
+          "bytes": 650,
+          "sha256": "ef44eb4182804ee7cfa3bce48c645b9ff16dc197e9229ec6e11ef8bf1d065a55"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/ScreenOrientation.class",
+          "bytes": 765,
+          "sha256": "f2e42047fc774b7523fc6974617a942c9d7f11a7cefb17992667b03895d02430"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/Token.class",
+          "bytes": 2301,
+          "sha256": "4ab4ebba5ac2acbfba3ad439f179b4b93ea39411b22f441a9046255cfb300ce3"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TokenContents.class",
+          "bytes": 5328,
+          "sha256": "4dd6f94d88c789f37a1ec3b919b443ae7ee4fcbc2238d56edd872f033ad00cf9"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TokenStore.class",
+          "bytes": 449,
+          "sha256": "ba689053b467b90dde36a658da59488c087eac8e791d88a728c7fb91b92d244d"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityCallback.class",
+          "bytes": 545,
+          "sha256": "4df70d999db23a1f6df5d825df0db637775363e6513b994998b7e67faaa31cb2"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityCallbackRemote.class",
+          "bytes": 1653,
+          "sha256": "09614624df4679739b7db4163fdfd2eb273bd06e6b99db3c9e04ec086ac59f71"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityDisplayMode$DefaultMode.class",
+          "bytes": 891,
+          "sha256": "fcd2fb6bf09c14d60f81df317a5f6e4e06405ff49a109d48e87f858157b0de2a"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityDisplayMode$ImmersiveMode.class",
+          "bytes": 1813,
+          "sha256": "5208e5727ce9514f2c4759c063b857d8b2f4031f2cb212a26f46b0fc01f55cae"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityDisplayMode.class",
+          "bytes": 1077,
+          "sha256": "a790eb5f2f7a6985c49778b7128b7758694cc20abfa9dd040bf2011eb50c8e9c"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityIntent.class",
+          "bytes": 1929,
+          "sha256": "9a5a43c6c856521df240e7039b8362323cc0d4ffb9dc9b6d99fda361e97ee0c0"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityIntentBuilder.class",
+          "bytes": 7562,
+          "sha256": "2748cd085e76d2706707ced564f3e5e6f930c234c6d7cca88cb680d65ca45c04"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityService$1.class",
+          "bytes": 5468,
+          "sha256": "0d01fe5ee95c7939964f7467534187d4c08b16e4690b09ad90998a27506edd07"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityService.class",
+          "bytes": 7300,
+          "sha256": "f7222ef91963a702f1f9c3b4550700774604ff4744d14fe4649e47af6568b809"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityServiceConnection$1.class",
+          "bytes": 1276,
+          "sha256": "09ed9fbfbd1f0cc981c30918a35b01ddb4f7a78b8c344fc59880140e8570f737"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityServiceConnection$ActiveNotificationsArgs.class",
+          "bytes": 1367,
+          "sha256": "4664375dc15d3c09d853c934fc5b548322b4c198bfccd5c25d8468ed7875f362"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityServiceConnection$CancelNotificationArgs.class",
+          "bytes": 1518,
+          "sha256": "dee868f4cf790780432958d9dcc1204d7f27b454563651863ce1fc7a5a152ed9"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityServiceConnection$NotificationsEnabledArgs.class",
+          "bytes": 1319,
+          "sha256": "532974df0c92fe11239450bf8dd79d4805cf712a9cb205512c82cc2e783e3c01"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityServiceConnection$NotifyNotificationArgs.class",
+          "bytes": 2072,
+          "sha256": "ee831aa6b4556dc43c889727471a54b2cf16f1f6ff52505658bc5a0b1037aac0"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityServiceConnection$ResultArgs.class",
+          "bytes": 1201,
+          "sha256": "843f20bf8f63204e9049ef0795ba9d6cf634261536008232d20cc439b2c78704"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityServiceConnection.class",
+          "bytes": 6285,
+          "sha256": "aecd705085e50f8a9d769c216980acfb2ecaf2223ddb037d6adf05a9d5761584"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityServiceConnectionPool$BindToServiceAsyncTask.class",
+          "bytes": 2504,
+          "sha256": "f2cb25d46e2da8623bb954b4b9d588310c45da0d1bccd3a0e994a4e82f4f3acc"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/TrustedWebActivityServiceConnectionPool.class",
+          "bytes": 7806,
+          "sha256": "1848e09fbedbfeba344cd1194e169b30e5fa93fe530cba2d2180a0eaba4084b3"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/sharing/ShareData.class",
+          "bytes": 2009,
+          "sha256": "57b762c133d0bf564def28e76f777cbf8fdf508f4843dab1d526d7217035ed94"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/sharing/ShareTarget$EncodingType.class",
+          "bytes": 656,
+          "sha256": "6ca03f79caa3c08dbffccdb2608ac183ee5962865bf90aafbae3aabd01c951e1"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/sharing/ShareTarget$FileFormField.class",
+          "bytes": 2239,
+          "sha256": "a62d020e1da49edb5ef3f3e60d4e1d92ba39932a43775fd5e0936bbd0029e5bb"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/sharing/ShareTarget$Params.class",
+          "bytes": 3060,
+          "sha256": "363f47ada680c9dccd5056bd344212f3e946aa1c158d59ae8de74e69bc61002f"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/sharing/ShareTarget$RequestMethod.class",
+          "bytes": 658,
+          "sha256": "38c67ca426808472678780c0f2495f742e88c0c766830b816bd49b9721bd8547"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/sharing/ShareTarget.class",
+          "bytes": 2887,
+          "sha256": "e7911e8ab18e38818444945597c79122458b82ca5276f227dc1fed3fd249aedd"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/splashscreens/SplashScreenParamKey.class",
+          "bytes": 919,
+          "sha256": "d0ddfd5f40ebfa448e5ab944a134d704fcc4023d347cb321e082cf6f1f08771d"
+        },
+        {
+          "path": "classes.jar!androidx/browser/trusted/splashscreens/SplashScreenVersion.class",
+          "bytes": 491,
+          "sha256": "d44da33fbf0814c8f57fdf1588aef19a78819e9a820c54833e156b4cef78d1aa"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/layout/browser_actions_context_menu_page.xml",
+          "bytes": 2188,
+          "sha256": "6b35347b593df7ab0365fe0ba733433bee06d6c8091cd4863927a3a111aece6c"
+        },
+        {
+          "path": "res/layout/browser_actions_context_menu_row.xml",
+          "bytes": 1690,
+          "sha256": "a80639f91e4c9341ee4d67da8fc65f55368d8480b049ddc0b5ccea15c531a87c"
+        },
+        {
+          "path": "res/values-af/values-af.xml",
+          "bytes": 483,
+          "sha256": "1865b835dbaa69c656ba75d60685581251c65d8223f28d5065c7a6f601aba8f4"
+        },
+        {
+          "path": "res/values-am/values-am.xml",
+          "bytes": 539,
+          "sha256": "2765a5bdf0adada09a9f0619aca83ec47917284f18ba01133177f8a8b0043176"
+        },
+        {
+          "path": "res/values-ar/values-ar.xml",
+          "bytes": 525,
+          "sha256": "a89bf598c381472fa46fc74072a348ac429848ac7f69aeae3e5d191dddb0d3dc"
+        },
+        {
+          "path": "res/values-as/values-as.xml",
+          "bytes": 639,
+          "sha256": "a8048d263f09dc10afc0d0d0955fb96e461b69aa6cdf9ae0aea8903b6aeb9f61"
+        },
+        {
+          "path": "res/values-az/values-az.xml",
+          "bytes": 482,
+          "sha256": "eaeb1589d105dc16a3f61046f47b21d6b0bd7757ffeea9f2a1cf8f9ce9a74c85"
+        },
+        {
+          "path": "res/values-b+sr+Latn/values-b+sr+Latn.xml",
+          "bytes": 486,
+          "sha256": "7d2f1c358b20663d811cf3603520d688cc10279eb490e3e93f6db7c711827bdc"
+        },
+        {
+          "path": "res/values-be/values-be.xml",
+          "bytes": 582,
+          "sha256": "fca46748fcffdbbb1f6d9a217de9e96e3d32de23a7616a7719a5ccacbf0fed59"
+        },
+        {
+          "path": "res/values-bg/values-bg.xml",
+          "bytes": 589,
+          "sha256": "3ecfea6b08418a8b9bd7899554085eced6ec9e1a62ecf9cf3b4490dcfc31f0fd"
+        },
+        {
+          "path": "res/values-bn/values-bn.xml",
+          "bytes": 624,
+          "sha256": "fca58f7e509a4cd935376bdf5ca60597a8562b0dacf9441997c26f0d4df67cb3"
+        },
+        {
+          "path": "res/values-bs/values-bs.xml",
+          "bytes": 482,
+          "sha256": "a725637bae8743faf90b505b2d50a413b04cae3e2b775967e96540e24a23b7e5"
+        },
+        {
+          "path": "res/values-ca/values-ca.xml",
+          "bytes": 502,
+          "sha256": "de834e5b67ed50d0b2b382e973ff66660d09fd8754754800668c9d1badf4fd04"
+        },
+        {
+          "path": "res/values-cs/values-cs.xml",
+          "bytes": 494,
+          "sha256": "d079c9cbba7d0b00b1a3cbd10d4fd29f9eaf1327986bdc1f1527e2f0f62e24a0"
+        },
+        {
+          "path": "res/values-da/values-da.xml",
+          "bytes": 480,
+          "sha256": "ddd35377a57da6b88b9bf92871b0d032159c246fe93a18b1543145a224bb2e07"
+        },
+        {
+          "path": "res/values-de/values-de.xml",
+          "bytes": 480,
+          "sha256": "2031d6762b87b1b589a02f09dd9e4c61246dfb2b1edf1f7f859595515934bc90"
+        },
+        {
+          "path": "res/values-el/values-el.xml",
+          "bytes": 613,
+          "sha256": "2cbda4a6ee4dc4160d588c8a7db6933e65d2476ced215901797491a0afb05714"
+        },
+        {
+          "path": "res/values-en-rAU/values-en-rAU.xml",
+          "bytes": 466,
+          "sha256": "3ae045edf7fb11a83d31145200e190b396449d386f95f19ebd032b8687e9138b"
+        },
+        {
+          "path": "res/values-en-rCA/values-en-rCA.xml",
+          "bytes": 466,
+          "sha256": "3ae045edf7fb11a83d31145200e190b396449d386f95f19ebd032b8687e9138b"
+        },
+        {
+          "path": "res/values-en-rGB/values-en-rGB.xml",
+          "bytes": 466,
+          "sha256": "3ae045edf7fb11a83d31145200e190b396449d386f95f19ebd032b8687e9138b"
+        },
+        {
+          "path": "res/values-en-rIN/values-en-rIN.xml",
+          "bytes": 466,
+          "sha256": "3ae045edf7fb11a83d31145200e190b396449d386f95f19ebd032b8687e9138b"
+        },
+        {
+          "path": "res/values-en-rXC/values-en-rXC.xml",
+          "bytes": 1693,
+          "sha256": "3a1ececf005bb310dfdabe9203bb269eb987c6b47ff1ceddd5194bdc0ee074b2"
+        },
+        {
+          "path": "res/values-es-rUS/values-es-rUS.xml",
+          "bytes": 499,
+          "sha256": "d888c910ef6956c7ba222fc25b2692f703516e29a1052400d858ce46ca4a0645"
+        },
+        {
+          "path": "res/values-es/values-es.xml",
+          "bytes": 491,
+          "sha256": "b60e829da6086f82babcdbb4f5ae923fcc0260c2bcfc5277053aafd8980ccbaa"
+        },
+        {
+          "path": "res/values-et/values-et.xml",
+          "bytes": 470,
+          "sha256": "4bad7cce4353c08beb4cab350d602d4725298fc6f772dfb2be15e2740aa9aafd"
+        },
+        {
+          "path": "res/values-eu/values-eu.xml",
+          "bytes": 483,
+          "sha256": "dbf514982d674b909ac9f9ee94df9e3aa5be20d1601eb3effdc3d4fc37daf657"
+        },
+        {
+          "path": "res/values-fa/values-fa.xml",
+          "bytes": 532,
+          "sha256": "d8b67f61a65aeb38095f8e7a656c3d6bd5371ea880e57282a79fb1719807219f"
+        },
+        {
+          "path": "res/values-fi/values-fi.xml",
+          "bytes": 477,
+          "sha256": "3cbfa274fb1946a7338eb3fa5b8cfba3fd13c3ced1197dc8a0b664d5bbc03bcb"
+        },
+        {
+          "path": "res/values-fr-rCA/values-fr-rCA.xml",
+          "bytes": 497,
+          "sha256": "dadcbbce50d09e227123d985273fffedde78ef650eb90dc434fc3447f3ce63a9"
+        },
+        {
+          "path": "res/values-fr/values-fr.xml",
+          "bytes": 497,
+          "sha256": "41515007d83c6e565dc2f92176ff5ff9804cb2cec509ca5d4d64412f11799b22"
+        },
+        {
+          "path": "res/values-gl/values-gl.xml",
+          "bytes": 493,
+          "sha256": "27d734ce979015f9c4ddbfc96d69bcd61ca39a6eccdc7ed0a03a249fabcbac06"
+        },
+        {
+          "path": "res/values-gu/values-gu.xml",
+          "bytes": 591,
+          "sha256": "65ce8f65c0d1dda25fff2b9e8ccfc5aed221384e5e644b9050bc0e15a32a26f6"
+        },
+        {
+          "path": "res/values-hi/values-hi.xml",
+          "bytes": 620,
+          "sha256": "754f4328f9542e26ebc1bc06d1b52c7cfbb52ad679e25fd9f0dfc7fae1c33f12"
+        },
+        {
+          "path": "res/values-hr/values-hr.xml",
+          "bytes": 485,
+          "sha256": "b79a27f9b90decabf7b600428f721fc9ca0f6f661fdc77a32ef8904297813f55"
+        },
+        {
+          "path": "res/values-hu/values-hu.xml",
+          "bytes": 489,
+          "sha256": "e03635ccae18de04609287f3510613883528d70944cfbe31b69a74a728801532"
+        },
+        {
+          "path": "res/values-hy/values-hy.xml",
+          "bytes": 555,
+          "sha256": "61a3c1d70d781c3da773a02601c3b528ba39a21eedcfb16a28f2e14ea7e325c3"
+        },
+        {
+          "path": "res/values-in/values-in.xml",
+          "bytes": 471,
+          "sha256": "a7c8f8b0eff4811358b5cfb39b26344981f223b52fbd65a179b8d988c983aa32"
+        },
+        {
+          "path": "res/values-is/values-is.xml",
+          "bytes": 479,
+          "sha256": "920bc4728656b737b68a2385c57a50cc118fff8c186a885a42ee998bdd0f6381"
+        },
+        {
+          "path": "res/values-it/values-it.xml",
+          "bytes": 474,
+          "sha256": "5aaaf9609d614e1ce6c24c48b04c0c3cb93406f954570f02b7c12ebada877ac4"
+        },
+        {
+          "path": "res/values-iw/values-iw.xml",
+          "bytes": 511,
+          "sha256": "b87245f3a6f08df4a58b550baf803ca8878c4db182a3b977ea4df1e4bd2d3ee1"
+        },
+        {
+          "path": "res/values-ja/values-ja.xml",
+          "bytes": 525,
+          "sha256": "2e925b6f40d01ef57ce2f70ba478b9945d814391f2d68ba88008e23f4df5201b"
+        },
+        {
+          "path": "res/values-ka/values-ka.xml",
+          "bytes": 633,
+          "sha256": "781e943651d40021dc613394bc1f8832cb76caffa9b1e56bdcd4462b021dc42e"
+        },
+        {
+          "path": "res/values-kk/values-kk.xml",
+          "bytes": 546,
+          "sha256": "a53a3f626903a3a09570e488191060f434fc28cec3b8b5311c7ffa615d9587fb"
+        },
+        {
+          "path": "res/values-km/values-km.xml",
+          "bytes": 654,
+          "sha256": "b2f498f4b57e94cda46145c14de66bb0f8c64951374d4c4b76303e32b05641c2"
+        },
+        {
+          "path": "res/values-kn/values-kn.xml",
+          "bytes": 654,
+          "sha256": "d0c4b2fbd0cd192b636f503e43761e75f5303ba45b946fb0346536b03bd05843"
+        },
+        {
+          "path": "res/values-ko/values-ko.xml",
+          "bytes": 491,
+          "sha256": "036a481ff12d47f650dfa13a0bdf0a060c4629b93eea922bb281a9ee28c3e1be"
+        },
+        {
+          "path": "res/values-ky/values-ky.xml",
+          "bytes": 551,
+          "sha256": "2c3ef691bba25f56525dda8c258373afb3f7c03f23928043c7b71af4939218bb"
+        },
+        {
+          "path": "res/values-lo/values-lo.xml",
+          "bytes": 606,
+          "sha256": "a4e1becebf671c23298e54e09e8759fd3a8b4181100ea6d0e8a5dc974316835a"
+        },
+        {
+          "path": "res/values-lt/values-lt.xml",
+          "bytes": 500,
+          "sha256": "228939d18db8efab54f3472213d112571b037dbf8ed67ed72f9f4abd9605fa33"
+        },
+        {
+          "path": "res/values-lv/values-lv.xml",
+          "bytes": 491,
+          "sha256": "f9a69769ee49f15b65e962a828f64183c98159c25949b7c210dfd5cb8b32860c"
+        },
+        {
+          "path": "res/values-mk/values-mk.xml",
+          "bytes": 576,
+          "sha256": "177fe9da7cf4ccfd6f774e44c6748957f29c417685103e53889718c5e39ad404"
+        },
+        {
+          "path": "res/values-ml/values-ml.xml",
+          "bytes": 644,
+          "sha256": "bfc852b618a0faa4338ac93f4d94905cedaf0f35b92c155f663df9b2e4cd650e"
+        },
+        {
+          "path": "res/values-mn/values-mn.xml",
+          "bytes": 555,
+          "sha256": "8fc3a0a341dca95089d47448c45efeb9a9eec8e893e77453b5044b4d42c0e43f"
+        },
+        {
+          "path": "res/values-mr/values-mr.xml",
+          "bytes": 602,
+          "sha256": "66d03dac183114c37a3f8a7f31dfa454ad3d56a348df450848bde6dee6af59a2"
+        },
+        {
+          "path": "res/values-ms/values-ms.xml",
+          "bytes": 489,
+          "sha256": "df2dfbe7724bd04c1ea45b9208bac31a6cd7892ed10a422c0b8a629d9be47d01"
+        },
+        {
+          "path": "res/values-my/values-my.xml",
+          "bytes": 674,
+          "sha256": "a87afa17df707b3553632785347a5fff7cc32cb7a2a4fbffd400ea803ccb40f5"
+        },
+        {
+          "path": "res/values-nb/values-nb.xml",
+          "bytes": 485,
+          "sha256": "37a9b2ba2c9828916c03b7305c8cadaae44a76f695fc54207a15ed938d8c422c"
+        },
+        {
+          "path": "res/values-ne/values-ne.xml",
+          "bytes": 680,
+          "sha256": "60016df41e78615a484ce222a8dbb8a74ab2a0e4aecc0a654ecf472b09daa22d"
+        },
+        {
+          "path": "res/values-nl/values-nl.xml",
+          "bytes": 478,
+          "sha256": "eb0e2a4a3e17c3b10beea392d70f9782ce68184e6589e457e612a8e6fc4259bf"
+        },
+        {
+          "path": "res/values-or/values-or.xml",
+          "bytes": 669,
+          "sha256": "8ba447249165fb6c162fd16624efc2ae090d3afecad73bbfe728ff7e459f1c37"
+        },
+        {
+          "path": "res/values-pa/values-pa.xml",
+          "bytes": 616,
+          "sha256": "17e2d6e60de8f4b132a2efaaac32f23ee9fa049c0c5f68536a239aae4238cb72"
+        },
+        {
+          "path": "res/values-pl/values-pl.xml",
+          "bytes": 485,
+          "sha256": "af2c62f19a1392c2fc94c58200c643f72c90721d9677307368209c1b3b68c5d8"
+        },
+        {
+          "path": "res/values-pt-rBR/values-pt-rBR.xml",
+          "bytes": 497,
+          "sha256": "97b49ae0e8c616a24bfbdd94ce3b015fb0954d15089ddb2b2b4a2bfe0871f706"
+        },
+        {
+          "path": "res/values-pt-rPT/values-pt-rPT.xml",
+          "bytes": 495,
+          "sha256": "a02d6b38ff047dc6d873875c7f77bd8c1e27190b0e78b7e2f7311f068e2b21b7"
+        },
+        {
+          "path": "res/values-pt/values-pt.xml",
+          "bytes": 497,
+          "sha256": "97b49ae0e8c616a24bfbdd94ce3b015fb0954d15089ddb2b2b4a2bfe0871f706"
+        },
+        {
+          "path": "res/values-ro/values-ro.xml",
+          "bytes": 491,
+          "sha256": "a426f149698116fd918c52e3c49df5a27817933a6f871f5d9285a17f1f50f0a1"
+        },
+        {
+          "path": "res/values-ru/values-ru.xml",
+          "bytes": 569,
+          "sha256": "4d6123e1e3069972376177da0c8299ba63f88da7b756318a1969265a88c5ccbf"
+        },
+        {
+          "path": "res/values-si/values-si.xml",
+          "bytes": 661,
+          "sha256": "dc273d70f9f57852704914663a19fcb051c77436de3878d6b83b932200896fd8"
+        },
+        {
+          "path": "res/values-sk/values-sk.xml",
+          "bytes": 500,
+          "sha256": "4109c20fe4dd8766607ec583aea294dab5b2cb4135ea3b34d9637f195f4c3f5b"
+        },
+        {
+          "path": "res/values-sl/values-sl.xml",
+          "bytes": 490,
+          "sha256": "d1f392dc5799e8e74f9719edc9c6f4f93f6fa701dc1f441f8c4ee585202128cf"
+        },
+        {
+          "path": "res/values-sq/values-sq.xml",
+          "bytes": 494,
+          "sha256": "859fb08290a9a103bcdce2b9e995b13e3cc45d22a29b2f5fa64eb667e756b207"
+        },
+        {
+          "path": "res/values-sr/values-sr.xml",
+          "bytes": 553,
+          "sha256": "776a4b62e07df32c16ac36498fddf21a20b5320ac8ef74e53d7995d97ede6c58"
+        },
+        {
+          "path": "res/values-sv/values-sv.xml",
+          "bytes": 479,
+          "sha256": "71b3db5f8c12296775fcc405bdf3218180ef3246b51083d60f56ac99a91009ca"
+        },
+        {
+          "path": "res/values-sw/values-sw.xml",
+          "bytes": 498,
+          "sha256": "bc6b7ea8d7c1fe04237cd9f41868936cd1726401a2bab53bd35c5fee5740937c"
+        },
+        {
+          "path": "res/values-ta/values-ta.xml",
+          "bytes": 651,
+          "sha256": "93036e9e13ed4acaec3af773da306d88f2360714ccca6dfcd3323a54037078d0"
+        },
+        {
+          "path": "res/values-te/values-te.xml",
+          "bytes": 662,
+          "sha256": "273943608682ca56f1c1850544d1a929ba7d037bc82efe6b6c04465071211158"
+        },
+        {
+          "path": "res/values-th/values-th.xml",
+          "bytes": 606,
+          "sha256": "461719d168284fd730781a6b28b73ad88484658d05a521edc4d81701a4f76b61"
+        },
+        {
+          "path": "res/values-tl/values-tl.xml",
+          "bytes": 487,
+          "sha256": "50aed5f59dc9175dbd3aac541ff60ebf6524eff20510371c307c28d74c6d94dc"
+        },
+        {
+          "path": "res/values-tr/values-tr.xml",
+          "bytes": 495,
+          "sha256": "cce6e152c7991370390f05a1b6a742e88c484fd5c8e2801ffd243954c58fb4d4"
+        },
+        {
+          "path": "res/values-uk/values-uk.xml",
+          "bytes": 599,
+          "sha256": "71f84dd309dc5aaa4ab40d86d5d87494e34b8461a5ca18ee4dca1f588354384e"
+        },
+        {
+          "path": "res/values-ur/values-ur.xml",
+          "bytes": 545,
+          "sha256": "11b0b8221fe0a9608b6c1aad99638d7c562a344a408cdebe937f9fc03b731b67"
+        },
+        {
+          "path": "res/values-uz/values-uz.xml",
+          "bytes": 506,
+          "sha256": "c1c1a8d0b392f96fd68248c11da3382eb612e284c4f0a6dfdc625d3b246ebd52"
+        },
+        {
+          "path": "res/values-vi/values-vi.xml",
+          "bytes": 545,
+          "sha256": "4f52ddeb0df0c0cf7280c5bcd9f74b3e55a41fc744f333bb232c21dd5f3b437f"
+        },
+        {
+          "path": "res/values-zh-rCN/values-zh-rCN.xml",
+          "bytes": 480,
+          "sha256": "0899bc1aaaf7eac70d8b1b3a3426f54d5fc02a2b5cb35d7a1a2245708eace78e"
+        },
+        {
+          "path": "res/values-zh-rHK/values-zh-rHK.xml",
+          "bytes": 480,
+          "sha256": "0cd6e655198841a28fdffd6b375054a8065e0849b29e34c037b3a7a5a938e182"
+        },
+        {
+          "path": "res/values-zh-rTW/values-zh-rTW.xml",
+          "bytes": 483,
+          "sha256": "dc555be603f43b28488b879e862cec152567d455fbb59a640f964da306240ff4"
+        },
+        {
+          "path": "res/values-zu/values-zu.xml",
+          "bytes": 507,
+          "sha256": "35b6b2dbf9dc3f4e0afd7aab5976051760733464117792a90fc571310def185a"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 738,
+          "sha256": "441174b4885b1afd4b94720ab659c7969b710edf425f5eae86e413270ea80897"
+        },
+        {
+          "path": "res/xml/image_share_filepaths.xml",
+          "bytes": 752,
+          "sha256": "e4f30573ae4a94d308106c42212546bbb52d2f1fadd1b14be22f16b8577db18e"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

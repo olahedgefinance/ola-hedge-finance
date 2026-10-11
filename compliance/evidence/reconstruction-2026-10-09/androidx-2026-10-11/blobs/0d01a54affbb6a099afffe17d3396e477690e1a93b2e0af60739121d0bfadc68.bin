@@ -1,0 +1,215 @@
+{
+  "archives": {
+    "annotation-experimental-1.4.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/annotation/OptIn.kt",
+          "bytes": 1879,
+          "sha256": "ac6348332ae8d4532d038542e7dede6c47764026ef10a501618df9ea04111fec"
+        },
+        {
+          "path": "androidx/annotation/RequiresOptIn.kt",
+          "bytes": 3149,
+          "sha256": "48121a3f0f2c869ab5ed881e67a29193b98655479ecce2f80c9c15e9c3c5fb6a"
+        },
+        {
+          "path": "androidx/annotation/experimental/Experimental.kt",
+          "bytes": 2144,
+          "sha256": "f5bfb5fb15054579a3cbb0ea4e4e1eef33df7234bb60ca725d8df6a60222d54f"
+        },
+        {
+          "path": "androidx/annotation/experimental/UseExperimental.kt",
+          "bytes": 1786,
+          "sha256": "25485df3b840b23addac18cf520a36e4f2b2fcef130c289d6e8144a63f144bd5"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/annotation/OptIn.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/annotation/RequiresOptIn.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/annotation/experimental/Experimental.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/annotation/experimental/UseExperimental.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "annotation-experimental-1.4.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 214,
+          "sha256": "1deb30628923d819f9bfc26afa0e95b6c1887c3ee795e215d1528e87497056ae"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 157,
+          "sha256": "6e8a8e41513bc2d63867491e5db201172ba20b4717201b05911f667e7bb010fb"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 6304,
+          "sha256": "c7c30a0f16b30078810c8f327ebcec04d314c39ce9e99a654095de75d14b329a"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.annotation_annotation-experimental.version",
+          "bytes": 6,
+          "sha256": "78b591400c56b7b67b8cb3b2b8a8e65e9093897f02ce0878e6b5405c68620fa7"
+        },
+        {
+          "path": "classes.jar!META-INF/annotation-experimental_release.kotlin_module",
+          "bytes": 24,
+          "sha256": "b6e01b44be3f99ced0ab675640f7c768df404dce8fb80e752803b3543aae17e5"
+        },
+        {
+          "path": "classes.jar!androidx/annotation/OptIn.class",
+          "bytes": 1252,
+          "sha256": "07d69d640a8469aa74abd4483957678e182d6b30dde61679cb4c63e94014daf8"
+        },
+        {
+          "path": "classes.jar!androidx/annotation/RequiresOptIn$Level.class",
+          "bytes": 1487,
+          "sha256": "469b41d9c847c956d17ecb5d1107543466bbce6f44f051f9cb4a114aeb4eb407"
+        },
+        {
+          "path": "classes.jar!androidx/annotation/RequiresOptIn.class",
+          "bytes": 1119,
+          "sha256": "d9d54862728b41c16e0b56ac2d2c53cb832f68678edb39967a70134c851551b4"
+        },
+        {
+          "path": "classes.jar!androidx/annotation/experimental/Experimental$Level.class",
+          "bytes": 1570,
+          "sha256": "23d6503460601bbaece1ded05feb211c983d83de59e180ba5a57cc91edfbb850"
+        },
+        {
+          "path": "classes.jar!androidx/annotation/experimental/Experimental.class",
+          "bytes": 1426,
+          "sha256": "16c6e9261e72785f6bfb2263030a621386a2e93119d4db973cd250a739d21420"
+        },
+        {
+          "path": "classes.jar!androidx/annotation/experimental/UseExperimental.class",
+          "bytes": 1521,
+          "sha256": "69a226c6eec0b8b873e9ea0973b8ac789c7eaddebfe2a40ca3669ce1b8d52346"
+        },
+        {
+          "path": "lint.jar",
+          "bytes": 35350,
+          "sha256": "c1cf8f1bcda06b54e47b08f07be6440f0984fb14d99456cd62ec5c65a57033c0"
+        },
+        {
+          "path": "lint.jar!META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "lint.jar!META-INF/annotation-experimental-lint.kotlin_module",
+          "bytes": 120,
+          "sha256": "0094acc195f6c01e47f567e78f0f5c89e6fcd9a7b9b519471e379329ebaafd84"
+        },
+        {
+          "path": "lint.jar!META-INF/services/com.android.tools.lint.client.api.IssueRegistry",
+          "bytes": 64,
+          "sha256": "6bec9c9a3ac6ffb141e87095177bae822fa97adb7f4c0fbf3e653caa1a27f421"
+        },
+        {
+          "path": "lint.jar!androidx/annotation/experimental/lint/AnnotationRetentionDetector$AnnotationChecker.class",
+          "bytes": 6749,
+          "sha256": "5c62cdc0f86e89dab463882eac9bfb9b0dbd09736d1e24b1721c3b7f5a7db586"
+        },
+        {
+          "path": "lint.jar!androidx/annotation/experimental/lint/AnnotationRetentionDetector$Companion.class",
+          "bytes": 1750,
+          "sha256": "4cd1063a23bb987ce77e12fe17021df5d78d2932c4f6995882f122dc681a72c2"
+        },
+        {
+          "path": "lint.jar!androidx/annotation/experimental/lint/AnnotationRetentionDetector.class",
+          "bytes": 4850,
+          "sha256": "84a9e69cfc5efd47f0bdb0acae7b8d709763ddbed71765cf319b6461666ab7a5"
+        },
+        {
+          "path": "lint.jar!androidx/annotation/experimental/lint/AnnotationRetentionDetectorKt.class",
+          "bytes": 2844,
+          "sha256": "2b729685d3e6f361295c8deef6963ac9a3ee3d01914ae00169f9e5696d1e8636"
+        },
+        {
+          "path": "lint.jar!androidx/annotation/experimental/lint/ExperimentalDetector$Companion.class",
+          "bytes": 5369,
+          "sha256": "815084a9746d64e2d0e8a9183cd38c7b8cc84d6624eb63ad66ee715ee9356ee3"
+        },
+        {
+          "path": "lint.jar!androidx/annotation/experimental/lint/ExperimentalDetector$asIterable$1$iterator$1.class",
+          "bytes": 2811,
+          "sha256": "95908a2e955449175b68a3d4b060c7d04f3a6746d3253a3a90d45f6c935456cc"
+        },
+        {
+          "path": "lint.jar!androidx/annotation/experimental/lint/ExperimentalDetector$asIterable$1.class",
+          "bytes": 1567,
+          "sha256": "2a7e68315956f54fa9f4c62bfc5a1a82170af51c684c6d5fb306fecd28daafa3"
+        },
+        {
+          "path": "lint.jar!androidx/annotation/experimental/lint/ExperimentalDetector.class",
+          "bytes": 35759,
+          "sha256": "bae381101cde63b2c8fa3bcb9a8125ecb810bb9a1aec568d1088028df6390bda"
+        },
+        {
+          "path": "lint.jar!androidx/annotation/experimental/lint/ExperimentalDetectorKt$anyParentMatches$1.class",
+          "bytes": 2298,
+          "sha256": "bf31d0029625f90e3479da6e86bf66c14cb59c070b71a6d7addf2ad71738b28f"
+        },
+        {
+          "path": "lint.jar!androidx/annotation/experimental/lint/ExperimentalDetectorKt.class",
+          "bytes": 12289,
+          "sha256": "ed86e36d7f5b293e00c3dc150e16edae8fd765bf4090f36d71711bd368ead155"
+        },
+        {
+          "path": "lint.jar!androidx/annotation/experimental/lint/ExperimentalIssueRegistry.class",
+          "bytes": 2702,
+          "sha256": "46665f22debdc40b0aedf649ef5e046cb56872d31394ce00e8000326793ab890"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 63,
+          "sha256": "0aed495e21a70cab045e3b4792a02f2c7ad68fc1687d73474a09db0b269bc041"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

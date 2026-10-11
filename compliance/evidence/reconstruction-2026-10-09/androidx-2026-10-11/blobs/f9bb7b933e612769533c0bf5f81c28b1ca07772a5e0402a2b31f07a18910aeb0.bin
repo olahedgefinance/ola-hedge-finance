@@ -1,0 +1,402 @@
+{
+  "archives": {
+    "datastore-core-1.0.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/datastore/core/CorruptionHandler.kt",
+          "bytes": 1470,
+          "sha256": "4b85984f6b0341b4a5aebb5d647383f8f98c50f1577f311e0b23085f20a29f77"
+        },
+        {
+          "path": "androidx/datastore/core/DataMigration.kt",
+          "bytes": 3765,
+          "sha256": "2fed95fd1bdba7ec8e9596d666a0162c61dc78ca247ff5254307d882569408f6"
+        },
+        {
+          "path": "androidx/datastore/core/DataMigrationInitializer.kt",
+          "bytes": 2488,
+          "sha256": "59a395a7e71c2b00ce5e3381adac0ec18676618490e68c3e8ae7203bed20b640"
+        },
+        {
+          "path": "androidx/datastore/core/DataStore.kt",
+          "bytes": 3053,
+          "sha256": "349758abfb8b59c9f556f0f939730436b79ab1893e0ca1eb400969f10f049a30"
+        },
+        {
+          "path": "androidx/datastore/core/DataStoreFactory.kt",
+          "bytes": 3505,
+          "sha256": "231f9a8c92eeeca53831b33c4c1a492778208249032ab9b16eae1386a4b31d61"
+        },
+        {
+          "path": "androidx/datastore/core/InitializerApi.kt",
+          "bytes": 1189,
+          "sha256": "2168d91857b23fa5b92f4a9f05772e839b9d4ff4f34331b2fbc06d5653988a7d"
+        },
+        {
+          "path": "androidx/datastore/core/Serializer.kt",
+          "bytes": 1906,
+          "sha256": "c423b357cc9c5047b2edc712db603fab05023701688b6cce246f9be019dc13ba"
+        },
+        {
+          "path": "androidx/datastore/core/SimpleActor.kt",
+          "bytes": 5003,
+          "sha256": "62ad8a3317a2abbf9c1ddadd802011d6af7e459e6d8087a8aa1c0dbed5b4edc3"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore.kt",
+          "bytes": 18349,
+          "sha256": "94bf0d78f10049c870c45428c3bbc8d43265a0e6c67571d1ad97237e33a15326"
+        },
+        {
+          "path": "androidx/datastore/core/handlers/NoOpCorruptionHandler.kt",
+          "bytes": 1045,
+          "sha256": "ab22be29f54d2a9fc38e25d674954ca7bf6faa6094abdb1b6701222249fd58d1"
+        },
+        {
+          "path": "androidx/datastore/core/handlers/ReplaceFileCorruptionHandler.kt",
+          "bytes": 1737,
+          "sha256": "e99791fd865afd35b274e6f7302dfb86f0c755b6bb8e6a1eeec043568c39d6d6"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/datastore/core/CorruptionHandler.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/core/DataMigration.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/core/DataMigrationInitializer.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/core/DataStore.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/core/DataStoreFactory.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/core/InitializerApi.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/core/Serializer.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/core/SimpleActor.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/core/handlers/NoOpCorruptionHandler.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/core/handlers/ReplaceFileCorruptionHandler.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "datastore-core-1.0.0.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "META-INF/datastore-core.kotlin_module",
+          "bytes": 24,
+          "sha256": "98a724a2e62fe7159ccae94cee7063f82cc5adbd5d206c96bd420920f6640bd8"
+        },
+        {
+          "path": "androidx/datastore/core/CorruptionException.class",
+          "bytes": 1160,
+          "sha256": "9a3b1b9c41a42ea4fcc447ba62bdac2bd03d556112b856a5124b854af16b11f0"
+        },
+        {
+          "path": "androidx/datastore/core/CorruptionHandler.class",
+          "bytes": 991,
+          "sha256": "3988778ec72bccb7258e83141b93c82e1f581b9da3731fface412e986b1e9180"
+        },
+        {
+          "path": "androidx/datastore/core/Data.class",
+          "bytes": 1702,
+          "sha256": "a2fedc9c1b36145077ba363cab809e494010dcc6a2e25d3c7ed0432159d46272"
+        },
+        {
+          "path": "androidx/datastore/core/DataMigration.class",
+          "bytes": 1248,
+          "sha256": "dc1f0470645ebb6724aa9843fd5e39a8835e28cb207e994c8be8354e7d30a862"
+        },
+        {
+          "path": "androidx/datastore/core/DataMigrationInitializer$Companion$getInitializer$1.class",
+          "bytes": 4023,
+          "sha256": "dc5cc44ab06f208227352e09f1a0c69f48b86dccb5bec108f3bffa0d1354ed04"
+        },
+        {
+          "path": "androidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1.class",
+          "bytes": 2334,
+          "sha256": "d097ed5363a362a8bd623f79f0b02abe36e89a34eadbf0c2092c99f1fafb1207"
+        },
+        {
+          "path": "androidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$2$1$1.class",
+          "bytes": 3387,
+          "sha256": "1e1ab2c326d06848ea357fb5977246e89d1770c8fd462d20d0be25a4ba7b018a"
+        },
+        {
+          "path": "androidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$2.class",
+          "bytes": 5764,
+          "sha256": "c6dca31cb830e90430259d355e2cca3d3f59bac35aa1bad1773409a6bbd2c40a"
+        },
+        {
+          "path": "androidx/datastore/core/DataMigrationInitializer$Companion.class",
+          "bytes": 6317,
+          "sha256": "60b61bc8ecc9a43a09c2c444a7f2859c291ef232d95cc8219e8fa93aef75fac4"
+        },
+        {
+          "path": "androidx/datastore/core/DataMigrationInitializer.class",
+          "bytes": 1019,
+          "sha256": "9039c1a4f5988f8628e2098a7fc27d21cd3974f113d1d223231015ebf1c69be6"
+        },
+        {
+          "path": "androidx/datastore/core/DataStore.class",
+          "bytes": 1321,
+          "sha256": "afecfc8737dfc8e34663d0d69d262dc6ee8a4441f5d463ccf97b052116049af8"
+        },
+        {
+          "path": "androidx/datastore/core/DataStoreFactory.class",
+          "bytes": 5935,
+          "sha256": "5eda2cd8ae912eb6104ea845f01a89270323840860bc957e874ed97b42a3c4ab"
+        },
+        {
+          "path": "androidx/datastore/core/Final.class",
+          "bytes": 1229,
+          "sha256": "6ecf20ee78226f94247008c08bfd1a270fc244af9e3b5e4ca5d0432c47888136"
+        },
+        {
+          "path": "androidx/datastore/core/InitializerApi.class",
+          "bytes": 1135,
+          "sha256": "09b802d4febb9c452bf062b0609befccf696c1b1ba34b7a0b561adc79e3bc1c9"
+        },
+        {
+          "path": "androidx/datastore/core/ReadException.class",
+          "bytes": 1243,
+          "sha256": "cf9ae72b887df36049217dbd4673d38269da8b72ff6af1461eda99b2c8a5a4c1"
+        },
+        {
+          "path": "androidx/datastore/core/Serializer.class",
+          "bytes": 1367,
+          "sha256": "258f992fb79d90fa08d321a55087b1fb8fdd60593b3929b3fdcc0f57b71d3ff5"
+        },
+        {
+          "path": "androidx/datastore/core/SimpleActor$1.class",
+          "bytes": 2894,
+          "sha256": "a65886e683dcc69f06213d2ae508ef1588f1d33dfecf85cc2bba3de4dd7278b5"
+        },
+        {
+          "path": "androidx/datastore/core/SimpleActor$offer$2.class",
+          "bytes": 4490,
+          "sha256": "811d3ae092789f873d9858e36a3300c35b53951da9349177a82d98e1c6a0a194"
+        },
+        {
+          "path": "androidx/datastore/core/SimpleActor.class",
+          "bytes": 6088,
+          "sha256": "0fce2db671ceed2328239f863f950d873cee8634d01d2ee6161e2c3c3c0a2d6c"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$Companion.class",
+          "bytes": 1439,
+          "sha256": "b298e5c52ff986169ffcf14f59c7d07efc5bc2c5a4cecd1fba142302f55a9f3f"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$Message$Read.class",
+          "bytes": 1540,
+          "sha256": "ba7eea1334ac39823169be0b796bef271e76a4a005d0bc81173bf10630bf9bbd"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$Message$Update.class",
+          "bytes": 3428,
+          "sha256": "334e7428782227a66295897dbf5399162d441e66392cebe9f3c805e639ed0dfb"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$Message.class",
+          "bytes": 1534,
+          "sha256": "b27c014789d63344e9a3f100291a19c219ef670476d6fde579bb0cf21bea96fb"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$UncloseableOutputStream.class",
+          "bytes": 1998,
+          "sha256": "974d0ec085b7d5a1924a14a490a0bdd221f427f095a57ecd7865235225f72c2b"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$actor$1.class",
+          "bytes": 2911,
+          "sha256": "171e666a4c38895b14420e19dbaa4bc480aa54059dcd9a8fcc7d9fe44b9603e7"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$actor$2.class",
+          "bytes": 2660,
+          "sha256": "7d6f2fa110f2fbb4449fbf9ad7bf7a554778a806879c9ecf6dbb1e20121df861"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$actor$3.class",
+          "bytes": 4460,
+          "sha256": "b601d11a2bfbb260847fa81e57ba81d4df91312ac9212fa32dcb5f646d59e676"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$data$1$1.class",
+          "bytes": 3631,
+          "sha256": "78b8ddb02339aaccd0d392b45e71cd0ca8f5835b5d4c344f2ee2a53ced8a324e"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$data$1$invokeSuspend$$inlined$map$1$2$1.class",
+          "bytes": 1774,
+          "sha256": "6604effa68fc372bf3d2f55bd6ca56744d88b78cf67a7a256aad494a75780390"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$data$1$invokeSuspend$$inlined$map$1$2.class",
+          "bytes": 4348,
+          "sha256": "b78294b7d21df4214b720585313bdbef7c4d8e72a387efd8f09d19554b5b313d"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$data$1$invokeSuspend$$inlined$map$1.class",
+          "bytes": 3134,
+          "sha256": "fdd441356d4c90957c4e972db5b475508d6852a89f33033a08c5999a7ec1e7fb"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$data$1.class",
+          "bytes": 5923,
+          "sha256": "330960ea7e05203a0636b61e5986967bc1248ff49925325f26731a8f1b9a0a6f"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$file$2.class",
+          "bytes": 3350,
+          "sha256": "b999200dcadf0ed62d18a88f3550f055d8267df7ab28c8a8f6ba5ca0c32186f8"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$handleUpdate$1.class",
+          "bytes": 2179,
+          "sha256": "137636e6790716509d102311e87826e84fdfee04081d273e003dd4eb00d25940"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$readAndInit$1.class",
+          "bytes": 2170,
+          "sha256": "fcdf0685463a8de2ca77ab252bdc2bdb11bd10b3dd47fae2df8d498234268d2d"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1.class",
+          "bytes": 2103,
+          "sha256": "8285c88133a7b1f6babc0d80501716670ecd682553ceb4ddc14e0939cdecfc52"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$readAndInit$api$1.class",
+          "bytes": 5581,
+          "sha256": "4a99667138368208d0bd06ec5f032f33d72638b77af442ed7068b09bdf308576"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$readAndInitOrPropagateAndThrowFailure$1.class",
+          "bytes": 2084,
+          "sha256": "dac9319db914af72f99dfd4dd5d21cfae74cc86ba43ca19cdb845d93701cd549"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$readAndInitOrPropagateFailure$1.class",
+          "bytes": 2044,
+          "sha256": "2e945cb46920970a3889d28be90420a6f9b5c4b02352e21f3fc01680b6476ce0"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$readData$1.class",
+          "bytes": 1967,
+          "sha256": "f361ca4276ce388b8c15d85c39280b4f52163efa79daf728945e36584223b71a"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$readDataOrHandleCorruption$1.class",
+          "bytes": 2106,
+          "sha256": "4a92fcc2f705cb804fe80263a0914f57ae0067b5ca6d4bf9409bab0b9c6925b3"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$transformAndWrite$1.class",
+          "bytes": 2203,
+          "sha256": "35542f3420a5d0138380d400d6655b7052c1ef70e206b570e9745b7485041c12"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$transformAndWrite$newData$1.class",
+          "bytes": 3767,
+          "sha256": "484a4f04f16d21d6a405c6871a1e6ca283c8c0d107159eb982156be7a091a57a"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore$writeData$1.class",
+          "bytes": 1948,
+          "sha256": "46efb8f5b109c089796d558d2ae00d606aadbe32f9a696d575903a5924c4e11d"
+        },
+        {
+          "path": "androidx/datastore/core/SingleProcessDataStore.class",
+          "bytes": 28546,
+          "sha256": "096b67e03f84ba5d84ef23e1b06973c7c9eec9cb1d081a6a91537e96813b3ab2"
+        },
+        {
+          "path": "androidx/datastore/core/State.class",
+          "bytes": 969,
+          "sha256": "d4c3eadd62e1f55d79b4378474a0f74623f6afa00dcabbaea319d0f4825aeede"
+        },
+        {
+          "path": "androidx/datastore/core/UnInitialized.class",
+          "bytes": 885,
+          "sha256": "7da07cc307e8d8c72d9d31c517dfd541456b54ced0af08e26029da87c01172bb"
+        },
+        {
+          "path": "androidx/datastore/core/handlers/NoOpCorruptionHandler.class",
+          "bytes": 1508,
+          "sha256": "3555890dbd1b0f71cf8ef18564623056bddf3d11ad6a5c12fe39c0a4c024d1c7"
+        },
+        {
+          "path": "androidx/datastore/core/handlers/ReplaceFileCorruptionHandler.class",
+          "bytes": 2158,
+          "sha256": "cbc677ba0725a4c988c6325640cdf17d1e0af7b0db779f07457b02d239f77d39"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

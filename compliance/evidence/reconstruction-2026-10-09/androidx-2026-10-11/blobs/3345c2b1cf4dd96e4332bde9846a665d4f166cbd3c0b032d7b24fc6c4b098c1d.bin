@@ -1,0 +1,139 @@
+{
+  "archives": {
+    "lifecycle-livedata-core-2.6.2-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/lifecycle/LiveData.java",
+          "bytes": 18004,
+          "sha256": "ec0bb71fa1d4ce72420790daba911e2a6d9428362467f45e476c38cf015a4c03"
+        },
+        {
+          "path": "androidx/lifecycle/MutableLiveData.java",
+          "bytes": 1413,
+          "sha256": "d744279bdfec5a7303bcff89aa03c6e5647dcd21c7a7d3f403f09a0812694e41"
+        },
+        {
+          "path": "androidx/lifecycle/Observer.kt",
+          "bytes": 902,
+          "sha256": "122381b9285b2dfc9a8fb2807db4061a6da55ad6063d889a2c14829d227a6cc7"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/lifecycle/LiveData.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/MutableLiveData.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/Observer.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "lifecycle-livedata-core-2.6.2.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 845,
+          "sha256": "4eb392b96fcd514b8eb55892b7d0c1f325795182b4ed9b59ad2630bcf0ad43a3"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 122,
+          "sha256": "4d71d4cc4d860d8def346517658ee6dff00f82fa89a0d3e7bef99114b15d53b9"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "baseline-prof.txt",
+          "bytes": 2950,
+          "sha256": "c1ff27c82abd35c22d356106b72b5047edac1f92c7bc6b3995b19d6d4cba3f27"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 9612,
+          "sha256": "43e94c890292f35ee5299e3cd82468875cd7a2a4aa6f7d8b67b155a63acbc17d"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.lifecycle_lifecycle-livedata-core.version",
+          "bytes": 78,
+          "sha256": "474006d0cc8100f8dfc68d9269f233a347c29eb4a36d859c20a4953aa41d4dfc"
+        },
+        {
+          "path": "classes.jar!META-INF/lifecycle-livedata-core_release.kotlin_module",
+          "bytes": 24,
+          "sha256": "78fdfa8e7eb07d3e6d9cb340da3f4f5d83aa7edb9cce6d3350d93a443aa2100f"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/LiveData$1.class",
+          "bytes": 967,
+          "sha256": "08387aae7c3ecd24ba48e476c0dd8c12865eb9c199e46894b441188058182f32"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/LiveData$AlwaysActiveObserver.class",
+          "bytes": 1024,
+          "sha256": "77ed821a52c75a5c7fb6c8f577e3dbc875dce154377fc6a51315c67fc265f805"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/LiveData$LifecycleBoundObserver.class",
+          "bytes": 2882,
+          "sha256": "2e8f1c373164c8181c3a5ef6d83c19f6694907eb33eab5df1549228b9004efbd"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/LiveData$ObserverWrapper.class",
+          "bytes": 1588,
+          "sha256": "dbcab1a03382dfdd5062e6c472d5a52e6ebd30a68f5c875bf022b32b5eb4695a"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/LiveData.class",
+          "bytes": 8921,
+          "sha256": "06d331b0090b022a57805b18037369dad471a32c0cc51ace66c69ff7b0e3d622"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/MutableLiveData.class",
+          "bytes": 946,
+          "sha256": "802f1e0a03070cee76375070cbebb2e094545f845d0732e3cd01b75a773de47a"
+        },
+        {
+          "path": "classes.jar!androidx/lifecycle/Observer.class",
+          "bytes": 581,
+          "sha256": "cc1f0c46ead0acaec3945708621b7b0caa9ff867d1c9bd3da678b7cd3988f3af"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 63,
+          "sha256": "0aed495e21a70cab045e3b4792a02f2c7ad68fc1687d73474a09db0b269bc041"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

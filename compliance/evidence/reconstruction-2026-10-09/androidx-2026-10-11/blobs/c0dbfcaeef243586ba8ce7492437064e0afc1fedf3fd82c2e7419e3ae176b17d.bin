@@ -1,0 +1,143 @@
+{
+  "archives": {
+    "exifinterface-1.3.6-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/exifinterface/media/ExifInterface.java",
+          "bytes": 353348,
+          "sha256": "fd15529ee6ebdfef821de0239996ea99387b42d64152dabac2bf87e8ada5e9c4"
+        },
+        {
+          "path": "androidx/exifinterface/media/ExifInterfaceUtils.java",
+          "bytes": 5946,
+          "sha256": "ecd7a6c98b957e2b7a0e211830cc89f364fdc63c3c20e9457102274f4978934f"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/exifinterface/media/ExifInterface.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/exifinterface/media/ExifInterfaceUtils.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "exifinterface-1.3.6.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 882,
+          "sha256": "4fa254e2bbee4b3d5b1360dddd10dff7109e1fe5ac63b10d214536ff7118146e"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 44,
+          "sha256": "7d7fe32dd575f7b35ff9001381620e6acb639ed4f6cd60122754042c7a3618d2"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "annotations.zip",
+          "bytes": 712,
+          "sha256": "cd22400bd5cf05089fdfc531da75834c181c49b2e0f5442cad79ef5152ede610"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 64320,
+          "sha256": "074b42b244b390d5f18dc5f75e5d154ee67fb0c5f9626ea06b805b2acf6e1da7"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.exifinterface_exifinterface.version",
+          "bytes": 6,
+          "sha256": "f4eaae07c72dd003028a4583ee93e5146e4fb2e5ba80566d3e79d73edd39ee36"
+        },
+        {
+          "path": "classes.jar!androidx/exifinterface/media/ExifInterface$1.class",
+          "bytes": 1788,
+          "sha256": "743d3fa2dd1400fd36d4db29e8ccc9dca9845011e2c3f5d08fd08669b7d3bdd8"
+        },
+        {
+          "path": "classes.jar!androidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream.class",
+          "bytes": 6226,
+          "sha256": "4a5cbc49cbda11925e3cb3cecc57031a6c2e78715b3c3453e7e67088554acfc2"
+        },
+        {
+          "path": "classes.jar!androidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream.class",
+          "bytes": 2160,
+          "sha256": "12e57a452bb22a021694df9d53f32ff3a4388dbee69a6e0bc948092a1ad5d063"
+        },
+        {
+          "path": "classes.jar!androidx/exifinterface/media/ExifInterface$ExifAttribute.class",
+          "bytes": 11514,
+          "sha256": "8306727362bdbd1061484b0405230bf16f5e4601c0cd0ed908aa4e178572366e"
+        },
+        {
+          "path": "classes.jar!androidx/exifinterface/media/ExifInterface$ExifStreamType.class",
+          "bytes": 658,
+          "sha256": "913c80b8853a1797a41e10f92ebf1124307dc3d2da199ee9445f4a1935be8076"
+        },
+        {
+          "path": "classes.jar!androidx/exifinterface/media/ExifInterface$ExifTag.class",
+          "bytes": 1128,
+          "sha256": "56a0ccc63e72ca0b71cd20adaad01591e79e85118c2834093182631f39a0e795"
+        },
+        {
+          "path": "classes.jar!androidx/exifinterface/media/ExifInterface$IfdType.class",
+          "bytes": 644,
+          "sha256": "fd16c12357318f020c9419e203ea8dd4fa16b286c13de52e6c57ff2b7e4a2456"
+        },
+        {
+          "path": "classes.jar!androidx/exifinterface/media/ExifInterface$Rational.class",
+          "bytes": 1111,
+          "sha256": "1743bbfef63fe59e766283f710695407d74dba05676634b069da2181864d68a1"
+        },
+        {
+          "path": "classes.jar!androidx/exifinterface/media/ExifInterface$SeekableByteOrderedDataInputStream.class",
+          "bytes": 1531,
+          "sha256": "98c8bff5aecc13241fd7c10627be3abee0e374ddff70efa5fd724849302dd0fb"
+        },
+        {
+          "path": "classes.jar!androidx/exifinterface/media/ExifInterface.class",
+          "bytes": 97867,
+          "sha256": "04a78065ed8f68fce54348e0fcc9915a6dd558df540026b579ebaad219e62913"
+        },
+        {
+          "path": "classes.jar!androidx/exifinterface/media/ExifInterfaceUtils$Api21Impl.class",
+          "bytes": 1173,
+          "sha256": "816c1f2252065686acdaf00a3b00ddf6e2a58239e8aa4c58e9eb68687633d97a"
+        },
+        {
+          "path": "classes.jar!androidx/exifinterface/media/ExifInterfaceUtils$Api23Impl.class",
+          "bytes": 953,
+          "sha256": "9e8a9236e60732d504ad93ed6a9fec8a802a583ab13db14678ad3932d73fc508"
+        },
+        {
+          "path": "classes.jar!androidx/exifinterface/media/ExifInterfaceUtils.class",
+          "bytes": 4067,
+          "sha256": "cfc4967e8c659f763cb6189dc1ef4673a4bd82b0215cdc6a615d78ea6a668f73"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

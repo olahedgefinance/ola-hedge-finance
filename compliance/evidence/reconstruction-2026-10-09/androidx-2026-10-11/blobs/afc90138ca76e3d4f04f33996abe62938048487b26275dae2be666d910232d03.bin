@@ -1,0 +1,414 @@
+{
+  "archives": {
+    "lifecycle-common-2.6.2-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/lifecycle/ClassesInfoCache.java",
+          "bytes": 10471,
+          "sha256": "3e232edc5a318bb67e7cef560b53adb2a5a911418e659f374e4cd40e786b455d"
+        },
+        {
+          "path": "androidx/lifecycle/CompositeGeneratedAdaptersObserver.kt",
+          "bytes": 1154,
+          "sha256": "4872615070f22c9e1c46cc5549670ec25ab8b69af3f9a8083ec93e13ae769cbd"
+        },
+        {
+          "path": "androidx/lifecycle/DefaultLifecycleObserver.kt",
+          "bytes": 2890,
+          "sha256": "cea9f6541c4ac357ef31322f86bdb23f4d5c226c40cfe4253c5c7975fb7fcb40"
+        },
+        {
+          "path": "androidx/lifecycle/DefaultLifecycleObserverAdapter.kt",
+          "bytes": 1658,
+          "sha256": "449612b2b1a7e6e3d152b56d6f278b53a0cfd84b9e9e0c985e6c5b9eea844725"
+        },
+        {
+          "path": "androidx/lifecycle/DispatchQueue.kt",
+          "bytes": 3524,
+          "sha256": "6656fb2326ce8eb64c4f122d3444b38d9a1a0311b41c110639878d49c9366e40"
+        },
+        {
+          "path": "androidx/lifecycle/GeneratedAdapter.kt",
+          "bytes": 1274,
+          "sha256": "9d2ec58344848af18bc4e097d11c773d43f07059d572c93cd4e6416374055a18"
+        },
+        {
+          "path": "androidx/lifecycle/GenericLifecycleObserver.java",
+          "bytes": 996,
+          "sha256": "3514dc8aeb9235a48013503ec87d63755e41509d7d1dd34942d38177bf7e4e7a"
+        },
+        {
+          "path": "androidx/lifecycle/Lifecycle.kt",
+          "bytes": 15419,
+          "sha256": "52df73ad27bd0485e06f2f6b575c718d5b89b5bad7a32b3c509c94626e045a9c"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleController.kt",
+          "bytes": 2287,
+          "sha256": "c158ade5d867a0db273bce51cc04645a5061cf547ec711edc4cab7c74f0d1d03"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleEventObserver.kt",
+          "bytes": 1400,
+          "sha256": "37eddf556ecd6426098c3ca09a260d6efc4ffbbbbd68b2a78292bc028f8b6db0"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleObserver.kt",
+          "bytes": 957,
+          "sha256": "77263ee3894260b051b9307baa60066267af7fdcb981305718d682a2c839b115"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleOwner.kt",
+          "bytes": 1485,
+          "sha256": "6a66bd9acd6bcc0ca67015cc1e954dbb4662b162484fae3a81c473bdb2ea91da"
+        },
+        {
+          "path": "androidx/lifecycle/Lifecycling.kt",
+          "bytes": 6690,
+          "sha256": "45d2b37421194b769fedcf410ba5fead59b9796046f935850502020546782baa"
+        },
+        {
+          "path": "androidx/lifecycle/MethodCallsLogger.kt",
+          "bytes": 1218,
+          "sha256": "bea990ff90ba53c03f401bfc1c21ca0ab3dacd829c283e28c1612da8dadc0da6"
+        },
+        {
+          "path": "androidx/lifecycle/OnLifecycleEvent.java",
+          "bytes": 1336,
+          "sha256": "029542c50f81286f6442805140c883622e950cc6db056ab6a5e62defd262c197"
+        },
+        {
+          "path": "androidx/lifecycle/PausingDispatcher.kt",
+          "bytes": 10552,
+          "sha256": "f8b2ce3b32b98e65d06f9412dcb0b743925ce36e78d90c96c67bb59f50ca4e5b"
+        },
+        {
+          "path": "androidx/lifecycle/ReflectiveGenericLifecycleObserver.java",
+          "bytes": 1470,
+          "sha256": "dcdcf2721cf4559018b777489cc1053e7bdd395c00e885c6253009e1d2564753"
+        },
+        {
+          "path": "androidx/lifecycle/SingleGeneratedAdapterObserver.kt",
+          "bytes": 994,
+          "sha256": "a641f1f308c5c5743d8bc836b3db6811c9d637321ed740361c3a4e6f983ccbc7"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/lifecycle/ClassesInfoCache.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/CompositeGeneratedAdaptersObserver.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/DefaultLifecycleObserver.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/DefaultLifecycleObserverAdapter.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/DispatchQueue.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/GeneratedAdapter.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/GenericLifecycleObserver.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/Lifecycle.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleController.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleEventObserver.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleObserver.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleOwner.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/Lifecycling.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/MethodCallsLogger.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/OnLifecycleEvent.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/PausingDispatcher.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/ReflectiveGenericLifecycleObserver.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/lifecycle/SingleGeneratedAdapterObserver.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "lifecycle-common-2.6.2.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "META-INF/lifecycle-common.kotlin_module",
+          "bytes": 98,
+          "sha256": "da2961c60521aa35796b218d334022c1f6bdc0bb493c30c105f07ade0280a0fa"
+        },
+        {
+          "path": "androidx/lifecycle/ClassesInfoCache$CallbackInfo.class",
+          "bytes": 3345,
+          "sha256": "a4371467aae1aed89cb7ba47e39ff10078000a446fe5c2a386706879809fcaa8"
+        },
+        {
+          "path": "androidx/lifecycle/ClassesInfoCache$MethodReference.class",
+          "bytes": 2284,
+          "sha256": "cd15e666e42a21fbe2c675615dc6951580e30542070da3edce85641935dc4856"
+        },
+        {
+          "path": "androidx/lifecycle/ClassesInfoCache.class",
+          "bytes": 7417,
+          "sha256": "4003c1d60f38146b5fc23db71b5230aa93f30d3f086d8bb49bbdffc1e7388a6e"
+        },
+        {
+          "path": "androidx/lifecycle/CompositeGeneratedAdaptersObserver.class",
+          "bytes": 2192,
+          "sha256": "2d5925d17299f69a82e8ecf5118c50faf25c5793a807a8d4f41f0f41f2dcf21d"
+        },
+        {
+          "path": "androidx/lifecycle/DefaultLifecycleObserver.class",
+          "bytes": 1561,
+          "sha256": "1c6c350ab0f0ef702ed082f810a8c571aa04996e0b6c8949a09a6b179059534c"
+        },
+        {
+          "path": "androidx/lifecycle/DefaultLifecycleObserverAdapter$WhenMappings.class",
+          "bytes": 1129,
+          "sha256": "f8a85cca8f30c81a5e766e169b7980f8599998750c0f484c1b7d5d1aa8f9fc65"
+        },
+        {
+          "path": "androidx/lifecycle/DefaultLifecycleObserverAdapter.class",
+          "bytes": 2529,
+          "sha256": "0c81d3e1eea74e018e43d98b896f740117a529e0fd6dc9d83bbc0e4e51a37b78"
+        },
+        {
+          "path": "androidx/lifecycle/DispatchQueue.class",
+          "bytes": 4226,
+          "sha256": "02fecd66c0b58bce40167e2aaf8d40eca39c2b5e30183af6b0d100be282b4251"
+        },
+        {
+          "path": "androidx/lifecycle/GeneratedAdapter.class",
+          "bytes": 1300,
+          "sha256": "6f2a01123a96c0b31debe8853d633ad436b9f20a0f30ca970432cf97c302d5c0"
+        },
+        {
+          "path": "androidx/lifecycle/GenericLifecycleObserver.class",
+          "bytes": 557,
+          "sha256": "8578a79dd72c62a5c43af9bda433fb7f4754fffa1037247bfb50d3f709a98182"
+        },
+        {
+          "path": "androidx/lifecycle/Lifecycle$Event$Companion$WhenMappings.class",
+          "bytes": 1073,
+          "sha256": "ea7ff5092ab8ba8ccc84f9e3853898f604e083b9ee305893330941bce24d49df"
+        },
+        {
+          "path": "androidx/lifecycle/Lifecycle$Event$Companion.class",
+          "bytes": 2619,
+          "sha256": "8390e8cdbb8c8fc0610328e8c62bb6257effdd70d7eda30b1717c90d935543ae"
+        },
+        {
+          "path": "androidx/lifecycle/Lifecycle$Event$WhenMappings.class",
+          "bytes": 1035,
+          "sha256": "f306f367428ef23651f8de8e2effb8b2020b2feb90cbec7ac4d9a703a0d9c05b"
+        },
+        {
+          "path": "androidx/lifecycle/Lifecycle$Event.class",
+          "bytes": 3618,
+          "sha256": "33c4e164d48a601f5a96f1094ee28c1ff0d9a5a989579a4d5cd35d49b6e6cd78"
+        },
+        {
+          "path": "androidx/lifecycle/Lifecycle$State.class",
+          "bytes": 2085,
+          "sha256": "0b90413e21612328c61ed6193bbedd6e6b6cbf1113981ac94354c82791e86b38"
+        },
+        {
+          "path": "androidx/lifecycle/Lifecycle.class",
+          "bytes": 2354,
+          "sha256": "7d1c08736d959437db75401ffc9c76473fa448d6035853f0ac0b8d408651d2a7"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleController.class",
+          "bytes": 4630,
+          "sha256": "406e1e275ed2e32e2ad4bad6c08cab2e6fb738e6b1a0880a1d0c9a388f72ba70"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleCoroutineScope$launchWhenCreated$1.class",
+          "bytes": 4114,
+          "sha256": "c3c07bb8db704e6716b960708fa492b496b2dbaf7db483e328d19350957e6418"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleCoroutineScope$launchWhenResumed$1.class",
+          "bytes": 4114,
+          "sha256": "09f06ca36a1d26f6bc966a568b5e5c54efbe5eded1feb4ee1998a6e0d4ea0007"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleCoroutineScope$launchWhenStarted$1.class",
+          "bytes": 4114,
+          "sha256": "99f53625ee095af40944318ec13935caae152933e50bd430772ea49d4db23f1c"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleCoroutineScope.class",
+          "bytes": 3541,
+          "sha256": "be546f9441ed70d239ac1ca2f3670e48abdd67f29b5c37d61426e3592a0e8327"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleCoroutineScopeImpl$register$1.class",
+          "bytes": 4156,
+          "sha256": "8fa88b456ec36575d07e091ff9646c4a4815fd3bc625067a669229278f9a2121"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleCoroutineScopeImpl.class",
+          "bytes": 3622,
+          "sha256": "8cc657376bf406180c4c0992effaf0a9d387e385e3feb82455422af94fa40463"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleEventObserver.class",
+          "bytes": 968,
+          "sha256": "53e95fff3325604530a265f95d1b5a82138a4a0424dc98163e5015bdf9ae6e1a"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleKt.class",
+          "bytes": 2164,
+          "sha256": "714535791bc73f3071f7d3d490ec16b315bca8bae1fe070a63185c7e17086266"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleObserver.class",
+          "bytes": 395,
+          "sha256": "7123c75b3d9fc45d1c26525262e279f25a2762e0f25521d347e5af45560fa150"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleOwner.class",
+          "bytes": 611,
+          "sha256": "c9b21ac8caaff3a63af6196c15fa3ecd0643e95e3abda7771da44f18db7268cc"
+        },
+        {
+          "path": "androidx/lifecycle/LifecycleOwnerKt.class",
+          "bytes": 1208,
+          "sha256": "03aad86ccedea7e9d8fd3833b5cd3dc647c52d00c053cf8d51fe6f8df2fb5123"
+        },
+        {
+          "path": "androidx/lifecycle/Lifecycling.class",
+          "bytes": 9193,
+          "sha256": "c2bc5c7b91c28c38bb25e29385afbd813aa15eda341dc564b4c5e6d55ed78872"
+        },
+        {
+          "path": "androidx/lifecycle/MethodCallsLogger.class",
+          "bytes": 1991,
+          "sha256": "3c988f10281c9770b6ca058c745d0cceb23c9d3be4315ce0f6853481f3024222"
+        },
+        {
+          "path": "androidx/lifecycle/OnLifecycleEvent.class",
+          "bytes": 614,
+          "sha256": "4c44c2d13a47ac96068dce8fadd0c37d078fbff836beda1a548a25ab5d8b6fcf"
+        },
+        {
+          "path": "androidx/lifecycle/PausingDispatcher.class",
+          "bytes": 2016,
+          "sha256": "663daa33dfa3811d7e4291828d9ca338b14122188ad687361f12fc845dfe283e"
+        },
+        {
+          "path": "androidx/lifecycle/PausingDispatcherKt$whenStateAtLeast$2.class",
+          "bytes": 5702,
+          "sha256": "e5909a6fe80525f496c232fe444bfc4b39ef5993dd5b0ae9071b7076bcc78376"
+        },
+        {
+          "path": "androidx/lifecycle/PausingDispatcherKt.class",
+          "bytes": 6028,
+          "sha256": "42d49c87878870638dcf4aaeae323d9595cd44cc72183df9c95ac43a9d2a9508"
+        },
+        {
+          "path": "androidx/lifecycle/ReflectiveGenericLifecycleObserver.class",
+          "bytes": 1628,
+          "sha256": "161c1e28c9735164f18ba8c1cacfe19800e5d2aeb0dc394be0a738e1fcdcdee8"
+        },
+        {
+          "path": "androidx/lifecycle/SingleGeneratedAdapterObserver.class",
+          "bytes": 1792,
+          "sha256": "b19089190cc47ffc7e48d6c977808b22d8ab3125ef74bdc2a0c5aef60e64d435"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

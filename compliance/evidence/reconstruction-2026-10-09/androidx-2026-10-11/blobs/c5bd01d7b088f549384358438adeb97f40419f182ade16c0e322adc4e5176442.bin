@@ -1,0 +1,99 @@
+{
+  "archives": {
+    "tracing-1.0.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/tracing/Trace.java",
+          "bytes": 9602,
+          "sha256": "e7b7907f4c5cd0ea4f9da0e4350c1cf3a78b6808059fa0ad3eb9617b61da5ceb"
+        },
+        {
+          "path": "androidx/tracing/TraceApi18Impl.java",
+          "bytes": 2462,
+          "sha256": "83f21e5484d72822c93013dab9d80acb06174027717177cca7b38d800ebac799"
+        },
+        {
+          "path": "androidx/tracing/TraceApi29Impl.java",
+          "bytes": 2627,
+          "sha256": "2d6ecf38ca03e39137324548055d1829cadcba9ad3f418a70515ebf62be6ed9c"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/tracing/Trace.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/tracing/TraceApi18Impl.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/tracing/TraceApi29Impl.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "tracing-1.0.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 879,
+          "sha256": "30bacf3cbc41f01f1b520952152a1538440fcf11aa03b8cf01709444d37e2483"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 44,
+          "sha256": "7d7fe32dd575f7b35ff9001381620e6acb639ed4f6cd60122754042c7a3618d2"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 3696,
+          "sha256": "f14fa7864f1a61bb9a6e2fe9ffaf1f911f03a44ff5d06172b1ef84b3ec30a2d9"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.tracing_tracing.version",
+          "bytes": 6,
+          "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        },
+        {
+          "path": "classes.jar!androidx/tracing/Trace.class",
+          "bytes": 4760,
+          "sha256": "f9eb5c5b56ff30208c442b375bc467ee0401b18123c7f03a01ec6b9a69171950"
+        },
+        {
+          "path": "classes.jar!androidx/tracing/TraceApi18Impl.class",
+          "bytes": 719,
+          "sha256": "ad033e5a4af7ea9463c5fbfe6ad7889db31163bd92510ad3486e28201c5bd6a8"
+        },
+        {
+          "path": "classes.jar!androidx/tracing/TraceApi29Impl.class",
+          "bytes": 975,
+          "sha256": "a57a3d0a11978838a4bfca0a23681a57ef1c59f30560d056d9a17fa826eabcfe"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

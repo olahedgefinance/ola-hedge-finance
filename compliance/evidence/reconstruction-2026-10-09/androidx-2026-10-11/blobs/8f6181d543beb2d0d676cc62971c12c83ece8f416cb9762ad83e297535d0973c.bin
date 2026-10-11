@@ -1,0 +1,210 @@
+{
+  "archives": {
+    "viewpager-1.0.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/viewpager/widget/PagerAdapter.java",
+          "bytes": 14411,
+          "sha256": "9ec960f4b510ad7055a6a8030efb5c103a0f77d77eb0969ffc5d0140dd9dbffd"
+        },
+        {
+          "path": "androidx/viewpager/widget/PagerTabStrip.java",
+          "bytes": 10154,
+          "sha256": "ebff8ced4cbe564c2c06768d7b4000f6ba417a42bdddc23c418d693c994bfb6a"
+        },
+        {
+          "path": "androidx/viewpager/widget/PagerTitleStrip.java",
+          "bytes": 19392,
+          "sha256": "804a9c1c214bd1faacc83ac2c41ace0d3e2c5f470b6dffab4c1dfeff3de54d67"
+        },
+        {
+          "path": "androidx/viewpager/widget/ViewPager.java",
+          "bytes": 123908,
+          "sha256": "bae70226afba14541215e477237920b1b2f30d086e468d4ba5484528de995d6b"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/viewpager/widget/PagerAdapter.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/viewpager/widget/PagerTabStrip.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/viewpager/widget/PagerTitleStrip.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/viewpager/widget/ViewPager.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "viewpager-1.0.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 832,
+          "sha256": "4dd9c632baec9a5eb2a3a858cf5cb171b937c906a784f94ac06e6b6f6f6b05f2"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 6283,
+          "sha256": "6d21a0b45c6febbd655e3e56f1cdb865f9825a2e9ffc3f5de23d40bdc2e2d63e"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 55298,
+          "sha256": "14f7429cff9f2f50421a36b237a1de35d8a2c8deffcbe1e0163c6e51a2defe56"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.viewpager_viewpager.version",
+          "bytes": 6,
+          "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/PagerAdapter.class",
+          "bytes": 4231,
+          "sha256": "659a08f140bae6e094cdf30e5153b22eb674774ed207fa0843bb7070be1ff193"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/PagerTabStrip$1.class",
+          "bytes": 1031,
+          "sha256": "d90a9fee6b3f715d2d8801d76cf6bfa251f0dee8c15f17ac67984f4f0f96d86b"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/PagerTabStrip$2.class",
+          "bytes": 1031,
+          "sha256": "d5768c6e4b6de7190f0bb60772b8fac2e5cadd0dd07c492d28153b6c3ee5fbe8"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/PagerTabStrip.class",
+          "bytes": 7327,
+          "sha256": "cf8142a30509423333e654567cdbfbeb7e59682b3cf62b56b116640d25051621"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/PagerTitleStrip$PageListener.class",
+          "bytes": 2333,
+          "sha256": "8e342580be8fba88d2a4b9e25027e370e2f0bf3f6cb9945fe0fb3cd62a35f59c"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/PagerTitleStrip$SingleLineAllCapsTransform.class",
+          "bytes": 1386,
+          "sha256": "ad0cc0668456d9ca5d5b222c4020d38a32e180c0260fb07530dc7982777b4c02"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/PagerTitleStrip.class",
+          "bytes": 12631,
+          "sha256": "912d109e94f1fd536d30e7b977161ef99829a7346e8f153be97da6f19e8b58c2"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$1.class",
+          "bytes": 1017,
+          "sha256": "f71268bf95de74c87ddd768ace532e7b4a57ddf6b691f8cbe4b8fda530bdaf15"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$2.class",
+          "bytes": 571,
+          "sha256": "660edef93d1cac70f8235f9e11b76141e0028b1542aecefac5fc7333dc433f5f"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$3.class",
+          "bytes": 700,
+          "sha256": "a92c87bfaef125b9a1340f0c93904ce32d4fa48085d7a25bb4c24977f884efa8"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$4.class",
+          "bytes": 1986,
+          "sha256": "384af6b6efefabe6fcdfcdc8c50eaf15554aefd447f54d8545311bdb707c7aec"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$DecorView.class",
+          "bytes": 528,
+          "sha256": "218d602af3090e998c0e31adf91e8130c4d1880e7ddb714256205fac86420b5b"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$ItemInfo.class",
+          "bytes": 533,
+          "sha256": "4b8b24a1f10c41402d6c72de0721eca91cf55e439dd6d79afd1c5f334ffce8a0"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$LayoutParams.class",
+          "bytes": 1246,
+          "sha256": "47bf10f738e3ee61e4e0a678ba3eae65efd41b3d77e4e1389aed1c3add1be132"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$MyAccessibilityDelegate.class",
+          "bytes": 2526,
+          "sha256": "0b5e79e75835c71c014b84e14652b92ffd8149724708ef2e56c9f6f44999c78c"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$OnAdapterChangeListener.class",
+          "bytes": 526,
+          "sha256": "25b839e4c59d9579efd52ae0d251f1298fcdd5b0653f53a5efb19bfa64b98a89"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$OnPageChangeListener.class",
+          "bytes": 425,
+          "sha256": "e80ae138d0acca8d60cf5fd67f44cd288adbf58f1ac37c82466d3e715d9513af"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$PageTransformer.class",
+          "bytes": 367,
+          "sha256": "4b00eab34bc6c518262ee876594d67a2b2637ac83fdb8aac9528bbf714e74a82"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$PagerObserver.class",
+          "bytes": 746,
+          "sha256": "dbd285c7cbaf15d757e303d2d10059196afa80b1a6fc7099c45e8f0a77a64183"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$SavedState$1.class",
+          "bytes": 1705,
+          "sha256": "b9887363b3c82b002284ba2871175b276b0db91f5bf46c560af6e0485c9aa6b7"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$SavedState.class",
+          "bytes": 2417,
+          "sha256": "894ee4fdf99f618eabb7117e94476109bb7f05197dc1aefee5901b709cad179a"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$SimpleOnPageChangeListener.class",
+          "bytes": 919,
+          "sha256": "9b5b6cf7cbb90074087246a0a4654258cc203625aff83f864fa94e15cde1f5c7"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager$ViewPositionComparator.class",
+          "bytes": 1333,
+          "sha256": "d096d7441fcdfaf0c84896d37be846077539189099fc52143bdea11ab526610b"
+        },
+        {
+          "path": "classes.jar!androidx/viewpager/widget/ViewPager.class",
+          "bytes": 51337,
+          "sha256": "2cb962179884f81cde25bb01210d147786177f18ba8fed924e2c96419888348b"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

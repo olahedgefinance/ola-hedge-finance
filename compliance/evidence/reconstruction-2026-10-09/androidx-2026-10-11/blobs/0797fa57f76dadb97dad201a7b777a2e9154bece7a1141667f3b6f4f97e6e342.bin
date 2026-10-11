@@ -1,0 +1,282 @@
+{
+  "archives": {
+    "annotation-1.8.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "commonMain/androidx/annotation/AnyThread.kt",
+          "bytes": 1528,
+          "sha256": "63249ad6aea8cb2d24561fb4847b72133f0db3c170ef50642ec8242482866396"
+        },
+        {
+          "path": "commonMain/androidx/annotation/CallSuper.kt",
+          "bytes": 1021,
+          "sha256": "9db0a565e0170c1874cb564576dec77cad900f2cf6d02fa0ebbc2605c7a8173b"
+        },
+        {
+          "path": "commonMain/androidx/annotation/CheckResult.kt",
+          "bytes": 2098,
+          "sha256": "bfcec9ed70e959481730010411b21a7ec37a9df1056afbd3e358f7f1ab12afa7"
+        },
+        {
+          "path": "commonMain/androidx/annotation/ColorInt.kt",
+          "bytes": 1221,
+          "sha256": "b8b26c08804b280144f2ca042de402af3c8d096a83f21841d3a96e61e8c8c3bb"
+        },
+        {
+          "path": "commonMain/androidx/annotation/ColorLong.kt",
+          "bytes": 1369,
+          "sha256": "4c67a4251064d933f505b38b0827f7cc19dc03f7f4b3d34b8988c61ee91b2e03"
+        },
+        {
+          "path": "commonMain/androidx/annotation/Discouraged.kt",
+          "bytes": 1567,
+          "sha256": "c3f93c37fde6aded255a74fca6e41321ddb314cad193d114deb906aa92645201"
+        },
+        {
+          "path": "commonMain/androidx/annotation/EmptySuper.kt",
+          "bytes": 1073,
+          "sha256": "20bd127ab3c2648126241d4cd9124c72d32e59b20242888d1f54e84013be41b3"
+        },
+        {
+          "path": "commonMain/androidx/annotation/FloatRange.kt",
+          "bytes": 1670,
+          "sha256": "d0d381b54fc4f49e2dd61f2a774d53e04d449ea4e708308e3426169b61d6dc50"
+        },
+        {
+          "path": "commonMain/androidx/annotation/GuardedBy.kt",
+          "bytes": 1340,
+          "sha256": "f0b9294e3021707a9d2be6a910c503328bc1e4be6df10f96f3f70b5e5b543c3d"
+        },
+        {
+          "path": "commonMain/androidx/annotation/IntDef.kt",
+          "bytes": 2252,
+          "sha256": "9dc5896f9c62e5854efab2fda2ea4ab4e501bdee0ebb6e522d03a94d83aba9b7"
+        },
+        {
+          "path": "commonMain/androidx/annotation/IntRange.kt",
+          "bytes": 1336,
+          "sha256": "947dc7604696925d2371394193081aa2f2172f5560b8902b5fd3e18fe2b5c0ca"
+        },
+        {
+          "path": "commonMain/androidx/annotation/LongDef.kt",
+          "bytes": 2254,
+          "sha256": "4178d22fbfda73a6ae8295a1d9b9746398b5141e01276d5d8de4317c2229d1e2"
+        },
+        {
+          "path": "commonMain/androidx/annotation/MainThread.kt",
+          "bytes": 1608,
+          "sha256": "55298f9de38ed6722abcc6c44d1941892f9b058b45a950449d74b1c2c295defc"
+        },
+        {
+          "path": "commonMain/androidx/annotation/OpenForTesting.kt",
+          "bytes": 1191,
+          "sha256": "3fca8c99ee1f8244c31868d171956748f5bb3d3958afdb823d9328af530f02cc"
+        },
+        {
+          "path": "commonMain/androidx/annotation/ProductionVisibility.kt",
+          "bytes": 978,
+          "sha256": "9bb31e6c31333b0507245cf65f70e73dcdf858b761a48b81bc5c6abc52ad0795"
+        },
+        {
+          "path": "commonMain/androidx/annotation/RequiresApi.kt",
+          "bytes": 1883,
+          "sha256": "15ce7b5af9605b0d46d1914bd79a8acc212202fae786408c7c0ab8c0f3757928"
+        },
+        {
+          "path": "commonMain/androidx/annotation/RequiresFeature.kt",
+          "bytes": 1795,
+          "sha256": "038e03891977f111dad1614d4427ad8a0c25224330f1500d491f027c48a26dbf"
+        },
+        {
+          "path": "commonMain/androidx/annotation/RestrictTo.kt",
+          "bytes": 3719,
+          "sha256": "9a733dadc8c2f78446a57b4683713dddab55926291e88cae5244fafd18845fa5"
+        },
+        {
+          "path": "commonMain/androidx/annotation/ReturnThis.kt",
+          "bytes": 931,
+          "sha256": "a9debb818b8fdfdb029d8354b9993d6ec1aedce2df1080f472f2a7c376dd583f"
+        },
+        {
+          "path": "commonMain/androidx/annotation/Size.kt",
+          "bytes": 1599,
+          "sha256": "942dfedaf1cc0d1e920481e2807976898e0331841b0b1740800534f851c9090c"
+        },
+        {
+          "path": "commonMain/androidx/annotation/StringDef.kt",
+          "bytes": 1816,
+          "sha256": "745f1ce8bc0b3cc0dd7d74ef8b16b431038a5710b14dc464633d2c7b8866388b"
+        },
+        {
+          "path": "commonMain/androidx/annotation/UiThread.kt",
+          "bytes": 1634,
+          "sha256": "fe55f6bf20c064cb0b68d86b03780d2d8a2820072ddefd92c761b1f9570b9c51"
+        },
+        {
+          "path": "commonMain/androidx/annotation/VisibleForTesting.kt",
+          "bytes": 2201,
+          "sha256": "3b41f54f9def8a922b0fef1d3f4858d2c9480ed11dbf6523b60856a39151c08d"
+        },
+        {
+          "path": "nonJvmMain/androidx/annotation/RestrictTo.nonJvm.kt",
+          "bytes": 3301,
+          "sha256": "a9058c776a08b8167e1be640331b0c0784a18ce5e11b7de86538c2022aa88d2e"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "commonMain/androidx/annotation/AnyThread.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/CallSuper.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/CheckResult.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/ColorInt.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/ColorLong.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/Discouraged.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/EmptySuper.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/FloatRange.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/GuardedBy.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/IntDef.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/IntRange.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/LongDef.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/MainThread.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/OpenForTesting.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/ProductionVisibility.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/RequiresApi.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/RequiresFeature.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/RestrictTo.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/ReturnThis.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/Size.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/StringDef.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/UiThread.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "commonMain/androidx/annotation/VisibleForTesting.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "nonJvmMain/androidx/annotation/RestrictTo.nonJvm.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

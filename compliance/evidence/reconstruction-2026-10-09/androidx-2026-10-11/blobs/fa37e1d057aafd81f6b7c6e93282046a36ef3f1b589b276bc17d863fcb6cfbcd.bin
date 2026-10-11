@@ -1,0 +1,21 @@
+)]}'
+{
+  "commit": "74214dd8855295bf94d0abf938e8a480df01d591",
+  "tree": "0c5da409e40e979f30bb6b02de0b21b3c6c1ebd4",
+  "parents": [
+    "b2dcba37aea417626ed77a230e961f405d893c4c",
+    "d40f471c87f5b6d871345d483a230d56b9397404"
+  ],
+  "author": {
+    "name": "Himanshu Choudhary",
+    "email": "hiichoudhary@google.com",
+    "time": "Sun Oct 11 00:18:00 2026 -0700"
+  },
+  "committer": {
+    "name": "Gerrit Code Review",
+    "email": "noreply-gerritcodereview@google.com",
+    "time": "Sun Oct 11 00:18:00 2026 -0700"
+  },
+  "message": "Merge \"Speed up node queries in runWithoutImplicitWait\" into androidx-main",
+  "tree_diff": []
+}

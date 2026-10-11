@@ -1,0 +1,238 @@
+{
+  "archives": {
+    "ui-geometry-1.1.1-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/compose/ui/geometry/CornerRadius.kt",
+          "bytes": 5695,
+          "sha256": "98ba83f20cd0e2229ff6a298ac2c0bbe528de61c6b57346c18954a686f2f34b1"
+        },
+        {
+          "path": "androidx/compose/ui/geometry/GeometryUtils.kt",
+          "bytes": 1750,
+          "sha256": "576a5c2f40c24a6476f39c42636b435a7f317da3e558362e2a322772140ebf3b"
+        },
+        {
+          "path": "androidx/compose/ui/geometry/MutableRect.kt",
+          "bytes": 3316,
+          "sha256": "447059febd9db349dccc50a8b2811145cef65e4e7de9d96bc51978f623b22aac"
+        },
+        {
+          "path": "androidx/compose/ui/geometry/Offset.kt",
+          "bytes": 8711,
+          "sha256": "5706f0298d7dc833028cf594a7adb0bca74596d69673eb23d65ceebd3e8a790c"
+        },
+        {
+          "path": "androidx/compose/ui/geometry/Rect.kt",
+          "bytes": 10113,
+          "sha256": "71f33fcdf7d1313af5cd254aae18115a8eaa178fcf2393b8cde354412ba0aaab"
+        },
+        {
+          "path": "androidx/compose/ui/geometry/RoundRect.kt",
+          "bytes": 16295,
+          "sha256": "15708dc0760d9c4aaf9398084a30a2548e52ea0e3303d2b032eb384787af648b"
+        },
+        {
+          "path": "androidx/compose/ui/geometry/Size.kt",
+          "bytes": 6841,
+          "sha256": "d9a71443fcedb5362428b8cbe70ca518b51576e8ac4ccb0ec2c91e424d50fa38"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/compose/ui/geometry/CornerRadius.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/geometry/GeometryUtils.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/geometry/MutableRect.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/geometry/Offset.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/geometry/Rect.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/geometry/RoundRect.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/geometry/Size.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "ui-geometry-1.1.1.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 888,
+          "sha256": "d6958ac39e1230bd2020b990bd9073aeb42f22b006dce7ceb1a1a24d657fe3cd"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 97,
+          "sha256": "eab031b3d62072a31ac4c3dc038ea9aadce41d0177a68317d8672376c77216b5"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "baseline-prof.txt",
+          "bytes": 260,
+          "sha256": "a5c9c763ab34bc10e20d633db82e7c4daad4b49a8d7c240765c1cd167681ae43"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 37451,
+          "sha256": "e5e4f24bb4ab7d6b657bde453036def66981d1ef73bd944ba1c27a2a180b0ff1"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.compose.ui_ui-geometry.version",
+          "bytes": 6,
+          "sha256": "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989"
+        },
+        {
+          "path": "classes.jar!META-INF/ui-geometry_release.kotlin_module",
+          "bytes": 143,
+          "sha256": "5f42b8b059b0bac334c494fa97717bd758a4caa95709ab71188c24c7122c4411"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/CornerRadius$Companion.class",
+          "bytes": 1254,
+          "sha256": "3311181614fea8077143ccea961747a550bcb76775182e4bbb444844b3f28ca0"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/CornerRadius.class",
+          "bytes": 5807,
+          "sha256": "c91d31ece30e24b70c5049c672679b77b7b8a645698b6f17cbea26f416061b53"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/CornerRadiusKt.class",
+          "bytes": 1784,
+          "sha256": "d5e70e206a07cc7c1fc7cf2434fc7d70ba9a1fcca7a5db8758b6ebc43607efb6"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/GeometryUtilsKt.class",
+          "bytes": 1140,
+          "sha256": "1603ca670cd71d7b4b6afb1ed982cd7a62e8b64a5babef62690cbb32a241e91f"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/MutableRect.class",
+          "bytes": 4215,
+          "sha256": "e44d85413525a9274d348658a892d8442ef35bbce9b17b911a346359b5036adc"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/MutableRectKt.class",
+          "bytes": 1128,
+          "sha256": "47d8fb0f9eaabb62630dca15f01454715945fd52254f054e8d02b9b604152f00"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/Offset$Companion.class",
+          "bytes": 1760,
+          "sha256": "8ccb4e2d8755b42e4edbcb04f3edba1a14c3704c3cb1376cd537579b2f512f43"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/Offset.class",
+          "bytes": 6809,
+          "sha256": "a6a4d172e3dd12994cb3b0f887d03098940fa58f4c2b7738da00e1559f8abab1"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/OffsetKt.class",
+          "bytes": 3586,
+          "sha256": "799bcca12a87497f4d3f2498a2a48c2bc4416849af76ae3e3779ed68965234e8"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/Rect$Companion.class",
+          "bytes": 1241,
+          "sha256": "aa9d271bc1c2c654e9ec026c2350dac7bcfe65cb676f77c789e488e5cb47ef5d"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/Rect.class",
+          "bytes": 9299,
+          "sha256": "919d965ff1e91dbd5f8b186e46306c52cae1d78b01c9ab211ffbc72557853444"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/RectKt.class",
+          "bytes": 2359,
+          "sha256": "e7bc8964fae398d7d44486033c0d7333f87967880257b3bece085b0839885821"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/RoundRect$Companion.class",
+          "bytes": 1260,
+          "sha256": "c658c140ff9bfe3f700be00fbc0903e9e4520ec66628ee74a98a97e0458bf1c6"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/RoundRect.class",
+          "bytes": 9896,
+          "sha256": "f4ea222b529d1abb6c926b158ed4584260bc2b11742310635fcffd5db4971729"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/RoundRectKt.class",
+          "bytes": 8254,
+          "sha256": "b152e8c2d8c3bc5c28614d84d314aadc489829a35e076874ee964052cd4a9561"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/Size$Companion.class",
+          "bytes": 1488,
+          "sha256": "85cb3390cfecc4f50b7e04941a51f378a5e782461d2d5b288bce56869b868e64"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/Size.class",
+          "bytes": 6397,
+          "sha256": "c166bc96278fbb0d834fc18c5d5067b5414a0de733db6b5657dc487378838a9e"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/geometry/SizeKt.class",
+          "bytes": 4833,
+          "sha256": "d161b340067d742675296ed5d81ab02b2d0c5ba26f2f6e60e310ec20ab4c340e"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 63,
+          "sha256": "0aed495e21a70cab045e3b4792a02f2c7ad68fc1687d73474a09db0b269bc041"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

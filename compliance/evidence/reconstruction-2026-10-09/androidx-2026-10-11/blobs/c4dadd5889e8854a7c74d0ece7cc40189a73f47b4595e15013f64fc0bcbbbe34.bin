@@ -1,0 +1,135 @@
+{
+  "archives": {
+    "ui-util-1.1.1-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/compose/ui/util/AndroidTrace.android.kt",
+          "bytes": 990,
+          "sha256": "9b8e0170bfa25d2ee8748bb67669860772426964bf48274bc70e1216c1cdbecc"
+        },
+        {
+          "path": "androidx/compose/ui/util/InlineClassHelper.kt",
+          "bytes": 1830,
+          "sha256": "34ffadf5d59fb9a05347d278bf5b82d44205d3c8d4b4239e0e0dfc31f3407940"
+        },
+        {
+          "path": "androidx/compose/ui/util/ListUtils.kt",
+          "bytes": 6740,
+          "sha256": "4af38d4f1902f064d530d1b9e5322dd8fe28ecc54d4e9d8968ab84fbf6e0d011"
+        },
+        {
+          "path": "androidx/compose/ui/util/MathHelpers.kt",
+          "bytes": 1386,
+          "sha256": "c8278a0c13ccbb9904dcd1d3a4cac80f7e4f1e82a102b3595c48d20b14ee6433"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/compose/ui/util/AndroidTrace.android.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/util/InlineClassHelper.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/util/ListUtils.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/util/MathHelpers.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "ui-util-1.1.1.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 884,
+          "sha256": "0fa0ce0cecccc972529f6a230ae7ac2446f2e4d5ac7c70329d01004c40a4c9dd"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 97,
+          "sha256": "eab031b3d62072a31ac4c3dc038ea9aadce41d0177a68317d8672376c77216b5"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "baseline-prof.txt",
+          "bytes": 198,
+          "sha256": "fd860f10c0c47c5f28762d5b297269919cd49d2c9a2d58f222da8400a1fa3573"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 6513,
+          "sha256": "f8392844266725dfbf88381471cf2ebb1ef79887fc74ff3266d647a3c85b64d9"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.compose.ui_ui-util.version",
+          "bytes": 6,
+          "sha256": "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989"
+        },
+        {
+          "path": "classes.jar!META-INF/ui-util_release.kotlin_module",
+          "bytes": 125,
+          "sha256": "00adee669b775d9cc5bddbf87cb2fb352e1f91f932c0020ad0cba4dccfc7187f"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/util/AndroidTrace_androidKt.class",
+          "bytes": 1526,
+          "sha256": "6cfa23a2645158f5e68cb53f94d5e9e346f71c23ea8dbfabc47b964d5f30150b"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/util/InlineClassHelperKt.class",
+          "bytes": 1589,
+          "sha256": "d4ddeb30b4a7909b1986aad96d98f209b4f61977845a4e1e641fe16a3857d2b2"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/util/ListUtilsKt.class",
+          "bytes": 7938,
+          "sha256": "b586eeadf0a6fe4d4f0a3a731056b5963744ffa2ae684782bc9148332ef829b7"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/util/MathHelpersKt.class",
+          "bytes": 919,
+          "sha256": "8a05ef9325d518fa2c63c3a74ce322df991e6c51a601ce2528c2378eeeca22dc"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 63,
+          "sha256": "0aed495e21a70cab045e3b4792a02f2c7ad68fc1687d73474a09db0b269bc041"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

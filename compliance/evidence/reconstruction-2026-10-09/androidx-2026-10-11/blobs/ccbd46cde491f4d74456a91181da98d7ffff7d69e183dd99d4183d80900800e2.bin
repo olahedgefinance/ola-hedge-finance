@@ -1,0 +1,144 @@
+{
+  "archives": {
+    "datastore-preferences-1.0.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferenceDataStoreDelegate.kt",
+          "bytes": 4621,
+          "sha256": "6b25df8f3edca51d4c4f568985b7b08b7b1e4a433ec8154fb4807cce48468354"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferenceDataStoreFile.kt",
+          "bytes": 1454,
+          "sha256": "6dc35c63a81ea64af34d9522903ed44f52f3e76d4e7187aef7752e5c330dbbcd"
+        },
+        {
+          "path": "androidx/datastore/preferences/SharedPreferencesMigration.kt",
+          "bytes": 6556,
+          "sha256": "a4ee4bcaa686b60f4d8988e730fedc0906b36d20784fe62cd330e578cbd1c5f2"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/datastore/preferences/PreferenceDataStoreDelegate.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferenceDataStoreFile.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/preferences/SharedPreferencesMigration.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "datastore-preferences-1.0.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 860,
+          "sha256": "3a2e90079e019a94676334c979a02a0981233c68c40ef33f2c25a0781170e568"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 61,
+          "sha256": "aff190abb063d3b77fe4a1c4cd3ffda852c5b25d79e0d3de296c62baafc39a11"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 16031,
+          "sha256": "6911d16553c0c21de7969142642b562408a3304eae5496e25b94364cb04f4034"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.datastore_datastore-preferences.version",
+          "bytes": 6,
+          "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        },
+        {
+          "path": "classes.jar!META-INF/datastore-preferences_release.kotlin_module",
+          "bytes": 144,
+          "sha256": "59ba1f4f7f3a2df7a51510f05bb83d4c059b35752d37c21ff2a87737946b6363"
+        },
+        {
+          "path": "classes.jar!androidx/datastore/preferences/PreferenceDataStoreDelegateKt$preferencesDataStore$1.class",
+          "bytes": 2287,
+          "sha256": "e2227a0a0d629329af69e0de86ab11ebd0d3eff0f6c1ca627e1f373400067c66"
+        },
+        {
+          "path": "classes.jar!androidx/datastore/preferences/PreferenceDataStoreDelegateKt.class",
+          "bytes": 3759,
+          "sha256": "72287682e111c8c9bf32f752784db234019b6249e046230281a16905d1afd5f1"
+        },
+        {
+          "path": "classes.jar!androidx/datastore/preferences/PreferenceDataStoreFile.class",
+          "bytes": 1230,
+          "sha256": "b110201de52744e336cd9f781e61751f8455fa42af0880223fa949705903dc14"
+        },
+        {
+          "path": "classes.jar!androidx/datastore/preferences/PreferenceDataStoreSingletonDelegate$getValue$1$1.class",
+          "bytes": 1998,
+          "sha256": "2badc7c7679b7883462b8928ee1b683f7d07c6ba152a88ad0aa5a8a2c329a752"
+        },
+        {
+          "path": "classes.jar!androidx/datastore/preferences/PreferenceDataStoreSingletonDelegate.class",
+          "bytes": 5430,
+          "sha256": "12c33d531fa1866a62fd9f11ff3f959eb2c72c4b5eac994b3270a4b652e9e11c"
+        },
+        {
+          "path": "classes.jar!androidx/datastore/preferences/SharedPreferencesMigrationKt$getMigrationFunction$1.class",
+          "bytes": 8064,
+          "sha256": "dff237f11f89839c0b8612c9de5a0d5ac0cf5bde095a60477986360c1a32654a"
+        },
+        {
+          "path": "classes.jar!androidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1.class",
+          "bytes": 6084,
+          "sha256": "5838a36e9a9020c95d2dfa543f392754b45c80459e8b072a5987342351024489"
+        },
+        {
+          "path": "classes.jar!androidx/datastore/preferences/SharedPreferencesMigrationKt.class",
+          "bytes": 6188,
+          "sha256": "a110d54c1fa1c15182ab66ff75c1f57f10053d6dff23674578e04467d158e185"
+        },
+        {
+          "path": "proguard.txt",
+          "bytes": 112,
+          "sha256": "3a69ec4e0bb193bca418f0937b7207a1b250ca1dac197f7ca4cacb6bf262ffe4"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 63,
+          "sha256": "0aed495e21a70cab045e3b4792a02f2c7ad68fc1687d73474a09db0b269bc041"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

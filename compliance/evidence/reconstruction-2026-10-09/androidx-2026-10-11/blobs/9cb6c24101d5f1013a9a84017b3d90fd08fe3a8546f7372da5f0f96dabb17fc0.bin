@@ -1,0 +1,3443 @@
+{
+  "archives": {
+    "datastore-preferences-core-1.0.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferenceDataStoreFactory.kt",
+          "bytes": 4394,
+          "sha256": "ab1b4e3f81bdba35a8390cb28eabc2f4ad90b59f0732680650d5b4db8b31d5e8"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/Preferences.kt",
+          "bytes": 11199,
+          "sha256": "504008c1665f6d66b21bc7f4bdc85bbe2361b9569f64dd2833e0c8edd3894190"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferencesFactory.kt",
+          "bytes": 1872,
+          "sha256": "e09a6c7adf98681f551e5e495f51b6e38153d668bbb79a671e0072d32ece4d47"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferencesKeys.kt",
+          "bytes": 3821,
+          "sha256": "bb082a5a15465e9a2201f4cd57195f43e266dfffbdfaa302b836ecb4af26cf10"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferencesSerializer.kt",
+          "bytes": 4426,
+          "sha256": "cba51bebc3ca68683e1193c6514c162db1bac9ad09b67a7e28ec15d3668c8c65"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/datastore/preferences/core/PreferenceDataStoreFactory.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/preferences/core/Preferences.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferencesFactory.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferencesKeys.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferencesSerializer.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "datastore-preferences-core-1.0.0.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "META-INF/datastore-preferences-core.kotlin_module",
+          "bytes": 115,
+          "sha256": "ddebbca2914c1e8ee86a6ab4104ad0f278170ad19d13b985f070b4f6cadc2082"
+        },
+        {
+          "path": "META-INF/datastore-preferences-proto.kotlin_module",
+          "bytes": 24,
+          "sha256": "98a724a2e62fe7159ccae94cee7063f82cc5adbd5d206c96bd420920f6640bd8"
+        },
+        {
+          "path": "META-INF/maven/com.google.protobuf/protobuf-javalite/pom.properties",
+          "bytes": 146,
+          "sha256": "1d359df420239c7111b14bf8aeeeb0e33f66e63f0000a64d97fac7b8aa55e48e"
+        },
+        {
+          "path": "META-INF/maven/com.google.protobuf/protobuf-javalite/pom.xml",
+          "bytes": 14974,
+          "sha256": "a508f00cbe01382342b4abec494aa37ae9377b3713fa8a120297091d0e85a35b"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferencesMapCompat$Companion.class",
+          "bytes": 2083,
+          "sha256": "6d0f8f82aa4275e6e4ecdf5840f88131329b84ed14542ca947a1d0cf78154b73"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferencesMapCompat.class",
+          "bytes": 957,
+          "sha256": "2a93ca3c27679910c210295f31a1eae3af5be4181ff2609aa222422004a55f4f"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferencesProto$1.class",
+          "bytes": 1298,
+          "sha256": "7f043f514858e83bd1bbfbc50c1492ad7313ef9fe1bbee466359ba4f5b837ae2"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferencesProto$PreferenceMap$Builder.class",
+          "bytes": 4979,
+          "sha256": "76d715a0e146b2bc2d8493b7195ddeea4f617f61b4bb16226a27158f05fb2917"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferencesProto$PreferenceMap$PreferencesDefaultEntryHolder.class",
+          "bytes": 1677,
+          "sha256": "a5bfea693ab45046b8c109f8de439af952d5eb2d45304ca657c6b255343b1e41"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferencesProto$PreferenceMap.class",
+          "bytes": 12323,
+          "sha256": "0721a0622377ee7c498df7585413cf6eb6cc14af6c781969c75b7a92a266c78d"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferencesProto$PreferenceMapOrBuilder.class",
+          "bytes": 1066,
+          "sha256": "103a9480ca3ddd55087d74ee2efd54d04539d461c036294b1f709666f2241d7a"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferencesProto$StringSet$Builder.class",
+          "bytes": 4144,
+          "sha256": "a5161d2b9d7e8ade20b1a929871d0a438cb99eef8a0946cbcd40ec292af22bc9"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferencesProto$StringSet.class",
+          "bytes": 12721,
+          "sha256": "1915d364111e34e11380989caddab7e04acbcfc5a0bac7da0982407dce729020"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferencesProto$StringSetOrBuilder.class",
+          "bytes": 604,
+          "sha256": "4854b4b67127db7a6fab0e1a2b3eb68251492b6c45230ee346879e905ae98807"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferencesProto$Value$Builder.class",
+          "bytes": 7644,
+          "sha256": "edef8278532a89af32429d3178a9d637f40e8435e3c57f54e8b681c0ae08d98a"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferencesProto$Value$ValueCase.class",
+          "bytes": 2330,
+          "sha256": "4ba80696ca5f8596539ae35d55079341922bda30f49d1c938e18b0a3e8a3302f"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferencesProto$Value.class",
+          "bytes": 17430,
+          "sha256": "0ad5bc89a7b74e0f9a1732b547e7e519dc32a71d5bc32e1d254af0f7dfeb5212"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferencesProto$ValueOrBuilder.class",
+          "bytes": 1151,
+          "sha256": "ef00c976d32b2dc50b5bd693ee790a999ff361724d8652a617f813ea442d30c3"
+        },
+        {
+          "path": "androidx/datastore/preferences/PreferencesProto.class",
+          "bytes": 1250,
+          "sha256": "f09e644ebd4bfd554d553d1e0ef5dd90906fe98f5ae0ebc4256414fd7d7c5c2b"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/MutablePreferences$toString$1.class",
+          "bytes": 2271,
+          "sha256": "102b8b19c3fa3c4cc6ba22b517dcd00eb93e97e9b76bbff1aa84beb519a43c7a"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/MutablePreferences.class",
+          "bytes": 8574,
+          "sha256": "b6bf6d99b3201b1acbdc52651835db1cba36d22ceb8b1e9047b3743cf1cf35eb"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferenceDataStore$updateData$2.class",
+          "bytes": 4178,
+          "sha256": "4ab409d8bd71d5f367d6d506dc70ac96ded2460e6b7cb212d5403785311cf37b"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferenceDataStore.class",
+          "bytes": 2821,
+          "sha256": "c1d24f8f79c547c1b7b92d48907bbb13c25f23001c0e2574d6cebfeb662dbe91"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferenceDataStoreFactory$create$delegate$1.class",
+          "bytes": 2640,
+          "sha256": "e37c63b06e82833667698a5cba0ab19fc43fe2074b6283b648be26a07ff4ba9f"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferenceDataStoreFactory.class",
+          "bytes": 5915,
+          "sha256": "85980a2cecdfbef6120b2517c04fc81d946260b3653c273d932e12182f6a818f"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/Preferences$Key.class",
+          "bytes": 2312,
+          "sha256": "0ab38dfc6671368ea2e7418aee90b4bb24f12869102766db64bd5d31f20875e1"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/Preferences$Pair.class",
+          "bytes": 1867,
+          "sha256": "28a3190bc0a050f08c4e127a0791636b2bcbec29deba941fc8cc536944d0338d"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/Preferences.class",
+          "bytes": 2257,
+          "sha256": "58a06c7b8a8d1a4d8413d712c084768043c238358e5d0d6e6170b7b9a5f3c0ae"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferencesFactory.class",
+          "bytes": 2777,
+          "sha256": "339c6b5ecced4f5fec1247ba93f55d0ad785ee60505b91d4cee6599f5104ce1b"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferencesKeys.class",
+          "bytes": 2997,
+          "sha256": "8cedd88b3ec24777f634310c25085e2e095491432ee9529a31cc320b9349355d"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferencesKt$edit$2.class",
+          "bytes": 4560,
+          "sha256": "e1a530d541ed17189c6a1ef94a11d6dc5f6dae28b1075f55d100760055e2cb4a"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferencesKt.class",
+          "bytes": 1944,
+          "sha256": "df7912f3f67c5388c0e883156292f799efc292da4a9f018f88aeda001cb62c0c"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferencesSerializer$WhenMappings.class",
+          "bytes": 995,
+          "sha256": "d6964096de747e3a34f008592e055452c282ed04b07f16b551b187c5a8cdc161"
+        },
+        {
+          "path": "androidx/datastore/preferences/core/PreferencesSerializer.class",
+          "bytes": 11562,
+          "sha256": "f3923238b61838b5be10822694a726e9d024cc7a55e7f6cb28d0b162cc5313da"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AbstractMessageLite$Builder$LimitedInputStream.class",
+          "bytes": 1568,
+          "sha256": "79d8d6a60f76af5689358cf9328b4adb5e9ddb5cc28b85331ad17161c3ec3089"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AbstractMessageLite$Builder.class",
+          "bytes": 14175,
+          "sha256": "4efe8ba1b1a811c1aead150f0843afd8ca994d251391af71f390dd456cf04323"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AbstractMessageLite$InternalOneOfEnum.class",
+          "bytes": 319,
+          "sha256": "98ea4cfbb90ee20f35bd82d89fec08fc5018295234c562b3fa9dffd05789cee8"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AbstractMessageLite.class",
+          "bytes": 6018,
+          "sha256": "d04d084628b6b56c410ef894b3671b1869015b9113d91596e0e5763585d90cf2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AbstractParser.class",
+          "bytes": 13778,
+          "sha256": "5e1968496dca6e7325c7e381cf7bf2cc65d83a2e65b6bd58bddd575d81a6ca95"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AbstractProtobufList.class",
+          "bytes": 3752,
+          "sha256": "29e42e10001945167856e2aebfde54049d61e753257d2d4126d4859665800570"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AllocatedBuffer$1.class",
+          "bytes": 1539,
+          "sha256": "39764edd3cfa79933c9eae76010eef9eed004a08243e6867228d23ee450ee2fb"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AllocatedBuffer$2.class",
+          "bytes": 1854,
+          "sha256": "182e825ecc9902124b9b225b1f2b7760e15edaf20e9699174b7b5af6c1aace8e"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AllocatedBuffer.class",
+          "bytes": 1986,
+          "sha256": "fe62db26fa4eed6f45a0645572a64556772636185572e3cb2c7e01f5914388d9"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Android.class",
+          "bytes": 1204,
+          "sha256": "8ddf0f879805b73c82f4ff2e6c2fd7c309b8836c32f16468c32b1e98693cc2c3"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Any$1.class",
+          "bytes": 1277,
+          "sha256": "06f062c3f51cafb8de1690de24e8509c4720dce204aec61a906d5d4bc9773b02"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Any$Builder.class",
+          "bytes": 2881,
+          "sha256": "2167d8621590bbac412b40636ba74b7b36fc3e592dacd3bf0fbe056b4da4e58f"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Any.class",
+          "bytes": 10686,
+          "sha256": "aebc01b67f9ed4a84ff5796a42e76e8670df2a3eb9a96bf054e7be1bbc7ebcaa"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AnyOrBuilder.class",
+          "bytes": 359,
+          "sha256": "b01ea38016850c80a893dc5fc523ce993a29bc034304bed4f7504552f499be69"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AnyProto.class",
+          "bytes": 606,
+          "sha256": "f7bf0855957bd900191d7470ad657fb04ad7f2c79b378e08e509fed051b0ec02"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Api$1.class",
+          "bytes": 1277,
+          "sha256": "8b07d587a2a92a82d764211948ad81b1924fb7355a3dba72c8ea3865086ea257"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Api$Builder.class",
+          "bytes": 14558,
+          "sha256": "18ac350f83f5d57fedac6bcad6b8b38cee9cd074701804371830ab0aec288cc0"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Api.class",
+          "bytes": 27708,
+          "sha256": "b370c2046ebeec9df811af430050a5dfeefca06b78a3b963908decba6428cb5b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ApiOrBuilder.class",
+          "bytes": 1248,
+          "sha256": "77752e046c601687a5a8281db77a9f42e3078ad417048698af7b023a634c84d0"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ApiProto.class",
+          "bytes": 606,
+          "sha256": "fc60a63bb717a5b030ac54bc574f4f88c65493fdb6b42c20fba5cc0688bbfc54"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ArrayDecoders$1.class",
+          "bytes": 1667,
+          "sha256": "4dba5f19517ff4a79df63a936d3fd279b7554a3fcd8ee8a6bb5296da6b12a714"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ArrayDecoders$Registers.class",
+          "bytes": 1078,
+          "sha256": "b19d3088734ce9dd9b40752a65dd903cd924b53af8f3d7c18828ca857b440529"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ArrayDecoders.class",
+          "bytes": 26409,
+          "sha256": "a7be7deeb6a53287b781a89369443b05a908ac30857f6872254ad4cc4533344c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryReader$1.class",
+          "bytes": 1617,
+          "sha256": "7d9ddf3193a0fc81a6189ca88893401c0b133149c9c332147de4adfcd49dfa70"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader.class",
+          "bytes": 28925,
+          "sha256": "871f5c517f4ca9d778af5e28f0354e1e0c1039c81a6de23e5e1d5834ec18d448"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryReader.class",
+          "bytes": 1497,
+          "sha256": "12aa0bc06cc81566f622eb45503af3220978cc42f0f4d19b522cf4ea78602bed"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryWriter$1.class",
+          "bytes": 1617,
+          "sha256": "c57993644b85955b6164d63640404e6e57163b13dcf2fcc3c3a068969a880b0b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter.class",
+          "bytes": 13138,
+          "sha256": "b37338898ab52dcac4fe5a7e7c669948fe9fcfe8be0f5fad9dcefef1f59f0238"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryWriter$SafeHeapWriter.class",
+          "bytes": 14002,
+          "sha256": "406bfa5d52593559e06923e0e1c93d69772e5c701d831d0a7d5b5f62e3a56592"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryWriter$UnsafeDirectWriter.class",
+          "bytes": 14195,
+          "sha256": "6d0fa1ea2c1baf7f25a3313a20f10bfcf72acc50e831d0036afbd07c38596788"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryWriter$UnsafeHeapWriter.class",
+          "bytes": 14704,
+          "sha256": "66ac6b661604792957dd4e3e53992223cb677e60b5931899cb22d25ca83c4479"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryWriter.class",
+          "bytes": 24139,
+          "sha256": "af89cadd66d63aac3eaefc61d5dc32329fb5562a1031adb39de4037e0380108c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BoolValue$1.class",
+          "bytes": 1295,
+          "sha256": "11a78fd98eeb0df4e272ba943b710e6c7e96543fb4e0397bc81fdee728d17361"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BoolValue$Builder.class",
+          "bytes": 2022,
+          "sha256": "303f611ba8a4b142612a6963d9fdd9b0f5c64ca8e6253dd1665fa681a2f37500"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BoolValue.class",
+          "bytes": 9673,
+          "sha256": "98c4162de4b392ea0261b6377981c03589f805204a106911d203c9aa087a2d91"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BoolValueOrBuilder.class",
+          "bytes": 250,
+          "sha256": "6477a04680a3d01d43c924120df7417cb12e2214e05cf30e23bfcb7c34e68957"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BooleanArrayList.class",
+          "bytes": 6574,
+          "sha256": "6e1ebcbab21e6edee8b00065741408bfdbcfbea1f691ec1b34b9b440ebb7fe33"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BufferAllocator$1.class",
+          "bytes": 1035,
+          "sha256": "c4dccf425d180389744f05995f6fece94e96d5b9414c5c4cfb8dc379cbf9b0d3"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BufferAllocator.class",
+          "bytes": 776,
+          "sha256": "79df6a35d11d8430f93670679773c1471caba0e936800a17dd831de2b3a5574a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteBufferWriter.class",
+          "bytes": 4216,
+          "sha256": "9109ffc88fb9de4d1b74d50f3f2e486fc52f57439070446908521ed59c70f449"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteOutput.class",
+          "bytes": 527,
+          "sha256": "5d63b8675ef4e274334708e27933e24b53e93a6a7fe21ce18af2c424f8813049"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$1.class",
+          "bytes": 1333,
+          "sha256": "f0b58190683d59a080d092780fcf461af640847ad58d409b7aa979c1d5f800d6"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$2.class",
+          "bytes": 1602,
+          "sha256": "ce0cd85f0bda6a09ad88fe909de5aac6f6a6736b33b31b99b746e0e6eed4433a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$AbstractByteIterator.class",
+          "bytes": 979,
+          "sha256": "a443fd47da3f75f02031db6f72b442ac6929cef68c10b5e62bee92da5b145ca1"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$ArraysByteArrayCopier.class",
+          "bytes": 1050,
+          "sha256": "19809343c6e9e14a850539dbe60582ad901691571b2366382e8486a606ff25ec"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$BoundedByteString.class",
+          "bytes": 2106,
+          "sha256": "f181266fe6dd90c37cf88d678689bd7c54589d72bfa4cb50d14b91f978e2972a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$ByteArrayCopier.class",
+          "bytes": 292,
+          "sha256": "9fb07d0b4522891f1b9a8660c5523bd4f96c5c981c97333e347ef063bcff19e0"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$ByteIterator.class",
+          "bytes": 386,
+          "sha256": "b620c6aa9996d7f22a37c5da9bf7cfb94260540d1d7f6f21850b5bbafef202f3"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$CodedBuilder.class",
+          "bytes": 1516,
+          "sha256": "01eaadde53157439e327e1e35e905ba395b82e305b4e36776b27e64b7e9edeb4"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$LeafByteString.class",
+          "bytes": 1241,
+          "sha256": "b633e515c0086b483fd1cd1071ff941b215b3ec21df4520b88e5cb3d03b97580"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$LiteralByteString.class",
+          "bytes": 6030,
+          "sha256": "63540a87abb5dca7ba2408c5d9d020573af4a192a02c1aa715a3efc3c89f59d3"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$Output.class",
+          "bytes": 4086,
+          "sha256": "7bd473eb3df82aaa0efb791085f5f9902af6551cf06a735f8153202f8a6e2dd2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$SystemByteArrayCopier.class",
+          "bytes": 1126,
+          "sha256": "704b112de09f6f2844405b9da2f29a88cecf3963c7d8802085861aa4d7ccdfaf"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString.class",
+          "bytes": 14010,
+          "sha256": "adcf8e0a6710df8901b58a6c5c20df1a11682f699a1131dc67fcffd160a495ca"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BytesValue$1.class",
+          "bytes": 1298,
+          "sha256": "cde0fd16798fe737b86d6e7fec6942e824640572ae5bce0a6cdbb55ec2b471e1"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BytesValue$Builder.class",
+          "bytes": 2242,
+          "sha256": "f1842a03d16f1a9eea9713cf2d1cc5828302bf24fbf2ac2f0aa8666c6e26b7c1"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BytesValue.class",
+          "bytes": 10025,
+          "sha256": "2964ea5fa72bd76683fdd722a224ed465f24b091c55d56dde5e676c64cc4f66f"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BytesValueOrBuilder.class",
+          "bytes": 303,
+          "sha256": "bdd37de4f4f31c3d40092bb76e75e187e97fa9ef22b035cfb05463e866fb2ffa"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream$1.class",
+          "bytes": 276,
+          "sha256": "a583e30682188599528b19e3063ac6edd66d5d32a7ae94643b8fa284b3acf2c6"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder.class",
+          "bytes": 14882,
+          "sha256": "15e70dbcdc273204cdc9773d9611d31691ec6c26f17d92f620cc7056a1ad47db"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder.class",
+          "bytes": 17970,
+          "sha256": "85a9359ef2477d42935b8ae19a8275b1cc0d8667ea15e3bc4fc8fc923c78bf2a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream$StreamDecoder$RefillCallback.class",
+          "bytes": 417,
+          "sha256": "304685923c2a184002c17cac0ad6bd20cff875baace8ef8f8e2e07304c470055"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream$StreamDecoder$SkippedDataSink.class",
+          "bytes": 1808,
+          "sha256": "06eadecbbd6482c358699d8ee7cd8f285687d20899e9541c4213b862db9da354"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream$StreamDecoder.class",
+          "bytes": 20549,
+          "sha256": "ae6dffe77867317fb9ea69925baa596ab2d37710cf87d2302fc9ac7dfa9970c9"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream$UnsafeDirectNioDecoder.class",
+          "bytes": 16122,
+          "sha256": "d01cbf4ba4edf98e3cb19c2ae6ba5fe748e4d12ca8ddc328cc2ab3ddfa9a2787"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream.class",
+          "bytes": 10156,
+          "sha256": "d79ade5882bea95fef34b320162f7b3ac0c82c2e0411a6f5a155483f254c6e29"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStreamReader$1.class",
+          "bytes": 1647,
+          "sha256": "d9b76a82f7e5a979b0cbd286517a5b20c2137cc797d1c5ff099a8e4448bf9089"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStreamReader.class",
+          "bytes": 25127,
+          "sha256": "2adee763882470395b12662a82eaec0ba2a5d0a7809a2d837297ec62ef40de00"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$1.class",
+          "bytes": 279,
+          "sha256": "4713753db4f15ba43735778ec4542653c812f50aedd6e03df7fdfc53c505cb5a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$AbstractBufferedEncoder.class",
+          "bytes": 3318,
+          "sha256": "c49bd6d91f5a672361adbd352b418f2fb730b548eae495c263cfc6ccfa026146"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$ArrayEncoder.class",
+          "bytes": 10914,
+          "sha256": "f8c228ac018bee9bdf62532d43d6112b79f301dc1457b4818f4a3591d9cf066c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$ByteOutputEncoder.class",
+          "bytes": 9329,
+          "sha256": "b49580aaa10257ab65409869bcc5d564aa0dd798070fa10998b5228831de082b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$HeapNioEncoder.class",
+          "bytes": 1049,
+          "sha256": "e432b82bb65e366217cfd9d629f61073a7e76ee518e2448453b3a46d63026577"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException.class",
+          "bytes": 1376,
+          "sha256": "d899bdebbb26f3f1594da26c46c473225f44dd417a111f18d3a5faf4df33ddba"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$OutputStreamEncoder.class",
+          "bytes": 9828,
+          "sha256": "5e8df2f950c803e5a63dcbe53703439d4886c10a4f1da9cfff7f6110f62a3dd6"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$SafeDirectNioEncoder.class",
+          "bytes": 9669,
+          "sha256": "a740c4eb06c6e4925e31b09595770adc137370e9a0f918520c5ead809ec69c73"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder.class",
+          "bytes": 10814,
+          "sha256": "e15211328457348be115a12b50d4b5777b1425847519a543c441dde4133141aa"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream.class",
+          "bytes": 19651,
+          "sha256": "31c8f022b72585ec6d8688a85950ce625d56e425f39d28292c123a33f8547e55"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStreamWriter$1.class",
+          "bytes": 1413,
+          "sha256": "4bf0a5afb6e99f83f3626467f910df5abbead071416bda4fb06c5161f79ec970"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStreamWriter.class",
+          "bytes": 21034,
+          "sha256": "e37602170852e7b0f8f9571d2fd08aca9dc770aebfa8421929adfc67d8542d1e"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/DoubleArrayList.class",
+          "bytes": 6628,
+          "sha256": "56a76fd65db166dd9310f3e0a94414794b8b41a4b029c560cc0dad93948d2fe2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/DoubleValue$1.class",
+          "bytes": 1301,
+          "sha256": "cb2bf65a118feb6b1ed04f84ac7812a2dd8b5e4ab325e5384b01be5ce0e8f96e"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/DoubleValue$Builder.class",
+          "bytes": 2054,
+          "sha256": "e37047987f92b26ac6ac0c3b1daf7e45b4200bd3fe3796b434de01b587d507f6"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/DoubleValue.class",
+          "bytes": 9734,
+          "sha256": "4e1b8859b3b636bc18395bd9ccaace028a9ce8a25b515142eece7a4df29a99ec"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/DoubleValueOrBuilder.class",
+          "bytes": 254,
+          "sha256": "8506f13d70f24ec66c01b5f32f032cdf2a36f8b42c904fc487cccc97518f5810"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Duration$1.class",
+          "bytes": 1292,
+          "sha256": "88d8097079ff8fe1d0de9c2db1a359a94c964dacffbbf98d9d6aab16ad0a0d23"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Duration$Builder.class",
+          "bytes": 2472,
+          "sha256": "9f6c8f8e60102bcc591655c704551cabba8dfab26bc1d414041de18f578c6bbe"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Duration.class",
+          "bytes": 9913,
+          "sha256": "2cf938571b82cdd019a9da544e3a50fc8559622b705c6fe542b9df9199f3b729"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/DurationOrBuilder.class",
+          "bytes": 275,
+          "sha256": "a8a54c5047d7331d05a8d6bdc620d9a15259440d956b76bd04312c1b69235315"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/DurationProto.class",
+          "bytes": 621,
+          "sha256": "19d05c32df77aa8afe5ab9f0dbf94f9e79057c76aa7ab3aa53ea6ade9c9c6e07"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Empty$1.class",
+          "bytes": 1283,
+          "sha256": "5cabe200f6f0233034fe93fbb875f69916bc4524aa45a2b732f64432eb7a9128"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Empty$Builder.class",
+          "bytes": 1273,
+          "sha256": "75736068c0721fb59f53c48e4987616404552ea6bc8cde417f3e7c663f347b30"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Empty.class",
+          "bytes": 8582,
+          "sha256": "b235c4e877b13734d478a22a062b12aa7fa67ec2dc3375738c0805c05ac3c070"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/EmptyOrBuilder.class",
+          "bytes": 217,
+          "sha256": "5f6f73f13908e8b719f17d8345319934fe8d241f678ef7513ab936d6c89a4954"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/EmptyProto.class",
+          "bytes": 612,
+          "sha256": "aa5f0517afd48cef8b151408ba1320d81f090b9cf96d3988821c72926e6ff52e"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Enum$1.class",
+          "bytes": 1280,
+          "sha256": "97417e57d63b516624a1db8386f398b5e2d987288d40ed742986c0eaed8ceedd"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Enum$Builder.class",
+          "bytes": 11237,
+          "sha256": "0117b6dc224e969211b9c9a936583de5f0a5b5b4eaf51e3e75509616491676ac"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Enum.class",
+          "bytes": 22885,
+          "sha256": "e742279d907cd60601b1c5ed55cb014b5a8d2764e80f6cc95957ea2880a1e326"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/EnumOrBuilder.class",
+          "bytes": 1015,
+          "sha256": "949aa5efff9021b2e9b35838b4651477d364d5abdb8ae124413ff8dcaba064e2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/EnumValue$1.class",
+          "bytes": 1295,
+          "sha256": "fad200e5b76bfd01356be757ef1b7c3c8a7b5b4141522d2f614a94ccb3b644a9"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/EnumValue$Builder.class",
+          "bytes": 6408,
+          "sha256": "9e10e34eb6aef7184d8af3d9a221b5d19570bd456e49e76ad0b14f67cf23c993"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/EnumValue.class",
+          "bytes": 16056,
+          "sha256": "d20d7a34408a716549c9b0f52daac8a744cb75ecf481bd3b8c68821b7fd2e3a5"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/EnumValueOrBuilder.class",
+          "bytes": 610,
+          "sha256": "a2f5849beffb5312f288197eeeb7ed1f5b9cb60a70eb284007aed130001c8302"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExperimentalApi.class",
+          "bytes": 607,
+          "sha256": "d9ce8c5e7cc9183023a57b6b3f1574f35fac4c07010f6d8327a7f5ccb0e4fa01"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionLite.class",
+          "bytes": 1158,
+          "sha256": "8b0da4f5f49548ffe495216ce7179ee5939ec1b2915d2993cd1904108f39e1bc"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionRegistryFactory.class",
+          "bytes": 2269,
+          "sha256": "f9f12b14732af608491bc9e3751f17ce378c3c5d870e619b52d5edaa3fb68402"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionRegistryLite$ObjectIntPair.class",
+          "bytes": 1035,
+          "sha256": "3bf693bb88c1aa7f8d968746c70c8a59261b8180c94fde965232739a3179e632"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionRegistryLite.class",
+          "bytes": 5699,
+          "sha256": "4ebf0519d1195bc1cc7b4f0a83dce282b112d6edd97717a566ac920db14263d7"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionSchema.class",
+          "bytes": 3363,
+          "sha256": "1de805f65135e67763cab5487f169104de6e55d9464ccfb5294f167867ad12b0"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionSchemaLite$1.class",
+          "bytes": 1685,
+          "sha256": "ace91c45d136653c734d91aa32e72e9f90999c0155c0b647d061b9701eade679"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionSchemaLite.class",
+          "bytes": 17531,
+          "sha256": "bea133c96b9fba266a9c8811fa10c8880641b86963d56d9380d4fa6996cf8290"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionSchemas.class",
+          "bytes": 1831,
+          "sha256": "76abbb854968f829b7f4eafdedd030c84eb3aafc92598c9ec8a4b2a3aff6c4d8"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$1.class",
+          "bytes": 1283,
+          "sha256": "dc3f083cda817fdd5523561e0ab01bb2f3309a7c9716a24373aa1fdc279d075d"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$Builder.class",
+          "bytes": 10791,
+          "sha256": "3579be13c72dbf2b9427d3147c1decae885d544effcb6ddb200888bc97a5559c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$Cardinality$1.class",
+          "bytes": 1261,
+          "sha256": "70bf298a7ed2fdcfcebcea435f13b910c006db7070a848a071aab34d372ea8a0"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$Cardinality$CardinalityVerifier.class",
+          "bytes": 1104,
+          "sha256": "993f4738fa05df5a30cd05f4d9c7dccd4fc77475c8310878dbd401009626cbf4"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$Cardinality.class",
+          "bytes": 3714,
+          "sha256": "99619ad40de23a0ceb1b372d0eb3800ec0092de32246f8e672b1cb5ba069f3e8"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$Kind$1.class",
+          "bytes": 1219,
+          "sha256": "49c48a4492890992c3ebe98e86541d4ce0d51f9d7b420d7e878c7f06a3e9cc78"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$Kind$KindVerifier.class",
+          "bytes": 1048,
+          "sha256": "84709c0f3a2b05b667f5ec9ffbfdf2eb0702da0db7c0f7a36e418edfda160e98"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$Kind.class",
+          "bytes": 5283,
+          "sha256": "2f99e568dddb9f72f9ffab858d997acdd002fe9c86ca499b05d1bbdc412c6759"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field.class",
+          "bytes": 22360,
+          "sha256": "eac416eefdd5a9d827744a97f2da375aee535e9732510e9972e95e5a93e7259f"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldInfo$1.class",
+          "bytes": 876,
+          "sha256": "65ec168672364f3677c573c95d528c1c37e7c86f9cf425fe163febad1f82804f"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldInfo$Builder.class",
+          "bytes": 5870,
+          "sha256": "43fb75cfb0170ad1b3ebe8c3f6b75a39d5f7e84abf8887d84649ca40449509f4"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldInfo.class",
+          "bytes": 9384,
+          "sha256": "84fe7cc2b206e757a14a7c78bba8d35bb21fd1f2e6fc9a70d28a1fd20bee3488"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldMask$1.class",
+          "bytes": 1295,
+          "sha256": "3cd61f4ccab0abf2288afd8876f4cc510fefab1b1f290fdf4a12b43286a1555f"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldMask$Builder.class",
+          "bytes": 3865,
+          "sha256": "94208411e90ec0b879d6857d74c07c00675a2b796a28c790827cab0b24053207"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldMask.class",
+          "bytes": 12406,
+          "sha256": "c0968c859c5f2b43195481587a1e618ae8e32c6198f979cc164b0c0031486b4f"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldMaskOrBuilder.class",
+          "bytes": 485,
+          "sha256": "f8fa2176ff2f6e0c39278c7536f7f5d84f548c64843bac84a1e6e245c28c74e7"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldMaskProto.class",
+          "bytes": 624,
+          "sha256": "3108fbc603a897ec870911c3691e40b7ae2d749bf91ed22f0937785002ca1d76"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldOrBuilder.class",
+          "bytes": 1252,
+          "sha256": "84228170cda56314964169db208438c3ac9133f8565d0927f2a8e6931db9f513"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldSet$1.class",
+          "bytes": 2349,
+          "sha256": "ceca8fc4c9568a65a963503f2acbb1e4b44787507c09df5d62b3cbd68ed7f389"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldSet$Builder.class",
+          "bytes": 13526,
+          "sha256": "105c1488f5a24badc89f00c92f68407860dffad225325dcdb2de8bd1bfc2bb2a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite.class",
+          "bytes": 1576,
+          "sha256": "f10b278fc2c7ef0e73a9d951e9473d0b86b54a4b6bff1221ae1dbb6d79c8cc42"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldSet.class",
+          "bytes": 25401,
+          "sha256": "809fff3bc9a0902910fc7de0add8b196508ac2056d829a9858f317cb5a9ea855"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldType$1.class",
+          "bytes": 1279,
+          "sha256": "0f918bae21d15d64b0946107b6457c66d7133712e6cb2c1f084bbf2017fe4a41"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldType$Collection.class",
+          "bytes": 1548,
+          "sha256": "fb9f2ea1356dc6006ba4b24ec35787c64b8d8399c2487f415fe67af6bf26c821"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldType.class",
+          "bytes": 10438,
+          "sha256": "12368f0aa3d44106f9da81cd593501e5683b21f086bb16f27ee64387a24329ab"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FloatArrayList.class",
+          "bytes": 6537,
+          "sha256": "998e45a7835f1137388993ee9c8ed77f36a102ad244be221cd4c886589b1f151"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FloatValue$1.class",
+          "bytes": 1298,
+          "sha256": "98eebd47515db049c9614f784ae12ca809ae482e980d803c62efdbf3dda12796"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FloatValue$Builder.class",
+          "bytes": 2038,
+          "sha256": "ef3e6a96a242903384a4b7c566853c5a0e280e5d6534a68ac7f8157e83072a21"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FloatValue.class",
+          "bytes": 9703,
+          "sha256": "12b7b03235373e324f1486f4f6bedfd1f075308137a73a400f82c57c9d99448a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FloatValueOrBuilder.class",
+          "bytes": 252,
+          "sha256": "320e24c811896f09d7c3d10d27299cc0f6247912003ea8cb8580fa029d04d58a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageInfoFactory.class",
+          "bytes": 2210,
+          "sha256": "dfeb0b8d948cc91571aebf717e7b83ce4e0b4f0774faace39c827be18f4e1127"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$1.class",
+          "bytes": 919,
+          "sha256": "bb65240b1b60e9232f34aa083ffb61139fb907c54d90c97f88b5562be83c8407"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder.class",
+          "bytes": 10086,
+          "sha256": "2e73ef797c5828477bb37c2f1d45133933be818e53157bcfb1137b8152f355eb"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$DefaultInstanceBasedParser.class",
+          "bytes": 3319,
+          "sha256": "5252c21693726bae515a533b6f758d9ff10da826df484cf5120760f0be86c35b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtendableBuilder.class",
+          "bytes": 9368,
+          "sha256": "dade17b0577629e524b49a04cf8af10dabdcde64a11275dae6fa8769602a9c89"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtendableMessage$ExtensionWriter.class",
+          "bytes": 3986,
+          "sha256": "6419b052847c73ac36a0432d9fd88d33fd3fc3490f2d2e97a77abe1261f23d2a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtendableMessage.class",
+          "bytes": 17270,
+          "sha256": "acef647996d564bd4090cdb00847e11f010db6deb7506417f05fe30a94361221"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtendableMessageOrBuilder.class",
+          "bytes": 1819,
+          "sha256": "854edfdee491d19579a2c83259d66486c0a558b2f6e7ee236c1929957f59184a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor.class",
+          "bytes": 3851,
+          "sha256": "0d29685da6770fc5fd2a72e2f8ab3b247c8fe1b8c55cedb3c5131378202d98fc"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension.class",
+          "bytes": 5287,
+          "sha256": "5c2e47752579597e1a2e6e09d069d79e4fa8c58069ee62fb40e9339b4f2dcc8c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$MethodToInvoke.class",
+          "bytes": 1750,
+          "sha256": "3a7c07a5bb7ac64211937f0d4ef836d9d1c3059411796927edcd74e7bea4c58b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$SerializedForm.class",
+          "bytes": 4294,
+          "sha256": "21182255b6eca29dc3216d705c1b55394233054c962ebe88351785d1d0afe8cd"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite.class",
+          "bytes": 33832,
+          "sha256": "d7e871531810b8dd7d5a710d8d8f1d35afabf985ee00c73be270008a9555edbe"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int32Value$1.class",
+          "bytes": 1298,
+          "sha256": "820aec5b67eeb4aec0793e87bf66721a0901a197c5e6a8f6b01d943b49831eb7"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int32Value$Builder.class",
+          "bytes": 2038,
+          "sha256": "c2dd418592b50235176d1f7afe5ca6645c0fabe80e84dccb046c1156934da3cb"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int32Value.class",
+          "bytes": 9693,
+          "sha256": "abc4a3dd4bb17f430d9e5d43ab49d3910dde1ac915c4410e0c0428969df2d947"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int32ValueOrBuilder.class",
+          "bytes": 252,
+          "sha256": "2bcf1b21f06d23f4e443208e3fc6265f2dfa2f5a90e0785704e1cb677b941bd7"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int64Value$1.class",
+          "bytes": 1298,
+          "sha256": "c04e12110b4f43fdcaa5b899d49fec798e6dc8b876b936b2527cfc1efe604090"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int64Value$Builder.class",
+          "bytes": 2038,
+          "sha256": "ba31d5bf1ff4a4506bf77b6b02ae270e32734afab1fe1b6934cbb8e974fb8641"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int64Value.class",
+          "bytes": 9703,
+          "sha256": "21eb4b080e5d3669893c60d227097bd99f27a934e7d599b840a18d3ab87c37d5"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int64ValueOrBuilder.class",
+          "bytes": 252,
+          "sha256": "58fd26fd1db67081a67c8668d6a030c814420991180d4664948ddeab4e6d3681"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/IntArrayList.class",
+          "bytes": 6442,
+          "sha256": "60232ad699341aa295d70f7cbe702d987e8ba76e433554bb327914a49a5a1b23"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$BooleanList.class",
+          "bytes": 652,
+          "sha256": "39a4141c61791aed59307e35f788cf06fe6bccce293f6145cea993c03b0a7111"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$DoubleList.class",
+          "bytes": 645,
+          "sha256": "856e388c846f1f5a4b6d7e3d0fe741262c7691876dc2864df692e0322b87fc3b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$EnumLite.class",
+          "bytes": 268,
+          "sha256": "d6bde949f35ae68b6393256733c103d425c2d4e258569c52f0f080a0be4ccd2a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$EnumLiteMap.class",
+          "bytes": 545,
+          "sha256": "9bfbc736f275eeff7eebc8dcddecdeadb0f47ef91b06303ef2a7c3baf336a336"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$EnumVerifier.class",
+          "bytes": 277,
+          "sha256": "619721eda87943d42d0098095ed2041a969e33b6d2924155ae1cce2b4048f2b2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$FloatList.class",
+          "bytes": 638,
+          "sha256": "6f094f96ccb06ed9825a42770a1a42c2b1211954c67d85fd5b47d45af50c6bf7"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$IntList.class",
+          "bytes": 628,
+          "sha256": "60182ab5322a97e5837152dea73bc80d902661b75cbe71e7831208d9691b0950"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$ListAdapter$Converter.class",
+          "bytes": 505,
+          "sha256": "59b1494226d283ffdb250477840629a5fe03fa59abf1ea641ae2ef18d6b6eefa"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$ListAdapter.class",
+          "bytes": 1672,
+          "sha256": "0f367b6daccd443a33e310f02982635f4c16e30b30961141fd2673476ab66446"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$LongList.class",
+          "bytes": 631,
+          "sha256": "2799bb2878a7d31749dd3afd41294d601a9687b6692c043ffe5b8c9f2ae9f915"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$MapAdapter$1.class",
+          "bytes": 2503,
+          "sha256": "4293ed5d3aca114555ee60efa8e63b04f2f1e3906ed83f4de1935e83a2b64797"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter.class",
+          "bytes": 544,
+          "sha256": "44ea5958ed669113e0d17af24abe3e89153039c9c3ea680bba856dacd28aabe1"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter.class",
+          "bytes": 2522,
+          "sha256": "a54473171c29c73d904f82b819bc4b78e23de5f9244d241b33070a0263030831"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$MapAdapter$IteratorAdapter.class",
+          "bytes": 2018,
+          "sha256": "6f2b41ad15cc622765a0bc16a8c41e4d129b01debec73cae39d06ce3e3cd34b2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$MapAdapter$SetAdapter.class",
+          "bytes": 1761,
+          "sha256": "0ac7e30072fc79ed44478addbb3551275bd8a233443dddfd08e0a4ec2e7bbea1"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$MapAdapter.class",
+          "bytes": 4130,
+          "sha256": "ac9945e2e452f74b91de4ba61afeb99885b34f5bf842ec6fce819880c15d970c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$ProtobufList.class",
+          "bytes": 654,
+          "sha256": "d67b028b79433c857071e1abb40cf2704b344920afb095ae9958d24cbf498434"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal.class",
+          "bytes": 9674,
+          "sha256": "e3979c10308699658634bca958bd022b15b07403dff247d69074cb49160a4e72"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException.class",
+          "bytes": 689,
+          "sha256": "d76036c1e0a03d9bfb77a9555df71b6a9e6fd83dc01a30aad0356cfcc9754c38"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/InvalidProtocolBufferException.class",
+          "bytes": 3463,
+          "sha256": "1f02c5641943a2f4d3f79f50a031bf2e39145929fcda1740335f50595515f3c8"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/IterableByteBufferInputStream.class",
+          "bytes": 2966,
+          "sha256": "d51f9bec13811ccb1a752232d23bb8f9d9403bb6e8815f1a70443f1d6325b35d"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/JavaType.class",
+          "bytes": 3062,
+          "sha256": "2fb15bdceab73454fc6ab38572c30cc49564ffa338c65711e9b00b4b7631ea2b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyField$1.class",
+          "bytes": 255,
+          "sha256": "0cc45ffb287d8dd891c234de540d00c4738af9298c0430c830f96f1bd8a17333"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyField$LazyEntry.class",
+          "bytes": 2517,
+          "sha256": "dc1ea6b7befd21c1d9fef79285259f6bb16b62c2cc7523b14f62ec7f1fe7c221"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyField$LazyIterator.class",
+          "bytes": 1982,
+          "sha256": "77ebdc80e6ff29507f04da93c45c39ba7c9642ef0902bace8f29ac5d6d9408c9"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyField.class",
+          "bytes": 2007,
+          "sha256": "6b7bbf7e9bb26d456be5028155735da4b0ac93196638d7d4fe215eccbeb32515"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyFieldLite.class",
+          "bytes": 7545,
+          "sha256": "a514e388779e2e5e8f523abf26fd90a3c8a1805d2f501197bb8c3f2ac1fa626c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView.class",
+          "bytes": 2118,
+          "sha256": "3a1fa8449368a261536254d86b74536349e1fe2897ac9d716bed27590b681b3a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyStringArrayList$ByteStringListView.class",
+          "bytes": 2625,
+          "sha256": "b9748ce8d8982c32d7e8079f3ed602c687a27eb84df7f80c73dd13c13d4e9b10"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyStringArrayList.class",
+          "bytes": 11118,
+          "sha256": "14169f919ec9b158d3b37f2304003452417cf22927d51d598398f8e681594ebe"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyStringList.class",
+          "bytes": 1088,
+          "sha256": "2ee01369e8be6caa3291f2624e0b09602f8a5ccd077da630a3a1262a0bbce2db"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListFieldSchema$1.class",
+          "bytes": 273,
+          "sha256": "4a671760d0e39e85d254d4a5d0e28766c270327098bbb5485b59609f24d9e4fe"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull.class",
+          "bytes": 4435,
+          "sha256": "598d9a5df3ab52e5e9cb2660589b6231b9bdaf2874b7a74f24c4f1e4c4059052"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaLite.class",
+          "bytes": 3138,
+          "sha256": "bc317da146c82fd33a3b8da81fdeba19c8e046103441c0edf7971c7cc92d6360"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListFieldSchema.class",
+          "bytes": 1538,
+          "sha256": "11384e3fae93d80c690e4c8e2ad4a8aa4f4c3d27b4946d18fed8501770546c48"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListValue$1.class",
+          "bytes": 1295,
+          "sha256": "9832c82acf36f2f6353f49160501c4f32c988bdc71c574bc081986b3701308ae"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListValue$Builder.class",
+          "bytes": 4962,
+          "sha256": "cfa896d34034bfb4da880b05c166dbc67076721f5e6a04010f6dd4d300cf5b83"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListValue.class",
+          "bytes": 14085,
+          "sha256": "3a000056e429f5568d0e3913fac56e1fd38c61868986a0489774e448fbc6b121"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListValueOrBuilder.class",
+          "bytes": 464,
+          "sha256": "e82ab671207fc5c174403ad2ad483c8b6ed3cab4edfb4ca716938e1464da68d1"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LongArrayList.class",
+          "bytes": 6510,
+          "sha256": "1d9b379e9cf8d06b055d266db19ce3d526458c7561f8906a019748ab784cf2ce"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ManifestSchemaFactory$1.class",
+          "bytes": 1186,
+          "sha256": "6975ef0c254fb03462c080caf66030b3e5bf10a1430fc6afe1b4690dc5ef26d0"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ManifestSchemaFactory$CompositeMessageInfoFactory.class",
+          "bytes": 1951,
+          "sha256": "7a5452909e88dffb2c76ec457ec6d9353569988df0a25d34d0888127dd0a53f6"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ManifestSchemaFactory.class",
+          "bytes": 6001,
+          "sha256": "29313ee13aa6ae54fc692cc6d7d8211f59eba649d0a68cd10227f32e5aeaca5e"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MapEntryLite$1.class",
+          "bytes": 946,
+          "sha256": "bdbb8e0cf1c55fc224dbb714c704b3e09a1dd28b4af0180786caf254acafa7f7"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MapEntryLite$Metadata.class",
+          "bytes": 1448,
+          "sha256": "40d32f0841ef449927ee579d225e22ee17f0ccdb1be33f9218257a1d3553cd15"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MapEntryLite.class",
+          "bytes": 10586,
+          "sha256": "6f6a87c2d95dec36c73eacf7798720d228851f591374c5120f8c36e9c3fcd1e4"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MapFieldLite.class",
+          "bytes": 6247,
+          "sha256": "3f799e71dd13d2fc36e2a1fa7780ebc0342a0ca13773b15b11b888c19758687a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MapFieldSchema.class",
+          "bytes": 963,
+          "sha256": "4d6b4c2f06a6eeb188f626569c2deed37d062f5ffcde7df90aa93822ab42ce03"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MapFieldSchemaLite.class",
+          "bytes": 3950,
+          "sha256": "18bb7f52e5f61d197e56c65aa7d4371f908409bd5d567222f0e1736a47b9bd1f"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MapFieldSchemas.class",
+          "bytes": 1492,
+          "sha256": "ac748871ca6b0415bc51720cb106d29c9a9d8b930e9167f51155349f51abe5d4"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageInfo.class",
+          "bytes": 347,
+          "sha256": "495ab776bd3c772d34436a40d5f45ca6efeadb3e03c40db449ac9256e069e784"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageInfoFactory.class",
+          "bytes": 434,
+          "sha256": "60170df6bff8bbc18301e9cbab4fcfc0cdab3e299da57a93a4a7460e31432d55"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageLite$Builder.class",
+          "bytes": 2395,
+          "sha256": "d97b227f31714c58e63b04058cabdd68ba37dacd8844d2bd18d3dd043ad2e6c5"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageLite.class",
+          "bytes": 997,
+          "sha256": "f51681cee14733324c0e5356fd96087cd3305987583c27b68662a11c39d55c7b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageLiteOrBuilder.class",
+          "bytes": 285,
+          "sha256": "3ae517319a161c0e14bca5416f9aed1ae4994940e25602e96d67b2b2605382a7"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageLiteToString.class",
+          "bytes": 8339,
+          "sha256": "77be22a1a13fd2d403b42e6bc3341a418c85dd1ec46fd9748710725569c2901a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageSchema$1.class",
+          "bytes": 1620,
+          "sha256": "cdc146bdf5b895421b72fdf29a154e5c478170fee4ef89bee274751a9b0483cb"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageSchema.class",
+          "bytes": 99420,
+          "sha256": "583bfb3d4ffb7b1bf22ac83720d31a5f693a8dfce7e01ce5be5a24f64c78d8ed"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageSetSchema.class",
+          "bytes": 17133,
+          "sha256": "adeca506c774c644b11a0c4f9448bdf143322e1b63b82c4c75af4cec87ddb94e"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Method$1.class",
+          "bytes": 1286,
+          "sha256": "352293f6324b4ba50b16616bbfbe44e51e867085d912325fa0d4172ea1dc3204"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Method$Builder.class",
+          "bytes": 8919,
+          "sha256": "6d9f90972242bdc91824424c0e598862b1f343e01cbf5ac93bbe0ce9ed88f20b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Method.class",
+          "bytes": 19788,
+          "sha256": "3d01c2f9d01b3f5a25d629b36f027a4f03d4ce5a844552733e2d1e1833f84a07"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MethodOrBuilder.class",
+          "bytes": 873,
+          "sha256": "7261a4c005e7a7c40f69c538117fa811fee9238cd93af3a9d0e306a47a5a2f3c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Mixin$1.class",
+          "bytes": 1283,
+          "sha256": "809228bc8b0094133808e5169987c4702f7610fd9eaac96c4d9fa3ee0ab39435"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Mixin$Builder.class",
+          "bytes": 3120,
+          "sha256": "e70d27ede3499378937c9bed26666bc09520d787c5cbc37f40c5c1c4d7e4fcea"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Mixin.class",
+          "bytes": 11004,
+          "sha256": "a38d267414e6c0e2e3bd4850b39dd6f64374f2bef5cad993dd80a8cfe50d6c93"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MixinOrBuilder.class",
+          "bytes": 379,
+          "sha256": "642b898f1808ae34d268d2dafd59f490750e20e350adbf8b410419d33174cff7"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MutabilityOracle$1.class",
+          "bytes": 610,
+          "sha256": "84d77daa0dba1b31953ddfca7b852bf9eb539984289522f2caa8acacf1cbfdd6"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MutabilityOracle.class",
+          "bytes": 473,
+          "sha256": "61c1986bd2607f2ad43b61ca05ca445cc403e809c0251590f9a5971d66dab5b0"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NewInstanceSchema.class",
+          "bytes": 218,
+          "sha256": "de326995f1b463d08370cb49a78ff68e862748c7d67a70473152b031f0bb2af6"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NewInstanceSchemaLite.class",
+          "bytes": 1046,
+          "sha256": "3e9e94e6498b66375c264eaa1b40b2ee9aba092ff09c2ebfa722b564a9de2be2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NewInstanceSchemas.class",
+          "bytes": 1516,
+          "sha256": "f10973a47548f2ea76550398dc92b0a8259806ee2ef8b28b812b5138dca8731b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NioByteString$1.class",
+          "bytes": 2001,
+          "sha256": "7d7100a6f10c78e431a00bcdcae104c47754b839bd6802fa5585bbbe1b020da2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NioByteString.class",
+          "bytes": 7205,
+          "sha256": "2ff057267dc64503108563a77fc253332a6d3a20b81e00a52ce2878005be67fc"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NullValue$1.class",
+          "bytes": 1152,
+          "sha256": "dc5287979031aea94fb3c618d2d3dee0e1b13167fc5911566d844052bd58daf2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NullValue$NullValueVerifier.class",
+          "bytes": 997,
+          "sha256": "702cd2a36eba05f9194f1161c51dc745cd5dc4ceb38ecebae36b9780cb2c8f2c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NullValue.class",
+          "bytes": 3142,
+          "sha256": "a7d4d0244aee987cb5d5212d2433727214222209e47ad06b5fdde9ce9eaa16e5"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/OneofInfo.class",
+          "bytes": 824,
+          "sha256": "f9bacbd1be47084c5bdb0213faab452b5b001fcdf78d9668b0e0963dabed9c41"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Option$1.class",
+          "bytes": 1286,
+          "sha256": "f9aee39e755e16f81ef20f0904b39fab3a3f2b5c9b42fce07707e775f0fc0106"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Option$Builder.class",
+          "bytes": 3967,
+          "sha256": "b97f7f31358bb539acec7074a0386a05baa1ac9426862d2eee2223b5f83c211d"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Option.class",
+          "bytes": 12139,
+          "sha256": "b9683797fe631de8d1a665fd9d5c9e6c4448f0b91f7aefc6daa79dfd656e88de"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/OptionOrBuilder.class",
+          "bytes": 434,
+          "sha256": "936fdb118feae372f9edd9c1e1ab60c4cdb86d7f37df39bf67eeb7f0a153ff8e"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Parser.class",
+          "bytes": 2931,
+          "sha256": "87c0f5b82cb29b2f860a9c79843c62511ffac3e54f210b74d7cdc4b637dde346"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/PrimitiveNonBoxingCollection.class",
+          "bytes": 177,
+          "sha256": "0b8ce0caaf377e9ea0e1417e36a9a18eb7ed321acb9765e42d57c3adfff35054"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ProtoSyntax.class",
+          "bytes": 1124,
+          "sha256": "5a58be23f4c721b52231119e28e3cfc5228a2de9f9fc6fd51a92fd29d8cd47ef"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Protobuf.class",
+          "bytes": 5450,
+          "sha256": "5cc9dd8c0e96e345ad1e90baaa5d8ccc84da291af412d6f769fb3b053fec1628"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ProtobufArrayList.class",
+          "bytes": 4640,
+          "sha256": "ac440459712055af9a08869ca91bdb35310c089d512f6c6b136bbd59dba2fc5c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ProtobufLists.class",
+          "bytes": 3714,
+          "sha256": "bd2d2d472d16fd096402a7201420899d467e299c6829890712ac9535deb34ac4"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ProtocolStringList.class",
+          "bytes": 387,
+          "sha256": "1455a2e451b90eaab3e85ab1932ee990a0dd5eea4ec735a655eafd2ed60daa28"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/RawMessageInfo.class",
+          "bytes": 1917,
+          "sha256": "6d2c6229b4041783c33de8e875c4b7e6c2e8d07fe41a1130c68c264ff986f70c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Reader.class",
+          "bytes": 4178,
+          "sha256": "1057573b7ce98ab465189f68e26d79d5d59f2081fc46998ec86aa3afa4d02960"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/RopeByteString$1.class",
+          "bytes": 2062,
+          "sha256": "dc191913e9931021b24a620e044883816c97acd5f9c9683170ecdcc8e8fa9b33"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/RopeByteString$Balancer.class",
+          "bytes": 3897,
+          "sha256": "325addc2371888843bc3314d11b7bf8277bf9af33c4db2d3e068af377a8f27c2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/RopeByteString$PieceIterator.class",
+          "bytes": 3092,
+          "sha256": "9d3079199638a1ba14ee81c7c69754638456bf94a198cdcb366a13da0bec4559"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/RopeByteString$RopeInputStream.class",
+          "bytes": 3459,
+          "sha256": "6bdea1fe46857f677f18d7288cee301341a06f2f6cf6859a28964a570c683d64"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/RopeByteString.class",
+          "bytes": 11448,
+          "sha256": "fe91673e4207a3eea54841ccfa991c84f9de162147bdf380444b6dc77908e6ae"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Schema.class",
+          "bytes": 1496,
+          "sha256": "1384127db5c52aeccd86bc4c73733e67136f7de0c619b51eadab9074aa68f394"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SchemaFactory.class",
+          "bytes": 362,
+          "sha256": "b0d6bdbe3e2c190e10eb7d9a394383d263be4b3055cc2b735d78e5144871ceaf"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SchemaUtil.class",
+          "bytes": 31603,
+          "sha256": "425f32ba22c22bfbdeec1e7dbe7f78ab3fddcdf3b41302c54488f581ba25be07"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$1.class",
+          "bytes": 2290,
+          "sha256": "12a021ea954fb14f44da3b97d3cdaf92ddf7ab25fd833d38dd5b6428708fd3db"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntryIterator.class",
+          "bytes": 2784,
+          "sha256": "83eb038aa4865c92a59607f87d6e8ca46129d82a40478b1e3bda2973d6b598a0"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet.class",
+          "bytes": 1678,
+          "sha256": "e4cffba0dbcb663682ab601dc95148027546d36d626ad2354827f6222b6a65c2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$EmptySet$1.class",
+          "bytes": 1017,
+          "sha256": "69d0902796b289a5f19b42ca551cc829ce79dbb45ccea755563738dd6e3cc8b6"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$EmptySet$2.class",
+          "bytes": 856,
+          "sha256": "8af14d907808f78625d1516b775893f3245b13df888787a460696852f101e3fb"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$EmptySet.class",
+          "bytes": 1146,
+          "sha256": "f5a66f3d1b97b3f2a96f1b444b2980b9539f2d07fc464ae6113e50fd8348014b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$Entry.class",
+          "bytes": 3598,
+          "sha256": "9520a021900061d416a3fcdeadda4c7de55f88bb724a41da3082ca1e0b78f40c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$EntryIterator.class",
+          "bytes": 3140,
+          "sha256": "7fd3145aced83a32b07ca25951972fedbfdc3f5ae2e8b2099b3914863ad40283"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet.class",
+          "bytes": 2931,
+          "sha256": "609a3bd56ef15a5ef52c4aab3e425cf607660ada8cc1a6336fc01180cef884df"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap.class",
+          "bytes": 10621,
+          "sha256": "ac2c0061d061143c9b579bf1a898e3db32278fc43f7a6e6420cad931f15be4f2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SourceContext$1.class",
+          "bytes": 1307,
+          "sha256": "b637c03efc96ef054383177373159d23836a36fe6d373920f4de3394667fcb78"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SourceContext$Builder.class",
+          "bytes": 2737,
+          "sha256": "3a5184413fa9b3ce02a4c615de2c6d13bfe45d85acd21e66ff06f50ecb559f86"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SourceContext.class",
+          "bytes": 10414,
+          "sha256": "dc7c1d60ee172940fe21d7e67e28baff95a98dbfa81cd409b01ba5c26e1f3d9d"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SourceContextOrBuilder.class",
+          "bytes": 362,
+          "sha256": "3c1eba885e4e1d1f2d569e2bc088ae3245f25a4b1024c7a7bbc46b973d1331ed"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SourceContextProto.class",
+          "bytes": 636,
+          "sha256": "533ffcff85519bd6250bffc0df9c630f8bb0e6b02125be6c5daeea2e5961a89c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StringValue$1.class",
+          "bytes": 1301,
+          "sha256": "f6f036a40abed9cc73c369cd1ed6a5c039d6c02f5ca097a2867078be9f1b9239"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StringValue$Builder.class",
+          "bytes": 2686,
+          "sha256": "b5217082d4ab8ec64e61d1a18f998d12b6ced4dabc9b56f99efaf750a4e32145"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StringValue.class",
+          "bytes": 10674,
+          "sha256": "65a253cfa1b00cdaf9b15c51aa20d71fecd41b042524d02c8a10b09ee297e27e"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StringValueOrBuilder.class",
+          "bytes": 352,
+          "sha256": "8202395f79675f9a2fd61b11c179a45f40ae60c454a89d9aed9932b54ee0164c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Struct$1.class",
+          "bytes": 1286,
+          "sha256": "5ffbdf5c31e0b401b8bfe4ba1fdb60e651ab1dde3a0e45ba9df306d0077ef93b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Struct$Builder.class",
+          "bytes": 4508,
+          "sha256": "c62317caf14574ebf079e215f05cbd7a7811303e553880b5303549edcf989089"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Struct$FieldsDefaultEntryHolder.class",
+          "bytes": 1490,
+          "sha256": "db87a17522e4c877132c440d3d867b9dac4a5acf65a710f4177f0e4d9c4cd2fc"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Struct.class",
+          "bytes": 11674,
+          "sha256": "2bd38f0b80860ce0544f5036fa3b71cfd1f5983850e5e9506c6960ae745b4292"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StructOrBuilder.class",
+          "bytes": 804,
+          "sha256": "a94ea2d9d2b202cfb33971b2adc57c70055858bd27a2a7a9de2f4affec792d8c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StructProto.class",
+          "bytes": 615,
+          "sha256": "6bf5e3f1b9c01d25558f9804d446fdf91fdb422b10a24af5b852fa11a17ec4bc"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder.class",
+          "bytes": 2874,
+          "sha256": "9bd960f48a9ba259fed3e46b3f41d8e27b11b97b58a87e50807e7e5e3309c602"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StructuralMessageInfo.class",
+          "bytes": 2245,
+          "sha256": "a325a202443c6a8ed55c5045bbe81ff3cd9a3c8e44b1ff2532bc7f20e059d012"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Syntax$1.class",
+          "bytes": 1134,
+          "sha256": "51fd865ea77da36975b2e0e91ac044cc80d246e3522445c682ec161490055a0d"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Syntax$SyntaxVerifier.class",
+          "bytes": 973,
+          "sha256": "ce05ab849b8f941b3a2a61e1a231e2b47f61cdc263a69ef185535e0e93a53ae1"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Syntax.class",
+          "bytes": 3227,
+          "sha256": "aca362a73dafe2287fb8cd2838015d81040e3353bbd6ffcec3e98868cecdcc65"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TextFormatEscaper$1.class",
+          "bytes": 1082,
+          "sha256": "a2710d29fb3a058540269e7c78aa66e00ef9de87aa7539dcc46a6826b2f23381"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TextFormatEscaper$2.class",
+          "bytes": 852,
+          "sha256": "c1911879bb3e932b945f832a2e829fac80c42ca9feeefe2eb89ab19af5d3e062"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TextFormatEscaper$ByteSequence.class",
+          "bytes": 322,
+          "sha256": "4328788d5b2c99af7cfd6acc59e903d9ca4a17fcd162fed59f28e26e63e5cc2a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TextFormatEscaper.class",
+          "bytes": 2697,
+          "sha256": "f42392af830f251356bc3b0c6ed2206206744905dd79e22ef06195728274a9d1"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Timestamp$1.class",
+          "bytes": 1295,
+          "sha256": "af0d3e47e1f2ef565b97e8d19f20bd9b91caf198f96eb8dd38a644f63732dd18"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Timestamp$Builder.class",
+          "bytes": 2490,
+          "sha256": "ecd0b1f4394344bf00e25f4d5a33808e0fd6a81128f280cb2dc24f5f477d6de9"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Timestamp.class",
+          "bytes": 9942,
+          "sha256": "d8b8264e4325bf786dc24b88a855ef849bd248e742f570dc85ddb4af68204360"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TimestampOrBuilder.class",
+          "bytes": 277,
+          "sha256": "a57a521ff514165ab0bc9d4ff4968ce7e8f5701158b47aa38e849490d8e740e8"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TimestampProto.class",
+          "bytes": 624,
+          "sha256": "c155b801426bed2cb44fd4f1e0e3a6223083a2e84c9d01a4b7c5d92c3596282b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Type$1.class",
+          "bytes": 1280,
+          "sha256": "73f1aaabaeb3f02aa9bbbfb67d0b353930ff39c14ca21c06f7935c9366e1e6ef"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Type$Builder.class",
+          "bytes": 12645,
+          "sha256": "09db3f8055631c4433b3258ed98c2c8ef292c273959e9a2ce6c67db29b36ee49"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Type.class",
+          "bytes": 24905,
+          "sha256": "ec57b3f851562e20c19fcd0e9877639ef6a9c7b641fa726751e1219c1731f247"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TypeOrBuilder.class",
+          "bytes": 1223,
+          "sha256": "e4610e93d06c3540966b2252e37c4d6d5dab6eda126e31d6860067b381b585db"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TypeProto.class",
+          "bytes": 609,
+          "sha256": "e94bd2f6e5da5d97b4968c7be6e5eb77ee2f38cb9f2b790c8155e600eb3b03fe"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt32Value$1.class",
+          "bytes": 1301,
+          "sha256": "850c87aaf27dfc1c0ce9409f5563bbde467fe9628601fcadd2acd250697c94ce"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt32Value$Builder.class",
+          "bytes": 2054,
+          "sha256": "1288f0545d59a7c27a01a3de95bb22ac0b63998b1acd2182dc45b26d399c9e6d"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt32Value.class",
+          "bytes": 9723,
+          "sha256": "6562d46dd1f5aa4d3306b2497149a3c52825774af1f0d267f8881b2b0fcf0117"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt32ValueOrBuilder.class",
+          "bytes": 254,
+          "sha256": "c2c99cfcb5c586d9fb9b7ce2aac25e6b9db1879d1750df802eb890acf226dca1"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt64Value$1.class",
+          "bytes": 1301,
+          "sha256": "411f2ee674042af67d6631e06f1d1571a75b990a1b13285a8e8900c467e2920f"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt64Value$Builder.class",
+          "bytes": 2054,
+          "sha256": "dbf70f0ec88ea8cd4d236e120e647ac98bc6fcf3f6a02a1847577b64582f644f"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt64Value.class",
+          "bytes": 9733,
+          "sha256": "9fafcbaebb3e6ae11b55f9391b9c6da280d318349d0b1d91b9291a30c374050b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt64ValueOrBuilder.class",
+          "bytes": 254,
+          "sha256": "ef48bd865d043576209f9e6729792e4783a4508436926c71bad0d6819877e3f5"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UninitializedMessageException.class",
+          "bytes": 2422,
+          "sha256": "1160322decc8953768d474eb940d3fd15d16be64a5ed5393efeebcb51545b796"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnknownFieldSchema.class",
+          "bytes": 4057,
+          "sha256": "a6f2dc3541acc65321b0d8d38dcf4b7995219ccd69c332bd97a870146f790bfc"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnknownFieldSetLite.class",
+          "bytes": 10323,
+          "sha256": "73aa0eef9013215ccc1c58168c7dac0063a34e180ce7f796d2d4f830a5770c01"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnknownFieldSetLiteSchema.class",
+          "bytes": 6465,
+          "sha256": "8ea9612a0f07ed3678f2bb35fb9a96dd8e628c283450e3d319415bfb54c4d5c4"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1.class",
+          "bytes": 2518,
+          "sha256": "447cf9e26149f7545453a4c4671b93db5549f5e82f7de5d8e428cd84daff105a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$2.class",
+          "bytes": 1629,
+          "sha256": "c918b53dbdc5b6ce38a3c13de6ce151a466275e70f2e8b5f92db386e76e28751"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnmodifiableLazyStringList.class",
+          "bytes": 4313,
+          "sha256": "81bd766dbbdb83ce0e98d52a5285ce514574b8cc764bb9fd773f61469b7f99a2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnsafeUtil$1.class",
+          "bytes": 1507,
+          "sha256": "65fdd6adbf64d2e2052335c1d232cb5dcf8d4dcecdb892570e7599f1f3debd0e"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnsafeUtil$Android32MemoryAccessor.class",
+          "bytes": 3874,
+          "sha256": "f324aadf357f7a4d14cf1f7848601b2d9d4fe4f14f18780afe39924885644273"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnsafeUtil$Android64MemoryAccessor.class",
+          "bytes": 3734,
+          "sha256": "1a80286c5aebf00a7e341eedf55841624a38a78e0d7abde711e69a0689b95d01"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnsafeUtil$JvmMemoryAccessor.class",
+          "bytes": 3268,
+          "sha256": "ed93418eaef91c4bc76d3b7aad434957029b555ff3092260b111a9b1b254189e"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor.class",
+          "bytes": 2656,
+          "sha256": "c30b3b62b855dd8b66a8d3e8d76bf31278e175e374a33ee42217a0bda41e09e2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnsafeUtil.class",
+          "bytes": 16083,
+          "sha256": "e028672bc9b2c98e52285686ca3eb08917260316f01ab577ff8e54b47deb6d43"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Utf8$DecodeUtil.class",
+          "bytes": 3059,
+          "sha256": "869a20ab8b31375e64ed494b970c43653df18024d03c80a7df32c48a9b22fcec"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Utf8$Processor.class",
+          "bytes": 6755,
+          "sha256": "e7a08039046e0cbc56762092c1918d52dbc681cd0d4854d89aff249534cc824a"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Utf8$SafeProcessor.class",
+          "bytes": 5711,
+          "sha256": "a988ddac6dea521472bd8296f5e81c686c91e4f4cebba8b9b536f5eb7902d6d6"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Utf8$UnpairedSurrogateException.class",
+          "bytes": 839,
+          "sha256": "214bb890eae82b81f58a96f7a53881222fff84d947ccd2cfb63c2b2e4a242b01"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor.class",
+          "bytes": 10408,
+          "sha256": "96f4fc3b8d2965ed5304f178c0529052d1528d357cd09e2ddb3856519a9f701f"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Utf8.class",
+          "bytes": 5813,
+          "sha256": "dd4cabdb3e9548769f284eb845deccf5bf9802a0db6aa12f7ccfb147855c504f"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Value$1.class",
+          "bytes": 1283,
+          "sha256": "67aa9c6f293cb2ac3f785589e41c0e261197cc0a85f293865809f1f05221e23b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Value$Builder.class",
+          "bytes": 7769,
+          "sha256": "8f57611beeee80c37f6112be62b5f95926862062789688f8b89855abd6f25469"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Value$KindCase.class",
+          "bytes": 2134,
+          "sha256": "395c9450a5b365d9ec0a931c585ace13f260cfefc091898d14b8d08a2a933fcb"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Value.class",
+          "bytes": 17856,
+          "sha256": "812fe4082be856516c260af66ed9387f31b1d4a73542d0099ee54b91034ac8af"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ValueOrBuilder.class",
+          "bytes": 966,
+          "sha256": "1cc186e7b609af4203e23715742f7af9fac97776d279d5fb7eb00939bfd193bd"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$1.class",
+          "bytes": 1602,
+          "sha256": "1e54aa4352ca30dc4edb0f030037b4c5d57c26fdfc86c8a8e85a83c7e00cae0b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$FieldType$1.class",
+          "bytes": 1103,
+          "sha256": "5c68203b4234919104fcf4cacd85651a2991cdd8a28949595edea38aac18bdf2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$FieldType$2.class",
+          "bytes": 1103,
+          "sha256": "99e2ade8b80c5e4902cf1a2d986d9dda4b2b79988bdcf8e2dd0730033e283f0c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$FieldType$3.class",
+          "bytes": 1103,
+          "sha256": "9bb7d7b401c4e96e919514fa8c045cd954c3374472391ba638e0412b7ece2d29"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$FieldType$4.class",
+          "bytes": 1103,
+          "sha256": "6c55cef2f59970e3d0f16b7c6203da98df14d9057936e56936e30d52a91fc4b5"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$FieldType.class",
+          "bytes": 3787,
+          "sha256": "627e0ab985789fa3d31ddd5272a20ebb9c46a605f51a6c172b2d91221f202302"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$JavaType.class",
+          "bytes": 2318,
+          "sha256": "585981b4766aa20a76065e9f8a4cb8988ef84c240915b8a423d5cbece8548c44"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$Utf8Validation$1.class",
+          "bytes": 1102,
+          "sha256": "d1a7cd3ec57ea22cbef09bccc1f24be63e32688e3cd89ebf0612bed425ddf13b"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$Utf8Validation$2.class",
+          "bytes": 1126,
+          "sha256": "4b0ad2f795296df19a3f9f3920006a54dcefff1127fde66aa8b730a220eb7d3c"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$Utf8Validation$3.class",
+          "bytes": 1148,
+          "sha256": "b18cd001f3e3762dab8f88aabecc902dc9db6233b6b817b6402da177fc0fe3d2"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$Utf8Validation.class",
+          "bytes": 2083,
+          "sha256": "3879f7d11cfd6d760d92271f19b1674d7e59c40380e87553930f5b147e3c6153"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat.class",
+          "bytes": 4142,
+          "sha256": "17127e17c7481c9cd28ded3a2c10f87dd785fa33554bcc7b1b87e5685c058ae4"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WrappersProto.class",
+          "bytes": 621,
+          "sha256": "2ad9321002772c7be17dd6cf572f0a7cba8f85aedd06fa9ac5761e0eaa274438"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Writer$FieldOrder.class",
+          "bytes": 1258,
+          "sha256": "a455d791a1ab8fb8d11cd07e6053880196cf731754714ba94085db2cfefa1ce5"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Writer.class",
+          "bytes": 3306,
+          "sha256": "aa02c722255b8b8ad85c57ace9d0de51765a07c4c04cae255483ec6ba3304dd6"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [
+        {
+          "path": "androidx/datastore/preferences/protobuf/AbstractMessageLite$Builder$LimitedInputStream.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AbstractMessageLite$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AbstractMessageLite$InternalOneOfEnum.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AbstractMessageLite.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AbstractParser.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AbstractProtobufList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AllocatedBuffer$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AllocatedBuffer$2.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AllocatedBuffer.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Android.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Any$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Any$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Any.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AnyOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/AnyProto.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Api$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Api$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Api.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ApiOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ApiProto.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ArrayDecoders$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ArrayDecoders$Registers.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ArrayDecoders.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryReader$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryReader.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryWriter$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryWriter$SafeHeapWriter.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryWriter$UnsafeDirectWriter.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryWriter$UnsafeHeapWriter.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BinaryWriter.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BoolValue$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BoolValue$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BoolValue.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BoolValueOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BooleanArrayList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BufferAllocator$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BufferAllocator.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteBufferWriter.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteOutput.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$2.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$AbstractByteIterator.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$ArraysByteArrayCopier.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$BoundedByteString.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$ByteArrayCopier.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$ByteIterator.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$CodedBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$LeafByteString.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$LiteralByteString.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$Output.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString$SystemByteArrayCopier.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ByteString.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BytesValue$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BytesValue$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BytesValue.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/BytesValueOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream$StreamDecoder$RefillCallback.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream$StreamDecoder$SkippedDataSink.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream$StreamDecoder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream$UnsafeDirectNioDecoder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStream.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStreamReader$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedInputStreamReader.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$AbstractBufferedEncoder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$ArrayEncoder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$ByteOutputEncoder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$HeapNioEncoder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$OutputStreamEncoder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$SafeDirectNioEncoder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStream.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStreamWriter$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/CodedOutputStreamWriter.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/DoubleArrayList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/DoubleValue$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/DoubleValue$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/DoubleValue.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/DoubleValueOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Duration$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Duration$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Duration.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/DurationOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/DurationProto.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Empty$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Empty$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Empty.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/EmptyOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/EmptyProto.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Enum$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Enum$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Enum.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/EnumOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/EnumValue$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/EnumValue$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/EnumValue.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/EnumValueOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExperimentalApi.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionLite.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionRegistryFactory.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionRegistryLite$ObjectIntPair.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionRegistryLite.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionSchema.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionSchemaLite$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionSchemaLite.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ExtensionSchemas.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$Cardinality$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$Cardinality$CardinalityVerifier.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$Cardinality.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$Kind$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$Kind$KindVerifier.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field$Kind.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Field.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldInfo$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldInfo$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldInfo.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldMask$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldMask$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldMask.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldMaskOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldMaskProto.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldSet$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldSet$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldSet.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldType$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldType$Collection.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FieldType.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FloatArrayList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FloatValue$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FloatValue$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FloatValue.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/FloatValueOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageInfoFactory.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$DefaultInstanceBasedParser.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtendableBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtendableMessage$ExtensionWriter.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtendableMessage.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtendableMessageOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$MethodToInvoke.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite$SerializedForm.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/GeneratedMessageLite.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int32Value$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int32Value$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int32Value.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int32ValueOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int64Value$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int64Value$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int64Value.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Int64ValueOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/IntArrayList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$BooleanList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$DoubleList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$EnumLite.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$EnumLiteMap.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$EnumVerifier.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$FloatList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$IntList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$ListAdapter$Converter.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$ListAdapter.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$LongList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$MapAdapter$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$MapAdapter$IteratorAdapter.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$MapAdapter$SetAdapter.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$MapAdapter.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal$ProtobufList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Internal.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/InvalidProtocolBufferException.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/IterableByteBufferInputStream.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/JavaType.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyField$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyField$LazyEntry.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyField$LazyIterator.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyField.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyFieldLite.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyStringArrayList$ByteStringListView.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyStringArrayList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LazyStringList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListFieldSchema$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaLite.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListFieldSchema.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListValue$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListValue$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListValue.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ListValueOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/LongArrayList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ManifestSchemaFactory$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ManifestSchemaFactory$CompositeMessageInfoFactory.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ManifestSchemaFactory.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MapEntryLite$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MapEntryLite$Metadata.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MapEntryLite.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MapFieldLite.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MapFieldSchema.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MapFieldSchemaLite.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MapFieldSchemas.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageInfo.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageInfoFactory.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageLite$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageLite.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageLiteOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageLiteToString.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageSchema$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageSchema.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MessageSetSchema.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Method$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Method$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Method.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MethodOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Mixin$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Mixin$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Mixin.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MixinOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MutabilityOracle$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/MutabilityOracle.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NewInstanceSchema.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NewInstanceSchemaLite.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NewInstanceSchemas.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NioByteString$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NioByteString.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NullValue$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NullValue$NullValueVerifier.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/NullValue.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/OneofInfo.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Option$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Option$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Option.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/OptionOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Parser.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/PrimitiveNonBoxingCollection.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ProtoSyntax.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Protobuf.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ProtobufArrayList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ProtobufLists.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ProtocolStringList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/RawMessageInfo.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Reader.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/RopeByteString$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/RopeByteString$Balancer.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/RopeByteString$PieceIterator.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/RopeByteString$RopeInputStream.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/RopeByteString.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Schema.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SchemaFactory.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SchemaUtil.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntryIterator.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$EmptySet$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$EmptySet$2.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$EmptySet.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$Entry.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$EntryIterator.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SmallSortedMap.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SourceContext$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SourceContext$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SourceContext.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SourceContextOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/SourceContextProto.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StringValue$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StringValue$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StringValue.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StringValueOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Struct$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Struct$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Struct$FieldsDefaultEntryHolder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Struct.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StructOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StructProto.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/StructuralMessageInfo.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Syntax$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Syntax$SyntaxVerifier.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Syntax.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TextFormatEscaper$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TextFormatEscaper$2.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TextFormatEscaper$ByteSequence.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TextFormatEscaper.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Timestamp$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Timestamp$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Timestamp.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TimestampOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TimestampProto.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Type$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Type$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Type.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TypeOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/TypeProto.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt32Value$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt32Value$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt32Value.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt32ValueOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt64Value$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt64Value$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt64Value.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UInt64ValueOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UninitializedMessageException.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnknownFieldSchema.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnknownFieldSetLite.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnknownFieldSetLiteSchema.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$2.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnmodifiableLazyStringList.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnsafeUtil$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnsafeUtil$Android32MemoryAccessor.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnsafeUtil$Android64MemoryAccessor.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnsafeUtil$JvmMemoryAccessor.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/UnsafeUtil.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Utf8$DecodeUtil.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Utf8$Processor.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Utf8$SafeProcessor.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Utf8$UnpairedSurrogateException.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Utf8$UnsafeProcessor.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Utf8.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Value$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Value$Builder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Value$KindCase.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Value.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/ValueOrBuilder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$FieldType$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$FieldType$2.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$FieldType$3.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$FieldType$4.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$FieldType.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$JavaType.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$Utf8Validation$1.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$Utf8Validation$2.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$Utf8Validation$3.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat$Utf8Validation.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WireFormat.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/WrappersProto.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Writer$FieldOrder.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        },
+        {
+          "path": "androidx/datastore/preferences/protobuf/Writer.class",
+          "reason": "Embedded third-party or relocated implementation; top-level POM is insufficient"
+        }
+      ],
+      "lineage": []
+    }
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "archives": {
+    "appcompat-resources-1.2.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/appcompat/content/res/AppCompatResources.java",
+          "bytes": 7307,
+          "sha256": "adc82ae176af721fd950e20a4684ecb80ce58b104267f639ac20687545a720d6"
+        },
+        {
+          "path": "androidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat.java",
+          "bytes": 30299,
+          "sha256": "8f607a1d6550d074cc0f11642fe1d775438fdffdb47249dee1bcfe64106d4f42"
+        },
+        {
+          "path": "androidx/appcompat/graphics/drawable/DrawableContainer.java",
+          "bytes": 42179,
+          "sha256": "10af03718bf35503193ac729197cae2c3470705640e37ce02c2deb780d027341"
+        },
+        {
+          "path": "androidx/appcompat/graphics/drawable/DrawableWrapper.java",
+          "bytes": 5773,
+          "sha256": "b8714add70e5ce6c66d2bc9d0c96dc0249f628b5ea5e83ca89e0eeb7c40b2846"
+        },
+        {
+          "path": "androidx/appcompat/graphics/drawable/StateListDrawable.java",
+          "bytes": 14806,
+          "sha256": "d926c9bae67fb61e1136db6deab02d3bd79a665dc7bc8c451c7026fbfd409e31"
+        },
+        {
+          "path": "androidx/appcompat/widget/DrawableUtils.java",
+          "bytes": 8658,
+          "sha256": "c310d67982d860c2232de3b726e2406913c8717c1cd36f1bdaba4c31d4465084"
+        },
+        {
+          "path": "androidx/appcompat/widget/ResourceManagerInternal.java",
+          "bytes": 22154,
+          "sha256": "68e26067626b3e086e682fc7692e1554c94f9cc4805b44a553c6334147b7a9f1"
+        },
+        {
+          "path": "androidx/appcompat/widget/ResourcesWrapper.java",
+          "bytes": 8888,
+          "sha256": "e0e0243326413dee5545f3d1583527de7738588ebd5d44f8874a714dd5ed766b"
+        },
+        {
+          "path": "androidx/appcompat/widget/TintContextWrapper.java",
+          "bytes": 4759,
+          "sha256": "45676476536cc42d9b9009c58e31ed4ea99412ab6408fcffe334c613035a847c"
+        },
+        {
+          "path": "androidx/appcompat/widget/TintInfo.java",
+          "bytes": 1203,
+          "sha256": "7b82de7eeb9c148d74a34981d1df2a19288df9a92d4563ffd5517d7fee891607"
+        },
+        {
+          "path": "androidx/appcompat/widget/TintResources.java",
+          "bytes": 1784,
+          "sha256": "61c97451f02884e2951dc895b29718d47b92ccb4869fa1e276c461ef96ff792f"
+        },
+        {
+          "path": "androidx/appcompat/widget/VectorEnabledTintResources.java",
+          "bytes": 3347,
+          "sha256": "27f8e6515fec4ac646ad0dcf7c8e74bd28b6d3a20ba75ddeec07f5ba3264f2cb"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/appcompat/content/res/AppCompatResources.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/appcompat/graphics/drawable/DrawableContainer.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/appcompat/graphics/drawable/DrawableWrapper.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/appcompat/graphics/drawable/StateListDrawable.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/appcompat/widget/DrawableUtils.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/appcompat/widget/ResourceManagerInternal.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/appcompat/widget/ResourcesWrapper.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/appcompat/widget/TintContextWrapper.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/appcompat/widget/TintInfo.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/appcompat/widget/TintResources.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/appcompat/widget/VectorEnabledTintResources.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": [
+        {
+          "path": "androidx/appcompat/graphics/drawable/DrawableContainer.java",
+          "text": "* Adapted from platform class, altered with API level checks as necessary."
+        },
+        {
+          "path": "androidx/appcompat/graphics/drawable/StateListDrawable.java",
+          "text": "* Adapted from platform class; altered with API level checks as necessary & uses"
+        }
+      ]
+    },
+    "appcompat-resources-1.2.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 888,
+          "sha256": "51a0633f59e63d35ff7bec47a376930f54d1ec0c32e32a0fb428c955363c107d"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 8849,
+          "sha256": "819dca4f21e57262346c51667e411334c876401e006c64636bc962df2d539dd7"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 63034,
+          "sha256": "95de46280b2449c4e3850fae0bbdf145c373f702c634dcb52212dc6cb81ebe86"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.appcompat_appcompat-resources.version",
+          "bytes": 6,
+          "sha256": "1e5b51cde515396a9fa762909cf8ca6584ccc564b325d2eebeea76175fe95c4d"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/content/res/AppCompatResources$ColorStateListCacheEntry.class",
+          "bytes": 850,
+          "sha256": "405c119257fffee1cbfa141d8bbb056962400b00feb8cef616a46e5ca69859d6"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/content/res/AppCompatResources.class",
+          "bytes": 5774,
+          "sha256": "52c9f6c19d134d4ec17e9c66d37d477696b0f8f72afa9325789cc52e2c2a54a8"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$1.class",
+          "bytes": 315,
+          "sha256": "3ba0168dcdd9751875a3b0f4ed3f5a1bafdc8f1f33a37c8b471aa50f24ce618b"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimatableTransition.class",
+          "bytes": 1161,
+          "sha256": "14078654a483f5d29c8b0d9659d8220f32542de23619e38ddf5ff94010df1215"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimatedStateListState.class",
+          "bytes": 4882,
+          "sha256": "0fe431035e45b53935f71f78a2f64b2ce206c8ae4c63ce06a53efe76378bd7d9"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimatedVectorDrawableTransition.class",
+          "bytes": 1299,
+          "sha256": "8a9a637495f9ce0fa4bb7accdac5097d27e582c9c8cd6b7d184b93ca07498951"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimationDrawableTransition.class",
+          "bytes": 2631,
+          "sha256": "a7d5f1621592c93eb39422018d00e0df1400136d99b62c134cffc5d4eed58845"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator.class",
+          "bytes": 1915,
+          "sha256": "f3664478138160c632b4a0a18cd9890e659233f5a1fa326c6573a5b57892a973"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$Transition.class",
+          "bytes": 1025,
+          "sha256": "7ca2dfe413882bb120880017f98c6d656a65b91ea300f06a6f74e8ab8df4244a"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat.class",
+          "bytes": 19674,
+          "sha256": "9a9a3ebada42c111589d78d2e4b01d50acefecd363fe7a5864ed9726d0f7c350"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/graphics/drawable/DrawableContainer$1.class",
+          "bytes": 831,
+          "sha256": "4687353cc89186b8e92113ea0984eff622e515702586fd738a1486ca65256bf0"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/graphics/drawable/DrawableContainer$BlockInvalidateCallback.class",
+          "bytes": 1849,
+          "sha256": "a497af20aed1b8d8ce268534234b1bea3037b48970d6a523039e2a2b12bded63"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/graphics/drawable/DrawableContainer$DrawableContainerState.class",
+          "bytes": 11475,
+          "sha256": "0f4aba167a83a4b888e0dccaca97de57c478e43fc28c13a7d0d40045918b69c0"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/graphics/drawable/DrawableContainer.class",
+          "bytes": 14125,
+          "sha256": "57b9263c0ec8bb935d52960c47af2247cbd824f22df6a617088fc7be989e0df2"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/graphics/drawable/DrawableWrapper.class",
+          "bytes": 5988,
+          "sha256": "0aa16b66cca2829efe3c5ec4178c306b597081db40f818ea3a835bfb6e32aca7"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/graphics/drawable/StateListDrawable$StateListState.class",
+          "bytes": 2971,
+          "sha256": "013a5da8327744b83dcc814dbacfe4364a024b60e9934ff2fbb7270a3f5b67cd"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/graphics/drawable/StateListDrawable.class",
+          "bytes": 9356,
+          "sha256": "ddc26df0104729067f4999107e87d0887453088301c8f26ff5567d1ac1860387"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/widget/DrawableUtils.class",
+          "bytes": 6139,
+          "sha256": "0f976381cfecc94d37474565351db2951b5c975daff13c929968e96624becc4d"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/widget/ResourceManagerInternal$AsldcInflateDelegate.class",
+          "bytes": 2056,
+          "sha256": "473618ce643486667492a833b69880bb857e30249656f6dc8f0ad0ff5148f84e"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/widget/ResourceManagerInternal$AvdcInflateDelegate.class",
+          "bytes": 1963,
+          "sha256": "6e1de17e4215f69ebdad39332116d87df47b3bc703f18cb097ef30471b7e24eb"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/widget/ResourceManagerInternal$ColorFilterLruCache.class",
+          "bytes": 1685,
+          "sha256": "519aca08dd9a717b8ce018f2582ab76b7a5bf57dd7ad7a8982333062b2599268"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/widget/ResourceManagerInternal$InflateDelegate.class",
+          "bytes": 689,
+          "sha256": "041d9274d35a525abffa6fb61c0a3d79231ba1e7119c5dad703a5790833b779a"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/widget/ResourceManagerInternal$ResourceManagerHooks.class",
+          "bytes": 1278,
+          "sha256": "c7469e1f3a22b700ec4beb42bb29a9ff1bc70e4254e60936a03b0c8ec7b04d9f"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/widget/ResourceManagerInternal$VdcInflateDelegate.class",
+          "bytes": 1909,
+          "sha256": "334e39d13d2f5bdb36c00d6daa5d21f103caf28dbf7d82a12625cd31a2679fa1"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/widget/ResourceManagerInternal.class",
+          "bytes": 15846,
+          "sha256": "3b0e09bb366c34b7f761bc3c087566947a3544e0d7b19f2cce3d91af90ad33ca"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/widget/ResourcesWrapper.class",
+          "bytes": 8028,
+          "sha256": "4c3364ee1e353a4d57f076985b595e7d2ad66f16f2a205d47b64d0e1ce2cead4"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/widget/TintContextWrapper.class",
+          "bytes": 3725,
+          "sha256": "586a0ef096b9674ee1a5a5333fcd611768387c4a2b2624b9be45c76d50e02cc1"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/widget/TintInfo.class",
+          "bytes": 970,
+          "sha256": "f340dd061101db3336fad0b2f1ab30ff094b9cc1eb7e367ab15bc032563775c8"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/widget/TintResources.class",
+          "bytes": 1644,
+          "sha256": "3ee70b1e0e059a8dd942c3d0ab5f60cf74fb5035c15c5d25d0a8e2a33bb242d7"
+        },
+        {
+          "path": "classes.jar!androidx/appcompat/widget/VectorEnabledTintResources.class",
+          "bytes": 2768,
+          "sha256": "13f715b90f3ca04734055f2ce651a1c182d08fe1991213d573ed1bab4ea6b457"
+        },
+        {
+          "path": "res/drawable/abc_vector_test.xml",
+          "bytes": 1028,
+          "sha256": "e78ed2ecae3771f16514a19bec13a76cff2e8e53e6300043d466a4014d3d7b92"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 4595,
+          "sha256": "d9f9e5dcff2069e418004315af79d457a4ffb68831abde44b2b25594bf3997f9"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

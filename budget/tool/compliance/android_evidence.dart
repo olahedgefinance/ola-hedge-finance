@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:crypto/crypto.dart';
 import 'sbom_lib.dart';
+import 'androidx_evidence.dart';
 
 const androidEvidencePath =
     'compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11';
@@ -236,6 +237,7 @@ AndroidEvidence loadAndroidEvidence(Directory root,
           'Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.',
     });
   }
+  applyAndroidXLicences(root, rows, graph);
   return AndroidEvidence(rows,
       {for (final p in plugins.entries) p.value: dependencies(p.key)}, appDeps);
 }

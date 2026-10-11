@@ -1,0 +1,227 @@
+{
+  "archives": {
+    "loader-1.0.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/loader/app/LoaderManager.java",
+          "bytes": 11324,
+          "sha256": "781f90bf2df593304b53240732a0548d0ec67383f29886a9b36d6b8c3af58c00"
+        },
+        {
+          "path": "androidx/loader/app/LoaderManagerImpl.java",
+          "bytes": 18125,
+          "sha256": "e9a93fa5c94ce5d9f90dc3e1a1b8dd2bf8e41901401830da7995f35e0d6bb25f"
+        },
+        {
+          "path": "androidx/loader/content/AsyncTaskLoader.java",
+          "bytes": 13839,
+          "sha256": "097a12995bba97ccf030d1dfda31505b54a93bb0e754b7fc51d4a2705fb963aa"
+        },
+        {
+          "path": "androidx/loader/content/CursorLoader.java",
+          "bytes": 7604,
+          "sha256": "4114ad6ca5a1f3c19f685c88a44806980742747578fc69136a51584ab103b49e"
+        },
+        {
+          "path": "androidx/loader/content/Loader.java",
+          "bytes": 21262,
+          "sha256": "2c6c7e9f08f10d26f2d8e28e5ca4d1f4787e8b0cb8944b7e02149f55fa8cccc4"
+        },
+        {
+          "path": "androidx/loader/content/ModernAsyncTask.java",
+          "bytes": 19438,
+          "sha256": "be463b61df929a7f68c45749b18c6f4147d2cc67b789604df5437398476941a0"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/loader/app/LoaderManager.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/loader/app/LoaderManagerImpl.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/loader/content/AsyncTaskLoader.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/loader/content/CursorLoader.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/loader/content/Loader.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/loader/content/ModernAsyncTask.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "loader-1.0.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 829,
+          "sha256": "b840a690cfa21a9799a65e2d2986a52a6aa5c98a308dcf85f7567c19b30ac379"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 6283,
+          "sha256": "6d21a0b45c6febbd655e3e56f1cdb865f9825a2e9ffc3f5de23d40bdc2e2d63e"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 35177,
+          "sha256": "1f75b3cb79621362c3b9adba7d3f98eb81ccec3c9e0927bedbb97575c5537751"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.loader_loader.version",
+          "bytes": 6,
+          "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        },
+        {
+          "path": "classes.jar!androidx/loader/app/LoaderManager$LoaderCallbacks.class",
+          "bytes": 946,
+          "sha256": "f8db69c592f88e16e46fcdb743e4c76580f253dc15e4477e0c1bdca21b3493a5"
+        },
+        {
+          "path": "classes.jar!androidx/loader/app/LoaderManager.class",
+          "bytes": 2244,
+          "sha256": "95c3acdb74f8d94768fe9a6960474b4fbf0b62f2c8e4dc2f96a1265e36f7f94d"
+        },
+        {
+          "path": "classes.jar!androidx/loader/app/LoaderManagerImpl$LoaderInfo.class",
+          "bytes": 7635,
+          "sha256": "210af6e9a465ad17d74c336ae3c98e118b78e086b8c7ff41fea8a767a5d986db"
+        },
+        {
+          "path": "classes.jar!androidx/loader/app/LoaderManagerImpl$LoaderObserver.class",
+          "bytes": 3237,
+          "sha256": "124d91c5da025f6c697595fc97ea824f86d7e3db802fe3dbe78df6c69f1468c2"
+        },
+        {
+          "path": "classes.jar!androidx/loader/app/LoaderManagerImpl$LoaderViewModel$1.class",
+          "bytes": 1102,
+          "sha256": "f0b272e6138bc9690460dffb6687947fc4d2eb55b728ecb85b24ab214bb9f111"
+        },
+        {
+          "path": "classes.jar!androidx/loader/app/LoaderManagerImpl$LoaderViewModel.class",
+          "bytes": 4255,
+          "sha256": "14f4eba900e29495d09b35b73f281e1bacb67b0070fbb40e4947839a191b78b7"
+        },
+        {
+          "path": "classes.jar!androidx/loader/app/LoaderManagerImpl.class",
+          "bytes": 7525,
+          "sha256": "4829a0a1bca6aa8a292b2c6819a118bc0fad0b7297b2a7500c33a0c3d4f2839a"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/AsyncTaskLoader$LoadTask.class",
+          "bytes": 2590,
+          "sha256": "acf20ac1b8cb6fa9071f72aa31520283679bbd15551a79d86cd7c8a8da6935d7"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/AsyncTaskLoader.class",
+          "bytes": 5894,
+          "sha256": "3063e88854d8b60aff90821e6c4c4ed7a56760c96121843e08cfca27c194940d"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/CursorLoader.class",
+          "bytes": 6564,
+          "sha256": "1bd214abf395cf7e8f41c82c716bebe384010e07fcac3a251bc9959075b996fb"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/Loader$ForceLoadContentObserver.class",
+          "bytes": 1018,
+          "sha256": "5f9e9120a8dedb95ec11eb23bac5a3e49dc37237291aaf3fb53c9222eee8e8a7"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/Loader$OnLoadCanceledListener.class",
+          "bytes": 493,
+          "sha256": "6be34794f21385277b7a71840df6f13fd06f6b733d11f26eb5494ffdb0ceb9ff"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/Loader$OnLoadCompleteListener.class",
+          "bytes": 553,
+          "sha256": "b566b94d8c1bffb8c6a3698070184c34771587b3eba30be5d684bfb7a0d64a98"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/Loader.class",
+          "bytes": 7784,
+          "sha256": "5b31c0d0e48966e1ea527a77747ae6f01de38e877bfba8fb2387554d875e06c2"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/ModernAsyncTask$1.class",
+          "bytes": 1122,
+          "sha256": "060256e39a74ceb7ebe24615291cbbf2a89901af1f847b4daf4680ac1e6a0d4d"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/ModernAsyncTask$2.class",
+          "bytes": 1730,
+          "sha256": "3eb6c6c7db75b07ef52863592b708515d7a613f7985baecab51e90acf2edd98d"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/ModernAsyncTask$3.class",
+          "bytes": 1946,
+          "sha256": "54efe7c4b34364d2b01d6ad1f8b65edbfa3815ea3cf4e54aae022c2ef33a9139"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/ModernAsyncTask$4.class",
+          "bytes": 818,
+          "sha256": "48f82d89c12eec263d0aba547d3318bf2a6d7d013aac16846ae10e3b48bc9b5e"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/ModernAsyncTask$AsyncTaskResult.class",
+          "bytes": 951,
+          "sha256": "33e0b15ede12ba4e22c35e561314671da001675d6e9f1a4d464ef80648aaa167"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/ModernAsyncTask$InternalHandler.class",
+          "bytes": 1258,
+          "sha256": "50b61b13a8972d79a3415a92d9e8f74714fdf7a6b39b1d3de8ad435d1d7bdc36"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/ModernAsyncTask$Status.class",
+          "bytes": 1243,
+          "sha256": "eef977646cff1c2bdec2dbce40b701aa455544b601b84d55ca956c02cc897fc4"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/ModernAsyncTask$WorkerRunnable.class",
+          "bytes": 796,
+          "sha256": "ccba86b15fca3b71f40f58d9d392e9f30ac655910772c480b7a3d479dc131bbb"
+        },
+        {
+          "path": "classes.jar!androidx/loader/content/ModernAsyncTask.class",
+          "bytes": 7908,
+          "sha256": "3bdfec0629a6850eb0983113fef0528381f8099c02c5fc0eb93a2c5ef79db935"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

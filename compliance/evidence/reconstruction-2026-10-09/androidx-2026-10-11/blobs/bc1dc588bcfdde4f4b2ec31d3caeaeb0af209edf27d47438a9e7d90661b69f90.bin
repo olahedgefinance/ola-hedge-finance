@@ -1,0 +1,182 @@
+{
+  "archives": {
+    "vectordrawable-animated-1.1.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/vectordrawable/graphics/drawable/Animatable2Compat.java",
+          "bytes": 3197,
+          "sha256": "06dfa7c9e2944f2f832bd8b16efd09602da48513ed6c495d99ab7a1cd2648342"
+        },
+        {
+          "path": "androidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat.java",
+          "bytes": 34540,
+          "sha256": "48023600dd92faaa5cdb91f3f6fe45de16e0aca1c5c307d37270531a88398eb2"
+        },
+        {
+          "path": "androidx/vectordrawable/graphics/drawable/AnimationUtilsCompat.java",
+          "bytes": 6248,
+          "sha256": "e05f2eaa83d54451f22df357145c9c108615481f863b366439ae20f26a8949af"
+        },
+        {
+          "path": "androidx/vectordrawable/graphics/drawable/AnimatorInflaterCompat.java",
+          "bytes": 40682,
+          "sha256": "78f1b088dc1db982dae0d1382bb4e55a925e868d77d4cb5c7db769c8ecbf25de"
+        },
+        {
+          "path": "androidx/vectordrawable/graphics/drawable/ArgbEvaluator.java",
+          "bytes": 4050,
+          "sha256": "0129a83180bd761f6ac6f4f69789f805b70e7ec1fd936fab8976214878c02643"
+        },
+        {
+          "path": "androidx/vectordrawable/graphics/drawable/PathInterpolatorCompat.java",
+          "bytes": 8794,
+          "sha256": "b15a5760532b7d4554dc49fcb83965b19096da3a61e3474058667c64f5220950"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/vectordrawable/graphics/drawable/Animatable2Compat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/vectordrawable/graphics/drawable/AnimationUtilsCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/vectordrawable/graphics/drawable/AnimatorInflaterCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/vectordrawable/graphics/drawable/ArgbEvaluator.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/vectordrawable/graphics/drawable/PathInterpolatorCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "vectordrawable-animated-1.1.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 876,
+          "sha256": "e5c010a04c761511b420a847916b3af5362519dbb11b8fee3ccd98b22db99206"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 8196,
+          "sha256": "15ed7d95a9ea643f83641ff89fcd0a54057380bf97875b95ebb09273a433f4e4"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 34311,
+          "sha256": "314f13628fe01ba4b0d4f43959f78ac4fb153859325cc5ad5dcca5ed9bf7d6bb"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.vectordrawable_vectordrawable-animated.version",
+          "bytes": 6,
+          "sha256": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8"
+        },
+        {
+          "path": "classes.jar!androidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback$1.class",
+          "bytes": 1329,
+          "sha256": "99e2592c8ed256e1d6b831ae32e4af52ac3921a496d1215339b641afd02b6ff0"
+        },
+        {
+          "path": "classes.jar!androidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback.class",
+          "bytes": 1465,
+          "sha256": "995731b8966fababc148750583b626d4fb4ebf117cadeb4a3e330b191dbf182d"
+        },
+        {
+          "path": "classes.jar!androidx/vectordrawable/graphics/drawable/Animatable2Compat.class",
+          "bytes": 716,
+          "sha256": "5bfc7cd475573fbadf336784aa32c5a8e9f5ce16fd0707b786c609136c496b17"
+        },
+        {
+          "path": "classes.jar!androidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$1.class",
+          "bytes": 1550,
+          "sha256": "3c2cb713085e8ac07d6db717b0700a3ce059928df0b5d4c0bb5fe461c0e988f9"
+        },
+        {
+          "path": "classes.jar!androidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$2.class",
+          "bytes": 1985,
+          "sha256": "fddd10c91103a8c6b50b750b607e188d31b75a8ffb2d2f9c7bc23fe278cd5197"
+        },
+        {
+          "path": "classes.jar!androidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$AnimatedVectorDrawableCompatState.class",
+          "bytes": 4052,
+          "sha256": "0e3f600f50cb66a4ab4815e09022b9424852f4134813e8a0b8039f0cab5d82c3"
+        },
+        {
+          "path": "classes.jar!androidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$AnimatedVectorDrawableDelegateState.class",
+          "bytes": 2369,
+          "sha256": "f642ab7f33005435bddc6125f8ee75e9c1890c235a6ff78fce9d8861cf980df3"
+        },
+        {
+          "path": "classes.jar!androidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat.class",
+          "bytes": 20291,
+          "sha256": "b19f4c0d953cf5a48ea174288637a20aaff9cb245c98e895f7596083dcc6cec1"
+        },
+        {
+          "path": "classes.jar!androidx/vectordrawable/graphics/drawable/AnimationUtilsCompat.class",
+          "bytes": 5594,
+          "sha256": "422402472cd106b2c9bc086e92f72c07435248f40a2beaaf8f2a659385abef1c"
+        },
+        {
+          "path": "classes.jar!androidx/vectordrawable/graphics/drawable/AnimatorInflaterCompat$PathDataEvaluator.class",
+          "bytes": 2166,
+          "sha256": "16f8bb10587bd80152f2e8cc752bef2e2e740690faabc013f4889573be5c9253"
+        },
+        {
+          "path": "classes.jar!androidx/vectordrawable/graphics/drawable/AnimatorInflaterCompat.class",
+          "bytes": 22066,
+          "sha256": "4d39faf284b445a72c4f9e1facca547d7a317d1aa60e830253433f0906316b4a"
+        },
+        {
+          "path": "classes.jar!androidx/vectordrawable/graphics/drawable/ArgbEvaluator.class",
+          "bytes": 1960,
+          "sha256": "8f4eb79ccbb2d36dd7fb7beec170d0a18b7da1f3b51db345cf5ef82775319291"
+        },
+        {
+          "path": "classes.jar!androidx/vectordrawable/graphics/drawable/PathInterpolatorCompat.class",
+          "bytes": 6340,
+          "sha256": "7ee3b204e69de28c03785c92d080629c4a0dcc16a7a9f40c9fa1c361260aaeed"
+        },
+        {
+          "path": "proguard.txt",
+          "bytes": 797,
+          "sha256": "087281c467bd00b998f9f705cec019e7944a6e3255f61b8a23ee1be04af5eb01"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

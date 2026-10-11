@@ -1,0 +1,119 @@
+{
+  "archives": {
+    "core-runtime-2.2.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/arch/core/executor/ArchTaskExecutor.java",
+          "bytes": 3222,
+          "sha256": "73a7d46a7ca16560afc9d74ae27f5d9b47590cd29133d151bf9d04b2f2f23b15"
+        },
+        {
+          "path": "androidx/arch/core/executor/DefaultTaskExecutor.java",
+          "bytes": 3755,
+          "sha256": "68583a88eaa2b341a86ba3037b6afaa50ff9e4c0c50e44a3bc70313f3467add9"
+        },
+        {
+          "path": "androidx/arch/core/executor/TaskExecutor.java",
+          "bytes": 2137,
+          "sha256": "4358233f2e68e3eb21be89511d9b239f7cb01ddd2c7bbefbe17e3a6e8fb37b59"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/arch/core/executor/ArchTaskExecutor.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/arch/core/executor/DefaultTaskExecutor.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/arch/core/executor/TaskExecutor.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "core-runtime-2.2.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 835,
+          "sha256": "2519a51163ebba359e8a9a6562a7049d2a75ee8dd48f49baa49884abaad8b6ad"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 122,
+          "sha256": "4d71d4cc4d860d8def346517658ee6dff00f82fa89a0d3e7bef99114b15d53b9"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 6270,
+          "sha256": "c57bea6797743219c1cacafcee2c835f79390996bca44f090f21f9a32810a549"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.arch.core_core-runtime.version",
+          "bytes": 67,
+          "sha256": "1b7c606370188534dac5561fba2b2988093829697fce9e6e8832e9291d24ed00"
+        },
+        {
+          "path": "classes.jar!androidx/arch/core/executor/ArchTaskExecutor.class",
+          "bytes": 2950,
+          "sha256": "98de9bb8d7b0ae8d3c46ea000ff114c5393b1f37093e168668159ebabcf16c69"
+        },
+        {
+          "path": "classes.jar!androidx/arch/core/executor/DefaultTaskExecutor$1.class",
+          "bytes": 1445,
+          "sha256": "531e7ec26c98380d2b00b1355b208ed10e9a89f8d07db63fc9da500faee520f2"
+        },
+        {
+          "path": "classes.jar!androidx/arch/core/executor/DefaultTaskExecutor$Api28Impl.class",
+          "bytes": 834,
+          "sha256": "307a8b3c9c982c0cd8c5cc4f440c3d7824c72a84f09466cbc5c474b8cef16809"
+        },
+        {
+          "path": "classes.jar!androidx/arch/core/executor/DefaultTaskExecutor.class",
+          "bytes": 3293,
+          "sha256": "b289d91836334885dcdda78c9e33801bb1db7ab8437b02d478fce17728170263"
+        },
+        {
+          "path": "classes.jar!androidx/arch/core/executor/TaskExecutor.class",
+          "bytes": 1053,
+          "sha256": "ed45b9620e61e3b7d1a10f778faf49a865224eb95f707f67b853165755ff2d9f"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 63,
+          "sha256": "0aed495e21a70cab045e3b4792a02f2c7ad68fc1687d73474a09db0b269bc041"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

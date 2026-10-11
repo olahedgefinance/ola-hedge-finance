@@ -1,0 +1,241 @@
+{
+  "archives": {
+    "versionedparcelable-1.1.1-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/versionedparcelable/CustomVersionedParcelable.java",
+          "bytes": 1547,
+          "sha256": "47163d6b428000148da0ecc69ecd6f4d0d0c6ba5aea7dbc07dc696bcccf094dd"
+        },
+        {
+          "path": "androidx/versionedparcelable/NonParcelField.java",
+          "bytes": 1199,
+          "sha256": "115e3eea713f1dae90f646b806a484246a7fbe442d0f194cd00ac5c09b4a0843"
+        },
+        {
+          "path": "androidx/versionedparcelable/ParcelField.java",
+          "bytes": 1216,
+          "sha256": "8542991467891ac617916329dab1b778fe091d56b9358ffd727222ed118f1abb"
+        },
+        {
+          "path": "androidx/versionedparcelable/ParcelImpl.java",
+          "bytes": 1966,
+          "sha256": "563bfd134cc7cf77a5f6730d81692b2bb9a87758c8b1e557c78abbe9af931e7c"
+        },
+        {
+          "path": "androidx/versionedparcelable/ParcelUtils.java",
+          "bytes": 5486,
+          "sha256": "0f8292f14212197c8e167b42827d650966df51d96b59bd56c3cfc379e08ad3ad"
+        },
+        {
+          "path": "androidx/versionedparcelable/VersionedParcel.java",
+          "bytes": 50586,
+          "sha256": "e7414dc6feddf43b4146bec4ba3a3aea7999bea27f6a65df15169e5f86f8c381"
+        },
+        {
+          "path": "androidx/versionedparcelable/VersionedParcelParcel.java",
+          "bytes": 7207,
+          "sha256": "91c9bbfcb14cd1a2c5b628911f901c25f9b67ffa77af10d079702accaa098797"
+        },
+        {
+          "path": "androidx/versionedparcelable/VersionedParcelStream.java",
+          "bytes": 17050,
+          "sha256": "1bfcb18cb91e6040f80ccf70ead30ec112da2e696fa5d005b5d6d1740571cfd5"
+        },
+        {
+          "path": "androidx/versionedparcelable/VersionedParcelable.java",
+          "bytes": 832,
+          "sha256": "e30b468d8f0afa79b55a28c785887c7b71d7866cecd70e918f25aac8d8a44d34"
+        },
+        {
+          "path": "androidx/versionedparcelable/VersionedParcelize.java",
+          "bytes": 3341,
+          "sha256": "7f58850cc50499d44ae916758594afb12e83c51efebf93d6daa949a79a846d5d"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/versionedparcelable/CustomVersionedParcelable.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/versionedparcelable/NonParcelField.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/versionedparcelable/ParcelField.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/versionedparcelable/ParcelImpl.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/versionedparcelable/ParcelUtils.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/versionedparcelable/VersionedParcel.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/versionedparcelable/VersionedParcelParcel.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/versionedparcelable/VersionedParcelStream.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/versionedparcelable/VersionedParcelable.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/versionedparcelable/VersionedParcelize.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "versionedparcelable-1.1.1.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 926,
+          "sha256": "71da3e3c0bc0f6e1799d38924ba918e54aebb5684aa33b8b379a726ea4e5e5bc"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "aidl/androidx/versionedparcelable/ParcelImpl.aidl",
+          "bytes": 62,
+          "sha256": "79afb01a9cea7351cdcad0b600b2eecc52765667a12a4e9a074c674fe86311ba"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 31906,
+          "sha256": "4733ce6afbb1c7941989ae581ca7bfc28925c0afc8f91c3e5f5f0500da6c9f83"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.versionedparcelable_versionedparcelable.version",
+          "bytes": 6,
+          "sha256": "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989"
+        },
+        {
+          "path": "classes.jar!androidx/versionedparcelable/CustomVersionedParcelable.class",
+          "bytes": 915,
+          "sha256": "e579578f00dd09763d5e3a4c6aeec08ca22baf3aaf6dc01236e19ddc7d6f0d90"
+        },
+        {
+          "path": "classes.jar!androidx/versionedparcelable/NonParcelField.class",
+          "bytes": 676,
+          "sha256": "90949f3598fc14cc39be75c163947bb14da4379d382ec0189adabf1a4a92de05"
+        },
+        {
+          "path": "classes.jar!androidx/versionedparcelable/ParcelField.class",
+          "bytes": 762,
+          "sha256": "f521cf9ad5fc9559920bc2acaef40995db0e085e630107d40a3497245331a150"
+        },
+        {
+          "path": "classes.jar!androidx/versionedparcelable/ParcelImpl$1.class",
+          "bytes": 1191,
+          "sha256": "e87f085ca9e8561e296481ff17aefe4cc2b7036cb1e0557e8a72d6bba1a723cf"
+        },
+        {
+          "path": "classes.jar!androidx/versionedparcelable/ParcelImpl.class",
+          "bytes": 1979,
+          "sha256": "c037c7c9e1f527792fe73745f341a6c0ce428b9754a52af5e47f2563b70cf136"
+        },
+        {
+          "path": "classes.jar!androidx/versionedparcelable/ParcelUtils.class",
+          "bytes": 5523,
+          "sha256": "06750dd11faeb70558609202701a18f694da81e26c8a40fd3eced9264285c383"
+        },
+        {
+          "path": "classes.jar!androidx/versionedparcelable/VersionedParcel$1.class",
+          "bytes": 1546,
+          "sha256": "e1a12a386ecbb70a1adc75cd92c3ee77fd4f6e7032302b58f57023fc26481b79"
+        },
+        {
+          "path": "classes.jar!androidx/versionedparcelable/VersionedParcel$ParcelException.class",
+          "bytes": 538,
+          "sha256": "b2703ca445db12754474d6737f78dfd14967f80f46667511ded8ed9b89a8aa69"
+        },
+        {
+          "path": "classes.jar!androidx/versionedparcelable/VersionedParcel.class",
+          "bytes": 29325,
+          "sha256": "08d446408a3f5b80f9529e7a0d984a7560bbf86e66b22a8df251eed58e76df78"
+        },
+        {
+          "path": "classes.jar!androidx/versionedparcelable/VersionedParcelParcel.class",
+          "bytes": 7429,
+          "sha256": "715acee0a1cbcf32caaa03ccfcab93c93e59c809aa2610d053968e9765b4389a"
+        },
+        {
+          "path": "classes.jar!androidx/versionedparcelable/VersionedParcelStream$1.class",
+          "bytes": 1613,
+          "sha256": "bc4df2ed9eeb64ce909cac39888bc10c0f4a933960b0ea79b2ef6a2ed4c7dac8"
+        },
+        {
+          "path": "classes.jar!androidx/versionedparcelable/VersionedParcelStream$FieldBuffer.class",
+          "bytes": 1288,
+          "sha256": "25c4833fe27ad60cd6202d7c5c9a3aa0cf8c807bf77b7c2b453d9bdcbc7dcf95"
+        },
+        {
+          "path": "classes.jar!androidx/versionedparcelable/VersionedParcelStream.class",
+          "bytes": 13823,
+          "sha256": "25324f02065b8869ea5d4dff7e43696972c8da07d53400be13ee551e68f02ce4"
+        },
+        {
+          "path": "classes.jar!androidx/versionedparcelable/VersionedParcelable.class",
+          "bytes": 148,
+          "sha256": "05fdc39ebe53efd40023de2184e58366f62dc2ff1c11eee0db510f612a92d57e"
+        },
+        {
+          "path": "classes.jar!androidx/versionedparcelable/VersionedParcelize.class",
+          "bytes": 964,
+          "sha256": "3428250c3964debae0498587108614f37da948b7a21900308cf3ed545935f50e"
+        },
+        {
+          "path": "proguard.txt",
+          "bytes": 236,
+          "sha256": "70de98c281857fd8da843a24d3b2a22bf6dd792cd440045acb499b849e3620fd"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

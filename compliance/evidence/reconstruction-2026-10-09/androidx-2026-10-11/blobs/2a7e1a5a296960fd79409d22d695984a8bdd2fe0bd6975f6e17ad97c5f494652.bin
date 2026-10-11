@@ -1,0 +1,8 @@
+{
+  "repository": "https://android.googlesource.com/platform/frameworks/support",
+  "contextCommit": "74214dd8855295bf94d0abf938e8a480df01d591",
+  "commitResponseUrl": "https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-main?format=JSON",
+  "licenceUrl": "https://android.googlesource.com/platform/frameworks/support/+/74214dd8855295bf94d0abf938e8a480df01d591/LICENSE.txt?format=TEXT",
+  "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+  "scope": "Shared licence text and upstream identity only. This current upstream commit is NOT asserted to be the source revision of any historical Maven release; exact published source JARs supply release evidence."
+}

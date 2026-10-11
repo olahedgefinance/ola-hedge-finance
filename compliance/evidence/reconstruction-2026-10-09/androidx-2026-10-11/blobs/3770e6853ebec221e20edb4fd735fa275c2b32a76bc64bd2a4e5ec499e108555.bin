@@ -1,0 +1,226 @@
+{
+  "archives": {
+    "collection-1.1.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/collection/ArrayMap.java",
+          "bytes": 7817,
+          "sha256": "20fac350f3f467386729d96a548b3a5942b76eacfe191c7f7860dec7c8750554"
+        },
+        {
+          "path": "androidx/collection/ArraySet.java",
+          "bytes": 25849,
+          "sha256": "41a4fb77d42c08dc51d2e2f8dfe3c5f0554ce070500275202b24bbd896590dcf"
+        },
+        {
+          "path": "androidx/collection/CircularArray.java",
+          "bytes": 8003,
+          "sha256": "d007a05fa29e257a9626edc20f7f7b64ea5ecf34c816ef4f6918bb170331283f"
+        },
+        {
+          "path": "androidx/collection/CircularIntArray.java",
+          "bytes": 6818,
+          "sha256": "bd308d7d05204a7d73b22dbfd6e3f3cc5fcfe6e2a22121c6fd9d948226215561"
+        },
+        {
+          "path": "androidx/collection/ContainerHelpers.java",
+          "bytes": 2468,
+          "sha256": "6efbbcb3e256647cb4ac2d2011e7d54849e8af98537058888b649d719d8a07d4"
+        },
+        {
+          "path": "androidx/collection/LongSparseArray.java",
+          "bytes": 16422,
+          "sha256": "e575cb90a0349400a4a8bdf181233d2486867aa365ef7d8c72374abc5e2a8d1f"
+        },
+        {
+          "path": "androidx/collection/LruCache.java",
+          "bytes": 11188,
+          "sha256": "b1129dac9eb8b707b001c1b55d6b6992019e91ea06d5ac9cac533902c3dbd09b"
+        },
+        {
+          "path": "androidx/collection/MapCollections.java",
+          "bytes": 15703,
+          "sha256": "2cdf15f9aca73ed9f902707dc9d4ef049c7db0a24f34a394404376a2b4bfb3d7"
+        },
+        {
+          "path": "androidx/collection/SimpleArrayMap.java",
+          "bytes": 27602,
+          "sha256": "196db9d6de91a0d79bf0d83483cd7a717722145a5a4cc4bec9f37646d9ad3014"
+        },
+        {
+          "path": "androidx/collection/SparseArrayCompat.java",
+          "bytes": 16305,
+          "sha256": "8e3f80f0d0d4a24dfe7984acdfdd364beaaa491892019f82fd0b077f838f1699"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/collection/ArrayMap.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/collection/ArraySet.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/collection/CircularArray.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/collection/CircularIntArray.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/collection/ContainerHelpers.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/collection/LongSparseArray.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/collection/LruCache.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/collection/MapCollections.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/collection/SimpleArrayMap.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/collection/SparseArrayCompat.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "collection-1.1.0.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/collection/ArrayMap$1.class",
+          "bytes": 2268,
+          "sha256": "fc3ef7253e2f6ee408dc372263f747cb18cfb0755b5afd5fb11c81452e6bb667"
+        },
+        {
+          "path": "androidx/collection/ArrayMap.class",
+          "bytes": 3510,
+          "sha256": "500f638c33936e2de0335a6425718880df4c87d373f13142eaab47603cc4ee5b"
+        },
+        {
+          "path": "androidx/collection/ArraySet$1.class",
+          "bytes": 2270,
+          "sha256": "3effd8b91acf9ce8dca4b4476b976390f535f4e2689eedf7190db4c4f8b5f3ad"
+        },
+        {
+          "path": "androidx/collection/ArraySet.class",
+          "bytes": 11189,
+          "sha256": "081ac4bab5d55421114564211c31f5a46eefee3beb4108fd4de666f47de9d043"
+        },
+        {
+          "path": "androidx/collection/CircularArray.class",
+          "bytes": 4178,
+          "sha256": "b32d8d18d5fa9eb8416aba1dfc5e3d33476722fe6594b2d4337097b473e9462f"
+        },
+        {
+          "path": "androidx/collection/CircularIntArray.class",
+          "bytes": 2996,
+          "sha256": "f99b0764ce0493a67ef63dc6caf2fe79d82191dfb386225c214a643da2dd9c7e"
+        },
+        {
+          "path": "androidx/collection/ContainerHelpers.class",
+          "bytes": 1711,
+          "sha256": "38da89699a5da2d46347fc72a62c1ece258f5b2380926929214b86d60d5875d2"
+        },
+        {
+          "path": "androidx/collection/LongSparseArray.class",
+          "bytes": 8185,
+          "sha256": "c978a778ad95bab98edc3b9f341cbd647bc08851c289f94b225290b278a0a3ed"
+        },
+        {
+          "path": "androidx/collection/LruCache.class",
+          "bytes": 6672,
+          "sha256": "1764c1418821972074688959e955fc9a8e2d44f9792fb5346aae8dd3f129f7c6"
+        },
+        {
+          "path": "androidx/collection/MapCollections$ArrayIterator.class",
+          "bytes": 1678,
+          "sha256": "85e4723711865c1aa25b70d4ab64f3053dccebdef03612c7c62bab145f5ebd33"
+        },
+        {
+          "path": "androidx/collection/MapCollections$EntrySet.class",
+          "bytes": 4584,
+          "sha256": "4f0597d81b0f83ed229f9781d9404aa1e71ea99e2e0d1cc2ef74020a6dfc98ef"
+        },
+        {
+          "path": "androidx/collection/MapCollections$KeySet.class",
+          "bytes": 3760,
+          "sha256": "aadef5bb4ae2c050dbe5a9483d4248e27d978205b131b53dbc66017a94adbda2"
+        },
+        {
+          "path": "androidx/collection/MapCollections$MapIterator.class",
+          "bytes": 3550,
+          "sha256": "13934c7db53ee7dc98515bde62cd35ffbf1b933b4a552bd6cc654b4de8d9a14b"
+        },
+        {
+          "path": "androidx/collection/MapCollections$ValuesCollection.class",
+          "bytes": 3783,
+          "sha256": "8163c2083a746270efaa36749a424579df8f0fe67cfaf523d3abb36ec6c73694"
+        },
+        {
+          "path": "androidx/collection/MapCollections.class",
+          "bytes": 5547,
+          "sha256": "146e92f684eff5961ed53f03ad52a413b65007b37065f37c028babe8dfa19895"
+        },
+        {
+          "path": "androidx/collection/SimpleArrayMap.class",
+          "bytes": 11832,
+          "sha256": "bec9d021a7f8071f4f9a062547c7c8960731db0ae2a801f78e4c279b2eea131b"
+        },
+        {
+          "path": "androidx/collection/SparseArrayCompat.class",
+          "bytes": 8319,
+          "sha256": "19580d336a95f1c56749eece8c6adccb8cb49aa12b887a3f856fb1f55e412751"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

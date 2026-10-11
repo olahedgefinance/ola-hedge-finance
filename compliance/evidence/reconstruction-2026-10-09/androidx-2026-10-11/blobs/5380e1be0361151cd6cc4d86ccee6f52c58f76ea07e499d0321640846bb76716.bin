@@ -1,0 +1,372 @@
+{
+  "archives": {
+    "ui-unit-1.1.1-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/compose/ui/unit/AndroidDensity.android.kt",
+          "bytes": 968,
+          "sha256": "c92f3ae6983e4b5ec96ea295f92219840d759600338e2a581d7260f1dbd4b80d"
+        },
+        {
+          "path": "androidx/compose/ui/unit/Constraints.kt",
+          "bytes": 18412,
+          "sha256": "22cb6e594438f344b5aef2ddb1965710a85d5126f06723a6893486a9af6d0171"
+        },
+        {
+          "path": "androidx/compose/ui/unit/Density.kt",
+          "bytes": 4191,
+          "sha256": "f45a3ee4ebc8e401600c9c1da35394487ddc0fe808e9ca6c4d5c50fb4daf2aad"
+        },
+        {
+          "path": "androidx/compose/ui/unit/Dp.kt",
+          "bytes": 16301,
+          "sha256": "f1d9ef01a4182770b796e29f9241f2f85d145be058b519d7068fef20c91c54f2"
+        },
+        {
+          "path": "androidx/compose/ui/unit/ExperimentalUnitApi.kt",
+          "bytes": 769,
+          "sha256": "8e960d8ea22a02b1eac4b24485f97897609ca99be80a73967bd88684bd58c062"
+        },
+        {
+          "path": "androidx/compose/ui/unit/IntOffset.kt",
+          "bytes": 5271,
+          "sha256": "fdef2ecb628f389d110952b590e06206e66d1e2cfea2a6dd2bcab9c8d7d6eefd"
+        },
+        {
+          "path": "androidx/compose/ui/unit/IntRect.kt",
+          "bytes": 9644,
+          "sha256": "5a071b188d2093449918dd76cda5291e2febbd6a1430b2b11709531ad205c636"
+        },
+        {
+          "path": "androidx/compose/ui/unit/IntSize.kt",
+          "bytes": 3028,
+          "sha256": "9dd3ebec646ca41f6941557ed24cacfa361cb4de38cd1e064672d4e109bf17fc"
+        },
+        {
+          "path": "androidx/compose/ui/unit/LayoutDirection.kt",
+          "bytes": 974,
+          "sha256": "4c3b58dfdf27980bbbd803167371b5dadfbf1584a566e0eda05abfa07a93a856"
+        },
+        {
+          "path": "androidx/compose/ui/unit/TextUnit.kt",
+          "bytes": 12818,
+          "sha256": "4cd3252b8904bea1d3365a0ec3c1e3bbcaa19b242276d98d2f6a7dac2eefe26a"
+        },
+        {
+          "path": "androidx/compose/ui/unit/Velocity.kt",
+          "bytes": 4484,
+          "sha256": "c21fe85b5be655841c26ecc0ddb2b9eb7c3ef782f53aefff760e9284548e24c6"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/compose/ui/unit/AndroidDensity.android.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/unit/Constraints.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/unit/Density.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/unit/Dp.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/unit/ExperimentalUnitApi.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/unit/IntOffset.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/unit/IntRect.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/unit/IntSize.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/unit/LayoutDirection.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/unit/TextUnit.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/compose/ui/unit/Velocity.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "ui-unit-1.1.1.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 884,
+          "sha256": "1ee67ac7468387eac20d2dfd5c0014a62077ec6b66ffc6def9530364b608596b"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 97,
+          "sha256": "eab031b3d62072a31ac4c3dc038ea9aadce41d0177a68317d8672376c77216b5"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "baseline-prof.txt",
+          "bytes": 261,
+          "sha256": "5ae278eadcae3c411ef0f2d2faf26b56c2d930848deb711ba29a91ff772b5e74"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 67408,
+          "sha256": "0847f500fac0b201fe75d2da5859f985dcb7206ed9a853594cfbe992c082778a"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.compose.ui_ui-unit.version",
+          "bytes": 6,
+          "sha256": "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989"
+        },
+        {
+          "path": "classes.jar!META-INF/ui-unit_release.kotlin_module",
+          "bytes": 170,
+          "sha256": "11d97c4360be1f9d3dea7e07b2babad839cb1c1f2178074bc5750a937554171f"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/AndroidDensity_androidKt.class",
+          "bytes": 1380,
+          "sha256": "eb3ae66e6c12232b859194fb0d7eda713a3e5d2d3439a198cd2f80fbaa85cee8"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/Constraints$Companion.class",
+          "bytes": 4524,
+          "sha256": "8344242ad4701dbf59a8d03a32d48730d093d19fb06e3b4f848b20c68a21fbb8"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/Constraints.class",
+          "bytes": 7285,
+          "sha256": "b84c4f89c1a4d69669f6f23f0e639d5b3dd05755b5a6465640ea15114fcdac39"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/ConstraintsKt.class",
+          "bytes": 4364,
+          "sha256": "b465fd158cfdc8ad9af17391c941e2577babb15da83f44d30f5372536dff5c96"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/Density$DefaultImpls.class",
+          "bytes": 5708,
+          "sha256": "2ca01b627a9a5f051ede38fd357dd14d59e0e0efc4388e2cacaf00e6d7e05503"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/Density.class",
+          "bytes": 2287,
+          "sha256": "96752fe9911eb368fd7148706582f1f95f673e1927e49bb1328eacc22dde8e7e"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/DensityImpl.class",
+          "bytes": 5048,
+          "sha256": "287c21c4cc206ff3af3501dd79ec04c1c07cbbb6fb8443992db497fb9003ff22"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/DensityKt.class",
+          "bytes": 993,
+          "sha256": "99926ce900b8e4acf1c823b2da489cf5d0abddeb1a837bcda93827cdd338c242"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/Dp$Companion.class",
+          "bytes": 1736,
+          "sha256": "a36eb3b75fd786ca4f59ca7cf521228b5b77179ed7be52e9d3a750404dfbd599"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/Dp.class",
+          "bytes": 5377,
+          "sha256": "1966b8783eef498160c1c4ee574bdf7c775af071498ca7d7a406808f74df7b59"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/DpKt.class",
+          "bytes": 11645,
+          "sha256": "58fd5e9f61d1dc0fe9a9b80e10390a878bd98409b74ad9bd383f3af341cce958"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/DpOffset$Companion.class",
+          "bytes": 1216,
+          "sha256": "1026d32054f591401d0a721f29b46c8e86033b24c4653fbf355a7c8ca3540990"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/DpOffset.class",
+          "bytes": 6207,
+          "sha256": "904ff9609d4cbea6031c64d1cc7738326065a344d09825ee45b3650b23edb52e"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/DpRect$Companion.class",
+          "bytes": 792,
+          "sha256": "722ff96eff7a5851c20102b025ca7f778b658c9c27d026eccea751fc42f505a1"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/DpRect.class",
+          "bytes": 5491,
+          "sha256": "dced28892b76d69e673b246c5bf296bd6ffcdf2b49293d4ff1aab6acc4a9f8d5"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/DpSize$Companion.class",
+          "bytes": 1208,
+          "sha256": "83c9602eb40c0b05f5790caf8bbb1dd428ab172cdaab86d1ab4d6d1651ddcf4b"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/DpSize.class",
+          "bytes": 7578,
+          "sha256": "9cc151e173058b527001893f72e2feaec8513fb5b841ad5bcbb291da9b5ef233"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/ExperimentalUnitApi.class",
+          "bytes": 689,
+          "sha256": "23db4078587960bbc2dacb5006b87e6459cbc93c605a7adf8d185f7c3380fdfc"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/IntOffset$Companion.class",
+          "bytes": 1050,
+          "sha256": "339dbb1bc518f898187fdd73a08a6add14e0a62c9d92dae56f75962c9f12c17a"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/IntOffset.class",
+          "bytes": 5539,
+          "sha256": "241f2d658babff3803cb27e12c34ae4383f09e9a12eb103b266b792a9502f66b"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/IntOffsetKt.class",
+          "bytes": 2842,
+          "sha256": "634aa9c3eaa514644db643b87c9817054a4c75b7a1760a685a09674135c51359"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/IntRect$Companion.class",
+          "bytes": 1235,
+          "sha256": "60c0d37e56f40a3c1cd0e09bde91c0c95fbd101c2bd83af39b81ff54c49e71a3"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/IntRect.class",
+          "bytes": 8420,
+          "sha256": "cc91115d6645a7d968d13678ac6c86ba64d581785cf33ae4330ecbe82b53138f"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/IntRectKt.class",
+          "bytes": 2372,
+          "sha256": "9328e218d85ad66b08969d42e7ad46b5b65ece307965bd65373577949f49b555"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/IntSize$Companion.class",
+          "bytes": 1040,
+          "sha256": "b29ecee732c38d36604cbfe784769cdb46e565a1d0ced7a92bcc2a7a13e3d193"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/IntSize.class",
+          "bytes": 4354,
+          "sha256": "af2882dfac10236259cd51f6e25c93c6385018ee2f7a2b54779bd7e1d4e8795e"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/IntSizeKt.class",
+          "bytes": 2652,
+          "sha256": "bb96a713ceb7ac753be6946392078bf51480d630e003fa1539284c98e4867004"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/LayoutDirection.class",
+          "bytes": 1395,
+          "sha256": "de9ee0a17d206fd818dea64cce29f3582b8b2af77bdef1e06386d375c065647b"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/TextUnit$Companion.class",
+          "bytes": 1639,
+          "sha256": "8a7ad21b17335da62d8b234af458ac057b02d8142141e0a81e193aef7b60b08e"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/TextUnit.class",
+          "bytes": 6007,
+          "sha256": "b233cda60b26d7243c0bacc059410d7e664a99e967c1b2c4b825f40a09e69a41"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/TextUnitKt.class",
+          "bytes": 7072,
+          "sha256": "99896c963bdf1fa3cbbcf8fa604fa35eea1191b7663dfee509d73298549b475d"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/TextUnitType$Companion.class",
+          "bytes": 1382,
+          "sha256": "813e1e2a7d69efef48c4151cd3ee9873ec42ea2dd6f22e3b42c6cf36ef64ae0d"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/TextUnitType.class",
+          "bytes": 2739,
+          "sha256": "50adebc45b1a876b87341b8d8406198b5c606bc5a6a7d119a62758646588cd36"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/Velocity$Companion.class",
+          "bytes": 1214,
+          "sha256": "eaf628d24e0de56fe53b1e41c711bf8d64b8b5dbfc5342ddc4635222575bec5d"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/Velocity.class",
+          "bytes": 5417,
+          "sha256": "bd1d8cb3bce958f525630e275b011a994bd5d76be0e2798decfba099e7401f9e"
+        },
+        {
+          "path": "classes.jar!androidx/compose/ui/unit/VelocityKt.class",
+          "bytes": 1207,
+          "sha256": "84b82f4fb26f3d2df57fcfac7a601f95f4cf22b5cf650078c3b69d4f8666ca99"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 63,
+          "sha256": "0aed495e21a70cab045e3b4792a02f2c7ad68fc1687d73474a09db0b269bc041"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

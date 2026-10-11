@@ -1,0 +1,1060 @@
+{
+  "archives": {
+    "biometric-1.1.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/biometric/AuthenticationCallbackProvider.java",
+          "bytes": 10355,
+          "sha256": "37183423a547aa4a407de5e29557063ce2b8b15ff6ce23fdd08f278beb1142a8"
+        },
+        {
+          "path": "androidx/biometric/AuthenticatorUtils.java",
+          "bytes": 6843,
+          "sha256": "dec65a84e47763cfb192701863b5366246067ae36a6f40989f4c38ef2c0ac528"
+        },
+        {
+          "path": "androidx/biometric/BiometricErrorData.java",
+          "bytes": 3014,
+          "sha256": "3a306f50c4887311af7ddca4c7078d38050b8b45545194698734e30d0c0a79f4"
+        },
+        {
+          "path": "androidx/biometric/BiometricFragment.java",
+          "bytes": 52410,
+          "sha256": "79da6651542201b9d440efa28268459ae9eb10b2b176089362e73dc3f145c125"
+        },
+        {
+          "path": "androidx/biometric/BiometricManager.java",
+          "bytes": 24342,
+          "sha256": "458b45524aeffe390f0aa7f54efaa7c1fe7c3e0cd4602f1a587a1caeb59ff106"
+        },
+        {
+          "path": "androidx/biometric/BiometricPrompt.java",
+          "bytes": 46244,
+          "sha256": "57704c4433b9011057cb37b5bfc91712ccb7336b3e628587b4e7a8d79c1bcaa3"
+        },
+        {
+          "path": "androidx/biometric/BiometricViewModel.java",
+          "bytes": 22684,
+          "sha256": "6e0e74ffc28e2e87a8dfaed7c22ab71a19854ea812af7e6a4fc57d04f99e7e0f"
+        },
+        {
+          "path": "androidx/biometric/CancellationSignalProvider.java",
+          "bytes": 7085,
+          "sha256": "2eb2981be5732003c9e1a1673746d45ad344ed31119b6f814a6276b807b30b37"
+        },
+        {
+          "path": "androidx/biometric/CryptoObjectUtils.java",
+          "bytes": 18021,
+          "sha256": "e218e45f0e511c4680f05e28ec8cef2ec08fb5122133bba62fb7c991025eb499"
+        },
+        {
+          "path": "androidx/biometric/DeviceUtils.java",
+          "bytes": 6743,
+          "sha256": "690486dbda805053a8dab2e5add410dcedfb1d64ae57a3f3d11018198a8ede31"
+        },
+        {
+          "path": "androidx/biometric/ErrorUtils.java",
+          "bytes": 4042,
+          "sha256": "d8664ee7ed80f0f528618e7ee18b019595c9f7e5e94251b19ef9e10c526f1ade"
+        },
+        {
+          "path": "androidx/biometric/FingerprintDialogFragment.java",
+          "bytes": 16375,
+          "sha256": "0d85a8df1d50615c1084b451dd2ffad41ed0f2e59e93fa4da8ca86a3696d467e"
+        },
+        {
+          "path": "androidx/biometric/KeyguardUtils.java",
+          "bytes": 4200,
+          "sha256": "c2a385e844bb8a90808d5bee9e821dfca743d4921b988e23ceab9f8362574624"
+        },
+        {
+          "path": "androidx/biometric/PackageUtils.java",
+          "bytes": 2234,
+          "sha256": "ef3977a031f2f3f1261a4eb87c461cd6e904e72d93775952d7371e5efba8f74c"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/biometric/AuthenticationCallbackProvider.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/biometric/AuthenticatorUtils.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/biometric/BiometricErrorData.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/biometric/BiometricFragment.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/biometric/BiometricManager.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/biometric/BiometricPrompt.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/biometric/BiometricViewModel.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/biometric/CancellationSignalProvider.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/biometric/CryptoObjectUtils.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/biometric/DeviceUtils.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/biometric/ErrorUtils.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/biometric/FingerprintDialogFragment.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/biometric/KeyguardUtils.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/biometric/PackageUtils.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "biometric-1.1.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 1079,
+          "sha256": "7886f12d270750806e473a28d2f6f9ea69ab3a704ca8779c524ff14cb5148502"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 44,
+          "sha256": "7d7fe32dd575f7b35ff9001381620e6acb639ed4f6cd60122754042c7a3618d2"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 77648,
+          "sha256": "6d2ef306c606656c0f669ca6a7839e9ccd45e0e51e603399170b35f7fc5f6bdb"
+        },
+        {
+          "path": "annotations.zip",
+          "bytes": 1580,
+          "sha256": "91255ed610296a50fbd8b8481adf87400ae51093226cd2f916d4a00e87cff03c"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 81084,
+          "sha256": "3f5185db9f323c0215931fc40163dcb80354f00dd7de7523f61da0bca96f4898"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.biometric_biometric.version",
+          "bytes": 6,
+          "sha256": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/AuthenticationCallbackProvider$1.class",
+          "bytes": 2988,
+          "sha256": "5e1404a2fb0a314c18e56ea4f5c3681a658f8d707a13a13ab561dca21a189057"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/AuthenticationCallbackProvider$Api28Impl$1.class",
+          "bytes": 3321,
+          "sha256": "2d7d58175147fa98402571e7164bd50b75ba3b5d66efd7dc4740ed801b6eb05f"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/AuthenticationCallbackProvider$Api28Impl.class",
+          "bytes": 1340,
+          "sha256": "c9f9eb436b6c7629866a4e200dec46f2ae869e83ed379a5debb579f2f68bced7"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/AuthenticationCallbackProvider$Api30Impl.class",
+          "bytes": 1052,
+          "sha256": "e3394a742b116c13b5fc31dd3f6b5d0ea0197d0901892f4479eb5f6455313c22"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/AuthenticationCallbackProvider$Listener.class",
+          "bytes": 1321,
+          "sha256": "b7402adcd285b35189d683fab6a4a7c4648acaa6c5a5afbb7ee46dcf279aa1c8"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/AuthenticationCallbackProvider.class",
+          "bytes": 2351,
+          "sha256": "905875748006dcafdbc12a02141e0fa1fc36abc3154584c1a6d32cd1647af3c0"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/AuthenticatorUtils.class",
+          "bytes": 2454,
+          "sha256": "4e1b73197cb8b3dce8bda69d7624b7878cdb6375b3e4763148fa185cfaff0fdc"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricErrorData.class",
+          "bytes": 1911,
+          "sha256": "75f7b3f0dea988e066cf4461fda3998aff699bebf6e6334f9c1579540e0bf7a1"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$1.class",
+          "bytes": 1432,
+          "sha256": "257a18143f8bd58321057360eab4d5b450be548392bcdfa11585e6152e85a69f"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$10.class",
+          "bytes": 1226,
+          "sha256": "baf98659663e2eab178582a4dce99112988715895215c1b7c4ffa387c10b19fa"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$11.class",
+          "bytes": 1054,
+          "sha256": "19b6b26cf39d99f58f235d13cad6e387ff942fe7ae0616deed93eba2ce8c8577"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$2.class",
+          "bytes": 1421,
+          "sha256": "f541f8f8645ec6db550b21f29caa1d7a94f2b4e76f6cbba480598e72fe5afa5c"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$3.class",
+          "bytes": 1273,
+          "sha256": "7b31d28b3bf4c2cbdb0d24db21697c8e9150644541da5cc58c382368526bd83c"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$4.class",
+          "bytes": 1262,
+          "sha256": "5e266903bca8cc4e1e83806ffea13f789ee98e2cc902adf254ebfc212dfcc049"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$5.class",
+          "bytes": 1376,
+          "sha256": "10ccf0f17f0dbb38bae70a8027afacdc75e75b356e0212951c4bad8b0f92f6e7"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$6.class",
+          "bytes": 1303,
+          "sha256": "951717b2dfa9deee5b86c5c2965d87b7c5baca6d03b3b59ade13546969ddb834"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$7.class",
+          "bytes": 862,
+          "sha256": "adc891aab97b82441ad9169171635b95c7f5642ddc2d015469695f56a004558d"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$8.class",
+          "bytes": 887,
+          "sha256": "c6c9fd29dff677201fd43dbd35cf257d2286fc5be4b49b9a11026f919e54d459"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$9.class",
+          "bytes": 1367,
+          "sha256": "e79f5bbeb054e472b66495ffe6107418a276d5e76d3f4d18678a1fab5a8f856c"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$Api21Impl.class",
+          "bytes": 1102,
+          "sha256": "dbca4615d350934cce28d2fec3a478f3113c7c3f7029c1022647847f4724cead"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$Api28Impl.class",
+          "bytes": 4146,
+          "sha256": "d70fde63fce4b19e5c1472faf641e2bd295d34405e18a99ed49d9e3b20ededae"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$Api29Impl.class",
+          "bytes": 1207,
+          "sha256": "28dccbe49bc7c4f4e2cb2068772959b74b74dbe18148b8ba8171b624c689ac2f"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$Api30Impl.class",
+          "bytes": 1052,
+          "sha256": "758dc389c2a946a53c220d27e25f9c1a218009ec010a3774784a245bc961d276"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$PromptExecutor.class",
+          "bytes": 960,
+          "sha256": "e874929176ab2594e954f92e1ffc6c72609d6b79adf2e565cb53863e408b8d37"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$ShowPromptForAuthenticationRunnable.class",
+          "bytes": 1230,
+          "sha256": "a31931295463b4d78e6a988b82747b15d60217083ea3833eb8025916af0a61c3"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$StopDelayingPromptRunnable.class",
+          "bytes": 1249,
+          "sha256": "c3e471ffbee00bd2b3d856ae27299425802da25c7e47a4b4b903d9ba478402c4"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment$StopIgnoringCancelRunnable.class",
+          "bytes": 1249,
+          "sha256": "ea0fc0b34fc394e80969243fd50a1bca89cc9635467a7af3f5702bcade54bb9e"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricFragment.class",
+          "bytes": 23695,
+          "sha256": "210124bf5e5ac5783531d726cf18fa1427bb8c0c1ef4f09eb1870c2f8bd6224b"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricManager$Api29Impl.class",
+          "bytes": 1729,
+          "sha256": "71d689eb20c643be7e6c290eac3352a8d9629b2b030cbc0c4d5a0064580f4c05"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricManager$Api30Impl.class",
+          "bytes": 896,
+          "sha256": "d3577c350ea921a7afa8a3a8d9382e59e77479fd353490a0c1719d6a0c212e00"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricManager$Authenticators.class",
+          "bytes": 375,
+          "sha256": "11379843db4c22bbc66dd1645b47cf50c936ca6c9631c8a7c473a90ec0cf68e1"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricManager$DefaultInjector.class",
+          "bytes": 2435,
+          "sha256": "542ef6aceecaeb70f81a00887fc3ae8d1d0fa28a1dab5182fb7cfe2ef1b795ce"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricManager$Injector.class",
+          "bytes": 753,
+          "sha256": "abda66f02f1ff4a0cd9d1815fbab840966103a83e9d46b4c02608fad2e4a9bd8"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricManager.class",
+          "bytes": 6284,
+          "sha256": "68e9edd81e7a85ab83642f5545d5154b08772e65a572bf38aaab7c968235150f"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricPrompt$AuthenticationCallback.class",
+          "bytes": 1137,
+          "sha256": "f4be0bc7e574b0d1b0de0e14dc723010d4a36464dd554da277017bcfe1bd9ba9"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricPrompt$AuthenticationResult.class",
+          "bytes": 1077,
+          "sha256": "203b100bd15d39a524f5c3c4949ff46c564b06bfba36f09da2a8b5dcfe80c0f4"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricPrompt$CryptoObject.class",
+          "bytes": 2022,
+          "sha256": "c83c6ad9cb526f217d95be6eb9d344c138689c805157a7a33b7f9d3ab0de4ef8"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricPrompt$PromptInfo$Builder.class",
+          "bytes": 3630,
+          "sha256": "7bcba5eaa169ba7c51a384f84edaf2482230de446f69261b64e280f2636d3bb2"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricPrompt$PromptInfo.class",
+          "bytes": 2203,
+          "sha256": "6f641dad4e7ad4f2df16e5ac4e5fd5ac290cef8841070dcd87535641b1e790c5"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricPrompt$ResetCallbackObserver.class",
+          "bytes": 1452,
+          "sha256": "5223bfa4dae5f423b08c3dd28d95d210922571c24fb49241985ee5ebdec1cfca"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricPrompt.class",
+          "bytes": 8914,
+          "sha256": "8e89ac5375c3b3b91ccb4995f152c97fbf67e9601377eda459d9cef1cbc0393e"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricViewModel$1.class",
+          "bytes": 755,
+          "sha256": "ef9bb8d23b584e3807c961fccc70e9dddb79da2d6795f7b3a56cd817e630d755"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricViewModel$CallbackListener.class",
+          "bytes": 2823,
+          "sha256": "ea44e2458daf0756a8777eee7fbd11c6b887a13b74775a85cc302b4afce5a3e5"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricViewModel$DefaultExecutor.class",
+          "bytes": 877,
+          "sha256": "fbcb8d1d777b9ffb980b8a19152ff4a941ef2eb8a3df59a78612e0cebcd6577f"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricViewModel$NegativeButtonListener.class",
+          "bytes": 1432,
+          "sha256": "acdc21b1648c9a31bd1823d61034187d697d8b8dd0b2debeb1d92e6bd0e965e4"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/BiometricViewModel.class",
+          "bytes": 13257,
+          "sha256": "a1a075b688e46de07dd6916d324e190f9743875e8fcb672e6e15d0fd27396e8a"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/CancellationSignalProvider$1.class",
+          "bytes": 1241,
+          "sha256": "e3f48feec7c0fc998e9a441d575d9cea573a4ca2df1f0997c8229bac9e434bf4"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/CancellationSignalProvider$Api16Impl.class",
+          "bytes": 858,
+          "sha256": "5d5d6b67cb6a5d4683a453ae650568b77f581d6b2ed99d4d426b13b4c0938004"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/CancellationSignalProvider$Injector.class",
+          "bytes": 614,
+          "sha256": "db9362c73a32f756dd08bb992ca1aa58d01c60c01ff85acbb6232aa42d8baedb"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/CancellationSignalProvider.class",
+          "bytes": 2582,
+          "sha256": "b7b9a91ac6a93ded50e269560a4daaa21ffcf238586cb85dccdd75e78289954c"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/CryptoObjectUtils$Api23Impl.class",
+          "bytes": 2372,
+          "sha256": "83699c954ee3f4678e8a299610de8a30b56f650562aa2d6dd7547ed587a70c82"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/CryptoObjectUtils$Api28Impl.class",
+          "bytes": 2223,
+          "sha256": "7764e268be851d2fcab1a5f68c8d56f821f2735a4731643226cf574c6fd96600"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/CryptoObjectUtils$Api30Impl.class",
+          "bytes": 1443,
+          "sha256": "2f9fe52142aa381fb2c35eb3b50b258b9b27321c727e95193ecdcd68aa7c7a7d"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/CryptoObjectUtils.class",
+          "bytes": 7605,
+          "sha256": "ef990613e414facba33885b327903b026a2533033346e600afb6fa607854897c"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/DeviceUtils.class",
+          "bytes": 2956,
+          "sha256": "155000ee9c0c2b98759d9aa15291af4a5ff81a9b1b45c58044eb7ae7e0dd2f3a"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/ErrorUtils.class",
+          "bytes": 1926,
+          "sha256": "bb6ea90680ebd431d9c51efcb5c1fefb3dc6790141768271d91a03f1eeb7f32a"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/FingerprintDialogFragment$1.class",
+          "bytes": 718,
+          "sha256": "7784754e2ea14879dd9ed50f956ca738c0766e67213a1f6b7ddad434d76d86b5"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/FingerprintDialogFragment$2.class",
+          "bytes": 1134,
+          "sha256": "347e1ae733825995ee14f17dcd5059fb599ba62b672862e15a0150f60a0b4226"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/FingerprintDialogFragment$3.class",
+          "bytes": 1417,
+          "sha256": "9c1d663e2ebbb3cc8b1b92bce6591abc8cd76a9df967552df5dcf21529cd8a0d"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/FingerprintDialogFragment$4.class",
+          "bytes": 1356,
+          "sha256": "c57bf0f8d0313a6f5a01ef4dc847d4c0a5e591030f53f87c3e0e4a1f7678fb05"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/FingerprintDialogFragment$Api21Impl.class",
+          "bytes": 912,
+          "sha256": "4c93a4b8d6c67f32db0e55c371e918c602cf484ebf89cae10e931203336ad304"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/FingerprintDialogFragment$Api26Impl.class",
+          "bytes": 714,
+          "sha256": "de17afa63d7f007181f4d1277189b660f35a5211d7d52e864025c23760757145"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/FingerprintDialogFragment.class",
+          "bytes": 10440,
+          "sha256": "c14a194691ef89b099d40a2a995dcb612dece30885aef9aaf24d4809ad69da00"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/KeyguardUtils$Api16Impl.class",
+          "bytes": 797,
+          "sha256": "c6a59e9c97771aad9062ffccc0feb20592d449b76fe5b7253d61612310a4b879"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/KeyguardUtils$Api23Impl.class",
+          "bytes": 1135,
+          "sha256": "c31758d958e3b1040a781b95b24fdaec2034c94b34c657ded188615af2bc704b"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/KeyguardUtils.class",
+          "bytes": 1599,
+          "sha256": "a006df06598c1f32daf695291f359d38f158b4fa6aeb06500e4cb22746319306"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/PackageUtils$Api23Impl.class",
+          "bytes": 894,
+          "sha256": "1533f15ad15525cd7e6a4faaccfde7cb03540106c3667bd5461984f1556f9ece"
+        },
+        {
+          "path": "classes.jar!androidx/biometric/PackageUtils.class",
+          "bytes": 1007,
+          "sha256": "ab76e4559cdc06c1a04d26648f5f56cc4cc361a2c958cb4ba4cba08f5b5df5e8"
+        },
+        {
+          "path": "proguard.txt",
+          "bytes": 1714,
+          "sha256": "2a0612f05d32a232d28ce7998fa9b3043034599c4879cefeb4a455ad648eec31"
+        },
+        {
+          "path": "res/color-v26/biometric_error_color.xml",
+          "bytes": 951,
+          "sha256": "60d81d531b0a23ebf6b42ebeac9d3026af577f672d672a85fd22e9802270e190"
+        },
+        {
+          "path": "res/drawable-anydpi-v23/fingerprint_dialog_fp_icon.xml",
+          "bytes": 4126,
+          "sha256": "ed199cc0cdbb9f750b4dd93ee20318372ac66b8fc0a4c8c5a3f42c3999cd69e2"
+        },
+        {
+          "path": "res/drawable-anydpi-v24/fingerprint_dialog_error.xml",
+          "bytes": 2681,
+          "sha256": "bdc5a66ce0165a6e2006ef45704f0122aa751927cc1c0503081a6a220adb376a"
+        },
+        {
+          "path": "res/drawable-hdpi-v23/fingerprint_dialog_error.png",
+          "bytes": 900,
+          "sha256": "534f7e692beac0b606cb5b130942897db6b550e45e61426cac37381881a2eb61"
+        },
+        {
+          "path": "res/drawable-ldpi-v23/fingerprint_dialog_error.png",
+          "bytes": 431,
+          "sha256": "24c991fa308c251d779bfac2520bb5b9a276a283074a5cd6895662098d910b0a"
+        },
+        {
+          "path": "res/drawable-mdpi-v23/fingerprint_dialog_error.png",
+          "bytes": 565,
+          "sha256": "2a145f082a88685be681e589109789bab3d4b279d33c7f8927b464a95026a3c8"
+        },
+        {
+          "path": "res/drawable-xhdpi-v23/fingerprint_dialog_error.png",
+          "bytes": 1172,
+          "sha256": "22b007ec53a699d42fb4b357a9906572ab27a9e7c39b127036b51d1cc543a4be"
+        },
+        {
+          "path": "res/drawable-xxhdpi-v23/fingerprint_dialog_error.png",
+          "bytes": 1845,
+          "sha256": "f0b8aa49d2e3bb2f4150aee622e0faaf2c8a692bcd97dfe2d3707447020d35df"
+        },
+        {
+          "path": "res/drawable-xxxhdpi-v23/fingerprint_dialog_error.png",
+          "bytes": 2482,
+          "sha256": "0dc52e6db413f35c910fe825230126f1d7dc66b84ecacf3a63720eb06cf33444"
+        },
+        {
+          "path": "res/layout/fingerprint_dialog_layout.xml",
+          "bytes": 2999,
+          "sha256": "2308b3f5b34389b32084cb543531ca5d0f8969c168e2bf474b79db36fd0982a0"
+        },
+        {
+          "path": "res/values-af/values-af.xml",
+          "bytes": 1566,
+          "sha256": "a590c642825331cfd42a0965313e7d6abd4ee2ccce8c9e9dcb0b12a662b6ea49"
+        },
+        {
+          "path": "res/values-am/values-am.xml",
+          "bytes": 1836,
+          "sha256": "a7300830ba5cf4a2f70b454f60e30a84e012cbd7c328abeb10663f97b2a0bdc7"
+        },
+        {
+          "path": "res/values-ar/values-ar.xml",
+          "bytes": 1894,
+          "sha256": "f4c1d3e5adfd54edeccf35990336a0f32a00d3a4bd7c8dbfe892c43184538adb"
+        },
+        {
+          "path": "res/values-as/values-as.xml",
+          "bytes": 2420,
+          "sha256": "59b5854e725eb5a2a16decc02cbbfdbb795999c0a373d555f2a16560f7d42838"
+        },
+        {
+          "path": "res/values-az/values-az.xml",
+          "bytes": 1549,
+          "sha256": "16e88f28d057b04de30666d75c5aedd177bfeb23bdfbdecd8febc30747f4d2a7"
+        },
+        {
+          "path": "res/values-b+sr+Latn/values-b+sr+Latn.xml",
+          "bytes": 1552,
+          "sha256": "3bd2776d0237214b070fd9d7df65426414014ce6a23975c9e15eb2b245071512"
+        },
+        {
+          "path": "res/values-be/values-be.xml",
+          "bytes": 2034,
+          "sha256": "32d80b0b8f98ff8f3c6fe8b686c11c6da4edba69cb3b3324679be10ce4c181c7"
+        },
+        {
+          "path": "res/values-bg/values-bg.xml",
+          "bytes": 1965,
+          "sha256": "3f86442e62841e9d3cbc57f7d15aeafcf5ee2ad3f140b94604b976539fffa1dc"
+        },
+        {
+          "path": "res/values-bn/values-bn.xml",
+          "bytes": 2368,
+          "sha256": "73012822194d9a7f7936e592835923be73c3602bd7091fabdbd679de785ee32b"
+        },
+        {
+          "path": "res/values-bs/values-bs.xml",
+          "bytes": 1542,
+          "sha256": "5b677ef57fd92f452cb9052b8e72edac2b27d71fdad0945ef97ee5093f909858"
+        },
+        {
+          "path": "res/values-ca/values-ca.xml",
+          "bytes": 1624,
+          "sha256": "1243b257c74adfe883d50bd270dd26468281b84ea79981c17f4455313c4c36f6"
+        },
+        {
+          "path": "res/values-cs/values-cs.xml",
+          "bytes": 1585,
+          "sha256": "3d6b794512646b00493c5f7a8ca3c6541e98f8ee7318e90be9edb0b87f328583"
+        },
+        {
+          "path": "res/values-da/values-da.xml",
+          "bytes": 1597,
+          "sha256": "778308c710caed2866b7613bf9b427c00f742500a399b456e95efd78f844af87"
+        },
+        {
+          "path": "res/values-de/values-de.xml",
+          "bytes": 1640,
+          "sha256": "d0fe37b10f80f1a125f05931545d762d449eb8faf3002277cfdd04a977e59999"
+        },
+        {
+          "path": "res/values-el/values-el.xml",
+          "bytes": 2096,
+          "sha256": "7b52ee182dab3a4bc86bc57ef18d99e1c579a40ad23d82fd3471f93b8f74f0b8"
+        },
+        {
+          "path": "res/values-en-rAU/values-en-rAU.xml",
+          "bytes": 1506,
+          "sha256": "ce80981651764eaac5b727902df46bfac4ad5a671497f7f4b3a57c4e3641846b"
+        },
+        {
+          "path": "res/values-en-rCA/values-en-rCA.xml",
+          "bytes": 1506,
+          "sha256": "ce80981651764eaac5b727902df46bfac4ad5a671497f7f4b3a57c4e3641846b"
+        },
+        {
+          "path": "res/values-en-rGB/values-en-rGB.xml",
+          "bytes": 1506,
+          "sha256": "ce80981651764eaac5b727902df46bfac4ad5a671497f7f4b3a57c4e3641846b"
+        },
+        {
+          "path": "res/values-en-rIN/values-en-rIN.xml",
+          "bytes": 1506,
+          "sha256": "ce80981651764eaac5b727902df46bfac4ad5a671497f7f4b3a57c4e3641846b"
+        },
+        {
+          "path": "res/values-en-rXC/values-en-rXC.xml",
+          "bytes": 5193,
+          "sha256": "e037cc1f42c600cdafdf516fbb79a214da51d6d82f45a4031449ce130c1d0f00"
+        },
+        {
+          "path": "res/values-es-rUS/values-es-rUS.xml",
+          "bytes": 1615,
+          "sha256": "96e176bb0f806a08e09d32ea20f8c3ca0e890469f8b7c4ab625dd22087221a1f"
+        },
+        {
+          "path": "res/values-es/values-es.xml",
+          "bytes": 1632,
+          "sha256": "a55ac870c7a5bcfd55f3c7344d0d157421bda22376adc65e7713db652375ee93"
+        },
+        {
+          "path": "res/values-et/values-et.xml",
+          "bytes": 1533,
+          "sha256": "02a94bc00cdb0950d5986f1d30147e7e130f86ca4ddf6a8286d9e9c5240b6c4b"
+        },
+        {
+          "path": "res/values-eu/values-eu.xml",
+          "bytes": 1595,
+          "sha256": "7e5c2862bc7824a1585816f7ca3ff89fcc75b712575184782501e90084fa0bb9"
+        },
+        {
+          "path": "res/values-fa/values-fa.xml",
+          "bytes": 1820,
+          "sha256": "c33fe89cdd140e15abf49605060bb322698f289a3cf81fa9276b0d60565bcb36"
+        },
+        {
+          "path": "res/values-fi/values-fi.xml",
+          "bytes": 1580,
+          "sha256": "e563331c094cc0fadfe50ad07de56fd7105649d9cb56e7b93ee2c7c1008fb327"
+        },
+        {
+          "path": "res/values-fr-rCA/values-fr-rCA.xml",
+          "bytes": 1710,
+          "sha256": "998037f64f0777789818940f955d8199286e14019a8ce4c541da6d6f40daa44f"
+        },
+        {
+          "path": "res/values-fr/values-fr.xml",
+          "bytes": 1692,
+          "sha256": "46ed8041c13b78ee30074ed191a42a62bc1fc9e8be6766516262c470ea0eaf7b"
+        },
+        {
+          "path": "res/values-gl/values-gl.xml",
+          "bytes": 1645,
+          "sha256": "1d6a9e61741576f655d552b1505d0d1ebc10615259706900b83787a64062e7e7"
+        },
+        {
+          "path": "res/values-gu/values-gu.xml",
+          "bytes": 2283,
+          "sha256": "4a09860e8ae1def3cc7f2897b4b2a474d2e7488d5c99e09ad9e16488913a90b2"
+        },
+        {
+          "path": "res/values-hi/values-hi.xml",
+          "bytes": 2389,
+          "sha256": "8ad0361d33e4ab4029a5b435b5354a72ed54b14508e018502b03658aa7936a3a"
+        },
+        {
+          "path": "res/values-hr/values-hr.xml",
+          "bytes": 1540,
+          "sha256": "f37b0bea75787534697b6479587c53b6b7420571390e624e69c9898797cea271"
+        },
+        {
+          "path": "res/values-hu/values-hu.xml",
+          "bytes": 1676,
+          "sha256": "ce306d3692824556e96da72e49b6b369304d241f1c1d3b9c8d405bc59a3b7a5f"
+        },
+        {
+          "path": "res/values-hy/values-hy.xml",
+          "bytes": 1881,
+          "sha256": "73b2c605bfe2bd8e9f95f6b27f1d58b4b490a2a361ad13aca419213244fee140"
+        },
+        {
+          "path": "res/values-in/values-in.xml",
+          "bytes": 1548,
+          "sha256": "df4f27a8e70cc5fa9f6bb7f9b0f57e599d60679d8b5a481db4d81608d333fe2d"
+        },
+        {
+          "path": "res/values-is/values-is.xml",
+          "bytes": 1552,
+          "sha256": "b333f67dba334f93d950e677b3e296030f5553e6d81101f1af53eda47f6ebee0"
+        },
+        {
+          "path": "res/values-it/values-it.xml",
+          "bytes": 1625,
+          "sha256": "6fdc1fd0e39d573b38df9d972bb625cadedbf1eeca52e31a02acc929a0f1ef95"
+        },
+        {
+          "path": "res/values-iw/values-iw.xml",
+          "bytes": 1789,
+          "sha256": "d583abd1597e4430a3ea4df535a7727bf8045b73b950663f47362b58970a9aed"
+        },
+        {
+          "path": "res/values-ja/values-ja.xml",
+          "bytes": 1811,
+          "sha256": "be94f0eb7ad9709e3a42387b5d147ef0d1732cf79f722b75d17efe48ae293b94"
+        },
+        {
+          "path": "res/values-ka/values-ka.xml",
+          "bytes": 2401,
+          "sha256": "74f1a91bd32d6ded844739d78e1691c80a88ae949e5287c27efa60213dc51f5b"
+        },
+        {
+          "path": "res/values-kk/values-kk.xml",
+          "bytes": 1928,
+          "sha256": "b0040e1d7c1aa7f866eaaf04e8e5763a8f867f99f400e4b05efd3c76ba35fe57"
+        },
+        {
+          "path": "res/values-km/values-km.xml",
+          "bytes": 2567,
+          "sha256": "a9a0920fb0707c25b9e3803065f2a1d7dd75ba9748b429cdade1909181db3bb9"
+        },
+        {
+          "path": "res/values-kn/values-kn.xml",
+          "bytes": 2464,
+          "sha256": "8455c76a50c3366c30340ffbd2c45ecdedb0712f60ea54a04270c144e143a700"
+        },
+        {
+          "path": "res/values-ko/values-ko.xml",
+          "bytes": 1651,
+          "sha256": "4aae869b9732b6bca8cdc778b2c32cc7a4811f5d2689d73100d75a7042c21ac6"
+        },
+        {
+          "path": "res/values-ky/values-ky.xml",
+          "bytes": 2027,
+          "sha256": "493df0b0d51c86bd2fb1de217be75bb94affe1a51ebf9e4f578d4954a7b5f9df"
+        },
+        {
+          "path": "res/values-lo/values-lo.xml",
+          "bytes": 2189,
+          "sha256": "0d87ab1b63eb9ad96d35ea17ef3b67431c3eb82a2c7cabe4d08b7edfa3bd242e"
+        },
+        {
+          "path": "res/values-lt/values-lt.xml",
+          "bytes": 1623,
+          "sha256": "6a0f5694e4780fff4b175f30baa4d374140bd9a2bd7390c227c950c56658f3c5"
+        },
+        {
+          "path": "res/values-lv/values-lv.xml",
+          "bytes": 1628,
+          "sha256": "e5d8bfda3d44d693bf13a26ee8767267d5615a67aaf2330d67770049b82fd3b2"
+        },
+        {
+          "path": "res/values-mk/values-mk.xml",
+          "bytes": 1816,
+          "sha256": "398fc8dcf85b0a09e56fad7ed78d82b01d0ad2441dfac312ecc822bf8b38cb24"
+        },
+        {
+          "path": "res/values-ml/values-ml.xml",
+          "bytes": 2418,
+          "sha256": "3665ff6e1e5a8cabf86e219c02f72351b65e5ef3a0b0ec6cbfd1374838df81d0"
+        },
+        {
+          "path": "res/values-mn/values-mn.xml",
+          "bytes": 1930,
+          "sha256": "272154ffcdd5c16c59cf3fb8b46f449732eb1830295b92e5bad2a2cb7e70027c"
+        },
+        {
+          "path": "res/values-mr/values-mr.xml",
+          "bytes": 2264,
+          "sha256": "b1546a8462bea4d979f5123afc2c9ef56c08fb0563f2a1fc21cbf6d66528c79c"
+        },
+        {
+          "path": "res/values-ms/values-ms.xml",
+          "bytes": 1538,
+          "sha256": "07c35c236cf3ad768c10e7e5602f50f0fefbd203f0b200676d291e597b536403"
+        },
+        {
+          "path": "res/values-my/values-my.xml",
+          "bytes": 2434,
+          "sha256": "60ab28b4a94b357ded276bbc6c909332d7f77e19f9bff8bd96f87f4c95c133a0"
+        },
+        {
+          "path": "res/values-nb/values-nb.xml",
+          "bytes": 1581,
+          "sha256": "a324182df5fa397eeade46de0a652910c309f9629111bff0d29aafd296e180cc"
+        },
+        {
+          "path": "res/values-ne/values-ne.xml",
+          "bytes": 2370,
+          "sha256": "c26513ecaf5d081151d508727efb8ea676af950236df4f58b9e2ada3ec6fe4a2"
+        },
+        {
+          "path": "res/values-nl/values-nl.xml",
+          "bytes": 1570,
+          "sha256": "e9cc7b1741941b1264a078442c1f3d1d9f968f7d13a670e1ff4a30cb03d945c1"
+        },
+        {
+          "path": "res/values-or/values-or.xml",
+          "bytes": 2369,
+          "sha256": "f934352f95a633d8eb13a5b89709c85b7575e93eeab879e01192e717f71b2d48"
+        },
+        {
+          "path": "res/values-pa/values-pa.xml",
+          "bytes": 2320,
+          "sha256": "8ef1cbff23829734b0e5854d216216cfbf116ce7c43693221761824564d5150c"
+        },
+        {
+          "path": "res/values-pl/values-pl.xml",
+          "bytes": 1594,
+          "sha256": "e6acdd5a82e17f05a8e468e40ed08510b3340f606fac7531e9943ab68f9b94bc"
+        },
+        {
+          "path": "res/values-pt-rBR/values-pt-rBR.xml",
+          "bytes": 1590,
+          "sha256": "b641013355437ad58b44fb04a5f23544413db55080b048264a2bfb7ef96b26d3"
+        },
+        {
+          "path": "res/values-pt-rPT/values-pt-rPT.xml",
+          "bytes": 1633,
+          "sha256": "1debca23509b69e094dfdf75b899f102a3755aa3bccfe41e600f8c6e7820c461"
+        },
+        {
+          "path": "res/values-pt/values-pt.xml",
+          "bytes": 1590,
+          "sha256": "b641013355437ad58b44fb04a5f23544413db55080b048264a2bfb7ef96b26d3"
+        },
+        {
+          "path": "res/values-ro/values-ro.xml",
+          "bytes": 1614,
+          "sha256": "1b086668f22229eed72d8b9254987489ee4f84b02f8e68223a5e266c0346def8"
+        },
+        {
+          "path": "res/values-ru/values-ru.xml",
+          "bytes": 1990,
+          "sha256": "da0b283bfd0f36f01a4a24db25bf3d7d00ccc1e0b16b83175d9a15c71e296f8f"
+        },
+        {
+          "path": "res/values-si/values-si.xml",
+          "bytes": 2198,
+          "sha256": "547143a4441b97b86391da034279be1063b47464ee162670ab8c669fc98024cd"
+        },
+        {
+          "path": "res/values-sk/values-sk.xml",
+          "bytes": 1578,
+          "sha256": "5528673cf49539be3aa3ef70407f296bb6fc1707959ae773af0e7f6d341dd1a0"
+        },
+        {
+          "path": "res/values-sl/values-sl.xml",
+          "bytes": 1551,
+          "sha256": "16d87057c17146f89acd34fb14788253f2cef4ce14dbda32710ccd2a4b8cb449"
+        },
+        {
+          "path": "res/values-sq/values-sq.xml",
+          "bytes": 1630,
+          "sha256": "ca5f9012fb2fe0806d458bfe64e1f8308862f7f38b17084d320b06ed70318e59"
+        },
+        {
+          "path": "res/values-sr/values-sr.xml",
+          "bytes": 1886,
+          "sha256": "f93c1f9b820710fe29e5ae09a1c9932c6afeb7e368c2ac204592d997c9dde3fb"
+        },
+        {
+          "path": "res/values-sv/values-sv.xml",
+          "bytes": 1593,
+          "sha256": "0c909d891ad14ac9c1e57750e6eef6a1317bc8fa5c7b8136dec486b13b715a25"
+        },
+        {
+          "path": "res/values-sw/values-sw.xml",
+          "bytes": 1554,
+          "sha256": "92c429f594baf4c055091ddbd6c2bcc4c3147e71275e4dcfa55f97373f704c8a"
+        },
+        {
+          "path": "res/values-ta/values-ta.xml",
+          "bytes": 2290,
+          "sha256": "8b68958f4a5a2a674d37f9e17263c4ec2ffea2941d238183bd5426ac45aefd44"
+        },
+        {
+          "path": "res/values-te/values-te.xml",
+          "bytes": 2372,
+          "sha256": "208d3d651b2451a7c1edbb86f9229b2c1d144e2e582f42d4ce70121466684b14"
+        },
+        {
+          "path": "res/values-th/values-th.xml",
+          "bytes": 2119,
+          "sha256": "f28f95fe05f352c679a1d509efecfa99a3cdb238021440d15384130a68cf4329"
+        },
+        {
+          "path": "res/values-tl/values-tl.xml",
+          "bytes": 1623,
+          "sha256": "0c3a5c21e85ca50507b0b99154cedfea8ec295f2ac508fb2272be05d382c6fac"
+        },
+        {
+          "path": "res/values-tr/values-tr.xml",
+          "bytes": 1564,
+          "sha256": "b02aa11e3974ea567f7304b75d9e51fa0e5f703ab33fd6533b599d84baa917f4"
+        },
+        {
+          "path": "res/values-uk/values-uk.xml",
+          "bytes": 1852,
+          "sha256": "37bf4753c0805e9c85a12cf6a24f6d9040825554275c749904f9e0f815f1965e"
+        },
+        {
+          "path": "res/values-ur/values-ur.xml",
+          "bytes": 1838,
+          "sha256": "07ea039bf185130448e0654a58ffab24510bee129c45cb45e64f37892cfca889"
+        },
+        {
+          "path": "res/values-uz/values-uz.xml",
+          "bytes": 1590,
+          "sha256": "461ab94a50ce87c96fe18d7e3fe4d43bda24407f1e20b64f89c24b6276d84932"
+        },
+        {
+          "path": "res/values-vi/values-vi.xml",
+          "bytes": 1667,
+          "sha256": "ff74c1117e16759b722d320e4939dd852f2edb6c5a8e48052622183bc08706fc"
+        },
+        {
+          "path": "res/values-zh-rCN/values-zh-rCN.xml",
+          "bytes": 1469,
+          "sha256": "c69a1dd75f8465701d57ac0a2ffb47341ce6fc8deb24910caecf95d9d346543f"
+        },
+        {
+          "path": "res/values-zh-rHK/values-zh-rHK.xml",
+          "bytes": 1455,
+          "sha256": "accbb216daded29d4b9f2ae86b731a67b61b57114fe7352c13ad8295b127c191"
+        },
+        {
+          "path": "res/values-zh-rTW/values-zh-rTW.xml",
+          "bytes": 1490,
+          "sha256": "4428f10f8f88d8eb03a1e2965a5ae4a2e9384a8687504e8d47ec95ed4cd615d9"
+        },
+        {
+          "path": "res/values-zu/values-zu.xml",
+          "bytes": 1629,
+          "sha256": "7c6603258c870916a2ac3ac582b5e0a93aa7fa32e8d006a05fbe8ffb230854ad"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 2901,
+          "sha256": "14481de0fdda5b4419a02bda79cb9ebd78398d118810cd223cb8306548275846"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [
+        {
+          "path": "res/drawable-hdpi-v23/fingerprint_dialog_error.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-ldpi-v23/fingerprint_dialog_error.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-mdpi-v23/fingerprint_dialog_error.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-xhdpi-v23/fingerprint_dialog_error.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-xxhdpi-v23/fingerprint_dialog_error.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-xxxhdpi-v23/fingerprint_dialog_error.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        }
+      ],
+      "lineage": []
+    }
+  }
+}

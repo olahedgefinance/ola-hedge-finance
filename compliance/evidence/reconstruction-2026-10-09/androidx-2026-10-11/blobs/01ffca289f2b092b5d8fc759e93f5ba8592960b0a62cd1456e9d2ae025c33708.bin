@@ -1,0 +1,191 @@
+{
+  "archives": {
+    "savedstate-1.2.1-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/savedstate/Recreator.kt",
+          "bytes": 3528,
+          "sha256": "8f9da6a5413aeae81e6d4b8c2c15cc3817ab8678caf13a65129a26ba6c497234"
+        },
+        {
+          "path": "androidx/savedstate/SavedStateRegistry.kt",
+          "bytes": 9698,
+          "sha256": "93d724f2d684c8e21990c41617ad99b92d0e122cefe162e08973ab4d50c76f54"
+        },
+        {
+          "path": "androidx/savedstate/SavedStateRegistryController.kt",
+          "bytes": 3345,
+          "sha256": "07a8019b0e0879da6cfa471c98b7e3a192d7649d17d60aaa56e577356686604d"
+        },
+        {
+          "path": "androidx/savedstate/SavedStateRegistryOwner.kt",
+          "bytes": 2245,
+          "sha256": "9d66a3b1b6962d407d7362ee55737b5d0f7dc791475ba9c8387c15ccc73c8b33"
+        },
+        {
+          "path": "androidx/savedstate/ViewTreeSavedStateRegistryOwner.kt",
+          "bytes": 2423,
+          "sha256": "5996f158121a1e66a081c3f25259265b886400dd90f997821757d7f99a723a8c"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/savedstate/Recreator.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/savedstate/SavedStateRegistry.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/savedstate/SavedStateRegistryController.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/savedstate/SavedStateRegistryOwner.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/savedstate/ViewTreeSavedStateRegistryOwner.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "savedstate-1.2.1.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 829,
+          "sha256": "12785371701f92c1bae5b71dd2154dc9bb8ed08721511d584b3b22650af91402"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 122,
+          "sha256": "4d71d4cc4d860d8def346517658ee6dff00f82fa89a0d3e7bef99114b15d53b9"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 48,
+          "sha256": "3bf14369a5aef6649b3475fba16fd8d0016ae3893af37e765e2e4a9a4ed35e6d"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 19555,
+          "sha256": "f4f41ae607c65ef27ec592c092fe733b952147301a390008ab7ed36fd2ea9b88"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.savedstate_savedstate.version",
+          "bytes": 6,
+          "sha256": "6cf4e084b47f33c9b02ef79279d157833868f8f70514169a768be353ee328fea"
+        },
+        {
+          "path": "classes.jar!META-INF/savedstate_release.kotlin_module",
+          "bytes": 80,
+          "sha256": "99f4004fd416e82bea849120bdd09027449ed3b32cc6e580c7f002ea3662ea45"
+        },
+        {
+          "path": "classes.jar!androidx/savedstate/Recreator$Companion.class",
+          "bytes": 881,
+          "sha256": "f2dd63dea8a1fc1bf54d56f31259b34e221fbc48a2d7d5384448564b1c8a6447"
+        },
+        {
+          "path": "classes.jar!androidx/savedstate/Recreator$SavedStateProvider.class",
+          "bytes": 2367,
+          "sha256": "e2653ae3948fdcafbfddd8a0fa1332f5e41f2937d2dc7815b2b3e4427e6bd943"
+        },
+        {
+          "path": "classes.jar!androidx/savedstate/Recreator.class",
+          "bytes": 5559,
+          "sha256": "aa6343b6cb618c9f18e973053147e5358edbf5493353d0538793e98199d63c10"
+        },
+        {
+          "path": "classes.jar!androidx/savedstate/SavedStateRegistry$AutoRecreated.class",
+          "bytes": 784,
+          "sha256": "28a89a6d0feef9e99c3f9f8e15cc08fb00d1a5666c0f315a68858861494a80a7"
+        },
+        {
+          "path": "classes.jar!androidx/savedstate/SavedStateRegistry$Companion.class",
+          "bytes": 887,
+          "sha256": "a3729f0364ce88da1304d8697e6dc43de48e0b36863006934ac6689e4ec400af"
+        },
+        {
+          "path": "classes.jar!androidx/savedstate/SavedStateRegistry$SavedStateProvider.class",
+          "bytes": 709,
+          "sha256": "bebc066c09710272ec4e6ba4f3460b298ef69d2b3e406dbbcbefa28a90bac5da"
+        },
+        {
+          "path": "classes.jar!androidx/savedstate/SavedStateRegistry.class",
+          "bytes": 10105,
+          "sha256": "16d982a078f3f5ac9a88eabbe9e6f160a03abf877974184f66a79fc2c65382ae"
+        },
+        {
+          "path": "classes.jar!androidx/savedstate/SavedStateRegistryController$Companion.class",
+          "bytes": 1607,
+          "sha256": "5604e447537c8167f241134855898874ce4a3f72d3f5eb5cfa384126f01d89d3"
+        },
+        {
+          "path": "classes.jar!androidx/savedstate/SavedStateRegistryController.class",
+          "bytes": 4330,
+          "sha256": "d7194b2e3d7232f7976bfa2187388055a82c15ca660d6c947fcbfca45fe4dc46"
+        },
+        {
+          "path": "classes.jar!androidx/savedstate/SavedStateRegistryOwner.class",
+          "bytes": 755,
+          "sha256": "bd61b714911a68c39afdefc3256e81e8138f1cf3e537daea933668eeee64eb3b"
+        },
+        {
+          "path": "classes.jar!androidx/savedstate/ViewTreeSavedStateRegistryOwner$findViewTreeSavedStateRegistryOwner$1.class",
+          "bytes": 1846,
+          "sha256": "43efc1e96a882097fb171c9d09d7a2ebf6b0af14858165e0ea77e33d2b509986"
+        },
+        {
+          "path": "classes.jar!androidx/savedstate/ViewTreeSavedStateRegistryOwner$findViewTreeSavedStateRegistryOwner$2.class",
+          "bytes": 2045,
+          "sha256": "6664e7fa85986777f9d78a03b6b4212a7f4d5d4d02794009160d15903537864c"
+        },
+        {
+          "path": "classes.jar!androidx/savedstate/ViewTreeSavedStateRegistryOwner.class",
+          "bytes": 2543,
+          "sha256": "3ca6c54e9004276f9d9e999bdec9c50304e52d1320fdb8de28a39f23fc8f80ef"
+        },
+        {
+          "path": "proguard.txt",
+          "bytes": 726,
+          "sha256": "145596e57c40d73bd5501bf7870e608c30e5633bd1a2d0780383708d3d70c2fa"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 117,
+          "sha256": "2b49e0ce718bc40106abe7ad9327ff902487abbe5fe20f3078cb358903345d04"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

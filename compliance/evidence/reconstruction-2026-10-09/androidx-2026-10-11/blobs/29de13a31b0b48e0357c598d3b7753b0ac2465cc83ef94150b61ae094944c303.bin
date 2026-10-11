@@ -1,0 +1,537 @@
+{
+  "archives": {
+    "credentials-play-services-auth-1.2.0-rc01-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/credentials/playservices/CredentialProviderMetadataHolder.kt",
+          "bytes": 1634,
+          "sha256": "879e5ea5ed78a08329ccd42d6980aff0daba029d1105eb7cf472c00b0b57c571"
+        },
+        {
+          "path": "androidx/credentials/playservices/CredentialProviderPlayServicesImpl.kt",
+          "bytes": 7617,
+          "sha256": "11f2f034e9a1712634948939c064fb3d79d7053ba3ff7e02d1132fbc5f00abb0"
+        },
+        {
+          "path": "androidx/credentials/playservices/HiddenActivity.kt",
+          "bytes": 12772,
+          "sha256": "5ca2857c8bcbe742ea3d45f2674c74d4f09e18180364be68f70ff2d46533d525"
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/BeginSignIn/BeginSignInControllerUtility.kt",
+          "bytes": 5622,
+          "sha256": "e6e70b6a9fa42061040ad2367fca2dd33a4c6d616b4dc3617aafa5a02e91331f"
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/BeginSignIn/CredentialProviderBeginSignInController.kt",
+          "bytes": 10539,
+          "sha256": "fa47c889733d7a7b43f8253c525ecdb22694760c040976dc29fc426112ceb969"
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/CreatePassword/CredentialProviderCreatePasswordController.kt",
+          "bytes": 6712,
+          "sha256": "19e3ae7801d046e80deb4941157b89fd6ffe09d17039c18ec314d40d60d54a59"
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/CreatePublicKeyCredential/CredentialProviderCreatePublicKeyCredentialController.kt",
+          "bytes": 10077,
+          "sha256": "3ea4bf12384d158fb7f2204cbd1e6bf047ac23aa65d82dda802c51fdc2adc2c7"
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/CreatePublicKeyCredential/PublicKeyCredentialControllerUtility.kt",
+          "bytes": 22912,
+          "sha256": "8504ee174c1e96d55b4244d986eca1e627f2d4b8528c82a5aa781a7c5dee60f3"
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/CredentialProviderBaseController.kt",
+          "bytes": 6389,
+          "sha256": "86bea142f1cd50074ce2a38b48db3a8e5a5abb72006cfa4a74fc065ec424fff9"
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/CredentialProviderController.kt",
+          "bytes": 7831,
+          "sha256": "10ca833352d5888ef9c9d1d4bb10e93d5c82c74baceb5b0dfa6679367cd3ab1b"
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/GetSignInIntent/CredentialProviderGetSignInIntentController.kt",
+          "bytes": 11015,
+          "sha256": "e2d2b5b7578f08f39ec49f9e83eae89368935f8922e1b000428fb3dfb8c93607"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/credentials/playservices/CredentialProviderMetadataHolder.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/playservices/CredentialProviderPlayServicesImpl.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/playservices/HiddenActivity.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/BeginSignIn/BeginSignInControllerUtility.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/BeginSignIn/CredentialProviderBeginSignInController.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/CreatePassword/CredentialProviderCreatePasswordController.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/CreatePublicKeyCredential/CredentialProviderCreatePublicKeyCredentialController.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/CreatePublicKeyCredential/PublicKeyCredentialControllerUtility.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/CredentialProviderBaseController.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/CredentialProviderController.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/playservices/controllers/GetSignInIntent/CredentialProviderGetSignInIntentController.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "credentials-play-services-auth-1.2.0-rc01.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 1748,
+          "sha256": "ec18099610d3529df83c6502c2123bc33394d735e3d4bb75aaf3f32e490338b2"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 157,
+          "sha256": "6e8a8e41513bc2d63867491e5db201172ba20b4717201b05911f667e7bb010fb"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 27,
+          "sha256": "359e8d39aafd0005b0c3c81290753307e9a55a2831c82c190fc54851fbca12a6"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 144671,
+          "sha256": "08ce58edfd9e5f994115662734ba0e40e737b460c0d5d972f9f96ec729810c0d"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.credentials_credentials-play-services-auth.version",
+          "bytes": 11,
+          "sha256": "aaf490c7f3bf12c9dc9d4c70971a0485b472606b384f8c6d9c554a7beabf11c7"
+        },
+        {
+          "path": "classes.jar!META-INF/credentials-play-services-auth_release.kotlin_module",
+          "bytes": 24,
+          "sha256": "78fdfa8e7eb07d3e6d9cb340da3f4f5d83aa7edb9cce6d3350d93a443aa2100f"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/CredentialProviderMetadataHolder$LocalBinder.class",
+          "bytes": 1241,
+          "sha256": "cec95e2f274c831a1bbf1b94a0645ab41975626058ec53069de06bc83c2653a7"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/CredentialProviderMetadataHolder.class",
+          "bytes": 1768,
+          "sha256": "4ebd4d32dd9dc82f8f2ae3a6555578545ce0fcee025b521eea1ffd1be294fa35"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/CredentialProviderPlayServicesImpl$Companion.class",
+          "bytes": 3296,
+          "sha256": "f036225e07d220e9abd7bb345f5637d3781bd0f9f4ec52f5831e0887698d8ce1"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/CredentialProviderPlayServicesImpl$onClearCredential$1$1.class",
+          "bytes": 2793,
+          "sha256": "b5456596a4e0131c0c2e72700fd742ef689267ba5e590a4a225519653d7e9ec2"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/CredentialProviderPlayServicesImpl$onClearCredential$1.class",
+          "bytes": 2854,
+          "sha256": "fab6f88d00f80fb2d996a0500f8449f7edb3a395cf46c22e9ea8716fc0004b4c"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/CredentialProviderPlayServicesImpl$onClearCredential$2$1$1.class",
+          "bytes": 3527,
+          "sha256": "c509c6116e4aa7397710581cc657e42df9b14f334b787082411db3f9ac34de27"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/CredentialProviderPlayServicesImpl.class",
+          "bytes": 11680,
+          "sha256": "2cdf24e0a7ae92f87fdf85ab224f0442bb10300abc2eed57396df14eec93a96e"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/HiddenActivity$Companion.class",
+          "bytes": 1009,
+          "sha256": "dfeb7414d05be92296c9b1d20e4379152da20fba64b2f0afa4804847f8b985ac"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/HiddenActivity$handleBeginSignIn$1$1.class",
+          "bytes": 3043,
+          "sha256": "01398f2b1216f08505ac6adaf16ce252aa605971b51ee1902f989a77d4ab1026"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/HiddenActivity$handleCreatePassword$1$1.class",
+          "bytes": 3057,
+          "sha256": "f4c757fcaebfb72b14a54f82916f5e06f4f2600fa87e5b5d228c85d75992ce18"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/HiddenActivity$handleCreatePublicKeyCredential$1$1.class",
+          "bytes": 3027,
+          "sha256": "9e74d3b6b292d966f8f0fe7d6028a30c3b8b06f6bb1ecff1296c749e3581e408"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/HiddenActivity$handleGetSignInIntent$1$1.class",
+          "bytes": 2833,
+          "sha256": "2f28b3886986a1b157a381946856dd1e2c1ca004fd83451e46ca74b1f8b5f635"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/HiddenActivity.class",
+          "bytes": 14085,
+          "sha256": "00ac64d09ecb6b02e8f399f37411d0476bf01e357370f5ea8496a4f4b3d91f56"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/BeginSignIn/BeginSignInControllerUtility$Companion.class",
+          "bytes": 8787,
+          "sha256": "0cf09eccfbfd4bd9c93a4dfb51d225a5f45ebfa4be1e88260d301b10a9d95d09"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/BeginSignIn/BeginSignInControllerUtility.class",
+          "bytes": 1284,
+          "sha256": "26df6aeedef75465ba32f7ed44a6065434b9591268a03088ab0cab5f07c4f513"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/BeginSignIn/CredentialProviderBeginSignInController$Companion.class",
+          "bytes": 2238,
+          "sha256": "418c4a33227d20448df39c7e27985b93a1eafd9a24fe51d89c0b6662a9279032"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/BeginSignIn/CredentialProviderBeginSignInController$handleResponse$1.class",
+          "bytes": 2575,
+          "sha256": "82b7d9ae1d54d7287cdaf9433ebb171a9cd4a1049dc4de0a06816c840b5477b6"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/BeginSignIn/CredentialProviderBeginSignInController$handleResponse$2.class",
+          "bytes": 3257,
+          "sha256": "b02336819873b93cd05a026167bc7ce65d607886bdef54014200977bffa25c32"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/BeginSignIn/CredentialProviderBeginSignInController$handleResponse$3.class",
+          "bytes": 2790,
+          "sha256": "d137b9f61b01c877aa66c62433544d37b4ddf544141f02ca31157fc75b7335bd"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/BeginSignIn/CredentialProviderBeginSignInController$handleResponse$4.class",
+          "bytes": 3205,
+          "sha256": "858bf6fa09ea4d75a489192a7a4c75329431e7b31d96ee25318ac83ab7e78cc4"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/BeginSignIn/CredentialProviderBeginSignInController$handleResponse$5.class",
+          "bytes": 2818,
+          "sha256": "92211605f52a477d62158d02f800ddb3129af3f7771d9fabf75c567030aa44c6"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/BeginSignIn/CredentialProviderBeginSignInController$handleResponse$6.class",
+          "bytes": 2839,
+          "sha256": "bba338f3b42e2e200bb3825dbee3025b67c823f133bf2f8bfa12d073c4d0d9fb"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/BeginSignIn/CredentialProviderBeginSignInController$invokePlayServices$1.class",
+          "bytes": 2946,
+          "sha256": "b3ec132a4441b62de3cd88578c1dd333793baadc7bb0758d0f78501c0d0792e0"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/BeginSignIn/CredentialProviderBeginSignInController$resultReceiver$1$onReceiveResult$1.class",
+          "bytes": 2384,
+          "sha256": "f5d6a074fb1cdebdc5d89439509ec3e893c50408d4821437a251b8bc62d1fff8"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/BeginSignIn/CredentialProviderBeginSignInController$resultReceiver$1.class",
+          "bytes": 3372,
+          "sha256": "8ad9e9157e2dd02a70f82ca79c6e489f704b35ad52a28d39893ac995dda17773"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/BeginSignIn/CredentialProviderBeginSignInController.class",
+          "bytes": 18980,
+          "sha256": "9b98b63fdee5a1090174463ec5086cc658d88c38806c1bcb991928ee96623c6e"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePassword/CredentialProviderCreatePasswordController$Companion.class",
+          "bytes": 2283,
+          "sha256": "3932e54372af20dbe9c7dc501a6958680c4e19166d3fd58b1d4a7172c31c1698"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePassword/CredentialProviderCreatePasswordController$handleResponse$1.class",
+          "bytes": 2572,
+          "sha256": "56ed755a2951c313833f0c1f51ec928605bb46eadb6476874e72ff49242def3c"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePassword/CredentialProviderCreatePasswordController$handleResponse$2.class",
+          "bytes": 3688,
+          "sha256": "4eed6cad7fa01105a5f9b61b5e16af8cf7b06dc6ed978c6336dd03609f0f4352"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePassword/CredentialProviderCreatePasswordController$handleResponse$3.class",
+          "bytes": 3206,
+          "sha256": "2f4f39121dc6e3c6f9cfb3170966a95a69ef9dbb8e82e473b9dfad8f95b15224"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePassword/CredentialProviderCreatePasswordController$invokePlayServices$1.class",
+          "bytes": 3385,
+          "sha256": "a2d6c7c09a09cde4b7abad7be43424a924c03a5bdc416e37b5ac7a8ceb74adf8"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePassword/CredentialProviderCreatePasswordController$resultReceiver$1$onReceiveResult$1.class",
+          "bytes": 2423,
+          "sha256": "517d74dedef2f3b8259e122ab403e4ece953fab12a1cb39962001bf8c175d1e8"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePassword/CredentialProviderCreatePasswordController$resultReceiver$1.class",
+          "bytes": 3755,
+          "sha256": "3d4e8317c574e748212a6c641429668a20aa86abac53881a1769cd8a8a7b5905"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePassword/CredentialProviderCreatePasswordController.class",
+          "bytes": 12835,
+          "sha256": "89d14ecce0de9cc9397bc2e9c5420941fa6e89735f67747c93d9f6dc6408e7e7"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePublicKeyCredential/CredentialProviderCreatePublicKeyCredentialController$Companion.class",
+          "bytes": 2448,
+          "sha256": "5ccf22275f223e0e6f976fbb044f1f08ed34410cbb1ea7f31f32a804cca15dee"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePublicKeyCredential/CredentialProviderCreatePublicKeyCredentialController$handleResponse$1.class",
+          "bytes": 2673,
+          "sha256": "1fb3116a121d63e7096c4cef35634730b0ae81fbe6a277952fab34cc357dd048"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePublicKeyCredential/CredentialProviderCreatePublicKeyCredentialController$handleResponse$2.class",
+          "bytes": 3921,
+          "sha256": "0b63fcd9cd14ed9d217dd53021f5636b5b51388daef98200258849df295f58cb"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePublicKeyCredential/CredentialProviderCreatePublicKeyCredentialController$handleResponse$4.class",
+          "bytes": 3440,
+          "sha256": "5ea715e7dffe8be5aeda922006a32aa5c0996a8b3c79231912b167671a8888ba"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePublicKeyCredential/CredentialProviderCreatePublicKeyCredentialController$handleResponse$5.class",
+          "bytes": 3417,
+          "sha256": "29a206f0e8006b5285d259e79a4d4ca0a349b8ad69b278a9172f82a70eeb5194"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePublicKeyCredential/CredentialProviderCreatePublicKeyCredentialController$handleResponse$6.class",
+          "bytes": 3791,
+          "sha256": "fb1a1fd6d3b756f2705782f37cfc48d20b15b2209d7648c31881001ae3e0b7bf"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePublicKeyCredential/CredentialProviderCreatePublicKeyCredentialController$handleResponse$7.class",
+          "bytes": 3778,
+          "sha256": "54ff256148089f2b90d1b9591f761d39d6d8a1c588cdfaf11f30b2313b88b7d4"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePublicKeyCredential/CredentialProviderCreatePublicKeyCredentialController$invokePlayServices$1.class",
+          "bytes": 3750,
+          "sha256": "6ce7e53c1b636cac968c1b35567998f7120850771d31ae2093637d051b0a812e"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePublicKeyCredential/CredentialProviderCreatePublicKeyCredentialController$invokePlayServices$2.class",
+          "bytes": 3665,
+          "sha256": "91a44492ea78e8c799c5194f72150f66c5e79f58b7fe79c96459fe0c383fc6ff"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePublicKeyCredential/CredentialProviderCreatePublicKeyCredentialController$invokePlayServices$3.class",
+          "bytes": 3583,
+          "sha256": "7c720890f8bed2cd33dcb405967759711cb340bc0f9298f229b279637e52bcc1"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePublicKeyCredential/CredentialProviderCreatePublicKeyCredentialController$resultReceiver$1$onReceiveResult$1.class",
+          "bytes": 2500,
+          "sha256": "7c69a06fdef6611023f5163e44ba2a056df6cb6103f8a85616103b9ac25a5480"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePublicKeyCredential/CredentialProviderCreatePublicKeyCredentialController$resultReceiver$1.class",
+          "bytes": 4144,
+          "sha256": "7335782bd7cf58f4c60a4510ae15ddd5ef153b30a2215ce4c5966781dd850ed9"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePublicKeyCredential/CredentialProviderCreatePublicKeyCredentialController.class",
+          "bytes": 18640,
+          "sha256": "c6d4078e38d25006a5ec3b343c559b7273a9809fb76bf421d70c8b572611034d"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePublicKeyCredential/PublicKeyCredentialControllerUtility$Companion.class",
+          "bytes": 34006,
+          "sha256": "0e2058ee169b1a91f36b94294825d4d7e81bff37e8a7ef7874566fe82d8be971"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CreatePublicKeyCredential/PublicKeyCredentialControllerUtility.class",
+          "bytes": 9345,
+          "sha256": "9f5f7b55512cb43339e811ba03b20ab9978891b494dd9d580782430c8b8526ef"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CredentialProviderBaseController$Companion.class",
+          "bytes": 4729,
+          "sha256": "cfb0650f96a88aec436828e5659e37ffb86047c2dabfc386af83efdb01e6b557"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CredentialProviderBaseController.class",
+          "bytes": 5097,
+          "sha256": "89b2b8cd0683aa69e5425d9d3ea1cfe341ee6de70929acb9efd7008630252f25"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CredentialProviderController$Companion$maybeReportErrorResultCodeCreate$1.class",
+          "bytes": 2455,
+          "sha256": "ef1941977162a1aef027af153f92e371efb483715e0a94ffe37f5aef7483d0bb"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CredentialProviderController$Companion$maybeReportErrorResultCodeGet$1.class",
+          "bytes": 2434,
+          "sha256": "d0508a589942d793b1bc88d42d77e4e283b7b192dbc04bdb3959c1727fd81d60"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CredentialProviderController$Companion.class",
+          "bytes": 5955,
+          "sha256": "5708d176a5149e752a95c81ce94fc2a659a99dad6abeded7020d828b0ebc100b"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CredentialProviderController$maybeReportErrorFromResultReceiver$1.class",
+          "bytes": 2955,
+          "sha256": "2063a8d5c73966ca2dfe49a9486f494b898173dd3f0cee6cad133ee304c8b5d7"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/CredentialProviderController.class",
+          "bytes": 6160,
+          "sha256": "4d2653feef4187045b83a73a43037d2edd44061afa4cac7574512f28ea48a992"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/GetSignInIntent/CredentialProviderGetSignInIntentController$Companion.class",
+          "bytes": 2298,
+          "sha256": "889a4d8693e1d94dd5dae31fe96e7cb6fefa7acbce744b0c59683e2c7fd923c8"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/GetSignInIntent/CredentialProviderGetSignInIntentController$handleResponse$1.class",
+          "bytes": 2603,
+          "sha256": "2c0ee52612c0d0e849267bb8949896674ad692b8d8ebf1ec27971447ffa2c708"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/GetSignInIntent/CredentialProviderGetSignInIntentController$handleResponse$2.class",
+          "bytes": 3317,
+          "sha256": "07c1f837fe74d846bf3fa47af385abf1cd4f64bee79e57af67740cc8384cd305"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/GetSignInIntent/CredentialProviderGetSignInIntentController$handleResponse$3.class",
+          "bytes": 2842,
+          "sha256": "1834819218aa51cf98f428482a897ca83d8813e9e35df3b4859800cce391d14a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/GetSignInIntent/CredentialProviderGetSignInIntentController$handleResponse$4.class",
+          "bytes": 3265,
+          "sha256": "b4609a9750e86192abea7e7ec380614c037c3e66d074a742947aa02e679bbd73"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/GetSignInIntent/CredentialProviderGetSignInIntentController$handleResponse$5.class",
+          "bytes": 2870,
+          "sha256": "3f1b0cd35e42a7b9fb646163126e2157084b9d92e168bd4c58b2a8582c2380bc"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/GetSignInIntent/CredentialProviderGetSignInIntentController$handleResponse$6.class",
+          "bytes": 2891,
+          "sha256": "c534f950ee7c08ced9f38995243a9128e4cb2a14a5aacd512bc69a5be445ca7a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/GetSignInIntent/CredentialProviderGetSignInIntentController$invokePlayServices$1.class",
+          "bytes": 2865,
+          "sha256": "652643d8b6cf3c6ee77cae18ace9e5ee1f9ae752b776dfd370766f36c014ab12"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/GetSignInIntent/CredentialProviderGetSignInIntentController$invokePlayServices$2.class",
+          "bytes": 2998,
+          "sha256": "6a283d831edc94d056ceb59d07023c28863bc03207d3366eae9ec1cf80d51ead"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/GetSignInIntent/CredentialProviderGetSignInIntentController$resultReceiver$1$onReceiveResult$1.class",
+          "bytes": 2408,
+          "sha256": "41c6566be55ecc990635c7880e2a63480638d832d8cd6424b3ac49fe52f65359"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/GetSignInIntent/CredentialProviderGetSignInIntentController$resultReceiver$1.class",
+          "bytes": 3444,
+          "sha256": "2c1a6885d47b0bd361406bdcd2961405c750f417e3d13c614ed0e549f167b1f7"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/playservices/controllers/GetSignInIntent/CredentialProviderGetSignInIntentController.class",
+          "bytes": 19549,
+          "sha256": "b40455f3880d776e2eb909ec21fdee5017f7bb7002fd8f34b0e519b044f1775a"
+        },
+        {
+          "path": "proguard.txt",
+          "bytes": 106,
+          "sha256": "7545300fc7691f95d51c3fde52fa3225b7758da63ac8e62627c9282686499552"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values-v21/values-v21.xml",
+          "bytes": 556,
+          "sha256": "e19e1331a9a8fc5c3b5d112f9090371cb9150f701ba6b0574fdd462300e2d33f"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 286,
+          "sha256": "469d9d5b4d8b95c36e3a0721f170245269ed2f016f2c3333870efb80af5dd431"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

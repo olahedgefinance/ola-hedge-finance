@@ -1,0 +1,3567 @@
+{
+  "archives": {
+    "credentials-1.2.0-rc01-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/credentials/ClearCredentialStateRequest.kt",
+          "bytes": 776,
+          "sha256": "eb6a9d8c52b282bb9046c0e6179c2c2ad918e741d27e907de3fd88f3840509ce"
+        },
+        {
+          "path": "androidx/credentials/CreateCredentialRequest.kt",
+          "bytes": 11988,
+          "sha256": "7d36d9cb06b8a84fbf59a1110e7290dd635e1d1e3ac7e7dc74cf1b0ecc92bd5b"
+        },
+        {
+          "path": "androidx/credentials/CreateCredentialResponse.kt",
+          "bytes": 2334,
+          "sha256": "c1cf602dc02e1a1aab45781425903e2bd52f683a4e90938b1bd81f47f2cbf192"
+        },
+        {
+          "path": "androidx/credentials/CreateCustomCredentialRequest.kt",
+          "bytes": 3914,
+          "sha256": "f303f692cd873ebbf852a480b12ceddfb7a1bc5ad824acb64b5d7d1821b1371c"
+        },
+        {
+          "path": "androidx/credentials/CreateCustomCredentialResponse.kt",
+          "bytes": 1998,
+          "sha256": "039de57b405d12202d45d0ade40abb64860c5924bb9ec1038c502d0e75868e88"
+        },
+        {
+          "path": "androidx/credentials/CreatePasswordRequest.kt",
+          "bytes": 9166,
+          "sha256": "dacbecc775b693dd26ef85dd58301f777378110e3c02cad5674e5cd9bbd51fce"
+        },
+        {
+          "path": "androidx/credentials/CreatePasswordResponse.kt",
+          "bytes": 1148,
+          "sha256": "a9867844496f7f9a7f0f3c4e19c84e9bd87da39b8324c115747c90742dcdf058"
+        },
+        {
+          "path": "androidx/credentials/CreatePublicKeyCredentialRequest.kt",
+          "bytes": 11797,
+          "sha256": "e05b58d73771acfcb29cdbdaf9127b1ee655cc8fabad4a201ef34adcdb7cfc23"
+        },
+        {
+          "path": "androidx/credentials/CreatePublicKeyCredentialResponse.kt",
+          "bytes": 2749,
+          "sha256": "e440c3ff192c7d0bbf43296f34fd2bc9e26046b0b945a605c6a9e411e6377ae1"
+        },
+        {
+          "path": "androidx/credentials/Credential.kt",
+          "bytes": 2212,
+          "sha256": "b615333b764a1333968a9e5094585c20f243427f3b142b38eee0f9b00e329d6f"
+        },
+        {
+          "path": "androidx/credentials/CredentialManager.kt",
+          "bytes": 19884,
+          "sha256": "06eb0810f410015db82751eee15753e53c917ef1f688cc2a753e14dcdd1fb545"
+        },
+        {
+          "path": "androidx/credentials/CredentialManagerCallback.kt",
+          "bytes": 1132,
+          "sha256": "dac8a716c7781f1fa6ad9b11d9e04e7ef0933f30bcc42b398dd3921d777b0dda"
+        },
+        {
+          "path": "androidx/credentials/CredentialManagerImpl.kt",
+          "bytes": 13010,
+          "sha256": "21226cd1bcf61ede7aa44d7c0043133186123d36ccd716657954bb07d83c5790"
+        },
+        {
+          "path": "androidx/credentials/CredentialOption.kt",
+          "bytes": 5063,
+          "sha256": "2a3251793ac1f49c628cce496a2f82cf1caaaba39ff63db608aaa3ee7b113e77"
+        },
+        {
+          "path": "androidx/credentials/CredentialProvider.kt",
+          "bytes": 6103,
+          "sha256": "549dc721a35e8684da703c424af9c72e41b5c996474dfcb7857863d3bf727f2b"
+        },
+        {
+          "path": "androidx/credentials/CredentialProviderFactory.kt",
+          "bytes": 4353,
+          "sha256": "e8d9fdc5cf395ee0c13f631a7394b5c0113146a291b066d7ee1013351d03cf5c"
+        },
+        {
+          "path": "androidx/credentials/CredentialProviderFrameworkImpl.kt",
+          "bytes": 15902,
+          "sha256": "ac97828e98fe21b30ea3dc33dfd5e8ea516f6faa30adc9d87e2eb0174ccf22ad"
+        },
+        {
+          "path": "androidx/credentials/CustomCredential.kt",
+          "bytes": 1908,
+          "sha256": "9e6c2656c3f2a6302af33734419c86d2ff40bb83ecdd531e1ee9a8ec187b809b"
+        },
+        {
+          "path": "androidx/credentials/FederatedCredential.kt",
+          "bytes": 1199,
+          "sha256": "442242786884ee5dd54f44c00546bd94852690482554461e25b3aad7e0f92c56"
+        },
+        {
+          "path": "androidx/credentials/GetCredentialRequest.kt",
+          "bytes": 10030,
+          "sha256": "34f12a1a2d5ab0c17a52874b12b0810501229839e8f7607767744b6e2f0fa0da"
+        },
+        {
+          "path": "androidx/credentials/GetCredentialResponse.kt",
+          "bytes": 928,
+          "sha256": "df595a2b7139448d31a7cbbf4429af47179ae61a912ecfc6881f01ab7a73371f"
+        },
+        {
+          "path": "androidx/credentials/GetCustomCredentialOption.kt",
+          "bytes": 3530,
+          "sha256": "cd37a1d42e8b83834909ca53945303c4880bcbc1a8a31ca25042fad07d9fd62d"
+        },
+        {
+          "path": "androidx/credentials/GetPasswordOption.kt",
+          "bytes": 3866,
+          "sha256": "e93aaa617dd84132b358f4c9a67f61605571f8282eb35d9f8f4745d57a3a8b22"
+        },
+        {
+          "path": "androidx/credentials/GetPublicKeyCredentialOption.kt",
+          "bytes": 5472,
+          "sha256": "7ca1836dfa8417af9357cfb40de9d5c4efceaff112645493d276520058867837"
+        },
+        {
+          "path": "androidx/credentials/PasswordCredential.kt",
+          "bytes": 2714,
+          "sha256": "d32813a1e21edd98b617fb909d2122d89db5b0cd4cf23118f14298b0bf06cfd0"
+        },
+        {
+          "path": "androidx/credentials/PrepareGetCredentialResponse.kt",
+          "bytes": 9487,
+          "sha256": "a5fef8d31b71e6a18396c38abf7116db91007f6616b2ce1cc2c570d3fc0bf391"
+        },
+        {
+          "path": "androidx/credentials/PublicKeyCredential.kt",
+          "bytes": 3471,
+          "sha256": "8b2131052b7c80203d31615a96b058576e7d7a11fee1f4b5db4aa84c0720606f"
+        },
+        {
+          "path": "androidx/credentials/exceptions/ClearCredentialCustomException.kt",
+          "bytes": 1526,
+          "sha256": "bffabb006dcef48dffb517fdd7d1b0f17b7c212c3bcf351bf2609ccd2002bcff"
+        },
+        {
+          "path": "androidx/credentials/exceptions/ClearCredentialException.kt",
+          "bytes": 1331,
+          "sha256": "deb5bfa8791bbc95f2474dc56eea98ea5a63a310f0a504a19dd01e8501797716"
+        },
+        {
+          "path": "androidx/credentials/exceptions/ClearCredentialInterruptedException.kt",
+          "bytes": 1302,
+          "sha256": "ea6c914033bb44bb69cdb86fa65ba047ef42aea77ea10723326e0878a75e420d"
+        },
+        {
+          "path": "androidx/credentials/exceptions/ClearCredentialProviderConfigurationException.kt",
+          "bytes": 1355,
+          "sha256": "4fdbd0aa452db0d7a5190e48e07b2d7a7c5eb3a0e754db1cf8279cded3641fae"
+        },
+        {
+          "path": "androidx/credentials/exceptions/ClearCredentialUnknownException.kt",
+          "bytes": 1174,
+          "sha256": "47da32c286cd4d4ea9ecbd253beb207a9a6d728c1b3638e13d48e40ca8f54479"
+        },
+        {
+          "path": "androidx/credentials/exceptions/ClearCredentialUnsupportedException.kt",
+          "bytes": 1417,
+          "sha256": "b16adad6aac02477024bdcbe3315b8ceea972965dd902931f14c782fbd1fd20c"
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialCancellationException.kt",
+          "bytes": 1360,
+          "sha256": "a0aeb16e3f4917867d713741642dd605ae16ec121764ecc5edebfb81fd61ea38"
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialCustomException.kt",
+          "bytes": 1525,
+          "sha256": "a6161e4f9297cf1a0329aff6bf56b7c6c49bc465b83469706a48bb2635c9db44"
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialException.kt",
+          "bytes": 1380,
+          "sha256": "b286b885e128105a58913d6b3fb89f57b515c72836e2b39cba1dc35650940c12"
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialInterruptedException.kt",
+          "bytes": 1306,
+          "sha256": "194b468b9d2072a0ae1bb8276149a065b06e817db5112fce4ee3965801c7880f"
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialNoCreateOptionException.kt",
+          "bytes": 1234,
+          "sha256": "0ddbca6915600619fa09c6af15548547961d325f932cb0cb27c2196c29935177"
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialProviderConfigurationException.kt",
+          "bytes": 1365,
+          "sha256": "a8c0cae2dcb0ae33c0172ea5d752fa210d632290a69f0f3e1cd82200bb9a8bc9"
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialUnknownException.kt",
+          "bytes": 1177,
+          "sha256": "9f7ef0dda301da055a51f337c29f229c8352fa60c30deb37bde9b42a83b11a56"
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialUnsupportedException.kt",
+          "bytes": 1424,
+          "sha256": "036a23a3dec919cd08ebab3cb357802e87ca30854f72f024970f37a7090a8a6e"
+        },
+        {
+          "path": "androidx/credentials/exceptions/GetCredentialCancellationException.kt",
+          "bytes": 1340,
+          "sha256": "a5c04ea1be2e72135c274460e4cc96f25c92f6c068091e647681e7d342dc2583"
+        },
+        {
+          "path": "androidx/credentials/exceptions/GetCredentialCustomException.kt",
+          "bytes": 1513,
+          "sha256": "6804c14cb0ab33f052e52d2e44ee1a9563fbf80b5f07c9fdc8fb3dc5f6e7739a"
+        },
+        {
+          "path": "androidx/credentials/exceptions/GetCredentialException.kt",
+          "bytes": 1366,
+          "sha256": "fbe30046957a7780a39e2e7d9f25894e117cb423721e0957337759c8d8611b97"
+        },
+        {
+          "path": "androidx/credentials/exceptions/GetCredentialInterruptedException.kt",
+          "bytes": 1286,
+          "sha256": "e4c3612a429712cf46b531552f12a65ee82ae71af5868b43d362042560643e93"
+        },
+        {
+          "path": "androidx/credentials/exceptions/GetCredentialProviderConfigurationException.kt",
+          "bytes": 1343,
+          "sha256": "5f37eefa17c828e3b16bf3de1eec198375d510403e6dfe85eb1740ebd316649e"
+        },
+        {
+          "path": "androidx/credentials/exceptions/GetCredentialUnknownException.kt",
+          "bytes": 1156,
+          "sha256": "ee683d9b1e008bce22370185bfb7585bd2dfd700a8faa032a7c558f78350acc8"
+        },
+        {
+          "path": "androidx/credentials/exceptions/GetCredentialUnsupportedException.kt",
+          "bytes": 1403,
+          "sha256": "65bbd9d59163fcfa4d07f64df52d52a8ebb0c21af6bb5751dec450a4da811626"
+        },
+        {
+          "path": "androidx/credentials/exceptions/NoCredentialException.kt",
+          "bytes": 1787,
+          "sha256": "361649b7e3e691dc0dcee06e183d05d97ba95827fcd0611b10601794e7557ca9"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/AbortError.kt",
+          "bytes": 1281,
+          "sha256": "e9142f12616c7853793c9813a2aaef65b3fe4042650d8e23f6909ec1116f8fc9"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/ConstraintError.kt",
+          "bytes": 1379,
+          "sha256": "7d2f2071f0ed1e58c5fcec1c487b02af00979b78fb5582eecac2da6717522791"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/DataCloneError.kt",
+          "bytes": 1309,
+          "sha256": "3f65a46ba0ac11882c8171ea45ca80594b582849b53e617804d3df8926831637"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/DataError.kt",
+          "bytes": 1324,
+          "sha256": "d9d975079521ae1d88898ed338338fdb4f3ed38a98d38bebc8b0577089d620ad"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/DomError.kt",
+          "bytes": 2245,
+          "sha256": "99a1c721bf997c72d79aea81afaf6bb8afbe13922db524d26f063a9e7caacaea"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/EncodingError.kt",
+          "bytes": 1321,
+          "sha256": "1bed4f53effb75b5fb7f8e275534ebcaa56ab8754b347f9f91a7ae82198a53ca"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/HierarchyRequestError.kt",
+          "bytes": 1368,
+          "sha256": "1565a8744bf871a3e6149bdca33284b11a6e2dbdb80d86f81bdf73c093c1685a"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/InUseAttributeError.kt",
+          "bytes": 1358,
+          "sha256": "dd965217fa3dd5fc918dea0e58043b164fd16d0bb755c2278f4c969026ee7dac"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/InvalidCharacterError.kt",
+          "bytes": 1354,
+          "sha256": "81fcca55a9c7bfbbeef41b88e6a1fc5e8794cf1e5abc146d88c0caf15b636738"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/InvalidModificationError.kt",
+          "bytes": 1367,
+          "sha256": "cd563c94aa843187295e6760770ddaf4049f0a8ad6dce1d355fc063930f6cee6"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/InvalidNodeTypeError.kt",
+          "bytes": 1396,
+          "sha256": "e5ebf3a70ef3fffd27e0299c19da6a12a139a4a21e93c4555ebf11784b1d1322"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/InvalidStateError.kt",
+          "bytes": 1337,
+          "sha256": "0fdc1c1485b726ed88c7fe0ee71419ae7b9ec4d2c5d0b1e1f39c5c2ae5b27483"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/NamespaceError.kt",
+          "bytes": 1327,
+          "sha256": "9ad993717110ee787f79a4e6f2d988cdf3391b7b296eb9e93bdfe8f80d0f410e"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/NetworkError.kt",
+          "bytes": 1294,
+          "sha256": "f40ee0d4cf7cd1e6eaf56b0053a2e5f5e7a7717e3e67a66c95f720d1b80c4b78"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/NoModificationAllowedError.kt",
+          "bytes": 1376,
+          "sha256": "8c08af40f70a7091eb82e811245d203b48e1d030d40d4ff5b072ff1fb27ce2d8"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/NotAllowedError.kt",
+          "bytes": 1422,
+          "sha256": "a5cd8f7d0b96edf16c0cfb20bcd2f35e11b81e7df0ea2818d4ca10aa06898c86"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/NotFoundError.kt",
+          "bytes": 1326,
+          "sha256": "35478a11f7e004dcdd3d7c24fc304432a7fdd8863902e04057ca7ea8afc17223"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/NotReadableError.kt",
+          "bytes": 1333,
+          "sha256": "65d0e080d62c416c42cc058ac8a29e74b771f74d976093f43a03d5bc14ae7bcb"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/NotSupportedError.kt",
+          "bytes": 1332,
+          "sha256": "0da09c665b4c050298bbd294ddfdb67699a037436a0159878b9f810c2269190e"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/OperationError.kt",
+          "bytes": 1333,
+          "sha256": "075566a18ff9843b49d97a3fbbbc16a77e4e882db72b6f06863a9d1d883c3304"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/OptOutError.kt",
+          "bytes": 1305,
+          "sha256": "79564c2fe459a90682cfba7ba6c9ed6332ba47f4a9c3906124a6eca0f4fb24f3"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/QuotaExceededError.kt",
+          "bytes": 1329,
+          "sha256": "79422d8110b75ce947958a5c429a64f8fc53b5580ce2bc913d7571b5ecc13068"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/ReadOnlyError.kt",
+          "bytes": 1339,
+          "sha256": "bfd6802ad35b2643d66d23a67111b80e1ffb501668eecdc9543fc1bfaf2f4a40"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/SecurityError.kt",
+          "bytes": 1305,
+          "sha256": "3efbbf6dc3d54f1e50c5a0ac77702ec05f56ca01cb4142200fc9b901f01fb9f7"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/SyntaxError.kt",
+          "bytes": 1308,
+          "sha256": "59f618c5e132de089fbbea7bdb1f8fcf195b736ca860fa65e02287692ae10e9b"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/TimeoutError.kt",
+          "bytes": 1293,
+          "sha256": "4789518be22e9bedb197dfcef67239a31067e18d91aaee739f83ce2896501b3f"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/TransactionInactiveError.kt",
+          "bytes": 1406,
+          "sha256": "6279033a5ab0ab01fae04d21e41eb3ffef75193994546927527b909c800eee43"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/UnknownError.kt",
+          "bytes": 1374,
+          "sha256": "52377305a22b5d99c59ef4f69461100866102630da9f26e85660617d0fd2906a"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/VersionError.kt",
+          "bytes": 1354,
+          "sha256": "7098fd35d5a98d5837c158d658e3812a1e82b6634b1c9d51315d53668de14adf"
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/WrongDocumentError.kt",
+          "bytes": 1334,
+          "sha256": "792115bcbadf3fe51e7d6d2ef146f6968a70dbceeb84114c63f17ec15bbfe2c7"
+        },
+        {
+          "path": "androidx/credentials/exceptions/publickeycredential/CreatePublicKeyCredentialDomException.kt",
+          "bytes": 2908,
+          "sha256": "33cb35d7e606f4195a2cf3a15f12c19155c52bb7ff226d8e87539839153d0d07"
+        },
+        {
+          "path": "androidx/credentials/exceptions/publickeycredential/CreatePublicKeyCredentialException.kt",
+          "bytes": 2563,
+          "sha256": "29cd17934d22e5dfe9ab334ddb296a21e540b9e6a5773b808b2b96f097c2b837"
+        },
+        {
+          "path": "androidx/credentials/exceptions/publickeycredential/DomExceptionUtils.kt",
+          "bytes": 8878,
+          "sha256": "4e974ae18fc94a4ca310fdd4c0db28a6165f0027131f499d61765c764db68aba"
+        },
+        {
+          "path": "androidx/credentials/exceptions/publickeycredential/GetPublicKeyCredentialDomException.kt",
+          "bytes": 2889,
+          "sha256": "dc4760bfa3698c144b1f37dc147f783d94306c2106e6dd2c457471f37a329b0b"
+        },
+        {
+          "path": "androidx/credentials/exceptions/publickeycredential/GetPublicKeyCredentialException.kt",
+          "bytes": 2530,
+          "sha256": "fb47f7fdfd0deb87eb2f3f654c34ca96f0b3010bfd3a1330e11edb897657a2b8"
+        },
+        {
+          "path": "androidx/credentials/internal/FrameworkClassParsingException.kt",
+          "bytes": 840,
+          "sha256": "9e153f7d350addb0019f4b8cb5fc9975a7888d9148efb65dbcbaac18d6488fdc"
+        },
+        {
+          "path": "androidx/credentials/internal/FrameworkImplHelper.kt",
+          "bytes": 2338,
+          "sha256": "6d5a3de37d635af216ab7dbd353450ab385603cb66b49a0c80eb07c0bc785092"
+        },
+        {
+          "path": "androidx/credentials/internal/RequestValidationHelper.kt",
+          "bytes": 1254,
+          "sha256": "4aa1c996bf5a0969eb256b47f663be23f74c68ef7258495e8576bc7668d210bc"
+        },
+        {
+          "path": "androidx/credentials/provider/Action.kt",
+          "bytes": 7772,
+          "sha256": "ba6db43123c270454cbeb4e1d921132c41dce77af258997e285d9ec58ffad3f4"
+        },
+        {
+          "path": "androidx/credentials/provider/AuthenticationAction.kt",
+          "bytes": 6587,
+          "sha256": "f5574ec15b5f001374c223c7abc5427cd753619e4053a060e572faf6ab411df5"
+        },
+        {
+          "path": "androidx/credentials/provider/BeginCreateCredentialRequest.kt",
+          "bytes": 3192,
+          "sha256": "718c4da559f7ae7a3818bdfbdf2824e9c80fe35690723fc750c6cc442e2e39b7"
+        },
+        {
+          "path": "androidx/credentials/provider/BeginCreateCredentialResponse.kt",
+          "bytes": 6341,
+          "sha256": "2fa0c553848e62ea24c08538d9e25b48ccf1ca049e8dc72a72d783a67893e91c"
+        },
+        {
+          "path": "androidx/credentials/provider/BeginCreateCustomCredentialRequest.kt",
+          "bytes": 2445,
+          "sha256": "795650d9f1512abf4f1ff2a4eca1f4c4ecd86bba2f81561c5416cb3cd9c7284f"
+        },
+        {
+          "path": "androidx/credentials/provider/BeginCreatePasswordCredentialRequest.kt",
+          "bytes": 3284,
+          "sha256": "ce0773788aa05acb954178d869ff9572d122c30a072d48ce9bc49363dfce5493"
+        },
+        {
+          "path": "androidx/credentials/provider/BeginCreatePublicKeyCredentialRequest.kt",
+          "bytes": 4564,
+          "sha256": "4f905e7c0cf23a2916af9b85f9626e9fd0afc6d24a15f646e473b258dde6fc46"
+        },
+        {
+          "path": "androidx/credentials/provider/BeginGetCredentialOption.kt",
+          "bytes": 2866,
+          "sha256": "f24db0051f786d129080b6025394c488b68fe142f5e46972f2ba0b047eed1c90"
+        },
+        {
+          "path": "androidx/credentials/provider/BeginGetCredentialRequest.kt",
+          "bytes": 3880,
+          "sha256": "c947c0567d3627f56a3f4f61a00d07ee3e5cfe5aea18a9dc2f7394adc9b89aba"
+        },
+        {
+          "path": "androidx/credentials/provider/BeginGetCredentialResponse.kt",
+          "bytes": 9290,
+          "sha256": "ff0c0c5d78e24047c3c84170df8e134f49d48f55e349f70ca3cf72066506d3aa"
+        },
+        {
+          "path": "androidx/credentials/provider/BeginGetCustomCredentialOption.kt",
+          "bytes": 2451,
+          "sha256": "e182c3916ac596abbfd9f2d26387f8cdc64b6ce3f9353e7892bd5d3d9ed96a30"
+        },
+        {
+          "path": "androidx/credentials/provider/BeginGetPasswordOption.kt",
+          "bytes": 2353,
+          "sha256": "87c168219790e8a707c8dac879282b2107e5030a025556a5b65e3707f23277ba"
+        },
+        {
+          "path": "androidx/credentials/provider/BeginGetPublicKeyCredentialOption.kt",
+          "bytes": 3280,
+          "sha256": "211fd01a739170dfd7cc3d27d3ca5a5bc2302c5af2ae8f80079170763eb5e972"
+        },
+        {
+          "path": "androidx/credentials/provider/CallingAppInfo.kt",
+          "bytes": 7757,
+          "sha256": "401e350c5ea8406defbf4929e48e0b4d6b30ab450e24dc328d2f2193621147a9"
+        },
+        {
+          "path": "androidx/credentials/provider/CreateEntry.kt",
+          "bytes": 19524,
+          "sha256": "500b31db4f41cc1eddc5eb2ae1a196cf5b92fc2643c3da58c124326684ed614a"
+        },
+        {
+          "path": "androidx/credentials/provider/CredentialEntry.kt",
+          "bytes": 2425,
+          "sha256": "fc3248099878792155011f25b390037aa4078064154c4eb294fd14f9f1340a65"
+        },
+        {
+          "path": "androidx/credentials/provider/CredentialProviderService.kt",
+          "bytes": 16421,
+          "sha256": "eb5ff89748bf844da383b22d4ec8e14403610c7727c5d0bc98cfa44262cb4844"
+        },
+        {
+          "path": "androidx/credentials/provider/CustomCredentialEntry.kt",
+          "bytes": 18279,
+          "sha256": "04dde2bd369a47b4cb3f197f8ae7c8d4d85272f121cb109a34ccf87f98699c9d"
+        },
+        {
+          "path": "androidx/credentials/provider/IntentHandlerConverters.kt",
+          "bytes": 3521,
+          "sha256": "0dbd8decc014af81ace4afc3ca029fb477965e843f91c2a31757dae9015b52dd"
+        },
+        {
+          "path": "androidx/credentials/provider/PasswordCredentialEntry.kt",
+          "bytes": 18308,
+          "sha256": "ab32aae50ab9a303f33d9719a8433852b64c1f153734653e3ba1bb0a8e13fbb0"
+        },
+        {
+          "path": "androidx/credentials/provider/PendingIntentHandler.kt",
+          "bytes": 16180,
+          "sha256": "ec10e77a3272488091ebc0e4656d204777ec474c06e4ea2ffeedc3632bf39115"
+        },
+        {
+          "path": "androidx/credentials/provider/ProviderClearCredentialStateRequest.kt",
+          "bytes": 1253,
+          "sha256": "a39c8e5ef91d7ffb5f0f24330d5ef4a233adc6610e267e260a184b237ef2dd45"
+        },
+        {
+          "path": "androidx/credentials/provider/ProviderCreateCredentialRequest.kt",
+          "bytes": 1678,
+          "sha256": "91975e18d336ee602990b6950433b8ad8781ea83e237b246b75e5149b0616161"
+        },
+        {
+          "path": "androidx/credentials/provider/ProviderGetCredentialRequest.kt",
+          "bytes": 2605,
+          "sha256": "0f02df91ac6e0be86eb270fe3ea8ddd9da5d5bf68c8cc2e733b7a1dda7b1dc6c"
+        },
+        {
+          "path": "androidx/credentials/provider/PublicKeyCredentialEntry.kt",
+          "bytes": 17965,
+          "sha256": "d0dc09f56ee164db6ddccc7ccd22480e6d060990e0b5c37db195048e5a96a45f"
+        },
+        {
+          "path": "androidx/credentials/provider/RemoteEntry.kt",
+          "bytes": 5009,
+          "sha256": "1b992be1f1e7da448555b75609c140d894f7800ad305dabd235bd73f5798f8fe"
+        },
+        {
+          "path": "androidx/credentials/provider/utils/BeginCreateCredentialUtil.kt",
+          "bytes": 6831,
+          "sha256": "1dd2c66e3fac4d6b96db16ab95733cc09c9986e12b89bf794a17a4234e21abea"
+        },
+        {
+          "path": "androidx/credentials/provider/utils/BeginGetCredentialUtil.kt",
+          "bytes": 7642,
+          "sha256": "41f97e51802feced21be84e79e9b8194ab0d7dee59d3fded74ba9e9809646ee2"
+        },
+        {
+          "path": "androidx/credentials/provider/utils/ClearCredentialUtil.kt",
+          "bytes": 1464,
+          "sha256": "2a76ad54d5e1a8caa461dd6bcc645d6db8a6a2e9cff40031bcc68da189f77dac"
+        },
+        {
+          "path": "androidx/credentials/provider/utils/PrivilegedApp.kt",
+          "bytes": 3035,
+          "sha256": "3086544b3b65df4ea407a976c304aea5a77f206dcbeff545e1f9241412573d57"
+        },
+        {
+          "path": "androidx/credentials/provider/utils/RequestValidationUtil.kt",
+          "bytes": 1258,
+          "sha256": "d79defefab1d558746daa66c76ba61fa59f195ae60f212789598ed454053879b"
+        },
+        {
+          "path": "androidx/credentials/webauthn/AuthenticatorAssertionResponse.kt",
+          "bytes": 2914,
+          "sha256": "559fc6af85b170dbba3fe74b1a3b7c7ca4143f766370708120758c2cbb1064b8"
+        },
+        {
+          "path": "androidx/credentials/webauthn/AuthenticatorAttestationResponse.kt",
+          "bytes": 3194,
+          "sha256": "c5f51fe41cf311657467ab2bfd7629a9afe6499a92037dbed783e127416c7bd5"
+        },
+        {
+          "path": "androidx/credentials/webauthn/AuthenticatorResponse.kt",
+          "bytes": 851,
+          "sha256": "a3eb32237e6e640b61eef7897d1cb19f27e523a31b74a885599d3034164154af"
+        },
+        {
+          "path": "androidx/credentials/webauthn/Cbor.kt",
+          "bytes": 6524,
+          "sha256": "69e21608b7184a10e22226a8742521aa6a945d807c59f1e1ab959554fd7d7d73"
+        },
+        {
+          "path": "androidx/credentials/webauthn/FidoDataTypes.kt",
+          "bytes": 1462,
+          "sha256": "7297206d1fe34c709900b9c9c4fde15485c0f34cfcb5e4ed9608f34d29b2e1e8"
+        },
+        {
+          "path": "androidx/credentials/webauthn/FidoPublicKeyCredential.kt",
+          "bytes": 1400,
+          "sha256": "fa1949f3b1e14395d43841b8e1bfa353ae9db461495dcefff03ec1a6d4cc03b4"
+        },
+        {
+          "path": "androidx/credentials/webauthn/PublicKeyCredentialCreationOptions.kt",
+          "bytes": 2866,
+          "sha256": "f2b5d6ea221d5347008e35769b85c3d3cbebcdfaa36bea9e378b1e1a20545722"
+        },
+        {
+          "path": "androidx/credentials/webauthn/PublicKeyCredentialRequestOptions.kt",
+          "bytes": 1257,
+          "sha256": "9d0561cc56288ac05d24ba42f783019c92b7b3d6dca054f7e34bfd9227b648a4"
+        },
+        {
+          "path": "androidx/credentials/webauthn/WebAuthnUtils.kt",
+          "bytes": 1365,
+          "sha256": "991f1e2bb41d57e6d611ad7df7efc85a9f44e0fcc6dfdc9305fc772080b895f2"
+        },
+        {
+          "path": "androidx/credentials/webauthn/WebAuthnUtilsApi28.kt",
+          "bytes": 1233,
+          "sha256": "040dced631e11c0c515e901c4b375dd1b6909ac98bd089da3bfae17f6f413b69"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/credentials/ClearCredentialStateRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CreateCredentialRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CreateCredentialResponse.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CreateCustomCredentialRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CreateCustomCredentialResponse.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CreatePasswordRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CreatePasswordResponse.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CreatePublicKeyCredentialRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CreatePublicKeyCredentialResponse.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/Credential.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CredentialManager.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CredentialManagerCallback.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CredentialManagerImpl.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CredentialOption.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CredentialProvider.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CredentialProviderFactory.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CredentialProviderFrameworkImpl.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/CustomCredential.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/FederatedCredential.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/GetCredentialRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/GetCredentialResponse.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/GetCustomCredentialOption.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/GetPasswordOption.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/GetPublicKeyCredentialOption.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/PasswordCredential.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/PrepareGetCredentialResponse.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/PublicKeyCredential.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/ClearCredentialCustomException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/ClearCredentialException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/ClearCredentialInterruptedException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/ClearCredentialProviderConfigurationException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/ClearCredentialUnknownException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/ClearCredentialUnsupportedException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialCancellationException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialCustomException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialInterruptedException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialNoCreateOptionException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialProviderConfigurationException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialUnknownException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/CreateCredentialUnsupportedException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/GetCredentialCancellationException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/GetCredentialCustomException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/GetCredentialException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/GetCredentialInterruptedException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/GetCredentialProviderConfigurationException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/GetCredentialUnknownException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/GetCredentialUnsupportedException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/NoCredentialException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/AbortError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/ConstraintError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/DataCloneError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/DataError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/DomError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/EncodingError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/HierarchyRequestError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/InUseAttributeError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/InvalidCharacterError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/InvalidModificationError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/InvalidNodeTypeError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/InvalidStateError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/NamespaceError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/NetworkError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/NoModificationAllowedError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/NotAllowedError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/NotFoundError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/NotReadableError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/NotSupportedError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/OperationError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/OptOutError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/QuotaExceededError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/ReadOnlyError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/SecurityError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/SyntaxError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/TimeoutError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/TransactionInactiveError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/UnknownError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/VersionError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/domerrors/WrongDocumentError.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/publickeycredential/CreatePublicKeyCredentialDomException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/publickeycredential/CreatePublicKeyCredentialException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/publickeycredential/DomExceptionUtils.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/publickeycredential/GetPublicKeyCredentialDomException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/exceptions/publickeycredential/GetPublicKeyCredentialException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/internal/FrameworkClassParsingException.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/internal/FrameworkImplHelper.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/internal/RequestValidationHelper.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/Action.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/AuthenticationAction.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/BeginCreateCredentialRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/BeginCreateCredentialResponse.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/BeginCreateCustomCredentialRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/BeginCreatePasswordCredentialRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/BeginCreatePublicKeyCredentialRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/BeginGetCredentialOption.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/BeginGetCredentialRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/BeginGetCredentialResponse.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/BeginGetCustomCredentialOption.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/BeginGetPasswordOption.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/BeginGetPublicKeyCredentialOption.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/CallingAppInfo.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/CreateEntry.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/CredentialEntry.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/CredentialProviderService.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/CustomCredentialEntry.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/IntentHandlerConverters.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/PasswordCredentialEntry.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/PendingIntentHandler.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/ProviderClearCredentialStateRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/ProviderCreateCredentialRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/ProviderGetCredentialRequest.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/PublicKeyCredentialEntry.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/RemoteEntry.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/utils/BeginCreateCredentialUtil.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/utils/BeginGetCredentialUtil.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/utils/ClearCredentialUtil.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/utils/PrivilegedApp.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/provider/utils/RequestValidationUtil.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/webauthn/AuthenticatorAssertionResponse.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/webauthn/AuthenticatorAttestationResponse.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/webauthn/AuthenticatorResponse.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/webauthn/Cbor.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/webauthn/FidoDataTypes.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/webauthn/FidoPublicKeyCredential.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/webauthn/PublicKeyCredentialCreationOptions.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/webauthn/PublicKeyCredentialRequestOptions.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/webauthn/WebAuthnUtils.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/credentials/webauthn/WebAuthnUtilsApi28.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "credentials-1.2.0-rc01.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 202,
+          "sha256": "722e56bf8f4a937b20797908de83370bb212b211643b9401d5a26aa8c8da3362"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 157,
+          "sha256": "6e8a8e41513bc2d63867491e5db201172ba20b4717201b05911f667e7bb010fb"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 214,
+          "sha256": "fc27a9299c06bbb4d224ca3314e3e8088a1642ad6a3c683c7c3e2173494aca95"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 443744,
+          "sha256": "219ade5af99d0a69b21dd220e2eb5cf4612808b2593db66f624abd71f13f7bde"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.credentials_credentials.version",
+          "bytes": 11,
+          "sha256": "aaf490c7f3bf12c9dc9d4c70971a0485b472606b384f8c6d9c554a7beabf11c7"
+        },
+        {
+          "path": "classes.jar!META-INF/credentials_release.kotlin_module",
+          "bytes": 138,
+          "sha256": "e6dff9f5d1e2915a07e96fe744f500ec90b2d96f79bac8700a9f9fa7cdff468e"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/ClearCredentialStateRequest.class",
+          "bytes": 562,
+          "sha256": "21da636f8e98f7c63efc293e3bcf3c6dadba6005b7d2d6c3f4c5745dc15f835f"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreateCredentialRequest$Companion.class",
+          "bytes": 4956,
+          "sha256": "92a2c3296a9a03bde4bc53574fed1eea027df623c8c884f7b147d7154af9e2b0"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreateCredentialRequest$DisplayInfo$Companion.class",
+          "bytes": 3336,
+          "sha256": "9aad52e2813747b3c7098f746b6daa8c641c93a6b0638df70b69e4c71a57f297"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreateCredentialRequest$DisplayInfo.class",
+          "bytes": 5867,
+          "sha256": "648b3fb2562fb6e8a46c4ec66716ec5d5d69c5e06bd776a7cef64ba3a87fc945"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreateCredentialRequest.class",
+          "bytes": 4264,
+          "sha256": "8012c5d52f09f1caca78f3e031380a562b8436f7f347abc1fe945ecb3454ca4b"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreateCredentialResponse$Companion.class",
+          "bytes": 2971,
+          "sha256": "71761c23d56530f045864472f72e9b3b817bcfc710e278a4847f17eb198a282b"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreateCredentialResponse.class",
+          "bytes": 2083,
+          "sha256": "dff736f06151d3c440d65327c4ab3c29c85ed61b41219cb60e65cc4f7bf43cd2"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreateCustomCredentialRequest.class",
+          "bytes": 4230,
+          "sha256": "b8dd3da7c965942df1dbfa265b6b10f09450e0f81d28df022cebded698b45dff"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreateCustomCredentialResponse.class",
+          "bytes": 2035,
+          "sha256": "e6e58689772518b5c23d688002429045aebb1b9ae146c33c5d5ff8ec878b319f"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreatePasswordRequest$Companion.class",
+          "bytes": 4195,
+          "sha256": "2658e033e774a5dfa0fa4674670bd429297db76dc9ee903cbfe0e44b386fec5a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreatePasswordRequest.class",
+          "bytes": 7029,
+          "sha256": "ba89d90b7868aa5b7478c4197c8677d765ec982d1ee7e7e2e5a865f667675a69"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreatePasswordResponse$Companion.class",
+          "bytes": 1545,
+          "sha256": "021ead1287d2efca2d2c9066b4a37b3ac883a1d7835df9f1a7334b34f83a9d0b"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreatePasswordResponse.class",
+          "bytes": 1796,
+          "sha256": "4f5ed7c6307b8e3a8bba080d82cae7ff8d355d18307f6681ed1585d508ad8163"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreatePublicKeyCredentialRequest$Companion.class",
+          "bytes": 6391,
+          "sha256": "492c886d70769ff8dccad6e257c2c6da5105666acc5c20724581faaf6d5575af"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreatePublicKeyCredentialRequest.class",
+          "bytes": 7222,
+          "sha256": "3005c604ff4a2041ccbd9ee349631dd44760ab55127d4d797e2b6768641d9f12"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreatePublicKeyCredentialResponse$Companion.class",
+          "bytes": 2512,
+          "sha256": "71f92eebfb600beb6742c48a6d893b78ee5c058e1f293e36f6028156d08419ad"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CreatePublicKeyCredentialResponse.class",
+          "bytes": 3238,
+          "sha256": "b9d7c75c943f9953de5c33db1a787ca45d2c16b8985cd9e0b94f8601c1d99d34"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/Credential$Companion.class",
+          "bytes": 2801,
+          "sha256": "292af09e0f449305eb034eb77ea41d230ac429472959c629af0815640e93b70d"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/Credential.class",
+          "bytes": 1999,
+          "sha256": "7362a6098e803a3e91d39b9bbf37c601bc786b7f7c7404ba916bbb7ece3e0fbf"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialManager$Companion.class",
+          "bytes": 1390,
+          "sha256": "d912a701c0ae478fa8cc267ea49c527e1bb97067e9028d7f6ae6c5b243dd1082"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialManager$clearCredentialState$2$1.class",
+          "bytes": 1678,
+          "sha256": "d7a169cf1b9d032ac80ea37b7a810fd92673f1d012e9ad98d2f20b629ca6b75c"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialManager$clearCredentialState$2$callback$1.class",
+          "bytes": 2847,
+          "sha256": "213e268c88001e527bf808c34544bcf4abbd8513e83ac017f4cc781a4f2e1e36"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialManager$createCredential$2$1.class",
+          "bytes": 1687,
+          "sha256": "2ecaf5b30a07e0fb28832085b17d375e35dc34d6886fbde0acfd4995173a4629"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialManager$createCredential$2$callback$1.class",
+          "bytes": 2962,
+          "sha256": "df882fd8011293c1f6730ea40aed892d66947e38e88953134a6deeca75ab93be"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialManager$getCredential$2$1.class",
+          "bytes": 1675,
+          "sha256": "4e5513f90e73cb2b0b8adc4df89f93496e755c59ec0c4183eb5d6be51764395f"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialManager$getCredential$2$callback$1.class",
+          "bytes": 2920,
+          "sha256": "1a1b21db7a67163e91cff3126ae25f9a78d3ea0a0e79b0b1121df8dd5426da5c"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialManager$getCredential$4$1.class",
+          "bytes": 1884,
+          "sha256": "744b8086220fa59d7d7feb27dc8276ae0d265582f37b7d195ffac8673c04936c"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialManager$getCredential$4$callback$1.class",
+          "bytes": 3129,
+          "sha256": "9ca0e9b34c98e22bce41d5eb53819a8bc0823421fa6588f807f65f8091c31061"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialManager$prepareGetCredential$2$1.class",
+          "bytes": 1671,
+          "sha256": "b1001e738d48948effed7ada030c3bc1dfd678650906c0a7114a5c2669bc946d"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialManager$prepareGetCredential$2$callback$1.class",
+          "bytes": 2958,
+          "sha256": "d51ca8fd2a3a107b09fad8a3e39bd2555ca015d4981121dbc2eb46dd11688451"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialManager.class",
+          "bytes": 16454,
+          "sha256": "3ae792d3eaf4a103a8098d9049b2e338de32b71348e4fea6179f6a253d1175b5"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialManagerCallback.class",
+          "bytes": 817,
+          "sha256": "b06e5f19fe4d0aefecc42f0196b1696773e8d36a6440d10274d839d76ae1c640"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialManagerImpl$Companion.class",
+          "bytes": 929,
+          "sha256": "ba0205dc230b40f1883a2afeb49a52effbe78704a4c7273f6e6d46804cdaea0d"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialManagerImpl.class",
+          "bytes": 9188,
+          "sha256": "027e61feaf2ee080a02081ceebec06d0c60f176d139283a23cde41635119c0f3"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialOption$Companion.class",
+          "bytes": 4313,
+          "sha256": "b6d21aa639554b791518d4c7a37ba8f7830630c7cdc1280d1d090ff4981cd31c"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialOption.class",
+          "bytes": 3732,
+          "sha256": "22503be88cc24641b1b86b403306513a7fc721e9327732a90de84d08cb58c6bb"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialProvider.class",
+          "bytes": 5272,
+          "sha256": "2e7f4e0e858827d1b791a5fbb74289f76886009927210232f478a890b31bee8f"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialProviderFactory$Companion.class",
+          "bytes": 5375,
+          "sha256": "2e57e0417aabc504c270090ff1e4f9e9868e6baca9f5149b51625a8eae369337"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialProviderFactory.class",
+          "bytes": 1206,
+          "sha256": "e0d3c843c47295ed23cf06c2eb0b5f0abcc8ff3924a250afc1e44f7ca7d88377"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialProviderFrameworkImpl$Companion.class",
+          "bytes": 1028,
+          "sha256": "5d9a00325a25351ba2c1a8f0270103a3dd56fdd91ac8703385fe0f3f1b50d439"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialProviderFrameworkImpl$onClearCredential$1.class",
+          "bytes": 2021,
+          "sha256": "df7934c7996e890172f75844b7ba785188c52f28c06de1f12fdf8305c85a405a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialProviderFrameworkImpl$onClearCredential$outcome$1.class",
+          "bytes": 3046,
+          "sha256": "2738e6e29f17eaf96201665b551efb5bbe5cf9e350a1301e990e30b66b6dad0d"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialProviderFrameworkImpl$onCreateCredential$1.class",
+          "bytes": 2110,
+          "sha256": "48395343449d0453c223aae7a83fa26c7c112ca84eeadd0311639124eb48716c"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialProviderFrameworkImpl$onCreateCredential$outcome$1.class",
+          "bytes": 4203,
+          "sha256": "e34d8610f0b50415b84af507ee64fa0b42cda46c3dbe3e32cae5be407e385a57"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialProviderFrameworkImpl$onGetCredential$1.class",
+          "bytes": 2292,
+          "sha256": "31a12b7fce340037e85bf0294650d1723e751d6648dbec457b834c1868ac39a6"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialProviderFrameworkImpl$onGetCredential$2.class",
+          "bytes": 2083,
+          "sha256": "e5b3267b33b4901d96d3abd4241ffd555ef9f42973326bb4faefee6f355481ce"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialProviderFrameworkImpl$onGetCredential$outcome$1.class",
+          "bytes": 3555,
+          "sha256": "5b74451c2c50dbfaff187a20ecdc928354828bf5f2941d0b72649f5891050203"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialProviderFrameworkImpl$onGetCredential$outcome$2.class",
+          "bytes": 3580,
+          "sha256": "8531e247bab0c9aed4b57016e95820d7297ff4bc37c18114df3951a536d0a7ee"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialProviderFrameworkImpl$onPrepareCredential$1.class",
+          "bytes": 2084,
+          "sha256": "f5a0f9249eb79830ddce12fe63894457d072ea31332da0c7d225820531c2e8f7"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialProviderFrameworkImpl$onPrepareCredential$outcome$1.class",
+          "bytes": 3396,
+          "sha256": "ad7bb1e872df10d4145b514c5e0a6b59118ad8751cc796e4bf913c9dc2d22785"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CredentialProviderFrameworkImpl.class",
+          "bytes": 23249,
+          "sha256": "0f1f2e6cedf366773cc786dd3e18751f40384812d8f66eb88f8ff220bb91186c"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/CustomCredential.class",
+          "bytes": 1867,
+          "sha256": "89dbb9e33358f29d0a5586da2c2fd751ab42b26b62ab95a81af241c918b30a40"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/FederatedCredential$Companion.class",
+          "bytes": 900,
+          "sha256": "57325982692679d13163dc4ceb22f29e0daee6738bbef46263aacda77aad876a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/FederatedCredential.class",
+          "bytes": 1182,
+          "sha256": "4938fb73e2f0d4fa07cd77bff22665c0055147ef76140a11f06ccfd80fbb145a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/GetCredentialRequest$Builder.class",
+          "bytes": 3654,
+          "sha256": "aa6f359cd61f4d4c10a4d4b53d8e1956870b691fd5fa1e7b2f146e109e51d174"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/GetCredentialRequest$Companion.class",
+          "bytes": 4545,
+          "sha256": "0b7b1e1743cafcddcc729b173f40507f3ac594c88f851ef1ea79d04da8eae29e"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/GetCredentialRequest.class",
+          "bytes": 6424,
+          "sha256": "4649c49cc6f6e6438d40de602fbdaa5363ed3c80c782439b17795ec84b7d4fc4"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/GetCredentialResponse.class",
+          "bytes": 1093,
+          "sha256": "08ddc559fa1064c6a1435ccd492bacd2c3ce679a9fea6953270a1d1f0966502a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/GetCustomCredentialOption.class",
+          "bytes": 3325,
+          "sha256": "f09005e9bc57192574fefb72f8a7c3aca4947134f749d5edc9691c6ab9d6deb0"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/GetPasswordOption$Companion.class",
+          "bytes": 3211,
+          "sha256": "493b39c39a6e7a0c11b247ed2ff6ea429b3b38c203041d2627962e356b26b02c"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/GetPasswordOption.class",
+          "bytes": 4380,
+          "sha256": "ba62caccd29217ce58a366d7b4c14dd2d1e91ea9c13324509b1f52f44597dbd3"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/GetPublicKeyCredentialOption$Companion.class",
+          "bytes": 3480,
+          "sha256": "5e6a9713edc6687f21b462a0bbb4532a7028966c4c2b13d845123991f1005466"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/GetPublicKeyCredentialOption.class",
+          "bytes": 5236,
+          "sha256": "7a832ff3160932d8a2c87bbf9899f657e6062b358a6117b758907d9f3b49849d"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/PasswordCredential$Companion.class",
+          "bytes": 2608,
+          "sha256": "c83d32b5ed59ccf4562bf7dce5d8d5e76ccdf42f244a9d34e861f9e34be58143"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/PasswordCredential.class",
+          "bytes": 3769,
+          "sha256": "1a7b51cf74554e2312e11ab705052a5353e37ed0457a7a02b1c48577feeae89b"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/PrepareGetCredentialResponse$Builder$setFrameworkResponse$1.class",
+          "bytes": 2036,
+          "sha256": "84d969cd5ee95c65cbd32e6237c8cd1dcb87a704e819a1b97321e3e553ada800"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/PrepareGetCredentialResponse$Builder$setFrameworkResponse$2.class",
+          "bytes": 1716,
+          "sha256": "d99c55c43e322b21a762488280f389ef445492ff06ee841432683d9ef96bfbe1"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/PrepareGetCredentialResponse$Builder$setFrameworkResponse$3.class",
+          "bytes": 1692,
+          "sha256": "78bb0b5dda1d0d486f247171af5f6025ac4d60509efeb11e5f61b64852fcc3f0"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/PrepareGetCredentialResponse$Builder.class",
+          "bytes": 5088,
+          "sha256": "5888bd322479830a1f6c4d7cf65cfd2380cef3683041e2553d543dd96256de2e"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/PrepareGetCredentialResponse$PendingGetCredentialHandle.class",
+          "bytes": 1981,
+          "sha256": "b1245a403dd96c7ebb65db4d20e0f2d5f50b9cdf3c35aebd97f6a978d46fbc8d"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/PrepareGetCredentialResponse$TestBuilder.class",
+          "bytes": 3429,
+          "sha256": "a1638933140d97fa1763c80bf91a30735a75d9f58eea5b4c1243df714d4750cb"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/PrepareGetCredentialResponse.class",
+          "bytes": 5326,
+          "sha256": "15aea99cdaa69a7946753300f3392d7c38b0c2d15c88b36d355878ac07f9f44e"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/PrepareGetCredentialResponseKt.class",
+          "bytes": 609,
+          "sha256": "ddcd191de98796068eb57e02e710edac25926b1574528a97e249ef3dcd19b41a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/PublicKeyCredential$Companion.class",
+          "bytes": 2529,
+          "sha256": "c6902b006b5372b1f95995e7f71aa6f12131d7e11145fcd238b7bc5c92555efc"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/PublicKeyCredential.class",
+          "bytes": 3261,
+          "sha256": "bf8932aeb34c3d48b5a08b0d88338cfbeb96ed37b1de80db83dd3f57f0375b92"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/ClearCredentialCustomException.class",
+          "bytes": 2612,
+          "sha256": "148cca4bff9c1ec7a3a60321b41e9b89ebbe1d0bf4cbd750f32bcabd66b2baf2"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/ClearCredentialException.class",
+          "bytes": 2235,
+          "sha256": "f684656a86d853fde7b02c50b71064f2bd9653fa7265b35d6b7df6b0091ed8f1"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/ClearCredentialInterruptedException$Companion.class",
+          "bytes": 1015,
+          "sha256": "6f0c417eca2d61ec4be9bf76fdbf31e92e4459b41d9a94cfcdf56d6846c3c8a4"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/ClearCredentialInterruptedException.class",
+          "bytes": 1859,
+          "sha256": "15a2afd252b9d38d8be23128a28f952d84739631f680cac93e983c492a281cce"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/ClearCredentialProviderConfigurationException$Companion.class",
+          "bytes": 1066,
+          "sha256": "fd327681a06a7a78501a39daf9b8b9630869acc72db3b6da8a159c07575143cd"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/ClearCredentialProviderConfigurationException.class",
+          "bytes": 1931,
+          "sha256": "b686c214c1a052bacc473dfe935f668cc5798bcd2006af4cc2ec22ae55bb1c07"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/ClearCredentialUnknownException$Companion.class",
+          "bytes": 995,
+          "sha256": "20b0a3741e30f033762e24dec585f6dcb3cc91b8dded3d9a41eb0c382d680d64"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/ClearCredentialUnknownException.class",
+          "bytes": 1833,
+          "sha256": "64a51b42df4dc79d25ecc406c0b685ecab555dd3a07a6ca211b9a55f4cb7cb19"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/ClearCredentialUnsupportedException$Companion.class",
+          "bytes": 1015,
+          "sha256": "696bb805d0c4e5b933482ab83bf734aa8c85cd88fb2ce3de71168f8c2e17dc58"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/ClearCredentialUnsupportedException.class",
+          "bytes": 1859,
+          "sha256": "2356e714ec6dd7b4c5c6b03c9218b9787eb5013d93291aa0dde4c2b22d64a5a5"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/CreateCredentialCancellationException$Companion.class",
+          "bytes": 1025,
+          "sha256": "fc486fdbe031391c1aac87acdb5b2012acb529bd07a9007bd5117188c2362e91"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/CreateCredentialCancellationException.class",
+          "bytes": 1873,
+          "sha256": "5e4619bfadc6c12b7b71b3c46a0673bf5c1500dadebe1cc709db7b1cb97db001"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/CreateCredentialCustomException.class",
+          "bytes": 2624,
+          "sha256": "3f19620e4b291e8e860093f62c54898796e70e1b5c98688e03b7f85de74f2efd"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/CreateCredentialException.class",
+          "bytes": 2238,
+          "sha256": "744e7d24235e1e3c6942895b51f8d4c1e94612f575ccc151e7eb8aaa1947da15"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/CreateCredentialInterruptedException$Companion.class",
+          "bytes": 1020,
+          "sha256": "fb467a28549c0503936fc3782fc6c2cb6843d3cd40e175b0df100eb966fd35d5"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/CreateCredentialInterruptedException.class",
+          "bytes": 1865,
+          "sha256": "52b87dbbfde5d7dcb77fc9a29779fc84807f3be5ef92d7c2176628a3a68875b0"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/CreateCredentialNoCreateOptionException$Companion.class",
+          "bytes": 1027,
+          "sha256": "62ed1324fffbbfce36c2445e0ea5b3e437df26b40fca30202c5b2b152320cd44"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/CreateCredentialNoCreateOptionException.class",
+          "bytes": 1881,
+          "sha256": "8052fd60563bb81c369f8e9a253fa4d06b966afae0c2032504a7af979dd69b06"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/CreateCredentialProviderConfigurationException$Companion.class",
+          "bytes": 1071,
+          "sha256": "2507edec928735ae702224a1753d4457e340a5112a4346c9ccacdc4440d533cc"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/CreateCredentialProviderConfigurationException.class",
+          "bytes": 1948,
+          "sha256": "b28a50a76f2be1db5e32033e7fef8aea78eba93db03a80ed799cbefb724e15bc"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/CreateCredentialUnknownException$Companion.class",
+          "bytes": 1000,
+          "sha256": "60793dc7aaaf94f2963be3b7b8b8bf1e8d66e0c7d95120eb564b00f33f21c057"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/CreateCredentialUnknownException.class",
+          "bytes": 1837,
+          "sha256": "b8113b5f9a6b3a81ec8412b6aaeb09bcefd1473523fb7419d483a4a8e24ebf9a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/CreateCredentialUnsupportedException$Companion.class",
+          "bytes": 1020,
+          "sha256": "cf593882643e245d4dc1fa982cb88e933b5b6192c166044c34589f474688d4ea"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/CreateCredentialUnsupportedException.class",
+          "bytes": 1868,
+          "sha256": "b8eefde96c2d5c32573ab2c0c444d04374fa919adef6f00db7d8c76267d1e5f3"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/GetCredentialCancellationException$Companion.class",
+          "bytes": 1010,
+          "sha256": "9c9b95b80ee86a2c68fc1dbca1a446dbdba572522958715ed7c67dd1d9579b61"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/GetCredentialCancellationException.class",
+          "bytes": 1846,
+          "sha256": "4851578c838ac522f5a57b17ed7836742d56ff80bdef65188fc8933ca9f340a9"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/GetCredentialCustomException.class",
+          "bytes": 2588,
+          "sha256": "5dcfe15db3728667ef50e79b0e5739e38933f4fe4b1d4df2bb1139ac4fa150dd"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/GetCredentialException.class",
+          "bytes": 2229,
+          "sha256": "5ec513058d50781766017ebbdb99c17deec76e493cc0b5afe719f8f291553d53"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/GetCredentialInterruptedException$Companion.class",
+          "bytes": 1005,
+          "sha256": "c97fca70d15942b032f3ec54493133b0e5748c13f0be4ad73724cc8dafe679f0"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/GetCredentialInterruptedException.class",
+          "bytes": 1838,
+          "sha256": "4afae6741d4b312004513e757b0a15b0ccf5987a0b8f666ca591479f04200f7d"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/GetCredentialProviderConfigurationException$Companion.class",
+          "bytes": 1056,
+          "sha256": "58a75017d21e9777a9d25164412056e05ae54db9c26b3a4099d77454b2b09dbf"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/GetCredentialProviderConfigurationException.class",
+          "bytes": 1913,
+          "sha256": "b8a1a4a9bdeb6820cc71d26e773d524d30c05dd48c5b935645164c3059fa5bcd"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/GetCredentialUnknownException$Companion.class",
+          "bytes": 985,
+          "sha256": "0410a02ae1d87a017c27e400cebc39599b8a23dece68629f6acb3404c0286e07"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/GetCredentialUnknownException.class",
+          "bytes": 1810,
+          "sha256": "7de4c16fb02aea42810285933910768a03921e9488a5698cfc3b1bccc89a4f06"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/GetCredentialUnsupportedException$Companion.class",
+          "bytes": 1005,
+          "sha256": "452920ecfaec10516dcbe2a7955c9139015269d94f58706ada3f192f7b5d8701"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/GetCredentialUnsupportedException.class",
+          "bytes": 1841,
+          "sha256": "eaba78ff7b3f01a8acfdbb3ac83d56c41790e891c663abbef849232ee95e197f"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/NoCredentialException$Companion.class",
+          "bytes": 949,
+          "sha256": "76df8b5312757ddc9cfd5a77a4cf463268870fbf3e9ec89b17217d34260d476e"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/NoCredentialException.class",
+          "bytes": 1772,
+          "sha256": "57bebdad68ea7f6d6a4c85a7eb07981c114636f86fcf565449d2859dc6fdd5f7"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/AbortError$Companion.class",
+          "bytes": 947,
+          "sha256": "040d12e6b5066862d3efe394dfbbdebb775d5b61553890da2ed5ee29934c7329"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/AbortError.class",
+          "bytes": 1219,
+          "sha256": "a65996332cd33ae2aeb4815620e0ed7f065e6361dcc044d7293290700bb145bf"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/ConstraintError$Companion.class",
+          "bytes": 972,
+          "sha256": "2ad3874d7a16a887905fa7487f5bfabea21cd1224705c1caab735b11a8130339"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/ConstraintError.class",
+          "bytes": 1254,
+          "sha256": "9e40912e2d55560e57e30d6693fc3cea52fc3eb82a8321e0a01bdb768cc5c20b"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/DataCloneError$Companion.class",
+          "bytes": 968,
+          "sha256": "a9f681eddc0823fe4790dc9c4fb91a079ddcf6e16756e299c692cd28201221c8"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/DataCloneError.class",
+          "bytes": 1249,
+          "sha256": "57f34f4ffac6ded86e86bb40c06d215cdeb2601702d8e0d7c06cc054b082022d"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/DataError$Companion.class",
+          "bytes": 942,
+          "sha256": "81565871da04fbb189875051ed35c2354564ee6323640449b1826a6facc4c016"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/DataError.class",
+          "bytes": 1208,
+          "sha256": "5ef79f707866b4fe42c6837af7453243e23b3c57b66dca38a4ea00b35b381f12"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/DomError.class",
+          "bytes": 1354,
+          "sha256": "cb5291a9308075f52b0635df80bc1f3de0cc06efbc76112ebf86ea048a24fa1d"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/EncodingError$Companion.class",
+          "bytes": 962,
+          "sha256": "276927828261fe53df63536456d51f569d9516ec96c78f27687c374c533c68d4"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/EncodingError.class",
+          "bytes": 1240,
+          "sha256": "fb0fd088b024e306659232d19f756bd3c89a6a5ccf20e6da40b5d9e11b9e8d90"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/HierarchyRequestError$Companion.class",
+          "bytes": 1003,
+          "sha256": "69523261e40e608959f0f1a07f679f0d48f64fd6dd4a3c8dac7609011fdca34b"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/HierarchyRequestError.class",
+          "bytes": 1298,
+          "sha256": "f95048d86fb47f8bd1b103bf69d0f983dffc870fd1449cc7f8e5125fd8c32cf5"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/InUseAttributeError$Companion.class",
+          "bytes": 994,
+          "sha256": "246470b372be087973bb0d47e56fb869ed337a1438b2cc36a33d3e2103879fee"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/InUseAttributeError.class",
+          "bytes": 1286,
+          "sha256": "41bce82ea6df746eea4a1ce38398a7bc0da25435c8b1121b1267f52fec20d673"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/InvalidCharacterError$Companion.class",
+          "bytes": 1003,
+          "sha256": "5454c343a8b66f92ec17aa6204a77e6f99f3cbec4241e9054338c15d7165767b"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/InvalidCharacterError.class",
+          "bytes": 1298,
+          "sha256": "470e0305e251ba7a960ad95738afca4fa6923256e67dcf7615a68d027ad0f8f8"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/InvalidModificationError$Companion.class",
+          "bytes": 1018,
+          "sha256": "615145d982e4a1adb3288cd0a913eb1df5a255d612d869e5912a492972277346"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/InvalidModificationError.class",
+          "bytes": 1319,
+          "sha256": "0e31fc837ddad42450dbd458992b7fc3cdf607a84030d66d29c837e037595e10"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/InvalidNodeTypeError$Companion.class",
+          "bytes": 999,
+          "sha256": "4e1061952b436966b8a3f6330cb7b6a2a6e861279d46d608fe928984d6b9fa14"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/InvalidNodeTypeError.class",
+          "bytes": 1293,
+          "sha256": "89dab1ea8c75ea8fa0de5db935668f9d60cab054d744aea3103c067e1470bcfb"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/InvalidStateError$Companion.class",
+          "bytes": 983,
+          "sha256": "d34e22d77bd4b2b37597717157a6cc915e0b18b6d3107525b226787e2c8122cb"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/InvalidStateError.class",
+          "bytes": 1270,
+          "sha256": "8b98e7efa753002b5666eb858d9b13484959813a130e7fbdd2a011da6f751b15"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/NamespaceError$Companion.class",
+          "bytes": 967,
+          "sha256": "9c9a65c9a6e117e225a0b4dc55da9175685be3f21493f418a7b6cc2de87aacd2"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/NamespaceError.class",
+          "bytes": 1247,
+          "sha256": "56b44eced3352b1eca7f93da571191310e946911f6596b5504f8541d456616b4"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/NetworkError$Companion.class",
+          "bytes": 957,
+          "sha256": "1717d06a54720db1a25ae7996c504f3ca688d1b86786371968c6d1a4c2c73ac6"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/NetworkError.class",
+          "bytes": 1233,
+          "sha256": "a198f4fe33c9be8201e1257712b759b5d3482997ca006ac6f425426630f7bc88"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/NoModificationAllowedError$Companion.class",
+          "bytes": 1029,
+          "sha256": "6181cacd664c07aa79deb5d4dfea26e5ddf4922cc79dcd96768dffbe7e69d925"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/NoModificationAllowedError.class",
+          "bytes": 1335,
+          "sha256": "3ac46d181a4063c9b1a75d5795f206f4755742e695189cd484a0eb10fc38aba6"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/NotAllowedError$Companion.class",
+          "bytes": 973,
+          "sha256": "f1c10ac14f837b317c6ddfa6fb57766647227b1de670645fdde9e2994b37c1fa"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/NotAllowedError.class",
+          "bytes": 1256,
+          "sha256": "ad93bfa767f25b05a950f18d37b680c86c5a195c0301bfa645b700f23bfc9484"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/NotFoundError$Companion.class",
+          "bytes": 963,
+          "sha256": "be308d3ff6dd8ca444ed6861f1a71499d1a48b5009ce77ae4468d7f4c11141c3"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/NotFoundError.class",
+          "bytes": 1242,
+          "sha256": "e17823c3aedcde7adee06c0fe9d6adb654d7b5e3295accafa0c22e5f6fda2ca5"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/NotReadableError$Companion.class",
+          "bytes": 978,
+          "sha256": "b784ce45c4f1fd83c34ef52cd10fb1cd7674b74d338443f9696e7f5a0f38bf44"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/NotReadableError.class",
+          "bytes": 1263,
+          "sha256": "c9d81b2e344441c12fd2f716ae754ca936c036b43bd6342fc8eb833d45a2061c"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/NotSupportedError$Companion.class",
+          "bytes": 983,
+          "sha256": "c3801a273748c2612c81d2ce580c12d6d52c6bcc6adbe61cde85de134d483166"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/NotSupportedError.class",
+          "bytes": 1270,
+          "sha256": "9b09a0da8a0db5b168a97044f7f2b7f11835d71349d0a1aff0b72a1dfac9194e"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/OperationError$Companion.class",
+          "bytes": 967,
+          "sha256": "a9fc9c734e25e1061c17a295e0b528102e20afc3ace66052a0d6c63610e0c858"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/OperationError.class",
+          "bytes": 1247,
+          "sha256": "e51494bc1a017d62ca8aeb0f6a748dc8a6c03f5e27ab85c1dc6594897051337c"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/OptOutError$Companion.class",
+          "bytes": 953,
+          "sha256": "35696bd346968e9459556b01d796348ae0448d1dd98291dacdfd2f84d590039b"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/OptOutError.class",
+          "bytes": 1228,
+          "sha256": "0c484dcf3410a0f624f9f1030a7a40a39624b3b59091eca89190b6f8f3f30645"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/QuotaExceededError$Companion.class",
+          "bytes": 988,
+          "sha256": "e6e4dc43862f3899646531813bbeda9c7e42acc8eb1e389bea73341f1a275228"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/QuotaExceededError.class",
+          "bytes": 1277,
+          "sha256": "3629e80a32b9d303973e44003516fa8760ccf03f4629d854eba949a768ebca49"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/ReadOnlyError$Companion.class",
+          "bytes": 963,
+          "sha256": "afdbddcc4c5c62e105ba574a630baaa56928dbf00106308ea05feb2cac589335"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/ReadOnlyError.class",
+          "bytes": 1242,
+          "sha256": "394a1de821752e8048b0516d7d4e5f7302793b2b0111c21d1b1d088dc587e654"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/SecurityError$Companion.class",
+          "bytes": 962,
+          "sha256": "ba05f9e773d6cb1622b2d13aa907909bb96bb44d9b343c75550e21b7a24a9933"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/SecurityError.class",
+          "bytes": 1240,
+          "sha256": "151766193ded659b1691b23141383e881a5cb018eefaf8ef80e7f2498b271730"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/SyntaxError$Companion.class",
+          "bytes": 952,
+          "sha256": "c0933ea34f3e0e88e195c28bd618b60843008a0a826422bc0aa305b9c8ebe5be"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/SyntaxError.class",
+          "bytes": 1226,
+          "sha256": "9e7d76b1eb6f349ab1a16f4e3a1480e838ed0ee9e6ee692ad0f1bc4c391e346a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/TimeoutError$Companion.class",
+          "bytes": 957,
+          "sha256": "84c2ed7142cf786cfb0cf37614f1792b6be3703a4acb9ba0717f2d5a71d129a5"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/TimeoutError.class",
+          "bytes": 1233,
+          "sha256": "d7b2be8d0f8b93b693f499e5b79cafa7d930c86e01bfd312201cb673ffa9a6f1"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/TransactionInactiveError$Companion.class",
+          "bytes": 1018,
+          "sha256": "d6fceb6e872091cc5a026ca711f8145093f8ab6d00e3fb9c29b1e97948599dd8"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/TransactionInactiveError.class",
+          "bytes": 1319,
+          "sha256": "6efcfc113c2b9d4972be9d4ebb6c9938074cf6e2a28e369614051353981882a8"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/UnknownError$Companion.class",
+          "bytes": 957,
+          "sha256": "56fdbfa4240411c36d1cb37bd2d939316882ed4cc9211c56ba0e5b4860930987"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/UnknownError.class",
+          "bytes": 1233,
+          "sha256": "2e87a982135a51628fe93666949ba8340074116b96c364aae6e433793eab6bd0"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/VersionError$Companion.class",
+          "bytes": 957,
+          "sha256": "59f9cebc462e545e68b7886e72cd2fd05569e5b54dba40c25ef9b65382d60c52"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/VersionError.class",
+          "bytes": 1233,
+          "sha256": "08eeccfc3ae1a38e14fc00887f3eb7c6d9fd1d915110b66e44c6faacae4ef3a8"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/WrongDocumentError$Companion.class",
+          "bytes": 988,
+          "sha256": "d028b86e5f17959b27f8abbc6bc393bb54529b37e0c6d6d87602bf87670b56b1"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/domerrors/WrongDocumentError.class",
+          "bytes": 1277,
+          "sha256": "f88ea0d828b6f1eb82e7b65084decf6add3a9e5a1ab115b97c3346164b8553f4"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/publickeycredential/CreatePublicKeyCredentialDomException$Companion.class",
+          "bytes": 9974,
+          "sha256": "9e69a40143b9bd639af8b2df8379129293fbfa91f52768c3b38a5143f40d55c6"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/publickeycredential/CreatePublicKeyCredentialDomException.class",
+          "bytes": 3446,
+          "sha256": "8bc296bf3928b6191ccd027e918a26c4cf8c50492c1daa2b35bb1546c3a9e5b3"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/publickeycredential/CreatePublicKeyCredentialException$Companion.class",
+          "bytes": 3113,
+          "sha256": "4be2ec6801d80da316c3f3be2a2e753a7e591e9b154d4efeeb02eca134960d2c"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/publickeycredential/CreatePublicKeyCredentialException.class",
+          "bytes": 3623,
+          "sha256": "9faee108eabc1454b2fb92cc0ea72d26966858616d15ba060c67d2ba88957591"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/publickeycredential/DomExceptionUtils$Companion.class",
+          "bytes": 8704,
+          "sha256": "5624c268678fdb16b26d0ead53f10a17b1b9d8c6f5434b953b28c820edb71d44"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/publickeycredential/DomExceptionUtils.class",
+          "bytes": 1323,
+          "sha256": "ca94a520cfb80c13cdfe4caedc0b0d833b289445af803d6ea2b58ba61bbf0e63"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/publickeycredential/GetPublicKeyCredentialDomException$Companion.class",
+          "bytes": 9918,
+          "sha256": "748caafe0dc9c241cfc3fa55282b82d8a93d16b5309c15bb82a424b016c8e49a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/publickeycredential/GetPublicKeyCredentialDomException.class",
+          "bytes": 3413,
+          "sha256": "4b9b260f88ba3676c1e2c5d0b870397741c264130b390a2f4b8937721596adb6"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/publickeycredential/GetPublicKeyCredentialException$Companion.class",
+          "bytes": 3058,
+          "sha256": "2e34c37003bab1aa70a8a52813bfcb31b3c2bd0902483012ab5dbf6d44af9911"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/exceptions/publickeycredential/GetPublicKeyCredentialException.class",
+          "bytes": 3578,
+          "sha256": "d819332258e4b27741a403012bc125b59cc2835e09bd79273c750eced11222df"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/internal/FrameworkClassParsingException.class",
+          "bytes": 647,
+          "sha256": "a7d9beb2ff04864553b784b3269ab544ce9d35573f61890d3a026ab6d8a5f88f"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/internal/FrameworkImplHelper$Companion.class",
+          "bytes": 3187,
+          "sha256": "cbf5cd0f9ed463351a9870d95d1fd8681bf402a660a53115325e62c0b7a2c3f4"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/internal/FrameworkImplHelper.class",
+          "bytes": 1623,
+          "sha256": "5dedffe1f4be9756ea29c1f9807d557fb15330202f4e8b28dadf47685dc3c523"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/internal/RequestValidationHelper$Companion.class",
+          "bytes": 1847,
+          "sha256": "6869f4c44a70842afde88ae022477cc98664bbf6b8a79404c9c757281aeeb2fd"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/internal/RequestValidationHelper.class",
+          "bytes": 1401,
+          "sha256": "62e5566c9ae29762b884104615d23150071c50bc42d945fccb79699a3b8a536f"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/Action$Builder.class",
+          "bytes": 1802,
+          "sha256": "4d68ad277fe2f56d7d16c352bc0aa9f19748fc734b617cbc06abc20a1df7c683"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/Action$Companion.class",
+          "bytes": 6174,
+          "sha256": "981911e3d0696e06d90860d0062fe728939cd6f8e65eaf5196ca728a3e2c05aa"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/Action.class",
+          "bytes": 4240,
+          "sha256": "c952ec42f874a98f674befa3bc7a2e6dabf1384b8aeb410808cca8551ad13d63"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/AuthenticationAction$Builder.class",
+          "bytes": 1483,
+          "sha256": "ccee256d858e0c4ca558c4db1af60b150e9f6172a68c0f7904ecd37c23ba182c"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/AuthenticationAction$Companion.class",
+          "bytes": 6184,
+          "sha256": "47b2f61d7087fc8407f87904de27890d32917212ac253d75a218662e16067faf"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/AuthenticationAction.class",
+          "bytes": 3955,
+          "sha256": "85971eb202df09abedd7997aefb26d611c053841e5cfc3d19c45ed0a95303f7e"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginCreateCredentialRequest$Api34Impl.class",
+          "bytes": 3044,
+          "sha256": "af551ef41e1733048f46ded206a2a1ebc93456fcf5cf9e66688c76acc2085492"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginCreateCredentialRequest$Companion.class",
+          "bytes": 2215,
+          "sha256": "c9919130450f442e4feeb9d8c4fd153ff985ccab59a24d986dc7cd90eebf9edb"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginCreateCredentialRequest.class",
+          "bytes": 2653,
+          "sha256": "35bb491e7bf202717f0d0a233ec31ce0a33971481cb673f88b16f61ad28aa110"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginCreateCredentialResponse$Api34Impl.class",
+          "bytes": 3042,
+          "sha256": "8798b08c73df95c33152c3914c9745e588de80df7efb19e9c5ccce5c7c10c73d"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginCreateCredentialResponse$Builder.class",
+          "bytes": 2940,
+          "sha256": "4a424e57c281b8369bae0dd3040ad4fc041de9e34a6525bed512d1e0bd27fbe7"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginCreateCredentialResponse$Companion.class",
+          "bytes": 2225,
+          "sha256": "9be00c8dbb45b38b5af8a7b76b587efeafcbd42925a47ded59b61f335a5bf360"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginCreateCredentialResponse.class",
+          "bytes": 3178,
+          "sha256": "6a02821774d49a8930a20c06dab4562982c7304b502cf9de5636fa70bceb7466"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginCreateCustomCredentialRequest.class",
+          "bytes": 2398,
+          "sha256": "b3d5d6c3af9d0bf83073ee17300def78850942b0990a1cd509fca729edc1a2fa"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginCreatePasswordCredentialRequest$Companion.class",
+          "bytes": 2064,
+          "sha256": "66d71445527243ecb4cfc49fecca94a2a8d40c3e4d9dfc73d4318535e9c9c02b"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginCreatePasswordCredentialRequest.class",
+          "bytes": 2075,
+          "sha256": "0f05430d47d004fbaa3e5070f08af3674a02b12c3097770698600bf1a28492fd"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginCreatePublicKeyCredentialRequest$Companion.class",
+          "bytes": 2710,
+          "sha256": "e2d7b0152c2927239f97495a2df475784d003ce5cd8668f35b8574831daab03a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginCreatePublicKeyCredentialRequest.class",
+          "bytes": 4771,
+          "sha256": "626d10990fc95d2e2b09fa9468a5d30c3506738dda8c7d5563639dda19f419d3"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginGetCredentialOption$Companion.class",
+          "bytes": 2804,
+          "sha256": "d9a51eff0fa6e5c7210dcd63b99ae29bdab590b73d2b48adba976a7e3d9f389f"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginGetCredentialOption.class",
+          "bytes": 2213,
+          "sha256": "ff67960cb30d4966242e565771de205b4c6ab107b45eddd5cda60e3266bb3e96"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginGetCredentialRequest$Api34Impl.class",
+          "bytes": 2993,
+          "sha256": "3e7109bd0ff930f21753ec3b6225a0b0ed20bf1bf552ab64a6d6c40351d218f7"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginGetCredentialRequest$Companion.class",
+          "bytes": 2188,
+          "sha256": "c4e7bb50f190ac3c0b6a33bbdc581d736c26646f2dd771930c3a563de4236566"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginGetCredentialRequest.class",
+          "bytes": 3261,
+          "sha256": "bf76dca5bfc31da6286080ed39d9c5a88a3574569c7eced2c52af75d973b5463"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginGetCredentialResponse$Api34Impl.class",
+          "bytes": 2991,
+          "sha256": "a7c1450fc8e58308d9399443faa6715e5c02c8a3ab51501a49c54c0c38a4b4d3"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginGetCredentialResponse$Builder.class",
+          "bytes": 4695,
+          "sha256": "b578d87b745dffa222694c8d363b0f01bf44a82eb3a22d98c7eabaac0a960e02"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginGetCredentialResponse$Companion.class",
+          "bytes": 2188,
+          "sha256": "e34f269c90aef6448112f287d71a8d86cbca739e2611d8e9acfd91a4a16c8db1"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginGetCredentialResponse.class",
+          "bytes": 4279,
+          "sha256": "a0902264b5f3d35b30bd3975f6563b8557b12fe9ea7bb6a2aa32a37326c1e4cd"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginGetCustomCredentialOption$Companion.class",
+          "bytes": 2056,
+          "sha256": "a0de499a32183d6ca6dc89199f75000632e1a8bfaff7442796b080d7b30ca313"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginGetCustomCredentialOption.class",
+          "bytes": 3182,
+          "sha256": "61772b7aac1d3594534ab3025926983050264bf1fa7a895fdebd2e30157d23fd"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginGetPasswordOption$Companion.class",
+          "bytes": 2475,
+          "sha256": "923a13e98dc478a1b95f4d0cda3625a44244e22ab94c86e256353b5147ee9d04"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginGetPasswordOption.class",
+          "bytes": 2335,
+          "sha256": "6d85192b3f15bfa6048d8f1a406ec2701d529f37814c80cdce5e3d901271a28f"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginGetPublicKeyCredentialOption$Companion.class",
+          "bytes": 2741,
+          "sha256": "325e643bb2c02db2f3b4d8e2c6f66780259621a2c5e740e9fb1d449059bfdf40"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/BeginGetPublicKeyCredentialOption.class",
+          "bytes": 4265,
+          "sha256": "4c76817e532ab8cda60b1d7b4627d20f17de89e3986ad7c9b25be88d8ed1a341"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CallingAppInfo$Companion.class",
+          "bytes": 885,
+          "sha256": "a7b902da88d8605bda40b12651c49c53a3c9b9da1619c20ab3b4501d73707185"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CallingAppInfo$SignatureVerifierApi28$convertToFingerprints$1.class",
+          "bytes": 2085,
+          "sha256": "5e5b53a2ed06713a0e6d08c9d3ab86ebe974446baa8b80292a7d787490683207"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CallingAppInfo$SignatureVerifierApi28.class",
+          "bytes": 3994,
+          "sha256": "7f1cdec62ba52ad368e99b6d911156cdf3abae7a1aa3ecdb11f08e877f531c19"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CallingAppInfo.class",
+          "bytes": 6165,
+          "sha256": "a3dfe01d676a5184838c755317d7948d73371463f0ba104ad30340ea9bbfd8e2"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CreateEntry$Api28Impl.class",
+          "bytes": 10875,
+          "sha256": "9643b2deec2386b2f373df000c6dff4536fd8845b4bd9e5b086dc05abed2e85d"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CreateEntry$Builder.class",
+          "bytes": 4518,
+          "sha256": "bd23e9c7368ba00b3232ce492eaad40d2493758e756381b4a2bb3bf5a78f1f70"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CreateEntry$Companion.class",
+          "bytes": 2840,
+          "sha256": "b043dfbe9dd54d79c9c6aa0e31a87d166f0de8eff95c41bb168def1f094c9759"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CreateEntry.class",
+          "bytes": 8676,
+          "sha256": "76f391eee7619e831d893851c7e46f98219832c2d3be810dba0316d2cbd9323a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CredentialEntry$Companion.class",
+          "bytes": 3821,
+          "sha256": "1e5818937bef394a725755176e4eafdcc6a6d3bcd76c95cbfd22543fba757b68"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CredentialEntry.class",
+          "bytes": 2576,
+          "sha256": "31279055554e991e5658d7ee45047181a735380da7a326e980dd12b883fea147"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CredentialProviderService$onBeginCreateCredential$outcome$1.class",
+          "bytes": 3396,
+          "sha256": "b72ca1c9d9ef9b1aac4e48931ce76fc11e502cf535f636724b89e1d3f53ae70b"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CredentialProviderService$onBeginGetCredential$outcome$1.class",
+          "bytes": 3314,
+          "sha256": "00f80f17d4effaac764439d94b883d8148d1246bbacf8926f6388b0a8f096c20"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CredentialProviderService$onClearCredentialState$outcome$1.class",
+          "bytes": 2720,
+          "sha256": "4317f7a1df5d6de09449965b756eed42f68e0706fd4481da19af83fda721a1d9"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CredentialProviderService.class",
+          "bytes": 9804,
+          "sha256": "385c448acf2667b7b1bf4fc2b27f1b23dac2eb83ca491470928ed8bc525a4e26"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CustomCredentialEntry$Api28Impl.class",
+          "bytes": 9946,
+          "sha256": "3a9fe329c32c2971217c381f99d43373fd2616011141bce001b73956af215b9f"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CustomCredentialEntry$Builder.class",
+          "bytes": 4359,
+          "sha256": "c1aa91c4aff53ae357fc222f26d0db9dbaf1e5166cdc7114b7dcbb1b68b4aa05"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CustomCredentialEntry$Companion.class",
+          "bytes": 2979,
+          "sha256": "44a4145c86d59df0650b5cfa7a9328dec9a5749e2f97601314c27b9211ea2c00"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/CustomCredentialEntry.class",
+          "bytes": 9444,
+          "sha256": "3d98a25fa025ca8035dbc08433d23bb422abba21b9914928db8ad3cdc4db81dd"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/IntentHandlerConverters.class",
+          "bytes": 4153,
+          "sha256": "8a4cbab1e1496bf5ab0b3db6e72f9a7b58e7b5f6f8388f5554d6acd663df8cf1"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/PasswordCredentialEntry$Api28Impl.class",
+          "bytes": 10064,
+          "sha256": "7d55c2e0233a7db8ae0fa5d858bc5c5df06ad14a455a461ee64dc80a52ee0f37"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/PasswordCredentialEntry$Builder.class",
+          "bytes": 4368,
+          "sha256": "51903263255199333815c3ae9263a38850e118dec2e6d24a98973531c3f2b131"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/PasswordCredentialEntry$Companion.class",
+          "bytes": 2931,
+          "sha256": "c90488f86cefc3c5f6e1a4d2e674483855c16d7189322e553aa85f831b09ae0a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/PasswordCredentialEntry.class",
+          "bytes": 9261,
+          "sha256": "50ea0e1bce22fe5d58a9499452992cefdc04bb0eb9ebf5b27db82dc298135c98"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/PendingIntentHandler$Companion$retrieveProviderGetCredentialRequest$1.class",
+          "bytes": 2624,
+          "sha256": "99881589b7aaa83b7450d1f6de7cc5f1d8d028e14981e3d8fa7a44e43b01f3ea"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/PendingIntentHandler$Companion.class",
+          "bytes": 11337,
+          "sha256": "95dfd0c2195059909127572c12cc4ba4a93a2be92c4bdc8b0921c92554c4fc8a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/PendingIntentHandler.class",
+          "bytes": 3323,
+          "sha256": "082b3d153a1b6af42be388990d7e01883b1d95d37eafe7a081791d4efd178669"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/ProviderClearCredentialStateRequest.class",
+          "bytes": 1200,
+          "sha256": "143df896329d8f72d51ab1499c5860465f3effc2baf47e26bf2eee74d8dbbc16"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/ProviderCreateCredentialRequest.class",
+          "bytes": 1564,
+          "sha256": "b678a76c2c87537382c75ed3e6c8bb2db2b01fdca555330addc6fcb03b159c5e"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/ProviderGetCredentialRequest$Companion.class",
+          "bytes": 2034,
+          "sha256": "3703be88bc766401598b3537192f1711c1fbeabc15d11ba5edecb13331863185"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/ProviderGetCredentialRequest.class",
+          "bytes": 2627,
+          "sha256": "14741e39b41523d0f4afe9b6942b30c8dbb8ab899feed6e5f69ea76ad168cd3d"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/PublicKeyCredentialEntry$Api28Impl.class",
+          "bytes": 10153,
+          "sha256": "13adad8c28575b53e1ccd8af9ef74c474b53d19be2bc9c8c09efd3f0a22efc6e"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/PublicKeyCredentialEntry$Builder.class",
+          "bytes": 4424,
+          "sha256": "18638ef50158e4be622a52018ee574b4ecabb0e472f9dc83e612f9b547f027db"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/PublicKeyCredentialEntry$Companion.class",
+          "bytes": 3003,
+          "sha256": "a66f9385e39db3dc92938e90db9c79975a84d7728517abe329c17a80936bc44e"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/PublicKeyCredentialEntry.class",
+          "bytes": 9572,
+          "sha256": "b8fd8f571b0174abd9a585ebc2a1d81cd3b7b499099be9ddd4e1c1ad652fdb84"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/RemoteEntry$Builder.class",
+          "bytes": 1262,
+          "sha256": "182f16a123997f8d3efd7d8cea0fe7731b2ad30936dfa78843246dc379257432"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/RemoteEntry$Companion.class",
+          "bytes": 5418,
+          "sha256": "6d28d10df72374459b0fa09220e01bf2d9bf68e8dd63826dc68bd290c15ccd88"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/RemoteEntry.class",
+          "bytes": 2575,
+          "sha256": "ec86aebe24a4438ca51fc25ac58e782ff50c014204ff9f7e1c28038ff26319c9"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginCreateCredentialUtil$Companion$convertToJetpackResponse$1.class",
+          "bytes": 2401,
+          "sha256": "23db5e81d0e3832363ac9febf0413681a0dc28b5e94bfec0135d72b74543b8aa"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginCreateCredentialUtil$Companion$convertToJetpackResponse$2.class",
+          "bytes": 2008,
+          "sha256": "b98045a13122f9564c06b89970ce16e38632d7f0786e7a2fafc413e580e2eb29"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginCreateCredentialUtil$Companion$convertToJetpackResponse$3.class",
+          "bytes": 1978,
+          "sha256": "044db0514b1dbea983c0658e3a76b246f64638c5f9c8eb246b4c17c2ad6071a6"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginCreateCredentialUtil$Companion.class",
+          "bytes": 13768,
+          "sha256": "a03c7387daafcdd40070999012e2fff87dda717f0e3a630422deb7c39e2a4f49"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginCreateCredentialUtil.class",
+          "bytes": 1474,
+          "sha256": "5381c14c2ee7ec451d5df843ae9286fa8debd453eb41c2ae825eac360758dfca"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginGetCredentialUtil$Companion$convertToFrameworkRequest$1.class",
+          "bytes": 2374,
+          "sha256": "7c3b02cefbf8fd14b076ebdc3c1583a61ee17d6ed9de06cbcbf1adc6fefbb811"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginGetCredentialUtil$Companion$convertToJetpackResponse$1.class",
+          "bytes": 2445,
+          "sha256": "1d55a7b4d054cadb2b56b52d52c5ec4d3b23a367e89c0f3771489a47fd1375e8"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginGetCredentialUtil$Companion$convertToJetpackResponse$2.class",
+          "bytes": 2003,
+          "sha256": "1af0daecc03b9e1af0b9e881ea023f12b406a97dcd582f3ad8f92e1828a1c06c"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginGetCredentialUtil$Companion$convertToJetpackResponse$3.class",
+          "bytes": 1981,
+          "sha256": "ee0f12242a2ec2fafd7bab8a49bdf267d02bd43c037b4d9a9870afca7cc531ac"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginGetCredentialUtil$Companion$convertToJetpackResponse$4.class",
+          "bytes": 2325,
+          "sha256": "4e3e5b5f2d93c188ce943497773e314490a9b3dde486af55243da6c5ae2759a3"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginGetCredentialUtil$Companion$convertToJetpackResponse$5.class",
+          "bytes": 1967,
+          "sha256": "a6ef165dfd0d83618935ca470ce399c7320ec7a5b92155cf397b3bb708c6c114"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginGetCredentialUtil$Companion$convertToJetpackResponse$6.class",
+          "bytes": 1927,
+          "sha256": "6399ff3789b81524bf06c7c5edd3fe2164c21fa7631ff00cd50f9321bdae94d7"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginGetCredentialUtil$Companion$convertToJetpackResponse$7.class",
+          "bytes": 2423,
+          "sha256": "1a25b36a762191570ebb6f5748b2dd29db0b2c25c74a9e00f340b3b4c6d413e2"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginGetCredentialUtil$Companion$convertToJetpackResponse$8.class",
+          "bytes": 2023,
+          "sha256": "91444d3d8f3242c780447e8e172dbf69c8e26be1afb6348f013cf8abbf769591"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginGetCredentialUtil$Companion$convertToJetpackResponse$9.class",
+          "bytes": 2011,
+          "sha256": "28b73e008ad3579cc8fc0809bbd7b0a0a153413d7444619117b7f69fdfb8a7d1"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginGetCredentialUtil$Companion.class",
+          "bytes": 19656,
+          "sha256": "6b989e73f31e0f693c61913e1996510c39d10652c157beb2c90ea97693e732d1"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/BeginGetCredentialUtil.class",
+          "bytes": 1650,
+          "sha256": "6abf9df6437560537adc58e1a30e6dd85f89ea1022a500717bc16ddc72920af9"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/ClearCredentialUtil$Companion.class",
+          "bytes": 2419,
+          "sha256": "892f519a566fe8a9d271e284109574cb017ed291c3b8bc231b49cdfc64ef85d7"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/ClearCredentialUtil.class",
+          "bytes": 1649,
+          "sha256": "c282af9232abfea1a9c54598394324f0b5e09a173d66b9285f15aa6d0f687649"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/PrivilegedApp$Companion.class",
+          "bytes": 3911,
+          "sha256": "1846e13a15a4bb5ab53dcb52c242742d48669f0d35a5b105a679f8bdd9a2d65e"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/PrivilegedApp.class",
+          "bytes": 4771,
+          "sha256": "d9cff6f07244ccef796780d5cfc1f5c7aa68c5973b7b0c853996e9c82de5e446"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/RequestValidationUtil$Companion.class",
+          "bytes": 1857,
+          "sha256": "4bc31dc470503d1af96e21afd2a80de488a99b2459859f69003fe4737efbf01a"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/provider/utils/RequestValidationUtil.class",
+          "bytes": 1415,
+          "sha256": "937af44ce9c9410408b216f67db656166ecec34578d35907e5d09b2024fbec57"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/AuthenticatorAssertionResponse.class",
+          "bytes": 5985,
+          "sha256": "96f6802ecd6cb933f3a74f8b263c0d2877e590be02edc7b1a813a6a1b2b33c77"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/AuthenticatorAttestationResponse.class",
+          "bytes": 6586,
+          "sha256": "859902b78e855af8df2b852d69dd320629372c82921a5d6539b6522084706695"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/AuthenticatorResponse.class",
+          "bytes": 1029,
+          "sha256": "7c21df6d69e2e74c36c1ac2f058ef289a8cf577a7c8b5a3e7433482aeb8cd42d"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/AuthenticatorSelectionCriteria.class",
+          "bytes": 4317,
+          "sha256": "737397f6a85ec13f4810c21a5ef49f653ff42f89ef213fb2d241f41e124c754b"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/Cbor$Arg.class",
+          "bytes": 2481,
+          "sha256": "d059c5fae9f3b24311c8f6a8a20dfc5caba3dccaf359eec1edfc88ea6124c4ec"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/Cbor$Item.class",
+          "bytes": 2792,
+          "sha256": "a59f609bf4abadeb4eee190eb4cb1b547160c76c167254458f679bd4b0080b59"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/Cbor.class",
+          "bytes": 9302,
+          "sha256": "a64fdbff2551704f7d9d7c3408ec8bfb126a773aca28cde12750c16d338a1ea1"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/FidoPublicKeyCredential.class",
+          "bytes": 2799,
+          "sha256": "954361226afd43d0f4b20208c47eb2183b53e5ecc9804f3ba3f7ab1580db2f37"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/PublicKeyCredentialCreationOptions.class",
+          "bytes": 7741,
+          "sha256": "03040b3c2bc70f6c97c2c1fe461f4816d36c122c816706223e9cfd675c2597b4"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/PublicKeyCredentialDescriptor.class",
+          "bytes": 4040,
+          "sha256": "b4bb98fe0e339ff428d15cd1a91a4d25bd6d076a109d39c3a040bdd24cd404f5"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/PublicKeyCredentialParameters.class",
+          "bytes": 3067,
+          "sha256": "209883cd8800ba1133129ec67b7ebc5f6cd16f8d60afe21503f567796f8b60e6"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/PublicKeyCredentialRequestOptions.class",
+          "bytes": 2841,
+          "sha256": "80007c58853df5bb44fdd391d4f058b72106d83c0c47803891316ec6f463c3be"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/PublicKeyCredentialRpEntity.class",
+          "bytes": 3061,
+          "sha256": "0216c60f6a3fff0751b4ef4fbca19b4a3de957efe8f211a08677bed14cf43992"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/PublicKeyCredentialUserEntity.class",
+          "bytes": 3593,
+          "sha256": "495461182a0397aed25bb511243584c54b4710baca90041367d022a12698b415"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/WebAuthnUtils$Companion.class",
+          "bytes": 2378,
+          "sha256": "ff17d12e6e7ca86fc16f2d1a49986e3afd250126f7b4dc632c911715853fcfea"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/WebAuthnUtils.class",
+          "bytes": 1131,
+          "sha256": "92b0c718d3c3c291bb23bfdabb4636344091fec6a4c7608526312136abc3eac7"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/WebAuthnUtilsApi28$Companion.class",
+          "bytes": 2410,
+          "sha256": "6ce0bf6311e99e070adae568c7e7be54b267b0b7f87797a2d71fde7a7622cbf0"
+        },
+        {
+          "path": "classes.jar!androidx/credentials/webauthn/WebAuthnUtilsApi28.class",
+          "bytes": 1206,
+          "sha256": "041f4ef1da35757d090421d5f59be37ef22f4f6edca3d0a13c5b5b5c078a636e"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/drawable-anydpi-v21/ic_other_sign_in.xml",
+          "bytes": 1459,
+          "sha256": "0be6ee588fa2a5ec4a4ef529ba9a6df9ee45a302e757337b9821f243cb4ca422"
+        },
+        {
+          "path": "res/drawable-anydpi-v21/ic_password.xml",
+          "bytes": 2193,
+          "sha256": "b1a92f31969771af47348bac24f2e9d2850f4756bc3c2e3f3c69c8f18f3e644b"
+        },
+        {
+          "path": "res/drawable-anydpi-v24/ic_passkey.xml",
+          "bytes": 1836,
+          "sha256": "05869eb204164e7eec228f674346cffa07705dd1e2f3a998bb8da83f60709036"
+        },
+        {
+          "path": "res/drawable-hdpi-v4/ic_other_sign_in.png",
+          "bytes": 410,
+          "sha256": "6f8b8f0515a5f8594b165b96487d938f23a42c9f59ba66239d08d5f64896d2bd"
+        },
+        {
+          "path": "res/drawable-hdpi-v4/ic_passkey.png",
+          "bytes": 763,
+          "sha256": "ecb2c876f668551d20d5756fe87a1ad331118a61ffbb5455a17d31a44140b708"
+        },
+        {
+          "path": "res/drawable-hdpi-v4/ic_password.png",
+          "bytes": 446,
+          "sha256": "7d427a557cc50ada63a61bd25a33655a9f25af149a3c1cdd7d80a99ddcc3e8cf"
+        },
+        {
+          "path": "res/drawable-ldpi-v4/ic_other_sign_in.png",
+          "bytes": 246,
+          "sha256": "ca1384e6cf9f6978362992443a4e7314aef2bbe307c687221ac5d570c75d6bdc"
+        },
+        {
+          "path": "res/drawable-ldpi-v4/ic_passkey.png",
+          "bytes": 420,
+          "sha256": "b1fc7b8f95c33640fdd2a030d20ddf7398d9b495ea9ec189ae256714fd2e193e"
+        },
+        {
+          "path": "res/drawable-ldpi-v4/ic_password.png",
+          "bytes": 315,
+          "sha256": "e168c687e2ed8d1ca47c606eab66e50f4efd8554526bab46c0134c9aa023c258"
+        },
+        {
+          "path": "res/drawable-mdpi-v4/ic_other_sign_in.png",
+          "bytes": 262,
+          "sha256": "d566245d2a843aa80eca12b7d3915695a52daa7907a2ac6d492565cfde5f2a41"
+        },
+        {
+          "path": "res/drawable-mdpi-v4/ic_passkey.png",
+          "bytes": 506,
+          "sha256": "0db962fceda243eac4375c58a457d177ba50b72a1ca5f74a1bd2670da4503b45"
+        },
+        {
+          "path": "res/drawable-mdpi-v4/ic_password.png",
+          "bytes": 229,
+          "sha256": "c3d08964761c8d13d12c8b1efdb602e62bea01b67c9a9fdf1b2df9eb59b63304"
+        },
+        {
+          "path": "res/drawable-xhdpi-v4/ic_other_sign_in.png",
+          "bytes": 455,
+          "sha256": "9694c1aef0529e83f8f6c8fa66f6f1f4617fa59375303b45b267e2eb031b2a19"
+        },
+        {
+          "path": "res/drawable-xhdpi-v4/ic_passkey.png",
+          "bytes": 953,
+          "sha256": "c19d79a63930b9953bddda9b2f3d8c54dd7a4b085d7d38169d39ce4f63870620"
+        },
+        {
+          "path": "res/drawable-xhdpi-v4/ic_password.png",
+          "bytes": 370,
+          "sha256": "5adb2fd5156bdcaedab25b99369705f6c9a0749d716fd2d828b381a8bdca6fe6"
+        },
+        {
+          "path": "res/drawable-xxhdpi-v4/ic_other_sign_in.png",
+          "bytes": 739,
+          "sha256": "f27fc2389b4e75a907527534a0e0577105f2aae3906b73fd8f486cb5f0695c17"
+        },
+        {
+          "path": "res/drawable-xxhdpi-v4/ic_passkey.png",
+          "bytes": 1360,
+          "sha256": "24cb6175528733737553cc14aac12e2faa04d0ec67d98637815409094d315434"
+        },
+        {
+          "path": "res/drawable-xxhdpi-v4/ic_password.png",
+          "bytes": 621,
+          "sha256": "978a8d95c8d36de3d74b41d06a532c0c5be1c0d656df697deff86c2d0a9c4357"
+        },
+        {
+          "path": "res/drawable-xxxhdpi-v4/ic_other_sign_in.png",
+          "bytes": 1033,
+          "sha256": "2a744da1d001b4ea6abe1a0aa217d8d3af13244f10bdbf1efb55718b8f85fadc"
+        },
+        {
+          "path": "res/drawable-xxxhdpi-v4/ic_passkey.png",
+          "bytes": 1790,
+          "sha256": "4f9d2ba4f2a259878007cb3677acc452e7fe9ac81a303125506a955e9a636ed8"
+        },
+        {
+          "path": "res/drawable-xxxhdpi-v4/ic_password.png",
+          "bytes": 819,
+          "sha256": "c0a91988bc4288ad0f7a57d09f2bc9b04116f914f5b62d9a2bf1362de5949307"
+        },
+        {
+          "path": "res/values-af/values-af.xml",
+          "bytes": 297,
+          "sha256": "64638be5e050efdcc77486832afce0a006db9361c6dade626f5f34e155a37d77"
+        },
+        {
+          "path": "res/values-am/values-am.xml",
+          "bytes": 315,
+          "sha256": "d343f63b58f6a7ff285b4b6fd55e60112ee28fbb5d49dde05eb058025c6bc206"
+        },
+        {
+          "path": "res/values-ar/values-ar.xml",
+          "bytes": 318,
+          "sha256": "d03a3b2d6abea3a7547ec1a73561bb42f4fe6a6e331343bac2c93fc19cdbae86"
+        },
+        {
+          "path": "res/values-as/values-as.xml",
+          "bytes": 310,
+          "sha256": "01e0f9197190200cdd9768205565afd60d3ca35a7ada062179b6a1adfa2af51d"
+        },
+        {
+          "path": "res/values-az/values-az.xml",
+          "bytes": 293,
+          "sha256": "9023c8f37decbd15c7a34ba890121dfbf8c4135034761a4507c0276ca3929521"
+        },
+        {
+          "path": "res/values-b+sr+Latn/values-b+sr+Latn.xml",
+          "bytes": 295,
+          "sha256": "0c48c223d12e601a2be6f79100c70f500c4281adca583a5d5dace2f55ac6e3c5"
+        },
+        {
+          "path": "res/values-be/values-be.xml",
+          "bytes": 309,
+          "sha256": "8624d7c48ab53022f64eab53f24a697bc0a971d67a7862afd2578fccaf4339ce"
+        },
+        {
+          "path": "res/values-bg/values-bg.xml",
+          "bytes": 310,
+          "sha256": "5f7253a64f81a82a36127737100299ee7c90fa77304c660e592ec6b0b8a53d70"
+        },
+        {
+          "path": "res/values-bn/values-bn.xml",
+          "bytes": 319,
+          "sha256": "69a50754c48ce30b0d49817aba32f62b2d1984002100068256f68f4d9d158a8a"
+        },
+        {
+          "path": "res/values-bs/values-bs.xml",
+          "bytes": 297,
+          "sha256": "483a50d9f33f5863ac8187481ad2e2b6f871b25d6e4d64595e1724ac12366180"
+        },
+        {
+          "path": "res/values-ca/values-ca.xml",
+          "bytes": 299,
+          "sha256": "f6e42a35fef377df5fe21d70b42a255eddc2d0bddf5992e82d5e19d7cde9a3b2"
+        },
+        {
+          "path": "res/values-cs/values-cs.xml",
+          "bytes": 299,
+          "sha256": "7610e930be838106ab481f5a57569ee8411c7896c622665c6c27e0698eee0238"
+        },
+        {
+          "path": "res/values-da/values-da.xml",
+          "bytes": 298,
+          "sha256": "b438ccb11edbf20588635a58d7419512e4ec90ea48d1da3bfab4726422312251"
+        },
+        {
+          "path": "res/values-de/values-de.xml",
+          "bytes": 289,
+          "sha256": "c8a84c4e1fda7a297c576a6f20b151e2e5581a8d0331e27ce2593a7928e25923"
+        },
+        {
+          "path": "res/values-el/values-el.xml",
+          "bytes": 338,
+          "sha256": "578525417e578aced2cae549a31d083a7796170278ccf272191517ba9ea92a63"
+        },
+        {
+          "path": "res/values-en-rAU/values-en-rAU.xml",
+          "bytes": 289,
+          "sha256": "a760967f6458d5adfefcb69e460d3ec1984d526de23c2409633e090a6dd4b21c"
+        },
+        {
+          "path": "res/values-en-rCA/values-en-rCA.xml",
+          "bytes": 289,
+          "sha256": "a760967f6458d5adfefcb69e460d3ec1984d526de23c2409633e090a6dd4b21c"
+        },
+        {
+          "path": "res/values-en-rGB/values-en-rGB.xml",
+          "bytes": 289,
+          "sha256": "a760967f6458d5adfefcb69e460d3ec1984d526de23c2409633e090a6dd4b21c"
+        },
+        {
+          "path": "res/values-en-rIN/values-en-rIN.xml",
+          "bytes": 289,
+          "sha256": "a760967f6458d5adfefcb69e460d3ec1984d526de23c2409633e090a6dd4b21c"
+        },
+        {
+          "path": "res/values-en-rXC/values-en-rXC.xml",
+          "bytes": 904,
+          "sha256": "c84e578ea826e2ab074026f81c71172845afdb133fe922b25274bfa5f1b78e68"
+        },
+        {
+          "path": "res/values-es-rUS/values-es-rUS.xml",
+          "bytes": 300,
+          "sha256": "e8f098d4ef826265521e65a6e78db165ea2318562988f59393c4f9a910056ba5"
+        },
+        {
+          "path": "res/values-es/values-es.xml",
+          "bytes": 300,
+          "sha256": "e8f098d4ef826265521e65a6e78db165ea2318562988f59393c4f9a910056ba5"
+        },
+        {
+          "path": "res/values-et/values-et.xml",
+          "bytes": 292,
+          "sha256": "6bf18eeb493705777cb67d3493c50c2d078a557d24aba044c4928c9001029304"
+        },
+        {
+          "path": "res/values-eu/values-eu.xml",
+          "bytes": 296,
+          "sha256": "6ee823d034414db3656b5711aed449aff8225b0f670d57b1b33678d06f470530"
+        },
+        {
+          "path": "res/values-fa/values-fa.xml",
+          "bytes": 302,
+          "sha256": "17be7da724732f9e52747c67337f8f7d191ac78efa766630f0b61183ea51178f"
+        },
+        {
+          "path": "res/values-fi/values-fi.xml",
+          "bytes": 292,
+          "sha256": "886fb3c5a5407f31199518bae6ba40ae98f8b7b2c0aebe19d2327d1ad1e27738"
+        },
+        {
+          "path": "res/values-fr-rCA/values-fr-rCA.xml",
+          "bytes": 300,
+          "sha256": "ec3aa003c350f95eefa0be4d824d8b99583caa56aac928bca71b04fec1bdf3bd"
+        },
+        {
+          "path": "res/values-fr/values-fr.xml",
+          "bytes": 300,
+          "sha256": "ec3aa003c350f95eefa0be4d824d8b99583caa56aac928bca71b04fec1bdf3bd"
+        },
+        {
+          "path": "res/values-gl/values-gl.xml",
+          "bytes": 300,
+          "sha256": "724f9e3fec0031be6b9f5df169b7ec2c81466fd8f61b73596b3e35eb11dde4a6"
+        },
+        {
+          "path": "res/values-gu/values-gu.xml",
+          "bytes": 310,
+          "sha256": "69d8f7a2e59e6cc8d1606978b421be9248cdbcd7b9999ac5fdd6795099c000e7"
+        },
+        {
+          "path": "res/values-hi/values-hi.xml",
+          "bytes": 310,
+          "sha256": "b08c43bccc594981cd16d9e44f98ea0e01ff48f80b3934e9c33ad550f47d78af"
+        },
+        {
+          "path": "res/values-hr/values-hr.xml",
+          "bytes": 297,
+          "sha256": "3efe2d91f74fe54d6b5d4e74f116bec921a6eada503a1343f1057004ecdafd46"
+        },
+        {
+          "path": "res/values-hu/values-hu.xml",
+          "bytes": 297,
+          "sha256": "e4676ca4dde209b06e65d556ab33c7659419fd21161894dfc7eaeb36e71f73a1"
+        },
+        {
+          "path": "res/values-hy/values-hy.xml",
+          "bytes": 306,
+          "sha256": "15f6fdf2208b3445dab6d79d78ea9fb8f1116b52ad9701ebd0bbb5c0570b43e1"
+        },
+        {
+          "path": "res/values-in/values-in.xml",
+          "bytes": 290,
+          "sha256": "041c7960f28f4ec30055f95a165477adf5e73f44a4bc44f5b34a087fdd741c01"
+        },
+        {
+          "path": "res/values-is/values-is.xml",
+          "bytes": 300,
+          "sha256": "fd704d7145e3627c57ce7a5113cbb2fcd1e12a583868cd2d370e02ee54c7f023"
+        },
+        {
+          "path": "res/values-it/values-it.xml",
+          "bytes": 289,
+          "sha256": "a760967f6458d5adfefcb69e460d3ec1984d526de23c2409633e090a6dd4b21c"
+        },
+        {
+          "path": "res/values-iw/values-iw.xml",
+          "bytes": 301,
+          "sha256": "f7b9070b51f927752e45fc4831ed098d2066413f61d662bae372c4412dd57ba2"
+        },
+        {
+          "path": "res/values-ja/values-ja.xml",
+          "bytes": 301,
+          "sha256": "27ca431aee35aff3cf15dc84e063813b9e7e1abb4fa9da2123425db75adfa073"
+        },
+        {
+          "path": "res/values-ka/values-ka.xml",
+          "bytes": 338,
+          "sha256": "655fefa13607fc0b8fc2f76d92743ad4ccbe2eabc72da01695794a33786757e6"
+        },
+        {
+          "path": "res/values-kk/values-kk.xml",
+          "bytes": 310,
+          "sha256": "5d648ffa5d5e736e5df107cc653bbc0518238d16b0b914e319277dcf606def67"
+        },
+        {
+          "path": "res/values-km/values-km.xml",
+          "bytes": 340,
+          "sha256": "f7cc8a0828cbb60dee175086a1d8f30b7ed32fe6fb1eee158e90f0f9b2c2b84e"
+        },
+        {
+          "path": "res/values-kn/values-kn.xml",
+          "bytes": 325,
+          "sha256": "c0027e0e7424b9ca145898f58b6bc7368d62c5f85c1b0e565385c6461eb605c4"
+        },
+        {
+          "path": "res/values-ko/values-ko.xml",
+          "bytes": 295,
+          "sha256": "900ba5c813e140f8d53212a7530e762ba12ad7e9a9a684b02f4172a6c570030d"
+        },
+        {
+          "path": "res/values-ky/values-ky.xml",
+          "bytes": 317,
+          "sha256": "fe6defdf52952146e0f5ad81ad405fcb23019d194845f9125e70ee641e574a19"
+        },
+        {
+          "path": "res/values-lo/values-lo.xml",
+          "bytes": 325,
+          "sha256": "9e009719559b63b5ea1243c76effab04adbffbad5ed37c26fe48f2a7490bf286"
+        },
+        {
+          "path": "res/values-lt/values-lt.xml",
+          "bytes": 293,
+          "sha256": "cba5c4cbe2d7cf8c4a3738b160dd16f60a51b7aebfe8e6f496565ac6608b45b1"
+        },
+        {
+          "path": "res/values-lv/values-lv.xml",
+          "bytes": 299,
+          "sha256": "671182948548d20ee42ca541acfe07696e02892a58d7dc6ea0b97953cf378edc"
+        },
+        {
+          "path": "res/values-mk/values-mk.xml",
+          "bytes": 323,
+          "sha256": "da378391c7e33f1e276a5714bc03fb6af09a29acefb7f397b677308247acc6a5"
+        },
+        {
+          "path": "res/values-ml/values-ml.xml",
+          "bytes": 322,
+          "sha256": "b5072e0feabe60040849c0fa28960d2996d9483483fd01672312e132498f2864"
+        },
+        {
+          "path": "res/values-mn/values-mn.xml",
+          "bytes": 294,
+          "sha256": "c8481cbb969eb88afa0b55e4ca062e10aa9c0358f548a74292b3165150612570"
+        },
+        {
+          "path": "res/values-mr/values-mr.xml",
+          "bytes": 310,
+          "sha256": "b08c43bccc594981cd16d9e44f98ea0e01ff48f80b3934e9c33ad550f47d78af"
+        },
+        {
+          "path": "res/values-ms/values-ms.xml",
+          "bytes": 297,
+          "sha256": "d1276ea5dbb3342ed245af5af02d8f6eacf12b0340b66c645d74c6b1dcd31c44"
+        },
+        {
+          "path": "res/values-my/values-my.xml",
+          "bytes": 337,
+          "sha256": "60bc757bf41e7cc3ccd8268e4210ff8ec20a8a8ac2a4f7c17ac47722cf880760"
+        },
+        {
+          "path": "res/values-nb/values-nb.xml",
+          "bytes": 296,
+          "sha256": "4d432d3ab119a747905e586256d1ec9a80fa1a80dc454ddf7a4ee9a283fbf01f"
+        },
+        {
+          "path": "res/values-ne/values-ne.xml",
+          "bytes": 310,
+          "sha256": "b08c43bccc594981cd16d9e44f98ea0e01ff48f80b3934e9c33ad550f47d78af"
+        },
+        {
+          "path": "res/values-nl/values-nl.xml",
+          "bytes": 299,
+          "sha256": "e1bd2b5c28d7e5b5faaf69379b27be4ab9e02c00bd7adab7d7f4b50e42c2b695"
+        },
+        {
+          "path": "res/values-or/values-or.xml",
+          "bytes": 313,
+          "sha256": "4bfc3311edad2e840200fc27505860f97eaeeec105cdec5dc39587b78db6de0c"
+        },
+        {
+          "path": "res/values-pa/values-pa.xml",
+          "bytes": 307,
+          "sha256": "8c11ffeb877507b04f2c659fd5200af1553735d0d21fa4d2f04ce7fb4edca4a5"
+        },
+        {
+          "path": "res/values-pl/values-pl.xml",
+          "bytes": 285,
+          "sha256": "6ab022eb142102ff2f44c9ad0716257b82e1583117deb3e34232df1b070c54cb"
+        },
+        {
+          "path": "res/values-pt-rBR/values-pt-rBR.xml",
+          "bytes": 294,
+          "sha256": "efd1eb9417710516b724d39775314a12db1e510745932f4e5a0c025e02a8be4a"
+        },
+        {
+          "path": "res/values-pt-rPT/values-pt-rPT.xml",
+          "bytes": 302,
+          "sha256": "9b4ee3750ccbb9b89be361671954fe1b91c8b2f7070560f867fc0a73fa416c19"
+        },
+        {
+          "path": "res/values-pt/values-pt.xml",
+          "bytes": 294,
+          "sha256": "efd1eb9417710516b724d39775314a12db1e510745932f4e5a0c025e02a8be4a"
+        },
+        {
+          "path": "res/values-ro/values-ro.xml",
+          "bytes": 295,
+          "sha256": "e637aad9a1767274b4c675f68ced4e2cac0a4a4e0da78ab2138a51ad2a5a5d6a"
+        },
+        {
+          "path": "res/values-ru/values-ru.xml",
+          "bytes": 309,
+          "sha256": "1861dffdd45632237ea2332f12e0f332746f139e0c2dc364f32eaf64368fe079"
+        },
+        {
+          "path": "res/values-si/values-si.xml",
+          "bytes": 313,
+          "sha256": "22104ba13e30021379250750be5d415ad9cd716fe105aa083dea6e2bf7ce46d7"
+        },
+        {
+          "path": "res/values-sk/values-sk.xml",
+          "bytes": 299,
+          "sha256": "644960bcda6c66d4a394cbc429a6947c57fd9891357234951b90dc80bafefd7a"
+        },
+        {
+          "path": "res/values-sl/values-sl.xml",
+          "bytes": 295,
+          "sha256": "6c452c8ff60e0792de353797499d45c9d997214afc1e9aaf79f936e377b28789"
+        },
+        {
+          "path": "res/values-sq/values-sq.xml",
+          "bytes": 304,
+          "sha256": "5cb9e58679edd6fa906b298384c9f4467110079f7353ed9b7059baba4ffd5dac"
+        },
+        {
+          "path": "res/values-sr/values-sr.xml",
+          "bytes": 313,
+          "sha256": "5e4a73e1d58de9bddd396d0c395259f0beea7a9b9b115b66b9930395d5ee1b23"
+        },
+        {
+          "path": "res/values-sv/values-sv.xml",
+          "bytes": 289,
+          "sha256": "a63428e0fc860626013e4821721e6db628c541516a8cb157b608cd8058429300"
+        },
+        {
+          "path": "res/values-sw/values-sw.xml",
+          "bytes": 297,
+          "sha256": "a3a5b5307ab5077b3e837ccb3e35d083e561ecb5f4434314028ed2f692486e6b"
+        },
+        {
+          "path": "res/values-ta/values-ta.xml",
+          "bytes": 334,
+          "sha256": "b139f20a4f91a366b70a98f4d33020730fc9204d9629152e28f8d6c0cf7ad458"
+        },
+        {
+          "path": "res/values-te/values-te.xml",
+          "bytes": 323,
+          "sha256": "b759ee40b694c9fc61e63051feecb3026364a9be2d083a7b988eed8a0a36500b"
+        },
+        {
+          "path": "res/values-th/values-th.xml",
+          "bytes": 319,
+          "sha256": "d4e7b5c7dc9473bf81ebf8c4e17dc2d66231eede3a4846f79e5eb73de4a61887"
+        },
+        {
+          "path": "res/values-tl/values-tl.xml",
+          "bytes": 289,
+          "sha256": "a760967f6458d5adfefcb69e460d3ec1984d526de23c2409633e090a6dd4b21c"
+        },
+        {
+          "path": "res/values-tr/values-tr.xml",
+          "bytes": 296,
+          "sha256": "6c5384ec85efc15f57969a04728280d66627c39ec52158bd5e8de1caf3caa6cb"
+        },
+        {
+          "path": "res/values-uk/values-uk.xml",
+          "bytes": 309,
+          "sha256": "8624d7c48ab53022f64eab53f24a697bc0a971d67a7862afd2578fccaf4339ce"
+        },
+        {
+          "path": "res/values-ur/values-ur.xml",
+          "bytes": 298,
+          "sha256": "228cff0a4ef6ac2f7ec84cdc5880a4f2a5b1aafa208e6109e8e17fbe4d69e305"
+        },
+        {
+          "path": "res/values-uz/values-uz.xml",
+          "bytes": 282,
+          "sha256": "4e3bd93b54b99d710718201c12ccef986ab20711c77e13bf7248c1e548df4572"
+        },
+        {
+          "path": "res/values-vi/values-vi.xml",
+          "bytes": 302,
+          "sha256": "9b170b9580c1c9f6d314c7dc477b021bef77ac138f0659898bdfe8cc2f957170"
+        },
+        {
+          "path": "res/values-zh-rCN/values-zh-rCN.xml",
+          "bytes": 292,
+          "sha256": "d539250470fee3b1b2751c1d1486214c17def4a23dfab06b84d92d55df719dd6"
+        },
+        {
+          "path": "res/values-zh-rHK/values-zh-rHK.xml",
+          "bytes": 286,
+          "sha256": "a512fa29c626bdaaa710a05410b5b7c81267534f33a08621718c59b92a6c0981"
+        },
+        {
+          "path": "res/values-zh-rTW/values-zh-rTW.xml",
+          "bytes": 292,
+          "sha256": "405783af645e5f8604ef57348f604da10dc0beb5c4ca9f8d5fd88ef63f24ed05"
+        },
+        {
+          "path": "res/values-zu/values-zu.xml",
+          "bytes": 300,
+          "sha256": "b12227e9ce7d039feb007ab2ebf7f30c06636922f24d9f2ca3a0f4b4099efb21"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 229,
+          "sha256": "5b1083160efe768943f3d964320597178418c396fd385b39138a29a93478433a"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [
+        {
+          "path": "res/drawable-hdpi-v4/ic_other_sign_in.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-hdpi-v4/ic_passkey.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-hdpi-v4/ic_password.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-ldpi-v4/ic_other_sign_in.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-ldpi-v4/ic_passkey.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-ldpi-v4/ic_password.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-mdpi-v4/ic_other_sign_in.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-mdpi-v4/ic_passkey.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-mdpi-v4/ic_password.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-xhdpi-v4/ic_other_sign_in.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-xhdpi-v4/ic_passkey.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-xhdpi-v4/ic_password.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-xxhdpi-v4/ic_other_sign_in.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-xxhdpi-v4/ic_passkey.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-xxhdpi-v4/ic_password.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-xxxhdpi-v4/ic_other_sign_in.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-xxxhdpi-v4/ic_passkey.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        },
+        {
+          "path": "res/drawable-xxxhdpi-v4/ic_password.png",
+          "reason": "Binary resource has no exact source/licence mapping in this review"
+        }
+      ],
+      "lineage": []
+    }
+  }
+}

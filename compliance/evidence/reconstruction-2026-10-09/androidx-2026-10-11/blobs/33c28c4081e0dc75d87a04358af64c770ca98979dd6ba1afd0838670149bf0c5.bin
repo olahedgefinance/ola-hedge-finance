@@ -1,0 +1,1833 @@
+{
+  "archives": {
+    "glance-1.0.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/glance/Applier.kt",
+          "bytes": 2342,
+          "sha256": "b50cbf099495265c7cb9d404885f383e11cb2d8b60989153f0703ab2d15ecb74"
+        },
+        {
+          "path": "androidx/glance/Background.kt",
+          "bytes": 3012,
+          "sha256": "0f70276edda0363c390101ae8cc09792de62c4277374c51ee4bd1ba216abe5c5"
+        },
+        {
+          "path": "androidx/glance/Button.kt",
+          "bytes": 7516,
+          "sha256": "1eb856852416097dd365af859bd301450413db3193fd3b4a36d13224da5e439c"
+        },
+        {
+          "path": "androidx/glance/CompositionLocals.kt",
+          "bytes": 3037,
+          "sha256": "10af9af1684009727e085bc7777a2723a7028434542f6bba0d1575d8db6b9eb9"
+        },
+        {
+          "path": "androidx/glance/Emittables.kt",
+          "bytes": 1452,
+          "sha256": "3ee4fa05b67cc88c64184a5ab159e3dd7a84f00a9b50ecb293e98474e4988dcf"
+        },
+        {
+          "path": "androidx/glance/ExperimentalGlanceApi.kt",
+          "bytes": 802,
+          "sha256": "bc402b5716e17c628c300c56112f8a977c68b8b86802ee1decd9b4124a38d85b"
+        },
+        {
+          "path": "androidx/glance/GlanceComposable.kt",
+          "bytes": 1415,
+          "sha256": "a8f958d0de412f7bd1a749f0bce556173119585004e8d271d05512262e975526"
+        },
+        {
+          "path": "androidx/glance/GlanceId.kt",
+          "bytes": 713,
+          "sha256": "579ab16cd6ccb0c64b894c1cc9b3b1f251b2c56834d7304f36df2a0aece72d14"
+        },
+        {
+          "path": "androidx/glance/GlanceModifier.kt",
+          "bytes": 5528,
+          "sha256": "d26261c2d7b666a3e14d05b54862c6c119fbd6995e0135d13025169bf281d324"
+        },
+        {
+          "path": "androidx/glance/GlanceNode.kt",
+          "bytes": 1460,
+          "sha256": "891f01c0d2d89cb9671aac385e970175d7e9588b58bccb8fa8234b28c5548585"
+        },
+        {
+          "path": "androidx/glance/GlanceTheme.kt",
+          "bytes": 1531,
+          "sha256": "2ce5526f4ead36df56cc668e7d0996e8dac0c5c9cb730993049297b91e072d84"
+        },
+        {
+          "path": "androidx/glance/Image.kt",
+          "bytes": 6175,
+          "sha256": "0ff60e31b8514db3e917789c1f8c961b019ea739f700ffdbf445357eb1792e54"
+        },
+        {
+          "path": "androidx/glance/Utils.kt",
+          "bytes": 1525,
+          "sha256": "e3ca98e3b5e26cd4e9ced29fa6000376ee86d4e4e8033a11fd7ed5f8ca549b71"
+        },
+        {
+          "path": "androidx/glance/Visibility.kt",
+          "bytes": 1371,
+          "sha256": "0d589a426a47aad0078a06c1030651dd5200004e678b36d9798694a54c548ca5"
+        },
+        {
+          "path": "androidx/glance/action/Action.kt",
+          "bytes": 2305,
+          "sha256": "b6d017dc32bb27628cd021762e307e068a3d3fca4ec8f5e9a363b6912bc8d607"
+        },
+        {
+          "path": "androidx/glance/action/ActionParameters.kt",
+          "bytes": 7293,
+          "sha256": "ce6a7cd9de9813c3f781fd5bee5b70f104e4b15fb6b799c29a60d517e75c8bf0"
+        },
+        {
+          "path": "androidx/glance/action/LambdaAction.kt",
+          "bytes": 1568,
+          "sha256": "b24510fcb9beb996655f1c19ead402511b56e3a2da8f124265795778b7635fb5"
+        },
+        {
+          "path": "androidx/glance/action/StartActivityAction.kt",
+          "bytes": 5115,
+          "sha256": "7406f95345dc3b06f46600f060d7ec18edcdf6c8dcdfb97bc557856d9c7ca01d"
+        },
+        {
+          "path": "androidx/glance/color/ColorProviders.kt",
+          "bytes": 12209,
+          "sha256": "b34791696bfe54446d9646ac69a0950d6495af92c4b051e876c8a1570f5beb58"
+        },
+        {
+          "path": "androidx/glance/color/DayNightColorProviders.kt",
+          "bytes": 1560,
+          "sha256": "56cfcb250b28cd44c5e71a2762a294ab831e5e5ca1760524b57c6d38b4090063"
+        },
+        {
+          "path": "androidx/glance/layout/Alignment.kt",
+          "bytes": 3547,
+          "sha256": "a97d119beeb61ae0bbe8c8fb43931de51948e38b9aa8af7bcd0bbd588fcf7bec"
+        },
+        {
+          "path": "androidx/glance/layout/Box.kt",
+          "bytes": 2678,
+          "sha256": "04f328c3608e300cdcc1cb291c45692bb4845d7227eba92f5270c61eee1d3cdb"
+        },
+        {
+          "path": "androidx/glance/layout/Column.kt",
+          "bytes": 3961,
+          "sha256": "e4eef526e33fa03c4f0e17f24c91fec18317586c4826c69a96eb8e231c9dbaf5"
+        },
+        {
+          "path": "androidx/glance/layout/ContentScale.kt",
+          "bytes": 1752,
+          "sha256": "0215dc5053c99570541dc449a45bcc25dadd6c230cecf8cd74377f226afdad37"
+        },
+        {
+          "path": "androidx/glance/layout/Padding.kt",
+          "bytes": 8609,
+          "sha256": "d86cbd85c81dbae2c57cae804fd7b930e3059edd2570dcfa197ea5fec58cd262"
+        },
+        {
+          "path": "androidx/glance/layout/Row.kt",
+          "bytes": 3918,
+          "sha256": "a4c335a976112f2b9ee656f6429728ab6871a71635c6db4a9bece1350370d336"
+        },
+        {
+          "path": "androidx/glance/layout/SizeModifiers.kt",
+          "bytes": 3928,
+          "sha256": "2418a6f02353e239b21c2eed56b6ad54b2545d61f05d5b83164de45d3d578b52"
+        },
+        {
+          "path": "androidx/glance/layout/Spacer.kt",
+          "bytes": 1614,
+          "sha256": "80bb0c564a1be38ed69217c18174a7d3be07c6904330b08da155bf4571a69c68"
+        },
+        {
+          "path": "androidx/glance/semantics/SemanticsModifier.kt",
+          "bytes": 1179,
+          "sha256": "7b1cca1ffd854eb965f5ea410829cefe4a05a9d251a05f26709c51d7f8d77fd3"
+        },
+        {
+          "path": "androidx/glance/semantics/SemanticsProperties.kt",
+          "bytes": 3935,
+          "sha256": "dce5d4028b7f584d355bc5e0d9f30206405f255d8a5395e094a1f8e9993ac734"
+        },
+        {
+          "path": "androidx/glance/session/GlobalSnapshotManager.kt",
+          "bytes": 2479,
+          "sha256": "ca35c60aa8b79ac6026e8be026ef49dca80d6d44adb2ee44a4580f2227990d23"
+        },
+        {
+          "path": "androidx/glance/session/IdleEventBroadcastReceiver.kt",
+          "bytes": 3046,
+          "sha256": "67b8876f7c7a9ff4771e647379f1d61d7091dcfd1e186238f1ae462d552cc7ef"
+        },
+        {
+          "path": "androidx/glance/session/InteractiveFrameClock.kt",
+          "bytes": 5410,
+          "sha256": "129cc6693d621a457d2d86f22664b178e67a2629a1880d22a776c7b8e724ecba"
+        },
+        {
+          "path": "androidx/glance/session/Session.kt",
+          "bytes": 3066,
+          "sha256": "9e34291310839f89d1181fec0450eddee88766cb1fb700be25c1581f3bda918d"
+        },
+        {
+          "path": "androidx/glance/session/SessionManager.kt",
+          "bytes": 4248,
+          "sha256": "389fe9e94d14257bea2b27067594a0cf2f89609fad96ae2c80a9e10fe4fea04d"
+        },
+        {
+          "path": "androidx/glance/session/SessionWorker.kt",
+          "bytes": 7540,
+          "sha256": "9f55f58e2479a43d0f8d715221247cd75806c74740d85de67947780899a444ce"
+        },
+        {
+          "path": "androidx/glance/session/TimerScope.kt",
+          "bytes": 5372,
+          "sha256": "04d409043a4d3dcb581e98efd51d2442aacf91d27358e9f71f526ba81ed6bc57"
+        },
+        {
+          "path": "androidx/glance/state/GlanceStateDefinition.kt",
+          "bytes": 6217,
+          "sha256": "d2bbd62c9c3a7c6a41c887b8ff4ba0134738b366c9aaf7befc06213cc90782c7"
+        },
+        {
+          "path": "androidx/glance/text/FontFamily.kt",
+          "bytes": 1524,
+          "sha256": "d2b10d64a11b4fc8d56203dc8bfd6073cca566dd939665b1b411b07256b3432c"
+        },
+        {
+          "path": "androidx/glance/text/FontStyle.kt",
+          "bytes": 1306,
+          "sha256": "d3a5dc188921a3fb4421f334d842a43a8c43d6a1c85f361d7de9f0bbd96402d3"
+        },
+        {
+          "path": "androidx/glance/text/FontWeight.kt",
+          "bytes": 1000,
+          "sha256": "084e09c568584e1cb947b808ad951c9d495faa3f0ea162fe5f997afcf5f94316"
+        },
+        {
+          "path": "androidx/glance/text/Text.kt",
+          "bytes": 2565,
+          "sha256": "0432c101a5911fd8c6a862c71532c2d5ac0412ef6b1ff1306096556d77e0b8b5"
+        },
+        {
+          "path": "androidx/glance/text/TextAlign.kt",
+          "bytes": 2087,
+          "sha256": "f599d7532390b7abec2c5edcb75b6a710a7dbf10360f0eb5856066aebfe833c7"
+        },
+        {
+          "path": "androidx/glance/text/TextDecoration.kt",
+          "bytes": 2656,
+          "sha256": "5de777dc78a5f4a45cdc3f7b9141c9da1b6770179f194d06c5b335a072886d05"
+        },
+        {
+          "path": "androidx/glance/text/TextStyle.kt",
+          "bytes": 3860,
+          "sha256": "5e7f7f2c78a5aad498ef0a60a9400739cec704ec333bc11b39971358623650c5"
+        },
+        {
+          "path": "androidx/glance/unit/ColorProvider.kt",
+          "bytes": 2577,
+          "sha256": "2eb810cbaee2a6c06d4e3e56856c6fdad00554fc4072b9f16b5c4c45b224f6b6"
+        },
+        {
+          "path": "androidx/glance/unit/Dimension.kt",
+          "bytes": 1268,
+          "sha256": "c9180faaecfd08a42646b15369a5fff1e5d8e090d109345024e404dccd91de43"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/glance/Applier.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/Background.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/Button.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/CompositionLocals.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/Emittables.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/ExperimentalGlanceApi.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/GlanceComposable.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/GlanceId.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/GlanceModifier.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/GlanceNode.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/GlanceTheme.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/Image.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/Utils.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/Visibility.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/action/Action.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/action/ActionParameters.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/action/LambdaAction.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/action/StartActivityAction.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/color/ColorProviders.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/color/DayNightColorProviders.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/layout/Alignment.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/layout/Box.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/layout/Column.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/layout/ContentScale.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/layout/Padding.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/layout/Row.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/layout/SizeModifiers.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/layout/Spacer.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/semantics/SemanticsModifier.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/semantics/SemanticsProperties.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/session/GlobalSnapshotManager.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/session/IdleEventBroadcastReceiver.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/session/InteractiveFrameClock.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/session/Session.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/session/SessionManager.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/session/SessionWorker.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/session/TimerScope.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/state/GlanceStateDefinition.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/text/FontFamily.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/text/FontStyle.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/text/FontWeight.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/text/Text.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/text/TextAlign.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/text/TextDecoration.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/text/TextStyle.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/unit/ColorProvider.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/glance/unit/Dimension.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "glance-1.0.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 197,
+          "sha256": "35da23d7426b9f0e8f695b547b82f39cf76f899b1121c66ea14945cd99a1a39f"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 122,
+          "sha256": "4e14b649f4ca949fd98b35bdd96825047b92e43bb71e08ce3a4fbeadb8ef6fa8"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 1025,
+          "sha256": "2b170a5d7cc877e18c21c92084ddef54e5d92f0b00fcbab5459ac80c18406c7a"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 357299,
+          "sha256": "04add0f6d63c2a76ac18223c667ee4e0e12fff2eac6bee98aa7e5add9c2421bb"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.glance_glance.version",
+          "bytes": 6,
+          "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        },
+        {
+          "path": "classes.jar!META-INF/glance_release.kotlin_module",
+          "bytes": 661,
+          "sha256": "ef8fe928f6b5828f91f656456f9c8eb2fe03121420a99e373cb5ac443b8ab30b"
+        },
+        {
+          "path": "classes.jar!androidx/glance/AndroidResourceImageProvider.class",
+          "bytes": 1699,
+          "sha256": "6d85be7ce9decf2b39984a77c3105372330297638aad2120bd2fcc81206c8eaf"
+        },
+        {
+          "path": "classes.jar!androidx/glance/Applier.class",
+          "bytes": 4180,
+          "sha256": "1fd94e8e78a1a0650fe204c017e7ae77fe9151cbfd7a24f5652860d0fdadc35e"
+        },
+        {
+          "path": "classes.jar!androidx/glance/BackgroundKt.class",
+          "bytes": 2897,
+          "sha256": "ff2cf2577cab889874ea862bc4c40ea2d3756c6a7f605b3fd07a86b3f70b6ded"
+        },
+        {
+          "path": "classes.jar!androidx/glance/BackgroundModifier.class",
+          "bytes": 4026,
+          "sha256": "8443c4de3a98c41f310f1864010a76df7cd664af2720635263f1ec4b5d717e5e"
+        },
+        {
+          "path": "classes.jar!androidx/glance/BitmapImageProvider.class",
+          "bytes": 1835,
+          "sha256": "79012a8f810e4f3f2e966ed48e2ed4649e28aa42f0ed8ad690fa15eb26f1751b"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ButtonColors.class",
+          "bytes": 2179,
+          "sha256": "bed01484209cff8a8bcd39836c3bacdca20f9c476a3e16f8948b90899c5251f0"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ButtonDefaults.class",
+          "bytes": 2598,
+          "sha256": "09105695dd381df82ecefda703c9ff9e3f36fa49a8d0740422da25a8413a7c71"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ButtonKt$Button$1.class",
+          "bytes": 2240,
+          "sha256": "d0c056cd9036c49e3bd97b57aa847d755976988301816e0ad21523898ea0bf65"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ButtonKt$Button$2.class",
+          "bytes": 2478,
+          "sha256": "173f7724a24e318f51ca3a69dfa7aa480e6c099a4e183be3e056372443e47145"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ButtonKt$Button$3.class",
+          "bytes": 2577,
+          "sha256": "450e3d240c17f4b08aee042e8dfde714205915b992c3001e941877911d439f1a"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ButtonKt$ButtonElement$1.class",
+          "bytes": 1415,
+          "sha256": "30371fd94fee60ee771f542e2a3426415c131c60abfe3db81167edd97cb61e0b"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ButtonKt$ButtonElement$2$1.class",
+          "bytes": 1782,
+          "sha256": "440f868170f4422b52824ce80a199091567928b696616157849f5a1e3f47132d"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ButtonKt$ButtonElement$2$2.class",
+          "bytes": 1856,
+          "sha256": "2fa10fc4050b871f6df3ede886105af99d16471ffadb2df94a72cfddbd25bbec"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ButtonKt$ButtonElement$2$3.class",
+          "bytes": 1853,
+          "sha256": "db8d916f29242b6008643684b048a52efe70d74bb72b929347998d36fc6a70a5"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ButtonKt$ButtonElement$2$4.class",
+          "bytes": 1844,
+          "sha256": "7008b0255ef7a5aa025144ed4696c3fd66b619056376f33dcb53b140171e5557"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ButtonKt$ButtonElement$2$5.class",
+          "bytes": 1766,
+          "sha256": "ac29a36235b3c9f2f3cd999f480fcd1fb953e75f8a156001a931844d815621ae"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ButtonKt$ButtonElement$2$6.class",
+          "bytes": 1755,
+          "sha256": "bb3a5565aae5a83019fe0383a1890724dc7075d3d70eb2c804dafc02c162bedf"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ButtonKt$ButtonElement$3.class",
+          "bytes": 2261,
+          "sha256": "f09527ccd1952ba480179785b100065eb639d72f113a8dd5ea70b6e415513835"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ButtonKt.class",
+          "bytes": 16707,
+          "sha256": "ec699296469c0d1dcfb719fcc6fd4d576af9fbb38d4a88d92c70f8a9f3f4c76a"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ColorFilter$Companion.class",
+          "bytes": 1390,
+          "sha256": "4a376c072ff6dca31a7e7c6c3013186aad2e26ab3ba5edf08780c041ec258304"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ColorFilter.class",
+          "bytes": 1365,
+          "sha256": "6ace308b62c279bc35d6a1a5ca49ce23e3d5db768cdaca2652ef1b067f9663e1"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ColorFilterParams.class",
+          "bytes": 644,
+          "sha256": "0256f225b48b4165c27c71adeaec30eeebd1eaac20e049c1dd3b2c5ba9ab9b6b"
+        },
+        {
+          "path": "classes.jar!androidx/glance/CombinedGlanceModifier$toString$1.class",
+          "bytes": 2037,
+          "sha256": "0920ce394062043039781cc77a0c5cef514101ea89e0cfc87b809aac211fd2cb"
+        },
+        {
+          "path": "classes.jar!androidx/glance/CombinedGlanceModifier.class",
+          "bytes": 3707,
+          "sha256": "8442bb8fe65e178cce93746d7b2cbb955637a5eeba51245cb060fd089f9ff5c6"
+        },
+        {
+          "path": "classes.jar!androidx/glance/CompositionLocalsKt$LocalColors$1.class",
+          "bytes": 1381,
+          "sha256": "993c3c7994db75252e6155c8e0416f412440e5e698c2e9387381d565fd1d809b"
+        },
+        {
+          "path": "classes.jar!androidx/glance/CompositionLocalsKt$LocalContext$1.class",
+          "bytes": 1352,
+          "sha256": "d5c239cf090da0ea6a8f4fe7b5aa21e22016db50b49c06fe3e53558a371c9611"
+        },
+        {
+          "path": "classes.jar!androidx/glance/CompositionLocalsKt$LocalGlanceId$1.class",
+          "bytes": 1359,
+          "sha256": "49c17ca41db05f5876c4a934498fe6123d4e2e4e7a3fc9cf47bfd257b1041ef0"
+        },
+        {
+          "path": "classes.jar!androidx/glance/CompositionLocalsKt$LocalSize$1.class",
+          "bytes": 1378,
+          "sha256": "56523fca083407de41dba54ec206191f1be5b2c270ccb7ab4ef3afa4b78f6117"
+        },
+        {
+          "path": "classes.jar!androidx/glance/CompositionLocalsKt$LocalState$1.class",
+          "bytes": 1047,
+          "sha256": "d45b8ed49816c67e9efbf0b050881a87a7a051d9cfc385dea8ba395ea945ddce"
+        },
+        {
+          "path": "classes.jar!androidx/glance/CompositionLocalsKt.class",
+          "bytes": 6968,
+          "sha256": "e6a9fd6699839f51bb3fb9137df918c6d4510fc4d25d801c16a9be3f8a53f20b"
+        },
+        {
+          "path": "classes.jar!androidx/glance/Emittable.class",
+          "bytes": 1027,
+          "sha256": "9e836d241ee23235108bd92cf95155db384a39c01165a9c9f18d7fd5b2ce32f2"
+        },
+        {
+          "path": "classes.jar!androidx/glance/EmittableButton.class",
+          "bytes": 4278,
+          "sha256": "ff02772d9290b1d8e3f50051962a756132fcbf2d05504aaf438d5413073cdfd3"
+        },
+        {
+          "path": "classes.jar!androidx/glance/EmittableImage.class",
+          "bytes": 3960,
+          "sha256": "63b5b3ee958870b2825dc729d55da2f81fde68fac28bc244092d2303e7dd0fcd"
+        },
+        {
+          "path": "classes.jar!androidx/glance/EmittableLazyItemWithChildren.class",
+          "bytes": 1774,
+          "sha256": "2f00b602bce4f5475d31ffefab11355d6cc7a6cbd7de357cc8d121d3454c7aed"
+        },
+        {
+          "path": "classes.jar!androidx/glance/EmittableWithChildren.class",
+          "bytes": 2870,
+          "sha256": "e1cac2db24c144c58794e4d9274ef0f1fc50d7e6dcddd30498972f34fe299819"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ExperimentalGlanceApi.class",
+          "bytes": 768,
+          "sha256": "a2ee70932ff1066325d716e1ffbfc6691477e0fd6bf224200a3da9e85115b369"
+        },
+        {
+          "path": "classes.jar!androidx/glance/GlanceComposable.class",
+          "bytes": 1030,
+          "sha256": "f373b22811df1cbd101fcba7953247e97c08660dc86fbac82a1a013e5a67f2cf"
+        },
+        {
+          "path": "classes.jar!androidx/glance/GlanceId.class",
+          "bytes": 360,
+          "sha256": "3c82b24a240a07e5a8425b8aaa46f5f4be7cd7a43c25b0c22db30f6d6b96bdca"
+        },
+        {
+          "path": "classes.jar!androidx/glance/GlanceModifier$Companion.class",
+          "bytes": 2567,
+          "sha256": "eb139e3d6d9da35a8a45f0354e94fe6a30c565c11151f027ba6edf7ce2875410"
+        },
+        {
+          "path": "classes.jar!androidx/glance/GlanceModifier$DefaultImpls.class",
+          "bytes": 843,
+          "sha256": "d6fee3a78db24cfad0b738c70daab7f7d43a39dd181a0d388cfcf07a245a56f1"
+        },
+        {
+          "path": "classes.jar!androidx/glance/GlanceModifier$Element$DefaultImpls.class",
+          "bytes": 2388,
+          "sha256": "eab73cc9714782504ef74387e97d55bfae1014abf6f31d99e8e7d0ca56b8cf97"
+        },
+        {
+          "path": "classes.jar!androidx/glance/GlanceModifier$Element.class",
+          "bytes": 3196,
+          "sha256": "eca381ae15a053ce739f118f304e5f80b04f6374756edfe9aacab2bb58f0ca01"
+        },
+        {
+          "path": "classes.jar!androidx/glance/GlanceModifier.class",
+          "bytes": 2535,
+          "sha256": "eb107b13813c1ed3719069d849f1d9d01b03c9cf31fc656e589b42bcab3652f6"
+        },
+        {
+          "path": "classes.jar!androidx/glance/GlanceNodeKt$GlanceNode$$inlined$ComposeNode$1.class",
+          "bytes": 1569,
+          "sha256": "07af0e2e7cd89299c03058da36f368ef2c9587464b6446141f50bf8e6f052a10"
+        },
+        {
+          "path": "classes.jar!androidx/glance/GlanceNodeKt.class",
+          "bytes": 5170,
+          "sha256": "479ffad09ddbddf323d5f1b204e4dd6a4950850116c40d03e4756304617d55d8"
+        },
+        {
+          "path": "classes.jar!androidx/glance/GlanceTheme.class",
+          "bytes": 3060,
+          "sha256": "55d3aa6b4e51b28c2f44984b9a8274d222743b928048340035c49bcfc4476527"
+        },
+        {
+          "path": "classes.jar!androidx/glance/GlanceThemeKt$GlanceTheme$1.class",
+          "bytes": 2066,
+          "sha256": "33196c970ab619ae86506e4cf10b55c02949b78423817c01e268bea32e23871b"
+        },
+        {
+          "path": "classes.jar!androidx/glance/GlanceThemeKt.class",
+          "bytes": 4637,
+          "sha256": "fd12db465890a751a1e656077e488368f461c6c0a80d1125faa4831fe440aa93"
+        },
+        {
+          "path": "classes.jar!androidx/glance/IconImageProvider.class",
+          "bytes": 1778,
+          "sha256": "cdef703277d27c052b6e1252341a8d124f31c0273701edcdcb06a6eff4573088"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ImageKt$Image$1.class",
+          "bytes": 1358,
+          "sha256": "7f4f41aa8292009b19adae8f59163afc201cb34e45105a9261a36b7bb4a19290"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ImageKt$Image$2$1.class",
+          "bytes": 1793,
+          "sha256": "e950b753a159c86fbdf15df0d1499824af803a7c303d46111572592b25899990"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ImageKt$Image$2$2.class",
+          "bytes": 1798,
+          "sha256": "3fb69642a1db234cdd850699030343556b55e2dd6adca0d9b799dbab9ec9ee4b"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ImageKt$Image$2$3.class",
+          "bytes": 1811,
+          "sha256": "c90c0bb5f64ec360aadf5fc599f25349499cb7ecdd6e0a5f8821854d15da3535"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ImageKt$Image$2$4.class",
+          "bytes": 2046,
+          "sha256": "79cb867b30a7f823fe591af340f2a36e459c3f0b8aff7b346a3f95600bdf32ef"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ImageKt$Image$3.class",
+          "bytes": 2061,
+          "sha256": "d50e1972adad53b6f8752f700e84fe562028e520700786b0e665fe29d05d0627"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ImageKt$Image$finalModifier$1$1.class",
+          "bytes": 1829,
+          "sha256": "12f302f9c7f727eb6fee941d60736825c4980660daf0fcdf1386a20dbe10c6e9"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ImageKt$isDecorative$$inlined$findModifier$1.class",
+          "bytes": 2498,
+          "sha256": "204e1b07d3a2eec2a2ed35e0f4636d19f65f077965038d76e64cff7660426164"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ImageKt.class",
+          "bytes": 10466,
+          "sha256": "164011c54ce445a9a5f5c52cdf0212bedc7cc0790ad14ca7790ffaee9fb2f6c4"
+        },
+        {
+          "path": "classes.jar!androidx/glance/ImageProvider.class",
+          "bytes": 367,
+          "sha256": "351b878ce483fd11aec0c73d905da78c44b88bd3c2fcdaca5d144f5b04c3fd60"
+        },
+        {
+          "path": "classes.jar!androidx/glance/TintColorFilterParams.class",
+          "bytes": 1804,
+          "sha256": "98cbcbfca8ade10d95dae887027297f561627232ef636a6c67b0a85ace64ebef"
+        },
+        {
+          "path": "classes.jar!androidx/glance/UtilsKt$extractModifier$1.class",
+          "bytes": 2078,
+          "sha256": "d7c69c00d377bf4bbad347d5e85a7b558025bf61cf26320c30f43ed27750dbb5"
+        },
+        {
+          "path": "classes.jar!androidx/glance/UtilsKt$extractModifier$2.class",
+          "bytes": 2778,
+          "sha256": "b99cc1862508159b90ec36efcc480618ed47d470c63becaabdd2d811bd8c306c"
+        },
+        {
+          "path": "classes.jar!androidx/glance/UtilsKt$findModifier$1.class",
+          "bytes": 2243,
+          "sha256": "f623787b7001fd29d8f6a2c4da4cccf7ed6da0bd817a9444b473c6d40e3abaa9"
+        },
+        {
+          "path": "classes.jar!androidx/glance/UtilsKt.class",
+          "bytes": 2361,
+          "sha256": "a153105d09d27e03ccae5bf831272a9455af84881ea9666c2a4c998ed9849c4a"
+        },
+        {
+          "path": "classes.jar!androidx/glance/Visibility.class",
+          "bytes": 1373,
+          "sha256": "9a85f19212965901f076806837cdb6f05d735f678ebbb843b32ccbcff0842b6d"
+        },
+        {
+          "path": "classes.jar!androidx/glance/VisibilityKt.class",
+          "bytes": 1016,
+          "sha256": "4a0d3b471fe2d5ead2b75b454251ec7a837883872405b2b770f52c6586a53280"
+        },
+        {
+          "path": "classes.jar!androidx/glance/VisibilityModifier.class",
+          "bytes": 2752,
+          "sha256": "d714839817f1542de1c909883fc4339a8eeebdef2bcc94b13e799f0b7faa6144"
+        },
+        {
+          "path": "classes.jar!androidx/glance/action/Action.class",
+          "bytes": 368,
+          "sha256": "0ea5f8579ecd6ea1c278c1ed46621db776de0ba7dfa89dfc61e77e3992814094"
+        },
+        {
+          "path": "classes.jar!androidx/glance/action/ActionKt.class",
+          "bytes": 3351,
+          "sha256": "11ab63a0e1c66e671b65187b457086e994de06bc9442a803d9903ee24e2b1788"
+        },
+        {
+          "path": "classes.jar!androidx/glance/action/ActionModifier.class",
+          "bytes": 1844,
+          "sha256": "defc4e9131058a05f6e996e0754e668a41ccf5a0baf38375e63cbc4fa93b9f51"
+        },
+        {
+          "path": "classes.jar!androidx/glance/action/ActionParameters$Key.class",
+          "bytes": 2326,
+          "sha256": "b8879fa16d7d9567faff374d0be4046dd89c7b4a316a34d12be2430b71f13f68"
+        },
+        {
+          "path": "classes.jar!androidx/glance/action/ActionParameters$Pair.class",
+          "bytes": 2807,
+          "sha256": "fc759a436209472a648887577c206431ad4a145f2251180c4cf14e42660610e3"
+        },
+        {
+          "path": "classes.jar!androidx/glance/action/ActionParameters.class",
+          "bytes": 2081,
+          "sha256": "6490a8b74672ab801102614a8e5404ebccaa354afe5fe93f1502e17b44f42fc3"
+        },
+        {
+          "path": "classes.jar!androidx/glance/action/ActionParametersKt.class",
+          "bytes": 5341,
+          "sha256": "5f199318ca9ead8ded52b2c7034842972fea085d70631de77ed3239c81ad123a"
+        },
+        {
+          "path": "classes.jar!androidx/glance/action/LambdaAction.class",
+          "bytes": 2272,
+          "sha256": "02ea0df698055a6d267f9ab0e0a8ebe8f5450683915472e57592ef9f365907d7"
+        },
+        {
+          "path": "classes.jar!androidx/glance/action/LambdaActionKt.class",
+          "bytes": 2375,
+          "sha256": "72be719d6f882c8174f972476c6acc17f82f35522a23de29d8dd692c746659a7"
+        },
+        {
+          "path": "classes.jar!androidx/glance/action/MutableActionParameters.class",
+          "bytes": 4693,
+          "sha256": "cc41f2c2647ad875f45f398e7f7f2fe11cbde381fc7e940a0146e12c25fabbb7"
+        },
+        {
+          "path": "classes.jar!androidx/glance/action/StartActivityAction.class",
+          "bytes": 1150,
+          "sha256": "352816235d7b65b1bd0378a9aafa92dc0163266687b3027e242bb3cf894997ec"
+        },
+        {
+          "path": "classes.jar!androidx/glance/action/StartActivityActionKt.class",
+          "bytes": 5230,
+          "sha256": "df1665aeebbf9dbf186666ce9f653a23e4bd6bb6b325b91a4715d94f003cc6dc"
+        },
+        {
+          "path": "classes.jar!androidx/glance/action/StartActivityClassAction.class",
+          "bytes": 2366,
+          "sha256": "2e2704fac6b5267612b3f128ceb97a3e10efc3e5fd8fe279e4259cfa88bda899"
+        },
+        {
+          "path": "classes.jar!androidx/glance/action/StartActivityComponentAction.class",
+          "bytes": 2132,
+          "sha256": "b67a21ec4a873956936de907a16189f2e5fcf38a0cc12a9604547a74dd741501"
+        },
+        {
+          "path": "classes.jar!androidx/glance/color/ColorProviders.class",
+          "bytes": 11830,
+          "sha256": "af5fc9a1d455d0519d4101abe8f786d2504ad183110137245fdb413ce71616e5"
+        },
+        {
+          "path": "classes.jar!androidx/glance/color/ColorProvidersKt.class",
+          "bytes": 3964,
+          "sha256": "e1ab2f15068c5b55e695cdc92a4ba6af757792a3249764f75dd15dbbda06bfbc"
+        },
+        {
+          "path": "classes.jar!androidx/glance/color/CustomColorProviders.class",
+          "bytes": 3916,
+          "sha256": "b18e5cefa17f2cbe7719cde300af23e7395d457156283fd0decbc6673e62400a"
+        },
+        {
+          "path": "classes.jar!androidx/glance/color/DayNightColorProvider.class",
+          "bytes": 3968,
+          "sha256": "e362e7ee4ee04d738414033c3c90420f3a6aefe919423c442b1459a7be322bed"
+        },
+        {
+          "path": "classes.jar!androidx/glance/color/DayNightColorProvidersKt.class",
+          "bytes": 1764,
+          "sha256": "fee166c70901f42adb43042bf41f6bdf23674d0ab110855d6d19dc71cd69300e"
+        },
+        {
+          "path": "classes.jar!androidx/glance/color/DynamicThemeColorProviders.class",
+          "bytes": 3521,
+          "sha256": "b99b55d257c40fd38b9c7a77eeba5413b15318526fc2b46713875a9964b76657"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/Alignment$Companion.class",
+          "bytes": 3713,
+          "sha256": "e593ca97c3f27a6c85f970bf3ec101c7fab1aaf8a4e41873278237b7b680a014"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/Alignment$Horizontal$Companion.class",
+          "bytes": 1498,
+          "sha256": "6eb638991eb7b35ead01a323f204987383d9e38ba341116e5547a46033d84c23"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/Alignment$Horizontal.class",
+          "bytes": 2854,
+          "sha256": "bc52d985c8911cb25b5a68b53e9c39153e65cf2e364a32835c391ff4ee57e8a5"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/Alignment$Vertical$Companion.class",
+          "bytes": 1485,
+          "sha256": "6ceb7da7e6c0e63f0f36c7aee667c026c1c1eeace4be4f8373f4ebf8d7f0bb35"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/Alignment$Vertical.class",
+          "bytes": 2838,
+          "sha256": "692fcb148b41414a02b3c0f33d52cb97621553ae95c31af20095be00ce033967"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/Alignment.class",
+          "bytes": 5672,
+          "sha256": "5b167d7232a6d890cd2140b31e80a86a431d2ebc4014dd74285a9517f2ec3681"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/BoxKt$Box$1.class",
+          "bytes": 1359,
+          "sha256": "8f761cda6740eff59593f87a9948b6dafbb49da4c9a5cb50de5da62f6426cec0"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/BoxKt$Box$2$1.class",
+          "bytes": 1804,
+          "sha256": "07b71f13f67f11f6e8222b7675b835115369fa34ea7244bcb5c1023e2c001c14"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/BoxKt$Box$2$2.class",
+          "bytes": 1822,
+          "sha256": "448b852d73313242f5d8f9362484b15797fb360ae3da17693b451ecd846c0b36"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/BoxKt$Box$3.class",
+          "bytes": 2206,
+          "sha256": "13f702c1a71e9ccc62b810b1050359e86390ae2465363583d809d07afde18ec3"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/BoxKt.class",
+          "bytes": 5790,
+          "sha256": "c13bc7c71805c982399b25f79d4a94d90ba7b916acd0424c30dc13ed14253dce"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/ColumnKt$Column$1.class",
+          "bytes": 1539,
+          "sha256": "b6aae215ccac4e191d00db6ba51b18d4ab33d2a1dafb1e03e8ad3a394c64650c"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/ColumnKt$Column$2$1.class",
+          "bytes": 1987,
+          "sha256": "0c233cbda8b1afd9dbf49193498e4e5f49ba831a0431d21e1744f1fc252c9c05"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/ColumnKt$Column$2$2.class",
+          "bytes": 1982,
+          "sha256": "16064e5837ee952e0560a38febc765072493f89fba8e90d30e168b9e1b39f3be"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/ColumnKt$Column$2$3.class",
+          "bytes": 1976,
+          "sha256": "7286bea9608de7adfeb0c54cceeae2643998b455914b60f0a9994d855cac409c"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/ColumnKt$Column$4.class",
+          "bytes": 2411,
+          "sha256": "1629e1c86b52ad929de520177497d59d69897b6e34f36be8714b125f21127ceb"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/ColumnKt.class",
+          "bytes": 7228,
+          "sha256": "1fc309f5cf6cced23eb91fd93da0ab7ac8a22a4790538ed38fc5c4e620f577ce"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/ColumnScope.class",
+          "bytes": 665,
+          "sha256": "fc6e7320dc84be964a682fd46f574d0e1457fb4b725673a5ff5d181e6e24e525"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/ColumnScopeImplInstance.class",
+          "bytes": 1414,
+          "sha256": "8819cc1d45749d08d29169dbf689b60d52b46594e45eb732d147e7534d0fd5db"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/ContentScale$Companion.class",
+          "bytes": 1383,
+          "sha256": "7cc98213f0bcb4653c46d36e99b5965c759dca22c68b5ffc2f36374737555408"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/ContentScale.class",
+          "bytes": 2740,
+          "sha256": "2adfb5078172aa36408a60111d834011b68f0b44188f2a9c3c489ae7f989cb03"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/EmittableBox.class",
+          "bytes": 4775,
+          "sha256": "86febfac2dd7e70c042ec0d58ecca3e25257f4d62b1210635276129077a2c703"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/EmittableColumn.class",
+          "bytes": 5454,
+          "sha256": "40e90e69dd054d2088257aec6201ffe72b23d5edadc2401c3e7c3304922de1f2"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/EmittableRow.class",
+          "bytes": 5406,
+          "sha256": "ab4f1dcf060595a85ea83744b45408653809317f4d54482c79c7847f72acfac4"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/EmittableSpacer.class",
+          "bytes": 2300,
+          "sha256": "ff9377861714ef6ce505a9b7f73c83e07708f3bc14efaabdd67f4dc8694fc035"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/HeightModifier.class",
+          "bytes": 1460,
+          "sha256": "ed5b5564ad2f462cc858b4ffd52a9aaa71c0e461a0c532555f831f6cde3af7d3"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/PaddingDimension$Companion.class",
+          "bytes": 1138,
+          "sha256": "feee70a87d0f41088b1dc259acfe72825b3a628801e6b6709aea860ed8f3eaa8"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/PaddingDimension.class",
+          "bytes": 6053,
+          "sha256": "5b00251581abee655750ccd94c7a5cb576d274fc4220bd20098b782fae601849"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/PaddingInDp.class",
+          "bytes": 7317,
+          "sha256": "b4543f4f8cb306fd5e24e61a98d76e0da75eec63828534768d792d53c8d5f4f6"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/PaddingKt$collectPadding$1.class",
+          "bytes": 2415,
+          "sha256": "917d7c15dbd53a2debabedc5bfcfe96960aba5a37e66b04bcdd0e521e5105876"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/PaddingKt.class",
+          "bytes": 10282,
+          "sha256": "478ea1b3ae794ad4eb75dd7cd6df7cc422fca06dc39192e9a418b66d66c0cb03"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/PaddingModifier.class",
+          "bytes": 8412,
+          "sha256": "7d04c82e88400f12e285df914f6eb0bf4574b3dc694e3b34ab34cbb4eea2f8d8"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/RowKt$Row$1.class",
+          "bytes": 1509,
+          "sha256": "5761e2e086b70fbe91cb9ec80fc40b7e4c015b4ccdcd2ba0d3ebb19d711eff3d"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/RowKt$Row$2$1.class",
+          "bytes": 1954,
+          "sha256": "fde2ed285042ff802d578d781f3e9d3647dd1dcea69c46fe2b64132575b3089b"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/RowKt$Row$2$2.class",
+          "bytes": 1943,
+          "sha256": "c184e4b5afba1ef0e212cb4e6405f52d622d0172d9be50c6ba8ac71c556a6442"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/RowKt$Row$2$3.class",
+          "bytes": 1949,
+          "sha256": "1f111251325e98cf2df285eedd550b36076ebb8d15bb2b81cd5375891ad15d45"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/RowKt$Row$4.class",
+          "bytes": 2384,
+          "sha256": "2b33859d526e153119b9b3a5890d4e6df5b5b163730af1c2071422d73197313c"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/RowKt.class",
+          "bytes": 7090,
+          "sha256": "3f07f787caea53e32372ebcb55dcad71356962fd7fd099f73b665bdef1122974"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/RowScope.class",
+          "bytes": 656,
+          "sha256": "c75de8c287c447e93732de5951b526f1c5f315f73d54b2bbe28e1f36295617cb"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/RowScopeImplInstance.class",
+          "bytes": 1398,
+          "sha256": "42456f0636b271c47263ec688835ad0e03058c612ace80e5111404d1b0237072"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/SizeModifiersKt.class",
+          "bytes": 4107,
+          "sha256": "6bfe099b4dcc54cd73878ec6c3c2cc621da1050af02a39750ae357cd5eab86d5"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/SpacerKt$Spacer$1.class",
+          "bytes": 1323,
+          "sha256": "9c7ee7a4f091ab8b682f3608605879fb0a36393b4aceb7692ccd363253aefae2"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/SpacerKt$Spacer$2$1.class",
+          "bytes": 1771,
+          "sha256": "730b30a791e46903e94ccb48ffbbcd1bc0ef77b21646d88b5a1832f95c0576d9"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/SpacerKt$Spacer$3.class",
+          "bytes": 1619,
+          "sha256": "391b66d4d606798b0a99addb07ee842444741f7e18998ac63c1cadf964b6cceb"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/SpacerKt.class",
+          "bytes": 4515,
+          "sha256": "cde6776ddc326a3f81d91386e161721dc4aaa2f682b53efa143eb4ee62baec14"
+        },
+        {
+          "path": "classes.jar!androidx/glance/layout/WidthModifier.class",
+          "bytes": 1456,
+          "sha256": "81c441be83cb1556ebde0463e76e4e6376c744ab2711c1d3d35f55bef3f3ca23"
+        },
+        {
+          "path": "classes.jar!androidx/glance/semantics/SemanticsConfiguration$getOrNull$1.class",
+          "bytes": 1181,
+          "sha256": "8b523ec8b5a3b942f9581af287735915c7db726b50adf5ded0984675a1b6cac3"
+        },
+        {
+          "path": "classes.jar!androidx/glance/semantics/SemanticsConfiguration.class",
+          "bytes": 3555,
+          "sha256": "e9b0046ea4452ba5d97f42df26e77bada493ddff591953e9dc82c216a88f8578"
+        },
+        {
+          "path": "classes.jar!androidx/glance/semantics/SemanticsModifier.class",
+          "bytes": 3050,
+          "sha256": "041ef75af1dd22f2a2382716082ef5616c54d5fb76a4d4a3990d450a4cd19a58"
+        },
+        {
+          "path": "classes.jar!androidx/glance/semantics/SemanticsModifierKt.class",
+          "bytes": 2248,
+          "sha256": "6a5784e9f433f3e20a987d158e7b379845a8878163150708c116deb2ae6672f7"
+        },
+        {
+          "path": "classes.jar!androidx/glance/semantics/SemanticsProperties$ContentDescription$1.class",
+          "bytes": 2626,
+          "sha256": "7c24fe4c259d921098a4e81e9a7771c45422636aa4f6e788c9337ca2980ffa35"
+        },
+        {
+          "path": "classes.jar!androidx/glance/semantics/SemanticsProperties.class",
+          "bytes": 1728,
+          "sha256": "c62d8157a2d7241e8c3f1fa2ce2f1733a46e43753da55ef7cd2ed19df3e95018"
+        },
+        {
+          "path": "classes.jar!androidx/glance/semantics/SemanticsPropertiesKt.class",
+          "bytes": 1668,
+          "sha256": "00ecfbe9d16e260497c391b5c8dcd0e71ae8f075435e59c38f0a4e2463428218"
+        },
+        {
+          "path": "classes.jar!androidx/glance/semantics/SemanticsPropertyKey$1.class",
+          "bytes": 1425,
+          "sha256": "24d8c8d2b327ecb26b6a6574f926c5673b6b1939999a2eb0e58ba4b9bc5adf8d"
+        },
+        {
+          "path": "classes.jar!androidx/glance/semantics/SemanticsPropertyKey.class",
+          "bytes": 2505,
+          "sha256": "923fb9fe2b59f849b313e1986163f8dcad5f4979f300a91bb904d68a9137362f"
+        },
+        {
+          "path": "classes.jar!androidx/glance/semantics/SemanticsPropertyReceiver.class",
+          "bytes": 860,
+          "sha256": "0dd2df71f49dcc804c2e6b3407b1a5784f7ff5521d26ed4c394a0fbde38f6f88"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/Api23Impl.class",
+          "bytes": 1112,
+          "sha256": "d5c04679f74072ef752e567148d93e50c036bbab72d8e78f5d967ccbb3f467b3"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/Api33Impl.class",
+          "bytes": 1219,
+          "sha256": "0822fef744b54eb2291300d1ffafed5435ff9c1665ee829e3eeae2333d7d57d7"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/GlobalSnapshotManager$ensureStarted$1.class",
+          "bytes": 6236,
+          "sha256": "0380e7c66461c096a997473b68aa3ffe60deb28343f804d49950ff823d6165ab"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/GlobalSnapshotManager$ensureStarted$2.class",
+          "bytes": 1625,
+          "sha256": "7b0510ee55d07abc9fccd310e6caa4714ae72c97df131956627f92da825fcf9c"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/GlobalSnapshotManager.class",
+          "bytes": 3000,
+          "sha256": "ba2b25ba7a80bdfaa761ab6c2815a3ae324a1da2bfd63d5e016b4ffa645df50a"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/GlobalSnapshotManagerKt$globalSnapshotMonitor$1.class",
+          "bytes": 1645,
+          "sha256": "e51a102069816f54fb915a05964fa3ac2a755c258809832a43c85d409feefadb"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/GlobalSnapshotManagerKt$globalSnapshotMonitor$observerHandle$1.class",
+          "bytes": 1734,
+          "sha256": "812f6349f010c05dfe395df29f59469c52b99af41eec07678f13535ce6613a01"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/GlobalSnapshotManagerKt.class",
+          "bytes": 5443,
+          "sha256": "d5574873ef5b84499e2185150708d101341d3d6057db03f346c2b1b55690a1f0"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/IdleEventBroadcastReceiver$Companion.class",
+          "bytes": 1435,
+          "sha256": "ec07a3316fcab2ecca73ad6731a0688a37938776a9747a3b3fb1e73870859cf8"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/IdleEventBroadcastReceiver.class",
+          "bytes": 5510,
+          "sha256": "8eeb677833af7e016c8fc4d772501f88e222b1e667ca9d54b78caa0b236c104e"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/IdleEventBroadcastReceiverKt$observeIdleEvents$2$idleReceiver$1$1.class",
+          "bytes": 3833,
+          "sha256": "8fd8650d793dbed8eca8218509765f2f761016185e91489bf7478e9cd250996f"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/IdleEventBroadcastReceiverKt$observeIdleEvents$2$idleReceiver$1.class",
+          "bytes": 2209,
+          "sha256": "1cd9940cead4fdebe48dcb907ddd900a6f22ad993c4d8fbc96a4213427075f47"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/IdleEventBroadcastReceiverKt$observeIdleEvents$2.class",
+          "bytes": 5446,
+          "sha256": "db3acdde3af1c5c36391d2ea34e9666ab2a431effbef280d66ca1daa9e5b2197"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/IdleEventBroadcastReceiverKt.class",
+          "bytes": 1948,
+          "sha256": "0644104d49d3f485d5aa0ade797892f69142c4ef1912244b0e0cecd221d2f305"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/InteractiveFrameClock$1.class",
+          "bytes": 1395,
+          "sha256": "5801000e47113fe8712a7abfd06f411fcbb8bfe94e0b4a915eb34a32a1460032"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/InteractiveFrameClock$Companion.class",
+          "bytes": 1040,
+          "sha256": "3e5dfdb972c7040a88813c7421b4295600dc3271bc5093c3819356e492e8e595"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/InteractiveFrameClock$frameClock$1.class",
+          "bytes": 1310,
+          "sha256": "395f8d80959ebfa3cd1d74925f20857fb57befbd72cfc4094f1327733aafc2ce"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/InteractiveFrameClock$onNewAwaiters$2.class",
+          "bytes": 4482,
+          "sha256": "8919202cf24ff6e6ff094df25ea71baa52acbc904cdccf18bf0a78cd4eb6980d"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/InteractiveFrameClock$startInteractive$2$1$2.class",
+          "bytes": 2259,
+          "sha256": "e4108bf1cf8c332dcb4e1ef7928e41209330636527a859835b449095a027eb50"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/InteractiveFrameClock$startInteractive$2.class",
+          "bytes": 6413,
+          "sha256": "3423218e321f62f656eaf044fa240ae2136ca5ed3c958bebbbbb4f168d3c880f"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/InteractiveFrameClock.class",
+          "bytes": 10909,
+          "sha256": "892b093b74ff4c243ed7e68a4d7bdc5858f0b6770684882298e363fc609536e1"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/Session$receiveEvents$1.class",
+          "bytes": 1801,
+          "sha256": "43960a2f930701269297c39057984472f475b53561975c87c7fd686dce1d84dd"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/Session.class",
+          "bytes": 6444,
+          "sha256": "cb98d836f23c2107f846f4c49eaafc33670fbe5eae370b81a45fc4b0ee93d05e"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionManager$DefaultImpls.class",
+          "bytes": 814,
+          "sha256": "38ef5dcd5b67849e71620476c5b5c7a4b324bf1d3775edd523a67fbe54db2fdc"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionManager.class",
+          "bytes": 2482,
+          "sha256": "e955ce9be419d115b0870eaf9d865120221dac3afe057dc1de0e504050fbccba"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionManagerImpl$Companion.class",
+          "bytes": 914,
+          "sha256": "7cd77defe4897a9f7085fa39019a6899ea991c2fa016b49e3d225fe44f7069bb"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionManagerImpl$isSessionRunning$$inlined$await$1.class",
+          "bytes": 2710,
+          "sha256": "28805d234f5f9348e1b142ffed8bb8e6c8ef2adc39db36c14f53bfd2c7411053"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionManagerImpl$isSessionRunning$$inlined$await$2.class",
+          "bytes": 2334,
+          "sha256": "bc7178b529aa4bb4b231b674e506633b406a293b322817bb47edf48ecdc8d9bc"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionManagerImpl$isSessionRunning$1.class",
+          "bytes": 1850,
+          "sha256": "a0417ec9cbcf1683f4ce5d8c87f8ddb36d8bbcbc0af086aac3214a543eaeec96"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionManagerImpl$startSession$$inlined$await$1.class",
+          "bytes": 2713,
+          "sha256": "0cb129b8a9fd1750dacef09065d387f2e2151d741972751707c01e2cee892311"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionManagerImpl$startSession$$inlined$await$2.class",
+          "bytes": 2337,
+          "sha256": "0a608c67258e9d77fe1dd458fc2e09184685c38ea5cc84340182ec595a2908c4"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionManagerImpl$startSession$1.class",
+          "bytes": 1853,
+          "sha256": "667f45f60e9b4b30c41f7debc73612007be6658ceded003a8db914eb0fd53167"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionManagerImpl.class",
+          "bytes": 15090,
+          "sha256": "afd9f951c75b7f5644f2ab2a66cb4a103582e2d7f4938c7ec0f07611a0159003"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionManagerKt.class",
+          "bytes": 1153,
+          "sha256": "71a396f09f2458a3642aa3b2fa0a37ed389f8ce4e4f0e34de45c76e2c856aa46"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker$Companion.class",
+          "bytes": 941,
+          "sha256": "d98a1e59ccdf69e5a1a304c17bf15e336affcbbe10fd08e29f3e4591c8ad806e"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker$doWork$1.class",
+          "bytes": 1632,
+          "sha256": "94e56030a9559859257ea8cc7961a76e1e033e5dcfe53f179e448f0676b9396e"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker$doWork$2$1.class",
+          "bytes": 3402,
+          "sha256": "a8cd88132c7a9ea86c6b324a8e6722868c4e3a2f351e4b14d4bfbbb5897eaed1"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker$doWork$2$2.class",
+          "bytes": 3516,
+          "sha256": "6c0328106e893d8d29efa10c25c18a7f0022b04a289751777c2272f66f5d58db"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker$doWork$2.class",
+          "bytes": 4356,
+          "sha256": "01ef486f8b16c339223bdc356cdfa35725c982597d94450afb0572d681168be2"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker$work$1.class",
+          "bytes": 2104,
+          "sha256": "33a68b1f31bb0d2c1dcea7bb8e1bcd38a8cc005cc49cfde733e2d409b888e36c"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker$work$2.class",
+          "bytes": 3500,
+          "sha256": "3d1c7dc629a9391579018404c5ead1a5015b24c4a3f8526462a075aefdc57cff"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker$work$3$1$WhenMappings.class",
+          "bytes": 950,
+          "sha256": "d28820c47198a9fafbb07d2cdcf90aa2def55c78718e8bbf1ad92fb9170c50d6"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker$work$3$1$emit$1.class",
+          "bytes": 1950,
+          "sha256": "289707c54ba701cff6d33fb9535952088cf666099abae4e06a0868fc8df41f21"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker$work$3$1.class",
+          "bytes": 6067,
+          "sha256": "5b70e642403d8b79539df7f3ae53100e3f16bcc49b3ffc14070e12d91076c46b"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker$work$3.class",
+          "bytes": 5376,
+          "sha256": "c885a1707c4eef914a329b236e0d3e5a91608d012a451bd3a50a5c750b690afe"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker$work$4.class",
+          "bytes": 3217,
+          "sha256": "57ed791ea497d51ae28e82efdbe0526ba8f01a1bb1626cc271fa479cc1c417e3"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker$work$5$1.class",
+          "bytes": 3454,
+          "sha256": "4181796f84f235cb2a7db1e4517b412faffac0a80261272eda9eacb62274714b"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker$work$5.class",
+          "bytes": 2795,
+          "sha256": "2a012afac3c565f9fab826c37c5625888d0d319628c57b141b590434a9619507"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker$work$snapshotMonitor$1.class",
+          "bytes": 3401,
+          "sha256": "02207d77c38097e2a365edf47694d0b5dbf102cb1f6a074cad7e8164a4328c90"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/SessionWorker.class",
+          "bytes": 12509,
+          "sha256": "c34cc9aef83b9c24e1eaf9184c22cd8b6b367916d8aed13496f8f782de756c32"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/TimeSource$Companion$Monotonic$1.class",
+          "bytes": 905,
+          "sha256": "4bc5ee84e75542060bbb10087f20bdedca211b26f63dadc1e2b14060a2473b56"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/TimeSource$Companion.class",
+          "bytes": 1196,
+          "sha256": "29013382265ffefb173b13a9070404f67a0edc5e47cbb355267fb3f310aa4a62"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/TimeSource.class",
+          "bytes": 762,
+          "sha256": "16218b028b79826963238a3f702b28fa0a36d4ff325a8613c693e6f9cdb0e623"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/TimeoutCancellationException.class",
+          "bytes": 1960,
+          "sha256": "fdf45ba77ee926443e49383790e57e7630bdd086c0033b58995a4f0758ebf611"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/TimeoutOptions.class",
+          "bytes": 4920,
+          "sha256": "b4e8e1b71a5fce47b359bece78aaed89b2e4795f18971f2f5c060beca37e914e"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/TimerScope.class",
+          "bytes": 813,
+          "sha256": "3877deb8621809dd65675ed46ea1fe6cc18064f9b443c10fc0327ca42a96919e"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/TimerScopeKt$withTimer$2$1$blockScope$1$addTime$1.class",
+          "bytes": 2806,
+          "sha256": "121aaa46514a75e2ff657f0f794f9bc6994c3f6f9d13f4c43f94a9ead80d3076"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/TimerScopeKt$withTimer$2$1$blockScope$1$startTimer$1.class",
+          "bytes": 5414,
+          "sha256": "60ec7af5461e769523fa1a66fe155e284b2107c5a18b2e0fcfda5e2ae33148b1"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/TimerScopeKt$withTimer$2$1$blockScope$1.class",
+          "bytes": 5786,
+          "sha256": "518cd741432cb7662820ebd4f2a709c38556e2e730c304e4c8c993289816b564"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/TimerScopeKt$withTimer$2$1.class",
+          "bytes": 4558,
+          "sha256": "e97944829a2359cb26aa1e8184fe970312e31940203facde25565f0357823843"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/TimerScopeKt$withTimer$2.class",
+          "bytes": 4894,
+          "sha256": "ec70c0c7d7bedd1af3f7fb0a65788e780b967a0195312408fd7102c2f6de6985"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/TimerScopeKt$withTimerOrNull$1.class",
+          "bytes": 1639,
+          "sha256": "bed6a0990cbc3a5041f11641aeea87489cd4bdc8e4c2da0c55312b3a150e3426"
+        },
+        {
+          "path": "classes.jar!androidx/glance/session/TimerScopeKt.class",
+          "bytes": 4787,
+          "sha256": "61b4f24457f75e44224139d8bb3f08e8970a6ec287267aa685af00ac76f33e03"
+        },
+        {
+          "path": "classes.jar!androidx/glance/state/ConfigManager.class",
+          "bytes": 2424,
+          "sha256": "7c21ed800ee30c14ecf89fead7e37f56fddf2342b0c28d2a251241d6fe10398c"
+        },
+        {
+          "path": "classes.jar!androidx/glance/state/GlanceState$deleteStore$1.class",
+          "bytes": 1875,
+          "sha256": "ec398346dd7a9865fb0d9e2c75fa22646361f079edf2360bc842e8828eee2035"
+        },
+        {
+          "path": "classes.jar!androidx/glance/state/GlanceState$getDataStore$1.class",
+          "bytes": 2221,
+          "sha256": "98ba15a0a55870a177e8bf7588a0d199f1316ce1c652ca9b3454f41fdba665c9"
+        },
+        {
+          "path": "classes.jar!androidx/glance/state/GlanceState$getValue$1.class",
+          "bytes": 1792,
+          "sha256": "bde54adc2239cd05f3c41c2372313999705bd5449612c217f7d7237fe6fc8269"
+        },
+        {
+          "path": "classes.jar!androidx/glance/state/GlanceState$updateValue$1.class",
+          "bytes": 1874,
+          "sha256": "e7582a17002bbee597070b0911857fbaf3493bad3ae261e8608aff729e4f0b8d"
+        },
+        {
+          "path": "classes.jar!androidx/glance/state/GlanceState.class",
+          "bytes": 10508,
+          "sha256": "4ccc687052a2c79063068b995d3221a750eb30d4796dc5a533bfc03286ccc907"
+        },
+        {
+          "path": "classes.jar!androidx/glance/state/GlanceStateDefinition.class",
+          "bytes": 1293,
+          "sha256": "3115f3842705a1f53380f5a5731c83275b6e8b78a3b54fbc9442406b4fa79d5d"
+        },
+        {
+          "path": "classes.jar!androidx/glance/state/PreferencesGlanceStateDefinition$getDataStore$2$1.class",
+          "bytes": 1600,
+          "sha256": "0d6a0ca1ef29cf5729ff53fcaf9bd3cfc807e909d0bc32769c7ea3aac7f5d3f4"
+        },
+        {
+          "path": "classes.jar!androidx/glance/state/PreferencesGlanceStateDefinition$getDataStore$3.class",
+          "bytes": 1588,
+          "sha256": "9804e958bd9b7597ba46ff06d654f6f77d41c68c6a07c4babc245ce6897c0fa3"
+        },
+        {
+          "path": "classes.jar!androidx/glance/state/PreferencesGlanceStateDefinition.class",
+          "bytes": 3759,
+          "sha256": "b715c740595e74af939974d53f393e2fcb82c62fc6c981d0014f4da5a32e5270"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/EmittableText.class",
+          "bytes": 3459,
+          "sha256": "c8faddfcd9c73bc620090049c1219ceb023770bd092a6215862dce09cf350dc6"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/FontFamily$Companion.class",
+          "bytes": 1581,
+          "sha256": "4671505cb2f93a4204e50dbcde5d97dc5fa8ab592d4a62a967ea757cc3dcbcbe"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/FontFamily.class",
+          "bytes": 1972,
+          "sha256": "6eb02da27b8b76b0593703bd8cd75fee1ea3c51985535bbbc2228965e99c0ec7"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/FontStyle$Companion.class",
+          "bytes": 1680,
+          "sha256": "df6f25ff072bdb5ded6fb54c2a8309faf7852ec2939b645adbea5534a9a5a56a"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/FontStyle.class",
+          "bytes": 2540,
+          "sha256": "f2da9bc463bfc4b583d0cb77aae19b348bfd497e81268d8498bc635522dd2ae1"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/FontWeight$Companion.class",
+          "bytes": 1362,
+          "sha256": "4d54761d0d9366583221b6c86e69811d9ebe01649d844b083ea9e00ff066cb1e"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/FontWeight.class",
+          "bytes": 2796,
+          "sha256": "65a45cbc7b8154080440f14ad7ba5811e059ff6b0da9efdebbfaede69bf5a324"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/TextAlign$Companion.class",
+          "bytes": 2205,
+          "sha256": "8db8ac3d8342a4512be7f13e87e2a87e1fe83f25e2ee12991105ddaad91aeb63"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/TextAlign.class",
+          "bytes": 2902,
+          "sha256": "70e8fc003fc3920db6762d34332acda7c010d69203719edbc5dc822fb5ed0b99"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/TextDecoration$Companion.class",
+          "bytes": 3215,
+          "sha256": "136f6de5c3b96e44c4a832b8cfcfc27a513a82475570a3fae35dfd263744da21"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/TextDecoration.class",
+          "bytes": 3889,
+          "sha256": "c78f655d9d227a21a4accf9c11333ee5dcaa32e64ec81514d3bbb74a5d439625"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/TextDefaults.class",
+          "bytes": 2051,
+          "sha256": "18f43735d6cd10390d60161e0b19af9f54275b09e7c82ba44f6530740b3cf62b"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/TextKt$Text$1.class",
+          "bytes": 1342,
+          "sha256": "edee1d00ba856be15dffd0930e27eb9dadde4a5150dfe384063ace6063ce5bac"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/TextKt$Text$2$1.class",
+          "bytes": 1712,
+          "sha256": "cc22c81b7a73a2fd9ee77a34b26e74c2859aa780d24300cfb1d5ad5c39c6eedc"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/TextKt$Text$2$2.class",
+          "bytes": 1786,
+          "sha256": "55848d97f00fdcf73b1cb438200e73354fe7c6c5839b87e935935369f5517fd1"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/TextKt$Text$2$3.class",
+          "bytes": 1783,
+          "sha256": "c25f5bb0412993319a2cae660d19d5ad7b32cbc05c97592e6c49c760988a5306"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/TextKt$Text$2$4.class",
+          "bytes": 1685,
+          "sha256": "e66702f47ad670b8f4462da769569c37b91aad32be7f619b79a25627b622445f"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/TextKt$Text$3.class",
+          "bytes": 1900,
+          "sha256": "b98895e9dba759aa193330ebc9888993733bc39e4ea61f20dba9d19c5b009788"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/TextKt.class",
+          "bytes": 6661,
+          "sha256": "1be0eb02355d70830c96939b3fe0f4e966301989b13fdcbe6d6b2c1d08fe6faa"
+        },
+        {
+          "path": "classes.jar!androidx/glance/text/TextStyle.class",
+          "bytes": 7324,
+          "sha256": "38162fd9b2965ac6abd7962ab9b2c8310120129374fefefc05f8dced22f77bf7"
+        },
+        {
+          "path": "classes.jar!androidx/glance/unit/ColorProvider.class",
+          "bytes": 708,
+          "sha256": "b0947e21c87b95c2adfe4aea76e3fb2096bac6ef84d8fda12aea5cd76762b6c0"
+        },
+        {
+          "path": "classes.jar!androidx/glance/unit/ColorProviderApi23Impl.class",
+          "bytes": 1222,
+          "sha256": "0fee2c4c992f35bcf179704f36a9e647c8ca407c23009658e0c8099194fdd8c8"
+        },
+        {
+          "path": "classes.jar!androidx/glance/unit/ColorProviderKt.class",
+          "bytes": 1466,
+          "sha256": "d9da5927f0aa81a93af7b8b4424f0c1254bad30d6e24f411c078526a52fc0905"
+        },
+        {
+          "path": "classes.jar!androidx/glance/unit/Dimension$Dp.class",
+          "bytes": 1279,
+          "sha256": "99d28cb0efe2e6e4781aa559be19716a5320634c6632f2be9e6ae69f55cb7b20"
+        },
+        {
+          "path": "classes.jar!androidx/glance/unit/Dimension$Expand.class",
+          "bytes": 936,
+          "sha256": "dfbea205132e0d43018dfa2680e76a274b67e6555439e260adb11ac906656142"
+        },
+        {
+          "path": "classes.jar!androidx/glance/unit/Dimension$Fill.class",
+          "bytes": 930,
+          "sha256": "4d7a6c7ad2531ad062ccb583d37795f744b046d52d44d83bd81c6b70122c9a50"
+        },
+        {
+          "path": "classes.jar!androidx/glance/unit/Dimension$Resource.class",
+          "bytes": 1099,
+          "sha256": "9913b183d7d883eef5175fce7ce7756c0166dee9dc8bf2e26a8bfcea39a2fe4a"
+        },
+        {
+          "path": "classes.jar!androidx/glance/unit/Dimension$Wrap.class",
+          "bytes": 930,
+          "sha256": "1a78e89df1b9a29086709938c133167540cc0d154f0fb573122549cefe63584b"
+        },
+        {
+          "path": "classes.jar!androidx/glance/unit/Dimension.class",
+          "bytes": 1666,
+          "sha256": "bc483dd6b13a45b07839e06ba455848fd070499468788e08f8fad44d11230b00"
+        },
+        {
+          "path": "classes.jar!androidx/glance/unit/FixedColorProvider.class",
+          "bytes": 3257,
+          "sha256": "022a4a9a1e035a230380b2c9711148874ae16be1a67b3160b07653791578eb4f"
+        },
+        {
+          "path": "classes.jar!androidx/glance/unit/ResourceColorProvider.class",
+          "bytes": 3398,
+          "sha256": "0484cf3a3a54b7e36475d8b6333bda95d7570cde1bc813fc80dbc0706e4fffb2"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/values-night-v31/values-night-v31.xml",
+          "bytes": 2197,
+          "sha256": "9c670363c0b7357a4f89a82d4ff628eaefebca0dd53a276af1e0ae24a475581a"
+        },
+        {
+          "path": "res/values-night-v8/values-night-v8.xml",
+          "bytes": 1660,
+          "sha256": "f0327b45072ed67ad63f7d2533444812fe92f7befb2fb81175c490b56f830af3"
+        },
+        {
+          "path": "res/values-v31/values-v31.xml",
+          "bytes": 2188,
+          "sha256": "2b28717d687df0367e205f71e53fc5065795ca874016946e20afdc37f8b97c83"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 1660,
+          "sha256": "f3cb79c096d492b004f7b270fc29a863476fb26b5dbdf87f62873d1f77ca525e"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

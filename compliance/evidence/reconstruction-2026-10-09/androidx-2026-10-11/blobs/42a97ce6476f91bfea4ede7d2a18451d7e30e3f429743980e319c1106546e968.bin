@@ -1,0 +1,209 @@
+{
+  "archives": {
+    "core-remoteviews-1.0.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/core/widget/AppWidgetManagerCompat.kt",
+          "bytes": 14160,
+          "sha256": "9c1579a4cc1452752bf5157bb68bb2b4025b03d30db18fd00e12e9f8cdd31d86"
+        },
+        {
+          "path": "androidx/core/widget/RemoteViewsCompat.kt",
+          "bytes": 136296,
+          "sha256": "f449e125d0e262e8854eb6eba5067ba74643d017551c133b2e92c2e16a85559e"
+        },
+        {
+          "path": "androidx/core/widget/RemoteViewsCompatService.kt",
+          "bytes": 12092,
+          "sha256": "8242c59c368d5ecd6e8c804025f1a396deef751251113f306002acfb92dcc115"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/core/widget/AppWidgetManagerCompat.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/widget/RemoteViewsCompat.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        },
+        {
+          "path": "androidx/core/widget/RemoteViewsCompatService.kt",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    },
+    "core-remoteviews-1.0.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 1120,
+          "sha256": "9921602536d3718f22377efe5fbf827bdab6eac9e0f77f0773ef6aff9027d7cd"
+        },
+        {
+          "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+          "bytes": 122,
+          "sha256": "4e14b649f4ca949fd98b35bdd96825047b92e43bb71e08ce3a4fbeadb8ef6fa8"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 33,
+          "sha256": "84fa435d8d72b55c420b59e911d96eba48920974aaf0ae68d3b5ede32843c9ff"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 57593,
+          "sha256": "2353fc59adf0e69f9ab82a09dfc8e76cc8ba7c7a2c40ca72607af5d9605c84e9"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.core_core-remoteviews.version",
+          "bytes": 6,
+          "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        },
+        {
+          "path": "classes.jar!META-INF/core-remoteviews_release.kotlin_module",
+          "bytes": 72,
+          "sha256": "5bf789119b8caf080b3173b062b3d5f15583cd303c258af3d07503967c75bcdb"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/AppWidgetManagerApi16Impl.class",
+          "bytes": 10233,
+          "sha256": "06caee9ab8b4bd4c8dd689dab88380a2edd56826601b051134388277056bca41"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/AppWidgetManagerApi31Impl.class",
+          "bytes": 6390,
+          "sha256": "ad0ea7d507e822ef44beeaf881c2f7aa1b3142689a0c43b9debd0c55be267851"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/AppWidgetManagerCompat.class",
+          "bytes": 7479,
+          "sha256": "14afc342ac004fab1640069464a8d7e70b2af5700bb09221533bfd1d2ac1dc6d"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/LandscapePortraitSizes.class",
+          "bytes": 3012,
+          "sha256": "5b6e0c07e8ef9352da4349f651dde5b9227918977e502d0f20c395a4ee398b47"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompat$Api23Impl.class",
+          "bytes": 1752,
+          "sha256": "85009b68b6a858a4ea5507e087bf1e607c329db59374b02b936ac058bcb5a906"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompat$Api31Impl.class",
+          "bytes": 6803,
+          "sha256": "0da3b555a187589d6e2522290c914a056905d775ed8311256623f0a150b2a758"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompat$CollectionItemsApi31Impl.class",
+          "bytes": 3370,
+          "sha256": "08c87f48215c0d6f56e742a1cd158794888c056ae4937eb4571955b1d4e4c4a4"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompat$RemoteCollectionItems$Builder.class",
+          "bytes": 5331,
+          "sha256": "a10e55e5cdf124232987000123b88e1556f42bdffd77759b0590d9d9b9d59ca9"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompat$RemoteCollectionItems$Companion.class",
+          "bytes": 2112,
+          "sha256": "3e95f51b246fc16ea04ac67c472339ba5b774ed8b247ad7ba6486d155c247d28"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompat$RemoteCollectionItems.class",
+          "bytes": 7050,
+          "sha256": "8f1030390e0e42b8c8277514a835895f7c9f5602c127ab34c2e382bd2e3ce7a2"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompat.class",
+          "bytes": 72616,
+          "sha256": "10f4eb6a664df3847c423fef50f1698d14987ee7bcb4c83159adc21c4a623450"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompatService$Companion.class",
+          "bytes": 3278,
+          "sha256": "a8b610c8b8f263fd75203782115a0d5af35c0cc63ccd09ef4611df2c0dda1948"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompatService$RemoteViewsCompatServiceData$Companion$create$2.class",
+          "bytes": 2384,
+          "sha256": "134a2da3e714525f9379f3ea7d4eb36f97a4c99d6dccc4562879ca5382773d50"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompatService$RemoteViewsCompatServiceData$Companion$load$1.class",
+          "bytes": 2284,
+          "sha256": "f7c9089348c0bfda813ba37f2f3955d29d465e1c50f1f585178117f730f84c8a"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompatService$RemoteViewsCompatServiceData$Companion$load$data$1.class",
+          "bytes": 2336,
+          "sha256": "c9d2d6fdb51b289c57a00a35ad59a684f5ba9f3c77224e5886a0f74be5824d30"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompatService$RemoteViewsCompatServiceData$Companion.class",
+          "bytes": 11106,
+          "sha256": "67ad42a09484537ef0774fff64ff86e2057871ed75de911a1b40b6cf0080b35c"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompatService$RemoteViewsCompatServiceData$save$1.class",
+          "bytes": 2069,
+          "sha256": "3c75d8150274fc3d9b0f75f4abdfef0a7cb338ab852fcfa32bc112ad96025570"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompatService$RemoteViewsCompatServiceData.class",
+          "bytes": 4558,
+          "sha256": "259e44cbf3f1a577468cdc957c8825dbb5365932523791142d657cf19c39f8c4"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompatService$RemoteViewsCompatServiceViewFactory$Companion.class",
+          "bytes": 1175,
+          "sha256": "3d1f4f17668d1c447478e53e0ce5507725439f502399417be69c2884ce615d27"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompatService$RemoteViewsCompatServiceViewFactory.class",
+          "bytes": 5609,
+          "sha256": "f9577eef3fd28a1d8fc9d9117b5f7929ef6139186df0e239899251bec725f1b0"
+        },
+        {
+          "path": "classes.jar!androidx/core/widget/RemoteViewsCompatService.class",
+          "bytes": 3737,
+          "sha256": "3fbf1cd3f6a01fa59ff9236012f0d3284ab8e87b868ceb5f723fadbafd671a09"
+        },
+        {
+          "path": "public.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "res/layout/invalid_list_item.xml",
+          "bytes": 880,
+          "sha256": "e97c016d9794ad53a57aa09d112c9b4d7bea91ee792e78c7d62bfdd2cad2c740"
+        },
+        {
+          "path": "res/values/values.xml",
+          "bytes": 63,
+          "sha256": "0aed495e21a70cab045e3b4792a02f2c7ad68fc1687d73474a09db0b269bc041"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}

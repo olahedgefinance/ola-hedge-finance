@@ -1,0 +1,126 @@
+{
+  "archives": {
+    "drawerlayout-1.0.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "androidx/drawerlayout/widget/DrawerLayout.java",
+          "bytes": 97854,
+          "sha256": "bc6a4ef9744a510c24583cac48841dd20de3469c3f84a43d2eb27d353ecf60b4"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "androidx/drawerlayout/widget/DrawerLayout.java",
+          "apacheHeader": true,
+          "empty": false,
+          "declarationOnly": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": [
+        {
+          "path": "androidx/drawerlayout/widget/DrawerLayout.java",
+          "text": "* Copied from ViewGroup#dispatchTransformedGenericPointerEvent(MotionEvent, View) then modified"
+        },
+        {
+          "path": "androidx/drawerlayout/widget/DrawerLayout.java",
+          "text": "* Copied from ViewGroup#getTransformedMotionEvent(MotionEvent, View) then  modified in order to"
+        }
+      ]
+    },
+    "drawerlayout-1.0.0.aar": {
+      "entries": [
+        {
+          "path": "AndroidManifest.xml",
+          "bytes": 835,
+          "sha256": "a854405e65aecc9de33cc53880ba9e29b3009fabae4bd1da7446e89f94d91257"
+        },
+        {
+          "path": "R.txt",
+          "bytes": 6283,
+          "sha256": "6d21a0b45c6febbd655e3e56f1cdb865f9825a2e9ffc3f5de23d40bdc2e2d63e"
+        },
+        {
+          "path": "annotations.zip",
+          "bytes": 849,
+          "sha256": "e824a57f3336f4f5627911c4583810671d31ac516c17c2a770184f81ec1aa07a"
+        },
+        {
+          "path": "classes.jar",
+          "bytes": 31413,
+          "sha256": "2b4ee0b3f947a2605babbbf9f6a334db3bcec4a72f811a097ef4fbcd72eb0ce7"
+        },
+        {
+          "path": "classes.jar!META-INF/androidx.drawerlayout_drawerlayout.version",
+          "bytes": 6,
+          "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        },
+        {
+          "path": "classes.jar!androidx/drawerlayout/widget/DrawerLayout$1.class",
+          "bytes": 1330,
+          "sha256": "4db4582eacbc30bafcf1a11708f042bf0f00f5b7a725f66527d43b7a95156c8b"
+        },
+        {
+          "path": "classes.jar!androidx/drawerlayout/widget/DrawerLayout$AccessibilityDelegate.class",
+          "bytes": 5658,
+          "sha256": "dbae14d05373056ba23ad1da5544fbaf7165d19959329f80c5435e5a2b325d9a"
+        },
+        {
+          "path": "classes.jar!androidx/drawerlayout/widget/DrawerLayout$ChildAccessibilityDelegate.class",
+          "bytes": 1056,
+          "sha256": "3b2c32a2a3b163a2aab38ffe1d8ce3febcaa14d67664cf3aa2a88f4e93fdb116"
+        },
+        {
+          "path": "classes.jar!androidx/drawerlayout/widget/DrawerLayout$DrawerListener.class",
+          "bytes": 519,
+          "sha256": "52e13298a013ce17cea64f5a944c74debe80f314ec1e681f148339b22e80d944"
+        },
+        {
+          "path": "classes.jar!androidx/drawerlayout/widget/DrawerLayout$LayoutParams.class",
+          "bytes": 2265,
+          "sha256": "23ce993955aa94a1ee5ccf4d2f27e5702000e2e413a5012e693a5d31b309a6cf"
+        },
+        {
+          "path": "classes.jar!androidx/drawerlayout/widget/DrawerLayout$SavedState$1.class",
+          "bytes": 1756,
+          "sha256": "e7376daae1894bd9a6d1a61f5c6a9fccdf7bc55bbe1e9048eb6e260b4228856a"
+        },
+        {
+          "path": "classes.jar!androidx/drawerlayout/widget/DrawerLayout$SavedState.class",
+          "bytes": 1840,
+          "sha256": "c454ff065210b3dbf7c9f1ce652d7cce42389f53d7df6d000df68015d0ee4c53"
+        },
+        {
+          "path": "classes.jar!androidx/drawerlayout/widget/DrawerLayout$SimpleDrawerListener.class",
+          "bytes": 1028,
+          "sha256": "314a75974c931a01fa8292f9b80086a0f2fa43405e651ec69e1edcd8ef2a39ae"
+        },
+        {
+          "path": "classes.jar!androidx/drawerlayout/widget/DrawerLayout$ViewDragCallback$1.class",
+          "bytes": 848,
+          "sha256": "d012aafbc3f0c2fa20ca96ae9057e8671eda02458db193a829be798f8bc88d1f"
+        },
+        {
+          "path": "classes.jar!androidx/drawerlayout/widget/DrawerLayout$ViewDragCallback.class",
+          "bytes": 5594,
+          "sha256": "c885e3fd5449908179a49b724d26b161cd37473e93fe02eea9b021522d51006a"
+        },
+        {
+          "path": "classes.jar!androidx/drawerlayout/widget/DrawerLayout.class",
+          "bytes": 37138,
+          "sha256": "ed7015754c4476fb489f947ef99688f419488acd281d1d3c82d6ef787b7f3065"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": [],
+      "lineage": []
+    }
+  }
+}
