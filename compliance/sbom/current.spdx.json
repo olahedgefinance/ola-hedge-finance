@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-Package-ola-hedge-finance"
   ],
-  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/44ef3effc9dda283",
+  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/4f5efbeefeb6c346",
   "name": "ola-hedge-finance-5.4.3+416",
   "packages": [
     {
@@ -3155,7 +3155,7 @@
           "checksumValue": "edc87079f3c8917f2fa5620e594d10deef81bbf3d7a89cf99441dec955a06d9f"
         }
       ],
-      "comment": "ecosystem=pub; relationship=direct-runtime; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector; retained authenticated notice set; sourceRepository=https://github.com/amake/flutter_charset_detector",
+      "comment": "ecosystem=pub; relationship=direct-runtime; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#flutter_charset_detector; sourceRepository=https://github.com/amake/flutter_charset_detector; notes=Needs Verification: Main archive includes example content whose acquisition/rights provenance is not established; do not promote the whole component from a wrapper-only finding. The MPL-1.1 detector notice names external engines; no OR election is supplied. Technical source/notice evidence only; not legal clearance, release clearance or binary verification. Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open. Exact Pub archive verified; repository/tag/commit equivalence is not asserted.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://pub.dev/packages/flutter_charset_detector/versions/1.0.2",
       "externalRefs": [
@@ -3180,7 +3180,7 @@
           "checksumValue": "2439a3bf418fe0fb962fc3dc9d0401c3561a497017bc587b9c48a47490f9c428"
         }
       ],
-      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector_android; retained authenticated notice set; sourceRepository=https://github.com/amake/flutter_charset_detector",
+      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector_android; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#flutter_charset_detector_android; sourceRepository=https://github.com/amake/flutter_charset_detector; notes=Verified with conditions:  Technical source/notice evidence only; not legal clearance, release clearance or binary verification. Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open. Exact Pub archive verified; repository/tag/commit equivalence is not asserted. MPL-1.1 juniversalchardet/uchardet notices are retained but their implementation bytes are absent from this archive; external engine declarations/native evidence are unchanged. Family-labelled MPL-2.0 applies to the hosted wrapper/source/build/docs archive; separately fetched dependencies are not included in this declaration.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://pub.dev/packages/flutter_charset_detector_android/versions/1.0.0",
       "externalRefs": [
@@ -3192,7 +3192,7 @@
       ],
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "MPL-2.0",
       "name": "flutter_charset_detector_android",
       "supplier": "NOASSERTION",
       "versionInfo": "1.0.0"
@@ -3205,7 +3205,7 @@
           "checksumValue": "e0e2c7b819cd1f7c9a50da94bf7f0e6d7a095eb64e81196ec758e77793903d43"
         }
       ],
-      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector_ios; retained authenticated notice set; sourceRepository=https://github.com/amake/flutter_charset_detector",
+      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector_ios; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#flutter_charset_detector_ios; sourceRepository=https://github.com/amake/flutter_charset_detector; notes=Verified with conditions:  Technical source/notice evidence only; not legal clearance, release clearance or binary verification. Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open. Exact Pub archive verified; repository/tag/commit equivalence is not asserted. MPL-1.1 juniversalchardet/uchardet notices are retained but their implementation bytes are absent from this archive; external engine declarations/native evidence are unchanged. Family-labelled MPL-2.0 applies to the hosted wrapper/source/build/docs archive; separately fetched dependencies are not included in this declaration.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://pub.dev/packages/flutter_charset_detector_ios/versions/1.0.2",
       "externalRefs": [
@@ -3217,7 +3217,7 @@
       ],
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "MPL-2.0",
       "name": "flutter_charset_detector_ios",
       "supplier": "NOASSERTION",
       "versionInfo": "1.0.2"
@@ -3230,7 +3230,7 @@
           "checksumValue": "1c09ed7b314a5a9dde76057b98b7d35458ba881eed03d5e5b6f7f74b4869d18c"
         }
       ],
-      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector_platform_interface; retained authenticated notice set; sourceRepository=https://github.com/amake/flutter_charset_detector",
+      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector_platform_interface; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#flutter_charset_detector_platform_interface; sourceRepository=https://github.com/amake/flutter_charset_detector; notes=Verified with conditions:  Technical source/notice evidence only; not legal clearance, release clearance or binary verification. Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open. Exact Pub archive verified; repository/tag/commit equivalence is not asserted. MPL-1.1 juniversalchardet/uchardet notices are retained but their implementation bytes are absent from this archive; external engine declarations/native evidence are unchanged. Family-labelled MPL-2.0 applies to the hosted wrapper/source/build/docs archive; separately fetched dependencies are not included in this declaration.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://pub.dev/packages/flutter_charset_detector_platform_interface/versions/1.1.0",
       "externalRefs": [
@@ -3242,7 +3242,7 @@
       ],
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "MPL-2.0",
       "name": "flutter_charset_detector_platform_interface",
       "supplier": "NOASSERTION",
       "versionInfo": "1.1.0"
@@ -4087,7 +4087,7 @@
           "checksumValue": "021834d9c0c3de46bf0fe40341fa07168407f694d9b2bb18d532dc1261867f7a"
         }
       ],
-      "comment": "ecosystem=pub; relationship=direct-runtime; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker; retained authenticated notice set; sourceRepository=https://github.com/flutter/packages/tree/main/packages/image_picker/image_picker",
+      "comment": "ecosystem=pub; relationship=direct-runtime; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#image_picker; sourceRepository=https://github.com/flutter/packages/tree/main/packages/image_picker/image_picker; notes=Needs Verification: Root LICENSE retains the aFileChooser Apache section, but the exact archive does not establish its current source boundary. Neither BSD-only nor a cumulative package declaration is promoted without that scope evidence. Technical source/notice evidence only; not legal clearance, release clearance or binary verification. Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open. Exact Pub archive verified; repository/tag/commit equivalence is not asserted.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://pub.dev/packages/image_picker/versions/1.1.2",
       "externalRefs": [
@@ -4112,7 +4112,7 @@
           "checksumValue": "d6a6e78821086b0b737009b09363018309bbc6de3fd88cc5c26bc2bb44a4957f"
         }
       ],
-      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker_android; retained authenticated notice set; sourceRepository=https://github.com/flutter/packages/tree/main/packages/image_picker/image_picker_android",
+      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker_android; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#image_picker_android; sourceRepository=https://github.com/flutter/packages/tree/main/packages/image_picker/image_picker_android; notes=Verified with conditions:  Technical source/notice evidence only; not legal clearance, release clearance or binary verification. Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open. Exact Pub archive verified; repository/tag/commit equivalence is not asserted. External Maven/native dependency licences and runtime binaries are not certified by this Pub-source declaration.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://pub.dev/packages/image_picker_android/versions/0.8.8+2",
       "externalRefs": [
@@ -4124,7 +4124,7 @@
       ],
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
       "name": "image_picker_android",
       "supplier": "NOASSERTION",
       "versionInfo": "0.8.8+2"
@@ -4162,7 +4162,7 @@
           "checksumValue": "76ec722aeea419d03aa915c2c96bf5b47214b053899088c9abb4086ceecf97a7"
         }
       ],
-      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker_ios; retained authenticated notice set; sourceRepository=https://github.com/flutter/packages/tree/main/packages/image_picker/image_picker_ios",
+      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker_ios; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#image_picker_ios; sourceRepository=https://github.com/flutter/packages/tree/main/packages/image_picker/image_picker_ios; notes=Needs Verification: Root LICENSE retains the aFileChooser Apache section, but the exact archive does not establish its current source boundary. Neither BSD-only nor a cumulative package declaration is promoted without that scope evidence. Technical source/notice evidence only; not legal clearance, release clearance or binary verification. Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open. Exact Pub archive verified; repository/tag/commit equivalence is not asserted.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://pub.dev/packages/image_picker_ios/versions/0.8.8+4",
       "externalRefs": [
@@ -6663,7 +6663,7 @@
           "checksumValue": "56536254004e24d9d8cfdb7dbbf09b74cf8df96729f38a2f5c238163e3d58971"
         }
       ],
-      "comment": "ecosystem=pub; relationship=direct-runtime; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:universal_html; retained authenticated notice set; sourceRepository=https://github.com/dint-dev/universal_html",
+      "comment": "ecosystem=pub; relationship=direct-runtime; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:universal_html; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#universal_html; sourceRepository=https://github.com/dint-dev/universal_html; notes=Needs Verification: Root Apache-2.0, BSD csslib and MIT html notices remain intact. Exact scope of copied MIT material versus separately imported dependencies is not established; no package-level expression is promoted. Technical source/notice evidence only; not legal clearance, release clearance or binary verification. Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open. Exact Pub archive verified; repository/tag/commit equivalence is not asserted.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://pub.dev/packages/universal_html/versions/2.2.4",
       "externalRefs": [
@@ -6863,7 +6863,7 @@
           "checksumValue": "8d9e750d8c9338601e709cd0885f95825086bd8b642547f26bda435aade95d8a"
         }
       ],
-      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:url_launcher_web; retained authenticated notice set; sourceRepository=https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_web",
+      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:url_launcher_web; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#url_launcher_web; sourceRepository=https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_web; notes=Needs Verification: Retained platform_detect Apache notice and recorded removal of nested Safari code do not prove whether the current check is adapted Apache code or the notice is stale; preserve NOASSERTION and both notices. Technical source/notice evidence only; not legal clearance, release clearance or binary verification. Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open. Exact Pub archive verified; repository/tag/commit equivalence is not asserted.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://pub.dev/packages/url_launcher_web/versions/2.3.1",
       "externalRefs": [
@@ -6963,7 +6963,7 @@
           "checksumValue": "80b3257d1492ce4d091729e3a67a60407d227c27241d6927be0130c98e741803"
         }
       ],
-      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:vector_math; retained authenticated notice set; sourceRepository=https://github.com/google/vector_math.dart",
+      "comment": "ecosystem=pub; relationship=transitive; source=hosted; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:vector_math; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#vector_math; sourceRepository=https://github.com/google/vector_math.dart; notes=Verified with conditions:  Technical source/notice evidence only; not legal clearance, release clearance or binary verification. Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open. Exact Pub archive verified; repository/tag/commit equivalence is not asserted. Identifies supplied grants and concrete source boundaries, not exhaustive upstream chain of title. Stefan Gustavson, Terathon and Richard Carling derivation references remain source/provenance limitations and are recorded in the review.",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://pub.dev/packages/vector_math/versions/2.1.4",
       "externalRefs": [
@@ -6975,7 +6975,7 @@
       ],
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause AND Zlib",
       "name": "vector_math",
       "supplier": "NOASSERTION",
       "versionInfo": "2.1.4"

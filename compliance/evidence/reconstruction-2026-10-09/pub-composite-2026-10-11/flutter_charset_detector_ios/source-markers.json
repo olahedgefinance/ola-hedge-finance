@@ -1,0 +1,714 @@
+[
+  {
+    "path": "CHANGELOG.md",
+    "sha256": "443ff4dc55db682c8f24846068c89d824a0acbdc807c3a9f186a429ccbae0ed3",
+    "markers": [
+      {
+        "line": 2,
+        "text": "* Update UniversalDetector2 to v2.0.1"
+      },
+      {
+        "line": 5,
+        "text": "* Peg UniversalDetector2 to v2.0.0"
+      }
+    ]
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "47aa01302693c2ab65f56c90c500f43d5fb4ddda5a4ced1cd102254df3865eb3",
+    "markers": [
+      {
+        "line": 2,
+        "text": "UniversalDetector"
+      },
+      {
+        "line": 4,
+        "text": "Mozilla Public License Version 2.0"
+      },
+      {
+        "line": 27,
+        "text": "1.5. \"Incompatible With Secondary Licenses\""
+      },
+      {
+        "line": 34,
+        "text": "        version 1.1 or earlier of the License, but not also under the"
+      },
+      {
+        "line": 35,
+        "text": "        terms of a Secondary License."
+      },
+      {
+        "line": 44,
+        "text": "1.8. \"License\""
+      },
+      {
+        "line": 50,
+        "text": "    all of the rights conveyed by this License."
+      },
+      {
+        "line": 66,
+        "text": "    License, by the making, using, selling, offering for sale, having"
+      },
+      {
+        "line": 70,
+        "text": "1.12. \"Secondary License\""
+      },
+      {
+        "line": 71,
+        "text": "    means either the GNU General Public License, Version 2.0, the GNU"
+      },
+      {
+        "line": 72,
+        "text": "    Lesser General Public License, Version 2.1, the GNU Affero General"
+      },
+      {
+        "line": 73,
+        "text": "    Public License, Version 3.0, or any later versions of those"
+      },
+      {
+        "line": 74,
+        "text": "    licenses."
+      },
+      {
+        "line": 81,
+        "text": "    License. For legal entities, \"You\" includes any entity that"
+      },
+      {
+        "line": 89,
+        "text": "2. License Grants and Conditions"
+      },
+      {
+        "line": 95,
+        "text": "non-exclusive license:"
+      },
+      {
+        "line": 109,
+        "text": "The licenses granted in Section 2.1 with respect to any Contribution"
+      },
+      {
+        "line": 115,
+        "text": "The licenses granted in this Section 2 are the only rights granted under"
+      },
+      {
+        "line": 116,
+        "text": "this License. No additional rights or licenses will be implied from the"
+      },
+      {
+        "line": 117,
+        "text": "distribution or licensing of Covered Software under this License."
+      },
+      {
+        "line": 118,
+        "text": "Notwithstanding Section 2.1(b) above, no patent license is granted by a"
+      },
+      {
+        "line": 132,
+        "text": "This License does not grant any rights in the trademarks, service marks,"
+      },
+      {
+        "line": 136,
+        "text": "2.4. Subsequent Licenses"
+      },
+      {
+        "line": 140,
+        "text": "License (see Section 10.2) or under the terms of a Secondary License (if"
+      },
+      {
+        "line": 147,
+        "text": "to grant the rights to its Contributions conveyed by this License."
+      },
+      {
+        "line": 151,
+        "text": "This License is not intended to limit any rights You have under"
+      },
+      {
+        "line": 152,
+        "text": "applicable copyright doctrines of fair use, fair dealing, or other"
+      },
+      {
+        "line": 157,
+        "text": "Sections 3.1, 3.2, 3.3, and 3.4 are conditions of the licenses granted"
+      },
+      {
+        "line": 167,
+        "text": "the terms of this License. You must inform recipients that the Source"
+      },
+      {
+        "line": 169,
+        "text": "License, and how they can obtain a copy of this License. You may not"
+      },
+      {
+        "line": 184,
+        "text": "    License, or sublicense it under different terms, provided that the"
+      },
+      {
+        "line": 185,
+        "text": "    license for the Executable Form does not attempt to limit or alter"
+      },
+      {
+        "line": 186,
+        "text": "    the recipients' rights in the Source Code Form under this License."
+      },
+      {
+        "line": 191,
+        "text": "provided that You also comply with the requirements of this License for"
+      },
+      {
+        "line": 193,
+        "text": "Software with a work governed by one or more Secondary Licenses, and the"
+      },
+      {
+        "line": 194,
+        "text": "Covered Software is not Incompatible With Secondary Licenses, this"
+      },
+      {
+        "line": 195,
+        "text": "License permits You to additionally distribute such Covered Software"
+      },
+      {
+        "line": 196,
+        "text": "under the terms of such Secondary License(s), so that the recipient of"
+      },
+      {
+        "line": 198,
+        "text": "Software under the terms of either this License or such Secondary"
+      },
+      {
+        "line": 199,
+        "text": "License(s)."
+      },
+      {
+        "line": 203,
+        "text": "You may not remove or alter the substance of any license notices"
+      },
+      {
+        "line": 204,
+        "text": "(including copyright notices, patent notices, disclaimers of warranty,"
+      },
+      {
+        "line": 206,
+        "text": "the Covered Software, except that You may alter any license notices to"
+      },
+      {
+        "line": 226,
+        "text": "License with respect to some or all of the Covered Software due to"
+      },
+      {
+        "line": 228,
+        "text": "the terms of this License to the maximum extent possible; and (b)"
+      },
+      {
+        "line": 231,
+        "text": "Software under this License. Except to the extent prohibited by statute"
+      },
+      {
+        "line": 238,
+        "text": "5.1. The rights granted under this License will terminate automatically"
+      },
+      {
+        "line": 240,
+        "text": "compliant, then the rights granted under this License from a particular"
+      },
+      {
+        "line": 248,
+        "text": "first time You have received notice of non-compliance with this License"
+      },
+      {
+        "line": 257,
+        "text": "2.1 of this License shall terminate."
+      },
+      {
+        "line": 260,
+        "text": "end user license agreements (excluding distributors and resellers) which"
+      },
+      {
+        "line": 261,
+        "text": "have been validly granted by You or Your distributors under this License"
+      },
+      {
+        "line": 269,
+        "text": "*  Covered Software is provided under this License on an \"as is\"       *"
+      },
+      {
+        "line": 278,
+        "text": "*  essential part of this License. No use of any Covered Software is   *"
+      },
+      {
+        "line": 279,
+        "text": "*  authorized under this License except under this disclaimer.         *"
+      },
+      {
+        "line": 309,
+        "text": "Any litigation relating to this License may be brought only in the"
+      },
+      {
+        "line": 319,
+        "text": "This License represents the complete agreement concerning the subject"
+      },
+      {
+        "line": 320,
+        "text": "matter hereof. If any provision of this License is held to be"
+      },
+      {
+        "line": 324,
+        "text": "shall not be used to construe this License against a Contributor."
+      },
+      {
+        "line": 326,
+        "text": "10. Versions of the License"
+      },
+      {
+        "line": 331,
+        "text": "Mozilla Foundation is the license steward. Except as provided in Section"
+      },
+      {
+        "line": 332,
+        "text": "10.3, no one other than the license steward has the right to modify or"
+      },
+      {
+        "line": 333,
+        "text": "publish new versions of this License. Each version will be given a"
+      },
+      {
+        "line": 339,
+        "text": "of the License under which You originally received the Covered Software,"
+      },
+      {
+        "line": 340,
+        "text": "or under the terms of any subsequent version published by the license"
+      },
+      {
+        "line": 345,
+        "text": "If you create software not governed by this License, and you want to"
+      },
+      {
+        "line": 346,
+        "text": "create a new license for such software, you may create and use a"
+      },
+      {
+        "line": 347,
+        "text": "modified version of this License if you rename the license and remove"
+      },
+      {
+        "line": 348,
+        "text": "any references to the name of the license steward (except to note that"
+      },
+      {
+        "line": 349,
+        "text": "such modified license differs from this License)."
+      },
+      {
+        "line": 352,
+        "text": "Licenses"
+      },
+      {
+        "line": 355,
+        "text": "Secondary Licenses under the terms of this version of the License, the"
+      },
+      {
+        "line": 356,
+        "text": "notice described in Exhibit B of this License must be attached."
+      },
+      {
+        "line": 358,
+        "text": "Exhibit A - Source Code Form License Notice"
+      },
+      {
+        "line": 362,
+        "text": "  License, v. 2.0. If a copy of the MPL was not distributed with this"
+      },
+      {
+        "line": 366,
+        "text": "file, then You may include the notice in a location (such as a LICENSE"
+      },
+      {
+        "line": 370,
+        "text": "You may add additional accurate notices of copyright ownership."
+      },
+      {
+        "line": 372,
+        "text": "Exhibit B - \"Incompatible With Secondary Licenses\" Notice"
+      },
+      {
+        "line": 375,
+        "text": "  This Source Code Form is \"Incompatible With Secondary Licenses\", as"
+      },
+      {
+        "line": 376,
+        "text": "  defined by the Mozilla Public License, v. 2.0."
+      },
+      {
+        "line": 379,
+        "text": "juniversalchardet"
+      },
+      {
+        "line": 380,
+        "text": "uchardet"
+      },
+      {
+        "line": 382,
+        "text": "                          MOZILLA PUBLIC LICENSE"
+      },
+      {
+        "line": 415,
+        "text": "     portions thereof with code not governed by the terms of this License."
+      },
+      {
+        "line": 417,
+        "text": "     1.8. \"License\" means this document."
+      },
+      {
+        "line": 436,
+        "text": "     License is not already Covered Code governed by this License."
+      },
+      {
+        "line": 454,
+        "text": "     License or a future version of this License issued under Section 6.1."
+      },
+      {
+        "line": 463,
+        "text": "2. Source Code License."
+      },
+      {
+        "line": 467,
+        "text": "     non-exclusive license, subject to third party intellectual property"
+      },
+      {
+        "line": 471,
+        "text": "          modify, display, perform, sublicense and distribute the Original"
+      },
+      {
+        "line": 480,
+        "text": "          (c) the licenses granted in this Section 2.1(a) and (b) are"
+      },
+      {
+        "line": 482,
+        "text": "          Original Code under the terms of this License."
+      },
+      {
+        "line": 484,
+        "text": "          (d) Notwithstanding Section 2.1(b) above, no patent license is"
+      },
+      {
+        "line": 492,
+        "text": "     hereby grants You a world-wide, royalty-free, non-exclusive license"
+      },
+      {
+        "line": 496,
+        "text": "          display, perform, sublicense and distribute the Modifications"
+      },
+      {
+        "line": 510,
+        "text": "          (c) the licenses granted in Sections 2.2(a) and 2.2(b) are"
+      },
+      {
+        "line": 514,
+        "text": "          (d)    Notwithstanding Section 2.2(b) above, no patent license is"
+      },
+      {
+        "line": 526,
+        "text": "     3.1. Application of License."
+      },
+      {
+        "line": 528,
+        "text": "     governed by the terms of this License, including without limitation"
+      },
+      {
+        "line": 530,
+        "text": "     distributed only under the terms of this License or a future version"
+      },
+      {
+        "line": 531,
+        "text": "     of this License released under Section 6.1, and You must include a"
+      },
+      {
+        "line": 532,
+        "text": "     copy of this License with every copy of the Source Code You"
+      },
+      {
+        "line": 535,
+        "text": "     License or the recipients' rights hereunder. However, You may include"
+      },
+      {
+        "line": 541,
+        "text": "     made available in Source Code form under the terms of this License"
+      },
+      {
+        "line": 564,
+        "text": "          If Contributor has knowledge that a license under a third party's"
+      },
+      {
+        "line": 580,
+        "text": "          interface and Contributor has knowledge of patent licenses which"
+      },
+      {
+        "line": 589,
+        "text": "          this License."
+      },
+      {
+        "line": 598,
+        "text": "     Exhibit A.  You must also duplicate this License in any documentation"
+      },
+      {
+        "line": 615,
+        "text": "     the Covered Code is available under the terms of this License,"
+      },
+      {
+        "line": 621,
+        "text": "     Code or ownership rights under a license of Your choice, which may"
+      },
+      {
+        "line": 622,
+        "text": "     contain terms different from this License, provided that You are in"
+      },
+      {
+        "line": 623,
+        "text": "     compliance with the terms of this License and that the license for the"
+      },
+      {
+        "line": 626,
+        "text": "     License. If You distribute the Executable version under a different"
+      },
+      {
+        "line": 627,
+        "text": "     license You must make it absolutely clear that any terms which differ"
+      },
+      {
+        "line": 628,
+        "text": "     from this License are offered by You alone, not by the Initial"
+      },
+      {
+        "line": 636,
+        "text": "     not governed by the terms of this License and distribute the Larger"
+      },
+      {
+        "line": 638,
+        "text": "     requirements of this License are fulfilled for the Covered Code."
+      },
+      {
+        "line": 643,
+        "text": "     License with respect to some or all of the Covered Code due to"
+      },
+      {
+        "line": 645,
+        "text": "     the terms of this License to the maximum extent possible; and (b)"
+      },
+      {
+        "line": 653,
+        "text": "5. Application of this License."
+      },
+      {
+        "line": 655,
+        "text": "     This License applies to code to which the Initial Developer has"
+      },
+      {
+        "line": 658,
+        "text": "6. Versions of the License."
+      },
+      {
+        "line": 662,
+        "text": "     and/or new versions of the License from time to time. Each version"
+      },
+      {
+        "line": 667,
+        "text": "     License, You may always continue to use it under the terms of that"
+      },
+      {
+        "line": 669,
+        "text": "     of any subsequent version of the License published by Netscape. No one"
+      },
+      {
+        "line": 671,
+        "text": "     Covered Code created under this License."
+      },
+      {
+        "line": 674,
+        "text": "     If You create or use a modified version of this License (which you may"
+      },
+      {
+        "line": 676,
+        "text": "     governed by this License), You must (a) rename Your license so that"
+      },
+      {
+        "line": 679,
+        "text": "     license (except to note that your license differs from this License)"
+      },
+      {
+        "line": 680,
+        "text": "     and (b) otherwise make it clear that Your version of the license"
+      },
+      {
+        "line": 681,
+        "text": "     contains terms which differ from the Mozilla Public License and"
+      },
+      {
+        "line": 682,
+        "text": "     Netscape Public License. (Filling in the name of the Initial"
+      },
+      {
+        "line": 685,
+        "text": "     this License.)"
+      },
+      {
+        "line": 689,
+        "text": "     COVERED CODE IS PROVIDED UNDER THIS LICENSE ON AN \"AS IS\" BASIS,"
+      },
+      {
+        "line": 697,
+        "text": "     OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF"
+      },
+      {
+        "line": 702,
+        "text": "     8.1.  This License and the rights granted hereunder will terminate"
+      },
+      {
+        "line": 705,
+        "text": "     sublicenses to the Covered Code which are properly granted shall"
+      },
+      {
+        "line": 706,
+        "text": "     survive any termination of this License. Provisions which, by their"
+      },
+      {
+        "line": 707,
+        "text": "     nature, must remain in effect beyond the termination of this License"
+      },
+      {
+        "line": 717,
+        "text": "     Participant to You under Sections 2.1 and/or 2.2 of this License"
+      },
+      {
+        "line": 740,
+        "text": "     by license or settlement) prior to the initiation of patent"
+      },
+      {
+        "line": 741,
+        "text": "     infringement litigation, then the reasonable value of the licenses"
+      },
+      {
+        "line": 744,
+        "text": "     license."
+      },
+      {
+        "line": 747,
+        "text": "     all end user license agreements (excluding distributors and resellers)"
+      },
+      {
+        "line": 780,
+        "text": "     This License represents the complete agreement concerning subject"
+      },
+      {
+        "line": 781,
+        "text": "     matter hereof. If any provision of this License is held to be"
+      },
+      {
+        "line": 783,
+        "text": "     necessary to make it enforceable. This License shall be governed by"
+      },
+      {
+        "line": 788,
+        "text": "     States of America, any litigation relating to this License shall be"
+      },
+      {
+        "line": 797,
+        "text": "     License."
+      },
+      {
+        "line": 803,
+        "text": "     out of its utilization of rights under this License and You agree to"
+      },
+      {
+        "line": 808,
+        "text": "13. MULTIPLE-LICENSED CODE."
+      },
+      {
+        "line": 811,
+        "text": "     \"Multiple-Licensed\".  \"Multiple-Licensed\" means that the Initial"
+      },
+      {
+        "line": 813,
+        "text": "     Your choice of the MPL or the alternative licenses, if any, specified"
+      },
+      {
+        "line": 816,
+        "text": "EXHIBIT A -Mozilla Public License."
+      },
+      {
+        "line": 818,
+        "text": "     ``The contents of this file are subject to the Mozilla Public License"
+      },
+      {
+        "line": 819,
+        "text": "     Version 1.1 (the \"License\"); you may not use this file except in"
+      },
+      {
+        "line": 820,
+        "text": "     compliance with the License. You may obtain a copy of the License at"
+      },
+      {
+        "line": 823,
+        "text": "     Software distributed under the License is distributed on an \"AS IS\""
+      },
+      {
+        "line": 825,
+        "text": "     License for the specific language governing rights and limitations"
+      },
+      {
+        "line": 826,
+        "text": "     under the License."
+      },
+      {
+        "line": 831,
+        "text": "     Portions created by ______________________ are Copyright (C) ______"
+      },
+      {
+        "line": 837,
+        "text": "     of the _____ license (the  \"[___] License\"), in which case the"
+      },
+      {
+        "line": 838,
+        "text": "     provisions of [______] License are applicable instead of those"
+      },
+      {
+        "line": 840,
+        "text": "     under the terms of the [____] License and not to allow others to use"
+      },
+      {
+        "line": 843,
+        "text": "     other provisions required by the [___] License.  If you do not delete"
+      },
+      {
+        "line": 845,
+        "text": "     under either the MPL or the [___] License.\""
+      }
+    ]
+  },
+  {
+    "path": "ios/Classes/SwiftFlutterCharsetDetectorPlugin.swift",
+    "sha256": "887fda41e1c6cf9fa1ebd8e3d607a121ce0865e58c12c8ac4095da443a0bac82",
+    "markers": [
+      {
+        "line": 3,
+        "text": "import UniversalDetector2"
+      },
+      {
+        "line": 33,
+        "text": "        guard let encodingName = UniversalDetector.encodingAsString(with: data.data) else {"
+      }
+    ]
+  },
+  {
+    "path": "ios/flutter_charset_detector_ios.podspec",
+    "sha256": "c3ce637be0a1c9b075fff9ec13f2971deae6696a67fdb2ea68aa808283e7a7c4",
+    "markers": [
+      {
+        "line": 14,
+        "text": "  s.license          = { file: '../LICENSE' }"
+      },
+      {
+        "line": 25,
+        "text": "  s.dependency 'UniversalDetector2', '2.0.1'"
+      }
+    ]
+  }
+]

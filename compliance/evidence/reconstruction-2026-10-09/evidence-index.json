@@ -2925,6 +2925,514 @@
       "sha256": "b0dec61fd4d56289273c11d1d84841569b9426fa230062b86e43d0820fe0a95e"
     },
     {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/README.md",
+      "sha256": "0d6f07e946422af9075f97001aef33f2c3b00f5728bff7e6e34f8829e3220eea"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector/archive-inventory.json",
+      "sha256": "a4ecc7fd566498251a9df4a246b700222b199a893640a0b82e4b2e1fdebda889"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector/release.json",
+      "sha256": "5aed2cc2715e958545253e9e81518529137ded9b9a55e738bd45f3d0870dfee3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector/source-markers.json",
+      "sha256": "1d4550c755d42b794f0f6272e3ebb65926a1afd2a18e2a7bbefc8c697f52450e"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector/source/CHANGELOG.md",
+      "sha256": "00c887777d9260595253ae0e65a0c719313c716ebf5896c5170c24e4885293d1"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector/source/LICENSE",
+      "sha256": "47aa01302693c2ab65f56c90c500f43d5fb4ddda5a4ced1cd102254df3865eb3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector/source/README.md",
+      "sha256": "ab7733bfd07cb816b4032685c94737b693d4f22facb840309e1790636d89dad0"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector/source/example/README.md",
+      "sha256": "d1915b9ea9ae3e10caa346096e6f28c587e1a9799a9657d9ded90bb8cce79b85"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector/source/example/assets/sjis-example.txt",
+      "sha256": "3bf679d4a93704765050c124c5f25f338a359e6c029791245454973171fd1e39"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector/source/example/ios/Flutter/Flutter.podspec",
+      "sha256": "e28230c45cb45d2b3fb6f3c0270ffd0d4c068e0a9ec36b8b7fd9bf78d1787869"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector/source/example/pubspec.yaml",
+      "sha256": "19065c1218d5d5c02104dd7c2012e794fa3034c999f955bbb64a26341ae5d907"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector/source/lib/flutter_charset_detector.dart",
+      "sha256": "5a8a3b0738b3c714957cc09a3676ae2909582150f3642d159c587009d042d75a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector/source/pubspec.yaml",
+      "sha256": "f1746d37bda93dbfffaaf16b2ecdd9bf6db928d50774323708aad3b4b2a4681b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/archive-inventory.json",
+      "sha256": "c45a11154d4cbcb5b11456d21daca82f1bb91d9c652b2763a40b313c053a21ea"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/release.json",
+      "sha256": "24cda3b39ab85062a8e30b131ed485b6392df4b1957e73adf1b9d794b7c61535"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/source-markers.json",
+      "sha256": "c2ecc4d16396d01bc72478ee0c0cbcdaeba8ae12f597efab1d4e056157903660"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/source/CHANGELOG.md",
+      "sha256": "bee00470f00df2c8d8267da9c9dc36009b9f23042ebd27c0efed55e343d12e61"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/source/LICENSE",
+      "sha256": "47aa01302693c2ab65f56c90c500f43d5fb4ddda5a4ced1cd102254df3865eb3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/source/README.md",
+      "sha256": "c3b2098dc36c7274a28690751130c712eb857ca2dc4bff4940aff35dec550a84"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/source/analysis_options.yaml",
+      "sha256": "8028a4c5ff482599e0246972274d821d6ad2ac7941b4d3db344dff0d66295ac7"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/source/android/build.gradle",
+      "sha256": "590f0bea10856c32fdd42484123c831c8cc74e41e77a9ee6ed68c05d4f32289b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/source/android/gradle.properties",
+      "sha256": "3c1fc1d9cad8765e2b44821c4774644b590bb58ecab6beb4bae2470ece0175be"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/source/android/gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "d32d1e736e36f83b0f4215778fd5057fb4483b8a4bca71f1e66c34eae3ee887e"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/source/android/local.properties",
+      "sha256": "315941386cd189266717016c9cf397d7460dc062449a8ad1bc3db59468cd69fa"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/source/android/settings.gradle",
+      "sha256": "1df387a684503a92b9fd37a07c8e9db6f0368e47524cc6a764bfe7a11e7f1259"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/source/android/src/main/AndroidManifest.xml",
+      "sha256": "63d346111a66a1c8277256b4d596202acf5d45622d1306711d73fdcf321bbe00"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/source/android/src/main/kotlin/com/madlonkay/flutter_charset_detector/FlutterCharsetDetectorPlugin.kt",
+      "sha256": "8958436319e81101c9dad4dcdb8fc7542b3a253c3fa0d85a26f576573e8e96be"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/source/lib/flutter_charset_detector_android.dart",
+      "sha256": "95cec01346242e7cec8d4fa54db9e6c9ffe33d4b28d70485210ed6427a5c0e37"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_android/source/pubspec.yaml",
+      "sha256": "732ad4bdb7a4f268d50c9a40418b7b6f32106a2834724a89458f5f1893fb8e87"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_ios/archive-inventory.json",
+      "sha256": "6dbb3f5c7b83596b0428d08d5dc26fbf9fde4f54f29c975992004fff1fc41172"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_ios/release.json",
+      "sha256": "93264ac98d14e89c0eb61579ece7c03973ba2bf3df4f01ea49e1bdb2e955e5ff"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_ios/source-markers.json",
+      "sha256": "f7f4114ed44667484e0381ab693f83d618be9ae3e3029082011b8c6b091fb572"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_ios/source/CHANGELOG.md",
+      "sha256": "443ff4dc55db682c8f24846068c89d824a0acbdc807c3a9f186a429ccbae0ed3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_ios/source/LICENSE",
+      "sha256": "47aa01302693c2ab65f56c90c500f43d5fb4ddda5a4ced1cd102254df3865eb3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_ios/source/README.md",
+      "sha256": "380953bac49798d9f4aed06058d0779a3f4ac093ea2342a75450a0511174c546"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_ios/source/analysis_options.yaml",
+      "sha256": "8028a4c5ff482599e0246972274d821d6ad2ac7941b4d3db344dff0d66295ac7"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_ios/source/ios/Classes/FlutterCharsetDetectorPlugin.h",
+      "sha256": "cbb72a30806d033c285ff2fb97592a8c5e8c11f79d6c3ecff149fbe384799e8c"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_ios/source/ios/Classes/FlutterCharsetDetectorPlugin.m",
+      "sha256": "0a36bb5808b29dea2288db56938ba8a3d4703a229ecd4c899f7b4835636eff4a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_ios/source/ios/Classes/SwiftFlutterCharsetDetectorPlugin.swift",
+      "sha256": "887fda41e1c6cf9fa1ebd8e3d607a121ce0865e58c12c8ac4095da443a0bac82"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_ios/source/ios/flutter_charset_detector_ios.podspec",
+      "sha256": "c3ce637be0a1c9b075fff9ec13f2971deae6696a67fdb2ea68aa808283e7a7c4"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_ios/source/lib/flutter_charset_detector_ios.dart",
+      "sha256": "83fc4ca130e831377fb970999f930aea86d6a3b9ebc0fee90e085be995f3557f"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_ios/source/pubspec.yaml",
+      "sha256": "c4cbb3fea6193afa1ff2e1849154d8c77da0f89dd3d5f7e45fdbf1e9e02db74f"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_platform_interface/archive-inventory.json",
+      "sha256": "48b6deeff74b356e0f1cb5ae28f219174e499f956cd6a006cbfbf8daf17d63ea"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_platform_interface/release.json",
+      "sha256": "e3746623e9e2b927a7ed611f2bd3dbf6ab71fddb4f2b18eafef157e94dca88bd"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_platform_interface/source-markers.json",
+      "sha256": "b7ac56830d2a9c750decc0970ba76bf2209890a7fa80ff26d5842a72eb1d964b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_platform_interface/source/CHANGELOG.md",
+      "sha256": "90df7b3096a8f59aae87b37263f76a68ba99c01509f8c105f78c23099f77283e"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_platform_interface/source/LICENSE",
+      "sha256": "47aa01302693c2ab65f56c90c500f43d5fb4ddda5a4ced1cd102254df3865eb3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_platform_interface/source/README.md",
+      "sha256": "aed1973e7cec40a9441ee7f56611b72e49578bfca9c1a4a3fd1ae561fad9bd6d"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_platform_interface/source/analysis_options.yaml",
+      "sha256": "124b1a50c5a69aceaf2bc87cc278ef4d1fa7b9d46b7a24f33ae0a54b9ff5d71b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_platform_interface/source/lib/decoding_result.dart",
+      "sha256": "82f96e1c3cf99a45f74d65d2356cc32dc62dbc72f812916ee2eb2d107ab492f1"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_platform_interface/source/lib/flutter_charset_detector_platform_interface.dart",
+      "sha256": "81e2adab4181099c10a5e71dee04d0ee64e9acadc6145620b19ee085b852dba9"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_platform_interface/source/lib/src/method_channel_charset_detector.dart",
+      "sha256": "8bc80047214eac6022572d3d1e5f88094668332a0c4c2660baef301a8226956d"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/flutter_charset_detector_platform_interface/source/pubspec.yaml",
+      "sha256": "7fd1022d716f8178ec3f4960f6656128fd58a158bb2d6274510713baefde119d"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker/archive-inventory.json",
+      "sha256": "316c75cb8c75746d134a112b7d65a42e7cfd4463a2135c056f33f37d5f3abeb2"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker/release.json",
+      "sha256": "2aabcf4640ca26d7e9b8f7accaf8faa6d08e1c0aa54fdfe469856c16dddc9cde"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker/source-markers.json",
+      "sha256": "5b24ff47d0a6a12aae9e53bb726757b811ea8d485436c7d2e5313e668db352fe"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker/source/AUTHORS",
+      "sha256": "10f7e54c7d9c0d9b3439b9b90fa04f55ef68107853f4d335b74d7cd313475420"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker/source/CHANGELOG.md",
+      "sha256": "f9346aab9c5485061d554e3cd0077bb91982a7adea330811595d79020451295c"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker/source/LICENSE",
+      "sha256": "5be052679cb82ade21607d199dad720f03f00b8c4fb1e91629273f89fbe0fd60"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker/source/README.md",
+      "sha256": "cf9269c8e8f2d11d61230383dbca0be47e4205b4814b3ed069810262d72efba0"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker/source/example/pubspec.yaml",
+      "sha256": "68f7d99d896a0f97ebeeabbd26ad3d82b0b260199bb50f97dad7f2bbedc362f0"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker/source/lib/image_picker.dart",
+      "sha256": "700a11ac4a72430443dea6e7cb5543acc3580faee96bbce8bb65318d6053ea85"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker/source/pubspec.yaml",
+      "sha256": "aaf14a57338b9d88a3d3d4794573a4e9219dd0e80175b90ec71b6aa548f80dfe"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_android/archive-inventory.json",
+      "sha256": "0ee8e3400012a07835747b393e0fe2e29243ed5224a3c91426b2e31c5b8e08fb"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_android/release.json",
+      "sha256": "3486b7756123a6aac0096033014f5d53c5fd8fad3028562eaac06f2cc36583a8"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_android/source-markers.json",
+      "sha256": "aa7a3755e055c93b1e360acdfbe5d9debe2880e6f1d35c4506570bc30a11bc80"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_android/source/AUTHORS",
+      "sha256": "0998711f2c154f372a4fbe404d0a0329efa1a678830ee4a93ac59701be242a7f"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_android/source/CHANGELOG.md",
+      "sha256": "197dfa12875aafae2ed37ef50373fc96a56c6e927df0547b7e5363c8dd854d94"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_android/source/LICENSE",
+      "sha256": "5be052679cb82ade21607d199dad720f03f00b8c4fb1e91629273f89fbe0fd60"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_android/source/README.md",
+      "sha256": "328caa7039273400cbe787448ffd8f25f3d906aeed93d0f212200def4e9694bb"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_android/source/android/src/main/java/io/flutter/plugins/imagepicker/FileUtils.java",
+      "sha256": "f8e23dcbf32356365ed5665c4e869469c35332af89a3af72e314d2182a92a1b6"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_android/source/android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerPlugin.java",
+      "sha256": "269380ae1ea185acaf254f3e43c07f15576e6bff766409c50deecefb567de0aa"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_android/source/example/pubspec.yaml",
+      "sha256": "ac06dc422b4db5712ca9219c455485bb870facd09bb4500804f86862ec033402"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_android/source/lib/image_picker_android.dart",
+      "sha256": "0bdb36a2f909c6d6d01ba31557084c5e187cdfdb0b0c3ab7425c691ff16b6410"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_android/source/pubspec.yaml",
+      "sha256": "d8b4688c8ad25fc0793612e050343f406bc2acb434260767b6555db53b7b3880"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_ios/archive-inventory.json",
+      "sha256": "4058789819d58c00746a4e2259699c0b502fe9937e0406e6771b0016ee0c83fc"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_ios/release.json",
+      "sha256": "5fcc8453a3b016f22041087d9fc052970829abb8a019fa8a138de3e9c55916d6"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_ios/source-markers.json",
+      "sha256": "0be273fac08420f9e1a6b31ba598a10a4579c2618e7095cfeea0c99d3b117ace"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_ios/source/AUTHORS",
+      "sha256": "e89602d9d136178bcf1e20cbdfe98c236050f7fefcd8e9a03a18fbc4aa771af4"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_ios/source/CHANGELOG.md",
+      "sha256": "abb8bbb5532c32f4ed5d23f29f40231b57780361817d47ad20ff1542d8c42d1f"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_ios/source/LICENSE",
+      "sha256": "5be052679cb82ade21607d199dad720f03f00b8c4fb1e91629273f89fbe0fd60"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_ios/source/README.md",
+      "sha256": "d3babf95186cceac674edc3cbce054314f5506572391da2178a9414571ca153e"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_ios/source/example/pubspec.yaml",
+      "sha256": "86c22c701babbfc09c5f55693c9b9da3e9ca9cb891ac17f13799f54b492983f4"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_ios/source/ios/Classes/FLTImagePickerPlugin.m",
+      "sha256": "39d80fa855cdf82cb8a7a767910a700b816b0651bca96d10ceec47052019d237"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_ios/source/lib/image_picker_ios.dart",
+      "sha256": "a654f6b97c19e0e0d8e0aae8f3cebd2123bef1142a2fae0002c40a266f351064"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/image_picker_ios/source/pubspec.yaml",
+      "sha256": "dcf4e81bf3ba23edbebab01b9a74a0f5f14f305e77003c1a66a86365647df1d8"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json",
+      "sha256": "fbb73d5f8b07377867b9182ceba7943d44e4236c93f7efd0aea6a58f09a8dfd2"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/review-charset.md",
+      "sha256": "2e62102e1a9987a61a8079fb64a515dabbe116dfe22bbfcab1c212118c60a215"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/review-image-picker.md",
+      "sha256": "45214c39787188b116204cc28b8d9970803acee0b220f95da3b68747b192cbcd"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/review-other-notice-index.json",
+      "sha256": "f0d3177c7260ee3579ff063c41978054d3809eee4d527af5a657a6dae6a7cd03"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/review-other.md",
+      "sha256": "ad005923812025e36146883a4a3233300743638ed255fdbb50ff4242b3cfed4a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/universal_html/archive-inventory.json",
+      "sha256": "12a6d6677d05a8d7448c3063adacd84c309911f45b53d89848a472832c251eca"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/universal_html/release.json",
+      "sha256": "3763a2317d87c44c64be77f8f74bb87acb8b9b09fdade8f21cf5f5a19c925c6f"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/universal_html/source-markers.json",
+      "sha256": "4d72413307b47db7031bab81a3d1bd47b3fcf71055bb8fc12e8d94a79ca9079b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/universal_html/source/CHANGELOG.md",
+      "sha256": "12c8277fbb19450236ba5789656206b7fc6d712b7cdc915fbe8c823a5b8711fe"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/universal_html/source/LICENSE",
+      "sha256": "dcade640e6022dd9b28d39ed3eadbd4f164304dd4dff489c1bcd911e5b715a79"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/universal_html/source/README.md",
+      "sha256": "600113aeafa279b3bede55ebb10a5f754fd63bd18015a83adcff5b2fe26196a3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/universal_html/source/lib/html.dart",
+      "sha256": "74211e55cfedb4f7bfa3bef7075bbc196ad34abe64d002fcd0f57263537d8c01"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/universal_html/source/lib/src/_sdk/html.dart",
+      "sha256": "3913b406e95f750fc1e4c35b6c22061c0fbfffa1e55bc360c0d6ff8c63ed1265"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/universal_html/source/lib/src/html.dart",
+      "sha256": "4e0ca294404e05b7a063dbf1fe1c7cdec7d5bf92c8c07e004e0eb5006f153f34"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/universal_html/source/lib/src/html/dom/css_selectors.dart",
+      "sha256": "0229abcea03b190dd595792da920255e5d84e33768e041b5cdc9e3e04e585c8a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/universal_html/source/lib/src/html/dom/node.dart",
+      "sha256": "671ddfb991f663800b3502028212f8c9d8f991e38fb652ed33a975a3664f694d"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/universal_html/source/lib/src/html/dom/shared_with_dart2js/css_class_set.dart",
+      "sha256": "9880d64b8d0f873f98280a0e334f967655e0633e1ad53c0ca12578b59b363eb8"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/universal_html/source/pubspec.yaml",
+      "sha256": "30e4c69217508fdec76469caff23eb244a5333f39158c6a94bec706ecd9f5ddf"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/url_launcher_web/archive-inventory.json",
+      "sha256": "2987b16ae1cd3fe0e787fe858c68f0c6fb3795f2a5a2e8a01bc0a2d261fd00f6"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/url_launcher_web/release.json",
+      "sha256": "b125821cda7fd73c13a5bf64e2e75ffcc4e7583477ef3824912db02625a1abbf"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/url_launcher_web/source-markers.json",
+      "sha256": "20f81df83ee9c1f8368c53d4d25dbc85cfa2233cb344cf9b5c7bd39d8f5eca7d"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/url_launcher_web/source/AUTHORS",
+      "sha256": "d0236a600d4e4f345630699f1da6a5c8084e85eabca0093b71be5411a2d9c54c"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/url_launcher_web/source/CHANGELOG.md",
+      "sha256": "0d298949739b247938e7487193a4db1e0913ebcb2c66ae23de37a28a1960c1a0"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/url_launcher_web/source/LICENSE",
+      "sha256": "f9bd6d4f1da93f33d7d9aa44848bee6d1bacf1c5049d3ba2fd3f5d362a01ceab"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/url_launcher_web/source/README.md",
+      "sha256": "1c7bfbf67d496b2c7b80a5f6ca3fdfb9baca18f13fd14bf7255258815fe0daf3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/url_launcher_web/source/example/pubspec.yaml",
+      "sha256": "ad4341cfc9e24e34ad52d328d91e8df3205ef40da2ca1b5d848a9cf4757af585"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/url_launcher_web/source/lib/src/link.dart",
+      "sha256": "66fb081f09eddbe10dc0b5f7b0680047f3c57ca7c6f459acf04bf023e5544c3b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/url_launcher_web/source/lib/url_launcher_web.dart",
+      "sha256": "2939df1d69f24182f94e6c65f109dbf466c6f6c41cfe3f5c4347dcfc26676a0e"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/url_launcher_web/source/pubspec.yaml",
+      "sha256": "61128df737b6af7152302025998762c18d55267d917c4c2df9a12e9c8bafe9fb"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/vector_math/archive-inventory.json",
+      "sha256": "455d9427397324977854d53018a48a2d04f1451b2e73ff4f872ae6d663f29824"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/vector_math/release.json",
+      "sha256": "8893d3c7b45f3884afda75190d6fbd4ab9212e1cbd5ebfce7eb10a3378fd2547"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/vector_math/source-markers.json",
+      "sha256": "9721cea7cdbafc54ff621df8e1cea4867c635bfa14acb8877b358b5175f6f624"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/vector_math/source/AUTHORS",
+      "sha256": "56fd7364e2b7eecf93324fadfc7af758e094b50dd8d4d452e73447fa59dfec69"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/vector_math/source/CHANGELOG.md",
+      "sha256": "7291d22578f4859755a13b99d019bf97b9c37313ac1b411e8c53a9661003f099"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/vector_math/source/LICENSE",
+      "sha256": "b5d856a1e27e9ebea4957fc3526f1c65782a04894b113c6b3b0fb1321dbdec55"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/vector_math/source/README.md",
+      "sha256": "00258825d640cd023d989a59360cba5bbacf8af0c9bb4557de47ccc0c7809bad"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/vector_math/source/lib/src/vector_math/noise.dart",
+      "sha256": "ef534bc7ae62cfd8ca2cb5a5b2c53350efc436f67caed75ab98a0d642ba4626b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/vector_math/source/lib/src/vector_math_64/noise.dart",
+      "sha256": "624698534866d0b4fb02c5ff2146d7648a93fc6d0854a07cac7f9882245990d8"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/vector_math/source/lib/vector_math.dart",
+      "sha256": "cb754c2d6b08f7a57c10ced8b3063acb5a7dd152843ab2ba8eda4df6872e9cac"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/vector_math/source/lib/vector_math_64.dart",
+      "sha256": "4ffcc8a4facaae20d16a47eff8626178894f7924596095aa0a2402eb33fbc57b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/vector_math/source/pubspec.yaml",
+      "sha256": "a35cc038833e5fadaac91070e85325ce849c2f60e0675d97a753e1ad9f0f7a3c"
+    },
+    {
       "path": "compliance/evidence/reconstruction-2026-10-09/pub/_discoveryapis_commons/AUTHORS",
       "sha256": "85337aeeee55c79d4a1da86d1393354c14e4a5f0daf402de66ffe974c51694bf"
     },

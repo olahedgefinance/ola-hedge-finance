@@ -5,6 +5,7 @@ import 'package:crypto/crypto.dart';
 import 'sbom_lib.dart';
 import 'cocoapods_evidence.dart';
 import 'fork_evidence.dart';
+import 'pub_composite_evidence.dart';
 export 'sbom_lib.dart';
 
 class ComplianceArtifactBundle {
@@ -52,6 +53,8 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
   final pubEntries = parsePubLock(await pubLockFile.readAsString());
   final podEntries = parsePodfileLock(await podLockFile.readAsString());
   verifyForkEvidence(repositoryRoot, pubEntries);
+  final compositeReviews =
+      verifyPubCompositeEvidence(repositoryRoot, pubEntries);
   final retainedPub = jsonDecode(await File(_join(repositoryRoot.path,
           'compliance/evidence/reconstruction-2026-10-09/pub/manifest.json'))
       .readAsString()) as Map<String, dynamic>;
@@ -87,6 +90,7 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
   final overrides = (manifest['pubOverrides'] as Map<String, dynamic>? ??
       <String, dynamic>{});
   final pubComponents = <ComplianceComponent>[];
+  final unscopedPubDeclarations = <String, String>{};
   for (final entry in pubEntries) {
     final row = retainedRecords['pub:${entry.name}']!;
     final texts = <String>[];
@@ -105,7 +109,10 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
         .map((name) => 'pub:$name')
         .toList()
       ..sort();
-    final license = classifyLicenseText(evidence.text);
+    final textDeclaration = classifyLicenseText(evidence.text);
+    unscopedPubDeclarations[entry.name] = textDeclaration;
+    final composite = compositeReviews[entry.name];
+    final license = composite?['declaration'] as String? ?? textDeclaration;
     pubComponents.add(ComplianceComponent(
       id: 'pub:${entry.name}',
       name: entry.name,
@@ -117,7 +124,8 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
       sourceRepository: sourceRepository,
       licenseDeclared: license,
       licenseEvidence:
-          'compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:${entry.name}; ${evidence.label}',
+          'compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:${entry.name}; ${evidence.label}'
+          '${composite == null ? '' : '; $pubCompositeEvidencePath/manifest.json#${entry.name}'}',
       distributed: runtimeReachable.contains(entry.name),
       modified: override?['modified'] == true,
       reviewStatus: license == 'NOASSERTION'
@@ -125,7 +133,10 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
           : 'verified-with-conditions',
       dependencies: dependencies,
       checksumSha256: entry.checksumSha256,
-      notes: override?['notes'] as String?,
+      notes: composite == null
+          ? (override?['notes'] as String?)
+          : '${composite['classification']}: ${(composite['unresolvedReasons'] as List).join(' ')} ${(composite['conditions'] as List).join(' ')}'
+              .trim(),
     ));
   }
 
@@ -157,7 +168,8 @@ Future<ComplianceArtifactBundle> createComplianceArtifactBundle({
         ? pubComponents.singleWhere((p) => p.name == pod.name)
         : null;
     final declaration = native?['licenseDeclared'] as String? ??
-        wrapper?.licenseDeclared ??
+        // A reviewed Pub archive scope does not establish native pod scope.
+        (wrapper == null ? null : unscopedPubDeclarations[pod.name]) ??
         'NOASSERTION';
     return ComplianceComponent(
       id: 'cocoapods:${pod.name}',

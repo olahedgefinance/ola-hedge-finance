@@ -1,0 +1,572 @@
+[
+  {
+    "path": "AUTHORS",
+    "bytes": 304,
+    "sha256": "56fd7364e2b7eecf93324fadfc7af758e094b50dd8d4d452e73447fa59dfec69"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 5850,
+    "sha256": "7291d22578f4859755a13b99d019bf97b9c37313ac1b411e8c53a9661003f099"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 1760,
+    "sha256": "0055a684321abf58403914498020acfb31b56e69d63d7f82e3de7ca42a19a8ff"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 2327,
+    "sha256": "b5d856a1e27e9ebea4957fc3526f1c65782a04894b113c6b3b0fb1321dbdec55"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4932,
+    "sha256": "00258825d640cd023d989a59360cba5bbacf8af0c9bb4557de47ccc0c7809bad"
+  },
+  {
+    "path": "analysis_options.yaml",
+    "bytes": 1348,
+    "sha256": "76b470781b365a5e279afeb74fe6252c1aeef056fa23a60d52ce9655b9d6302b"
+  },
+  {
+    "path": "benchmark/matrix4_tween_bench.dart",
+    "bytes": 4326,
+    "sha256": "eceedd23e3c3a2dd890213315855c2cebbf3ed66d892cc3fa73300bda24cb705"
+  },
+  {
+    "path": "benchmark/matrix_bench.dart",
+    "bytes": 8460,
+    "sha256": "81f5d8a8d768e719a0afd504d549d35f7782f4564594f65b20177e56ea4c618d"
+  },
+  {
+    "path": "bin/mesh_generator.dart",
+    "bytes": 2820,
+    "sha256": "f5f2212f0dcd9fecab60e7b14d7e0d40cd79dd2ca9fb75c629210ccb221ed82a"
+  },
+  {
+    "path": "build.yaml",
+    "bytes": 419,
+    "sha256": "b2d1b224e2d199288d32a61ff7e3cc02b5a5ddd9c0a119eaea6f225b00bd65a2"
+  },
+  {
+    "path": "lib/hash.dart",
+    "bytes": 429,
+    "sha256": "df4da7fe95811b772651bed606917dd9212abfc4e4b716ceb650b40bdd9d911f"
+  },
+  {
+    "path": "lib/src/vector_math/aabb2.dart",
+    "bytes": 4802,
+    "sha256": "50a1038c4fff930c2b6ea9f8bdd04ffe0d4bd9f23e7e59199d79864d785d2a33"
+  },
+  {
+    "path": "lib/src/vector_math/aabb3.dart",
+    "bytes": 21009,
+    "sha256": "2edb00da3b973873b1d03472aca6493dd2d86feee95195dda9451bdf6c0dab55"
+  },
+  {
+    "path": "lib/src/vector_math/colors.dart",
+    "bytes": 25093,
+    "sha256": "80e1a986cb4dc1e50ed08f065eb4c44bb85d7f29ebaf65a2839f79b803e6b434"
+  },
+  {
+    "path": "lib/src/vector_math/constants.dart",
+    "bytes": 453,
+    "sha256": "0278d4f9d01ca15f6db77e2d001b17a44f10a70878563c213bcb92f2093b03c7"
+  },
+  {
+    "path": "lib/src/vector_math/error_helpers.dart",
+    "bytes": 1101,
+    "sha256": "0784f523f78464a900dfa4c46dcbf54ccbb12407cee5ec19d5ea77b6ea206174"
+  },
+  {
+    "path": "lib/src/vector_math/frustum.dart",
+    "bytes": 6362,
+    "sha256": "c4435a873b7f39dba91b3394d91f2292f6b782a4e68ce3d11216265421e91631"
+  },
+  {
+    "path": "lib/src/vector_math/intersection_result.dart",
+    "bytes": 492,
+    "sha256": "544fb5329712beba2185337d4cd99123f946a267d3fae1b0bf5e2f7160769c94"
+  },
+  {
+    "path": "lib/src/vector_math/matrix2.dart",
+    "bytes": 14867,
+    "sha256": "b87f2496ac92a1d979a42d3e01f2a5d9b23669edee1b3678be185a71610e4833"
+  },
+  {
+    "path": "lib/src/vector_math/matrix3.dart",
+    "bytes": 29020,
+    "sha256": "a3a30d7622ae55c2928d0aba864165e527eb327516b2b74496494043aaeb2aec"
+  },
+  {
+    "path": "lib/src/vector_math/matrix4.dart",
+    "bytes": 66129,
+    "sha256": "541b7b5b1a9457bfd4e3b59d509bf439c7346767264886f4964bcea5e38ec833"
+  },
+  {
+    "path": "lib/src/vector_math/noise.dart",
+    "bytes": 15497,
+    "sha256": "ef534bc7ae62cfd8ca2cb5a5b2c53350efc436f67caed75ab98a0d642ba4626b"
+  },
+  {
+    "path": "lib/src/vector_math/obb3.dart",
+    "bytes": 12665,
+    "sha256": "2ba3dcc4403f7e76c0f48163998980d08714cacf5eef6443bde592aaaff5b219"
+  },
+  {
+    "path": "lib/src/vector_math/opengl.dart",
+    "bytes": 14435,
+    "sha256": "3a0bbbb3706905b6bdb74dd4cd8d1ffcc95fdb6ed8213e24e1e4a803390b7e0d"
+  },
+  {
+    "path": "lib/src/vector_math/plane.dart",
+    "bytes": 1755,
+    "sha256": "528e125f5fba19bd49fd705cb85fa08b05f8367d8b8bc01084dab1f5c0d341c0"
+  },
+  {
+    "path": "lib/src/vector_math/quad.dart",
+    "bytes": 2562,
+    "sha256": "3f19d0fec6eef1733fb6d6e1004368d6fd6e9fe12ebad78435154f69794d534d"
+  },
+  {
+    "path": "lib/src/vector_math/quaternion.dart",
+    "bytes": 15656,
+    "sha256": "c148b14b090736ab832be0b2ffaeab3e9cffb1fc8160b61e43b85ba7c2e72a22"
+  },
+  {
+    "path": "lib/src/vector_math/ray.dart",
+    "bytes": 5948,
+    "sha256": "7c1e3f57765d8960755dc5c64f51ba35fe64f2543c0d68ed561778cff42b45b9"
+  },
+  {
+    "path": "lib/src/vector_math/sphere.dart",
+    "bytes": 1501,
+    "sha256": "39a7ed2cc076b65dc0c746d49f1aa75bd65dfd778b21e3a4985936c3bbc49312"
+  },
+  {
+    "path": "lib/src/vector_math/triangle.dart",
+    "bytes": 1939,
+    "sha256": "44307c2127f783626d99b3660a128e28cc0ffc52814e71740864ceee4d69f4d6"
+  },
+  {
+    "path": "lib/src/vector_math/utilities.dart",
+    "bytes": 1432,
+    "sha256": "1de28fa056b7ae64b07b7f909e3126209f6f74fc1e0d6c461404dc85a65fcb0d"
+  },
+  {
+    "path": "lib/src/vector_math/vector.dart",
+    "bytes": 1866,
+    "sha256": "53bd10dcda01b973f0c001df032c8f10a36be67ae9370df4964dc06bb5c86f75"
+  },
+  {
+    "path": "lib/src/vector_math/vector2.dart",
+    "bytes": 16529,
+    "sha256": "a2b22908174307c680ed677d81b9894416984f92b5501e421f980c5b4031e42c"
+  },
+  {
+    "path": "lib/src/vector_math/vector3.dart",
+    "bytes": 36895,
+    "sha256": "884e74565b9a94574688a06b9354a4536ab1f41c36e7c55a173ca44768d0f6f5"
+  },
+  {
+    "path": "lib/src/vector_math/vector4.dart",
+    "bytes": 79258,
+    "sha256": "69498d3be44a75fe03e33b0fe71052c213ad8b07a25d2e725a251c9655ee6193"
+  },
+  {
+    "path": "lib/src/vector_math_64/aabb2.dart",
+    "bytes": 4805,
+    "sha256": "7836f5193b1af05bb768eacb3a072e00cdf9f78db91f2346e94475e5fd2ca9f7"
+  },
+  {
+    "path": "lib/src/vector_math_64/aabb3.dart",
+    "bytes": 21012,
+    "sha256": "52efb947ef6f6ed81284922425352cfdd9226c20b1a9599aa2c612327c8a6f2d"
+  },
+  {
+    "path": "lib/src/vector_math_64/colors.dart",
+    "bytes": 25096,
+    "sha256": "0305c28361f2cd11a0bca75fabbf0e5353215d6ff2d34fc1ad544150d78321fc"
+  },
+  {
+    "path": "lib/src/vector_math_64/constants.dart",
+    "bytes": 456,
+    "sha256": "6c1c238f611d231534e4e862bcd71a5cb2cb218acefb36d741a7155524329a47"
+  },
+  {
+    "path": "lib/src/vector_math_64/error_helpers.dart",
+    "bytes": 1104,
+    "sha256": "3bda0899dfa9a4e64cb926d4ff232897415712f9fce655da3558b079642e0839"
+  },
+  {
+    "path": "lib/src/vector_math_64/frustum.dart",
+    "bytes": 6365,
+    "sha256": "2061155375aa71d368ae622dcb34ac7277a0f65edc515502637438a15930636d"
+  },
+  {
+    "path": "lib/src/vector_math_64/intersection_result.dart",
+    "bytes": 495,
+    "sha256": "3e1005a90291f755400cb628a36ece0b9ca9c63ca049140eb8133fce0c440da5"
+  },
+  {
+    "path": "lib/src/vector_math_64/matrix2.dart",
+    "bytes": 14870,
+    "sha256": "e860dac2ac0c942b516482c574d697df629562d7bf7548472fa9ecb588173719"
+  },
+  {
+    "path": "lib/src/vector_math_64/matrix3.dart",
+    "bytes": 29023,
+    "sha256": "fade8b7feb52920daff229c00e1087307c69a9571260d5f8761eff1862ea2641"
+  },
+  {
+    "path": "lib/src/vector_math_64/matrix4.dart",
+    "bytes": 66132,
+    "sha256": "6d2d6b4981ccd4a05269bd410d4921bdb8001e2b259d43c78924cda30ebe306f"
+  },
+  {
+    "path": "lib/src/vector_math_64/noise.dart",
+    "bytes": 15499,
+    "sha256": "624698534866d0b4fb02c5ff2146d7648a93fc6d0854a07cac7f9882245990d8"
+  },
+  {
+    "path": "lib/src/vector_math_64/obb3.dart",
+    "bytes": 12668,
+    "sha256": "90511581c0b13a03d4ea03841c9c653e3fa1ddb79ee8cb16de9e131606a71625"
+  },
+  {
+    "path": "lib/src/vector_math_64/opengl.dart",
+    "bytes": 14438,
+    "sha256": "699c0511ffbe33955212c7d92c526621f3494998ad90b3f8599dd09daed4b0f5"
+  },
+  {
+    "path": "lib/src/vector_math_64/plane.dart",
+    "bytes": 1758,
+    "sha256": "c129372d1072b0a2a1907a03352b9c2bbc2c3d8fddc65c366809a3c696493588"
+  },
+  {
+    "path": "lib/src/vector_math_64/quad.dart",
+    "bytes": 2565,
+    "sha256": "8b3a783f2469c3c7490f7d1ef969c66d0f40496fe6b4c88ccf747eb401d8984c"
+  },
+  {
+    "path": "lib/src/vector_math_64/quaternion.dart",
+    "bytes": 15659,
+    "sha256": "3ea7bbb0e7a7a11b19aef8ff8b0f261382d8b3e9e873a5fe5550b55eeda52741"
+  },
+  {
+    "path": "lib/src/vector_math_64/ray.dart",
+    "bytes": 5951,
+    "sha256": "98a362e9eddac8ac6ee1cabdc2dc10b8bd3314f35f3e5438860e2e9de5174d7a"
+  },
+  {
+    "path": "lib/src/vector_math_64/sphere.dart",
+    "bytes": 1504,
+    "sha256": "fb0a98d20525aef754d60263a4d417e593b408e8be3d4acdb742a38d4932c3fc"
+  },
+  {
+    "path": "lib/src/vector_math_64/triangle.dart",
+    "bytes": 1942,
+    "sha256": "cc5c39c58883012ac7868ba24a185bd660277cab732651f3c12735f55a1d4de3"
+  },
+  {
+    "path": "lib/src/vector_math_64/utilities.dart",
+    "bytes": 1435,
+    "sha256": "ba6d8ea5db776643cbfd44fc524c0b9dfdafe55827a479606e8e40bb54c77834"
+  },
+  {
+    "path": "lib/src/vector_math_64/vector.dart",
+    "bytes": 1869,
+    "sha256": "50468ca4a693eb321cec1340725cfc716efae59dab145be0383b9933d2b88efa"
+  },
+  {
+    "path": "lib/src/vector_math_64/vector2.dart",
+    "bytes": 16532,
+    "sha256": "5bd367b6ab6917b0cb77097e562c413de8e77054ba736c7d98a8ad43dc8f6d33"
+  },
+  {
+    "path": "lib/src/vector_math_64/vector3.dart",
+    "bytes": 36898,
+    "sha256": "629a7e6658e9d01a019e99c2552f1a4dd1acaebd50c79cc85f147ea7f8481962"
+  },
+  {
+    "path": "lib/src/vector_math_64/vector4.dart",
+    "bytes": 79261,
+    "sha256": "fb030b333e8e806aab3cb87fc237b482b4afb7cc9a87f55f32f9765db9832b53"
+  },
+  {
+    "path": "lib/src/vector_math_geometry/filters/barycentric_filter.dart",
+    "bytes": 2041,
+    "sha256": "776976942ef98f27ae285f1cc257199bee0a847fffe594c5dcb089c10179b447"
+  },
+  {
+    "path": "lib/src/vector_math_geometry/filters/color_filter.dart",
+    "bytes": 1040,
+    "sha256": "4c640dba101a2451456cb9a0fa72e4bdeef2ce07fa465a13b5365305a917465c"
+  },
+  {
+    "path": "lib/src/vector_math_geometry/filters/flat_shade_filter.dart",
+    "bytes": 2408,
+    "sha256": "74022be073b655e103edba6c631e56929f39f4056ec7c8757adf6181bf7260b0"
+  },
+  {
+    "path": "lib/src/vector_math_geometry/filters/geometry_filter.dart",
+    "bytes": 854,
+    "sha256": "3fa188c9d88fbff2b9926011a907ebcf1c71e5d29bb8458da7e49fb950cd9a5d"
+  },
+  {
+    "path": "lib/src/vector_math_geometry/filters/invert_filter.dart",
+    "bytes": 942,
+    "sha256": "2606d22404f30f407f188acb5f5d72e62eda56147787bebaa45752fdfb5d0ada"
+  },
+  {
+    "path": "lib/src/vector_math_geometry/filters/transform_filter.dart",
+    "bytes": 809,
+    "sha256": "b11747f34c864c32db3230fd2e7080617e74b8e28f543fdb0dae810c94831559"
+  },
+  {
+    "path": "lib/src/vector_math_geometry/generators/attribute_generators.dart",
+    "bytes": 4027,
+    "sha256": "de195749ccb4dfc9331884309d485851a599b056e9510a3d4c6806021da35e19"
+  },
+  {
+    "path": "lib/src/vector_math_geometry/generators/circle_generator.dart",
+    "bytes": 2157,
+    "sha256": "ddf3304389d8d98d545fde1cc5db8465ad857e0f6aceada37ef364fcd8f7256c"
+  },
+  {
+    "path": "lib/src/vector_math_geometry/generators/cube_generator.dart",
+    "bytes": 3792,
+    "sha256": "4c488b51a4e04cb1f3d46855ad975ef0a8bcd106939a5a5c438f350e5b6a7021"
+  },
+  {
+    "path": "lib/src/vector_math_geometry/generators/cylinder_generator.dart",
+    "bytes": 3657,
+    "sha256": "d131d21dad1586e80bc99350772a14b4303bcee7491aa179efa890eaf35f2202"
+  },
+  {
+    "path": "lib/src/vector_math_geometry/generators/geometry_generator.dart",
+    "bytes": 3670,
+    "sha256": "561e570279f7543f5aff395b35546f88e481d976a4a4bc933681e8409c9371b5"
+  },
+  {
+    "path": "lib/src/vector_math_geometry/generators/ring_generator.dart",
+    "bytes": 3401,
+    "sha256": "c1ec2a1f0c74b422024de2b5f317072accf7f01c61fe35e87b51954e0855032c"
+  },
+  {
+    "path": "lib/src/vector_math_geometry/generators/sphere_generator.dart",
+    "bytes": 2721,
+    "sha256": "e497e61f9b15b4ea5021d1145ad9e5e1b74398a6314bb7f3527d7b1b8b7fa712"
+  },
+  {
+    "path": "lib/src/vector_math_geometry/mesh_geometry.dart",
+    "bytes": 8476,
+    "sha256": "f2fdfbbdd9833b77eb38fc230eaed070b9933a33f4d7cf873d76b903c67b3b82"
+  },
+  {
+    "path": "lib/src/vector_math_lists/scalar_list_view.dart",
+    "bytes": 2681,
+    "sha256": "ab92e3c99f7d000c443dd9c0e9c9a0eea252251fc51b4134ea2fe933967a8070"
+  },
+  {
+    "path": "lib/src/vector_math_lists/vector2_list.dart",
+    "bytes": 3229,
+    "sha256": "470874ffa2dd9817cda2d32b002a891e62e55b7c3017b799b30d1f54623db3d2"
+  },
+  {
+    "path": "lib/src/vector_math_lists/vector3_list.dart",
+    "bytes": 3516,
+    "sha256": "b4a9b58d073f1ce4be577c9ea5858e1ea8b432a08124f3a2a4fed7c69776296d"
+  },
+  {
+    "path": "lib/src/vector_math_lists/vector4_list.dart",
+    "bytes": 3802,
+    "sha256": "4e80324ae1fa92d39b09d35d0f3f695ca8654698b261b141805fff8ac0e24c1a"
+  },
+  {
+    "path": "lib/src/vector_math_lists/vector_list.dart",
+    "bytes": 4168,
+    "sha256": "b1261e0784e40be20ede83a00a04d959a0f3711b38730d07c259ba5a038ed4af"
+  },
+  {
+    "path": "lib/src/vector_math_operations/matrix.dart",
+    "bytes": 11971,
+    "sha256": "1148e7b4dc19a551b0d62ad2d9d3838735e9bdee99911d22dd5e10eee16ecb94"
+  },
+  {
+    "path": "lib/src/vector_math_operations/vector.dart",
+    "bytes": 234,
+    "sha256": "2884d8e4d0b308694d50286d33d659a404e41587a3807821bf94dc18a456522d"
+  },
+  {
+    "path": "lib/vector_math.dart",
+    "bytes": 1748,
+    "sha256": "cb754c2d6b08f7a57c10ced8b3063acb5a7dd152843ab2ba8eda4df6872e9cac"
+  },
+  {
+    "path": "lib/vector_math_64.dart",
+    "bytes": 1823,
+    "sha256": "4ffcc8a4facaae20d16a47eff8626178894f7924596095aa0a2402eb33fbc57b"
+  },
+  {
+    "path": "lib/vector_math_geometry.dart",
+    "bytes": 1430,
+    "sha256": "a0ceacee7541976b26457e0c8963c8e194835c5ff9c1d870a1056857897e7d5a"
+  },
+  {
+    "path": "lib/vector_math_lists.dart",
+    "bytes": 630,
+    "sha256": "815767a0bfbd3599307f4267108662f7f8adfb82743a3129bdc9462e847e886f"
+  },
+  {
+    "path": "lib/vector_math_operations.dart",
+    "bytes": 592,
+    "sha256": "38d72a1e285374025cd96ec4a327fb03ea2727ef78bf50203be4099c322ccb39"
+  },
+  {
+    "path": "pubspec.yaml",
+    "bytes": 358,
+    "sha256": "a35cc038833e5fadaac91070e85325ce849c2f60e0675d97a753e1ad9f0f7a3c"
+  },
+  {
+    "path": "test/aabb2_test.dart",
+    "bytes": 6786,
+    "sha256": "5119b5e75bded885ebaa89de466264220106f07d67949520d53b7e2d4c95052a"
+  },
+  {
+    "path": "test/aabb3_test.dart",
+    "bytes": 12629,
+    "sha256": "556021ac8f872c58979a5ccfa632b585c5f422cde2d43e59a7c8884049e5b452"
+  },
+  {
+    "path": "test/colors_test.dart",
+    "bytes": 7647,
+    "sha256": "f118d7d59c23929881dfe1a8698fa9aada9e9ff75b628543e93ef61456ef949b"
+  },
+  {
+    "path": "test/frustum_test.dart",
+    "bytes": 6777,
+    "sha256": "a0ab87248191a657605fd6e1dac6bfe8a0c11336e21782604cf7a0541a939282"
+  },
+  {
+    "path": "test/geometry_test.dart",
+    "bytes": 4615,
+    "sha256": "67b0d0d3aa6f1e9437fb749537b33122e56b2e012edb38626f4d00341de1254d"
+  },
+  {
+    "path": "test/matrix2_test.dart",
+    "bytes": 4170,
+    "sha256": "40fce656e684ddbd6f0f05c329df053fadd214e338d73b5df5fa6c318f8fc1e6"
+  },
+  {
+    "path": "test/matrix3_test.dart",
+    "bytes": 13229,
+    "sha256": "ee3e4191862dbfa56972945afd3346bd38068f72adfc875b48e05584ce799b0b"
+  },
+  {
+    "path": "test/matrix4_test.dart",
+    "bytes": 26198,
+    "sha256": "08535980bed1aa1a23f6f1b925a9074f91d6df55add23976dc535747017fd2cb"
+  },
+  {
+    "path": "test/noise_test.dart",
+    "bytes": 1123,
+    "sha256": "47303fd7077bbe44449cdb3c67eab85fe25c8b1be922940fe339a265e955de3f"
+  },
+  {
+    "path": "test/obb3_test.dart",
+    "bytes": 14198,
+    "sha256": "7a262dca9de3594ac0e9d86215b2693103ba26d4366ed89206adf00328e89674"
+  },
+  {
+    "path": "test/opengl_matrix_test.dart",
+    "bytes": 4468,
+    "sha256": "6ee6a22d783fc806a1e491a1cc9458cb419d84d9e59a31d15f45f9a91a234403"
+  },
+  {
+    "path": "test/plane_test.dart",
+    "bytes": 1565,
+    "sha256": "ecfbc1b4708e4784c73cb3f398d89a3e115b7e1420cd0058592a2ef1909b085b"
+  },
+  {
+    "path": "test/quad_test.dart",
+    "bytes": 1686,
+    "sha256": "53890340b5681e25e919de0f520d3111a4e7b38f52ee8ea32873ccdb64e27585"
+  },
+  {
+    "path": "test/quaternion_test.dart",
+    "bytes": 7734,
+    "sha256": "3977922a58020997a495068026e00eab69bff51cc0c56492ac80a1fa21a5c1e9"
+  },
+  {
+    "path": "test/ray_test.dart",
+    "bytes": 5080,
+    "sha256": "0da5fd91add5928eb5d8a810972874818050f76d9ec8f0ad193aa5582f490b92"
+  },
+  {
+    "path": "test/scalar_list_view_test.dart",
+    "bytes": 1887,
+    "sha256": "484960b621b928015b7c3803e07ae3ae2dfa99cf34c9d41ffb1ab1d64d13a487"
+  },
+  {
+    "path": "test/sphere_test.dart",
+    "bytes": 1783,
+    "sha256": "6f9b9873fdbb3f7c391e7c8d4d31cacc57638a5f09cda0d863a9bed1c818489e"
+  },
+  {
+    "path": "test/test_all.dart",
+    "bytes": 1726,
+    "sha256": "02c39d2cb830758dd3c671a40fc20b21fe87ef962c943970a257fd7ac38f0d39"
+  },
+  {
+    "path": "test/test_utils.dart",
+    "bytes": 2778,
+    "sha256": "28e1fc30dc6dc011e43a52011ff6e6a2bd164ff8c8c74f893e1ce16c07c1d543"
+  },
+  {
+    "path": "test/triangle_test.dart",
+    "bytes": 697,
+    "sha256": "e7d076c0ba84b6167e6a4e7865b91fd0fdee8e334c4f6d378966d7ab79202396"
+  },
+  {
+    "path": "test/utilities_test.dart",
+    "bytes": 1315,
+    "sha256": "1e5afe09b4ca0117166632b4e1f8513df200b8b85c9b33e619e83b9d28cdb040"
+  },
+  {
+    "path": "test/vector2_list_test.dart",
+    "bytes": 4819,
+    "sha256": "30eecb1ec1be0e9e96b001c25503f4703081de3380c5f386a8d9cf49b4d1b5e5"
+  },
+  {
+    "path": "test/vector2_test.dart",
+    "bytes": 10785,
+    "sha256": "3bdcc99f10f05aba535172f1e9d80e1b0db5368a1890f4a544285d3dd3b8869f"
+  },
+  {
+    "path": "test/vector3_list_test.dart",
+    "bytes": 5595,
+    "sha256": "54787a56b26a73b97872a975889e84222eb702b72eedf4138b6fcb9685877792"
+  },
+  {
+    "path": "test/vector3_test.dart",
+    "bytes": 14870,
+    "sha256": "07ea12a25d568df135b0008ffef0f9dde402dfde709fe9e94b9160dd61cee90e"
+  },
+  {
+    "path": "test/vector4_list_test.dart",
+    "bytes": 6350,
+    "sha256": "5d0dce8c5a975ef0e9fe014c8882b4c51164edd7aa738e75dea69d7a6d77352c"
+  },
+  {
+    "path": "test/vector4_test.dart",
+    "bytes": 9017,
+    "sha256": "250ad2b7a0201ce86784fedade72200721339ca8f6471fd851fb436dee79caf2"
+  },
+  {
+    "path": "tool/generate_vector_math_64.dart",
+    "bytes": 1604,
+    "sha256": "dfa09d3c191a864eb4dcc8fee8eb866fe964cb65f806af221eb00e9c600178b0"
+  }
+]

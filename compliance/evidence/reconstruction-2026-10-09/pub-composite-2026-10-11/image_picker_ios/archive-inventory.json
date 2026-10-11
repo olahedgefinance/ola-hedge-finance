@@ -1,0 +1,437 @@
+[
+  {
+    "path": "AUTHORS",
+    "bytes": 2454,
+    "sha256": "e89602d9d136178bcf1e20cbdfe98c236050f7fefcd8e9a03a18fbc4aa771af4"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 2744,
+    "sha256": "abb8bbb5532c32f4ed5d23f29f40231b57780361817d47ad20ff1542d8c42d1f"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 12975,
+    "sha256": "5be052679cb82ade21607d199dad720f03f00b8c4fb1e91629273f89fbe0fd60"
+  },
+  {
+    "path": "README.md",
+    "bytes": 565,
+    "sha256": "d3babf95186cceac674edc3cbce054314f5506572391da2178a9414571ca153e"
+  },
+  {
+    "path": "example/README.md",
+    "bytes": 380,
+    "sha256": "dd0bc1ede31e368cfa967ab560215f621f37e5a8f41eee510afcc3e46aee6119"
+  },
+  {
+    "path": "example/integration_test/image_picker_test.dart",
+    "bytes": 416,
+    "sha256": "7077afcbb5c8644660ae646fb7403f06ed805965d6efd33360afc0cb69a0245f"
+  },
+  {
+    "path": "example/ios/Flutter/AppFrameworkInfo.plist",
+    "bytes": 864,
+    "sha256": "79f22ade21988095f66ff3b3cf0a043da0dbf873640f150dec1bf8d1b7f4e9a9"
+  },
+  {
+    "path": "example/ios/Flutter/Debug.xcconfig",
+    "bytes": 106,
+    "sha256": "6f6aaf1c7a4a189026ee37988999824b2e2b3261f5e32876ab3463683bef0d49"
+  },
+  {
+    "path": "example/ios/Flutter/Release.xcconfig",
+    "bytes": 108,
+    "sha256": "aa45550bf185bb7979742d9696accdd36bd01424202d1f96204129376d79666d"
+  },
+  {
+    "path": "example/ios/Podfile",
+    "bytes": 1451,
+    "sha256": "0cb705d55818cc2a00d38f315febc1de0a7d511b1a736e0c6ba73984fb18abc2"
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/project.pbxproj",
+    "bytes": 41415,
+    "sha256": "92b13711f15c962d43404feca31b6e50f892381cae5a04aa42531d7e630741ab"
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+    "bytes": 135,
+    "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f"
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
+    "bytes": 4043,
+    "sha256": "9e6575031ac29dc0b2e69024634be5d21c0a97867d10c1d3a3633002add89b03"
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/xcshareddata/xcschemes/RunnerUITests.xcscheme",
+    "bytes": 1814,
+    "sha256": "db1e2273bb9fdd9e4229bcf6678f09650355b5e9f373fbec60ae7c5d5adf3422"
+  },
+  {
+    "path": "example/ios/Runner.xcworkspace/contents.xcworkspacedata",
+    "bytes": 224,
+    "sha256": "465e6de5660384eb6832e8078920ba6cd5305c445cb29a24a86a2fda4aa6b67e"
+  },
+  {
+    "path": "example/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+    "bytes": 238,
+    "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542"
+  },
+  {
+    "path": "example/ios/Runner/AppDelegate.h",
+    "bytes": 268,
+    "sha256": "fb543767f00f46e78a31c1cb610220f280a8e02014d56d88e59c7f35058619f6"
+  },
+  {
+    "path": "example/ios/Runner/AppDelegate.m",
+    "bytes": 525,
+    "sha256": "13e5f56f3557c0b36e11188b99ccc6a307361f66af7648bd8e7475dd72b4b8ae"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
+    "bytes": 2470,
+    "sha256": "fd52808eb2c8b3a776b4ec10238eae18c14abea881449c00df7a5dc8eed579cc"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png",
+    "bytes": 564,
+    "sha256": "5925dab509451f9ecbb12ce8a625f9d4c104718ee20caff8b1b51032d1cd8946"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png",
+    "bytes": 1283,
+    "sha256": "c4d9a284c12301d0f50e248ec53ed51a19a10147b774b23308399250b0d44c55"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png",
+    "bytes": 1588,
+    "sha256": "bf97f9d3233f33e1389b09f7b8add53741300cb834d6c7a5ca32cbed363a4fb2"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png",
+    "bytes": 1025,
+    "sha256": "285442f69a06b45d9d79df80321815b546473548a37b78819b68959c7b8ed237"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png",
+    "bytes": 1716,
+    "sha256": "2ab64af8ac727ea99c6ab9eaff847f46fbf2a9a0a78a0abcbf3180f3851645b4"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png",
+    "bytes": 1920,
+    "sha256": "9dca09f4e5ed5684d3c4dff41f4e8b7cb864b438172d72be069315fa362930f9"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png",
+    "bytes": 1283,
+    "sha256": "c4d9a284c12301d0f50e248ec53ed51a19a10147b774b23308399250b0d44c55"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png",
+    "bytes": 1895,
+    "sha256": "d5ad04de321ef37cacc5a7b960afcce71bdcb96fa020c48249c1545dd1a0f497"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png",
+    "bytes": 2665,
+    "sha256": "809abfe75c440770c13c4e2e46d09603c22053e9d4e0e2275dcb9c1dcfbb2c75"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png",
+    "bytes": 2665,
+    "sha256": "809abfe75c440770c13c4e2e46d09603c22053e9d4e0e2275dcb9c1dcfbb2c75"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png",
+    "bytes": 3831,
+    "sha256": "3db08cb79e7b01b9e81f956e3a0ae10148d0fafde3ea7aa70048df905aa52cfd"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png",
+    "bytes": 1888,
+    "sha256": "23c13d463f5dca5c1f14a14934003601c29f1218fd461016d8a22cef579a665f"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png",
+    "bytes": 3294,
+    "sha256": "6db7726530d71d3f52cb59793eb691313baa04796e129e1e043c0a58a1bffd2f"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+    "bytes": 3612,
+    "sha256": "cee565f5e62116569b64980b209fd5ca4b3d3739011f5343250b33a1a2c6eb65"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/Contents.json",
+    "bytes": 62,
+    "sha256": "972ec1fd42325872438eb085ac29e94f51c10788ec18ec5549439950866c541d"
+  },
+  {
+    "path": "example/ios/Runner/Base.lproj/LaunchScreen.storyboard",
+    "bytes": 1665,
+    "sha256": "e8cd5651d0aaba37a035672cbeee4c14925fde371f634d213951134e20f64612"
+  },
+  {
+    "path": "example/ios/Runner/Base.lproj/Main.storyboard",
+    "bytes": 1605,
+    "sha256": "fd367b6c43006d61b730f674970dd48b9f662c8f2264e52ffc1558102a2c9f2d"
+  },
+  {
+    "path": "example/ios/Runner/Info.plist",
+    "bytes": 2009,
+    "sha256": "5847e9055ab92900e2bbd128117ef341bf77e10409e4d89047f6dd515f219da8"
+  },
+  {
+    "path": "example/ios/Runner/main.m",
+    "bytes": 391,
+    "sha256": "b0f0cc925523e78c34061d2dbfcde16a4d8d566e47bdf8c8f679b1d04ab34ac3"
+  },
+  {
+    "path": "example/ios/RunnerTests/ImagePickerPluginTests.m",
+    "bytes": 26990,
+    "sha256": "dd368b54c64915d5f2c466fed724fe54f80c1be53c7dd8f03157dcd27a052964"
+  },
+  {
+    "path": "example/ios/RunnerTests/ImagePickerTestImages.h",
+    "bytes": 447,
+    "sha256": "f4cb7b186e48e356abedbaf44b6f81d91422e36b9769737382984b0416bdca88"
+  },
+  {
+    "path": "example/ios/RunnerTests/ImagePickerTestImages.m",
+    "bytes": 8759,
+    "sha256": "83c7332ea4c1a52a78bd0b25dc6a0f67103d0fb86992515c42b9f4e903082e2a"
+  },
+  {
+    "path": "example/ios/RunnerTests/ImageUtilTests.m",
+    "bytes": 2822,
+    "sha256": "7fae1b52cdae59d5315accf76a7bdde38cac8127d0764bda24e416b3dda75fa4"
+  },
+  {
+    "path": "example/ios/RunnerTests/Info.plist",
+    "bytes": 727,
+    "sha256": "7d56eaac02367c81f9d19cc1108e8f725cd86af2b4538a4894053a6639c1a4a0"
+  },
+  {
+    "path": "example/ios/RunnerTests/MetaDataUtilTests.m",
+    "bytes": 3867,
+    "sha256": "f0cb26422afe216bfc27ebba031f1138b66020c04799a9d5b47b11f813f7beec"
+  },
+  {
+    "path": "example/ios/RunnerTests/PhotoAssetUtilTests.m",
+    "bytes": 7284,
+    "sha256": "17abef8ebe191f8d23b9102a94c6916d2df342396e2251941721f05cdda6d375"
+  },
+  {
+    "path": "example/ios/RunnerTests/PickerSaveImageToPathOperationTests.m",
+    "bytes": 13574,
+    "sha256": "c07240dd7ff48e803c896255327c04ed06f31a38135571fce7054d62cfdec10a"
+  },
+  {
+    "path": "example/ios/RunnerUITests/ImagePickerFromGalleryUITests.m",
+    "bytes": 9907,
+    "sha256": "bbdf7a9f786f74e08fafa8b24e25fae051ebf0463c81ed2b61f53865cef021af"
+  },
+  {
+    "path": "example/ios/RunnerUITests/ImagePickerFromLimitedGalleryUITests.m",
+    "bytes": 6361,
+    "sha256": "42ffff4c8acf14772a8348ef8544f7dee75f437899ba6e5f11361c18857f6aea"
+  },
+  {
+    "path": "example/ios/RunnerUITests/Info.plist",
+    "bytes": 727,
+    "sha256": "7d56eaac02367c81f9d19cc1108e8f725cd86af2b4538a4894053a6639c1a4a0"
+  },
+  {
+    "path": "example/ios/TestImages/bmpImage.bmp",
+    "bytes": 92,
+    "sha256": "b46af05041efd5c8775da4199140c006e1ffc5c8a9a8ed695a833567cedb1870"
+  },
+  {
+    "path": "example/ios/TestImages/gifImage.gif",
+    "bytes": 843,
+    "sha256": "c69407643a9bfefe953bfe224a8b0b4d1e1d507be2e667949b3f71b009031961"
+  },
+  {
+    "path": "example/ios/TestImages/heicImage.heic",
+    "bytes": 3207,
+    "sha256": "49fcd1a1109343e8e1d4c310cf2690ce1eceb5dfc2e3df5c524896b1dd2c9e2c"
+  },
+  {
+    "path": "example/ios/TestImages/icnsImage.icns",
+    "bytes": 354,
+    "sha256": "363b8eb3b52c4a4156c95578460642006f3e44b1775955944cbf3dd93b548e9b"
+  },
+  {
+    "path": "example/ios/TestImages/icoImage.ico",
+    "bytes": 1742,
+    "sha256": "a542fb1abb4ff7c2a0c91991b8df5f13d6a05b9cb9555035716076d1fe5fe47a"
+  },
+  {
+    "path": "example/ios/TestImages/jpgImage.jpg",
+    "bytes": 3290,
+    "sha256": "242206e6ecb0fc340dd86f4d32e50e4d2ae21dbaf7389e099133a916f1d0c4b8"
+  },
+  {
+    "path": "example/ios/TestImages/jpgImageWithRightOrientation.jpg",
+    "bytes": 3375,
+    "sha256": "beeb2aa85030ecf1c3f3c427bfac29b212f7d582b286d2d14a5ff768393f1b2c"
+  },
+  {
+    "path": "example/ios/TestImages/pngImage.png",
+    "bytes": 593,
+    "sha256": "359613040834fc52aaae3cf29021cbdbc4c232b9e3743869f50e14216173c9da"
+  },
+  {
+    "path": "example/ios/TestImages/proRawImage.dng",
+    "bytes": 8100,
+    "sha256": "7cf00873a50e043a9db00f8d80c5975bda1ddbd2529a5cdbcfc53d9d49b625c9"
+  },
+  {
+    "path": "example/ios/TestImages/tiffImage.tiff",
+    "bytes": 4192,
+    "sha256": "c0fa1b2bd7d819b5709b0e64e615e820bb29330ca632c0a9fded31e66d4e4848"
+  },
+  {
+    "path": "example/ios/TestImages/webpImage.webp",
+    "bytes": 2622,
+    "sha256": "df1659ccb0eb3eb4fa18bd4689833e2efa44162d53618e81e9a9174a132d7277"
+  },
+  {
+    "path": "example/ios/image_picker_exampleTests/Info.plist",
+    "bytes": 701,
+    "sha256": "58c5c0911cdf7c6fe4a120892acde2ae1e7298e967243284d83257554c756f4f"
+  },
+  {
+    "path": "example/lib/main.dart",
+    "bytes": 15896,
+    "sha256": "e262827c524a3a808e3a943852fab787ee7abbfae2a5d4457b9743fea1ad9145"
+  },
+  {
+    "path": "example/pubspec.yaml",
+    "bytes": 775,
+    "sha256": "86c22c701babbfc09c5f55693c9b9da3e9ca9cb891ac17f13799f54b492983f4"
+  },
+  {
+    "path": "example/test_driver/integration_test.dart",
+    "bytes": 274,
+    "sha256": "8e555c5eb7fd345d15f60f9fa277698d4573cad95ad45ac3abde6ed9d35a2575"
+  },
+  {
+    "path": "ios/Classes/FLTImagePickerImageUtil.h",
+    "bytes": 1065,
+    "sha256": "cb291c23733ab7cccc9fb02cb3739a92851bc3a68771ba1a1003962cef8465b3"
+  },
+  {
+    "path": "ios/Classes/FLTImagePickerImageUtil.m",
+    "bytes": 5900,
+    "sha256": "305fa7f7fdc1cfc9b3358476492deefdca0a2e2b60ba009938e2540e6aada7b5"
+  },
+  {
+    "path": "ios/Classes/FLTImagePickerMetaDataUtil.h",
+    "bytes": 1780,
+    "sha256": "70ef65ba61902bbbe3457d93483c2798c58965920d56cdb315dbe9ba5f900b63"
+  },
+  {
+    "path": "ios/Classes/FLTImagePickerMetaDataUtil.m",
+    "bytes": 3286,
+    "sha256": "e58a808960d3d32581c1fdb7a4b8f7b11c13ca605dbec9e487b6740cef773305"
+  },
+  {
+    "path": "ios/Classes/FLTImagePickerPhotoAssetUtil.h",
+    "bytes": 1468,
+    "sha256": "9aad7ac60f13ea881d8f13b59e9eaecfac7b996bef3671289e3f6ac3f5e2683f"
+  },
+  {
+    "path": "ios/Classes/FLTImagePickerPhotoAssetUtil.m",
+    "bytes": 6458,
+    "sha256": "38b9c4db356b39832c3c270fc22da485bd2b38bc151388d4a6398a5827352a15"
+  },
+  {
+    "path": "ios/Classes/FLTImagePickerPlugin.h",
+    "bytes": 336,
+    "sha256": "5e3995a30a2d3f6948a2f82c19e90c4a371383183c8eaf0b97506ac4c90fbd63"
+  },
+  {
+    "path": "ios/Classes/FLTImagePickerPlugin.m",
+    "bytes": 29200,
+    "sha256": "39d80fa855cdf82cb8a7a767910a700b816b0651bca96d10ceec47052019d237"
+  },
+  {
+    "path": "ios/Classes/FLTImagePickerPlugin_Test.h",
+    "bytes": 3629,
+    "sha256": "a229c228cfedb9ea460f88ccbe0e21d0e490ecbdfd242520e797f5c62d823bbe"
+  },
+  {
+    "path": "ios/Classes/FLTPHPickerSaveImageToPathOperation.h",
+    "bytes": 1335,
+    "sha256": "4c5d4f416ec77c5a80c601de30232633f425596641a6418df77010074eeef463"
+  },
+  {
+    "path": "ios/Classes/FLTPHPickerSaveImageToPathOperation.m",
+    "bytes": 9787,
+    "sha256": "be99f99bd2f6a6cbd6bc7410e55c10039982ff03250ff264d186433de6e12f89"
+  },
+  {
+    "path": "ios/Classes/ImagePickerPlugin.modulemap",
+    "bytes": 369,
+    "sha256": "8d96ed55b6d93f8c0e654137d9ea8687064e4e16bbff67b4a01a182c39de9217"
+  },
+  {
+    "path": "ios/Classes/image_picker_ios-umbrella.h",
+    "bytes": 249,
+    "sha256": "e635809d24aac2355ce2cf79446e1818a746609df7d19dfbcbc7d9336972f084"
+  },
+  {
+    "path": "ios/Classes/messages.g.h",
+    "bytes": 3906,
+    "sha256": "38241006b30e5d88cef89fa90302ee299460bad53adcd1324c018b10657d6ccb"
+  },
+  {
+    "path": "ios/Classes/messages.g.m",
+    "bytes": 12014,
+    "sha256": "ea97b093cf71acec61ef953cec9b5c58da84e33482090a3c7e10e07fbb094722"
+  },
+  {
+    "path": "ios/image_picker_ios.podspec",
+    "bytes": 1080,
+    "sha256": "b49a310a6e36d573e11264c870bdb03dda34f18c9396e9a43de248e947c571f9"
+  },
+  {
+    "path": "lib/image_picker_ios.dart",
+    "bytes": 9822,
+    "sha256": "a654f6b97c19e0e0d8e0aae8f3cebd2123bef1142a2fae0002c40a266f351064"
+  },
+  {
+    "path": "lib/src/messages.g.dart",
+    "bytes": 8090,
+    "sha256": "edc60030dce02f4c75bbf817e6b0eb0b0b5021e3b5ab4e1170cb8245d644c3bf"
+  },
+  {
+    "path": "pigeons/copyright.txt",
+    "bytes": 155,
+    "sha256": "add31e0762a1baaa6dead956a46392e14f268e4f385a3e98490dc13f3483aa23"
+  },
+  {
+    "path": "pigeons/messages.dart",
+    "bytes": 1991,
+    "sha256": "6137a8dd872dd0f0ff15bc32d3b7d789b276b109772273ef42b7e76a88c42cec"
+  },
+  {
+    "path": "pubspec.yaml",
+    "bytes": 764,
+    "sha256": "dcf4e81bf3ba23edbebab01b9a74a0f5f14f305e77003c1a66a86365647df1d8"
+  },
+  {
+    "path": "test/image_picker_ios_test.dart",
+    "bytes": 52035,
+    "sha256": "3e7d7539e7dd079f50f05a63b2283df5c75a508ed94d7066378a852de239503d"
+  },
+  {
+    "path": "test/test_api.g.dart",
+    "bytes": 9330,
+    "sha256": "cddfae365e3e0320124753dac13741e63c9c3c3f014c58ed4d4d641d6532dda1"
+  }
+]

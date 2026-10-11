@@ -1,0 +1,6206 @@
+[
+  {
+    "package": "universal_html",
+    "path": "CHANGELOG.md",
+    "line": 159,
+    "text": "* Improved explanation that 'src/html/html_common/*.dart' were adopted from Dart SDK without much"
+  },
+  {
+    "package": "universal_html",
+    "path": "CHANGELOG.md",
+    "line": 163,
+    "text": "* The sole copyright owner (except for code derived from the Dart SDK as noted in the relevant"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 12,
+    "text": "      \"Licensor\" shall mean the copyright owner or entity authorized by"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 13,
+    "text": "      the copyright owner that is granting the License."
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 37,
+    "text": "      copyright notice that is included in or attached to the work"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 41,
+    "text": "      form, that is based on (or derived from) the Work and for which the"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 51,
+    "text": "      submitted to Licensor for inclusion in the Work by the copyright owner"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 53,
+    "text": "      the copyright owner. For the purposes of this definition, \"submitted\""
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 60,
+    "text": "      designated in writing by the copyright owner as \"Not a Contribution.\""
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 66,
+    "text": "   2. Grant of Copyright License. Subject to the terms and conditions of"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 69,
+    "text": "      copyright license to reproduce, prepare Derivative Works of,"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 101,
+    "text": "          that You distribute, all copyright, patent, trademark, and"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 123,
+    "text": "      You may add Your own copyright statement to Your modifications and"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 186,
+    "text": "      same \"printed page\" as the copyright notice for easier"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 189,
+    "text": "   Copyright [yyyy] [name of copyright owner]"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 191,
+    "text": "   Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 211,
+    "text": "Copyright 2013, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 216,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 219,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 226,
+    "text": "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 229,
+    "text": "A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 246,
+    "text": "Copyright (c) 2006-2012 The Authors"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 264,
+    "text": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:"
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 266,
+    "text": "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
+  },
+  {
+    "package": "universal_html",
+    "path": "LICENSE",
+    "line": 268,
+    "text": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "package": "universal_html",
+    "path": "README.md",
+    "line": 20,
+    "text": "The project is licensed under the [Apache License 2.0](LICENSE). Some of the source code was adopted"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/controller.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/controller.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/html.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/html.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/indexed_db.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/indexed_db.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/js_util.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/js_util.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/js.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/js.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/parsing.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/parsing.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/svg.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/svg.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/web_audio.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/web_audio.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/web_gl.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/web_gl.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk_html_additions.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk_html_additions.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html_top_level_functions.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html_top_level_functions.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/indexed_db.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/indexed_db.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/indexed_db.dart",
+    "line": 15,
+    "text": "This file was derived from the Dart SDK."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/indexed_db.dart",
+    "line": 19,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/indexed_db.dart",
+    "line": 23,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/indexed_db.dart",
+    "line": 26,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/indexed_db.dart",
+    "line": 33,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/indexed_db.dart",
+    "line": 36,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js_util.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js_util.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js_util.dart",
+    "line": 15,
+    "text": "This file was derived from the Dart SDK."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js_util.dart",
+    "line": 19,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js_util.dart",
+    "line": 23,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js_util.dart",
+    "line": 26,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js_util.dart",
+    "line": 33,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js_util.dart",
+    "line": 36,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js.dart",
+    "line": 15,
+    "text": "This file was derived from the Dart SDK."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js.dart",
+    "line": 19,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js.dart",
+    "line": 23,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js.dart",
+    "line": 26,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js.dart",
+    "line": 33,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/js.dart",
+    "line": 36,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/svg.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/svg.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/svg.dart",
+    "line": 15,
+    "text": "This file was derived from the Dart SDK."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/svg.dart",
+    "line": 19,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/svg.dart",
+    "line": 23,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/svg.dart",
+    "line": 26,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/svg.dart",
+    "line": 33,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/svg.dart",
+    "line": 36,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_audio.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_audio.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_audio.dart",
+    "line": 15,
+    "text": "This file was derived from the Dart SDK."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_audio.dart",
+    "line": 19,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_audio.dart",
+    "line": 23,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_audio.dart",
+    "line": 26,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_audio.dart",
+    "line": 33,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_audio.dart",
+    "line": 36,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_gl.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_gl.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_gl.dart",
+    "line": 15,
+    "text": "This file was derived from the Dart SDK."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_gl.dart",
+    "line": 19,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_gl.dart",
+    "line": 23,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_gl.dart",
+    "line": 26,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_gl.dart",
+    "line": 33,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/web_gl.dart",
+    "line": 36,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/content_type_sniffer.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/content_type_sniffer.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/internal_element_data_impl_browser.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/internal_element_data_impl_browser.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/internal_element_data_impl_others.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/internal_element_data_impl_others.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/internal_element_data.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/internal_element_data.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/window_behavior_impl_browser.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/window_behavior_impl_browser.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/window_behavior_impl_others.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/window_behavior_impl_others.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/window_behavior.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/window_behavior.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/window_controller.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/controller/window_controller.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/_dom_parser_driver.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/_dom_parser_driver.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/_html_parser.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/_html_parser.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/_xml_parser.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/_xml_parser.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/accessible_node.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/accessible_node.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/accessible_node.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/accessible_node.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/accessible_node.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/accessible_node.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/accessible_node.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/accessible_node.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/accessible_node.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/animation.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/animation.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/animation.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/animation.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/animation.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/animation.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/animation.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/animation.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/animation.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/application_cache.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/application_cache.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/application_cache.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/application_cache.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/application_cache.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/application_cache.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/application_cache.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/application_cache.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/application_cache.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/blob.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/blob.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/blob.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/blob.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/blob.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/blob.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/blob.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/blob.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/blob.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/canvas.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/canvas.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/canvas.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/canvas.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/canvas.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/canvas.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/canvas.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/canvas.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/canvas.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/console.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/console.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/console.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/console.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/console.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/console.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/console.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/console.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/console.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/crypto.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/crypto.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/crypto.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/crypto.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/crypto.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/crypto.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/crypto.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/crypto.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/crypto.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/data_transfer.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/data_transfer.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/data_transfer.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/data_transfer.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/data_transfer.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/data_transfer.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/data_transfer.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/data_transfer.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/data_transfer.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/device.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/device.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/device.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/device.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/device.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/device.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/device.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/device.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/device.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/dom_matrix.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/dom_matrix.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/dom_matrix.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/dom_matrix.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/dom_matrix.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/dom_matrix.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/dom_matrix.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/dom_matrix.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/dom_matrix.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_handlers.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_handlers.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_handlers.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_handlers.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_handlers.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_handlers.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_handlers.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_handlers.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_handlers.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_source.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_source.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_source.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_source.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_source.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_source.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_source.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_source.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_source.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_stream.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_stream.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_stream.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_stream.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_stream.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_stream.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_stream.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_stream.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_stream.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_subclasses.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_subclasses.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_subclasses.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_subclasses.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_subclasses.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_subclasses.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_subclasses.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_subclasses.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_subclasses.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_target.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_target.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_target.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_target.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_target.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_target.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_target.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_target.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event_target.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/event.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/file.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/file.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/file.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/file.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/file.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/file.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/file.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/file.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/file.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/geolocation.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/geolocation.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/geolocation.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/geolocation.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/geolocation.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/geolocation.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/geolocation.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/geolocation.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/geolocation.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/history.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/history.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/history.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/history.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/history.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/history.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/history.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/history.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/history.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/http_request.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/http_request.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/http_request.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/http_request.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/http_request.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/http_request.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/http_request.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/http_request.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/http_request.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/keycode.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/keycode.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/keycode.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/keycode.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/keycode.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/keycode.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/keycode.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/keycode.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/keycode.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/media.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/media.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/media.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/media.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/media.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/media.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/media.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/media.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/media.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator_misc.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator_misc.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator_misc.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator_misc.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator_misc.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator_misc.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator_misc.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator_misc.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator_misc.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/navigator.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/notification.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/notification.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/notification.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/notification.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/notification.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/notification.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/notification.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/notification.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/notification.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/payment.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/payment.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/payment.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/payment.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/payment.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/payment.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/payment.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/payment.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/payment.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/performance.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/performance.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/performance.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/performance.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/performance.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/performance.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/performance.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/performance.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/performance.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/permissions.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/permissions.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/permissions.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/permissions.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/permissions.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/permissions.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/permissions.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/permissions.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/permissions.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/scroll.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/scroll.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/scroll.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/scroll.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/scroll.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/scroll.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/scroll.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/scroll.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/scroll.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/speech_synthesis.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/speech_synthesis.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/speech_synthesis.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/speech_synthesis.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/speech_synthesis.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/speech_synthesis.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/speech_synthesis.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/speech_synthesis.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/speech_synthesis.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/storage.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/storage.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/storage.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/storage.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/storage.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/storage.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/storage.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/storage.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/storage.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_rtc.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_rtc.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_rtc.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_rtc.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_rtc.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_rtc.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_rtc.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_rtc.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_rtc.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_rtc.dart",
+    "line": 406,
+    "text": "// Copyright (c) 2012, the Dart project authors.  Please see the AUTHORS file"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_rtc.dart",
+    "line": 408,
+    "text": "// BSD-style license that can be found in the LICENSE file."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_rtc.dart",
+    "line": 418,
+    "text": "// Copyright (c) 2012, the Dart project authors.  Please see the AUTHORS file"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_rtc.dart",
+    "line": 420,
+    "text": "// BSD-style license that can be found in the LICENSE file."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_rtc.dart",
+    "line": 487,
+    "text": "// Copyright (c) 2012, the Dart project authors.  Please see the AUTHORS file"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_rtc.dart",
+    "line": 489,
+    "text": "// BSD-style license that can be found in the LICENSE file."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_socket.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_socket.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_socket.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_socket.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_socket.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_socket.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_socket.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_socket.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/web_socket.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window_misc.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window_misc.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window_misc.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window_misc.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window_misc.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window_misc.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window_misc.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window_misc.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window_misc.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/window.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/workers.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/workers.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/workers.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/workers.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/workers.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/workers.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/workers.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/workers.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/api/workers.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_computed_style.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_computed_style.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_computed_style.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_computed_style.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_computed_style.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_computed_style.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_computed_style.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_computed_style.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_computed_style.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_rect.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_rect.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_rect.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_rect.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_rect.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_rect.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_rect.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_rect.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_rect.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_selectors.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_selectors.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_selectors.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_selectors.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_selectors.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_selectors.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_selectors.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_selectors.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_selectors.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_base.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_base.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_base.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_base.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_base.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_base.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_base.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_base.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_base.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_set.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_set.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_set.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_set.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_set.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_set.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_set.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_set.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration_set.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css_style_declaration.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/css.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document_fragment.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document_fragment.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document_fragment.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document_fragment.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document_fragment.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document_fragment.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document_fragment.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document_fragment.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document_fragment.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/document.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/dom_exception.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/dom_exception.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/dom_exception.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/dom_exception.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/dom_exception.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/dom_exception.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/dom_exception.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/dom_exception.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/dom_exception.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_attributes.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_attributes.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_attributes.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_attributes.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_attributes.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_attributes.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_attributes.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_attributes.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_attributes.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_list.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_list.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_list.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_list.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_list.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_list.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_list.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_list.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_list.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_misc.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_misc.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_misc.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_misc.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_misc.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_misc.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_misc.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_misc.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_misc.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses_for_inputs.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses_for_inputs.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses_for_inputs.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses_for_inputs.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses_for_inputs.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses_for_inputs.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses_for_inputs.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses_for_inputs.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses_for_inputs.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element_subclasses.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/element.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_document.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_document.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_document.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_document.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_document.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_document.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_document.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_document.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_document.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_node_validator.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_node_validator.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_node_validator.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_node_validator.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_node_validator.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_node_validator.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_node_validator.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_node_validator.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/html_node_validator.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_child_node_list.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_child_node_list.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_child_node_list.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_child_node_list.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_child_node_list.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_child_node_list.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_child_node_list.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_child_node_list.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_child_node_list.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_printing.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_printing.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_printing.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_printing.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_printing.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_printing.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_printing.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_printing.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_printing.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_validator_builder.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_validator_builder.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_validator_builder.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_validator_builder.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_validator_builder.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_validator_builder.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_validator_builder.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_validator_builder.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node_validator_builder.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/node.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/parser.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/parser.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/parser.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/parser.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/parser.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/parser.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/parser.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/parser.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/parser.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/validators.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/validators.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/validators.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/validators.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/validators.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/validators.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/validators.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/validators.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/validators.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/xml_document.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/xml_document.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/xml_document.dart",
+    "line": 15,
+    "text": "Some source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/xml_document.dart",
+    "line": 18,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/xml_document.dart",
+    "line": 20,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/xml_document.dart",
+    "line": 24,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/xml_document.dart",
+    "line": 27,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/xml_document.dart",
+    "line": 34,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/xml_document.dart",
+    "line": 37,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/shared_with_dart2js/css_class_set.dart",
+    "line": 2,
+    "text": "Source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/shared_with_dart2js/css_class_set.dart",
+    "line": 5,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/shared_with_dart2js/css_class_set.dart",
+    "line": 7,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/shared_with_dart2js/css_class_set.dart",
+    "line": 11,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/shared_with_dart2js/css_class_set.dart",
+    "line": 14,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/shared_with_dart2js/css_class_set.dart",
+    "line": 21,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/shared_with_dart2js/css_class_set.dart",
+    "line": 24,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/shared_with_dart2js/metadata.dart",
+    "line": 2,
+    "text": "Source code in this file was adopted from 'dart:html' in Dart SDK. See:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/shared_with_dart2js/metadata.dart",
+    "line": 5,
+    "text": "The source code adopted from 'dart:html' had the following license:"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/shared_with_dart2js/metadata.dart",
+    "line": 7,
+    "text": "  Copyright 2012, the Dart project authors. All rights reserved."
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/shared_with_dart2js/metadata.dart",
+    "line": 11,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/shared_with_dart2js/metadata.dart",
+    "line": 14,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/shared_with_dart2js/metadata.dart",
+    "line": 21,
+    "text": "  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/html/dom/shared_with_dart2js/metadata.dart",
+    "line": 24,
+    "text": "  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/internal/event_stream_decoder.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/internal/event_stream_decoder.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/parsing/parsing_impl_browser.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/parsing/parsing_impl_browser.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/parsing/parsing_impl_vm.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/parsing/parsing_impl_vm.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/parsing/parsing.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/parsing/parsing.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk/html.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk/html.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk/indexed_db.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk/indexed_db.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk/js_util.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk/js_util.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk/js.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk/js.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk/svg.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk/svg.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk/web_audio.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk/web_audio.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk/web_gl.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "lib/src/_sdk/web_gl.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/main_test.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/main_test.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/parsing_test.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/parsing_test.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/reflection_test.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/reflection_test.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/server.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/server.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/libraries.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/libraries.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/controller/content_type_sniffer.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/controller/content_type_sniffer.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/controller/window_controller_networking.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/controller/window_controller_networking.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/controller/window_controller.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/controller/window_controller.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/blob.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/blob.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/event_target.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/event_target.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/file.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/file.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/history.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/history.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/navigator.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/navigator.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/networking_event_source.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/networking_event_source.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/networking_http_request.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/networking_http_request.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/window.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/window.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/workers.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/api/workers.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/cloning.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/cloning.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/css_queries.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/css_queries.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/document.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/document.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/element_attributes.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/element_attributes.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/element_computed_style.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/element_computed_style.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/element_subclasses.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/element_subclasses.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/element.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/element.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/helpers.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/helpers.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/node.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/node.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/parsing.dart",
+    "line": 1,
+    "text": "// Copyright 2019 terrier989@gmail.com"
+  },
+  {
+    "package": "universal_html",
+    "path": "test/src/html/dom/parsing.dart",
+    "line": 3,
+    "text": "// Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "CHANGELOG.md",
+    "line": 150,
+    "text": "- Add a more correct attribution to `package:platform_detect` code."
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "CHANGELOG.md",
+    "line": 154,
+    "text": "- (Null safety) Remove dependency on `package:platform_detect`"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 3,
+    "text": "Copyright 2013 The Flutter Authors. All rights reserved."
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 8,
+    "text": "    * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 11,
+    "text": "      copyright notice, this list of conditions and the following"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 18,
+    "text": "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 21,
+    "text": "DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 29,
+    "text": "platform_detect"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 42,
+    "text": "      \"Licensor\" shall mean the copyright owner or entity authorized by"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 43,
+    "text": "      the copyright owner that is granting the License."
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 67,
+    "text": "      copyright notice that is included in or attached to the work"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 71,
+    "text": "      form, that is based on (or derived from) the Work and for which the"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 81,
+    "text": "      submitted to Licensor for inclusion in the Work by the copyright owner"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 83,
+    "text": "      the copyright owner. For the purposes of this definition, \"submitted\""
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 90,
+    "text": "      designated in writing by the copyright owner as \"Not a Contribution.\""
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 96,
+    "text": "   2. Grant of Copyright License. Subject to the terms and conditions of"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 99,
+    "text": "      copyright license to reproduce, prepare Derivative Works of,"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 131,
+    "text": "          that You distribute, all copyright, patent, trademark, and"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 153,
+    "text": "      You may add Your own copyright statement to Your modifications and"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 216,
+    "text": "      same \"printed page\" as the copyright notice for easier"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 219,
+    "text": "   Copyright 2017 Workiva Inc."
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "LICENSE",
+    "line": 221,
+    "text": "   Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "example/integration_test/link_widget_test.dart",
+    "line": 1,
+    "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "example/integration_test/link_widget_test.dart",
+    "line": 2,
+    "text": "// Use of this source code is governed by a BSD-style license that can be"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "example/integration_test/url_launcher_web_test.dart",
+    "line": 1,
+    "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "example/integration_test/url_launcher_web_test.dart",
+    "line": 2,
+    "text": "// Use of this source code is governed by a BSD-style license that can be"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "example/lib/main.dart",
+    "line": 1,
+    "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "example/lib/main.dart",
+    "line": 2,
+    "text": "// Use of this source code is governed by a BSD-style license that can be"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "example/test_driver/integration_test.dart",
+    "line": 1,
+    "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "example/test_driver/integration_test.dart",
+    "line": 2,
+    "text": "// Use of this source code is governed by a BSD-style license that can be"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "example/web/index.html",
+    "line": 2,
+    "text": "<!-- Copyright 2013 The Flutter Authors. All rights reserved."
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "example/web/index.html",
+    "line": 3,
+    "text": "Use of this source code is governed by a BSD-style license that can be"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "lib/url_launcher_web.dart",
+    "line": 1,
+    "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "lib/url_launcher_web.dart",
+    "line": 2,
+    "text": "// Use of this source code is governed by a BSD-style license that can be"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "lib/src/link.dart",
+    "line": 1,
+    "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "lib/src/link.dart",
+    "line": 2,
+    "text": "// Use of this source code is governed by a BSD-style license that can be"
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "test/tests_exist_elsewhere_test.dart",
+    "line": 1,
+    "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+  },
+  {
+    "package": "url_launcher_web",
+    "path": "test/tests_exist_elsewhere_test.dart",
+    "line": 2,
+    "text": "// Use of this source code is governed by a BSD-style license that can be"
+  },
+  {
+    "package": "vector_math",
+    "path": "CONTRIBUTING.md",
+    "line": 8,
+    "text": "copyright to your changes, even after your contribution becomes part of our"
+  },
+  {
+    "package": "vector_math",
+    "path": "CONTRIBUTING.md",
+    "line": 27,
+    "text": "    // Copyright (c) 2015, the Dart project authors.  Please see the AUTHORS file"
+  },
+  {
+    "package": "vector_math",
+    "path": "CONTRIBUTING.md",
+    "line": 29,
+    "text": "    // BSD-style license that can be found in the LICENSE file."
+  },
+  {
+    "package": "vector_math",
+    "path": "LICENSE",
+    "line": 1,
+    "text": "Copyright 2015, Google Inc. All rights reserved."
+  },
+  {
+    "package": "vector_math",
+    "path": "LICENSE",
+    "line": 7,
+    "text": "   * Redistributions of source code must retain the above copyright"
+  },
+  {
+    "package": "vector_math",
+    "path": "LICENSE",
+    "line": 10,
+    "text": "copyright notice, this list of conditions and the following disclaimer"
+  },
+  {
+    "package": "vector_math",
+    "path": "LICENSE",
+    "line": 15,
+    "text": "contributors may be used to endorse or promote products derived from"
+  },
+  {
+    "package": "vector_math",
+    "path": "LICENSE",
+    "line": 18,
+    "text": "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS"
+  },
+  {
+    "package": "vector_math",
+    "path": "LICENSE",
+    "line": 21,
+    "text": "A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT"
+  },
+  {
+    "package": "vector_math",
+    "path": "LICENSE",
+    "line": 30,
+    "text": "Copyright (C) 2013 Andrew Magill"
+  },
+  {
+    "package": "vector_math",
+    "path": "LICENSE",
+    "line": 36,
+    "text": "Permission is granted to anyone to use this software for any purpose,"
+  },
+  {
+    "package": "vector_math",
+    "path": "LICENSE",
+    "line": 40,
+    "text": "1. The origin of this software must not be misrepresented; you must not"
+  },
+  {
+    "package": "vector_math",
+    "path": "benchmark/matrix_bench.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "benchmark/matrix_bench.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "benchmark/matrix4_tween_bench.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2019, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "benchmark/matrix4_tween_bench.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "bin/mesh_generator.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "bin/mesh_generator.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/hash.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2016, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/hash.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/vector_math_64.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/vector_math_64.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/vector_math_geometry.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/vector_math_geometry.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/vector_math_lists.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/vector_math_lists.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/vector_math_operations.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/vector_math_operations.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/vector_math.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/vector_math.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/aabb2.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/aabb2.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/aabb3.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/aabb3.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/colors.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/colors.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/constants.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/constants.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/error_helpers.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/error_helpers.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/frustum.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/frustum.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/intersection_result.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/intersection_result.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/matrix2.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/matrix2.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/matrix3.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/matrix3.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/matrix4.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/matrix4.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/matrix4.dart",
+    "line": 1377,
+    "text": "    // Adapted from code by Richard Carling."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/noise.dart",
+    "line": 2,
+    "text": "  Copyright (C) 2013 Andrew Magill"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/noise.dart",
+    "line": 8,
+    "text": "  Permission is granted to anyone to use this software for any purpose,"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/noise.dart",
+    "line": 12,
+    "text": "  1. The origin of this software must not be misrepresented; you must not"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/noise.dart",
+    "line": 25,
+    "text": " * This is based on the implementation of Simplex Noise by Stefan Gustavson"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/obb3.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/obb3.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/opengl.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/opengl.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/plane.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/plane.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/quad.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/quad.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/quaternion.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/quaternion.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/ray.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/ray.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/sphere.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/sphere.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/triangle.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/triangle.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/utilities.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/utilities.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/vector.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/vector.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/vector2.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/vector2.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/vector3.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/vector3.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/vector4.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math/vector4.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/aabb2.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/aabb2.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/aabb3.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/aabb3.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/colors.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/colors.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/constants.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/constants.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/error_helpers.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/error_helpers.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/frustum.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/frustum.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/intersection_result.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/intersection_result.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/matrix2.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/matrix2.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/matrix3.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/matrix3.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/matrix4.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/matrix4.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/matrix4.dart",
+    "line": 1377,
+    "text": "    // Adapted from code by Richard Carling."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/noise.dart",
+    "line": 2,
+    "text": "  Copyright (C) 2013 Andrew Magill"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/noise.dart",
+    "line": 8,
+    "text": "  Permission is granted to anyone to use this software for any purpose,"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/noise.dart",
+    "line": 12,
+    "text": "  1. The origin of this software must not be misrepresented; you must not"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/noise.dart",
+    "line": 25,
+    "text": " * This is based on the implementation of Simplex Noise by Stefan Gustavson"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/obb3.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/obb3.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/opengl.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/opengl.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/plane.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/plane.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/quad.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/quad.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/quaternion.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/quaternion.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/ray.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/ray.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/sphere.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/sphere.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/triangle.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/triangle.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/utilities.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/utilities.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/vector.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/vector.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/vector2.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/vector2.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/vector3.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/vector3.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/vector4.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_64/vector4.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/mesh_geometry.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/mesh_geometry.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/filters/barycentric_filter.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/filters/barycentric_filter.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/filters/color_filter.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/filters/color_filter.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/filters/flat_shade_filter.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/filters/flat_shade_filter.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/filters/geometry_filter.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/filters/geometry_filter.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/filters/invert_filter.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/filters/invert_filter.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/filters/transform_filter.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/filters/transform_filter.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/generators/attribute_generators.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/generators/attribute_generators.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/generators/attribute_generators.dart",
+    "line": 59,
+    "text": "/// Derived from the granddaddy of all tangent generation functions:"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/generators/circle_generator.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/generators/circle_generator.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/generators/cube_generator.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/generators/cube_generator.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/generators/cylinder_generator.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/generators/cylinder_generator.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/generators/geometry_generator.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/generators/geometry_generator.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/generators/ring_generator.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/generators/ring_generator.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/generators/sphere_generator.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_geometry/generators/sphere_generator.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_lists/scalar_list_view.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_lists/scalar_list_view.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_lists/vector_list.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_lists/vector_list.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_lists/vector2_list.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_lists/vector2_list.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_lists/vector3_list.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_lists/vector3_list.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_lists/vector4_list.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_lists/vector4_list.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_operations/matrix.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_operations/matrix.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_operations/vector.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "lib/src/vector_math_operations/vector.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/aabb2_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/aabb2_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/aabb3_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/aabb3_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/colors_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/colors_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/frustum_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/frustum_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/geometry_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/geometry_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/matrix2_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/matrix2_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/matrix3_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/matrix3_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/matrix4_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/matrix4_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/noise_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/noise_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/obb3_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/obb3_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/opengl_matrix_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/opengl_matrix_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/plane_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/plane_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/quad_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/quad_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/quaternion_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/quaternion_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/ray_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/ray_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/scalar_list_view_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/scalar_list_view_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/sphere_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/sphere_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/test_all.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/test_all.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/test_utils.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/test_utils.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/triangle_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/triangle_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/utilities_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/utilities_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/vector2_list_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/vector2_list_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/vector2_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/vector2_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/vector3_list_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/vector3_list_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/vector3_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/vector3_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/vector4_list_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/vector4_list_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "test/vector4_test.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "test/vector4_test.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  },
+  {
+    "package": "vector_math",
+    "path": "tool/generate_vector_math_64.dart",
+    "line": 1,
+    "text": "// Copyright (c) 2015, Google Inc. Please see the AUTHORS file for details."
+  },
+  {
+    "package": "vector_math",
+    "path": "tool/generate_vector_math_64.dart",
+    "line": 2,
+    "text": "// All rights reserved. Use of this source code is governed by a BSD-style"
+  }
+]

@@ -1,0 +1,1029 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "a3d1c9f84ebaa916c3ee37f48e701de95c2e40cc",
+  "scope": "Ten exact-version hosted Pub packages; source licence declarations only. Native graphs, final notices, legal approval and release source mapping remain separate.",
+  "releaseClearance": false,
+  "records": [
+    {
+      "name": "flutter_charset_detector",
+      "version": "1.0.2",
+      "source": "hosted",
+      "distributed": true,
+      "archiveUrl": "https://pub.dev/api/archives/flutter_charset_detector-1.0.2.tar.gz",
+      "archiveSha256": "edc87079f3c8917f2fa5620e594d10deef81bbf3d7a89cf99441dec955a06d9f",
+      "releaseMetadataPath": "flutter_charset_detector/release.json",
+      "archiveInventoryPath": "flutter_charset_detector/archive-inventory.json",
+      "sourceMarkersPath": "flutter_charset_detector/source-markers.json",
+      "sourceRepository": "https://github.com/amake/flutter_charset_detector",
+      "gitCommit": null,
+      "gitTag": null,
+      "gitMapping": "Not asserted: exact authenticated Pub archive is the release identity.",
+      "pubspecLicense": null,
+      "pubspecLicenses": null,
+      "originalDeclaration": "NOASSERTION",
+      "declaration": "NOASSERTION",
+      "classification": "Needs Verification",
+      "mode": "ambiguous-source-scope",
+      "releaseClearance": false,
+      "legalClearance": false,
+      "operator": "UNRESOLVED",
+      "terms": [],
+      "sourceScope": [],
+      "unresolvedReasons": [
+        "Main archive includes example content whose acquisition/rights provenance is not established; do not promote the whole component from a wrapper-only finding.",
+        "The MPL-1.1 detector notice names external engines; no OR election is supplied."
+      ],
+      "conditions": [
+        "Technical source/notice evidence only; not legal clearance, release clearance or binary verification.",
+        "Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open.",
+        "Exact Pub archive verified; repository/tag/commit equivalence is not asserted."
+      ],
+      "retainedFiles": [
+        {
+          "archivePath": "CHANGELOG.md",
+          "path": "flutter_charset_detector/source/CHANGELOG.md",
+          "sha256": "00c887777d9260595253ae0e65a0c719313c716ebf5896c5170c24e4885293d1"
+        },
+        {
+          "archivePath": "LICENSE",
+          "path": "flutter_charset_detector/source/LICENSE",
+          "sha256": "47aa01302693c2ab65f56c90c500f43d5fb4ddda5a4ced1cd102254df3865eb3"
+        },
+        {
+          "archivePath": "README.md",
+          "path": "flutter_charset_detector/source/README.md",
+          "sha256": "ab7733bfd07cb816b4032685c94737b693d4f22facb840309e1790636d89dad0"
+        },
+        {
+          "archivePath": "example/README.md",
+          "path": "flutter_charset_detector/source/example/README.md",
+          "sha256": "d1915b9ea9ae3e10caa346096e6f28c587e1a9799a9657d9ded90bb8cce79b85"
+        },
+        {
+          "archivePath": "example/assets/sjis-example.txt",
+          "path": "flutter_charset_detector/source/example/assets/sjis-example.txt",
+          "sha256": "3bf679d4a93704765050c124c5f25f338a359e6c029791245454973171fd1e39"
+        },
+        {
+          "archivePath": "example/ios/Flutter/Flutter.podspec",
+          "path": "flutter_charset_detector/source/example/ios/Flutter/Flutter.podspec",
+          "sha256": "e28230c45cb45d2b3fb6f3c0270ffd0d4c068e0a9ec36b8b7fd9bf78d1787869"
+        },
+        {
+          "archivePath": "example/pubspec.yaml",
+          "path": "flutter_charset_detector/source/example/pubspec.yaml",
+          "sha256": "19065c1218d5d5c02104dd7c2012e794fa3034c999f955bbb64a26341ae5d907"
+        },
+        {
+          "archivePath": "lib/flutter_charset_detector.dart",
+          "path": "flutter_charset_detector/source/lib/flutter_charset_detector.dart",
+          "sha256": "5a8a3b0738b3c714957cc09a3676ae2909582150f3642d159c587009d042d75a"
+        },
+        {
+          "archivePath": "pubspec.yaml",
+          "path": "flutter_charset_detector/source/pubspec.yaml",
+          "sha256": "f1746d37bda93dbfffaaf16b2ecdd9bf6db928d50774323708aad3b4b2a4681b"
+        }
+      ]
+    },
+    {
+      "name": "flutter_charset_detector_android",
+      "version": "1.0.0",
+      "source": "hosted",
+      "distributed": true,
+      "archiveUrl": "https://pub.dev/api/archives/flutter_charset_detector_android-1.0.0.tar.gz",
+      "archiveSha256": "2439a3bf418fe0fb962fc3dc9d0401c3561a497017bc587b9c48a47490f9c428",
+      "releaseMetadataPath": "flutter_charset_detector_android/release.json",
+      "archiveInventoryPath": "flutter_charset_detector_android/archive-inventory.json",
+      "sourceMarkersPath": "flutter_charset_detector_android/source-markers.json",
+      "sourceRepository": "https://github.com/amake/flutter_charset_detector",
+      "gitCommit": null,
+      "gitTag": null,
+      "gitMapping": "Not asserted: exact authenticated Pub archive is the release identity.",
+      "pubspecLicense": null,
+      "pubspecLicenses": null,
+      "originalDeclaration": "NOASSERTION",
+      "declaration": "MPL-2.0",
+      "classification": "Verified with conditions",
+      "mode": "wrapper-with-external-notices",
+      "releaseClearance": false,
+      "legalClearance": false,
+      "operator": "SINGLE",
+      "terms": [
+        {
+          "spdx": "MPL-2.0",
+          "licencePath": "LICENSE",
+          "startLine": 4,
+          "endLine": 376,
+          "scopeFiles": [
+            "android/src/main/kotlin/com/madlonkay/flutter_charset_detector/FlutterCharsetDetectorPlugin.kt",
+            "lib/flutter_charset_detector_android.dart"
+          ],
+          "textSha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+        }
+      ],
+      "sourceScope": [
+        {
+          "term": "MPL-2.0",
+          "paths": [
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "analysis_options.yaml",
+            "android/build.gradle",
+            "android/gradle.properties",
+            "android/gradle/wrapper/gradle-wrapper.properties",
+            "android/local.properties",
+            "android/settings.gradle",
+            "android/src/main/AndroidManifest.xml",
+            "android/src/main/kotlin/com/madlonkay/flutter_charset_detector/FlutterCharsetDetectorPlugin.kt",
+            "lib/flutter_charset_detector_android.dart",
+            "pubspec.yaml"
+          ],
+          "basis": "Small wrapper archive has family-labelled MPL-2.0; complete source/build/docs tree reviewed; named native engines are external."
+        }
+      ],
+      "unresolvedReasons": [],
+      "conditions": [
+        "Technical source/notice evidence only; not legal clearance, release clearance or binary verification.",
+        "Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open.",
+        "Exact Pub archive verified; repository/tag/commit equivalence is not asserted.",
+        "MPL-1.1 juniversalchardet/uchardet notices are retained but their implementation bytes are absent from this archive; external engine declarations/native evidence are unchanged.",
+        "Family-labelled MPL-2.0 applies to the hosted wrapper/source/build/docs archive; separately fetched dependencies are not included in this declaration."
+      ],
+      "retainedFiles": [
+        {
+          "archivePath": "CHANGELOG.md",
+          "path": "flutter_charset_detector_android/source/CHANGELOG.md",
+          "sha256": "bee00470f00df2c8d8267da9c9dc36009b9f23042ebd27c0efed55e343d12e61"
+        },
+        {
+          "archivePath": "LICENSE",
+          "path": "flutter_charset_detector_android/source/LICENSE",
+          "sha256": "47aa01302693c2ab65f56c90c500f43d5fb4ddda5a4ced1cd102254df3865eb3"
+        },
+        {
+          "archivePath": "README.md",
+          "path": "flutter_charset_detector_android/source/README.md",
+          "sha256": "c3b2098dc36c7274a28690751130c712eb857ca2dc4bff4940aff35dec550a84"
+        },
+        {
+          "archivePath": "analysis_options.yaml",
+          "path": "flutter_charset_detector_android/source/analysis_options.yaml",
+          "sha256": "8028a4c5ff482599e0246972274d821d6ad2ac7941b4d3db344dff0d66295ac7"
+        },
+        {
+          "archivePath": "android/build.gradle",
+          "path": "flutter_charset_detector_android/source/android/build.gradle",
+          "sha256": "590f0bea10856c32fdd42484123c831c8cc74e41e77a9ee6ed68c05d4f32289b"
+        },
+        {
+          "archivePath": "android/gradle.properties",
+          "path": "flutter_charset_detector_android/source/android/gradle.properties",
+          "sha256": "3c1fc1d9cad8765e2b44821c4774644b590bb58ecab6beb4bae2470ece0175be"
+        },
+        {
+          "archivePath": "android/gradle/wrapper/gradle-wrapper.properties",
+          "path": "flutter_charset_detector_android/source/android/gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "d32d1e736e36f83b0f4215778fd5057fb4483b8a4bca71f1e66c34eae3ee887e"
+        },
+        {
+          "archivePath": "android/local.properties",
+          "path": "flutter_charset_detector_android/source/android/local.properties",
+          "sha256": "315941386cd189266717016c9cf397d7460dc062449a8ad1bc3db59468cd69fa"
+        },
+        {
+          "archivePath": "android/settings.gradle",
+          "path": "flutter_charset_detector_android/source/android/settings.gradle",
+          "sha256": "1df387a684503a92b9fd37a07c8e9db6f0368e47524cc6a764bfe7a11e7f1259"
+        },
+        {
+          "archivePath": "android/src/main/AndroidManifest.xml",
+          "path": "flutter_charset_detector_android/source/android/src/main/AndroidManifest.xml",
+          "sha256": "63d346111a66a1c8277256b4d596202acf5d45622d1306711d73fdcf321bbe00"
+        },
+        {
+          "archivePath": "android/src/main/kotlin/com/madlonkay/flutter_charset_detector/FlutterCharsetDetectorPlugin.kt",
+          "path": "flutter_charset_detector_android/source/android/src/main/kotlin/com/madlonkay/flutter_charset_detector/FlutterCharsetDetectorPlugin.kt",
+          "sha256": "8958436319e81101c9dad4dcdb8fc7542b3a253c3fa0d85a26f576573e8e96be"
+        },
+        {
+          "archivePath": "lib/flutter_charset_detector_android.dart",
+          "path": "flutter_charset_detector_android/source/lib/flutter_charset_detector_android.dart",
+          "sha256": "95cec01346242e7cec8d4fa54db9e6c9ffe33d4b28d70485210ed6427a5c0e37"
+        },
+        {
+          "archivePath": "pubspec.yaml",
+          "path": "flutter_charset_detector_android/source/pubspec.yaml",
+          "sha256": "732ad4bdb7a4f268d50c9a40418b7b6f32106a2834724a89458f5f1893fb8e87"
+        }
+      ]
+    },
+    {
+      "name": "flutter_charset_detector_ios",
+      "version": "1.0.2",
+      "source": "hosted",
+      "distributed": true,
+      "archiveUrl": "https://pub.dev/api/archives/flutter_charset_detector_ios-1.0.2.tar.gz",
+      "archiveSha256": "e0e2c7b819cd1f7c9a50da94bf7f0e6d7a095eb64e81196ec758e77793903d43",
+      "releaseMetadataPath": "flutter_charset_detector_ios/release.json",
+      "archiveInventoryPath": "flutter_charset_detector_ios/archive-inventory.json",
+      "sourceMarkersPath": "flutter_charset_detector_ios/source-markers.json",
+      "sourceRepository": "https://github.com/amake/flutter_charset_detector",
+      "gitCommit": null,
+      "gitTag": null,
+      "gitMapping": "Not asserted: exact authenticated Pub archive is the release identity.",
+      "pubspecLicense": null,
+      "pubspecLicenses": null,
+      "originalDeclaration": "NOASSERTION",
+      "declaration": "MPL-2.0",
+      "classification": "Verified with conditions",
+      "mode": "wrapper-with-external-notices",
+      "releaseClearance": false,
+      "legalClearance": false,
+      "operator": "SINGLE",
+      "terms": [
+        {
+          "spdx": "MPL-2.0",
+          "licencePath": "LICENSE",
+          "startLine": 4,
+          "endLine": 376,
+          "scopeFiles": [
+            "ios/Classes/FlutterCharsetDetectorPlugin.h",
+            "ios/Classes/FlutterCharsetDetectorPlugin.m",
+            "ios/Classes/SwiftFlutterCharsetDetectorPlugin.swift",
+            "lib/flutter_charset_detector_ios.dart"
+          ],
+          "textSha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+        }
+      ],
+      "sourceScope": [
+        {
+          "term": "MPL-2.0",
+          "paths": [
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "analysis_options.yaml",
+            "ios/Classes/FlutterCharsetDetectorPlugin.h",
+            "ios/Classes/FlutterCharsetDetectorPlugin.m",
+            "ios/Classes/SwiftFlutterCharsetDetectorPlugin.swift",
+            "ios/flutter_charset_detector_ios.podspec",
+            "lib/flutter_charset_detector_ios.dart",
+            "pubspec.yaml"
+          ],
+          "basis": "Small wrapper archive has family-labelled MPL-2.0; complete source/build/docs tree reviewed; named native engines are external."
+        }
+      ],
+      "unresolvedReasons": [],
+      "conditions": [
+        "Technical source/notice evidence only; not legal clearance, release clearance or binary verification.",
+        "Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open.",
+        "Exact Pub archive verified; repository/tag/commit equivalence is not asserted.",
+        "MPL-1.1 juniversalchardet/uchardet notices are retained but their implementation bytes are absent from this archive; external engine declarations/native evidence are unchanged.",
+        "Family-labelled MPL-2.0 applies to the hosted wrapper/source/build/docs archive; separately fetched dependencies are not included in this declaration."
+      ],
+      "retainedFiles": [
+        {
+          "archivePath": "CHANGELOG.md",
+          "path": "flutter_charset_detector_ios/source/CHANGELOG.md",
+          "sha256": "443ff4dc55db682c8f24846068c89d824a0acbdc807c3a9f186a429ccbae0ed3"
+        },
+        {
+          "archivePath": "LICENSE",
+          "path": "flutter_charset_detector_ios/source/LICENSE",
+          "sha256": "47aa01302693c2ab65f56c90c500f43d5fb4ddda5a4ced1cd102254df3865eb3"
+        },
+        {
+          "archivePath": "README.md",
+          "path": "flutter_charset_detector_ios/source/README.md",
+          "sha256": "380953bac49798d9f4aed06058d0779a3f4ac093ea2342a75450a0511174c546"
+        },
+        {
+          "archivePath": "analysis_options.yaml",
+          "path": "flutter_charset_detector_ios/source/analysis_options.yaml",
+          "sha256": "8028a4c5ff482599e0246972274d821d6ad2ac7941b4d3db344dff0d66295ac7"
+        },
+        {
+          "archivePath": "ios/Classes/FlutterCharsetDetectorPlugin.h",
+          "path": "flutter_charset_detector_ios/source/ios/Classes/FlutterCharsetDetectorPlugin.h",
+          "sha256": "cbb72a30806d033c285ff2fb97592a8c5e8c11f79d6c3ecff149fbe384799e8c"
+        },
+        {
+          "archivePath": "ios/Classes/FlutterCharsetDetectorPlugin.m",
+          "path": "flutter_charset_detector_ios/source/ios/Classes/FlutterCharsetDetectorPlugin.m",
+          "sha256": "0a36bb5808b29dea2288db56938ba8a3d4703a229ecd4c899f7b4835636eff4a"
+        },
+        {
+          "archivePath": "ios/Classes/SwiftFlutterCharsetDetectorPlugin.swift",
+          "path": "flutter_charset_detector_ios/source/ios/Classes/SwiftFlutterCharsetDetectorPlugin.swift",
+          "sha256": "887fda41e1c6cf9fa1ebd8e3d607a121ce0865e58c12c8ac4095da443a0bac82"
+        },
+        {
+          "archivePath": "ios/flutter_charset_detector_ios.podspec",
+          "path": "flutter_charset_detector_ios/source/ios/flutter_charset_detector_ios.podspec",
+          "sha256": "c3ce637be0a1c9b075fff9ec13f2971deae6696a67fdb2ea68aa808283e7a7c4"
+        },
+        {
+          "archivePath": "lib/flutter_charset_detector_ios.dart",
+          "path": "flutter_charset_detector_ios/source/lib/flutter_charset_detector_ios.dart",
+          "sha256": "83fc4ca130e831377fb970999f930aea86d6a3b9ebc0fee90e085be995f3557f"
+        },
+        {
+          "archivePath": "pubspec.yaml",
+          "path": "flutter_charset_detector_ios/source/pubspec.yaml",
+          "sha256": "c4cbb3fea6193afa1ff2e1849154d8c77da0f89dd3d5f7e45fdbf1e9e02db74f"
+        }
+      ]
+    },
+    {
+      "name": "flutter_charset_detector_platform_interface",
+      "version": "1.1.0",
+      "source": "hosted",
+      "distributed": true,
+      "archiveUrl": "https://pub.dev/api/archives/flutter_charset_detector_platform_interface-1.1.0.tar.gz",
+      "archiveSha256": "1c09ed7b314a5a9dde76057b98b7d35458ba881eed03d5e5b6f7f74b4869d18c",
+      "releaseMetadataPath": "flutter_charset_detector_platform_interface/release.json",
+      "archiveInventoryPath": "flutter_charset_detector_platform_interface/archive-inventory.json",
+      "sourceMarkersPath": "flutter_charset_detector_platform_interface/source-markers.json",
+      "sourceRepository": "https://github.com/amake/flutter_charset_detector",
+      "gitCommit": null,
+      "gitTag": null,
+      "gitMapping": "Not asserted: exact authenticated Pub archive is the release identity.",
+      "pubspecLicense": null,
+      "pubspecLicenses": null,
+      "originalDeclaration": "NOASSERTION",
+      "declaration": "MPL-2.0",
+      "classification": "Verified with conditions",
+      "mode": "wrapper-with-external-notices",
+      "releaseClearance": false,
+      "legalClearance": false,
+      "operator": "SINGLE",
+      "terms": [
+        {
+          "spdx": "MPL-2.0",
+          "licencePath": "LICENSE",
+          "startLine": 4,
+          "endLine": 376,
+          "scopeFiles": [
+            "lib/decoding_result.dart",
+            "lib/flutter_charset_detector_platform_interface.dart",
+            "lib/src/method_channel_charset_detector.dart"
+          ],
+          "textSha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+        }
+      ],
+      "sourceScope": [
+        {
+          "term": "MPL-2.0",
+          "paths": [
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "analysis_options.yaml",
+            "lib/decoding_result.dart",
+            "lib/flutter_charset_detector_platform_interface.dart",
+            "lib/src/method_channel_charset_detector.dart",
+            "pubspec.yaml"
+          ],
+          "basis": "Small wrapper archive has family-labelled MPL-2.0; complete source/build/docs tree reviewed; named native engines are external."
+        }
+      ],
+      "unresolvedReasons": [],
+      "conditions": [
+        "Technical source/notice evidence only; not legal clearance, release clearance or binary verification.",
+        "Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open.",
+        "Exact Pub archive verified; repository/tag/commit equivalence is not asserted.",
+        "MPL-1.1 juniversalchardet/uchardet notices are retained but their implementation bytes are absent from this archive; external engine declarations/native evidence are unchanged.",
+        "Family-labelled MPL-2.0 applies to the hosted wrapper/source/build/docs archive; separately fetched dependencies are not included in this declaration."
+      ],
+      "retainedFiles": [
+        {
+          "archivePath": "CHANGELOG.md",
+          "path": "flutter_charset_detector_platform_interface/source/CHANGELOG.md",
+          "sha256": "90df7b3096a8f59aae87b37263f76a68ba99c01509f8c105f78c23099f77283e"
+        },
+        {
+          "archivePath": "LICENSE",
+          "path": "flutter_charset_detector_platform_interface/source/LICENSE",
+          "sha256": "47aa01302693c2ab65f56c90c500f43d5fb4ddda5a4ced1cd102254df3865eb3"
+        },
+        {
+          "archivePath": "README.md",
+          "path": "flutter_charset_detector_platform_interface/source/README.md",
+          "sha256": "aed1973e7cec40a9441ee7f56611b72e49578bfca9c1a4a3fd1ae561fad9bd6d"
+        },
+        {
+          "archivePath": "analysis_options.yaml",
+          "path": "flutter_charset_detector_platform_interface/source/analysis_options.yaml",
+          "sha256": "124b1a50c5a69aceaf2bc87cc278ef4d1fa7b9d46b7a24f33ae0a54b9ff5d71b"
+        },
+        {
+          "archivePath": "lib/decoding_result.dart",
+          "path": "flutter_charset_detector_platform_interface/source/lib/decoding_result.dart",
+          "sha256": "82f96e1c3cf99a45f74d65d2356cc32dc62dbc72f812916ee2eb2d107ab492f1"
+        },
+        {
+          "archivePath": "lib/flutter_charset_detector_platform_interface.dart",
+          "path": "flutter_charset_detector_platform_interface/source/lib/flutter_charset_detector_platform_interface.dart",
+          "sha256": "81e2adab4181099c10a5e71dee04d0ee64e9acadc6145620b19ee085b852dba9"
+        },
+        {
+          "archivePath": "lib/src/method_channel_charset_detector.dart",
+          "path": "flutter_charset_detector_platform_interface/source/lib/src/method_channel_charset_detector.dart",
+          "sha256": "8bc80047214eac6022572d3d1e5f88094668332a0c4c2660baef301a8226956d"
+        },
+        {
+          "archivePath": "pubspec.yaml",
+          "path": "flutter_charset_detector_platform_interface/source/pubspec.yaml",
+          "sha256": "7fd1022d716f8178ec3f4960f6656128fd58a158bb2d6274510713baefde119d"
+        }
+      ]
+    },
+    {
+      "name": "image_picker",
+      "version": "1.1.2",
+      "source": "hosted",
+      "distributed": true,
+      "archiveUrl": "https://pub.dev/api/archives/image_picker-1.1.2.tar.gz",
+      "archiveSha256": "021834d9c0c3de46bf0fe40341fa07168407f694d9b2bb18d532dc1261867f7a",
+      "releaseMetadataPath": "image_picker/release.json",
+      "archiveInventoryPath": "image_picker/archive-inventory.json",
+      "sourceMarkersPath": "image_picker/source-markers.json",
+      "sourceRepository": "https://github.com/flutter/packages/tree/main/packages/image_picker/image_picker",
+      "gitCommit": null,
+      "gitTag": null,
+      "gitMapping": "Not asserted: exact authenticated Pub archive is the release identity.",
+      "pubspecLicense": null,
+      "pubspecLicenses": null,
+      "originalDeclaration": "NOASSERTION",
+      "declaration": "NOASSERTION",
+      "classification": "Needs Verification",
+      "mode": "ambiguous-source-scope",
+      "releaseClearance": false,
+      "legalClearance": false,
+      "operator": "UNRESOLVED",
+      "terms": [],
+      "sourceScope": [],
+      "unresolvedReasons": [
+        "Root LICENSE retains the aFileChooser Apache section, but the exact archive does not establish its current source boundary. Neither BSD-only nor a cumulative package declaration is promoted without that scope evidence."
+      ],
+      "conditions": [
+        "Technical source/notice evidence only; not legal clearance, release clearance or binary verification.",
+        "Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open.",
+        "Exact Pub archive verified; repository/tag/commit equivalence is not asserted."
+      ],
+      "retainedFiles": [
+        {
+          "archivePath": "AUTHORS",
+          "path": "image_picker/source/AUTHORS",
+          "sha256": "10f7e54c7d9c0d9b3439b9b90fa04f55ef68107853f4d335b74d7cd313475420"
+        },
+        {
+          "archivePath": "CHANGELOG.md",
+          "path": "image_picker/source/CHANGELOG.md",
+          "sha256": "f9346aab9c5485061d554e3cd0077bb91982a7adea330811595d79020451295c"
+        },
+        {
+          "archivePath": "LICENSE",
+          "path": "image_picker/source/LICENSE",
+          "sha256": "5be052679cb82ade21607d199dad720f03f00b8c4fb1e91629273f89fbe0fd60"
+        },
+        {
+          "archivePath": "README.md",
+          "path": "image_picker/source/README.md",
+          "sha256": "cf9269c8e8f2d11d61230383dbca0be47e4205b4814b3ed069810262d72efba0"
+        },
+        {
+          "archivePath": "example/pubspec.yaml",
+          "path": "image_picker/source/example/pubspec.yaml",
+          "sha256": "68f7d99d896a0f97ebeeabbd26ad3d82b0b260199bb50f97dad7f2bbedc362f0"
+        },
+        {
+          "archivePath": "lib/image_picker.dart",
+          "path": "image_picker/source/lib/image_picker.dart",
+          "sha256": "700a11ac4a72430443dea6e7cb5543acc3580faee96bbce8bb65318d6053ea85"
+        },
+        {
+          "archivePath": "pubspec.yaml",
+          "path": "image_picker/source/pubspec.yaml",
+          "sha256": "aaf14a57338b9d88a3d3d4794573a4e9219dd0e80175b90ec71b6aa548f80dfe"
+        }
+      ]
+    },
+    {
+      "name": "image_picker_android",
+      "version": "0.8.8+2",
+      "source": "hosted",
+      "distributed": true,
+      "archiveUrl": "https://pub.dev/api/archives/image_picker_android-0.8.8%2B2.tar.gz",
+      "archiveSha256": "d6a6e78821086b0b737009b09363018309bbc6de3fd88cc5c26bc2bb44a4957f",
+      "releaseMetadataPath": "image_picker_android/release.json",
+      "archiveInventoryPath": "image_picker_android/archive-inventory.json",
+      "sourceMarkersPath": "image_picker_android/source-markers.json",
+      "sourceRepository": "https://github.com/flutter/packages/tree/main/packages/image_picker/image_picker_android",
+      "gitCommit": null,
+      "gitTag": null,
+      "gitMapping": "Not asserted: exact authenticated Pub archive is the release identity.",
+      "pubspecLicense": null,
+      "pubspecLicenses": null,
+      "originalDeclaration": "NOASSERTION",
+      "declaration": "Apache-2.0 AND BSD-3-Clause",
+      "classification": "Verified with conditions",
+      "mode": "simultaneous-by-file",
+      "releaseClearance": false,
+      "legalClearance": false,
+      "operator": "AND",
+      "terms": [
+        {
+          "spdx": "BSD-3-Clause",
+          "licencePath": "LICENSE",
+          "startLine": 1,
+          "endLine": 27,
+          "scopeFiles": [
+            "lib/image_picker_android.dart",
+            "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerPlugin.java"
+          ],
+          "textSha256": "d5994bbaf465e0db2ca6ceb735cbe12f50a2f2eab6c42fe6aba9e431185af812"
+        },
+        {
+          "spdx": "Apache-2.0",
+          "licencePath": "LICENSE",
+          "startLine": 31,
+          "endLine": 231,
+          "scopeFiles": [
+            "android/src/main/java/io/flutter/plugins/imagepicker/FileUtils.java"
+          ],
+          "textSha256": "6042bb5eb4070779f954559c181e1bfa55b66b45ab89fd33eee28d5374834613"
+        }
+      ],
+      "sourceScope": [
+        {
+          "term": "BSD-3-Clause",
+          "paths": [
+            "CHANGELOG.md",
+            "README.md",
+            "android/build.gradle",
+            "android/settings.gradle",
+            "android/src/main/java/io/flutter/plugins/imagepicker/ExifDataCopier.java",
+            "android/src/main/java/io/flutter/plugins/imagepicker/FileUtils.java",
+            "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerCache.java",
+            "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerDelegate.java",
+            "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerFileProvider.java",
+            "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerPlugin.java",
+            "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerUtils.java",
+            "android/src/main/java/io/flutter/plugins/imagepicker/ImageResizer.java",
+            "android/src/main/java/io/flutter/plugins/imagepicker/Messages.java",
+            "android/src/test/java/io/flutter/plugins/imagepicker/ExifDataCopierTest.java",
+            "android/src/test/java/io/flutter/plugins/imagepicker/FileUtilTest.java",
+            "android/src/test/java/io/flutter/plugins/imagepicker/ImagePickerCacheTest.java",
+            "android/src/test/java/io/flutter/plugins/imagepicker/ImagePickerDelegateTest.java",
+            "android/src/test/java/io/flutter/plugins/imagepicker/ImagePickerPluginTest.java",
+            "android/src/test/java/io/flutter/plugins/imagepicker/ImageResizerTest.java",
+            "example/README.md",
+            "example/android/app/build.gradle",
+            "example/android/app/src/androidTest/java/io/flutter/plugins/DartIntegrationTest.java",
+            "example/android/app/src/androidTest/java/io/flutter/plugins/imagepickerexample/FlutterActivityTest.java",
+            "example/android/app/src/androidTest/java/io/flutter/plugins/imagepickerexample/ImagePickerPickTest.java",
+            "example/android/app/src/androidTest/java/io/flutter/plugins/imagepickerexample/ImagePickerTest.java",
+            "example/android/app/src/main/java/io/flutter/plugins/imagepickerexample/DriverExtensionActivity.java",
+            "example/android/app/src/main/java/io/flutter/plugins/imagepickerexample/DummyContentProvider.java",
+            "example/android/app/src/main/java/io/flutter/plugins/imagepickerexample/ImagePickerTestActivity.java",
+            "example/android/build.gradle",
+            "example/android/settings.gradle",
+            "example/integration_test/image_picker_test.dart",
+            "example/lib/main.dart",
+            "example/pubspec.yaml",
+            "example/test_driver/integration_test.dart",
+            "lib/image_picker_android.dart",
+            "lib/src/messages.g.dart",
+            "pigeons/messages.dart",
+            "pubspec.yaml",
+            "test/image_picker_android_test.dart",
+            "test/test_api.g.dart"
+          ],
+          "basis": "Flutter wrapper/default source headers; BSD contribution header also retained in FileUtils."
+        },
+        {
+          "term": "Apache-2.0",
+          "paths": [
+            "android/src/main/java/io/flutter/plugins/imagepicker/FileUtils.java"
+          ],
+          "basis": "Full Apache source attribution and OpenIntents/aFileChooser origin in lines 5-22; simultaneously retained with Flutter contributions."
+        }
+      ],
+      "unresolvedReasons": [],
+      "conditions": [
+        "Technical source/notice evidence only; not legal clearance, release clearance or binary verification.",
+        "Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open.",
+        "Exact Pub archive verified; repository/tag/commit equivalence is not asserted.",
+        "External Maven/native dependency licences and runtime binaries are not certified by this Pub-source declaration."
+      ],
+      "retainedFiles": [
+        {
+          "archivePath": "AUTHORS",
+          "path": "image_picker_android/source/AUTHORS",
+          "sha256": "0998711f2c154f372a4fbe404d0a0329efa1a678830ee4a93ac59701be242a7f"
+        },
+        {
+          "archivePath": "CHANGELOG.md",
+          "path": "image_picker_android/source/CHANGELOG.md",
+          "sha256": "197dfa12875aafae2ed37ef50373fc96a56c6e927df0547b7e5363c8dd854d94"
+        },
+        {
+          "archivePath": "LICENSE",
+          "path": "image_picker_android/source/LICENSE",
+          "sha256": "5be052679cb82ade21607d199dad720f03f00b8c4fb1e91629273f89fbe0fd60"
+        },
+        {
+          "archivePath": "README.md",
+          "path": "image_picker_android/source/README.md",
+          "sha256": "328caa7039273400cbe787448ffd8f25f3d906aeed93d0f212200def4e9694bb"
+        },
+        {
+          "archivePath": "android/src/main/java/io/flutter/plugins/imagepicker/FileUtils.java",
+          "path": "image_picker_android/source/android/src/main/java/io/flutter/plugins/imagepicker/FileUtils.java",
+          "sha256": "f8e23dcbf32356365ed5665c4e869469c35332af89a3af72e314d2182a92a1b6"
+        },
+        {
+          "archivePath": "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerPlugin.java",
+          "path": "image_picker_android/source/android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerPlugin.java",
+          "sha256": "269380ae1ea185acaf254f3e43c07f15576e6bff766409c50deecefb567de0aa"
+        },
+        {
+          "archivePath": "example/pubspec.yaml",
+          "path": "image_picker_android/source/example/pubspec.yaml",
+          "sha256": "ac06dc422b4db5712ca9219c455485bb870facd09bb4500804f86862ec033402"
+        },
+        {
+          "archivePath": "lib/image_picker_android.dart",
+          "path": "image_picker_android/source/lib/image_picker_android.dart",
+          "sha256": "0bdb36a2f909c6d6d01ba31557084c5e187cdfdb0b0c3ab7425c691ff16b6410"
+        },
+        {
+          "archivePath": "pubspec.yaml",
+          "path": "image_picker_android/source/pubspec.yaml",
+          "sha256": "d8b4688c8ad25fc0793612e050343f406bc2acb434260767b6555db53b7b3880"
+        }
+      ]
+    },
+    {
+      "name": "image_picker_ios",
+      "version": "0.8.8+4",
+      "source": "hosted",
+      "distributed": true,
+      "archiveUrl": "https://pub.dev/api/archives/image_picker_ios-0.8.8%2B4.tar.gz",
+      "archiveSha256": "76ec722aeea419d03aa915c2c96bf5b47214b053899088c9abb4086ceecf97a7",
+      "releaseMetadataPath": "image_picker_ios/release.json",
+      "archiveInventoryPath": "image_picker_ios/archive-inventory.json",
+      "sourceMarkersPath": "image_picker_ios/source-markers.json",
+      "sourceRepository": "https://github.com/flutter/packages/tree/main/packages/image_picker/image_picker_ios",
+      "gitCommit": null,
+      "gitTag": null,
+      "gitMapping": "Not asserted: exact authenticated Pub archive is the release identity.",
+      "pubspecLicense": null,
+      "pubspecLicenses": null,
+      "originalDeclaration": "NOASSERTION",
+      "declaration": "NOASSERTION",
+      "classification": "Needs Verification",
+      "mode": "ambiguous-source-scope",
+      "releaseClearance": false,
+      "legalClearance": false,
+      "operator": "UNRESOLVED",
+      "terms": [],
+      "sourceScope": [],
+      "unresolvedReasons": [
+        "Root LICENSE retains the aFileChooser Apache section, but the exact archive does not establish its current source boundary. Neither BSD-only nor a cumulative package declaration is promoted without that scope evidence."
+      ],
+      "conditions": [
+        "Technical source/notice evidence only; not legal clearance, release clearance or binary verification.",
+        "Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open.",
+        "Exact Pub archive verified; repository/tag/commit equivalence is not asserted."
+      ],
+      "retainedFiles": [
+        {
+          "archivePath": "AUTHORS",
+          "path": "image_picker_ios/source/AUTHORS",
+          "sha256": "e89602d9d136178bcf1e20cbdfe98c236050f7fefcd8e9a03a18fbc4aa771af4"
+        },
+        {
+          "archivePath": "CHANGELOG.md",
+          "path": "image_picker_ios/source/CHANGELOG.md",
+          "sha256": "abb8bbb5532c32f4ed5d23f29f40231b57780361817d47ad20ff1542d8c42d1f"
+        },
+        {
+          "archivePath": "LICENSE",
+          "path": "image_picker_ios/source/LICENSE",
+          "sha256": "5be052679cb82ade21607d199dad720f03f00b8c4fb1e91629273f89fbe0fd60"
+        },
+        {
+          "archivePath": "README.md",
+          "path": "image_picker_ios/source/README.md",
+          "sha256": "d3babf95186cceac674edc3cbce054314f5506572391da2178a9414571ca153e"
+        },
+        {
+          "archivePath": "example/pubspec.yaml",
+          "path": "image_picker_ios/source/example/pubspec.yaml",
+          "sha256": "86c22c701babbfc09c5f55693c9b9da3e9ca9cb891ac17f13799f54b492983f4"
+        },
+        {
+          "archivePath": "ios/Classes/FLTImagePickerPlugin.m",
+          "path": "image_picker_ios/source/ios/Classes/FLTImagePickerPlugin.m",
+          "sha256": "39d80fa855cdf82cb8a7a767910a700b816b0651bca96d10ceec47052019d237"
+        },
+        {
+          "archivePath": "lib/image_picker_ios.dart",
+          "path": "image_picker_ios/source/lib/image_picker_ios.dart",
+          "sha256": "a654f6b97c19e0e0d8e0aae8f3cebd2123bef1142a2fae0002c40a266f351064"
+        },
+        {
+          "archivePath": "pubspec.yaml",
+          "path": "image_picker_ios/source/pubspec.yaml",
+          "sha256": "dcf4e81bf3ba23edbebab01b9a74a0f5f14f305e77003c1a66a86365647df1d8"
+        }
+      ]
+    },
+    {
+      "name": "universal_html",
+      "version": "2.2.4",
+      "source": "hosted",
+      "distributed": true,
+      "archiveUrl": "https://pub.dev/api/archives/universal_html-2.2.4.tar.gz",
+      "archiveSha256": "56536254004e24d9d8cfdb7dbbf09b74cf8df96729f38a2f5c238163e3d58971",
+      "releaseMetadataPath": "universal_html/release.json",
+      "archiveInventoryPath": "universal_html/archive-inventory.json",
+      "sourceMarkersPath": "universal_html/source-markers.json",
+      "sourceRepository": "https://github.com/dint-dev/universal_html",
+      "gitCommit": null,
+      "gitTag": null,
+      "gitMapping": "Not asserted: exact authenticated Pub archive is the release identity.",
+      "pubspecLicense": null,
+      "pubspecLicenses": null,
+      "originalDeclaration": "NOASSERTION",
+      "declaration": "NOASSERTION",
+      "classification": "Needs Verification",
+      "mode": "ambiguous-source-scope",
+      "releaseClearance": false,
+      "legalClearance": false,
+      "operator": "UNRESOLVED",
+      "terms": [],
+      "sourceScope": [],
+      "unresolvedReasons": [
+        "Root Apache-2.0, BSD csslib and MIT html notices remain intact. Exact scope of copied MIT material versus separately imported dependencies is not established; no package-level expression is promoted."
+      ],
+      "conditions": [
+        "Technical source/notice evidence only; not legal clearance, release clearance or binary verification.",
+        "Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open.",
+        "Exact Pub archive verified; repository/tag/commit equivalence is not asserted."
+      ],
+      "retainedFiles": [
+        {
+          "archivePath": "CHANGELOG.md",
+          "path": "universal_html/source/CHANGELOG.md",
+          "sha256": "12c8277fbb19450236ba5789656206b7fc6d712b7cdc915fbe8c823a5b8711fe"
+        },
+        {
+          "archivePath": "LICENSE",
+          "path": "universal_html/source/LICENSE",
+          "sha256": "dcade640e6022dd9b28d39ed3eadbd4f164304dd4dff489c1bcd911e5b715a79"
+        },
+        {
+          "archivePath": "README.md",
+          "path": "universal_html/source/README.md",
+          "sha256": "600113aeafa279b3bede55ebb10a5f754fd63bd18015a83adcff5b2fe26196a3"
+        },
+        {
+          "archivePath": "lib/html.dart",
+          "path": "universal_html/source/lib/html.dart",
+          "sha256": "74211e55cfedb4f7bfa3bef7075bbc196ad34abe64d002fcd0f57263537d8c01"
+        },
+        {
+          "archivePath": "lib/src/_sdk/html.dart",
+          "path": "universal_html/source/lib/src/_sdk/html.dart",
+          "sha256": "3913b406e95f750fc1e4c35b6c22061c0fbfffa1e55bc360c0d6ff8c63ed1265"
+        },
+        {
+          "archivePath": "lib/src/html.dart",
+          "path": "universal_html/source/lib/src/html.dart",
+          "sha256": "4e0ca294404e05b7a063dbf1fe1c7cdec7d5bf92c8c07e004e0eb5006f153f34"
+        },
+        {
+          "archivePath": "lib/src/html/dom/css_selectors.dart",
+          "path": "universal_html/source/lib/src/html/dom/css_selectors.dart",
+          "sha256": "0229abcea03b190dd595792da920255e5d84e33768e041b5cdc9e3e04e585c8a"
+        },
+        {
+          "archivePath": "lib/src/html/dom/node.dart",
+          "path": "universal_html/source/lib/src/html/dom/node.dart",
+          "sha256": "671ddfb991f663800b3502028212f8c9d8f991e38fb652ed33a975a3664f694d"
+        },
+        {
+          "archivePath": "lib/src/html/dom/shared_with_dart2js/css_class_set.dart",
+          "path": "universal_html/source/lib/src/html/dom/shared_with_dart2js/css_class_set.dart",
+          "sha256": "9880d64b8d0f873f98280a0e334f967655e0633e1ad53c0ca12578b59b363eb8"
+        },
+        {
+          "archivePath": "pubspec.yaml",
+          "path": "universal_html/source/pubspec.yaml",
+          "sha256": "30e4c69217508fdec76469caff23eb244a5333f39158c6a94bec706ecd9f5ddf"
+        }
+      ]
+    },
+    {
+      "name": "url_launcher_web",
+      "version": "2.3.1",
+      "source": "hosted",
+      "distributed": true,
+      "archiveUrl": "https://pub.dev/api/archives/url_launcher_web-2.3.1.tar.gz",
+      "archiveSha256": "8d9e750d8c9338601e709cd0885f95825086bd8b642547f26bda435aade95d8a",
+      "releaseMetadataPath": "url_launcher_web/release.json",
+      "archiveInventoryPath": "url_launcher_web/archive-inventory.json",
+      "sourceMarkersPath": "url_launcher_web/source-markers.json",
+      "sourceRepository": "https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_web",
+      "gitCommit": null,
+      "gitTag": null,
+      "gitMapping": "Not asserted: exact authenticated Pub archive is the release identity.",
+      "pubspecLicense": null,
+      "pubspecLicenses": null,
+      "originalDeclaration": "NOASSERTION",
+      "declaration": "NOASSERTION",
+      "classification": "Needs Verification",
+      "mode": "ambiguous-source-scope",
+      "releaseClearance": false,
+      "legalClearance": false,
+      "operator": "UNRESOLVED",
+      "terms": [],
+      "sourceScope": [],
+      "unresolvedReasons": [
+        "Retained platform_detect Apache notice and recorded removal of nested Safari code do not prove whether the current check is adapted Apache code or the notice is stale; preserve NOASSERTION and both notices."
+      ],
+      "conditions": [
+        "Technical source/notice evidence only; not legal clearance, release clearance or binary verification.",
+        "Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open.",
+        "Exact Pub archive verified; repository/tag/commit equivalence is not asserted."
+      ],
+      "retainedFiles": [
+        {
+          "archivePath": "AUTHORS",
+          "path": "url_launcher_web/source/AUTHORS",
+          "sha256": "d0236a600d4e4f345630699f1da6a5c8084e85eabca0093b71be5411a2d9c54c"
+        },
+        {
+          "archivePath": "CHANGELOG.md",
+          "path": "url_launcher_web/source/CHANGELOG.md",
+          "sha256": "0d298949739b247938e7487193a4db1e0913ebcb2c66ae23de37a28a1960c1a0"
+        },
+        {
+          "archivePath": "LICENSE",
+          "path": "url_launcher_web/source/LICENSE",
+          "sha256": "f9bd6d4f1da93f33d7d9aa44848bee6d1bacf1c5049d3ba2fd3f5d362a01ceab"
+        },
+        {
+          "archivePath": "README.md",
+          "path": "url_launcher_web/source/README.md",
+          "sha256": "1c7bfbf67d496b2c7b80a5f6ca3fdfb9baca18f13fd14bf7255258815fe0daf3"
+        },
+        {
+          "archivePath": "example/pubspec.yaml",
+          "path": "url_launcher_web/source/example/pubspec.yaml",
+          "sha256": "ad4341cfc9e24e34ad52d328d91e8df3205ef40da2ca1b5d848a9cf4757af585"
+        },
+        {
+          "archivePath": "lib/src/link.dart",
+          "path": "url_launcher_web/source/lib/src/link.dart",
+          "sha256": "66fb081f09eddbe10dc0b5f7b0680047f3c57ca7c6f459acf04bf023e5544c3b"
+        },
+        {
+          "archivePath": "lib/url_launcher_web.dart",
+          "path": "url_launcher_web/source/lib/url_launcher_web.dart",
+          "sha256": "2939df1d69f24182f94e6c65f109dbf466c6f6c41cfe3f5c4347dcfc26676a0e"
+        },
+        {
+          "archivePath": "pubspec.yaml",
+          "path": "url_launcher_web/source/pubspec.yaml",
+          "sha256": "61128df737b6af7152302025998762c18d55267d917c4c2df9a12e9c8bafe9fb"
+        }
+      ]
+    },
+    {
+      "name": "vector_math",
+      "version": "2.1.4",
+      "source": "hosted",
+      "distributed": true,
+      "archiveUrl": "https://pub.dev/api/archives/vector_math-2.1.4.tar.gz",
+      "archiveSha256": "80b3257d1492ce4d091729e3a67a60407d227c27241d6927be0130c98e741803",
+      "releaseMetadataPath": "vector_math/release.json",
+      "archiveInventoryPath": "vector_math/archive-inventory.json",
+      "sourceMarkersPath": "vector_math/source-markers.json",
+      "sourceRepository": "https://github.com/google/vector_math.dart",
+      "gitCommit": null,
+      "gitTag": null,
+      "gitMapping": "Not asserted: exact authenticated Pub archive is the release identity.",
+      "pubspecLicense": null,
+      "pubspecLicenses": null,
+      "originalDeclaration": "NOASSERTION",
+      "declaration": "BSD-3-Clause AND Zlib",
+      "classification": "Verified with conditions",
+      "mode": "simultaneous-by-file",
+      "releaseClearance": false,
+      "legalClearance": false,
+      "operator": "AND",
+      "terms": [
+        {
+          "spdx": "BSD-3-Clause",
+          "licencePath": "LICENSE",
+          "startLine": 1,
+          "endLine": 28,
+          "scopeFiles": [
+            "lib/vector_math.dart",
+            "lib/vector_math_64.dart"
+          ],
+          "textSha256": "4f1b0f444c862e8dc586122c00592538fb0e9dd6d81a5214882b25b8054f7dfa"
+        },
+        {
+          "spdx": "Zlib",
+          "licencePath": "LICENSE",
+          "startLine": 30,
+          "endLine": 46,
+          "scopeFiles": [
+            "lib/src/vector_math/noise.dart",
+            "lib/src/vector_math_64/noise.dart"
+          ],
+          "textSha256": "30ef1ff48f6c21e56ac286e94335d025db8914ea26b34a21ee86302d7303e380"
+        }
+      ],
+      "sourceScope": [
+        {
+          "term": "BSD-3-Clause",
+          "paths": [
+            "lib/vector_math.dart",
+            "lib/vector_math_64.dart"
+          ],
+          "basis": "Google BSD headers and part directives include the two noise implementations."
+        },
+        {
+          "term": "Zlib",
+          "paths": [
+            "lib/src/vector_math/noise.dart",
+            "lib/src/vector_math_64/noise.dart"
+          ],
+          "basis": "Complete Andrew Magill Zlib source notices at lines 1-20; not an OR choice."
+        }
+      ],
+      "unresolvedReasons": [],
+      "conditions": [
+        "Technical source/notice evidence only; not legal clearance, release clearance or binary verification.",
+        "Keep the complete supplied licence/notice texts and copyright notices; final delivery review remains open.",
+        "Exact Pub archive verified; repository/tag/commit equivalence is not asserted.",
+        "Identifies supplied grants and concrete source boundaries, not exhaustive upstream chain of title. Stefan Gustavson, Terathon and Richard Carling derivation references remain source/provenance limitations and are recorded in the review."
+      ],
+      "retainedFiles": [
+        {
+          "archivePath": "AUTHORS",
+          "path": "vector_math/source/AUTHORS",
+          "sha256": "56fd7364e2b7eecf93324fadfc7af758e094b50dd8d4d452e73447fa59dfec69"
+        },
+        {
+          "archivePath": "CHANGELOG.md",
+          "path": "vector_math/source/CHANGELOG.md",
+          "sha256": "7291d22578f4859755a13b99d019bf97b9c37313ac1b411e8c53a9661003f099"
+        },
+        {
+          "archivePath": "LICENSE",
+          "path": "vector_math/source/LICENSE",
+          "sha256": "b5d856a1e27e9ebea4957fc3526f1c65782a04894b113c6b3b0fb1321dbdec55"
+        },
+        {
+          "archivePath": "README.md",
+          "path": "vector_math/source/README.md",
+          "sha256": "00258825d640cd023d989a59360cba5bbacf8af0c9bb4557de47ccc0c7809bad"
+        },
+        {
+          "archivePath": "lib/src/vector_math/noise.dart",
+          "path": "vector_math/source/lib/src/vector_math/noise.dart",
+          "sha256": "ef534bc7ae62cfd8ca2cb5a5b2c53350efc436f67caed75ab98a0d642ba4626b"
+        },
+        {
+          "archivePath": "lib/src/vector_math_64/noise.dart",
+          "path": "vector_math/source/lib/src/vector_math_64/noise.dart",
+          "sha256": "624698534866d0b4fb02c5ff2146d7648a93fc6d0854a07cac7f9882245990d8"
+        },
+        {
+          "archivePath": "lib/vector_math.dart",
+          "path": "vector_math/source/lib/vector_math.dart",
+          "sha256": "cb754c2d6b08f7a57c10ced8b3063acb5a7dd152843ab2ba8eda4df6872e9cac"
+        },
+        {
+          "archivePath": "lib/vector_math_64.dart",
+          "path": "vector_math/source/lib/vector_math_64.dart",
+          "sha256": "4ffcc8a4facaae20d16a47eff8626178894f7924596095aa0a2402eb33fbc57b"
+        },
+        {
+          "archivePath": "pubspec.yaml",
+          "path": "vector_math/source/pubspec.yaml",
+          "sha256": "a35cc038833e5fadaac91070e85325ce849c2f60e0675d97a753e1ad9f0f7a3c"
+        }
+      ]
+    }
+  ]
+}

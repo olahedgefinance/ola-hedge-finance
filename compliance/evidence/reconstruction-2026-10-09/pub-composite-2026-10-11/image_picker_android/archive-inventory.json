@@ -1,0 +1,307 @@
+[
+  {
+    "path": "AUTHORS",
+    "bytes": 2492,
+    "sha256": "0998711f2c154f372a4fbe404d0a0329efa1a678830ee4a93ac59701be242a7f"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 3485,
+    "sha256": "197dfa12875aafae2ed37ef50373fc96a56c6e927df0547b7e5363c8dd854d94"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 12975,
+    "sha256": "5be052679cb82ade21607d199dad720f03f00b8c4fb1e91629273f89fbe0fd60"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1232,
+    "sha256": "328caa7039273400cbe787448ffd8f25f3d906aeed93d0f212200def4e9694bb"
+  },
+  {
+    "path": "android/build.gradle",
+    "bytes": 2174,
+    "sha256": "402078db66ca651bc419a175d97c853ebee9303f2a0068eed84bef0b7e8696d6"
+  },
+  {
+    "path": "android/gradle.properties",
+    "bytes": 789,
+    "sha256": "931c95c4d323b1232d80a169764b9d32c418bd311d854dd8e5c894b5c0858577"
+  },
+  {
+    "path": "android/gradle/wrapper/gradle-wrapper.properties",
+    "bytes": 202,
+    "sha256": "115821eda1de04c7afc3d853f9b9ce91177cb710e9847fb977979ce2e74505a5"
+  },
+  {
+    "path": "android/settings.gradle",
+    "bytes": 42,
+    "sha256": "836102e03b8fce3e716688a3fd70d21da3ad662bf51b3df4bafd8f593575f58c"
+  },
+  {
+    "path": "android/src/main/AndroidManifest.xml",
+    "bytes": 609,
+    "sha256": "7522a481476a183632dac6c5ea820b0fb4d5907fb86a05c9a21d1242e75ce34a"
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/ExifDataCopier.java",
+    "bytes": 6654,
+    "sha256": "4eadfe70ddcde28dff8a39cbc377656cf08be43aef89ecf0fd522030d492e283"
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/FileUtils.java",
+    "bytes": 5636,
+    "sha256": "f8e23dcbf32356365ed5665c4e869469c35332af89a3af72e314d2182a92a1b6"
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerCache.java",
+    "bytes": 6806,
+    "sha256": "1d331d0272803f74bab8516fe972ec3ff3a13bb2dc8496ee7b9d443bbd1b8826"
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerDelegate.java",
+    "bytes": 32836,
+    "sha256": "91aa9f50c045e2e51ea231671a6681961360e7c0010f0f32298001031de4c78e"
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerFileProvider.java",
+    "bytes": 516,
+    "sha256": "41c031103969361ba3e4a2d615ad94d5fdcc31a13f7e3b090450670ff9f7939e"
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerPlugin.java",
+    "bytes": 12661,
+    "sha256": "269380ae1ea185acaf254f3e43c07f15576e6bff766409c50deecefb567de0aa"
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerUtils.java",
+    "bytes": 1877,
+    "sha256": "3f8d5493fc8ba677d4bb1dfab479f01397f3326ebd7dcccf93eda3e0286df5ad"
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/ImageResizer.java",
+    "bytes": 7352,
+    "sha256": "a00dbc17857eb674b514d9dade98ea5700e8524b9f830424c4245a76316634f5"
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/Messages.java",
+    "bytes": 28582,
+    "sha256": "1f35cac450f03ab03218b663ed93d4308a3d62df10697e76afa7df5ce35e0615"
+  },
+  {
+    "path": "android/src/main/res/xml/flutter_image_picker_file_paths.xml",
+    "bytes": 103,
+    "sha256": "2306c13b644f2b0c95b78de7e91f738569451ffa811e361c9bee86042959b2c0"
+  },
+  {
+    "path": "android/src/test/java/io/flutter/plugins/imagepicker/ExifDataCopierTest.java",
+    "bytes": 4361,
+    "sha256": "e94d19df8b6b21b2081ba16fa36bfbc2d59de8554cf4c757d84afe3fa2e13123"
+  },
+  {
+    "path": "android/src/test/java/io/flutter/plugins/imagepicker/FileUtilTest.java",
+    "bytes": 6971,
+    "sha256": "ff85eeddc2dd671c0c7648b0a984d9c083cc6f06e25ac04c605b28a8535358db"
+  },
+  {
+    "path": "android/src/test/java/io/flutter/plugins/imagepicker/ImagePickerCacheTest.java",
+    "bytes": 4798,
+    "sha256": "e8bdae6f628714535f4e2543ef17c5f7e14deec6e63a4e6c6724da7d134789ac"
+  },
+  {
+    "path": "android/src/test/java/io/flutter/plugins/imagepicker/ImagePickerDelegateTest.java",
+    "bytes": 32603,
+    "sha256": "cd51cbed3b05a8bdb302cce7b7bcfe654ca3db8fe7933713a242cf9a38af8af5"
+  },
+  {
+    "path": "android/src/test/java/io/flutter/plugins/imagepicker/ImagePickerPluginTest.java",
+    "bytes": 12421,
+    "sha256": "6b5c830ece9cfbba542b2ae1ebcfc71f04a3fae2283a357ef3a499d0833c6421"
+  },
+  {
+    "path": "android/src/test/java/io/flutter/plugins/imagepicker/ImageResizerTest.java",
+    "bytes": 5693,
+    "sha256": "7551b661d1459f8bbadb90c82367c75faece2b9d9d82c22dbc4bf5d5e438176f"
+  },
+  {
+    "path": "android/src/test/resources/flutter_image.svg",
+    "bytes": 1196,
+    "sha256": "55effcbd51457e9f2bfc25194e7be6fec83368634b339131e578bd95643362de"
+  },
+  {
+    "path": "android/src/test/resources/mockito-extensions/org.mockito.plugins.MockMaker",
+    "bytes": 17,
+    "sha256": "ad854cde62cc375ac4d837bcd1769fb17feb26bd4096ce837ca9164903514e93"
+  },
+  {
+    "path": "android/src/test/resources/pngImage.png",
+    "bytes": 629,
+    "sha256": "40054377e1e084f44f4410ce8f44c210aba945dfc55ed0ef23bdf9469e32f8d3"
+  },
+  {
+    "path": "example/README.md",
+    "bytes": 380,
+    "sha256": "dd0bc1ede31e368cfa967ab560215f621f37e5a8f41eee510afcc3e46aee6119"
+  },
+  {
+    "path": "example/android/app/build.gradle",
+    "bytes": 2110,
+    "sha256": "7d78661b409ec74d12efba38487610873177efaebf51e8a6a967822c4afde0f4"
+  },
+  {
+    "path": "example/android/app/gradle/wrapper/gradle-wrapper.properties",
+    "bytes": 202,
+    "sha256": "a3e8d7523e5484686fffa32edc9f1b559235e571eec9b293fbe0f245c54ede48"
+  },
+  {
+    "path": "example/android/app/src/androidTest/java/io/flutter/plugins/DartIntegrationTest.java",
+    "bytes": 716,
+    "sha256": "064239e17d69e4706dcbfcfe5ac0cfee55f73d21eb6e7fe7716766af2d1e47d6"
+  },
+  {
+    "path": "example/android/app/src/androidTest/java/io/flutter/plugins/imagepickerexample/FlutterActivityTest.java",
+    "bytes": 674,
+    "sha256": "654e3ea1bedb76a050684db8f5a9355cf18a515edbf81c82f9889e490d260b0f"
+  },
+  {
+    "path": "example/android/app/src/androidTest/java/io/flutter/plugins/imagepickerexample/ImagePickerPickTest.java",
+    "bytes": 1953,
+    "sha256": "fe5370a858bd42f065af4c64859f19d23af687c61678fb8fe2c0c4289c6626fa"
+  },
+  {
+    "path": "example/android/app/src/androidTest/java/io/flutter/plugins/imagepickerexample/ImagePickerTest.java",
+    "bytes": 877,
+    "sha256": "26d0c2afd49c76ce4181c2a65355f77f9512dfe10c15c27ab2885b4c7e7ca047"
+  },
+  {
+    "path": "example/android/app/src/debug/AndroidManifest.xml",
+    "bytes": 1510,
+    "sha256": "75704c9a56e19e0314fabdc49993841244c3e9a7b0076120e6c2242c39b89e28"
+  },
+  {
+    "path": "example/android/app/src/main/AndroidManifest.xml",
+    "bytes": 1022,
+    "sha256": "c0757a57b33ad4e6c9112412fb61be0af09c81291c627ae401d0a5d4a345c6d7"
+  },
+  {
+    "path": "example/android/app/src/main/java/io/flutter/plugins/imagepickerexample/DriverExtensionActivity.java",
+    "bytes": 467,
+    "sha256": "7de1a61f5439410ba2f152f43adb2866b34c65ffadba3c25dbf3c5551c40b172"
+  },
+  {
+    "path": "example/android/app/src/main/java/io/flutter/plugins/imagepickerexample/DummyContentProvider.java",
+    "bytes": 1790,
+    "sha256": "58d0926f713176fff4ca3295d44406fe0d31587a7439fae0b9be69ac9ba76cc8"
+  },
+  {
+    "path": "example/android/app/src/main/java/io/flutter/plugins/imagepickerexample/ImagePickerTestActivity.java",
+    "bytes": 671,
+    "sha256": "5fb29849cf9eb06bf533df11cfec30119e00725183de267ee0c2c567ee74f458"
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+    "bytes": 544,
+    "sha256": "6a7c8f0d703e3682108f9662f813302236240d3f8f638bb391e32bfb96055fef"
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+    "bytes": 442,
+    "sha256": "c7c0c0189145e4e32a401c61c9bdc615754b0264e7afae24e834bb81049eaf81"
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+    "bytes": 721,
+    "sha256": "e14aa40904929bf313fded22cf7e7ffcbf1d1aac4263b5ef1be8bfce650397aa"
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+    "bytes": 1031,
+    "sha256": "4d470bf22d5c17d84edc5f82516d1ba8a1c09559cd761cefb792f86d9f52b540"
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "bytes": 1443,
+    "sha256": "3c34e1f298d0c9ea3455d46db6b7759c8211a49e9ec6e44b635fc5c87dfb4180"
+  },
+  {
+    "path": "example/android/app/src/main/res/raw/ic_launcher.png",
+    "bytes": 442,
+    "sha256": "c7c0c0189145e4e32a401c61c9bdc615754b0264e7afae24e834bb81049eaf81"
+  },
+  {
+    "path": "example/android/build.gradle",
+    "bytes": 1263,
+    "sha256": "478fb138af048bf5f6f112ed427c7e760b93296fd5d91852eb5bae490c6b655b"
+  },
+  {
+    "path": "example/android/gradle.properties",
+    "bytes": 79,
+    "sha256": "ae1c9b0a163886458179e1ea16c02ff1315ff5baf2e5d6c4438d11084d2e5237"
+  },
+  {
+    "path": "example/android/gradle/wrapper/gradle-wrapper.properties",
+    "bytes": 202,
+    "sha256": "a98b757c090ed773aedc35be5ede91a4ee11a97a28f1941256dc3c6407b85c6f"
+  },
+  {
+    "path": "example/android/settings.gradle",
+    "bytes": 886,
+    "sha256": "ce8a3084429995b39092e670cd7be14ea74d2c8c960e89e4456b6288509c85f8"
+  },
+  {
+    "path": "example/integration_test/image_picker_test.dart",
+    "bytes": 416,
+    "sha256": "7077afcbb5c8644660ae646fb7403f06ed805965d6efd33360afc0cb69a0245f"
+  },
+  {
+    "path": "example/lib/main.dart",
+    "bytes": 19173,
+    "sha256": "838ead0e2aa1fff71b1b0d39751417f20678ee6c11c3c3291a23ec6dcdf23427"
+  },
+  {
+    "path": "example/pubspec.yaml",
+    "bytes": 904,
+    "sha256": "ac06dc422b4db5712ca9219c455485bb870facd09bb4500804f86862ec033402"
+  },
+  {
+    "path": "example/test_driver/integration_test.dart",
+    "bytes": 274,
+    "sha256": "8e555c5eb7fd345d15f60f9fa277698d4573cad95ad45ac3abde6ed9d35a2575"
+  },
+  {
+    "path": "lib/image_picker_android.dart",
+    "bytes": 11648,
+    "sha256": "0bdb36a2f909c6d6d01ba31557084c5e187cdfdb0b0c3ab7425c691ff16b6410"
+  },
+  {
+    "path": "lib/src/messages.g.dart",
+    "bytes": 12084,
+    "sha256": "40071a98bc563b80cc219ff20df930ceb687563071a6e9d3a26f0110dcd769ea"
+  },
+  {
+    "path": "pigeons/copyright.txt",
+    "bytes": 155,
+    "sha256": "add31e0762a1baaa6dead956a46392e14f268e4f385a3e98490dc13f3483aa23"
+  },
+  {
+    "path": "pigeons/messages.dart",
+    "bytes": 4075,
+    "sha256": "63522905675e8cf4f13eac0bc359daf794d785e2286b520e0fa14367e6d9e403"
+  },
+  {
+    "path": "pubspec.yaml",
+    "bytes": 872,
+    "sha256": "d8b4688c8ad25fc0793612e050343f406bc2acb434260767b6555db53b7b3880"
+  },
+  {
+    "path": "test/image_picker_android_test.dart",
+    "bytes": 29755,
+    "sha256": "ddb597bf285952e933a436b14fe318cf7506c4aaca6b2e3f524e1552b1500618"
+  },
+  {
+    "path": "test/test_api.g.dart",
+    "bytes": 9409,
+    "sha256": "25e46de1672465757f8726808adc9925c6c183f2b14dd2dbb82a019f17f58eae"
+  }
+]

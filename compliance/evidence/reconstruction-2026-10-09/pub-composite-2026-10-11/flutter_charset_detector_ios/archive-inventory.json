@@ -1,0 +1,52 @@
+[
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 186,
+    "sha256": "443ff4dc55db682c8f24846068c89d824a0acbdc807c3a9f186a429ccbae0ed3"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 42634,
+    "sha256": "47aa01302693c2ab65f56c90c500f43d5fb4ddda5a4ced1cd102254df3865eb3"
+  },
+  {
+    "path": "README.md",
+    "bytes": 438,
+    "sha256": "380953bac49798d9f4aed06058d0779a3f4ac093ea2342a75450a0511174c546"
+  },
+  {
+    "path": "analysis_options.yaml",
+    "bytes": 124,
+    "sha256": "8028a4c5ff482599e0246972274d821d6ad2ac7941b4d3db344dff0d66295ac7"
+  },
+  {
+    "path": "ios/Classes/FlutterCharsetDetectorPlugin.h",
+    "bytes": 100,
+    "sha256": "cbb72a30806d033c285ff2fb97592a8c5e8c11f79d6c3ecff149fbe384799e8c"
+  },
+  {
+    "path": "ios/Classes/FlutterCharsetDetectorPlugin.m",
+    "bytes": 695,
+    "sha256": "0a36bb5808b29dea2288db56938ba8a3d4703a229ecd4c899f7b4835636eff4a"
+  },
+  {
+    "path": "ios/Classes/SwiftFlutterCharsetDetectorPlugin.swift",
+    "bytes": 2527,
+    "sha256": "887fda41e1c6cf9fa1ebd8e3d607a121ce0865e58c12c8ac4095da443a0bac82"
+  },
+  {
+    "path": "ios/flutter_charset_detector_ios.podspec",
+    "bytes": 991,
+    "sha256": "c3ce637be0a1c9b075fff9ec13f2971deae6696a67fdb2ea68aa808283e7a7c4"
+  },
+  {
+    "path": "lib/flutter_charset_detector_ios.dart",
+    "bytes": 948,
+    "sha256": "83fc4ca130e831377fb970999f930aea86d6a3b9ebc0fee90e085be995f3557f"
+  },
+  {
+    "path": "pubspec.yaml",
+    "bytes": 705,
+    "sha256": "c4cbb3fea6193afa1ff2e1849154d8c77da0f89dd3d5f7e45fdbf1e9e02db74f"
+  }
+]

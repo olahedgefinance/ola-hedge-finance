@@ -5,7 +5,7 @@ Generated deterministically from committed dependency inputs on 2026-10-09T00:00
 - Components: 324
 - Distributed: 280
 - Modified/forked: 11
-- Licence review required: 39
+- Licence review required: 34
 
 ## Components
 
@@ -162,10 +162,10 @@ Generated deterministically from committed dependency inputs on 2026-10-09T00:00
 | pub:fixnum | 1.1.0 | transitive | no | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:fixnum; retained authenticated notice set |
 | pub:fl_chart | 0.68.0 | direct-runtime | yes | no | MIT | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:fl_chart; retained authenticated notice set |
 | pub:flutter | 0.0.0 | direct-runtime | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter; retained authenticated notice set |
-| pub:flutter_charset_detector | 1.0.2 | direct-runtime | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector; retained authenticated notice set |
-| pub:flutter_charset_detector_android | 1.0.0 | transitive | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector_android; retained authenticated notice set |
-| pub:flutter_charset_detector_ios | 1.0.2 | transitive | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector_ios; retained authenticated notice set |
-| pub:flutter_charset_detector_platform_interface | 1.1.0 | transitive | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector_platform_interface; retained authenticated notice set |
+| pub:flutter_charset_detector | 1.0.2 | direct-runtime | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#flutter_charset_detector |
+| pub:flutter_charset_detector_android | 1.0.0 | transitive | yes | no | MPL-2.0 | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector_android; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#flutter_charset_detector_android |
+| pub:flutter_charset_detector_ios | 1.0.2 | transitive | yes | no | MPL-2.0 | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector_ios; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#flutter_charset_detector_ios |
+| pub:flutter_charset_detector_platform_interface | 1.1.0 | transitive | yes | no | MPL-2.0 | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_charset_detector_platform_interface; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#flutter_charset_detector_platform_interface |
 | pub:flutter_colorpicker | 1.1.0 | direct-runtime | yes | no | MIT | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_colorpicker; retained authenticated notice set |
 | pub:flutter_displaymode | 0.6.0 | direct-runtime | yes | no | MIT | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_displaymode; retained authenticated notice set |
 | pub:flutter_launcher_icons | 0.10.0 | direct-runtime | yes | no | MIT | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:flutter_launcher_icons; retained authenticated notice set |
@@ -200,10 +200,10 @@ Generated deterministically from committed dependency inputs on 2026-10-09T00:00
 | pub:http_multi_server | 3.2.1 | transitive | no | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:http_multi_server; retained authenticated notice set |
 | pub:http_parser | 4.0.2 | transitive | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:http_parser; retained authenticated notice set |
 | pub:image | 3.3.0 | transitive | yes | no | MIT | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image; retained authenticated notice set |
-| pub:image_picker | 1.1.2 | direct-runtime | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker; retained authenticated notice set |
-| pub:image_picker_android | 0.8.8+2 | transitive | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker_android; retained authenticated notice set |
+| pub:image_picker | 1.1.2 | direct-runtime | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#image_picker |
+| pub:image_picker_android | 0.8.8+2 | transitive | yes | no | Apache-2.0 AND BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker_android; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#image_picker_android |
 | pub:image_picker_for_web | 3.0.1 | transitive | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker_for_web; retained authenticated notice set |
-| pub:image_picker_ios | 0.8.8+4 | transitive | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker_ios; retained authenticated notice set |
+| pub:image_picker_ios | 0.8.8+4 | transitive | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker_ios; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#image_picker_ios |
 | pub:image_picker_linux | 0.2.1+1 | transitive | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker_linux; retained authenticated notice set |
 | pub:image_picker_macos | 0.2.1+1 | transitive | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker_macos; retained authenticated notice set |
 | pub:image_picker_platform_interface | 2.10.0 | transitive | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:image_picker_platform_interface; retained authenticated notice set |
@@ -304,7 +304,7 @@ Generated deterministically from committed dependency inputs on 2026-10-09T00:00
 | pub:timing | 1.0.1 | transitive | no | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:timing; retained authenticated notice set |
 | pub:transparent_image | 2.0.1 | direct-runtime | yes | no | MIT | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:transparent_image; retained authenticated notice set |
 | pub:typed_data | 1.3.2 | transitive | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:typed_data; retained authenticated notice set |
-| pub:universal_html | 2.2.4 | direct-runtime | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:universal_html; retained authenticated notice set |
+| pub:universal_html | 2.2.4 | direct-runtime | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:universal_html; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#universal_html |
 | pub:universal_io | 2.2.2 | transitive | yes | no | Apache-2.0 | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:universal_io; retained authenticated notice set |
 | pub:url_launcher | 6.3.0 | direct-runtime | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:url_launcher; retained authenticated notice set |
 | pub:url_launcher_android | 6.3.2 | transitive | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:url_launcher_android; retained authenticated notice set |
@@ -312,11 +312,11 @@ Generated deterministically from committed dependency inputs on 2026-10-09T00:00
 | pub:url_launcher_linux | 3.1.1 | transitive | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:url_launcher_linux; retained authenticated notice set |
 | pub:url_launcher_macos | 3.2.0 | transitive | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:url_launcher_macos; retained authenticated notice set |
 | pub:url_launcher_platform_interface | 2.3.2 | transitive | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:url_launcher_platform_interface; retained authenticated notice set |
-| pub:url_launcher_web | 2.3.1 | transitive | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:url_launcher_web; retained authenticated notice set |
+| pub:url_launcher_web | 2.3.1 | transitive | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:url_launcher_web; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#url_launcher_web |
 | pub:url_launcher_windows | 3.1.1 | transitive | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:url_launcher_windows; retained authenticated notice set |
 | pub:uuid | 3.0.7 | transitive | yes | no | MIT | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:uuid; retained authenticated notice set |
 | pub:value_layout_builder | 0.3.1 | transitive | yes | no | MIT | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:value_layout_builder; retained authenticated notice set |
-| pub:vector_math | 2.1.4 | transitive | yes | no | NOASSERTION | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:vector_math; retained authenticated notice set |
+| pub:vector_math | 2.1.4 | transitive | yes | no | BSD-3-Clause AND Zlib | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:vector_math; retained authenticated notice set; compliance/evidence/reconstruction-2026-10-09/pub-composite-2026-10-11/manifest.json#vector_math |
 | pub:visibility_detector | 0.4.0+2 | direct-runtime | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:visibility_detector; retained authenticated notice set |
 | pub:vm_service | 13.0.0 | transitive | yes | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:vm_service; retained authenticated notice set |
 | pub:watcher | 1.1.0 | transitive | no | no | BSD-3-Clause | compliance/evidence/reconstruction-2026-10-09/pub/manifest.json#pub:watcher; retained authenticated notice set |

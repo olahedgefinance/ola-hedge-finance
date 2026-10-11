@@ -1,0 +1,822 @@
+[
+  {
+    "path": "LICENSE",
+    "sha256": "5be052679cb82ade21607d199dad720f03f00b8c4fb1e91629273f89fbe0fd60",
+    "markers": [
+      {
+        "line": 3,
+        "text": "Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 8,
+        "text": "    * Redistributions of source code must retain the above copyright"
+      },
+      {
+        "line": 11,
+        "text": "      copyright notice, this list of conditions and the following"
+      },
+      {
+        "line": 18,
+        "text": "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND"
+      },
+      {
+        "line": 21,
+        "text": "DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR"
+      },
+      {
+        "line": 29,
+        "text": "aFileChooser"
+      },
+      {
+        "line": 31,
+        "text": "                                 Apache License"
+      },
+      {
+        "line": 33,
+        "text": "                        http://www.apache.org/licenses/"
+      },
+      {
+        "line": 39,
+        "text": "      \"License\" shall mean the terms and conditions for use, reproduction,"
+      },
+      {
+        "line": 42,
+        "text": "      \"Licensor\" shall mean the copyright owner or entity authorized by"
+      },
+      {
+        "line": 43,
+        "text": "      the copyright owner that is granting the License."
+      },
+      {
+        "line": 54,
+        "text": "      exercising permissions granted by this License."
+      },
+      {
+        "line": 66,
+        "text": "      Object form, made available under the License, as indicated by a"
+      },
+      {
+        "line": 67,
+        "text": "      copyright notice that is included in or attached to the work"
+      },
+      {
+        "line": 71,
+        "text": "      form, that is based on (or derived from) the Work and for which the"
+      },
+      {
+        "line": 74,
+        "text": "      of this License, Derivative Works shall not include works that remain"
+      },
+      {
+        "line": 81,
+        "text": "      submitted to Licensor for inclusion in the Work by the copyright owner"
+      },
+      {
+        "line": 83,
+        "text": "      the copyright owner. For the purposes of this definition, \"submitted\""
+      },
+      {
+        "line": 90,
+        "text": "      designated in writing by the copyright owner as \"Not a Contribution.\""
+      },
+      {
+        "line": 96,
+        "text": "   2. Grant of Copyright License. Subject to the terms and conditions of"
+      },
+      {
+        "line": 97,
+        "text": "      this License, each Contributor hereby grants to You a perpetual,"
+      },
+      {
+        "line": 99,
+        "text": "      copyright license to reproduce, prepare Derivative Works of,"
+      },
+      {
+        "line": 100,
+        "text": "      publicly display, publicly perform, sublicense, and distribute the"
+      },
+      {
+        "line": 103,
+        "text": "   3. Grant of Patent License. Subject to the terms and conditions of"
+      },
+      {
+        "line": 104,
+        "text": "      this License, each Contributor hereby grants to You a perpetual,"
+      },
+      {
+        "line": 106,
+        "text": "      (except as stated in this section) patent license to make, have made,"
+      },
+      {
+        "line": 108,
+        "text": "      where such license applies only to those patent claims licensable"
+      },
+      {
+        "line": 115,
+        "text": "      or contributory patent infringement, then any patent licenses"
+      },
+      {
+        "line": 116,
+        "text": "      granted to You under this License for that Work shall terminate"
+      },
+      {
+        "line": 125,
+        "text": "          Derivative Works a copy of this License; and"
+      },
+      {
+        "line": 131,
+        "text": "          that You distribute, all copyright, patent, trademark, and"
+      },
+      {
+        "line": 147,
+        "text": "          do not modify the License. You may add Your own attribution"
+      },
+      {
+        "line": 151,
+        "text": "          as modifying the License."
+      },
+      {
+        "line": 153,
+        "text": "      You may add Your own copyright statement to Your modifications and"
+      },
+      {
+        "line": 154,
+        "text": "      may provide additional or different license terms and conditions"
+      },
+      {
+        "line": 158,
+        "text": "      the conditions stated in this License."
+      },
+      {
+        "line": 163,
+        "text": "      this License, without any additional terms or conditions."
+      },
+      {
+        "line": 165,
+        "text": "      the terms of any separate license agreement you may have executed"
+      },
+      {
+        "line": 168,
+        "text": "   6. Trademarks. This License does not grant permission to use the trade"
+      },
+      {
+        "line": 181,
+        "text": "      risks associated with Your exercise of permissions under this License."
+      },
+      {
+        "line": 189,
+        "text": "      result of this License or out of the use or inability to use the"
+      },
+      {
+        "line": 199,
+        "text": "      License. However, in accepting such obligations, You may act only"
+      },
+      {
+        "line": 208,
+        "text": "   APPENDIX: How to apply the Apache License to your work."
+      },
+      {
+        "line": 210,
+        "text": "      To apply the Apache License to your work, attach the following"
+      },
+      {
+        "line": 216,
+        "text": "      same \"printed page\" as the copyright notice for easier"
+      },
+      {
+        "line": 219,
+        "text": "   Copyright 2011 - 2013 Paul Burke"
+      },
+      {
+        "line": 221,
+        "text": "   Licensed under the Apache License, Version 2.0 (the \"License\");"
+      },
+      {
+        "line": 222,
+        "text": "   you may not use this file except in compliance with the License."
+      },
+      {
+        "line": 223,
+        "text": "   You may obtain a copy of the License at"
+      },
+      {
+        "line": 225,
+        "text": "       http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "line": 228,
+        "text": "   distributed under the License is distributed on an \"AS IS\" BASIS,"
+      },
+      {
+        "line": 230,
+        "text": "   See the License for the specific language governing permissions and"
+      },
+      {
+        "line": 231,
+        "text": "   limitations under the License."
+      }
+    ]
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/ExifDataCopier.java",
+    "sha256": "4eadfe70ddcde28dff8a39cbc377656cf08be43aef89ecf0fd522030d492e283",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      },
+      {
+        "line": 35,
+        "text": "            ExifInterface.TAG_COPYRIGHT,"
+      }
+    ]
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/FileUtils.java",
+    "sha256": "f8e23dcbf32356365ed5665c4e869469c35332af89a3af72e314d2182a92a1b6",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      },
+      {
+        "line": 6,
+        "text": " * Copyright (C) 2007-2008 OpenIntents.org"
+      },
+      {
+        "line": 8,
+        "text": " * Licensed under the Apache License, Version 2.0 (the \"License\");"
+      },
+      {
+        "line": 9,
+        "text": " * you may not use this file except in compliance with the License."
+      },
+      {
+        "line": 10,
+        "text": " * You may obtain a copy of the License at"
+      },
+      {
+        "line": 12,
+        "text": " *      http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "line": 15,
+        "text": " * distributed under the License is distributed on an \"AS IS\" BASIS,"
+      },
+      {
+        "line": 17,
+        "text": " * See the License for the specific language governing permissions and"
+      },
+      {
+        "line": 18,
+        "text": " * limitations under the License."
+      },
+      {
+        "line": 21,
+        "text": " * https://raw.githubusercontent.com/iPaulPro/aFileChooser/master/aFileChooser/src/com/ipaulpro/afilechooser/utils/FileUtils.java"
+      }
+    ]
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerCache.java",
+    "sha256": "1d331d0272803f74bab8516fe972ec3ff3a13bb2dc8496ee7b9d443bbd1b8826",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerDelegate.java",
+    "sha256": "91aa9f50c045e2e51ea231671a6681961360e7c0010f0f32298001031de4c78e",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerFileProvider.java",
+    "sha256": "41c031103969361ba3e4a2d615ad94d5fdcc31a13f7e3b090450670ff9f7939e",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerPlugin.java",
+    "sha256": "269380ae1ea185acaf254f3e43c07f15576e6bff766409c50deecefb567de0aa",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/ImagePickerUtils.java",
+    "sha256": "3f8d5493fc8ba677d4bb1dfab479f01397f3326ebd7dcccf93eda3e0286df5ad",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/ImageResizer.java",
+    "sha256": "a00dbc17857eb674b514d9dade98ea5700e8524b9f830424c4245a76316634f5",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "android/src/main/java/io/flutter/plugins/imagepicker/Messages.java",
+    "sha256": "1f35cac450f03ab03218b663ed93d4308a3d62df10697e76afa7df5ce35e0615",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "android/src/test/java/io/flutter/plugins/imagepicker/ExifDataCopierTest.java",
+    "sha256": "e94d19df8b6b21b2081ba16fa36bfbc2d59de8554cf4c757d84afe3fa2e13123",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "android/src/test/java/io/flutter/plugins/imagepicker/FileUtilTest.java",
+    "sha256": "ff85eeddc2dd671c0c7648b0a984d9c083cc6f06e25ac04c605b28a8535358db",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "android/src/test/java/io/flutter/plugins/imagepicker/ImagePickerCacheTest.java",
+    "sha256": "e8bdae6f628714535f4e2543ef17c5f7e14deec6e63a4e6c6724da7d134789ac",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "android/src/test/java/io/flutter/plugins/imagepicker/ImagePickerDelegateTest.java",
+    "sha256": "cd51cbed3b05a8bdb302cce7b7bcfe654ca3db8fe7933713a242cf9a38af8af5",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "android/src/test/java/io/flutter/plugins/imagepicker/ImagePickerPluginTest.java",
+    "sha256": "6b5c830ece9cfbba542b2ae1ebcfc71f04a3fae2283a357ef3a499d0833c6421",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "android/src/test/java/io/flutter/plugins/imagepicker/ImageResizerTest.java",
+    "sha256": "7551b661d1459f8bbadb90c82367c75faece2b9d9d82c22dbc4bf5d5e438176f",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "example/android/app/src/androidTest/java/io/flutter/plugins/DartIntegrationTest.java",
+    "sha256": "064239e17d69e4706dcbfcfe5ac0cfee55f73d21eb6e7fe7716766af2d1e47d6",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "example/android/app/src/androidTest/java/io/flutter/plugins/imagepickerexample/FlutterActivityTest.java",
+    "sha256": "654e3ea1bedb76a050684db8f5a9355cf18a515edbf81c82f9889e490d260b0f",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "example/android/app/src/androidTest/java/io/flutter/plugins/imagepickerexample/ImagePickerPickTest.java",
+    "sha256": "fe5370a858bd42f065af4c64859f19d23af687c61678fb8fe2c0c4289c6626fa",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "example/android/app/src/androidTest/java/io/flutter/plugins/imagepickerexample/ImagePickerTest.java",
+    "sha256": "26d0c2afd49c76ce4181c2a65355f77f9512dfe10c15c27ab2885b4c7e7ca047",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "example/android/app/src/main/java/io/flutter/plugins/imagepickerexample/DriverExtensionActivity.java",
+    "sha256": "7de1a61f5439410ba2f152f43adb2866b34c65ffadba3c25dbf3c5551c40b172",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "example/android/app/src/main/java/io/flutter/plugins/imagepickerexample/DummyContentProvider.java",
+    "sha256": "58d0926f713176fff4ca3295d44406fe0d31587a7439fae0b9be69ac9ba76cc8",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "example/android/app/src/main/java/io/flutter/plugins/imagepickerexample/ImagePickerTestActivity.java",
+    "sha256": "5fb29849cf9eb06bf533df11cfec30119e00725183de267ee0c2c567ee74f458",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "example/integration_test/image_picker_test.dart",
+    "sha256": "7077afcbb5c8644660ae646fb7403f06ed805965d6efd33360afc0cb69a0245f",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "example/lib/main.dart",
+    "sha256": "838ead0e2aa1fff71b1b0d39751417f20678ee6c11c3c3291a23ec6dcdf23427",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "example/test_driver/integration_test.dart",
+    "sha256": "8e555c5eb7fd345d15f60f9fa277698d4573cad95ad45ac3abde6ed9d35a2575",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "lib/image_picker_android.dart",
+    "sha256": "0bdb36a2f909c6d6d01ba31557084c5e187cdfdb0b0c3ab7425c691ff16b6410",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "lib/src/messages.g.dart",
+    "sha256": "40071a98bc563b80cc219ff20df930ceb687563071a6e9d3a26f0110dcd769ea",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "pigeons/copyright.txt",
+    "sha256": "add31e0762a1baaa6dead956a46392e14f268e4f385a3e98490dc13f3483aa23",
+    "markers": [
+      {
+        "line": 1,
+        "text": "Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "pigeons/messages.dart",
+    "sha256": "63522905675e8cf4f13eac0bc359daf794d785e2286b520e0fa14367e6d9e403",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      },
+      {
+        "line": 14,
+        "text": "  copyrightHeader: 'pigeons/copyright.txt',"
+      }
+    ]
+  },
+  {
+    "path": "test/image_picker_android_test.dart",
+    "sha256": "ddb597bf285952e933a436b14fe318cf7506c4aaca6b2e3f524e1552b1500618",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "test/test_api.g.dart",
+    "sha256": "25e46de1672465757f8726808adc9925c6c183f2b14dd2dbb82a019f17f58eae",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  }
+]

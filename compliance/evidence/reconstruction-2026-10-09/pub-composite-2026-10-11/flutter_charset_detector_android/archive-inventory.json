@@ -1,0 +1,67 @@
+[
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 28,
+    "sha256": "bee00470f00df2c8d8267da9c9dc36009b9f23042ebd27c0efed55e343d12e61"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 42634,
+    "sha256": "47aa01302693c2ab65f56c90c500f43d5fb4ddda5a4ced1cd102254df3865eb3"
+  },
+  {
+    "path": "README.md",
+    "bytes": 446,
+    "sha256": "c3b2098dc36c7274a28690751130c712eb857ca2dc4bff4940aff35dec550a84"
+  },
+  {
+    "path": "analysis_options.yaml",
+    "bytes": 124,
+    "sha256": "8028a4c5ff482599e0246972274d821d6ad2ac7941b4d3db344dff0d66295ac7"
+  },
+  {
+    "path": "android/build.gradle",
+    "bytes": 890,
+    "sha256": "590f0bea10856c32fdd42484123c831c8cc74e41e77a9ee6ed68c05d4f32289b"
+  },
+  {
+    "path": "android/gradle.properties",
+    "bytes": 104,
+    "sha256": "3c1fc1d9cad8765e2b44821c4774644b590bb58ecab6beb4bae2470ece0175be"
+  },
+  {
+    "path": "android/gradle/wrapper/gradle-wrapper.properties",
+    "bytes": 232,
+    "sha256": "d32d1e736e36f83b0f4215778fd5057fb4483b8a4bca71f1e66c34eae3ee887e"
+  },
+  {
+    "path": "android/local.properties",
+    "bytes": 74,
+    "sha256": "315941386cd189266717016c9cf397d7460dc062449a8ad1bc3db59468cd69fa"
+  },
+  {
+    "path": "android/settings.gradle",
+    "bytes": 46,
+    "sha256": "1df387a684503a92b9fd37a07c8e9db6f0368e47524cc6a764bfe7a11e7f1259"
+  },
+  {
+    "path": "android/src/main/AndroidManifest.xml",
+    "bytes": 133,
+    "sha256": "63d346111a66a1c8277256b4d596202acf5d45622d1306711d73fdcf321bbe00"
+  },
+  {
+    "path": "android/src/main/kotlin/com/madlonkay/flutter_charset_detector/FlutterCharsetDetectorPlugin.kt",
+    "bytes": 2538,
+    "sha256": "8958436319e81101c9dad4dcdb8fc7542b3a253c3fa0d85a26f576573e8e96be"
+  },
+  {
+    "path": "lib/flutter_charset_detector_android.dart",
+    "bytes": 983,
+    "sha256": "95cec01346242e7cec8d4fa54db9e6c9ffe33d4b28d70485210ed6427a5c0e37"
+  },
+  {
+    "path": "pubspec.yaml",
+    "bytes": 777,
+    "sha256": "732ad4bdb7a4f268d50c9a40418b7b6f32106a2834724a89458f5f1893fb8e87"
+  }
+]

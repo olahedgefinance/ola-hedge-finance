@@ -1,0 +1,82 @@
+[
+  {
+    "path": "AUTHORS",
+    "bytes": 2500,
+    "sha256": "d0236a600d4e4f345630699f1da6a5c8084e85eabca0093b71be5411a2d9c54c"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 4506,
+    "sha256": "0d298949739b247938e7487193a4db1e0913ebcb2c66ae23de37a28a1960c1a0"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 12977,
+    "sha256": "f9bd6d4f1da93f33d7d9aa44848bee6d1bacf1c5049d3ba2fd3f5d362a01ceab"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1390,
+    "sha256": "1c7bfbf67d496b2c7b80a5f6ca3fdfb9baca18f13fd14bf7255258815fe0daf3"
+  },
+  {
+    "path": "example/README.md",
+    "bytes": 760,
+    "sha256": "915115f477f7149ddd9a997aca57a989691bebe02fd18b020ce88c6400978cc0"
+  },
+  {
+    "path": "example/integration_test/link_widget_test.dart",
+    "bytes": 15119,
+    "sha256": "1059088b88b2b24fbc84af74dc275eb82c4fffbada4a8420fa5513472827feb9"
+  },
+  {
+    "path": "example/integration_test/url_launcher_web_test.dart",
+    "bytes": 9196,
+    "sha256": "f679bac8a019006469482fd9bf28ba73cd70b57cf2995abe1f40ca742a520d50"
+  },
+  {
+    "path": "example/lib/main.dart",
+    "bytes": 673,
+    "sha256": "6cf7ebc7e44309c12553a450c7488830c577cdcbac0247ce89054d5c20c50ee0"
+  },
+  {
+    "path": "example/pubspec.yaml",
+    "bytes": 338,
+    "sha256": "ad4341cfc9e24e34ad52d328d91e8df3205ef40da2ca1b5d848a9cf4757af585"
+  },
+  {
+    "path": "example/test_driver/integration_test.dart",
+    "bytes": 274,
+    "sha256": "8e555c5eb7fd345d15f60f9fa277698d4573cad95ad45ac3abde6ed9d35a2575"
+  },
+  {
+    "path": "example/web/index.html",
+    "bytes": 323,
+    "sha256": "c85fa90d7b0f9bf91efa893e69b99551557ad969ceb8a4855af79b71f152ede8"
+  },
+  {
+    "path": "lib/src/link.dart",
+    "bytes": 14139,
+    "sha256": "66fb081f09eddbe10dc0b5f7b0680047f3c57ca7c6f459acf04bf023e5544c3b"
+  },
+  {
+    "path": "lib/url_launcher_web.dart",
+    "bytes": 4349,
+    "sha256": "2939df1d69f24182f94e6c65f109dbf466c6f6c41cfe3f5c4347dcfc26676a0e"
+  },
+  {
+    "path": "pubspec.yaml",
+    "bytes": 763,
+    "sha256": "61128df737b6af7152302025998762c18d55267d917c4c2df9a12e9c8bafe9fb"
+  },
+  {
+    "path": "test/README.md",
+    "bytes": 98,
+    "sha256": "9013b4558a12c63529ccbe5062ddc2677e5cdf787c1358e8ef613cdc00da427b"
+  },
+  {
+    "path": "test/tests_exist_elsewhere_test.dart",
+    "bytes": 481,
+    "sha256": "c1f7aa270484f2205460cae53ddf130fe14c2b115026343eea4722527e95e64f"
+  }
+]

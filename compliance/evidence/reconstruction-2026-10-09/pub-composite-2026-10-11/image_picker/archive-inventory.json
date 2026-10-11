@@ -1,0 +1,602 @@
+[
+  {
+    "path": "AUTHORS",
+    "bytes": 2487,
+    "sha256": "10f7e54c7d9c0d9b3439b9b90fa04f55ef68107853f4d335b74d7cd313475420"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 20974,
+    "sha256": "f9346aab9c5485061d554e3cd0077bb91982a7adea330811595d79020451295c"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 12975,
+    "sha256": "5be052679cb82ade21607d199dad720f03f00b8c4fb1e91629273f89fbe0fd60"
+  },
+  {
+    "path": "README.md",
+    "bytes": 8952,
+    "sha256": "cf9269c8e8f2d11d61230383dbca0be47e4205b4814b3ed069810262d72efba0"
+  },
+  {
+    "path": "example/README.md",
+    "bytes": 73,
+    "sha256": "465931ede8f85d424e43abd7e1c5969da1ab12bbc33cbe97d67bbd9088563a8c"
+  },
+  {
+    "path": "example/android/app/build.gradle",
+    "bytes": 2011,
+    "sha256": "c532e2f4024e9b1f4d29578aacfca06d7a68416e388e7a8c11833e2522bae9fc"
+  },
+  {
+    "path": "example/android/app/gradle/wrapper/gradle-wrapper.properties",
+    "bytes": 202,
+    "sha256": "7e050fc43cb2e7caea7c6e97f317375f1cca0e68f0f6f4624c17416d2f7c55b1"
+  },
+  {
+    "path": "example/android/app/src/androidTest/java/io/flutter/plugins/DartIntegrationTest.java",
+    "bytes": 749,
+    "sha256": "4fe6a1c92d28e928ec014cd349258c68eafa46c83127ce5bc06ecac090371e20"
+  },
+  {
+    "path": "example/android/app/src/androidTest/java/io/flutter/plugins/imagepickerexample/FlutterActivityTest.java",
+    "bytes": 674,
+    "sha256": "654e3ea1bedb76a050684db8f5a9355cf18a515edbf81c82f9889e490d260b0f"
+  },
+  {
+    "path": "example/android/app/src/debug/AndroidManifest.xml",
+    "bytes": 900,
+    "sha256": "386db23bd288548e5e26bbe8f84d10e3876a268a826ce67d487fbeb17d8a648a"
+  },
+  {
+    "path": "example/android/app/src/main/AndroidManifest.xml",
+    "bytes": 980,
+    "sha256": "16d039f5121f1ca243ba12c1351f27d2a43e7503e64cf2436012d23feea77faf"
+  },
+  {
+    "path": "example/android/app/src/main/java/io/flutter/plugins/imagepickerexample/ImagePickerTestActivity.java",
+    "bytes": 671,
+    "sha256": "5fb29849cf9eb06bf533df11cfec30119e00725183de267ee0c2c567ee74f458"
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+    "bytes": 544,
+    "sha256": "6a7c8f0d703e3682108f9662f813302236240d3f8f638bb391e32bfb96055fef"
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+    "bytes": 442,
+    "sha256": "c7c0c0189145e4e32a401c61c9bdc615754b0264e7afae24e834bb81049eaf81"
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+    "bytes": 721,
+    "sha256": "e14aa40904929bf313fded22cf7e7ffcbf1d1aac4263b5ef1be8bfce650397aa"
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+    "bytes": 1031,
+    "sha256": "4d470bf22d5c17d84edc5f82516d1ba8a1c09559cd761cefb792f86d9f52b540"
+  },
+  {
+    "path": "example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "bytes": 1443,
+    "sha256": "3c34e1f298d0c9ea3455d46db6b7759c8211a49e9ec6e44b635fc5c87dfb4180"
+  },
+  {
+    "path": "example/android/build.gradle",
+    "bytes": 865,
+    "sha256": "718c7ae57e5265eef1a6330be9f05408e69be79176be15f0057f7270a2b6adda"
+  },
+  {
+    "path": "example/android/gradle.properties",
+    "bytes": 79,
+    "sha256": "ae1c9b0a163886458179e1ea16c02ff1315ff5baf2e5d6c4438d11084d2e5237"
+  },
+  {
+    "path": "example/android/gradle/wrapper/gradle-wrapper.properties",
+    "bytes": 202,
+    "sha256": "a1120b63c6bb603c76353250907a3e69fccdf5d5da69af2d274149ae4b7ecfbe"
+  },
+  {
+    "path": "example/android/settings.gradle",
+    "bytes": 911,
+    "sha256": "d99e11033a33ea98c5cf31250be7a2771007e453665c55396f9ae4fdd386720e"
+  },
+  {
+    "path": "example/integration_test/image_picker_test.dart",
+    "bytes": 416,
+    "sha256": "7077afcbb5c8644660ae646fb7403f06ed805965d6efd33360afc0cb69a0245f"
+  },
+  {
+    "path": "example/ios/Flutter/AppFrameworkInfo.plist",
+    "bytes": 864,
+    "sha256": "873fd05f4d9e36933fe521903c3a050ca83c541133874873ff5f081ba26558be"
+  },
+  {
+    "path": "example/ios/Flutter/Debug.xcconfig",
+    "bytes": 106,
+    "sha256": "6f6aaf1c7a4a189026ee37988999824b2e2b3261f5e32876ab3463683bef0d49"
+  },
+  {
+    "path": "example/ios/Flutter/Release.xcconfig",
+    "bytes": 108,
+    "sha256": "aa45550bf185bb7979742d9696accdd36bd01424202d1f96204129376d79666d"
+  },
+  {
+    "path": "example/ios/Podfile",
+    "bytes": 1313,
+    "sha256": "8a9a745455067578fc5b48932a37b6603bd0a9ef8747b1637b280005920eacaf"
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/project.pbxproj",
+    "bytes": 22007,
+    "sha256": "7c1c55008f8aa1edd013815f26170630d1e698b8973c2c91916689de9394e88a"
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+    "bytes": 135,
+    "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f"
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
+    "bytes": 4482,
+    "sha256": "fc31faed77da4247f68e80be6261226f8c684d1334323257157efe425a28a8d5"
+  },
+  {
+    "path": "example/ios/Runner.xcodeproj/xcshareddata/xcschemes/RunnerUITests.xcscheme",
+    "bytes": 1814,
+    "sha256": "db1e2273bb9fdd9e4229bcf6678f09650355b5e9f373fbec60ae7c5d5adf3422"
+  },
+  {
+    "path": "example/ios/Runner.xcworkspace/contents.xcworkspacedata",
+    "bytes": 224,
+    "sha256": "465e6de5660384eb6832e8078920ba6cd5305c445cb29a24a86a2fda4aa6b67e"
+  },
+  {
+    "path": "example/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+    "bytes": 238,
+    "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542"
+  },
+  {
+    "path": "example/ios/Runner/AppDelegate.h",
+    "bytes": 268,
+    "sha256": "fb543767f00f46e78a31c1cb610220f280a8e02014d56d88e59c7f35058619f6"
+  },
+  {
+    "path": "example/ios/Runner/AppDelegate.m",
+    "bytes": 525,
+    "sha256": "13e5f56f3557c0b36e11188b99ccc6a307361f66af7648bd8e7475dd72b4b8ae"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
+    "bytes": 2470,
+    "sha256": "fd52808eb2c8b3a776b4ec10238eae18c14abea881449c00df7a5dc8eed579cc"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png",
+    "bytes": 564,
+    "sha256": "5925dab509451f9ecbb12ce8a625f9d4c104718ee20caff8b1b51032d1cd8946"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png",
+    "bytes": 1283,
+    "sha256": "c4d9a284c12301d0f50e248ec53ed51a19a10147b774b23308399250b0d44c55"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png",
+    "bytes": 1588,
+    "sha256": "bf97f9d3233f33e1389b09f7b8add53741300cb834d6c7a5ca32cbed363a4fb2"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png",
+    "bytes": 1025,
+    "sha256": "285442f69a06b45d9d79df80321815b546473548a37b78819b68959c7b8ed237"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png",
+    "bytes": 1716,
+    "sha256": "2ab64af8ac727ea99c6ab9eaff847f46fbf2a9a0a78a0abcbf3180f3851645b4"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png",
+    "bytes": 1920,
+    "sha256": "9dca09f4e5ed5684d3c4dff41f4e8b7cb864b438172d72be069315fa362930f9"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png",
+    "bytes": 1283,
+    "sha256": "c4d9a284c12301d0f50e248ec53ed51a19a10147b774b23308399250b0d44c55"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png",
+    "bytes": 1895,
+    "sha256": "d5ad04de321ef37cacc5a7b960afcce71bdcb96fa020c48249c1545dd1a0f497"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png",
+    "bytes": 2665,
+    "sha256": "809abfe75c440770c13c4e2e46d09603c22053e9d4e0e2275dcb9c1dcfbb2c75"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png",
+    "bytes": 2665,
+    "sha256": "809abfe75c440770c13c4e2e46d09603c22053e9d4e0e2275dcb9c1dcfbb2c75"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png",
+    "bytes": 3831,
+    "sha256": "3db08cb79e7b01b9e81f956e3a0ae10148d0fafde3ea7aa70048df905aa52cfd"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png",
+    "bytes": 1888,
+    "sha256": "23c13d463f5dca5c1f14a14934003601c29f1218fd461016d8a22cef579a665f"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png",
+    "bytes": 3294,
+    "sha256": "6db7726530d71d3f52cb59793eb691313baa04796e129e1e043c0a58a1bffd2f"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+    "bytes": 3612,
+    "sha256": "cee565f5e62116569b64980b209fd5ca4b3d3739011f5343250b33a1a2c6eb65"
+  },
+  {
+    "path": "example/ios/Runner/Assets.xcassets/Contents.json",
+    "bytes": 62,
+    "sha256": "972ec1fd42325872438eb085ac29e94f51c10788ec18ec5549439950866c541d"
+  },
+  {
+    "path": "example/ios/Runner/Base.lproj/LaunchScreen.storyboard",
+    "bytes": 1665,
+    "sha256": "e8cd5651d0aaba37a035672cbeee4c14925fde371f634d213951134e20f64612"
+  },
+  {
+    "path": "example/ios/Runner/Base.lproj/Main.storyboard",
+    "bytes": 1605,
+    "sha256": "fd367b6c43006d61b730f674970dd48b9f662c8f2264e52ffc1558102a2c9f2d"
+  },
+  {
+    "path": "example/ios/Runner/Info.plist",
+    "bytes": 2009,
+    "sha256": "5847e9055ab92900e2bbd128117ef341bf77e10409e4d89047f6dd515f219da8"
+  },
+  {
+    "path": "example/ios/Runner/main.m",
+    "bytes": 391,
+    "sha256": "b0f0cc925523e78c34061d2dbfcde16a4d8d566e47bdf8c8f679b1d04ab34ac3"
+  },
+  {
+    "path": "example/ios/TestImages/gifImage.gif",
+    "bytes": 843,
+    "sha256": "c69407643a9bfefe953bfe224a8b0b4d1e1d507be2e667949b3f71b009031961"
+  },
+  {
+    "path": "example/ios/TestImages/jpgImage.jpg",
+    "bytes": 3290,
+    "sha256": "242206e6ecb0fc340dd86f4d32e50e4d2ae21dbaf7389e099133a916f1d0c4b8"
+  },
+  {
+    "path": "example/ios/TestImages/pngImage.png",
+    "bytes": 593,
+    "sha256": "359613040834fc52aaae3cf29021cbdbc4c232b9e3743869f50e14216173c9da"
+  },
+  {
+    "path": "example/ios/TestImages/webpImage.webp",
+    "bytes": 2622,
+    "sha256": "df1659ccb0eb3eb4fa18bd4689833e2efa44162d53618e81e9a9174a132d7277"
+  },
+  {
+    "path": "example/ios/image_picker_exampleTests/Info.plist",
+    "bytes": 701,
+    "sha256": "58c5c0911cdf7c6fe4a120892acde2ae1e7298e967243284d83257554c756f4f"
+  },
+  {
+    "path": "example/lib/main.dart",
+    "bytes": 18632,
+    "sha256": "644362dc07a5ead03f4101be2c095327e553c302fc4df00241494d9ca7253a9f"
+  },
+  {
+    "path": "example/lib/readme_excerpts.dart",
+    "bytes": 3165,
+    "sha256": "80e7be53ccf127c03948d679b33ab3f360877a34f859dedc901f4d5cb35cc174"
+  },
+  {
+    "path": "example/linux/CMakeLists.txt",
+    "bytes": 5216,
+    "sha256": "e83d16d6150a949cd0fc1e7189cc2af5cd661fa5585f5374fe00b39adebb12ae"
+  },
+  {
+    "path": "example/linux/flutter/CMakeLists.txt",
+    "bytes": 2815,
+    "sha256": "787189e2623313cfee590a0b553338eb9fc68b3af922ddd77c5d39c75f989aeb"
+  },
+  {
+    "path": "example/linux/flutter/generated_plugins.cmake",
+    "bytes": 761,
+    "sha256": "99ae7ff3be78108cbb1edbe24c09b432e14ecd99395742033f89770434355974"
+  },
+  {
+    "path": "example/linux/main.cc",
+    "bytes": 345,
+    "sha256": "f2aa630d24a0fce53a3299124d21e22e20c518bedb7c8f3db8486d5ee8e216d2"
+  },
+  {
+    "path": "example/linux/my_application.cc",
+    "bytes": 3976,
+    "sha256": "ad2440321463076aba7055391e45baa5335e51a85c1e37fcd15f4e96a09d2b09"
+  },
+  {
+    "path": "example/linux/my_application.h",
+    "bytes": 553,
+    "sha256": "b6bf2c1812edf4f7abbed288c85eb2fbead01d1c69f8284f37775332c7236eeb"
+  },
+  {
+    "path": "example/macos/Flutter/Flutter-Debug.xcconfig",
+    "bytes": 125,
+    "sha256": "802714a37a8fd3065fb3d8e21cbcfbb3147c7ad25f25934b64590085aa9f5b28"
+  },
+  {
+    "path": "example/macos/Flutter/Flutter-Release.xcconfig",
+    "bytes": 127,
+    "sha256": "d575f436f8bab30d7096792396e73b65db242edc01913c4123d2c29e713b3a6d"
+  },
+  {
+    "path": "example/macos/Podfile",
+    "bytes": 1330,
+    "sha256": "3c88490591c27fd84832e68a0ecede1fc9a79c6d49a341acc5ee1a5ea7ec5687"
+  },
+  {
+    "path": "example/macos/Runner.xcodeproj/project.pbxproj",
+    "bytes": 24917,
+    "sha256": "c628a113ee226aa86fb8ca53d194fa3745f90c085df5b788f42942dd49e68a1e"
+  },
+  {
+    "path": "example/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+    "bytes": 238,
+    "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542"
+  },
+  {
+    "path": "example/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
+    "bytes": 3241,
+    "sha256": "d00157fc4ea44f04ede09be6830361d0821919c2be8233185ac28f5bc3456163"
+  },
+  {
+    "path": "example/macos/Runner.xcworkspace/contents.xcworkspacedata",
+    "bytes": 224,
+    "sha256": "465e6de5660384eb6832e8078920ba6cd5305c445cb29a24a86a2fda4aa6b67e"
+  },
+  {
+    "path": "example/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+    "bytes": 238,
+    "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542"
+  },
+  {
+    "path": "example/macos/Runner/AppDelegate.swift",
+    "bytes": 379,
+    "sha256": "824c60474b20672b31ab869e8ae54f672c6b29424805f9bb2eee224999de685f"
+  },
+  {
+    "path": "example/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
+    "bytes": 1291,
+    "sha256": "bc6ba8105ca69651aeeb77358851590de295dca04681a1d58c0f449641c242f3"
+  },
+  {
+    "path": "example/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png",
+    "bytes": 102994,
+    "sha256": "6232e5815af17e25e0268b2fec7aea9e068cc92ec709e9605c2b31df4ff2a313"
+  },
+  {
+    "path": "example/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png",
+    "bytes": 5680,
+    "sha256": "15591f03f31313af6fd644ed0512106cc04365130b8b73244f1cfa6dddfb4400"
+  },
+  {
+    "path": "example/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png",
+    "bytes": 520,
+    "sha256": "cc6928b5adfc00dbf526192e2705dd9af641cdf20ab4c6c7ca7cd4936dca59f0"
+  },
+  {
+    "path": "example/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png",
+    "bytes": 14142,
+    "sha256": "416efd77cde932d42ef34168da24dd428a495b1f4f34bbbd125a18d2add186a2"
+  },
+  {
+    "path": "example/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png",
+    "bytes": 1066,
+    "sha256": "ae8c4458e41f1e28b1e851ed87d3268d4a0351ceea427fa2a84cc94ddfb6d4c5"
+  },
+  {
+    "path": "example/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png",
+    "bytes": 36406,
+    "sha256": "0a91c6c1bf242e54ee179e34629e9ef3e8a6d286c0fce01e302280a8be9277e6"
+  },
+  {
+    "path": "example/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png",
+    "bytes": 2218,
+    "sha256": "6ad229623498e5f1277800db3ab7cb11faf85eb2569e1213f7d8e55003c07b42"
+  },
+  {
+    "path": "example/macos/Runner/Base.lproj/MainMenu.xib",
+    "bytes": 23729,
+    "sha256": "be9e9ef8469d3262370e0f0b855ed163cbf9c8362c59e330b2ffe63b86fa42f4"
+  },
+  {
+    "path": "example/macos/Runner/Configs/AppInfo.xcconfig",
+    "bytes": 641,
+    "sha256": "39897e6b8b8121f28ea64e4015ffea4b2121368a6023eaabe45f291a9ff4e429"
+  },
+  {
+    "path": "example/macos/Runner/Configs/Debug.xcconfig",
+    "bytes": 77,
+    "sha256": "8067d533ef6593760baad9a9855a786a7a77470fcc3f0925ec04fe43bc1ac4b0"
+  },
+  {
+    "path": "example/macos/Runner/Configs/Release.xcconfig",
+    "bytes": 79,
+    "sha256": "7a6a4b4d973a23052fa0a0388dd261e32d311d7b66ba1bfc3b914b361808ac61"
+  },
+  {
+    "path": "example/macos/Runner/Configs/Warnings.xcconfig",
+    "bytes": 580,
+    "sha256": "0e341a392b16ad302d12890aa3dac9257a6c10ece685437604259a85341645a3"
+  },
+  {
+    "path": "example/macos/Runner/DebugProfile.entitlements",
+    "bytes": 418,
+    "sha256": "783e315a241df206e9f01fc500349e9ffbdd71243ecd8bdfe7944705173c13b6"
+  },
+  {
+    "path": "example/macos/Runner/Info.plist",
+    "bytes": 1060,
+    "sha256": "f253e89c512b3a9a81bc5cdd7a14bf932470f835f261654a808ea4549cd94aad"
+  },
+  {
+    "path": "example/macos/Runner/MainFlutterWindow.swift",
+    "bytes": 558,
+    "sha256": "eae9d5428e3164c697544b105fe6573c3a0a5431fec71a8de8ddfca7e45eaf48"
+  },
+  {
+    "path": "example/macos/Runner/Release.entitlements",
+    "bytes": 310,
+    "sha256": "476a55c835e39b5334f09ecec40b574c0c959137d5d5e6273050cfa24870280d"
+  },
+  {
+    "path": "example/pubspec.yaml",
+    "bytes": 844,
+    "sha256": "68f7d99d896a0f97ebeeabbd26ad3d82b0b260199bb50f97dad7f2bbedc362f0"
+  },
+  {
+    "path": "example/test/readme_excerpts_test.dart",
+    "bytes": 2185,
+    "sha256": "98dd64b37f13dc8749313267bf351a3ac4fc00def39790ec283b13369e535edd"
+  },
+  {
+    "path": "example/test_driver/integration_test.dart",
+    "bytes": 274,
+    "sha256": "8e555c5eb7fd345d15f60f9fa277698d4573cad95ad45ac3abde6ed9d35a2575"
+  },
+  {
+    "path": "example/web/favicon.png",
+    "bytes": 917,
+    "sha256": "7ab2525f4b86b65d3e4c70358a17e5a1aaf6f437f99cbcc046dad73d59bb9015"
+  },
+  {
+    "path": "example/web/icons/Icon-192.png",
+    "bytes": 5292,
+    "sha256": "3dce99077602f70421c1c6b2a240bc9b83d64d86681d45f2154143310c980be3"
+  },
+  {
+    "path": "example/web/icons/Icon-512.png",
+    "bytes": 8252,
+    "sha256": "baccb205ae45f0b421be1657259b4943ac40c95094ab877f3bcbe12cd544dcbe"
+  },
+  {
+    "path": "example/web/index.html",
+    "bytes": 1330,
+    "sha256": "7d5b787300daf54f6713a34c63aff3352d27e4dd39d83e333e03eae9b90d8438"
+  },
+  {
+    "path": "example/web/manifest.json",
+    "bytes": 608,
+    "sha256": "6dd8f9dc4d93f0eaefe97f7ae6543d26e402b07461b89847f34ff05d4371fcba"
+  },
+  {
+    "path": "example/windows/CMakeLists.txt",
+    "bytes": 3925,
+    "sha256": "44eda67d2ce50b74ecd795452e7aaf5efb835d735b3b0fe46eabf54fcaea2be0"
+  },
+  {
+    "path": "example/windows/flutter/CMakeLists.txt",
+    "bytes": 3742,
+    "sha256": "1fe418971b6f41bb35ceb3d64113a835f3f6f171ecaa707bf232492b57a588d6"
+  },
+  {
+    "path": "example/windows/flutter/generated_plugins.cmake",
+    "bytes": 767,
+    "sha256": "8af6ece289183272e49888eb5bf6bfb457f82187a09b369859b147e666a8eae6"
+  },
+  {
+    "path": "example/windows/runner/CMakeLists.txt",
+    "bytes": 1796,
+    "sha256": "34119ec122e36940235ef4bc245fcfb43b6960ed443e28af1a8d833a81209b9e"
+  },
+  {
+    "path": "example/windows/runner/Runner.rc",
+    "bytes": 3093,
+    "sha256": "4f40123f783179a8f5a304000eca7d3887e90caf2ca17211fab67891780a26bb"
+  },
+  {
+    "path": "example/windows/runner/flutter_window.cpp",
+    "bytes": 2009,
+    "sha256": "cf76d2852f070294912bbbea89f5fb56383864d8e6975a403d9fdd39537ec95d"
+  },
+  {
+    "path": "example/windows/runner/flutter_window.h",
+    "bytes": 1093,
+    "sha256": "fb5821c313a2463e5355e84e722fc7b8c382d46419e64a1f8b0f3d8507e7086d"
+  },
+  {
+    "path": "example/windows/runner/main.cpp",
+    "bytes": 1432,
+    "sha256": "8513caccfdc6d3255755e0b5291fb00e0bd50530711973a6e736428b6ab44c37"
+  },
+  {
+    "path": "example/windows/runner/resource.h",
+    "bytes": 380,
+    "sha256": "f822cddfc7b376e52f6d04c353ab4ad00bcecf0abed0a20fd5107e18383cabc8"
+  },
+  {
+    "path": "example/windows/runner/resources/app_icon.ico",
+    "bytes": 33772,
+    "sha256": "c098d3fc85cacff98b8e69811b48e9f0d852fcee278132d794411d978869cbf8"
+  },
+  {
+    "path": "example/windows/runner/runner.exe.manifest",
+    "bytes": 874,
+    "sha256": "c359297996f4d967b7768fa93ea1e01fb21c8e95c3f2041f101f0904e94bb333"
+  },
+  {
+    "path": "example/windows/runner/utils.cpp",
+    "bytes": 1871,
+    "sha256": "30819bd91260a3ff899dce34b2ba21663b03ce23fe42aa500aed2d81bc317737"
+  },
+  {
+    "path": "example/windows/runner/utils.h",
+    "bytes": 837,
+    "sha256": "2a0e3de79fa15961468ef37d56003ddd2e6d85ea8032883d59fca887eb33ee7d"
+  },
+  {
+    "path": "example/windows/runner/win32_window.cpp",
+    "bytes": 8532,
+    "sha256": "5d77aeab8ba5e0c823a8303a85a44b5458b1af08b441e7544ebd93db06268314"
+  },
+  {
+    "path": "example/windows/runner/win32_window.h",
+    "bytes": 3624,
+    "sha256": "9be595ea201e259e2b24c29d4da477c64efad7da4c7c2d48802fff9faed58ee8"
+  },
+  {
+    "path": "lib/image_picker.dart",
+    "bytes": 14937,
+    "sha256": "700a11ac4a72430443dea6e7cb5543acc3580faee96bbce8bb65318d6053ea85"
+  },
+  {
+    "path": "pubspec.yaml",
+    "bytes": 1332,
+    "sha256": "aaf14a57338b9d88a3d3d4794573a4e9219dd0e80175b90ec71b6aa548f80dfe"
+  },
+  {
+    "path": "test/image_picker_test.dart",
+    "bytes": 38438,
+    "sha256": "0a921d734df608ba05812666c0224cce72e6b1dbc7ddc0546a0f4d01b45fa62d"
+  },
+  {
+    "path": "test/image_picker_test.mocks.dart",
+    "bytes": 7422,
+    "sha256": "162eac7df4aeb0beeb56627697a6be4ca5762a6966b7bd7898e390b3e98042a8"
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "path": "CHANGELOG.md",
+    "sha256": "0d298949739b247938e7487193a4db1e0913ebcb2c66ae23de37a28a1960c1a0",
+    "markers": [
+      {
+        "line": 150,
+        "text": "- Add a more correct attribution to `package:platform_detect` code."
+      },
+      {
+        "line": 154,
+        "text": "- (Null safety) Remove dependency on `package:platform_detect`"
+      }
+    ]
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "f9bd6d4f1da93f33d7d9aa44848bee6d1bacf1c5049d3ba2fd3f5d362a01ceab",
+    "markers": [
+      {
+        "line": 3,
+        "text": "Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 8,
+        "text": "    * Redistributions of source code must retain the above copyright"
+      },
+      {
+        "line": 11,
+        "text": "      copyright notice, this list of conditions and the following"
+      },
+      {
+        "line": 18,
+        "text": "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND"
+      },
+      {
+        "line": 21,
+        "text": "DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR"
+      },
+      {
+        "line": 29,
+        "text": "platform_detect"
+      },
+      {
+        "line": 31,
+        "text": "                                 Apache License"
+      },
+      {
+        "line": 33,
+        "text": "                        http://www.apache.org/licenses/"
+      },
+      {
+        "line": 39,
+        "text": "      \"License\" shall mean the terms and conditions for use, reproduction,"
+      },
+      {
+        "line": 42,
+        "text": "      \"Licensor\" shall mean the copyright owner or entity authorized by"
+      },
+      {
+        "line": 43,
+        "text": "      the copyright owner that is granting the License."
+      },
+      {
+        "line": 54,
+        "text": "      exercising permissions granted by this License."
+      },
+      {
+        "line": 66,
+        "text": "      Object form, made available under the License, as indicated by a"
+      },
+      {
+        "line": 67,
+        "text": "      copyright notice that is included in or attached to the work"
+      },
+      {
+        "line": 71,
+        "text": "      form, that is based on (or derived from) the Work and for which the"
+      },
+      {
+        "line": 74,
+        "text": "      of this License, Derivative Works shall not include works that remain"
+      },
+      {
+        "line": 81,
+        "text": "      submitted to Licensor for inclusion in the Work by the copyright owner"
+      },
+      {
+        "line": 83,
+        "text": "      the copyright owner. For the purposes of this definition, \"submitted\""
+      },
+      {
+        "line": 90,
+        "text": "      designated in writing by the copyright owner as \"Not a Contribution.\""
+      },
+      {
+        "line": 96,
+        "text": "   2. Grant of Copyright License. Subject to the terms and conditions of"
+      },
+      {
+        "line": 97,
+        "text": "      this License, each Contributor hereby grants to You a perpetual,"
+      },
+      {
+        "line": 99,
+        "text": "      copyright license to reproduce, prepare Derivative Works of,"
+      },
+      {
+        "line": 100,
+        "text": "      publicly display, publicly perform, sublicense, and distribute the"
+      },
+      {
+        "line": 103,
+        "text": "   3. Grant of Patent License. Subject to the terms and conditions of"
+      },
+      {
+        "line": 104,
+        "text": "      this License, each Contributor hereby grants to You a perpetual,"
+      },
+      {
+        "line": 106,
+        "text": "      (except as stated in this section) patent license to make, have made,"
+      },
+      {
+        "line": 108,
+        "text": "      where such license applies only to those patent claims licensable"
+      },
+      {
+        "line": 115,
+        "text": "      or contributory patent infringement, then any patent licenses"
+      },
+      {
+        "line": 116,
+        "text": "      granted to You under this License for that Work shall terminate"
+      },
+      {
+        "line": 125,
+        "text": "          Derivative Works a copy of this License; and"
+      },
+      {
+        "line": 131,
+        "text": "          that You distribute, all copyright, patent, trademark, and"
+      },
+      {
+        "line": 147,
+        "text": "          do not modify the License. You may add Your own attribution"
+      },
+      {
+        "line": 151,
+        "text": "          as modifying the License."
+      },
+      {
+        "line": 153,
+        "text": "      You may add Your own copyright statement to Your modifications and"
+      },
+      {
+        "line": 154,
+        "text": "      may provide additional or different license terms and conditions"
+      },
+      {
+        "line": 158,
+        "text": "      the conditions stated in this License."
+      },
+      {
+        "line": 163,
+        "text": "      this License, without any additional terms or conditions."
+      },
+      {
+        "line": 165,
+        "text": "      the terms of any separate license agreement you may have executed"
+      },
+      {
+        "line": 168,
+        "text": "   6. Trademarks. This License does not grant permission to use the trade"
+      },
+      {
+        "line": 181,
+        "text": "      risks associated with Your exercise of permissions under this License."
+      },
+      {
+        "line": 189,
+        "text": "      result of this License or out of the use or inability to use the"
+      },
+      {
+        "line": 199,
+        "text": "      License. However, in accepting such obligations, You may act only"
+      },
+      {
+        "line": 208,
+        "text": "   APPENDIX: How to apply the Apache License to your work."
+      },
+      {
+        "line": 210,
+        "text": "      To apply the Apache License to your work, attach the following"
+      },
+      {
+        "line": 216,
+        "text": "      same \"printed page\" as the copyright notice for easier"
+      },
+      {
+        "line": 219,
+        "text": "   Copyright 2017 Workiva Inc."
+      },
+      {
+        "line": 221,
+        "text": "   Licensed under the Apache License, Version 2.0 (the \"License\");"
+      },
+      {
+        "line": 222,
+        "text": "   you may not use this file except in compliance with the License."
+      },
+      {
+        "line": 223,
+        "text": "   You may obtain a copy of the License at"
+      },
+      {
+        "line": 225,
+        "text": "       http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "line": 228,
+        "text": "   distributed under the License is distributed on an \"AS IS\" BASIS,"
+      },
+      {
+        "line": 230,
+        "text": "   See the License for the specific language governing permissions and"
+      },
+      {
+        "line": 231,
+        "text": "   limitations under the License."
+      }
+    ]
+  },
+  {
+    "path": "example/integration_test/link_widget_test.dart",
+    "sha256": "1059088b88b2b24fbc84af74dc275eb82c4fffbada4a8420fa5513472827feb9",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "example/integration_test/url_launcher_web_test.dart",
+    "sha256": "f679bac8a019006469482fd9bf28ba73cd70b57cf2995abe1f40ca742a520d50",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "example/lib/main.dart",
+    "sha256": "6cf7ebc7e44309c12553a450c7488830c577cdcbac0247ce89054d5c20c50ee0",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "example/test_driver/integration_test.dart",
+    "sha256": "8e555c5eb7fd345d15f60f9fa277698d4573cad95ad45ac3abde6ed9d35a2575",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "example/web/index.html",
+    "sha256": "c85fa90d7b0f9bf91efa893e69b99551557ad969ceb8a4855af79b71f152ede8",
+    "markers": [
+      {
+        "line": 2,
+        "text": "<!-- Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 3,
+        "text": "Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 4,
+        "text": "found in the LICENSE file. -->"
+      }
+    ]
+  },
+  {
+    "path": "lib/src/link.dart",
+    "sha256": "66fb081f09eddbe10dc0b5f7b0680047f3c57ca7c6f459acf04bf023e5544c3b",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "lib/url_launcher_web.dart",
+    "sha256": "2939df1d69f24182f94e6c65f109dbf466c6f6c41cfe3f5c4347dcfc26676a0e",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  },
+  {
+    "path": "test/tests_exist_elsewhere_test.dart",
+    "sha256": "c1f7aa270484f2205460cae53ddf130fe14c2b115026343eea4722527e95e64f",
+    "markers": [
+      {
+        "line": 1,
+        "text": "// Copyright 2013 The Flutter Authors. All rights reserved."
+      },
+      {
+        "line": 2,
+        "text": "// Use of this source code is governed by a BSD-style license that can be"
+      },
+      {
+        "line": 3,
+        "text": "// found in the LICENSE file."
+      }
+    ]
+  }
+]

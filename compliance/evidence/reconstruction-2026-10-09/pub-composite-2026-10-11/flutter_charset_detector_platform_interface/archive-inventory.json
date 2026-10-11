@@ -1,0 +1,42 @@
+[
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 130,
+    "sha256": "90df7b3096a8f59aae87b37263f76a68ba99c01509f8c105f78c23099f77283e"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 42634,
+    "sha256": "47aa01302693c2ab65f56c90c500f43d5fb4ddda5a4ced1cd102254df3865eb3"
+  },
+  {
+    "path": "README.md",
+    "bytes": 728,
+    "sha256": "aed1973e7cec40a9441ee7f56611b72e49578bfca9c1a4a3fd1ae561fad9bd6d"
+  },
+  {
+    "path": "analysis_options.yaml",
+    "bytes": 144,
+    "sha256": "124b1a50c5a69aceaf2bc87cc278ef4d1fa7b9d46b7a24f33ae0a54b9ff5d71b"
+  },
+  {
+    "path": "lib/decoding_result.dart",
+    "bytes": 384,
+    "sha256": "82f96e1c3cf99a45f74d65d2356cc32dc62dbc72f812916ee2eb2d107ab492f1"
+  },
+  {
+    "path": "lib/flutter_charset_detector_platform_interface.dart",
+    "bytes": 1450,
+    "sha256": "81e2adab4181099c10a5e71dee04d0ee64e9acadc6145620b19ee085b852dba9"
+  },
+  {
+    "path": "lib/src/method_channel_charset_detector.dart",
+    "bytes": 1071,
+    "sha256": "8bc80047214eac6022572d3d1e5f88094668332a0c4c2660baef301a8226956d"
+  },
+  {
+    "path": "pubspec.yaml",
+    "bytes": 423,
+    "sha256": "7fd1022d716f8178ec3f4960f6656128fd58a158bb2d6274510713baefde119d"
+  }
+]
