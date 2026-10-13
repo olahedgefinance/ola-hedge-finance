@@ -1,0 +1,470 @@
+{
+  "schemaVersion": 1,
+  "baseline": "0f6f7b2ad8f44dc3f31eda01b0e85c21a554aa7d",
+  "legalClearance": false,
+  "releaseClearance": false,
+  "graphPath": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json",
+  "graphSha256": "63f239fb4f4da24611b385fa8f31ed72df0fb7c68cc340b213016dc7a7faf133",
+  "upstream": {
+    "repository": "https://github.com/grpc/grpc-java",
+    "version": "1.57.2",
+    "tag": "v1.57.2",
+    "commit": "0cfa2d1e1d1baf229aaaf825c2b8ffd405d6e50c",
+    "response": {
+      "path": "blobs/bce19ca5593b8207b754d065a54d29feca4ba514274813306aa551a587917fc6.bin",
+      "sha256": "bce19ca5593b8207b754d065a54d29feca4ba514274813306aa551a587917fc6",
+      "bytes": 35571,
+      "url": "https://api.github.com/repos/grpc/grpc-java/commits/v1.57.2"
+    },
+    "archive": {
+      "path": "blobs/0d394270ae6a0ee31afb18b5aa7b4d2bea968735172afdfd0ce420ce66f64f0a.bin",
+      "sha256": "0d394270ae6a0ee31afb18b5aa7b4d2bea968735172afdfd0ce420ce66f64f0a",
+      "bytes": 4913667,
+      "url": "https://codeload.github.com/grpc/grpc-java/zip/0cfa2d1e1d1baf229aaaf825c2b8ffd405d6e50c"
+    }
+  },
+  "cohortCoordinates": [
+    "io.grpc:grpc-android:1.57.2",
+    "io.grpc:grpc-api:1.57.2",
+    "io.grpc:grpc-context:1.57.2",
+    "io.grpc:grpc-core:1.57.2",
+    "io.grpc:grpc-okhttp:1.57.2",
+    "io.grpc:grpc-protobuf-lite:1.57.2",
+    "io.grpc:grpc-stub:1.57.2"
+  ],
+  "records": [
+    {
+      "id": "maven:io.grpc:grpc-android",
+      "coordinate": "io.grpc:grpc-android:1.57.2",
+      "version": "1.57.2",
+      "module": "android",
+      "distributed": true,
+      "relationship": "transitive",
+      "flutterPluginAncestors": [
+        "project :cloud_firestore"
+      ],
+      "previousUnresolvedReason": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#io.grpc:grpc-android:1.57.2; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.",
+      "files": [
+        {
+          "path": "blobs/4d822c1a651a09714ead6915e38b702dc0505d929a251ee5a950e1e9a4c7288d.bin",
+          "sha256": "4d822c1a651a09714ead6915e38b702dc0505d929a251ee5a950e1e9a4c7288d",
+          "bytes": 1629,
+          "role": "pom",
+          "filename": "grpc-android-1.57.2.pom",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-android/1.57.2/grpc-android-1.57.2.pom"
+        },
+        {
+          "path": "blobs/ae0f2429770b363925d711ea10ccc654fc312c5e7bde05f9a6843e7bae7c0111.bin",
+          "sha256": "ae0f2429770b363925d711ea10ccc654fc312c5e7bde05f9a6843e7bae7c0111",
+          "bytes": 8843,
+          "role": "source",
+          "filename": "grpc-android-1.57.2-sources.jar",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-android/1.57.2/grpc-android-1.57.2-sources.jar"
+        },
+        {
+          "path": "blobs/e44205b9e6d5ed9b633c68a8c5716181a4d71ea020a5d88ee365a4a691882142.bin",
+          "sha256": "e44205b9e6d5ed9b633c68a8c5716181a4d71ea020a5d88ee365a4a691882142",
+          "bytes": 15933,
+          "role": "binary",
+          "filename": "grpc-android-1.57.2.aar",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-android/1.57.2/grpc-android-1.57.2.aar"
+        }
+      ],
+      "unavailable": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-android/1.57.2/grpc-android-1.57.2.module",
+          "status": 404
+        },
+        {
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-android/1.57.2/grpc-android-1.57.2.jar",
+          "status": 404
+        }
+      ],
+      "audit": {
+        "path": "blobs/30885d94f2e4007132d51e14a214b4b008f52dbf5507c39784acbf5aa5fa7063.bin",
+        "sha256": "30885d94f2e4007132d51e14a214b4b008f52dbf5507c39784acbf5aa5fa7063",
+        "bytes": 6128
+      },
+      "licenseDeclared": "Apache-2.0",
+      "classification": "Verified with conditions",
+      "conditions": [
+        "Technical evidence only; not legal/release clearance or reproducible binary rebuild.",
+        "Preserve upstream LICENSE, NOTICE.txt and applicable source copyright/modification notices. Repository-wide NOTICE references outside this cohort are context, not evidence of inclusion.",
+        "Graph runtime distribution is not proof of release-APK inclusion; dependencies retain separate classifications. Production Android and iOS/native verification remain incomplete.",
+        "BuildConfig is exact published generated release metadata, checked against the upstream namespace/release configuration; not independent AGP rebuild proof."
+      ],
+      "legalClearance": false,
+      "releaseClearance": false,
+      "risksSummary": []
+    },
+    {
+      "id": "maven:io.grpc:grpc-api",
+      "coordinate": "io.grpc:grpc-api:1.57.2",
+      "version": "1.57.2",
+      "module": "api",
+      "distributed": true,
+      "relationship": "transitive",
+      "flutterPluginAncestors": [
+        "project :cloud_firestore"
+      ],
+      "previousUnresolvedReason": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#io.grpc:grpc-api:1.57.2; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.",
+      "files": [
+        {
+          "path": "blobs/c7df4551a64f0282a766e809514d4238450a7429055f9c7718881d16a310a026.bin",
+          "sha256": "c7df4551a64f0282a766e809514d4238450a7429055f9c7718881d16a310a026",
+          "bytes": 1799,
+          "role": "pom",
+          "filename": "grpc-api-1.57.2.pom",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.57.2/grpc-api-1.57.2.pom"
+        },
+        {
+          "path": "blobs/5fb4a3d5488bc3a5d302c118802b757764515102404d45c77d02761ffd2a48f4.bin",
+          "sha256": "5fb4a3d5488bc3a5d302c118802b757764515102404d45c77d02761ffd2a48f4",
+          "bytes": 220351,
+          "role": "source",
+          "filename": "grpc-api-1.57.2-sources.jar",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.57.2/grpc-api-1.57.2-sources.jar"
+        },
+        {
+          "path": "blobs/42b72e6572c084055ac3ce03e6efe433eb05ef620b3daf5136a4359fc72cc3e1.bin",
+          "sha256": "42b72e6572c084055ac3ce03e6efe433eb05ef620b3daf5136a4359fc72cc3e1",
+          "bytes": 292602,
+          "role": "binary",
+          "filename": "grpc-api-1.57.2.jar",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.57.2/grpc-api-1.57.2.jar"
+        }
+      ],
+      "unavailable": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.57.2/grpc-api-1.57.2.module",
+          "status": 404
+        }
+      ],
+      "audit": {
+        "path": "blobs/b751b79aff79f92662f5a51a916274fed7c6498348aade0963d704f1dd2daba3.bin",
+        "sha256": "b751b79aff79f92662f5a51a916274fed7c6498348aade0963d704f1dd2daba3",
+        "bytes": 96832
+      },
+      "licenseDeclared": "Apache-2.0",
+      "classification": "Verified with conditions",
+      "conditions": [
+        "Technical evidence only; not legal/release clearance or reproducible binary rebuild.",
+        "Preserve upstream LICENSE, NOTICE.txt and applicable source copyright/modification notices. Repository-wide NOTICE references outside this cohort are context, not evidence of inclusion.",
+        "Graph runtime distribution is not proof of release-APK inclusion; dependencies retain separate classifications. Production Android and iOS/native verification remain incomplete."
+      ],
+      "legalClearance": false,
+      "releaseClearance": false,
+      "risksSummary": []
+    },
+    {
+      "id": "maven:io.grpc:grpc-context",
+      "coordinate": "io.grpc:grpc-context:1.57.2",
+      "version": "1.57.2",
+      "module": "context",
+      "distributed": true,
+      "relationship": "transitive",
+      "flutterPluginAncestors": [
+        "project :cloud_firestore"
+      ],
+      "previousUnresolvedReason": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#io.grpc:grpc-context:1.57.2; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.",
+      "files": [
+        {
+          "path": "blobs/8927f77d6381e24487682708196a6ca728368b8fd7cebb104fd9324b6b124917.bin",
+          "sha256": "8927f77d6381e24487682708196a6ca728368b8fd7cebb104fd9324b6b124917",
+          "bytes": 1871,
+          "role": "pom",
+          "filename": "grpc-context-1.57.2.pom",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.57.2/grpc-context-1.57.2.pom"
+        },
+        {
+          "path": "blobs/d6d5e4a5ce6825fa023a5f5748a324d651e8f5b1e7828607196f9a9f835a9ad1.bin",
+          "sha256": "d6d5e4a5ce6825fa023a5f5748a324d651e8f5b1e7828607196f9a9f835a9ad1",
+          "bytes": 261,
+          "role": "source",
+          "filename": "grpc-context-1.57.2-sources.jar",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.57.2/grpc-context-1.57.2-sources.jar"
+        },
+        {
+          "path": "blobs/9b8ac88d9cef2819daffed7bdbd2f22680237d482c6c671fe02d36da3f08cf00.bin",
+          "sha256": "9b8ac88d9cef2819daffed7bdbd2f22680237d482c6c671fe02d36da3f08cf00",
+          "bytes": 295,
+          "role": "binary",
+          "filename": "grpc-context-1.57.2.jar",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.57.2/grpc-context-1.57.2.jar"
+        }
+      ],
+      "unavailable": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.57.2/grpc-context-1.57.2.module",
+          "status": 404
+        }
+      ],
+      "audit": {
+        "path": "blobs/07eaa8e9c56bd8681e86f6cf5e61a7e066122f4f33a279efdd13e2c70d6dec8f.bin",
+        "sha256": "07eaa8e9c56bd8681e86f6cf5e61a7e066122f4f33a279efdd13e2c70d6dec8f",
+        "bytes": 398
+      },
+      "licenseDeclared": "Apache-2.0",
+      "classification": "Verified with conditions",
+      "conditions": [
+        "Technical evidence only; not legal/release clearance or reproducible binary rebuild.",
+        "Preserve upstream LICENSE, NOTICE.txt and applicable source copyright/modification notices. Repository-wide NOTICE references outside this cohort are context, not evidence of inclusion.",
+        "Graph runtime distribution is not proof of release-APK inclusion; dependencies retain separate classifications. Production Android and iOS/native verification remain incomplete.",
+        "Empty compatibility artifact redirects to grpc-api; its declaration does not clear any dependency implementation."
+      ],
+      "legalClearance": false,
+      "releaseClearance": false,
+      "risksSummary": []
+    },
+    {
+      "id": "maven:io.grpc:grpc-core",
+      "coordinate": "io.grpc:grpc-core:1.57.2",
+      "version": "1.57.2",
+      "module": "core",
+      "distributed": true,
+      "relationship": "transitive",
+      "flutterPluginAncestors": [
+        "project :cloud_firestore"
+      ],
+      "previousUnresolvedReason": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#io.grpc:grpc-core:1.57.2; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.",
+      "files": [
+        {
+          "path": "blobs/0a97201afe17874f035f8a25ffb970678e49aadf2992c7d97c6ff9fb1d5da211.bin",
+          "sha256": "0a97201afe17874f035f8a25ffb970678e49aadf2992c7d97c6ff9fb1d5da211",
+          "bytes": 2695,
+          "role": "pom",
+          "filename": "grpc-core-1.57.2.pom",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.57.2/grpc-core-1.57.2.pom"
+        },
+        {
+          "path": "blobs/26ef536d138e7fd174212b4d14ef78c1c5e52ae908547602690dc6b043f5f5f7.bin",
+          "sha256": "26ef536d138e7fd174212b4d14ef78c1c5e52ae908547602690dc6b043f5f5f7",
+          "bytes": 331381,
+          "role": "source",
+          "filename": "grpc-core-1.57.2-sources.jar",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.57.2/grpc-core-1.57.2-sources.jar"
+        },
+        {
+          "path": "blobs/5a10070abfeb4966ec4d580961dcc4e7f69fa83ab25242f92c1765efb07b8606.bin",
+          "sha256": "5a10070abfeb4966ec4d580961dcc4e7f69fa83ab25242f92c1765efb07b8606",
+          "bytes": 744037,
+          "role": "binary",
+          "filename": "grpc-core-1.57.2.jar",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.57.2/grpc-core-1.57.2.jar"
+        }
+      ],
+      "unavailable": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.57.2/grpc-core-1.57.2.module",
+          "status": 404
+        }
+      ],
+      "audit": {
+        "path": "blobs/4881b528a906cbbcef1051271c51bc24cc6676b56bc2947203626b780aa3aa65.bin",
+        "sha256": "4881b528a906cbbcef1051271c51bc24cc6676b56bc2947203626b780aa3aa65",
+        "bytes": 177171
+      },
+      "licenseDeclared": "NOASSERTION",
+      "classification": "Needs Verification",
+      "conditions": [
+        "Technical evidence only; not legal/release clearance or reproducible binary rebuild.",
+        "Preserve upstream LICENSE, NOTICE.txt and applicable source copyright/modification notices. Repository-wide NOTICE references outside this cohort are context, not evidence of inclusion.",
+        "Graph runtime distribution is not proof of release-APK inclusion; dependencies retain separate classifications. Production Android and iOS/native verification remain incomplete.",
+        "Copied Guava implementation is embedded in source; exact scoped source/attribution evidence is not yet established. A separately resolved Guava dependency does not clear this copied code."
+      ],
+      "legalClearance": false,
+      "releaseClearance": false,
+      "risksSummary": [
+        "Copied third-party source lacks separately scoped evidence: io/grpc/internal/GrpcUtil.java"
+      ]
+    },
+    {
+      "id": "maven:io.grpc:grpc-okhttp",
+      "coordinate": "io.grpc:grpc-okhttp:1.57.2",
+      "version": "1.57.2",
+      "module": "okhttp",
+      "distributed": true,
+      "relationship": "transitive",
+      "flutterPluginAncestors": [
+        "project :cloud_firestore"
+      ],
+      "previousUnresolvedReason": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#io.grpc:grpc-okhttp:1.57.2; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.",
+      "files": [
+        {
+          "path": "blobs/fd6feecda2776fca7ecc9f8ab0545e3dfdebdd5c251eff6ada911b6ab397d969.bin",
+          "sha256": "fd6feecda2776fca7ecc9f8ab0545e3dfdebdd5c251eff6ada911b6ab397d969",
+          "bytes": 1949,
+          "role": "pom",
+          "filename": "grpc-okhttp-1.57.2.pom",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-okhttp/1.57.2/grpc-okhttp-1.57.2.pom"
+        },
+        {
+          "path": "blobs/afa5cbbed4323bf002580f60e968b1edc9fd65ff95ba90d00036c02b9acdf5e0.bin",
+          "sha256": "afa5cbbed4323bf002580f60e968b1edc9fd65ff95ba90d00036c02b9acdf5e0",
+          "bytes": 144061,
+          "role": "source",
+          "filename": "grpc-okhttp-1.57.2-sources.jar",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-okhttp/1.57.2/grpc-okhttp-1.57.2-sources.jar"
+        },
+        {
+          "path": "blobs/d88ee17085ad3718ef811c4c0f62bc3b9b3ba9b8314e93c18d10362ce4b6cbb3.bin",
+          "sha256": "d88ee17085ad3718ef811c4c0f62bc3b9b3ba9b8314e93c18d10362ce4b6cbb3",
+          "bytes": 247325,
+          "role": "binary",
+          "filename": "grpc-okhttp-1.57.2.jar",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-okhttp/1.57.2/grpc-okhttp-1.57.2.jar"
+        }
+      ],
+      "unavailable": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-okhttp/1.57.2/grpc-okhttp-1.57.2.module",
+          "status": 404
+        }
+      ],
+      "audit": {
+        "path": "blobs/dcff81b91bb7a4d1917d97772d8c799ad882e85e8c84c557f680b6fedf974b9b.bin",
+        "sha256": "dcff81b91bb7a4d1917d97772d8c799ad882e85e8c84c557f680b6fedf974b9b",
+        "bytes": 49819
+      },
+      "licenseDeclared": "NOASSERTION",
+      "classification": "Needs Verification",
+      "conditions": [
+        "Technical evidence only; not legal/release clearance or reproducible binary rebuild.",
+        "Preserve upstream LICENSE, NOTICE.txt and applicable source copyright/modification notices. Repository-wide NOTICE references outside this cohort are context, not evidence of inclusion.",
+        "Graph runtime distribution is not proof of release-APK inclusion; dependencies retain separate classifications. Production Android and iOS/native verification remain incomplete.",
+        "Retain modified OkHttp Apache text and Square/AOSP/Twitter/ASF source attributions. Four ASF headers refer to a separately scoped NOTICE whose completeness remains unverified; do not clear this module."
+      ],
+      "legalClearance": false,
+      "releaseClearance": false,
+      "risksSummary": [
+        "ASF source refers to separately scoped NOTICE not established: io/grpc/okhttp/internal/DistinguishedNameParser.java",
+        "ASF source refers to separately scoped NOTICE not established: io/grpc/okhttp/internal/Headers.java",
+        "ASF source refers to separately scoped NOTICE not established: io/grpc/okhttp/internal/OkHostnameVerifier.java",
+        "ASF source refers to separately scoped NOTICE not established: io/grpc/okhttp/internal/OptionalMethod.java",
+        "Unverified source licence header: io/grpc/okhttp/internal/StatusLine.java",
+        "Unverified source licence header: io/grpc/okhttp/internal/framed/Header.java"
+      ]
+    },
+    {
+      "id": "maven:io.grpc:grpc-protobuf-lite",
+      "coordinate": "io.grpc:grpc-protobuf-lite:1.57.2",
+      "version": "1.57.2",
+      "module": "protobuf-lite",
+      "distributed": true,
+      "relationship": "transitive",
+      "flutterPluginAncestors": [
+        "project :cloud_firestore"
+      ],
+      "previousUnresolvedReason": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#io.grpc:grpc-protobuf-lite:1.57.2; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.",
+      "files": [
+        {
+          "path": "blobs/60778c1ea407a3ba0a7f0f09df099e8272278e8abc29822c9cf50e1a052f1b75.bin",
+          "sha256": "60778c1ea407a3ba0a7f0f09df099e8272278e8abc29822c9cf50e1a052f1b75",
+          "bytes": 1990,
+          "role": "pom",
+          "filename": "grpc-protobuf-lite-1.57.2.pom",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.57.2/grpc-protobuf-lite-1.57.2.pom"
+        },
+        {
+          "path": "blobs/e22728a04745913e09cb9ada9403ef2e1f33125e44c506308e2e8ea8b37c11eb.bin",
+          "sha256": "e22728a04745913e09cb9ada9403ef2e1f33125e44c506308e2e8ea8b37c11eb",
+          "bytes": 5976,
+          "role": "source",
+          "filename": "grpc-protobuf-lite-1.57.2-sources.jar",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.57.2/grpc-protobuf-lite-1.57.2-sources.jar"
+        },
+        {
+          "path": "blobs/fc4917dc5d419ac810fb3f27523c14e75e1fe50372154fab29324215ee6a955a.bin",
+          "sha256": "fc4917dc5d419ac810fb3f27523c14e75e1fe50372154fab29324215ee6a955a",
+          "bytes": 7811,
+          "role": "binary",
+          "filename": "grpc-protobuf-lite-1.57.2.jar",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.57.2/grpc-protobuf-lite-1.57.2.jar"
+        }
+      ],
+      "unavailable": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.57.2/grpc-protobuf-lite-1.57.2.module",
+          "status": 404
+        }
+      ],
+      "audit": {
+        "path": "blobs/6c35c26025d04bee3ece1ae91148c64be61dcc1a9c0900bd35250d0a3c9d967d.bin",
+        "sha256": "6c35c26025d04bee3ece1ae91148c64be61dcc1a9c0900bd35250d0a3c9d967d",
+        "bytes": 2694
+      },
+      "licenseDeclared": "NOASSERTION",
+      "classification": "Needs Verification",
+      "conditions": [
+        "Technical evidence only; not legal/release clearance or reproducible binary rebuild.",
+        "Preserve upstream LICENSE, NOTICE.txt and applicable source copyright/modification notices. Repository-wide NOTICE references outside this cohort are context, not evidence of inclusion.",
+        "Graph runtime distribution is not proof of release-APK inclusion; dependencies retain separate classifications. Production Android and iOS/native verification remain incomplete.",
+        "Copied Guava implementation is embedded in source; exact scoped source/attribution evidence is not yet established. A separately resolved Guava dependency does not clear this copied code."
+      ],
+      "legalClearance": false,
+      "releaseClearance": false,
+      "risksSummary": [
+        "Copied third-party source lacks separately scoped evidence: io/grpc/protobuf/lite/ProtoLiteUtils.java"
+      ]
+    },
+    {
+      "id": "maven:io.grpc:grpc-stub",
+      "coordinate": "io.grpc:grpc-stub:1.57.2",
+      "version": "1.57.2",
+      "module": "stub",
+      "distributed": true,
+      "relationship": "transitive",
+      "flutterPluginAncestors": [
+        "project :cloud_firestore"
+      ],
+      "previousUnresolvedReason": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#io.grpc:grpc-stub:1.57.2; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.",
+      "files": [
+        {
+          "path": "blobs/2159e614a8794775eb98e2e1c85834ab4e5911be1c4a75c7163a993e9c892bac.bin",
+          "sha256": "2159e614a8794775eb98e2e1c85834ab4e5911be1c4a75c7163a993e9c892bac",
+          "bytes": 1788,
+          "role": "pom",
+          "filename": "grpc-stub-1.57.2.pom",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.57.2/grpc-stub-1.57.2.pom"
+        },
+        {
+          "path": "blobs/37b7f3e663190b86444cd23cad90c908f6b81564a536b0a8113cb1628cfd07b2.bin",
+          "sha256": "37b7f3e663190b86444cd23cad90c908f6b81564a536b0a8113cb1628cfd07b2",
+          "bytes": 35176,
+          "role": "source",
+          "filename": "grpc-stub-1.57.2-sources.jar",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.57.2/grpc-stub-1.57.2-sources.jar"
+        },
+        {
+          "path": "blobs/84d2af12719168f76375f2afdfd6eb5133a865edba9244d40e6b968e3adde1d3.bin",
+          "sha256": "84d2af12719168f76375f2afdfd6eb5133a865edba9244d40e6b968e3adde1d3",
+          "bytes": 50925,
+          "role": "binary",
+          "filename": "grpc-stub-1.57.2.jar",
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.57.2/grpc-stub-1.57.2.jar"
+        }
+      ],
+      "unavailable": [
+        {
+          "url": "https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.57.2/grpc-stub-1.57.2.module",
+          "status": 404
+        }
+      ],
+      "audit": {
+        "path": "blobs/1976f7cc98c7295cfd1a0e6a0859a6d62bf28639825b1b28b5e5a9966626ca97.bin",
+        "sha256": "1976f7cc98c7295cfd1a0e6a0859a6d62bf28639825b1b28b5e5a9966626ca97",
+        "bytes": 16678
+      },
+      "licenseDeclared": "Apache-2.0",
+      "classification": "Verified with conditions",
+      "conditions": [
+        "Technical evidence only; not legal/release clearance or reproducible binary rebuild.",
+        "Preserve upstream LICENSE, NOTICE.txt and applicable source copyright/modification notices. Repository-wide NOTICE references outside this cohort are context, not evidence of inclusion.",
+        "Graph runtime distribution is not proof of release-APK inclusion; dependencies retain separate classifications. Production Android and iOS/native verification remain incomplete."
+      ],
+      "legalClearance": false,
+      "releaseClearance": false,
+      "risksSummary": []
+    }
+  ]
+}

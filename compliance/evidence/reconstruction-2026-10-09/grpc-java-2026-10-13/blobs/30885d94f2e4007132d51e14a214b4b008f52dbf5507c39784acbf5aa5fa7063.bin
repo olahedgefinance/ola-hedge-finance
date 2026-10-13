@@ -1,0 +1,177 @@
+{
+  "sourceEntries": [
+    {
+      "path": "META-INF/MANIFEST.MF",
+      "bytes": 25,
+      "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+    },
+    {
+      "path": "io/grpc/android/AndroidChannelBuilder.java",
+      "bytes": 11265,
+      "sha256": "1a84b31c9efb7d3de62ffa23c240c9e97e8a347cf2287c32ac96daf0df37e28d"
+    },
+    {
+      "path": "io/grpc/android/BuildConfig.java",
+      "bytes": 285,
+      "sha256": "8f408b557890afb27d763c6f44f42db676f043467247f6909b2374df9db5c652"
+    },
+    {
+      "path": "io/grpc/android/UdsChannelBuilder.java",
+      "bytes": 3845,
+      "sha256": "4d764ce3b59ba030fc5626d220440d1e9e7db990bb7b25b2e8e36c5493c67824"
+    },
+    {
+      "path": "io/grpc/android/UdsSocket.java",
+      "bytes": 8107,
+      "sha256": "1ff118e05f56c87594f17bcef9c309e002dc8098b635a0e392b9a377f4c3d280"
+    },
+    {
+      "path": "io/grpc/android/UdsSocketFactory.java",
+      "bytes": 2268,
+      "sha256": "c2ce577328816537d559336719f3e9914087267bdf12c2d1f5f2fab89f66f92d"
+    }
+  ],
+  "binaryEntries": [
+    {
+      "path": "AndroidManifest.xml",
+      "bytes": 277,
+      "sha256": "b93ac8d0ed9bdeac13a005304615614201c38fd554f3ff9ddc8d50bbcade1302"
+    },
+    {
+      "path": "META-INF/com/android/build/gradle/aar-metadata.properties",
+      "bytes": 121,
+      "sha256": "1a8a8d22989d9e2cc01fc939068f7f96dad91b3d2630715d070cefc57be53809"
+    },
+    {
+      "path": "R.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "classes.jar",
+      "bytes": 16944,
+      "sha256": "b99f46fb385830da8c91bde5498f4da5481893db2990f37e402cd816104970c9"
+    },
+    {
+      "path": "classes.jar!io/grpc/android/AndroidChannelBuilder$1.class",
+      "bytes": 243,
+      "sha256": "8485624a69ada4117b9907301df003be2d52bdcc1e80294a0bf6a31c9b8a61b0"
+    },
+    {
+      "path": "classes.jar!io/grpc/android/AndroidChannelBuilder$AndroidChannel$1.class",
+      "bytes": 1579,
+      "sha256": "442043198769cb5f2b79987f6b9eb3f64e12d7a8f742fd3aa033b3d8e116925e"
+    },
+    {
+      "path": "classes.jar!io/grpc/android/AndroidChannelBuilder$AndroidChannel$2.class",
+      "bytes": 1428,
+      "sha256": "74364c062a28dc68ff8c795a50bed7530454ef6905ba6de15173302d5f950050"
+    },
+    {
+      "path": "classes.jar!io/grpc/android/AndroidChannelBuilder$AndroidChannel$DefaultNetworkCallback.class",
+      "bytes": 1717,
+      "sha256": "0ac1fd0e75ea140baabb8b24154b9159f91be9852bcf49f9f7053f8157b6f56c"
+    },
+    {
+      "path": "classes.jar!io/grpc/android/AndroidChannelBuilder$AndroidChannel$NetworkReceiver.class",
+      "bytes": 2034,
+      "sha256": "f635f743ce73cafc738274185d7a7379437faa756bf826b1ae5ad134ffc6b136"
+    },
+    {
+      "path": "classes.jar!io/grpc/android/AndroidChannelBuilder$AndroidChannel.class",
+      "bytes": 6315,
+      "sha256": "058cfb3c18c692effa2ede27402252157147a75294e7e6b56334a09a180bc0cf"
+    },
+    {
+      "path": "classes.jar!io/grpc/android/AndroidChannelBuilder.class",
+      "bytes": 5180,
+      "sha256": "4886a73b779509219839eb4e29326e22dec725e7aa803835693399236c484882"
+    },
+    {
+      "path": "classes.jar!io/grpc/android/BuildConfig.class",
+      "bytes": 462,
+      "sha256": "8e26fad18314c9e7b8698ea9e9605dbdc083c727ecabca87cdb5eda759702e41"
+    },
+    {
+      "path": "classes.jar!io/grpc/android/UdsChannelBuilder.class",
+      "bytes": 3284,
+      "sha256": "3144c7bf4cdceefb73417d032c6cbc126ba4b02214cfc51060e6a92dfe08f3d9"
+    },
+    {
+      "path": "classes.jar!io/grpc/android/UdsSocket$1.class",
+      "bytes": 764,
+      "sha256": "62bd8abcee5eb516b056481802abc3fa80dcf28cfc3bccacba8d4964babbea79"
+    },
+    {
+      "path": "classes.jar!io/grpc/android/UdsSocket$2.class",
+      "bytes": 547,
+      "sha256": "4108ee69ad613c5e190b8dbc50ba3d5df44b71d7b1458a4c46b17e1d50f74641"
+    },
+    {
+      "path": "classes.jar!io/grpc/android/UdsSocket$3.class",
+      "bytes": 770,
+      "sha256": "e4d05309bf19a116a3f7de7f663680596caa2ab76f445b757b95d22b5dd69314"
+    },
+    {
+      "path": "classes.jar!io/grpc/android/UdsSocket$4.class",
+      "bytes": 548,
+      "sha256": "bd798f55e0aa72697d8fc2d951e4d7b713df88365a50d525b6b4416d6a7c202b"
+    },
+    {
+      "path": "classes.jar!io/grpc/android/UdsSocket.class",
+      "bytes": 6876,
+      "sha256": "89a1894d06804d0a63e56452c85d5964b2939aafb49168f9cfc5107dd86d89ed"
+    },
+    {
+      "path": "classes.jar!io/grpc/android/UdsSocketFactory.class",
+      "bytes": 2079,
+      "sha256": "b219258fb6c470a40c3d96f2d25e1b105eef2b027ce72dec2413a5954bd1685b"
+    },
+    {
+      "path": "proguard.txt",
+      "bytes": 418,
+      "sha256": "cb9530ba4fb27862bf06b62f86314fec474c5134d741009beaff943b58b76c01"
+    }
+  ],
+  "sourceMappings": [
+    {
+      "path": "io/grpc/android/AndroidChannelBuilder.java",
+      "sha256": "1a84b31c9efb7d3de62ffa23c240c9e97e8a347cf2287c32ac96daf0df37e28d",
+      "upstreamPaths": [
+        "android/src/main/java/io/grpc/android/AndroidChannelBuilder.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/android/BuildConfig.java",
+      "sha256": "8f408b557890afb27d763c6f44f42db676f043467247f6909b2374df9db5c652",
+      "upstreamPaths": [],
+      "generatedMetadata": true
+    },
+    {
+      "path": "io/grpc/android/UdsChannelBuilder.java",
+      "sha256": "4d764ce3b59ba030fc5626d220440d1e9e7db990bb7b25b2e8e36c5493c67824",
+      "upstreamPaths": [
+        "android/src/main/java/io/grpc/android/UdsChannelBuilder.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/android/UdsSocket.java",
+      "sha256": "1ff118e05f56c87594f17bcef9c309e002dc8098b635a0e392b9a377f4c3d280",
+      "upstreamPaths": [
+        "android/src/main/java/io/grpc/android/UdsSocket.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/android/UdsSocketFactory.java",
+      "sha256": "c2ce577328816537d559336719f3e9914087267bdf12c2d1f5f2fab89f66f92d",
+      "upstreamPaths": [
+        "android/src/main/java/io/grpc/android/UdsSocketFactory.java"
+      ],
+      "generatedMetadata": false
+    }
+  ],
+  "risks": []
+}

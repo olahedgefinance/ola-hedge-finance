@@ -152,7 +152,7 @@ void main() {
     expect(
         bundle.components
             .singleWhere(
-                (c) => c.id == 'maven:io.grpc:grpc-core')
+                (c) => c.id == 'maven:com.google.firebase:firebase-common')
             .licenseDeclared,
         'NOASSERTION');
     expect(

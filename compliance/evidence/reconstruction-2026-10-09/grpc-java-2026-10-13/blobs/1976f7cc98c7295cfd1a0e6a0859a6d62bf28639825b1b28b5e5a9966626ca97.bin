@@ -1,0 +1,470 @@
+{
+  "sourceEntries": [
+    {
+      "path": "META-INF/MANIFEST.MF",
+      "bytes": 25,
+      "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+    },
+    {
+      "path": "io/grpc/stub/AbstractAsyncStub.java",
+      "bytes": 2497,
+      "sha256": "ae58508344cc5aa24c817f41066112d7f59f3871631e19c0d5392f3c23172406"
+    },
+    {
+      "path": "io/grpc/stub/AbstractBlockingStub.java",
+      "bytes": 2532,
+      "sha256": "e96ae9748e5a3e66b8d9f44b1c12a670a5e6c621568cbcd2b9456325f6a84358"
+    },
+    {
+      "path": "io/grpc/stub/AbstractFutureStub.java",
+      "bytes": 2533,
+      "sha256": "996f825b651fd17a3fa2fc25ab61ab0a57144a64566896d977f0b1868b632475"
+    },
+    {
+      "path": "io/grpc/stub/AbstractStub.java",
+      "bytes": 8871,
+      "sha256": "572d957d8237962a5fa57b17376c24188498123ac3d690a52caf438e0a99b760"
+    },
+    {
+      "path": "io/grpc/stub/CallStreamObserver.java",
+      "bytes": 6294,
+      "sha256": "cc08c0da5bbafdd50ff71dae2151a43c7b2d5cebe1ec5a33520b323876cdc573"
+    },
+    {
+      "path": "io/grpc/stub/ClientCallStreamObserver.java",
+      "bytes": 5021,
+      "sha256": "cd54e46163c6ed51379c9427d57e0b235ee7865ae659489b553c85d9937991c2"
+    },
+    {
+      "path": "io/grpc/stub/ClientCalls.java",
+      "bytes": 27808,
+      "sha256": "27125081b1e7a2f53ad5bf377397a49eb620432921bbb129382ed3b15a231f9f"
+    },
+    {
+      "path": "io/grpc/stub/ClientResponseObserver.java",
+      "bytes": 1782,
+      "sha256": "3071f5c4e9f9e26289e706b6fabee8ef3aba8471befa184db332cc0b3a1dcdb0"
+    },
+    {
+      "path": "io/grpc/stub/InternalClientCalls.java",
+      "bytes": 2309,
+      "sha256": "8baf3b0a9f0fd23401cac7450a263429d6031a3dc39de281a0f07afcb3212815"
+    },
+    {
+      "path": "io/grpc/stub/MetadataUtils.java",
+      "bytes": 7129,
+      "sha256": "88cf7b125ced2d03c58d7709aece3cd531f08815f7f14f3bc726dce6c7f48142"
+    },
+    {
+      "path": "io/grpc/stub/ServerCallStreamObserver.java",
+      "bytes": 7912,
+      "sha256": "7f84278b89a35f8cfba6988980d8b7f47a769a87bb62948c049910fdc90cadab"
+    },
+    {
+      "path": "io/grpc/stub/ServerCalls.java",
+      "bytes": 16921,
+      "sha256": "29adb80c6434a505508b3f475c27942e58277548ba5db3928c08d5cfd85d10a6"
+    },
+    {
+      "path": "io/grpc/stub/StreamObserver.java",
+      "bytes": 4350,
+      "sha256": "fcf4b9b694b46961a3982dbcf269ada5aa2c0d3881d610965ab8c48291990c07"
+    },
+    {
+      "path": "io/grpc/stub/StreamObservers.java",
+      "bytes": 3035,
+      "sha256": "a089f36d04d2158baf8e37fbb1f1241147bacab9c57a604eaa5a873652bc4dad"
+    },
+    {
+      "path": "io/grpc/stub/annotations/GrpcGenerated.java",
+      "bytes": 1365,
+      "sha256": "a1ca858815d4ae001a1f02285aca4050e02c527786ab3c747073888030c91c18"
+    },
+    {
+      "path": "io/grpc/stub/annotations/RpcMethod.java",
+      "bytes": 2712,
+      "sha256": "87e9f6def39dc30bf1859b10ed7e48f055483cdaffc01c02a5c81a02ba3162f8"
+    },
+    {
+      "path": "io/grpc/stub/package-info.java",
+      "bytes": 3939,
+      "sha256": "1f511762a2cd9e431f1c9bd2e63bd47eb650afdaa59bb75d7cf1beee971d0ec7"
+    }
+  ],
+  "binaryEntries": [
+    {
+      "path": "META-INF/MANIFEST.MF",
+      "bytes": 84,
+      "sha256": "27294fb2c99c7d6cb27caa2de711fc18216cfee7bdb80343fa1b9791db937a77"
+    },
+    {
+      "path": "io/grpc/stub/AbstractAsyncStub.class",
+      "bytes": 2718,
+      "sha256": "4c505a56e120567ff6b3b21cbfb6ce7e45e43776cab3b00db3fd992c72fe42b9"
+    },
+    {
+      "path": "io/grpc/stub/AbstractBlockingStub.class",
+      "bytes": 2739,
+      "sha256": "8c2ee88d536d05aa8b10ad8918b41f7528038330ab5351402af7cac337b0021a"
+    },
+    {
+      "path": "io/grpc/stub/AbstractFutureStub.class",
+      "bytes": 2725,
+      "sha256": "83b7be661ee1d3928da3316a357c4c7b4f0b2a5b84db7656e0defabdc4c07dfa"
+    },
+    {
+      "path": "io/grpc/stub/AbstractStub$StubFactory.class",
+      "bytes": 425,
+      "sha256": "f6aa42a926d795052d2e1e0f63a49f3941c57ccfc02b74e4369a08293c777501"
+    },
+    {
+      "path": "io/grpc/stub/AbstractStub.class",
+      "bytes": 5958,
+      "sha256": "4993ce4266d149ca6e0ceac3c3612f6f083f87c786e0ef846b742241fdd4aa6b"
+    },
+    {
+      "path": "io/grpc/stub/CallStreamObserver.class",
+      "bytes": 834,
+      "sha256": "3e6ef4eb4668c0768010a28a92150d650c7747e8d46dbf8e3518e1019e64220b"
+    },
+    {
+      "path": "io/grpc/stub/ClientCallStreamObserver.class",
+      "bytes": 988,
+      "sha256": "aad3b78ce98b7c59349d306360068fe49e97b3979ad12fc2c6c7322eba022568"
+    },
+    {
+      "path": "io/grpc/stub/ClientCalls$1.class",
+      "bytes": 207,
+      "sha256": "dca780c516d5d04e8aefe9e64da612748df1c8b045ab86d9384c5ce31272395c"
+    },
+    {
+      "path": "io/grpc/stub/ClientCalls$BlockingResponseStream$QueuingListener.class",
+      "bytes": 2401,
+      "sha256": "dea862d1d7b83cb5ef8611e02177789abd1a56e7fc348abfdc8103444a5d8eea"
+    },
+    {
+      "path": "io/grpc/stub/ClientCalls$BlockingResponseStream.class",
+      "bytes": 4273,
+      "sha256": "321999806beeb220c13ba3bc3d971ca72ef973a2201b972ba89ba0b95f793236"
+    },
+    {
+      "path": "io/grpc/stub/ClientCalls$CallToStreamObserverAdapter.class",
+      "bytes": 4318,
+      "sha256": "7d44b6b63d7da1359df750dd86c10a7ccf1cf7abf295ab2a0a2de7a25383e817"
+    },
+    {
+      "path": "io/grpc/stub/ClientCalls$GrpcFuture.class",
+      "bytes": 2123,
+      "sha256": "cec0540a6aa5056e0d2237970fcb19dc553efe519db9020878ac5723f3f635d8"
+    },
+    {
+      "path": "io/grpc/stub/ClientCalls$StartableListener.class",
+      "bytes": 851,
+      "sha256": "a35f7f4a881de04c4031a587adc96cb48e47ec381c84a69f345d16672b3a6907"
+    },
+    {
+      "path": "io/grpc/stub/ClientCalls$StreamObserverToCallListenerAdapter.class",
+      "bytes": 3685,
+      "sha256": "7df7bb49eef0d850d8201f6090781ee288438420c29bc0307de4f112f66378f6"
+    },
+    {
+      "path": "io/grpc/stub/ClientCalls$StubType.class",
+      "bytes": 1137,
+      "sha256": "4cc2465af29759ce4f2afaf553e8dc6c5270cadbe507782ff6138c07a4a7e6f6"
+    },
+    {
+      "path": "io/grpc/stub/ClientCalls$ThreadlessExecutor.class",
+      "bytes": 2636,
+      "sha256": "2a26da4ae7113ee17bf361ec33530f55fc439bd88032435b734d75c7c16b1124"
+    },
+    {
+      "path": "io/grpc/stub/ClientCalls$UnaryStreamToFuture.class",
+      "bytes": 2529,
+      "sha256": "34f71876a193f7bb6aac9d42783444d4f1df407fd9c58719dc58f30968f6e4d9"
+    },
+    {
+      "path": "io/grpc/stub/ClientCalls.class",
+      "bytes": 12530,
+      "sha256": "b02ffc64b02b2803dc29b7662978ec1a72b2406a24b7e9ca1135718bd03395f1"
+    },
+    {
+      "path": "io/grpc/stub/ClientResponseObserver.class",
+      "bytes": 429,
+      "sha256": "6aace768de93c049c527e416881386e38c00514f8950a17a6bdfb3cd504554a7"
+    },
+    {
+      "path": "io/grpc/stub/InternalClientCalls$StubType.class",
+      "bytes": 2237,
+      "sha256": "8c18fe379d51f5fcb98ed27088f3e6329c77f0d88d8c8699211b13a992303bf0"
+    },
+    {
+      "path": "io/grpc/stub/InternalClientCalls.class",
+      "bytes": 1637,
+      "sha256": "57883cd4edeece47ce2222ad9966eed848b8a8897e3b286208eb20a357fd576d"
+    },
+    {
+      "path": "io/grpc/stub/MetadataUtils$HeaderAttachingClientInterceptor$HeaderAttachingClientCall.class",
+      "bytes": 1999,
+      "sha256": "c72df4bd938d786dcb071e68afb1837daac708378324243331cbc83b70bd401a"
+    },
+    {
+      "path": "io/grpc/stub/MetadataUtils$HeaderAttachingClientInterceptor.class",
+      "bytes": 1831,
+      "sha256": "a2a699cbaa2469c1bd198fedd37cc4f31a39c63efde05e7e2e03be7c95f00ffc"
+    },
+    {
+      "path": "io/grpc/stub/MetadataUtils$MetadataCapturingClientInterceptor$MetadataCapturingClientCall$MetadataCapturingClientCallListener.class",
+      "bytes": 2487,
+      "sha256": "5919cf59977831de44fba290a5b803f24270c3d1016033303f8db5e9ef8f1ae9"
+    },
+    {
+      "path": "io/grpc/stub/MetadataUtils$MetadataCapturingClientInterceptor$MetadataCapturingClientCall.class",
+      "bytes": 2378,
+      "sha256": "9c77b109ba295a093c13f292631c0b774166fa958b3a283ca9f5042255e37cf9"
+    },
+    {
+      "path": "io/grpc/stub/MetadataUtils$MetadataCapturingClientInterceptor.class",
+      "bytes": 2132,
+      "sha256": "28a74dc0c03a018542b1098f0ee87d5e5e3197fd45099017443385058bd1a83a"
+    },
+    {
+      "path": "io/grpc/stub/MetadataUtils.class",
+      "bytes": 3008,
+      "sha256": "edf18a93f376a2f93d1a4c36844ac1e604b2472ee6f0f9de8b603d78571698fe"
+    },
+    {
+      "path": "io/grpc/stub/ServerCallStreamObserver.class",
+      "bytes": 1201,
+      "sha256": "4b1e4fd14b01482db0dd5667853ce0a9b6383c05123109a3394c304deec6a690"
+    },
+    {
+      "path": "io/grpc/stub/ServerCalls$BidiStreamingMethod.class",
+      "bytes": 629,
+      "sha256": "7b18fdc54f739c266b2e58db36bfba9c6e089a3418e39882360ce7b0e05f595d"
+    },
+    {
+      "path": "io/grpc/stub/ServerCalls$ClientStreamingMethod.class",
+      "bytes": 633,
+      "sha256": "6eba3679ffd111a52a6f7df1bd9a1e69e6732ab1188ac31f35e5596b70b701bc"
+    },
+    {
+      "path": "io/grpc/stub/ServerCalls$NoopStreamObserver.class",
+      "bytes": 1051,
+      "sha256": "880190501b1f8d26d95a09f4f12ba65bb571eecad2fdd0cb67803a2559e8884b"
+    },
+    {
+      "path": "io/grpc/stub/ServerCalls$ServerCallStreamObserverImpl.class",
+      "bytes": 5547,
+      "sha256": "e4a1f8ea0dd7acbaad33ed87764bab463cfc133a46ac841a51365347137fd9ba"
+    },
+    {
+      "path": "io/grpc/stub/ServerCalls$ServerStreamingMethod.class",
+      "bytes": 581,
+      "sha256": "3fec3ae6452e74893bea0dd162f373b8502836eb8be5b6a76d77f6e09a099c13"
+    },
+    {
+      "path": "io/grpc/stub/ServerCalls$StreamingRequestMethod.class",
+      "bytes": 483,
+      "sha256": "369b15a2a28e015bc9dfc5af4022f1890cf75d8fb807aaf0c41e52ccdb0f005b"
+    },
+    {
+      "path": "io/grpc/stub/ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.class",
+      "bytes": 3322,
+      "sha256": "704fa15218b6503248d7ac7e7655626a107035d7fcab3db1824e4ea7332e5df6"
+    },
+    {
+      "path": "io/grpc/stub/ServerCalls$StreamingServerCallHandler.class",
+      "bytes": 2757,
+      "sha256": "39ced24be9f758890aa31a91fa5b7ca2835b88a6a28ce21411ed4c59c964a2db"
+    },
+    {
+      "path": "io/grpc/stub/ServerCalls$UnaryMethod.class",
+      "bytes": 561,
+      "sha256": "59b8d4a1f403a711d905e7973aacced30f4d71fa02231d4d62c27e251b1ab456"
+    },
+    {
+      "path": "io/grpc/stub/ServerCalls$UnaryRequestMethod.class",
+      "bytes": 435,
+      "sha256": "56016fb4fd76d7423c6c9643bf9ceb46b5a59ad5cd731481713513ca4ed63110"
+    },
+    {
+      "path": "io/grpc/stub/ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.class",
+      "bytes": 3421,
+      "sha256": "420dd7c89135196faa545e45abee7af89559667da967e8ee891b6219628d7758"
+    },
+    {
+      "path": "io/grpc/stub/ServerCalls$UnaryServerCallHandler.class",
+      "bytes": 2844,
+      "sha256": "fef4059584dc821f8e32df2684595cb75d127f4be86d151db67ffdada7aa5412"
+    },
+    {
+      "path": "io/grpc/stub/ServerCalls.class",
+      "bytes": 4944,
+      "sha256": "42bd9694d475a8fe6d59a7eac88ee13a32e3c37962da0a31169c6bf597a097fc"
+    },
+    {
+      "path": "io/grpc/stub/StreamObserver.class",
+      "bytes": 316,
+      "sha256": "f133ecd5496464be70ecc16f1be3d187f77667c50f95eecd70195e50a785efa8"
+    },
+    {
+      "path": "io/grpc/stub/StreamObservers$1FlowControllingOnReadyHandler.class",
+      "bytes": 1244,
+      "sha256": "4bfd4a4781065c5b1b8ef9a65ef26bdabb2b1c3bcf9e876a7601b9c9e25eea85"
+    },
+    {
+      "path": "io/grpc/stub/StreamObservers.class",
+      "bytes": 1755,
+      "sha256": "e515b37c3b43eca408201c5ce576469f46b5643769e01d8cf8223d06fb00f54f"
+    },
+    {
+      "path": "io/grpc/stub/annotations/GrpcGenerated.class",
+      "bytes": 400,
+      "sha256": "fcd909a86ebf307ed870342ffc00fc9ac2b3b4c95486c6a9e85a4459c974e7f1"
+    },
+    {
+      "path": "io/grpc/stub/annotations/RpcMethod.class",
+      "bytes": 740,
+      "sha256": "de9b4c6ba65665702d917c7f2948aba85e014227e17f79ca9d37b3eb6f26d1ef"
+    }
+  ],
+  "sourceMappings": [
+    {
+      "path": "io/grpc/stub/AbstractAsyncStub.java",
+      "sha256": "ae58508344cc5aa24c817f41066112d7f59f3871631e19c0d5392f3c23172406",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/AbstractAsyncStub.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/AbstractBlockingStub.java",
+      "sha256": "e96ae9748e5a3e66b8d9f44b1c12a670a5e6c621568cbcd2b9456325f6a84358",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/AbstractBlockingStub.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/AbstractFutureStub.java",
+      "sha256": "996f825b651fd17a3fa2fc25ab61ab0a57144a64566896d977f0b1868b632475",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/AbstractFutureStub.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/AbstractStub.java",
+      "sha256": "572d957d8237962a5fa57b17376c24188498123ac3d690a52caf438e0a99b760",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/AbstractStub.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/CallStreamObserver.java",
+      "sha256": "cc08c0da5bbafdd50ff71dae2151a43c7b2d5cebe1ec5a33520b323876cdc573",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/CallStreamObserver.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/ClientCallStreamObserver.java",
+      "sha256": "cd54e46163c6ed51379c9427d57e0b235ee7865ae659489b553c85d9937991c2",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/ClientCallStreamObserver.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/ClientCalls.java",
+      "sha256": "27125081b1e7a2f53ad5bf377397a49eb620432921bbb129382ed3b15a231f9f",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/ClientCalls.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/ClientResponseObserver.java",
+      "sha256": "3071f5c4e9f9e26289e706b6fabee8ef3aba8471befa184db332cc0b3a1dcdb0",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/ClientResponseObserver.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/InternalClientCalls.java",
+      "sha256": "8baf3b0a9f0fd23401cac7450a263429d6031a3dc39de281a0f07afcb3212815",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/InternalClientCalls.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/MetadataUtils.java",
+      "sha256": "88cf7b125ced2d03c58d7709aece3cd531f08815f7f14f3bc726dce6c7f48142",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/MetadataUtils.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/ServerCallStreamObserver.java",
+      "sha256": "7f84278b89a35f8cfba6988980d8b7f47a769a87bb62948c049910fdc90cadab",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/ServerCallStreamObserver.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/ServerCalls.java",
+      "sha256": "29adb80c6434a505508b3f475c27942e58277548ba5db3928c08d5cfd85d10a6",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/ServerCalls.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/StreamObserver.java",
+      "sha256": "fcf4b9b694b46961a3982dbcf269ada5aa2c0d3881d610965ab8c48291990c07",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/StreamObserver.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/StreamObservers.java",
+      "sha256": "a089f36d04d2158baf8e37fbb1f1241147bacab9c57a604eaa5a873652bc4dad",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/StreamObservers.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/annotations/GrpcGenerated.java",
+      "sha256": "a1ca858815d4ae001a1f02285aca4050e02c527786ab3c747073888030c91c18",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/annotations/GrpcGenerated.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/annotations/RpcMethod.java",
+      "sha256": "87e9f6def39dc30bf1859b10ed7e48f055483cdaffc01c02a5c81a02ba3162f8",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/annotations/RpcMethod.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/stub/package-info.java",
+      "sha256": "1f511762a2cd9e431f1c9bd2e63bd47eb650afdaa59bb75d7cf1beee971d0ec7",
+      "upstreamPaths": [
+        "stub/src/main/java/io/grpc/stub/package-info.java"
+      ],
+      "generatedMetadata": false
+    }
+  ],
+  "risks": []
+}

@@ -1,0 +1,1353 @@
+{
+  "sourceEntries": [
+    {
+      "path": "META-INF/MANIFEST.MF",
+      "bytes": 25,
+      "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+    },
+    {
+      "path": "META-INF/services/io.grpc.ManagedChannelProvider",
+      "bytes": 37,
+      "sha256": "a0ebc6fb7d2b272d73d2b6eb8249b315016f58b8e1f5e10177c623993e117914"
+    },
+    {
+      "path": "io/grpc/okhttp/AsyncSink.java",
+      "bytes": 8321,
+      "sha256": "c55d77180e1f295b316945c09521381cabc22f48b34b7b35c6df711ff83a521f"
+    },
+    {
+      "path": "io/grpc/okhttp/ExceptionHandlingFrameWriter.java",
+      "bytes": 7321,
+      "sha256": "01aff0f25580effc208a5752d4cea476a1f1b2735043c94f9084d5680e41afd1"
+    },
+    {
+      "path": "io/grpc/okhttp/ForwardingFrameWriter.java",
+      "bytes": 3460,
+      "sha256": "95e15fc25ff5e740f7bfc859692006d20219bee4c21c1e47ce3da694ed2f277b"
+    },
+    {
+      "path": "io/grpc/okhttp/HandshakerSocketFactory.java",
+      "bytes": 1499,
+      "sha256": "be987875b3bfb9e3f664b9aefbfa1f7e939d57519e8233e44575cff873474746"
+    },
+    {
+      "path": "io/grpc/okhttp/Headers.java",
+      "bytes": 6057,
+      "sha256": "5c816ad1d953fe2186a68744fba45f7a55d3d4f773d9639dde32fcfa449eea61"
+    },
+    {
+      "path": "io/grpc/okhttp/InternalOkHttpChannelBuilder.java",
+      "bytes": 1307,
+      "sha256": "00d1e35428bcd89e4e40f9456a0db4ac9116045562773828640ab2af2307dff5"
+    },
+    {
+      "path": "io/grpc/okhttp/InternalOkHttpServerBuilder.java",
+      "bytes": 1635,
+      "sha256": "b8e4b8c96989871c70f2cb1849c06ea0947ff8c5462e6a4f9b0abcaf9712cfc2"
+    },
+    {
+      "path": "io/grpc/okhttp/NegotiationType.java",
+      "bytes": 1192,
+      "sha256": "7f6aeabcb9d85820a154de380766839e5027ca90dbab61fca2ccf16e93761926"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpChannelBuilder.java",
+      "bytes": 34132,
+      "sha256": "1267839f0813eddbddf625471293dd5a011ab0740ffc89f7fae0e2a38cdf19c1"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpChannelProvider.java",
+      "bytes": 2143,
+      "sha256": "82971f77a080abe9974b6b8efd4e47de146866b8d1687d99eb2221fa6dcdc944"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpClientStream.java",
+      "bytes": 13666,
+      "sha256": "36e1bdce5d81a7c0825f95a5407d212f1acb18aaffceb7b1e2516e4705c27b28"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpClientTransport.java",
+      "bytes": 51745,
+      "sha256": "4a235b7b71647cec9433387ec4bd88bc15f1507b71d21bad559ff7b39cc3b2c3"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpFrameLogger.java",
+      "bytes": 5967,
+      "sha256": "d8ce317d71c9fd1c2a585274c3915c3788f55b9c2012fa7b6123b949d276dcb8"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpProtocolNegotiator.java",
+      "bytes": 16001,
+      "sha256": "92b4c854a60dc1bbfacddf758928b71ff5fc56f710a6ded745da813f2e62ea0e"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpReadableBuffer.java",
+      "bytes": 2574,
+      "sha256": "d91c022474de00bf3e1f9dd4937b4f982b6eb7c5ee3aa9caf6bdd32c859f5962"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServer.java",
+      "bytes": 6578,
+      "sha256": "62df830adbb9bd09780144d6bec8a111757ec8b3868de65d621c622b607419ab"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerBuilder.java",
+      "bytes": 22769,
+      "sha256": "cabdc343b24e4f063143259e1ef916a001fbb9be88d53f481ddff853b5692ac3"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerStream.java",
+      "bytes": 9215,
+      "sha256": "73535b3f0f85cf06f355f86b43115ad0351d3b44affac8dc3eb0d62f7c4d6c8f"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerTransport.java",
+      "bytes": 45842,
+      "sha256": "39d5e34537cc4bcfd806663527ed80cd690cc264e2ff6e6ecefc519bc4778e71"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpSettingsUtil.java",
+      "bytes": 1380,
+      "sha256": "74671c735243da39cdfb469ef0fa86a3b5fb3c09e154b9a2de82417d6359b329"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpTlsUpgrader.java",
+      "bytes": 3686,
+      "sha256": "cb8432d482d10f113bcf4081d83a4959fc57864b93ace13dcaf8d66d0e9e9c47"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpWritableBuffer.java",
+      "bytes": 1480,
+      "sha256": "491d3b9fd1dacf023da31cb6c886f5be6c9bb340cee1ffe9610d439c945eba77"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpWritableBufferAllocator.java",
+      "bytes": 1707,
+      "sha256": "e8b2e4a66486ad8970ae7e27e7a0e3788d10ff5eaf3176166a5ee6a61c73c639"
+    },
+    {
+      "path": "io/grpc/okhttp/OutboundFlowController.java",
+      "bytes": 11195,
+      "sha256": "0fc2938bd363e3b512d40233124f74a18a8b3d90a32ec195fdb048c56c203c91"
+    },
+    {
+      "path": "io/grpc/okhttp/PlaintextHandshakerSocketFactory.java",
+      "bytes": 1376,
+      "sha256": "52255c2b1668b35d51f3c0d298206ffd4969225a0f74de670c5b7c9187afad0c"
+    },
+    {
+      "path": "io/grpc/okhttp/SslSocketFactoryChannelCredentials.java",
+      "bytes": 1637,
+      "sha256": "09f3ddce60dd7ecffc23279f81da8c0aa7e392c4f87ebf4cb9885a7e14426a72"
+    },
+    {
+      "path": "io/grpc/okhttp/SslSocketFactoryServerCredentials.java",
+      "bytes": 2144,
+      "sha256": "a6583f905e7ae61a8394fedeebe0727d1322b0c0784c4749573219f1465a4f40"
+    },
+    {
+      "path": "io/grpc/okhttp/TlsServerHandshakerSocketFactory.java",
+      "bytes": 2889,
+      "sha256": "73c4e1add79a9dc4db7ed5399ec04270b07312acd9ee3bdfda940cfdc0ea76a7"
+    },
+    {
+      "path": "io/grpc/okhttp/Utils.java",
+      "bytes": 6349,
+      "sha256": "ea24d2ca7ed8e5b38fa4c3a6ba2383b4297445c6f70eedd1181e454fad9b2b36"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/CipherSuite.java",
+      "bytes": 38540,
+      "sha256": "d855a1311b779f53cfd09e961753bd96499b2e70d6fd8cb1542b64b023eec5b5"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/ConnectionSpec.java",
+      "bytes": 12814,
+      "sha256": "e8902e51782c6788e780b1c76c778755eb74ff161fa16f7c956ebdace4feb0b9"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Credentials.java",
+      "bytes": 1295,
+      "sha256": "f6ff207bac7ff8f2ac3959eee3bec93f5b236665cbb5213350ef665a5af6b99e"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/DistinguishedNameParser.java",
+      "bytes": 11478,
+      "sha256": "745a31c4ca5acda6313781cee83224d6fdc95a540377563ebc8b97039912ffe6"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Headers.java",
+      "bytes": 5118,
+      "sha256": "0d965a74356babbc8f2262f39ee293828b07fdc7ff0df2e23762abd46945b8a1"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/OkHostnameVerifier.java",
+      "bytes": 9611,
+      "sha256": "32e1e6d4ef9e024df5dc3852db5cca63dcddd10c44eab08fe6d01ea5f56a61d5"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/OptionalMethod.java",
+      "bytes": 6593,
+      "sha256": "404fcdad3ad158bcb9e9ef599e576393a4ee971a0e33f55883286715f08fbf4c"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Platform.java",
+      "bytes": 22390,
+      "sha256": "cc2f562d7276ef2cf4530e99abb6490f54f99d99e237234994c93496acdaae6f"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Protocol.java",
+      "bytes": 3391,
+      "sha256": "ad1beef2e307f5a735b5ad11e28802b55f74e25d84d54b86193ff9001cc6b0af"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/StatusLine.java",
+      "bytes": 2963,
+      "sha256": "a99fc0a32899578b252db97d0bd61facb7d22b86208b74a1fb1804ef09031430"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/TlsVersion.java",
+      "bytes": 1646,
+      "sha256": "fa5a924e34565714bb0c9380fe645ef91ffe48232c54a6d6c0bb9b36c9a4b8bc"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Util.java",
+      "bytes": 2413,
+      "sha256": "bc309cc45964fb8f4a8744f1007f78593c0797ab5cd24e9537325ab721e89df7"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/ErrorCode.java",
+      "bytes": 2456,
+      "sha256": "948378d68aa07bdc30dd627ac67680798745da6eb6d63d9fbfbbb118a686459f"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/FrameReader.java",
+      "bytes": 6228,
+      "sha256": "b86527937599f2f065c765febfb5c64aa19d107c2cb86b5f90b359e43e00b8ef"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/FrameWriter.java",
+      "bytes": 4379,
+      "sha256": "e11d542c7d6a9578155fbeecf57220b662df798eb89f0a9d260a6367a376e0b9"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Header.java",
+      "bytes": 2007,
+      "sha256": "82b28029d7091df71eb4dab358700fda38eab931fe6a5fe71874c3fbc1fc4d2e"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/HeadersMode.java",
+      "bytes": 1495,
+      "sha256": "4512c97f0cf283dfd06feccbcfd1218cc2418a1c4a85f4098029125db5438918"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Hpack.java",
+      "bytes": 26866,
+      "sha256": "993cfbb45d806720f59a79294cd0167ed36d07f3f8df3ecd84eff8789810768f"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Http2.java",
+      "bytes": 30026,
+      "sha256": "f02e0c282f4e4aeef70c7a753d291637ab53531b0b9e0f6ddabd773bcb1ab488"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Huffman.java",
+      "bytes": 8246,
+      "sha256": "3dcfc18f7911dc7df140455987d3c8b7e64299e6cf45477dd1117c4d63d85fb6"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Settings.java",
+      "bytes": 7818,
+      "sha256": "0cc0d8d9dfb440b49e71115d002313e3dcc150063969141bf554a5a3ff3b6b4c"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Variant.java",
+      "bytes": 1266,
+      "sha256": "47db12ee45484341eaeddcbe9077b13fc89c136e42244ca0d5abb9e0fcb509a9"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/proxy/HttpUrl.java",
+      "bytes": 16532,
+      "sha256": "5b0c95de7421c2266b2e4709c54bdd66af8b9fc9e0f66e8ab7b977f3eeb93d69"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/proxy/Request.java",
+      "bytes": 2042,
+      "sha256": "d7687c941c4262babbb8d86b0502720ec0bfef3da5194fa22960f7d6c362d74f"
+    },
+    {
+      "path": "io/grpc/okhttp/package-info.java",
+      "bytes": 786,
+      "sha256": "a04b6b82a6994285ea050ef42ccd09bc3c4102ed5adf2b6efccb31978d320e42"
+    }
+  ],
+  "binaryEntries": [
+    {
+      "path": "META-INF/MANIFEST.MF",
+      "bytes": 84,
+      "sha256": "27294fb2c99c7d6cb27caa2de711fc18216cfee7bdb80343fa1b9791db937a77"
+    },
+    {
+      "path": "META-INF/services/io.grpc.ManagedChannelProvider",
+      "bytes": 37,
+      "sha256": "a0ebc6fb7d2b272d73d2b6eb8249b315016f58b8e1f5e10177c623993e117914"
+    },
+    {
+      "path": "io/grpc/okhttp/AsyncSink$1.class",
+      "bytes": 2153,
+      "sha256": "a372e4adceca0fbcc5f1fa9124eddee2557b52430d4edb7ad46ce6a48a4e743e"
+    },
+    {
+      "path": "io/grpc/okhttp/AsyncSink$2.class",
+      "bytes": 1914,
+      "sha256": "016342ddb33cf49999d30dc57ebfcec5f0a8630db1188b2f0db07836ea3fd40b"
+    },
+    {
+      "path": "io/grpc/okhttp/AsyncSink$3.class",
+      "bytes": 1618,
+      "sha256": "a6b82c4daa860e80896364ff87aeacb06065790c3a812647a8905dd15a57c319"
+    },
+    {
+      "path": "io/grpc/okhttp/AsyncSink$LimitControlFramesWriter.class",
+      "bytes": 1482,
+      "sha256": "4257a874b69e2152fda0070be7b08478fc4ccb9bc14f26b8d35a7b79f6b4fb91"
+    },
+    {
+      "path": "io/grpc/okhttp/AsyncSink$WriteRunnable.class",
+      "bytes": 1531,
+      "sha256": "6e30ec2083b2d1f982af06ea11361059c10e0272a0c24d3bfd57569528b6d971"
+    },
+    {
+      "path": "io/grpc/okhttp/AsyncSink.class",
+      "bytes": 6085,
+      "sha256": "4426f2e2e53ee439ae1fa6eda66c6bc37250ddf7dff4ef355a10206293c59e1a"
+    },
+    {
+      "path": "io/grpc/okhttp/ExceptionHandlingFrameWriter$TransportExceptionHandler.class",
+      "bytes": 335,
+      "sha256": "32887ffb90e8fcae019eb4ad220ae577b3e50c88ca712b3ca9b79ca5b4d8d3af"
+    },
+    {
+      "path": "io/grpc/okhttp/ExceptionHandlingFrameWriter.class",
+      "bytes": 7274,
+      "sha256": "264d66455be5b1bc5b7301ed4c2a61b7c6506a58018adb4a2dd2eefe6eedf212"
+    },
+    {
+      "path": "io/grpc/okhttp/ForwardingFrameWriter.class",
+      "bytes": 3671,
+      "sha256": "eb8515deaad06056734728ab6225a4ba17e146440565ed3feeb422857fac58eb"
+    },
+    {
+      "path": "io/grpc/okhttp/HandshakerSocketFactory$HandshakeResult.class",
+      "bytes": 1041,
+      "sha256": "30df1419f925de4fc96c8d6791927687548371c5efafb6e2cd5f05a6719718ef"
+    },
+    {
+      "path": "io/grpc/okhttp/HandshakerSocketFactory.class",
+      "bytes": 417,
+      "sha256": "ad4303c101a863e3161c1ba6380c0f43b3fe0fa0a993a72f2ec886ef1a5b0050"
+    },
+    {
+      "path": "io/grpc/okhttp/Headers.class",
+      "bytes": 4849,
+      "sha256": "5ab298a73c0dd9ddbdf1626216e36438caf2aeedda491ff040a402370620ebcb"
+    },
+    {
+      "path": "io/grpc/okhttp/InternalOkHttpChannelBuilder.class",
+      "bytes": 944,
+      "sha256": "7e55a7454679f53c6bd8fc340b0d18ccf2748543b7b7fe53c3e95d5dd2f2a37b"
+    },
+    {
+      "path": "io/grpc/okhttp/InternalOkHttpServerBuilder.class",
+      "bytes": 1754,
+      "sha256": "4215a40a32129f12271df557562844d52544026d58430a4eab472d0f8472ad29"
+    },
+    {
+      "path": "io/grpc/okhttp/NegotiationType.class",
+      "bytes": 1089,
+      "sha256": "cd8d43c6283c71289317f0d5fe7a80e3498ce82ee8e50990959f8097a3664920"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpChannelBuilder$1.class",
+      "bytes": 1516,
+      "sha256": "533d20f696a6365efd041f86dd1cfd1630917e0af5bfcff6fdf5d168ea5357bb"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpChannelBuilder$2.class",
+      "bytes": 1113,
+      "sha256": "a6ed0085615c36e59803430c8d7d215400b24b9de60324dce5539a6574fcf267"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpChannelBuilder$NegotiationType.class",
+      "bytes": 1226,
+      "sha256": "1dc6d648b70c14b8905909ea3a8ec160ffa667e532c0b9b78f57b4889574f611"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpChannelBuilder$OkHttpChannelDefaultPortProvider.class",
+      "bytes": 1153,
+      "sha256": "e5f7588ebf013cb753a947d6441c07c2edf08eb5600704468f50417d8770f042"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpChannelBuilder$OkHttpChannelTransportFactoryBuilder.class",
+      "bytes": 1396,
+      "sha256": "8161ba7026f67b686771da3751614d76e97f4b1a0003d1782f710ea79325af59"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpChannelBuilder$OkHttpTransportFactory$1.class",
+      "bytes": 1411,
+      "sha256": "619f2b8dd7fcaa1505e2f7f23252bb2a361c6301c70dde9f9f23a6433f8b1ae1"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpChannelBuilder$OkHttpTransportFactory.class",
+      "bytes": 7664,
+      "sha256": "cce321c26efe00024f1b869c7f9b6bceb07455a68f27f3d3ff28bff19aadba6e"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpChannelBuilder$SslSocketFactoryResult.class",
+      "bytes": 1847,
+      "sha256": "d687de01bc25852020017f702b1b6f83195993b0c680fccd33cb20474a28eaac"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpChannelBuilder.class",
+      "bytes": 23272,
+      "sha256": "3df288120b5caa99367562fefed9ae3ff9a9df6788c63f3564c321ecaf111eac"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpChannelProvider.class",
+      "bytes": 3049,
+      "sha256": "c622b34177eb97013f05a922eb72bdd5bf56c89aa37c64334ab6ed3ec652ebb6"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpClientStream$Sink.class",
+      "bytes": 4095,
+      "sha256": "3b092e03ee19ee92537cc3794978edcbdbbc1045f4e11feeed5065c33a6eccb0"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpClientStream$TransportState.class",
+      "bytes": 9985,
+      "sha256": "74167ac930cb781ad5877ad8775140b180bccc844e3e9d5566def809bb538d39"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpClientStream.class",
+      "bytes": 6534,
+      "sha256": "c2acb6e98d7baec70a69e967a90c56355f6708a77ea8234b6d10c4801d1d221d"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpClientTransport$1.class",
+      "bytes": 1117,
+      "sha256": "a34487240bb474a05a3448bcfcaf8f058bd95fea0d5a209bfc61745d8d167f09"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpClientTransport$2.class",
+      "bytes": 1633,
+      "sha256": "30ee8f42858eae507f2823908ac310077f70ca64695be80fc0e470f528cb7856"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpClientTransport$3$1.class",
+      "bytes": 959,
+      "sha256": "488fdde445580c59a2cef9e0be2bf9b035e019852119a3a880f64701c515e085"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpClientTransport$3.class",
+      "bytes": 7707,
+      "sha256": "3b2ae95ac18996c7c40069af1cf83a8b327a5a7a20aed12824d3b9484d4d84f8"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpClientTransport$4.class",
+      "bytes": 1949,
+      "sha256": "15c1fa2746f7901132c76b617288244810005fed7cb399296da04ec944c6ad2b"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpClientTransport$ClientFrameHandler.class",
+      "bytes": 15839,
+      "sha256": "ca3e8b916da972c922f931fa415d1ffeb9a3a8ad99f171d7cffaa71729e34ddb"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpClientTransport.class",
+      "bytes": 39588,
+      "sha256": "f5ea20c29e774bc90df04446585cd625192a52af68240762abd7299934ebab20"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpFrameLogger$Direction.class",
+      "bytes": 1163,
+      "sha256": "93a8a496fcef2dfa80680fb5c7824f87d50240be06e236a25015aea54da5688c"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpFrameLogger$SettingParams.class",
+      "bytes": 1641,
+      "sha256": "ec7588f18fa0e38a3224cc439bce114f0ef6031df71866218e14d945ff69aa19"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpFrameLogger.class",
+      "bytes": 7300,
+      "sha256": "2bfb7750f3f02b4fd40edce991f713500664cf3741cb584b8109d4a1fd08822f"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpProtocolNegotiator$AndroidNegotiator.class",
+      "bytes": 8810,
+      "sha256": "7a26d679307013e045519f36fa7c4d432c83dfcea2455dc1898d6b144ecbae94"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpProtocolNegotiator.class",
+      "bytes": 5638,
+      "sha256": "84c600985e1c6e0960237c21fe20304d337f50bb133ccacd7a7f92d1415857c5"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpReadableBuffer.class",
+      "bytes": 2439,
+      "sha256": "32be5fc2749da3a2cb5cd69ec3393f00ea381d339900fcff61ba40696a4cff3e"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServer$ListenSocket.class",
+      "bytes": 2773,
+      "sha256": "34a5a760de5fb8faa2f35a59898f04033d9e689668d0f33af16304526ca8a8c4"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServer.class",
+      "bytes": 6695,
+      "sha256": "32c406acba7048014417b9e1263d701d2f64510cd67040759250262c21c05471"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerBuilder$1.class",
+      "bytes": 864,
+      "sha256": "ec99a422ded80d0ca49165cb0738d37a5dea49208934f733934dd062847685ca"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerBuilder$ClientCertRequestingSocketFactory.class",
+      "bytes": 2907,
+      "sha256": "1a848c1409ce3cd70cfd871092a79d00e84bb26498624a7e25aacceea6411362"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerBuilder$HandshakerSocketFactoryResult.class",
+      "bytes": 1271,
+      "sha256": "416253ea3dede75506afd342c672e95ba0d5f4c907d21b84c5bf526203d975d0"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerBuilder.class",
+      "bytes": 16799,
+      "sha256": "2a84766d30d392f0e52cef2af193c47c58bb577dbd33b707d3f8cd189669c1c3"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerStream$Sink.class",
+      "bytes": 4302,
+      "sha256": "703602168c6897782cab45fc9d8c7b110ed35ee23764e7f054b3750d43158b05"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerStream$TransportState.class",
+      "bytes": 8235,
+      "sha256": "80a250847fff8a07579265eef373a5f148b4158ad6eedcb680a5d364d47fd93f"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerStream.class",
+      "bytes": 3281,
+      "sha256": "897eae576293797b17451c66e5cbb48a7cc63082289e3649a682c98a05edf036"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerTransport$1.class",
+      "bytes": 1873,
+      "sha256": "d2d76e723fda7c5b2253e1e145c73df4498164e1d5b31940963fb7e8dfd7ae54"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerTransport$Config.class",
+      "bytes": 2518,
+      "sha256": "1394bdf6218b841735b4b02bda7040833aaefdaab672e79dca21ed0aa04feed8"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerTransport$FrameHandler.class",
+      "bytes": 24654,
+      "sha256": "b1cf43c12a0e06129209a24c90eb4d4798e3e2bd88018f8a43915a237f5e817c"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerTransport$Http2ErrorStreamState.class",
+      "bytes": 2977,
+      "sha256": "88198547f1965e527620c2fc27bc7527376ffae4a45bde215a9290fc20a9b1c6"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerTransport$KeepAlivePinger.class",
+      "bytes": 2252,
+      "sha256": "b795cc8915af9e445e0f569f911b5108ab4029da01347ea585a2453179e0e13c"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerTransport$StreamState.class",
+      "bytes": 642,
+      "sha256": "2259f0299087d4feacf2446d6792812c52fba14ea8b8b34b89aae9c7730696b8"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerTransport.class",
+      "bytes": 25529,
+      "sha256": "ea0878bc2ddcc2e8bdc13e52dff6e1c5121f424920cbb592236c37d025690ba9"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpSettingsUtil.class",
+      "bytes": 1101,
+      "sha256": "32c43df84c96f642587b71ab8089fca5f735053755baeff818a2a7cb3dd296fa"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpTlsUpgrader.class",
+      "bytes": 3709,
+      "sha256": "d2c0045fa00e8903b2148ba1520d49919a2e749b84fcaa28c868b1ba1938a299"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpWritableBuffer.class",
+      "bytes": 1208,
+      "sha256": "6154ce6e80e97892aaae8f32f998242b707eb6e5ac00ab33f193f9ac49a9a6fc"
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpWritableBufferAllocator.class",
+      "bytes": 799,
+      "sha256": "6c37ec1f87547348454f056e5cf005a5c43ee2e8a2741f2964bb3c46c1e7fe8d"
+    },
+    {
+      "path": "io/grpc/okhttp/OutboundFlowController$1.class",
+      "bytes": 244,
+      "sha256": "912de7cc08e829fd57c770ca7a4ffe04c0b467dbdc6b8953def9238860639c6b"
+    },
+    {
+      "path": "io/grpc/okhttp/OutboundFlowController$Stream.class",
+      "bytes": 259,
+      "sha256": "b2ae2617fa0c0f55379725f5de7e155e047cf8525a6b9123cfb29707d47300c9"
+    },
+    {
+      "path": "io/grpc/okhttp/OutboundFlowController$StreamState.class",
+      "bytes": 4530,
+      "sha256": "6573d9c08979e8767b677f18fefd21b3f13c71535c1e028fbf658a0d39467b5b"
+    },
+    {
+      "path": "io/grpc/okhttp/OutboundFlowController$Transport.class",
+      "bytes": 397,
+      "sha256": "50e9c1c9b6d6af47cdb3bc6fc99242362f641c5901dda352cf8f490c499cf27d"
+    },
+    {
+      "path": "io/grpc/okhttp/OutboundFlowController$WriteStatus.class",
+      "bytes": 899,
+      "sha256": "782c982e1cec906be1c1a9fc3501d7ba4e68fad7b3980df88e936328b7bb0a6d"
+    },
+    {
+      "path": "io/grpc/okhttp/OutboundFlowController.class",
+      "bytes": 5761,
+      "sha256": "18ee450afad6970a45958237f4fa750df5e8ed7eb89fde1024b083d65cdf0cca"
+    },
+    {
+      "path": "io/grpc/okhttp/PlaintextHandshakerSocketFactory.class",
+      "bytes": 1734,
+      "sha256": "dfd843895fc2915ad5da23c4524e63f146f5ff5e27cb379730a938d45032384d"
+    },
+    {
+      "path": "io/grpc/okhttp/SslSocketFactoryChannelCredentials$1.class",
+      "bytes": 280,
+      "sha256": "76efafc224edc31a41b255fc0fcb831722b8f79a117743fca31920b1a168d896"
+    },
+    {
+      "path": "io/grpc/okhttp/SslSocketFactoryChannelCredentials$ChannelCredentials.class",
+      "bytes": 1347,
+      "sha256": "3a0ed989831bfc1bdaa5ea038fa1313c433302f577f7e4c5185ceab623dd6300"
+    },
+    {
+      "path": "io/grpc/okhttp/SslSocketFactoryChannelCredentials.class",
+      "bytes": 993,
+      "sha256": "5d75a240761c188dbd32662ff0dabc2725227e3961340a66689c44b0fc3b3533"
+    },
+    {
+      "path": "io/grpc/okhttp/SslSocketFactoryServerCredentials$ServerCredentials.class",
+      "bytes": 1443,
+      "sha256": "bc407097637bc255756eb9dd7bbeccc770d4df6a9e66c43feadfd51dc73558eb"
+    },
+    {
+      "path": "io/grpc/okhttp/SslSocketFactoryServerCredentials.class",
+      "bytes": 1293,
+      "sha256": "3747d215c1f8e150fbe1c5b28ed34640f2dc8e06d92c57b6bd1d80895c7eb38e"
+    },
+    {
+      "path": "io/grpc/okhttp/TlsServerHandshakerSocketFactory.class",
+      "bytes": 4359,
+      "sha256": "981b9ef959421f5ddc3912a62c96fa4139cd782dfef1225767c90cf0106c6d4e"
+    },
+    {
+      "path": "io/grpc/okhttp/Utils.class",
+      "bytes": 6449,
+      "sha256": "a9dcd27cdd1833c94ce8d990479898bc1694f22b524cbab06522f6dc192d6e72"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/CipherSuite.class",
+      "bytes": 12367,
+      "sha256": "94c82a76bb95953100ffa6e01c2d65410b46a8ad0863a07887e3d9bb8edc5707"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/ConnectionSpec$1.class",
+      "bytes": 238,
+      "sha256": "f548dee859e60e82d8855dc1a6977a14877bfaae3d2c3f35e0d1bdbffdd98759"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/ConnectionSpec$Builder.class",
+      "bytes": 3351,
+      "sha256": "e4d7f288ca3ef1965f6e4aedb85be489c010db354b5c3aaa43a51f03d7230645"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/ConnectionSpec.class",
+      "bytes": 8360,
+      "sha256": "b09c55aa59286f16e5c8b8cbed166a6200544ec54f02d549203c16103ff439ce"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Credentials.class",
+      "bytes": 1146,
+      "sha256": "7247dc05b3fc7b4cdb19d4558f4189a7405a1c0abc5fd2c486d960c2a202fc5f"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/DistinguishedNameParser.class",
+      "bytes": 5297,
+      "sha256": "5bd7553d094302495cc0a1b5c0553e7387a942517ad49ee20276c00d107d409f"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Headers$1.class",
+      "bytes": 217,
+      "sha256": "47ec8c6ae20345f1d5f8c05a2fd08fda59bb506a146063a8e961285794ab8f04"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Headers$Builder.class",
+      "bytes": 2930,
+      "sha256": "dd7ef9753c5b3080dd84e1f1dc180d431c39180c0d9f35a8eda48c04ecec4452"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Headers.class",
+      "bytes": 2547,
+      "sha256": "3c34cc17a46ffe8bd262d2f85d79604b5e7204b3881a28070f306898d5f5985b"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/OkHostnameVerifier.class",
+      "bytes": 5983,
+      "sha256": "63c8dd4eb5bf4e6800816f62eda77fc263b15b53a2585f2fe2000d88ac0f85b0"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/OptionalMethod.class",
+      "bytes": 4402,
+      "sha256": "f8ec8feed8028b479128f2b4eeac517ec301b4f34da0bc14273cf14f71a32682"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Platform$1.class",
+      "bytes": 1038,
+      "sha256": "d9b4fcec24d3bd170cf65f6bf544dc96102f2e61b7f460e19de474c397102ac2"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Platform$2.class",
+      "bytes": 1073,
+      "sha256": "b3d86b989b9628809ead263abc869b79688c5e5812962705ab44c311099044fb"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Platform$3.class",
+      "bytes": 1038,
+      "sha256": "02b76938454d363026c91d959a88509cb29a4adfa0d8db11aa0f8bd39221993e"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Platform$Android.class",
+      "bytes": 5012,
+      "sha256": "58219baa630a646ab0c878eb95157c30b71a9490e6488879ce2bdfe6075024d9"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Platform$JdkAlpnPlatform.class",
+      "bytes": 3582,
+      "sha256": "13aff5868e84e733171b7dce302d614c0a18ac1222f7232ed2399cb2aad5b4b9"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Platform$JdkWithJettyBootPlatform.class",
+      "bytes": 4924,
+      "sha256": "35522335e7f5f872cbe716a0dd6a647903214432679b4b0f99f93794392fb67e"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Platform$JettyNegoProvider.class",
+      "bytes": 2638,
+      "sha256": "b9d0d979cd9288f770a4d7d3313107981b6c82d1cacd5a38aa87e028052c3a9d"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Platform$TlsExtensionType.class",
+      "bytes": 1254,
+      "sha256": "6ecde28f4d48aab8dfedd006ff449ef270790699b6dccc8a87c452dd054dd745"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Platform.class",
+      "bytes": 10471,
+      "sha256": "f2915197e2b581dc2949684b6e443c3b9ee3caa3ebaa5140c2f8b148beeb1365"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Protocol.class",
+      "bytes": 1864,
+      "sha256": "dc966e7285b2817294a41b468044c86d1474dfbae1eba7618ff155896a290112"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/StatusLine.class",
+      "bytes": 2606,
+      "sha256": "9f719d5090092c1233f6ce2c316efaec32dbea37394fdf22aad00449cd745680"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/TlsVersion.class",
+      "bytes": 1970,
+      "sha256": "d77063d6758522eaed996059802eb21c9dd87659cc7ea512b0d6e4a0e1a10fce"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Util.class",
+      "bytes": 2502,
+      "sha256": "3456bd494c3a03863e6333e0275ac0d3108f3a268bdcd1203105e1abdb570d24"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/ErrorCode.class",
+      "bytes": 2916,
+      "sha256": "d1d77a621ff2912c1c0e6c955766e173bff4f36847708cf3775fc5531d8d7600"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/FrameReader$Handler.class",
+      "bytes": 1092,
+      "sha256": "0f5a92fe53b6caf04a750a4cc11a4c977aa50ba9fd91f47b0c0ae80d1b8aea73"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/FrameReader.class",
+      "bytes": 430,
+      "sha256": "041c2b4241ce6dc53121230ffe92e4cfefc42285bc248703af785835fa0cbae9"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/FrameWriter.class",
+      "bytes": 1205,
+      "sha256": "85f002e77aa7162d5af2b0d87b6dbac5a38ed9fead8e8c4ec7f5195e8a786f10"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Header.class",
+      "bytes": 2017,
+      "sha256": "4667ebd38cf3dafc26a32ff35183150a60d5d963a85ac79dc439cf5bc0f08455"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/HeadersMode.class",
+      "bytes": 1645,
+      "sha256": "132ce9c83e377bdf40307c3c3d8f20f55baa4a9d0359b603a58d264c6e912bf9"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Hpack$Reader.class",
+      "bytes": 6900,
+      "sha256": "ba3a32b3b9472313e625d46c562f62d0068e98a360ff59c22df429690711de70"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Hpack$Writer.class",
+      "bytes": 5641,
+      "sha256": "687e20938982896aaf449c1fc9eb49ce5f1aab347b5054a392ac12707327bff7"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Hpack.class",
+      "bytes": 5009,
+      "sha256": "b7784977b8875b5b434d35061797240fa56e8e5db295965b2d31c1477e1f0867"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Http2$ContinuationSource.class",
+      "bytes": 2399,
+      "sha256": "5ec52e1d85e8098595c681655bd252293bb0fd696929aaf9e213543e94c287a3"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Http2$FrameLogger.class",
+      "bytes": 3228,
+      "sha256": "4e267efb3ce89cd1897b8da6a5291866482fbabfe7f9984b4ef46c50a0fa546f"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Http2$Reader.class",
+      "bytes": 9705,
+      "sha256": "9fb792b1554c06e15876fdf68e57e944d44bfc1636887137ce6d0cbe326295da"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Http2$Writer.class",
+      "bytes": 8348,
+      "sha256": "a5d325e48a8b55f8d67349c6a88d414b59915f6737a47223fa8563a50b02293b"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Http2.class",
+      "bytes": 4908,
+      "sha256": "a593c6b0da6c4561f74096ce341780c1c595d8e2222915373f5756d38cfb51b0"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Huffman$Node.class",
+      "bytes": 1168,
+      "sha256": "0db49c9e564f2af7843d1289b8e4a1fe5253515a3cac1eef9a08ba1318bed734"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Huffman.class",
+      "bytes": 7387,
+      "sha256": "59e3c90162a9098937bb4b21367382345a23849700b08bb2ec68ecd917d4cdd4"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Settings.class",
+      "bytes": 4605,
+      "sha256": "6bf3ecdc9727b0f40abec6559c7a54b435680a663fbc30a6fb8f351589fd6ef7"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Variant.class",
+      "bytes": 367,
+      "sha256": "871e61659e9af7ce9cff8a6365c04d1e2b2752d9e503b05efb914cce1faba611"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/proxy/HttpUrl$1.class",
+      "bytes": 229,
+      "sha256": "cdf43cb9db2808010e490edcbc266d51862553ccb67e7b400f23dad5d0601a54"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/proxy/HttpUrl$Builder.class",
+      "bytes": 6426,
+      "sha256": "601ee610def57850ca4bf2f3d656d5280e4375f08814769d8eb6e105b417cffc"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/proxy/HttpUrl.class",
+      "bytes": 4788,
+      "sha256": "cda49dd443736f8956026b41a08d7614e4e3e56bac08d24343bbaa87ae77a1a3"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/proxy/Request$1.class",
+      "bytes": 229,
+      "sha256": "88072c409bba3a0f2eee4491a2a0d297398d657d63799be48ff9797c04dedd15"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/proxy/Request$Builder.class",
+      "bytes": 1967,
+      "sha256": "fe3da6c948634514665ec6a66d9f5e634489d39a3f1438c7ac03c3afce669f8f"
+    },
+    {
+      "path": "io/grpc/okhttp/internal/proxy/Request.class",
+      "bytes": 2007,
+      "sha256": "8ac8d01617ba229c7b180865ce396ec0162473ba67228e6f28e5143bf03e2f34"
+    }
+  ],
+  "sourceMappings": [
+    {
+      "path": "io/grpc/okhttp/AsyncSink.java",
+      "sha256": "c55d77180e1f295b316945c09521381cabc22f48b34b7b35c6df711ff83a521f",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/AsyncSink.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/ExceptionHandlingFrameWriter.java",
+      "sha256": "01aff0f25580effc208a5752d4cea476a1f1b2735043c94f9084d5680e41afd1",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/ExceptionHandlingFrameWriter.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/ForwardingFrameWriter.java",
+      "sha256": "95e15fc25ff5e740f7bfc859692006d20219bee4c21c1e47ce3da694ed2f277b",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/ForwardingFrameWriter.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/HandshakerSocketFactory.java",
+      "sha256": "be987875b3bfb9e3f664b9aefbfa1f7e939d57519e8233e44575cff873474746",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/HandshakerSocketFactory.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/Headers.java",
+      "sha256": "5c816ad1d953fe2186a68744fba45f7a55d3d4f773d9639dde32fcfa449eea61",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/Headers.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/InternalOkHttpChannelBuilder.java",
+      "sha256": "00d1e35428bcd89e4e40f9456a0db4ac9116045562773828640ab2af2307dff5",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/InternalOkHttpChannelBuilder.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/InternalOkHttpServerBuilder.java",
+      "sha256": "b8e4b8c96989871c70f2cb1849c06ea0947ff8c5462e6a4f9b0abcaf9712cfc2",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/InternalOkHttpServerBuilder.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/NegotiationType.java",
+      "sha256": "7f6aeabcb9d85820a154de380766839e5027ca90dbab61fca2ccf16e93761926",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/NegotiationType.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpChannelBuilder.java",
+      "sha256": "1267839f0813eddbddf625471293dd5a011ab0740ffc89f7fae0e2a38cdf19c1",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OkHttpChannelBuilder.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpChannelProvider.java",
+      "sha256": "82971f77a080abe9974b6b8efd4e47de146866b8d1687d99eb2221fa6dcdc944",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OkHttpChannelProvider.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpClientStream.java",
+      "sha256": "36e1bdce5d81a7c0825f95a5407d212f1acb18aaffceb7b1e2516e4705c27b28",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OkHttpClientStream.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpClientTransport.java",
+      "sha256": "4a235b7b71647cec9433387ec4bd88bc15f1507b71d21bad559ff7b39cc3b2c3",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OkHttpClientTransport.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpFrameLogger.java",
+      "sha256": "d8ce317d71c9fd1c2a585274c3915c3788f55b9c2012fa7b6123b949d276dcb8",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OkHttpFrameLogger.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpProtocolNegotiator.java",
+      "sha256": "92b4c854a60dc1bbfacddf758928b71ff5fc56f710a6ded745da813f2e62ea0e",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OkHttpProtocolNegotiator.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpReadableBuffer.java",
+      "sha256": "d91c022474de00bf3e1f9dd4937b4f982b6eb7c5ee3aa9caf6bdd32c859f5962",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OkHttpReadableBuffer.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServer.java",
+      "sha256": "62df830adbb9bd09780144d6bec8a111757ec8b3868de65d621c622b607419ab",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OkHttpServer.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerBuilder.java",
+      "sha256": "cabdc343b24e4f063143259e1ef916a001fbb9be88d53f481ddff853b5692ac3",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OkHttpServerBuilder.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerStream.java",
+      "sha256": "73535b3f0f85cf06f355f86b43115ad0351d3b44affac8dc3eb0d62f7c4d6c8f",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OkHttpServerStream.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpServerTransport.java",
+      "sha256": "39d5e34537cc4bcfd806663527ed80cd690cc264e2ff6e6ecefc519bc4778e71",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OkHttpServerTransport.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpSettingsUtil.java",
+      "sha256": "74671c735243da39cdfb469ef0fa86a3b5fb3c09e154b9a2de82417d6359b329",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OkHttpSettingsUtil.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpTlsUpgrader.java",
+      "sha256": "cb8432d482d10f113bcf4081d83a4959fc57864b93ace13dcaf8d66d0e9e9c47",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OkHttpTlsUpgrader.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpWritableBuffer.java",
+      "sha256": "491d3b9fd1dacf023da31cb6c886f5be6c9bb340cee1ffe9610d439c945eba77",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OkHttpWritableBuffer.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OkHttpWritableBufferAllocator.java",
+      "sha256": "e8b2e4a66486ad8970ae7e27e7a0e3788d10ff5eaf3176166a5ee6a61c73c639",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OkHttpWritableBufferAllocator.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/OutboundFlowController.java",
+      "sha256": "0fc2938bd363e3b512d40233124f74a18a8b3d90a32ec195fdb048c56c203c91",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/OutboundFlowController.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/PlaintextHandshakerSocketFactory.java",
+      "sha256": "52255c2b1668b35d51f3c0d298206ffd4969225a0f74de670c5b7c9187afad0c",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/PlaintextHandshakerSocketFactory.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/SslSocketFactoryChannelCredentials.java",
+      "sha256": "09f3ddce60dd7ecffc23279f81da8c0aa7e392c4f87ebf4cb9885a7e14426a72",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/SslSocketFactoryChannelCredentials.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/SslSocketFactoryServerCredentials.java",
+      "sha256": "a6583f905e7ae61a8394fedeebe0727d1322b0c0784c4749573219f1465a4f40",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/SslSocketFactoryServerCredentials.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/TlsServerHandshakerSocketFactory.java",
+      "sha256": "73c4e1add79a9dc4db7ed5399ec04270b07312acd9ee3bdfda940cfdc0ea76a7",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/TlsServerHandshakerSocketFactory.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/Utils.java",
+      "sha256": "ea24d2ca7ed8e5b38fa4c3a6ba2383b4297445c6f70eedd1181e454fad9b2b36",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/Utils.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/CipherSuite.java",
+      "sha256": "d855a1311b779f53cfd09e961753bd96499b2e70d6fd8cb1542b64b023eec5b5",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/CipherSuite.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/ConnectionSpec.java",
+      "sha256": "e8902e51782c6788e780b1c76c778755eb74ff161fa16f7c956ebdace4feb0b9",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/ConnectionSpec.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Credentials.java",
+      "sha256": "f6ff207bac7ff8f2ac3959eee3bec93f5b236665cbb5213350ef665a5af6b99e",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/Credentials.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/DistinguishedNameParser.java",
+      "sha256": "745a31c4ca5acda6313781cee83224d6fdc95a540377563ebc8b97039912ffe6",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/DistinguishedNameParser.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Headers.java",
+      "sha256": "0d965a74356babbc8f2262f39ee293828b07fdc7ff0df2e23762abd46945b8a1",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/Headers.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/OkHostnameVerifier.java",
+      "sha256": "32e1e6d4ef9e024df5dc3852db5cca63dcddd10c44eab08fe6d01ea5f56a61d5",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/OkHostnameVerifier.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/OptionalMethod.java",
+      "sha256": "404fcdad3ad158bcb9e9ef599e576393a4ee971a0e33f55883286715f08fbf4c",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/OptionalMethod.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Platform.java",
+      "sha256": "cc2f562d7276ef2cf4530e99abb6490f54f99d99e237234994c93496acdaae6f",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/Platform.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Protocol.java",
+      "sha256": "ad1beef2e307f5a735b5ad11e28802b55f74e25d84d54b86193ff9001cc6b0af",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/Protocol.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/StatusLine.java",
+      "sha256": "a99fc0a32899578b252db97d0bd61facb7d22b86208b74a1fb1804ef09031430",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/StatusLine.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/TlsVersion.java",
+      "sha256": "fa5a924e34565714bb0c9380fe645ef91ffe48232c54a6d6c0bb9b36c9a4b8bc",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/TlsVersion.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/Util.java",
+      "sha256": "bc309cc45964fb8f4a8744f1007f78593c0797ab5cd24e9537325ab721e89df7",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/Util.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/ErrorCode.java",
+      "sha256": "948378d68aa07bdc30dd627ac67680798745da6eb6d63d9fbfbbb118a686459f",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/framed/ErrorCode.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/FrameReader.java",
+      "sha256": "b86527937599f2f065c765febfb5c64aa19d107c2cb86b5f90b359e43e00b8ef",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/framed/FrameReader.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/FrameWriter.java",
+      "sha256": "e11d542c7d6a9578155fbeecf57220b662df798eb89f0a9d260a6367a376e0b9",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/framed/FrameWriter.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Header.java",
+      "sha256": "82b28029d7091df71eb4dab358700fda38eab931fe6a5fe71874c3fbc1fc4d2e",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/framed/Header.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/HeadersMode.java",
+      "sha256": "4512c97f0cf283dfd06feccbcfd1218cc2418a1c4a85f4098029125db5438918",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/framed/HeadersMode.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Hpack.java",
+      "sha256": "993cfbb45d806720f59a79294cd0167ed36d07f3f8df3ecd84eff8789810768f",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/framed/Hpack.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Http2.java",
+      "sha256": "f02e0c282f4e4aeef70c7a753d291637ab53531b0b9e0f6ddabd773bcb1ab488",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/framed/Http2.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Huffman.java",
+      "sha256": "3dcfc18f7911dc7df140455987d3c8b7e64299e6cf45477dd1117c4d63d85fb6",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/framed/Huffman.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Settings.java",
+      "sha256": "0cc0d8d9dfb440b49e71115d002313e3dcc150063969141bf554a5a3ff3b6b4c",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/framed/Settings.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/framed/Variant.java",
+      "sha256": "47db12ee45484341eaeddcbe9077b13fc89c136e42244ca0d5abb9e0fcb509a9",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/framed/Variant.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/proxy/HttpUrl.java",
+      "sha256": "5b0c95de7421c2266b2e4709c54bdd66af8b9fc9e0f66e8ab7b977f3eeb93d69",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/proxy/HttpUrl.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/internal/proxy/Request.java",
+      "sha256": "d7687c941c4262babbb8d86b0502720ec0bfef3da5194fa22960f7d6c362d74f",
+      "upstreamPaths": [
+        "okhttp/third_party/okhttp/main/java/io/grpc/okhttp/internal/proxy/Request.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/okhttp/package-info.java",
+      "sha256": "a04b6b82a6994285ea050ef42ccd09bc3c4102ed5adf2b6efccb31978d320e42",
+      "upstreamPaths": [
+        "okhttp/src/main/java/io/grpc/okhttp/package-info.java"
+      ],
+      "generatedMetadata": false
+    }
+  ],
+  "risks": [
+    "ASF source refers to separately scoped NOTICE not established: io/grpc/okhttp/internal/DistinguishedNameParser.java",
+    "ASF source refers to separately scoped NOTICE not established: io/grpc/okhttp/internal/Headers.java",
+    "ASF source refers to separately scoped NOTICE not established: io/grpc/okhttp/internal/OkHostnameVerifier.java",
+    "ASF source refers to separately scoped NOTICE not established: io/grpc/okhttp/internal/OptionalMethod.java",
+    "Unverified source licence header: io/grpc/okhttp/internal/StatusLine.java",
+    "Unverified source licence header: io/grpc/okhttp/internal/framed/Header.java"
+  ]
+}

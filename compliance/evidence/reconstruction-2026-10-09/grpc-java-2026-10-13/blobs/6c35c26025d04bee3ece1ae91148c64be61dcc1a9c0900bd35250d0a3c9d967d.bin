@@ -1,0 +1,80 @@
+{
+  "sourceEntries": [
+    {
+      "path": "META-INF/MANIFEST.MF",
+      "bytes": 25,
+      "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+    },
+    {
+      "path": "io/grpc/protobuf/lite/ProtoInputStream.java",
+      "bytes": 3352,
+      "sha256": "1f02f3f3365b60e83c3ad11b8b13d4808a5dc2c0c8c3fa5a07bf2de2ffdf7b20"
+    },
+    {
+      "path": "io/grpc/protobuf/lite/ProtoLiteUtils.java",
+      "bytes": 9634,
+      "sha256": "bf0566ecc074f3c1db1679e8772477ab52306eb2bb3a69623fa4676bb7e6cee3"
+    },
+    {
+      "path": "io/grpc/protobuf/lite/package-info.java",
+      "bytes": 748,
+      "sha256": "0d5a905a99925e1abc11f22c3b110e7432a02995ea81aa34f3aac520068ad89d"
+    }
+  ],
+  "binaryEntries": [
+    {
+      "path": "META-INF/MANIFEST.MF",
+      "bytes": 84,
+      "sha256": "27294fb2c99c7d6cb27caa2de711fc18216cfee7bdb80343fa1b9791db937a77"
+    },
+    {
+      "path": "io/grpc/protobuf/lite/ProtoInputStream.class",
+      "bytes": 2898,
+      "sha256": "8657f72f5494b9f10e7233f10a71e4737c90f111f384e12d748f0f46f2e355f5"
+    },
+    {
+      "path": "io/grpc/protobuf/lite/ProtoLiteUtils$MessageMarshaller.class",
+      "bytes": 5950,
+      "sha256": "0d7e4ec98110d50bb48fa9c7ffb50d648d1871df9ec97af61faebc39d512b7c9"
+    },
+    {
+      "path": "io/grpc/protobuf/lite/ProtoLiteUtils$MetadataMarshaller.class",
+      "bytes": 2124,
+      "sha256": "aa57a6d47c2db6e6f54bc37c09bcee926c4c1f80ded6609b8cffa201ccf03e75"
+    },
+    {
+      "path": "io/grpc/protobuf/lite/ProtoLiteUtils.class",
+      "bytes": 3322,
+      "sha256": "b2a15161a9e5426f39ad83e475fac86cb9005f31bde4edb4c65b0ff7bd39e17a"
+    }
+  ],
+  "sourceMappings": [
+    {
+      "path": "io/grpc/protobuf/lite/ProtoInputStream.java",
+      "sha256": "1f02f3f3365b60e83c3ad11b8b13d4808a5dc2c0c8c3fa5a07bf2de2ffdf7b20",
+      "upstreamPaths": [
+        "protobuf-lite/src/main/java/io/grpc/protobuf/lite/ProtoInputStream.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/protobuf/lite/ProtoLiteUtils.java",
+      "sha256": "bf0566ecc074f3c1db1679e8772477ab52306eb2bb3a69623fa4676bb7e6cee3",
+      "upstreamPaths": [
+        "protobuf-lite/src/main/java/io/grpc/protobuf/lite/ProtoLiteUtils.java"
+      ],
+      "generatedMetadata": false
+    },
+    {
+      "path": "io/grpc/protobuf/lite/package-info.java",
+      "sha256": "0d5a905a99925e1abc11f22c3b110e7432a02995ea81aa34f3aac520068ad89d",
+      "upstreamPaths": [
+        "protobuf-lite/src/main/java/io/grpc/protobuf/lite/package-info.java"
+      ],
+      "generatedMetadata": false
+    }
+  ],
+  "risks": [
+    "Copied third-party source lacks separately scoped evidence: io/grpc/protobuf/lite/ProtoLiteUtils.java"
+  ]
+}

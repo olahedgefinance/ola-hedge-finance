@@ -3357,6 +3357,134 @@
       "sha256": "866df83021180fbebd048b070d395cdf401ae23a5e75bc945d98f33b1788980c"
     },
     {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/README.md",
+      "sha256": "b62d711fca05db3a47da00a2919b748c887217b1024e2b2b83b5c6b88017b510"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/07eaa8e9c56bd8681e86f6cf5e61a7e066122f4f33a279efdd13e2c70d6dec8f.bin",
+      "sha256": "07eaa8e9c56bd8681e86f6cf5e61a7e066122f4f33a279efdd13e2c70d6dec8f"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/0a97201afe17874f035f8a25ffb970678e49aadf2992c7d97c6ff9fb1d5da211.bin",
+      "sha256": "0a97201afe17874f035f8a25ffb970678e49aadf2992c7d97c6ff9fb1d5da211"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/0d394270ae6a0ee31afb18b5aa7b4d2bea968735172afdfd0ce420ce66f64f0a.bin",
+      "sha256": "0d394270ae6a0ee31afb18b5aa7b4d2bea968735172afdfd0ce420ce66f64f0a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/1976f7cc98c7295cfd1a0e6a0859a6d62bf28639825b1b28b5e5a9966626ca97.bin",
+      "sha256": "1976f7cc98c7295cfd1a0e6a0859a6d62bf28639825b1b28b5e5a9966626ca97"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/2159e614a8794775eb98e2e1c85834ab4e5911be1c4a75c7163a993e9c892bac.bin",
+      "sha256": "2159e614a8794775eb98e2e1c85834ab4e5911be1c4a75c7163a993e9c892bac"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/26ef536d138e7fd174212b4d14ef78c1c5e52ae908547602690dc6b043f5f5f7.bin",
+      "sha256": "26ef536d138e7fd174212b4d14ef78c1c5e52ae908547602690dc6b043f5f5f7"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/30885d94f2e4007132d51e14a214b4b008f52dbf5507c39784acbf5aa5fa7063.bin",
+      "sha256": "30885d94f2e4007132d51e14a214b4b008f52dbf5507c39784acbf5aa5fa7063"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/37b7f3e663190b86444cd23cad90c908f6b81564a536b0a8113cb1628cfd07b2.bin",
+      "sha256": "37b7f3e663190b86444cd23cad90c908f6b81564a536b0a8113cb1628cfd07b2"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/42b72e6572c084055ac3ce03e6efe433eb05ef620b3daf5136a4359fc72cc3e1.bin",
+      "sha256": "42b72e6572c084055ac3ce03e6efe433eb05ef620b3daf5136a4359fc72cc3e1"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/4881b528a906cbbcef1051271c51bc24cc6676b56bc2947203626b780aa3aa65.bin",
+      "sha256": "4881b528a906cbbcef1051271c51bc24cc6676b56bc2947203626b780aa3aa65"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/4d822c1a651a09714ead6915e38b702dc0505d929a251ee5a950e1e9a4c7288d.bin",
+      "sha256": "4d822c1a651a09714ead6915e38b702dc0505d929a251ee5a950e1e9a4c7288d"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/5a10070abfeb4966ec4d580961dcc4e7f69fa83ab25242f92c1765efb07b8606.bin",
+      "sha256": "5a10070abfeb4966ec4d580961dcc4e7f69fa83ab25242f92c1765efb07b8606"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/5fb4a3d5488bc3a5d302c118802b757764515102404d45c77d02761ffd2a48f4.bin",
+      "sha256": "5fb4a3d5488bc3a5d302c118802b757764515102404d45c77d02761ffd2a48f4"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/60778c1ea407a3ba0a7f0f09df099e8272278e8abc29822c9cf50e1a052f1b75.bin",
+      "sha256": "60778c1ea407a3ba0a7f0f09df099e8272278e8abc29822c9cf50e1a052f1b75"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/6c35c26025d04bee3ece1ae91148c64be61dcc1a9c0900bd35250d0a3c9d967d.bin",
+      "sha256": "6c35c26025d04bee3ece1ae91148c64be61dcc1a9c0900bd35250d0a3c9d967d"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/84d2af12719168f76375f2afdfd6eb5133a865edba9244d40e6b968e3adde1d3.bin",
+      "sha256": "84d2af12719168f76375f2afdfd6eb5133a865edba9244d40e6b968e3adde1d3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/8927f77d6381e24487682708196a6ca728368b8fd7cebb104fd9324b6b124917.bin",
+      "sha256": "8927f77d6381e24487682708196a6ca728368b8fd7cebb104fd9324b6b124917"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/9b8ac88d9cef2819daffed7bdbd2f22680237d482c6c671fe02d36da3f08cf00.bin",
+      "sha256": "9b8ac88d9cef2819daffed7bdbd2f22680237d482c6c671fe02d36da3f08cf00"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/ae0f2429770b363925d711ea10ccc654fc312c5e7bde05f9a6843e7bae7c0111.bin",
+      "sha256": "ae0f2429770b363925d711ea10ccc654fc312c5e7bde05f9a6843e7bae7c0111"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/afa5cbbed4323bf002580f60e968b1edc9fd65ff95ba90d00036c02b9acdf5e0.bin",
+      "sha256": "afa5cbbed4323bf002580f60e968b1edc9fd65ff95ba90d00036c02b9acdf5e0"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/b751b79aff79f92662f5a51a916274fed7c6498348aade0963d704f1dd2daba3.bin",
+      "sha256": "b751b79aff79f92662f5a51a916274fed7c6498348aade0963d704f1dd2daba3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/bce19ca5593b8207b754d065a54d29feca4ba514274813306aa551a587917fc6.bin",
+      "sha256": "bce19ca5593b8207b754d065a54d29feca4ba514274813306aa551a587917fc6"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/c7df4551a64f0282a766e809514d4238450a7429055f9c7718881d16a310a026.bin",
+      "sha256": "c7df4551a64f0282a766e809514d4238450a7429055f9c7718881d16a310a026"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/d6d5e4a5ce6825fa023a5f5748a324d651e8f5b1e7828607196f9a9f835a9ad1.bin",
+      "sha256": "d6d5e4a5ce6825fa023a5f5748a324d651e8f5b1e7828607196f9a9f835a9ad1"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/d88ee17085ad3718ef811c4c0f62bc3b9b3ba9b8314e93c18d10362ce4b6cbb3.bin",
+      "sha256": "d88ee17085ad3718ef811c4c0f62bc3b9b3ba9b8314e93c18d10362ce4b6cbb3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/dcff81b91bb7a4d1917d97772d8c799ad882e85e8c84c557f680b6fedf974b9b.bin",
+      "sha256": "dcff81b91bb7a4d1917d97772d8c799ad882e85e8c84c557f680b6fedf974b9b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/e22728a04745913e09cb9ada9403ef2e1f33125e44c506308e2e8ea8b37c11eb.bin",
+      "sha256": "e22728a04745913e09cb9ada9403ef2e1f33125e44c506308e2e8ea8b37c11eb"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/e44205b9e6d5ed9b633c68a8c5716181a4d71ea020a5d88ee365a4a691882142.bin",
+      "sha256": "e44205b9e6d5ed9b633c68a8c5716181a4d71ea020a5d88ee365a4a691882142"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/fc4917dc5d419ac810fb3f27523c14e75e1fe50372154fab29324215ee6a955a.bin",
+      "sha256": "fc4917dc5d419ac810fb3f27523c14e75e1fe50372154fab29324215ee6a955a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/blobs/fd6feecda2776fca7ecc9f8ab0545e3dfdebdd5c251eff6ada911b6ab397d969.bin",
+      "sha256": "fd6feecda2776fca7ecc9f8ab0545e3dfdebdd5c251eff6ada911b6ab397d969"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/manifest.json",
+      "sha256": "41c443c2cd4cddf8f4b7dafeab7a53e2a162e136aa508b821b8aaadce7ef2e62"
+    },
+    {
       "path": "compliance/evidence/reconstruction-2026-10-09/kotlin-2026-10-13/README.md",
       "sha256": "e1489abff03d446ca321155cbc16290b419ad04538ee1fd9251312a146f53399"
     },

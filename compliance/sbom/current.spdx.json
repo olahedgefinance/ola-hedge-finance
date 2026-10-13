@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-Package-ola-hedge-finance"
   ],
-  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/4059fc1a0e59642a",
+  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/6fe6599c30df9378",
   "name": "ola-hedge-finance-5.4.3+416",
   "packages": [
     {
@@ -3276,12 +3276,12 @@
           "checksumValue": "e44205b9e6d5ed9b633c68a8c5716181a4d71ea020a5d88ee365a4a691882142"
         }
       ],
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#io.grpc:grpc-android:1.57.2; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/manifest.json#io.grpc:grpc-android:1.57.2; exact publisher POM/source/binary, pinned upstream source and scoped licence/NOTICE archive audit.; notes=Verified with conditions. Technical evidence only; not legal/release clearance or reproducible binary rebuild. Preserve upstream LICENSE, NOTICE.txt and applicable source copyright/modification notices. Repository-wide NOTICE references outside this cohort are context, not evidence of inclusion. Graph runtime distribution is not proof of release-APK inclusion; dependencies retain separate classifications. Production Android and iOS/native verification remain incomplete. BuildConfig is exact published generated release metadata, checked against the upstream namespace/release configuration; not independent AGP rebuild proof. ",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/io/grpc/grpc-android/1.57.2/grpc-android-1.57.2.aar",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
       "name": "io.grpc:grpc-android",
       "supplier": "NOASSERTION",
       "versionInfo": "1.57.2"
@@ -3294,12 +3294,12 @@
           "checksumValue": "42b72e6572c084055ac3ce03e6efe433eb05ef620b3daf5136a4359fc72cc3e1"
         }
       ],
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#io.grpc:grpc-api:1.57.2; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/manifest.json#io.grpc:grpc-api:1.57.2; exact publisher POM/source/binary, pinned upstream source and scoped licence/NOTICE archive audit.; notes=Verified with conditions. Technical evidence only; not legal/release clearance or reproducible binary rebuild. Preserve upstream LICENSE, NOTICE.txt and applicable source copyright/modification notices. Repository-wide NOTICE references outside this cohort are context, not evidence of inclusion. Graph runtime distribution is not proof of release-APK inclusion; dependencies retain separate classifications. Production Android and iOS/native verification remain incomplete. ",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.57.2/grpc-api-1.57.2.jar",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
       "name": "io.grpc:grpc-api",
       "supplier": "NOASSERTION",
       "versionInfo": "1.57.2"
@@ -3312,12 +3312,12 @@
           "checksumValue": "9b8ac88d9cef2819daffed7bdbd2f22680237d482c6c671fe02d36da3f08cf00"
         }
       ],
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#io.grpc:grpc-context:1.57.2; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/manifest.json#io.grpc:grpc-context:1.57.2; exact publisher POM/source/binary, pinned upstream source and scoped licence/NOTICE archive audit.; notes=Verified with conditions. Technical evidence only; not legal/release clearance or reproducible binary rebuild. Preserve upstream LICENSE, NOTICE.txt and applicable source copyright/modification notices. Repository-wide NOTICE references outside this cohort are context, not evidence of inclusion. Graph runtime distribution is not proof of release-APK inclusion; dependencies retain separate classifications. Production Android and iOS/native verification remain incomplete. Empty compatibility artifact redirects to grpc-api; its declaration does not clear any dependency implementation. ",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.57.2/grpc-context-1.57.2.jar",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
       "name": "io.grpc:grpc-context",
       "supplier": "NOASSERTION",
       "versionInfo": "1.57.2"
@@ -3330,9 +3330,9 @@
           "checksumValue": "5a10070abfeb4966ec4d580961dcc4e7f69fa83ab25242f92c1765efb07b8606"
         }
       ],
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#io.grpc:grpc-core:1.57.2; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/manifest.json#io.grpc:grpc-core:1.57.2; exact publisher POM/source/binary, pinned upstream source and scoped licence/NOTICE archive audit.; notes=Needs Verification. Technical evidence only; not legal/release clearance or reproducible binary rebuild. Preserve upstream LICENSE, NOTICE.txt and applicable source copyright/modification notices. Repository-wide NOTICE references outside this cohort are context, not evidence of inclusion. Graph runtime distribution is not proof of release-APK inclusion; dependencies retain separate classifications. Production Android and iOS/native verification remain incomplete. Copied Guava implementation is embedded in source; exact scoped source/attribution evidence is not yet established. A separately resolved Guava dependency does not clear this copied code. Copied third-party source lacks separately scoped evidence: io/grpc/internal/GrpcUtil.java",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.57.2/grpc-core-1.57.2.jar",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
@@ -3348,9 +3348,9 @@
           "checksumValue": "d88ee17085ad3718ef811c4c0f62bc3b9b3ba9b8314e93c18d10362ce4b6cbb3"
         }
       ],
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#io.grpc:grpc-okhttp:1.57.2; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/manifest.json#io.grpc:grpc-okhttp:1.57.2; exact publisher POM/source/binary, pinned upstream source and scoped licence/NOTICE archive audit.; notes=Needs Verification. Technical evidence only; not legal/release clearance or reproducible binary rebuild. Preserve upstream LICENSE, NOTICE.txt and applicable source copyright/modification notices. Repository-wide NOTICE references outside this cohort are context, not evidence of inclusion. Graph runtime distribution is not proof of release-APK inclusion; dependencies retain separate classifications. Production Android and iOS/native verification remain incomplete. Retain modified OkHttp Apache text and Square/AOSP/Twitter/ASF source attributions. Four ASF headers refer to a separately scoped NOTICE whose completeness remains unverified; do not clear this module. ASF source refers to separately scoped NOTICE not established: io/grpc/okhttp/internal/DistinguishedNameParser.java ASF source refers to separately scoped NOTICE not established: io/grpc/okhttp/internal/Headers.java ASF source refers to separately scoped NOTICE not established: io/grpc/okhttp/internal/OkHostnameVerifier.java ASF source refers to separately scoped NOTICE not established: io/grpc/okhttp/internal/OptionalMethod.java Unverified source licence header: io/grpc/okhttp/internal/StatusLine.java Unverified source licence header: io/grpc/okhttp/internal/framed/Header.java",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/io/grpc/grpc-okhttp/1.57.2/grpc-okhttp-1.57.2.jar",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
@@ -3366,9 +3366,9 @@
           "checksumValue": "fc4917dc5d419ac810fb3f27523c14e75e1fe50372154fab29324215ee6a955a"
         }
       ],
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#io.grpc:grpc-protobuf-lite:1.57.2; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/manifest.json#io.grpc:grpc-protobuf-lite:1.57.2; exact publisher POM/source/binary, pinned upstream source and scoped licence/NOTICE archive audit.; notes=Needs Verification. Technical evidence only; not legal/release clearance or reproducible binary rebuild. Preserve upstream LICENSE, NOTICE.txt and applicable source copyright/modification notices. Repository-wide NOTICE references outside this cohort are context, not evidence of inclusion. Graph runtime distribution is not proof of release-APK inclusion; dependencies retain separate classifications. Production Android and iOS/native verification remain incomplete. Copied Guava implementation is embedded in source; exact scoped source/attribution evidence is not yet established. A separately resolved Guava dependency does not clear this copied code. Copied third-party source lacks separately scoped evidence: io/grpc/protobuf/lite/ProtoLiteUtils.java",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.57.2/grpc-protobuf-lite-1.57.2.jar",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
@@ -3384,12 +3384,12 @@
           "checksumValue": "84d2af12719168f76375f2afdfd6eb5133a865edba9244d40e6b968e3adde1d3"
         }
       ],
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#io.grpc:grpc-stub:1.57.2; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/grpc-java-2026-10-13/manifest.json#io.grpc:grpc-stub:1.57.2; exact publisher POM/source/binary, pinned upstream source and scoped licence/NOTICE archive audit.; notes=Verified with conditions. Technical evidence only; not legal/release clearance or reproducible binary rebuild. Preserve upstream LICENSE, NOTICE.txt and applicable source copyright/modification notices. Repository-wide NOTICE references outside this cohort are context, not evidence of inclusion. Graph runtime distribution is not proof of release-APK inclusion; dependencies retain separate classifications. Production Android and iOS/native verification remain incomplete. ",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.57.2/grpc-stub-1.57.2.jar",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
       "name": "io.grpc:grpc-stub",
       "supplier": "NOASSERTION",
       "versionInfo": "1.57.2"

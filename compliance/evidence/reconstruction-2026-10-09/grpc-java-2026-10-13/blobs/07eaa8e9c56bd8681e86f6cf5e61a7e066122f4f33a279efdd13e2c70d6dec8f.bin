@@ -1,0 +1,18 @@
+{
+  "sourceEntries": [
+    {
+      "path": "META-INF/MANIFEST.MF",
+      "bytes": 25,
+      "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+    }
+  ],
+  "binaryEntries": [
+    {
+      "path": "META-INF/MANIFEST.MF",
+      "bytes": 84,
+      "sha256": "27294fb2c99c7d6cb27caa2de711fc18216cfee7bdb80343fa1b9791db937a77"
+    }
+  ],
+  "sourceMappings": [],
+  "risks": []
+}
