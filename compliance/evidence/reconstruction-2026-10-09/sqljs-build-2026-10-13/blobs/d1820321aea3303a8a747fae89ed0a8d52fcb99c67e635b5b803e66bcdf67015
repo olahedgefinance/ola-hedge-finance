@@ -1,0 +1,15 @@
+from pathlib import Path
+import os,json,subprocess,ctypes,zipfile,shutil,sys
+T=Path(__file__).parent;cfg=json.loads((T/'build-command-effective.json').read_text());U=T/'builds'/('run-'+sys.argv[1]);assert not U.exists();U.mkdir(parents=True)
+z=zipfile.ZipFile(T/'acquired/source.zip');root=z.namelist()[0]
+for n in z.namelist():
+ rel=n.removeprefix(root)
+ if not rel or n.endswith('/'):continue
+ p=U/rel;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(z.read(n))
+(U/'cache').mkdir();shutil.copy2(T/'acquired/sqlite.zip',U/'cache/sqlite-amalgamation-3360000.zip');shutil.copy2(T/'acquired/extension-functions.c',U/'cache/extension-functions.c')
+def short(p):
+ b=ctypes.create_unicode_buffer(32768);assert ctypes.windll.kernel32.GetShortPathNameW(str(p),b,len(b));return b.value.replace('\\','/')
+env=os.environ.copy();env.update(cfg['environment']);env['PATH']=os.pathsep.join(cfg['PATH_prefix'])+os.pathsep+env['PATH'];cfg['cwd']=short(U)
+(T/('build-command-'+sys.argv[1]+'.json')).write_text(json.dumps(cfg,indent=2))
+with (T/('build-'+sys.argv[1]+'.log')).open('wb') as log:p=subprocess.run(cfg['command'],cwd=cfg['cwd'],env=env,stdout=log,stderr=subprocess.STDOUT)
+(T/('build-result-'+sys.argv[1]+'.json')).write_text(json.dumps(dict(exit=p.returncode,cwd=str(U),command=cfg['command']),indent=2));print('BUILD',sys.argv[1],'EXIT',p.returncode,flush=True)

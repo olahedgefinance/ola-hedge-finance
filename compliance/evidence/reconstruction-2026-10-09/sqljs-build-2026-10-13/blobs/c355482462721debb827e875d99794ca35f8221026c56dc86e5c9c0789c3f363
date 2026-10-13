@@ -1,0 +1,4 @@
+import sys,hashlib,pathlib
+assert sys.argv[1]=='-c' and len(sys.argv)==3
+for line in pathlib.Path(sys.argv[2]).read_text().splitlines():
+ h,p=line.split(None,1);p=p.strip().lstrip('*');assert hashlib.sha3_256(pathlib.Path(p).read_bytes()).hexdigest()==h,p;print(p+': OK')

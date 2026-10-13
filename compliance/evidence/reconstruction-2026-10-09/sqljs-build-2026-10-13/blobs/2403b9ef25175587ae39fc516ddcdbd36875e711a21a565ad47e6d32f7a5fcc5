@@ -1,0 +1,9 @@
+Error: column index out of range
+    at c.handleError (C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\builds\run-3\dist\sql-wasm.js:90:155)
+    at a.tb (C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\builds\run-3\dist\sql-wasm.js:83:106)
+    at a.ub (C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\builds\run-3\dist\sql-wasm.js:84:72)
+    at a.Cb (C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\builds\run-3\dist\sql-wasm.js:85:24)
+    at a.bind (C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\builds\run-3\dist\sql-wasm.js:80:43)
+    at c.prepare (C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\builds\run-3\dist\sql-wasm.js:89:26)
+    at c.run (C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\builds\run-3\dist\sql-wasm.js:87:104)
+    at C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\smoke.js:9:6

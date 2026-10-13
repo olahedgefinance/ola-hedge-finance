@@ -1,0 +1,17 @@
+const fs = require('fs');
+const path = require('path');
+(async () => {
+  const dir = path.resolve(process.argv[2]);
+  const init = require(path.join(dir, 'sql-wasm.js'));
+  const SQL = await init({locateFile: n => path.join(dir,n)});
+  const db = new SQL.Database();
+  const versions = db.exec("SELECT sqlite_version(), sqlite_source_id(), sqrt(9), json_extract('{\"v\":7}', '$.v')");
+  db.run('CREATE TABLE verification (v TEXT)');
+  db.run('INSERT INTO verification VALUES (?)', ['OLA']);
+  const bytes=db.export(); const restored=new SQL.Database(bytes);
+  const result=restored.exec('SELECT v FROM verification');
+  if (result[0].values[0][0] !== 'OLA' || versions[0].values[0][0] !== '3.36.0' || versions[0].values[0][2] !== 3 || versions[0].values[0][3] !== 7) throw new Error('Smoke check failed');
+  db.close(); restored.close();
+  console.log(JSON.stringify({scope:'Limited Node engine smoke; not browser/application or semantic-equivalence proof',versions,result},null,2));
+})().catch(e=>{ console.error(e);process.exitCode=1; });
+

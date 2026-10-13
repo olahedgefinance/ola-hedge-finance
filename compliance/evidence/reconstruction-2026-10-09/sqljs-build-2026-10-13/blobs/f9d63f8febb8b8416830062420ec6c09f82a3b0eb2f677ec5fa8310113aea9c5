@@ -1,0 +1,32 @@
+{
+  "environment": {
+    "EMSDK": "C:\\Users\\Oluwa\\Documents\\ChatGPT\\Web Apps\\work\\ola-sqljs-20261013\\tools\\emsdk",
+    "EM_CONFIG": "C:\\Users\\Oluwa\\Documents\\ChatGPT\\Web Apps\\work\\ola-sqljs-20261013\\tools\\emsdk\\.emscripten",
+    "EMSDK_PYTHON": "C:\\Users\\Oluwa\\Documents\\ChatGPT\\Web Apps\\work\\ola-sqljs-20261013\\tools\\emsdk\\python\\3.9.2-1_64bit\\python.exe",
+    "EMSDK_NODE": "C:\\Users\\Oluwa\\Documents\\ChatGPT\\Web Apps\\work\\ola-sqljs-20261013\\tools\\emsdk\\node\\14.15.5_64bit\\bin\\node.exe",
+    "EM_NODE_JS": "C:\\Users\\Oluwa\\Documents\\ChatGPT\\Web Apps\\work\\ola-sqljs-20261013\\tools\\emsdk\\node\\14.15.5_64bit\\bin\\node.exe",
+    "EM_CACHE": "C:\\Users\\Oluwa\\Documents\\ChatGPT\\Web Apps\\work\\ola-sqljs-20261013\\tools\\emsdk\\upstream\\emscripten\\cache",
+    "JAVA_HOME": "C:\\Users\\Oluwa\\Documents\\ChatGPT\\Web Apps\\work\\ola-sqljs-20261013\\tools\\emsdk\\java\\8.152_64bit",
+    "EMCC_CORES": "2"
+  },
+  "PATH_prefix": [
+    "C:\\Users\\Oluwa\\Documents\\ChatGPT\\Web Apps\\work\\ola-sqljs-20261013\\tools\\shims",
+    "C:\\Users\\Oluwa\\Documents\\ChatGPT\\Web Apps\\work\\ola-sqljs-20261013\\tools\\make\\bin",
+    "C:\\Users\\Oluwa\\Documents\\ChatGPT\\Web Apps\\work\\ola-sqljs-20261013\\tools\\emsdk\\node\\14.15.5_64bit\\bin",
+    "C:\\Users\\Oluwa\\Documents\\ChatGPT\\Web Apps\\work\\ola-sqljs-20261013\\tools\\emsdk\\upstream\\emscripten",
+    "C:\\Users\\Oluwa\\Documents\\ChatGPT\\Web Apps\\work\\ola-sqljs-20261013\\tools\\emsdk\\python\\3.9.2-1_64bit",
+    "C:\\Users\\Oluwa\\Documents\\ChatGPT\\Web Apps\\work\\ola-sqljs-20261013\\tools\\emsdk\\java\\8.152_64bit\\bin",
+    "C:\\Program Files\\Git\\usr\\bin",
+    "C:\\Program Files\\Git\\bin"
+  ],
+  "versions": {
+    "python": "Python 3.9.2\n",
+    "node": "v14.15.5\n",
+    "npm": "6.14.11\n",
+    "emcc": "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 2.0.29 (28ca7fb7ce895b21013212e4644a5794a15a76f9)\nCopyright (C) 2014 the Emscripten authors (see AUTHORS.txt)\nThis is free and open source software under the MIT license.\nThere is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "make": "GNU Make 4.4.1\nBuilt for Windows32\nCopyright (C) 1988-2023 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n",
+    "bash": "GNU bash, version 5.3.15(2)-release (x86_64-pc-cygwin)\nCopyright (C) 2025 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n\nThis is free software; you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n"
+  },
+  "os": "Windows x64; GNU Make w32 with Git Bash; not original Linux container",
+  "emsdkCommit": "f9dee6673eb0692d79c45040448dfaafeb8842fb"
+}

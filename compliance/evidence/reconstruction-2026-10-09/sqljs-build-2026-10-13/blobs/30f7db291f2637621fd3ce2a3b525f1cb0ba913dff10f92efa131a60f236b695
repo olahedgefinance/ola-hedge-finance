@@ -1,0 +1,29 @@
+{
+  "command": [
+    "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/tools/make/bin/make.exe",
+    "SHELL=C:/PROGRA~1/Git/bin/bash.exe",
+    "dist/worker.sql-wasm.js"
+  ],
+  "cwd": "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/builds/run-4",
+  "environment": {
+    "EMSDK": "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/tools/emsdk",
+    "EM_CONFIG": "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/tools/emsdk/EMSCRI~1",
+    "EMSDK_PYTHON": "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/tools/emsdk/python/39C4C6~1.2-1/python.exe",
+    "EMSDK_NODE": "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/tools/emsdk/node/1415~1.5_6/bin/node.exe",
+    "EM_NODE_JS": "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/tools/emsdk/node/1415~1.5_6/bin/node.exe",
+    "EM_CACHE": "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/tools/emsdk/upstream/EMSCRI~2/cache",
+    "JAVA_HOME": "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/tools/emsdk/java/8B768~1.152",
+    "EMCC_CORES": "2"
+  },
+  "PATH_prefix": [
+    "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/tools/shims",
+    "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/tools/make/bin",
+    "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/tools/emsdk/node/1415~1.5_6/bin",
+    "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/tools/emsdk/upstream/EMSCRI~2",
+    "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/tools/emsdk/python/39C4C6~1.2-1",
+    "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/tools/emsdk/java/8B768~1.152/bin",
+    "C:/PROGRA~1/Git/usr/bin",
+    "C:/PROGRA~1/Git/bin"
+  ],
+  "adaptation": "Windows short path aliases to avoid GNU Make shell-script path tokenization; source and compiler flags unchanged"
+}

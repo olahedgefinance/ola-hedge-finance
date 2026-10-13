@@ -1,0 +1,21 @@
+from pathlib import Path
+import os,subprocess,json,shutil,hashlib,urllib.request,zipfile,tarfile,base64
+T=Path(__file__).parent;S=T/'tools/emsdk';P=S/'python/3.9.2-1_64bit/python.exe';N=S/'node/14.15.5_64bit/bin/node.exe';U=T/'upstream';D=T/'acquired'
+env=os.environ.copy();setenv={'EMSDK':str(S),'EM_CONFIG':str(S/'.emscripten'),'EMSDK_PYTHON':str(P),'EMSDK_NODE':str(N),'EM_NODE_JS':str(N),'EM_CACHE':str(S/'upstream/emscripten/cache'),'JAVA_HOME':str(S/'java/8.152_64bit'),'EMCC_CORES':'2'};env.update(setenv)
+prefix=[str(T/'tools/shims'),str(T/'tools/make/bin'),str(N.parent),str(S/'upstream/emscripten'),str(P.parent),str(S/'java/8.152_64bit/bin'),r'C:\Program Files\Git\usr\bin',r'C:\Program Files\Git\bin'];env['PATH']=os.pathsep.join(prefix)+os.pathsep+env['PATH']
+def run(c,name):
+ p=subprocess.run(c,cwd=U,env=env,stdout=subprocess.PIPE,stderr=subprocess.STDOUT);(T/(name+'.log')).write_bytes(p.stdout);print(name,p.returncode,p.stdout.decode(errors='replace')[:500],flush=True);return p.returncode
+vers={}
+for name,c in [('python',[str(P),'--version']),('node',[str(N),'--version']),('npm',[str(N),str(N.parent/'node_modules/npm/bin/npm-cli.js'),'--version']),('emcc',[str(P),str(S/'upstream/emscripten/emcc.py'),'--version']),('make',[str(T/'tools/make/bin/make.exe'),'--version']),('bash',[r'C:\Program Files\Git\bin\bash.exe','--version'])]:
+ assert run(c,'version-'+name)==0;vers[name]=(T/('version-'+name+'.log')).read_text()
+(T/'environment.json').write_text(json.dumps(dict(environment=setenv,PATH_prefix=prefix,versions=vers,os='Windows x64; GNU Make w32 with Git Bash; not original Linux container',emsdkCommit='f9dee6673eb0692d79c45040448dfaafeb8842fb'),indent=2))
+(U/'cache').mkdir(exist_ok=True);shutil.copy2(D/'sqlite.zip',U/'cache/sqlite-amalgamation-3360000.zip');shutil.copy2(D/'extension-functions.c',U/'cache/extension-functions.c')
+# Official Makefile needs sha3sum. Provide the equivalent SHA3-256 check using Python's standard library; no compiler flags or sources changed.
+shims=T/'tools/shims';shims.mkdir(exist_ok=True)
+(shims/'sha3sum.py').write_text("import sys,hashlib,pathlib\nassert sys.argv[1]=='-c' and len(sys.argv)==3\nfor line in pathlib.Path(sys.argv[2]).read_text().splitlines():\n h,p=line.split(None,1);p=p.strip().lstrip('*');assert hashlib.sha3_256(pathlib.Path(p).read_bytes()).hexdigest()==h,p;print(p+': OK')\n")
+(shims/'sha3sum').write_text('#!/bin/sh\nexec "'+P.as_posix()+'" "'+(shims/'sha3sum.py').as_posix()+'" "$@"\n')
+# Verify the unchanged Makefile executes its own hash checks; exact shipped-target subset only.
+cmd=[str(T/'tools/make/bin/make.exe'),'SHELL=C:/Program Files/Git/bin/bash.exe','dist/worker.sql-wasm.js']
+(T/'build-command.json').write_text(json.dumps(dict(command=cmd,cwd=str(U),environment=setenv,PATH_prefix=prefix),indent=2))
+with (T/'build.log').open('wb') as log:p=subprocess.run(cmd,cwd=U,env=env,stdout=log,stderr=subprocess.STDOUT)
+(T/'build-result.json').write_text(json.dumps(dict(exit=p.returncode,command=cmd),indent=2));print('BUILD EXIT',p.returncode,flush=True)

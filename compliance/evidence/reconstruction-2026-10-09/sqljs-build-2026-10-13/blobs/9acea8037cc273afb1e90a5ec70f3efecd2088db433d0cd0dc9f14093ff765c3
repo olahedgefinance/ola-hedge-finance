@@ -1,0 +1,10 @@
+mkdir -p sqlite-src/sqlite-amalgamation-3360000
+echo 'c68fa706d6d9ff98608044c00212473f9c14892f  ./cache/extension-functions.c' > cache/check.txt
+sha1sum -c cache/check.txt
+./cache/extension-functions.c: OK
+cp 'cache/extension-functions.c' sqlite-src/sqlite-amalgamation-3360000/extension-functions.c
+mkdir -p sqlite-src/sqlite-amalgamation-3360000
+echo 'd25609210ec93b3c8c7da66a03cf82e2c9868cfbd2d7d866982861855e96f972  ./cache/sqlite-amalgamation-3360000.zip' > cache/check.txt
+sha3sum -c cache/check.txt
+sh: C:\Users\Oluwa\Documents\ChatGPT\Web: No such file or directory
+make: *** [Makefile:179: sqlite-src/sqlite-amalgamation-3360000] Error 127

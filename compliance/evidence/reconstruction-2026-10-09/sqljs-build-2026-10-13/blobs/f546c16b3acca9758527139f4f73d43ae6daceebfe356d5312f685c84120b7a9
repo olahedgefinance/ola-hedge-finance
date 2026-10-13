@@ -1,0 +1,21 @@
+Resolving SDK version '2.0.29' to 'sdk-releases-upstream-c2369dc425725fff86ba90a9007a4603ddf7941b-64bit'
+Installing SDK 'sdk-releases-upstream-c2369dc425725fff86ba90a9007a4603ddf7941b-64bit'..
+Installing tool 'node-14.15.5-64bit'..
+The contents of file 'node-v14.15.5-win-x64.zip' already exist in destination 'C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/emsdk/node/14.15.5_64bit', skipping.
+Done installing tool 'node-14.15.5-64bit'.
+Installing tool 'python-3.9.2-1-64bit'..
+Downloading: C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/emsdk/zips/python-3.9.2-1-embed-amd64+pywin32.zip from https://storage.googleapis.com/webassembly/emscripten-releases-builds/deps/python-3.9.2-1-embed-amd64+pywin32.zip, 16982397 Bytes
+ [----------------------------------------------------------------------------]
+Unpacking 'C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/emsdk/zips/python-3.9.2-1-embed-amd64+pywin32.zip' to 'C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/emsdk/python/3.9.2-1_64bit'
+Done installing tool 'python-3.9.2-1-64bit'.
+Installing tool 'java-8.152-64bit'..
+Downloading: C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/emsdk/zips/portable_jre_8_update_152_64bit.zip from https://storage.googleapis.com/webassembly/emscripten-releases-builds/deps/portable_jre_8_update_152_64bit.zip, 69241499 Bytes
+ [----------------------------------------------------------------------------]
+Unpacking 'C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/emsdk/zips/portable_jre_8_update_152_64bit.zip' to 'C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/emsdk/java/8.152_64bit'
+Done installing tool 'java-8.152-64bit'.
+Installing tool 'releases-upstream-c2369dc425725fff86ba90a9007a4603ddf7941b-64bit'..
+Downloading: C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/emsdk/zips/c2369dc425725fff86ba90a9007a4603ddf7941b-wasm-binaries.zip from https://storage.googleapis.com/webassembly/emscripten-releases-builds/win/c2369dc425725fff86ba90a9007a4603ddf7941b/wasm-binaries.zip, 430399711 Bytes
+ [----------------------------------------------------------------------------]
+Unpacking 'C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/emsdk/zips/c2369dc425725fff86ba90a9007a4603ddf7941b-wasm-binaries.zip' to 'C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/emsdk/upstream'
+Done installing tool 'releases-upstream-c2369dc425725fff86ba90a9007a4603ddf7941b-64bit'.
+Done installing SDK 'sdk-releases-upstream-c2369dc425725fff86ba90a9007a4603ddf7941b-64bit'.

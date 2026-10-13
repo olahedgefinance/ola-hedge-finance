@@ -1,0 +1,26 @@
+[
+  {
+    "path": "budget/web/sql-wasm.js",
+    "sha256": "445a230a983e32656a548b1e13cceafaf4aeb2281361477af389243380e2f542",
+    "publishedSha256": "c097dfa41a1c1fe9321ddf38fec3c4a191306ed4f185844db853a41514b83bbe",
+    "byteEqual": false,
+    "lineEndingEqual": true,
+    "githubReleaseEqualsNpm": true
+  },
+  {
+    "path": "budget/web/worker.sql-wasm.js",
+    "sha256": "119e8e32fd46307f72f1e4aaf1fd71b423160fc8a20fa116e4ed1234b8c52d39",
+    "publishedSha256": "4f3b69d7dc1dd8c1e51e0aac74a8e68ebdfded24d1d976709ed9cf4ba4660b41",
+    "byteEqual": false,
+    "lineEndingEqual": true,
+    "githubReleaseEqualsNpm": true
+  },
+  {
+    "path": "budget/web/sql-wasm.wasm",
+    "sha256": "19119b55864eb5e7266dc526487840a0ad4f7e828512f32e387ef60a6b17028b",
+    "publishedSha256": "19119b55864eb5e7266dc526487840a0ad4f7e828512f32e387ef60a6b17028b",
+    "byteEqual": true,
+    "lineEndingEqual": false,
+    "githubReleaseEqualsNpm": true
+  }
+]

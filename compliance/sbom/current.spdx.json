@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-Package-ola-hedge-finance"
   ],
-  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/6fe6599c30df9378",
+  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/d9e18f9c8425fbe6",
   "name": "ola-hedge-finance-5.4.3+416",
   "packages": [
     {
@@ -9566,7 +9566,7 @@
           "checksumValue": "445a230a983e32656a548b1e13cceafaf4aeb2281361477af389243380e2f542"
         }
       ],
-      "comment": "ecosystem=web-vendored; relationship=bundled-asset; source=repository-file; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/sqljs/provenance.json; retained exact release LICENSE/AUTHORS; JS line endings only; no source rebuild or release clearance.; sourceRepository=https://github.com/sql-js/sql.js/tree/997d56fb954b63e76cf8d549c4660c972381768e",
+      "comment": "ecosystem=web-vendored; relationship=bundled-asset; source=repository-file; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/sqljs/provenance.json; compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/manifest.json; exact release source and 2.0.29 recipe verified; replay outputs differ; contribution/runtime notice scope and final release clearance remain open.; sourceRepository=https://github.com/sql-js/sql.js/tree/997d56fb954b63e76cf8d549c4660c972381768e",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://registry.npmjs.org/sql.js/-/sql.js-1.6.2.tgz",
       "filesAnalyzed": false,
@@ -9584,7 +9584,7 @@
           "checksumValue": "19119b55864eb5e7266dc526487840a0ad4f7e828512f32e387ef60a6b17028b"
         }
       ],
-      "comment": "ecosystem=web-vendored; relationship=bundled-asset; source=repository-file; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/sqljs/provenance.json; retained exact release LICENSE/AUTHORS; JS line endings only; no source rebuild or release clearance.; sourceRepository=https://github.com/sql-js/sql.js/tree/997d56fb954b63e76cf8d549c4660c972381768e",
+      "comment": "ecosystem=web-vendored; relationship=bundled-asset; source=repository-file; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/sqljs/provenance.json; compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/manifest.json; exact release source and 2.0.29 recipe verified; replay outputs differ; contribution/runtime notice scope and final release clearance remain open.; sourceRepository=https://github.com/sql-js/sql.js/tree/997d56fb954b63e76cf8d549c4660c972381768e",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://registry.npmjs.org/sql.js/-/sql.js-1.6.2.tgz",
       "filesAnalyzed": false,
@@ -9602,7 +9602,7 @@
           "checksumValue": "119e8e32fd46307f72f1e4aaf1fd71b423160fc8a20fa116e4ed1234b8c52d39"
         }
       ],
-      "comment": "ecosystem=web-vendored; relationship=bundled-asset; source=repository-file; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/sqljs/provenance.json; retained exact release LICENSE/AUTHORS; JS line endings only; no source rebuild or release clearance.; sourceRepository=https://github.com/sql-js/sql.js/tree/997d56fb954b63e76cf8d549c4660c972381768e",
+      "comment": "ecosystem=web-vendored; relationship=bundled-asset; source=repository-file; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/sqljs/provenance.json; compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/manifest.json; exact release source and 2.0.29 recipe verified; replay outputs differ; contribution/runtime notice scope and final release clearance remain open.; sourceRepository=https://github.com/sql-js/sql.js/tree/997d56fb954b63e76cf8d549c4660c972381768e",
       "copyrightText": "NOASSERTION",
       "downloadLocation": "https://registry.npmjs.org/sql.js/-/sql.js-1.6.2.tgz",
       "filesAnalyzed": false,

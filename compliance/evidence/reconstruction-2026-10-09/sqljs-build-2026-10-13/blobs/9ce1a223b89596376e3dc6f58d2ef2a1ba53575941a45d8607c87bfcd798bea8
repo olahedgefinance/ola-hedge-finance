@@ -1,0 +1,6 @@
+mkdir -p out
+# Generate llvm bitcode
+emcc -O2 -DSQLITE_OMIT_LOAD_EXTENSION -DSQLITE_DISABLE_LFS -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_JSON1 -DSQLITE_THREADSAFE=0 -DSQLITE_ENABLE_NORMALIZE -c sqlite-src/sqlite-amalgamation-3360000/sqlite3.c -o out/sqlite3.bc
+shared:INFO: (Emscripten: Running sanity checks)
+emcc: error: sqlite-src/sqlite-amalgamation-3360000/sqlite3.c: No such file or directory ("sqlite-src/sqlite-amalgamation-3360000/sqlite3.c" was expected to be an input file, based on the commandline arguments provided)
+make: *** [Makefile:151: out/sqlite3.bc] Error 1

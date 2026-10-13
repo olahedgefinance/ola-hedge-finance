@@ -1,0 +1,50 @@
+mkdir -p sqlite-src/sqlite-amalgamation-3360000
+echo 'c68fa706d6d9ff98608044c00212473f9c14892f  ./cache/extension-functions.c' > cache/check.txt
+sha1sum -c cache/check.txt
+./cache/extension-functions.c: OK
+cp 'cache/extension-functions.c' sqlite-src/sqlite-amalgamation-3360000/extension-functions.c
+mkdir -p sqlite-src/sqlite-amalgamation-3360000
+echo 'd25609210ec93b3c8c7da66a03cf82e2c9868cfbd2d7d866982861855e96f972  ./cache/sqlite-amalgamation-3360000.zip' > cache/check.txt
+sha3sum -c cache/check.txt
+./cache/sqlite-amalgamation-3360000.zip: OK
+# We don't delete the sqlite_amalgamation folder. That's a job for clean
+# Also, the extension functions get copied here, and if we get the order of these steps wrong,
+# this step could remove the extension functions, and that's not what we want
+unzip -u 'cache/sqlite-amalgamation-3360000.zip' -d sqlite-src/
+Archive:  cache/sqlite-amalgamation-3360000.zip
+  inflating: sqlite-src/sqlite-amalgamation-3360000/sqlite3.c  
+  inflating: sqlite-src/sqlite-amalgamation-3360000/shell.c  
+  inflating: sqlite-src/sqlite-amalgamation-3360000/sqlite3ext.h  
+  inflating: sqlite-src/sqlite-amalgamation-3360000/sqlite3.h  
+touch sqlite-src/sqlite-amalgamation-3360000
+mkdir -p out
+# Generate llvm bitcode
+emcc -O2 -DSQLITE_OMIT_LOAD_EXTENSION -DSQLITE_DISABLE_LFS -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_JSON1 -DSQLITE_THREADSAFE=0 -DSQLITE_ENABLE_NORMALIZE -c sqlite-src/sqlite-amalgamation-3360000/sqlite3.c -o out/sqlite3.bc
+mkdir -p out
+# Generate llvm bitcode
+emcc -O2 -DSQLITE_OMIT_LOAD_EXTENSION -DSQLITE_DISABLE_LFS -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_JSON1 -DSQLITE_THREADSAFE=0 -DSQLITE_ENABLE_NORMALIZE -c sqlite-src/sqlite-amalgamation-3360000/extension-functions.c -o out/extension-functions.bc
+emcc --memory-init-file 0 -s RESERVED_FUNCTION_POINTERS=64 -s ALLOW_TABLE_GROWTH=1 -s EXPORTED_FUNCTIONS=@src/exported_functions.json -s EXPORTED_RUNTIME_METHODS=@src/exported_runtime_methods.json -s SINGLE_FILE=0 -s NODEJS_CATCH_EXIT=0 -s NODEJS_CATCH_REJECTION=0 -s INLINING_LIMIT=50 -O3 -flto --closure 1 -s WASM=1 -s ALLOW_MEMORY_GROWTH=1 out/sqlite3.bc out/extension-functions.bc --pre-js src/api.js -o dist/sql-wasm.js
+cache:INFO: generating system library: sysroot\lib\wasm32-emscripten\lto\libGL.a... (this will be cached in "C:\Users\Oluwa\DOCUME~1\ChatGPT\WEBAPP~1\work\OLA-SQ~1\tools\emsdk\upstream\EMSCRI~2\cache\sysroot\lib\wasm32-emscripten\lto\libGL.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: sysroot\lib\wasm32-emscripten\lto\libal.a... (this will be cached in "C:\Users\Oluwa\DOCUME~1\ChatGPT\WEBAPP~1\work\OLA-SQ~1\tools\emsdk\upstream\EMSCRI~2\cache\sysroot\lib\wasm32-emscripten\lto\libal.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: sysroot\lib\wasm32-emscripten\lto\libhtml5.a... (this will be cached in "C:\Users\Oluwa\DOCUME~1\ChatGPT\WEBAPP~1\work\OLA-SQ~1\tools\emsdk\upstream\EMSCRI~2\cache\sysroot\lib\wasm32-emscripten\lto\libhtml5.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: sysroot\lib\wasm32-emscripten\lto\libc.a... (this will be cached in "C:\Users\Oluwa\DOCUME~1\ChatGPT\WEBAPP~1\work\OLA-SQ~1\tools\emsdk\upstream\EMSCRI~2\cache\sysroot\lib\wasm32-emscripten\lto\libc.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: sysroot\lib\wasm32-emscripten\lto\libcompiler_rt.a... (this will be cached in "C:\Users\Oluwa\DOCUME~1\ChatGPT\WEBAPP~1\work\OLA-SQ~1\tools\emsdk\upstream\EMSCRI~2\cache\sysroot\lib\wasm32-emscripten\lto\libcompiler_rt.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: sysroot\lib\wasm32-emscripten\lto\libc++-noexcept.a... (this will be cached in "C:\Users\Oluwa\DOCUME~1\ChatGPT\WEBAPP~1\work\OLA-SQ~1\tools\emsdk\upstream\EMSCRI~2\cache\sysroot\lib\wasm32-emscripten\lto\libc++-noexcept.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: sysroot\lib\wasm32-emscripten\lto\libc++abi-noexcept.a... (this will be cached in "C:\Users\Oluwa\DOCUME~1\ChatGPT\WEBAPP~1\work\OLA-SQ~1\tools\emsdk\upstream\EMSCRI~2\cache\sysroot\lib\wasm32-emscripten\lto\libc++abi-noexcept.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: sysroot\lib\wasm32-emscripten\lto\libdlmalloc.a... (this will be cached in "C:\Users\Oluwa\DOCUME~1\ChatGPT\WEBAPP~1\work\OLA-SQ~1\tools\emsdk\upstream\EMSCRI~2\cache\sysroot\lib\wasm32-emscripten\lto\libdlmalloc.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: sysroot\lib\wasm32-emscripten\lto\libc_rt_wasm.a... (this will be cached in "C:\Users\Oluwa\DOCUME~1\ChatGPT\WEBAPP~1\work\OLA-SQ~1\tools\emsdk\upstream\EMSCRI~2\cache\sysroot\lib\wasm32-emscripten\lto\libc_rt_wasm.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: sysroot\lib\wasm32-emscripten\lto\libsockets.a... (this will be cached in "C:\Users\Oluwa\DOCUME~1\ChatGPT\WEBAPP~1\work\OLA-SQ~1\tools\emsdk\upstream\EMSCRI~2\cache\sysroot\lib\wasm32-emscripten\lto\libsockets.a" for subsequent builds)
+cache:INFO:  - ok
+mv dist/sql-wasm.js out/tmp-raw.js
+cat src/shell-pre.js out/tmp-raw.js src/shell-post.js > dist/sql-wasm.js
+rm out/tmp-raw.js
+cat dist/sql-wasm.js src/worker.js > dist/worker.sql-wasm.js

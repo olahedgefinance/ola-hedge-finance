@@ -1722,7 +1722,7 @@
     },
     {
       "path": "compliance/components/non_pub_components.json",
-      "sha256": "a03c7a0c7c7750efd12d713e25f8c1d6f67846f56afeb2a12e5de280c95f44d2"
+      "sha256": "24052fb631de125b818c9c4de6a939e07cf41a8406dedad3aa3f07ae6085173a"
     },
     {
       "path": "compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/README.md",
@@ -7477,6 +7477,198 @@
       "sha256": "e653b5998fdf34733bbc9ca38e04a2ea68cb31056f4767209bfae759016e24b6"
     },
     {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/README.md",
+      "sha256": "c2e7bd85f6df89799b5b8b3b857b44f0dd9a0204efd3175f8ec46fb388a87eb2"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/0a72188fcf9ee2cfc5369e235fb31675f63c577e6595dece7dddb722ff55d41f",
+      "sha256": "0a72188fcf9ee2cfc5369e235fb31675f63c577e6595dece7dddb722ff55d41f"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/0ae9778a78fcacda9118dd994eb583e035cf3fafd7a2180093c0c9140d41b20f",
+      "sha256": "0ae9778a78fcacda9118dd994eb583e035cf3fafd7a2180093c0c9140d41b20f"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/0d70db802334167f59a76712ce033f89d56bcaf385189ce8d8e4f6e845e806d1",
+      "sha256": "0d70db802334167f59a76712ce033f89d56bcaf385189ce8d8e4f6e845e806d1"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/0e67e1058e57c002fa19182d4480d0278f847be4af8736e1ede1b42beea65901",
+      "sha256": "0e67e1058e57c002fa19182d4480d0278f847be4af8736e1ede1b42beea65901"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/10b478bc402fc4f48fd07ea7ae8c400aa9d214d9d989a26d7c033680f4b74287",
+      "sha256": "10b478bc402fc4f48fd07ea7ae8c400aa9d214d9d989a26d7c033680f4b74287"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/12b6bf0cf2393f43a21729158c0179b430b245f283f1e317b8249a2a2d129e6e",
+      "sha256": "12b6bf0cf2393f43a21729158c0179b430b245f283f1e317b8249a2a2d129e6e"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/14b78ac50c0bad1b91632bd6d5f8a4bcc55c5bf66648c38ba0ca4eada447bc4c",
+      "sha256": "14b78ac50c0bad1b91632bd6d5f8a4bcc55c5bf66648c38ba0ca4eada447bc4c"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/19c32c5d54888f3530ee05fefef679df6888353d2dc780012e4ce54eb15c1009",
+      "sha256": "19c32c5d54888f3530ee05fefef679df6888353d2dc780012e4ce54eb15c1009"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/1f658dfcb0861f1c4837f770060e4a848edbfdf61b2fd9cf6a6283133848c0fd",
+      "sha256": "1f658dfcb0861f1c4837f770060e4a848edbfdf61b2fd9cf6a6283133848c0fd"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/22fe1f252419a0d19881b69e8f412097e32d4d6b374d7f5b59a5e602cf42a9ea",
+      "sha256": "22fe1f252419a0d19881b69e8f412097e32d4d6b374d7f5b59a5e602cf42a9ea"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/2403b9ef25175587ae39fc516ddcdbd36875e711a21a565ad47e6d32f7a5fcc5",
+      "sha256": "2403b9ef25175587ae39fc516ddcdbd36875e711a21a565ad47e6d32f7a5fcc5"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/30f7db291f2637621fd3ce2a3b525f1cb0ba913dff10f92efa131a60f236b695",
+      "sha256": "30f7db291f2637621fd3ce2a3b525f1cb0ba913dff10f92efa131a60f236b695"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/4288745e01d3e6fe69973176c752b3ec192e07c2b27d958a9e65821fc2a28c7b",
+      "sha256": "4288745e01d3e6fe69973176c752b3ec192e07c2b27d958a9e65821fc2a28c7b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/46c0361d475f422c755964f11feda9b966038a8b528fcf3eb86670497aa45102",
+      "sha256": "46c0361d475f422c755964f11feda9b966038a8b528fcf3eb86670497aa45102"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/4abcf809e028086a05405e355839b22b6625904597e09e59a64b4f184315a708",
+      "sha256": "4abcf809e028086a05405e355839b22b6625904597e09e59a64b4f184315a708"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/4b355a9e424e23cf653310e4e2892ec4287b820f65e8ccf9dfa2eb4d5028cbf8",
+      "sha256": "4b355a9e424e23cf653310e4e2892ec4287b820f65e8ccf9dfa2eb4d5028cbf8"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/4ba00ba42791380f8f1bb56ca2341c2076cf031f048071235585040b662926d1",
+      "sha256": "4ba00ba42791380f8f1bb56ca2341c2076cf031f048071235585040b662926d1"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/4fd695b639beca1ca0dd846b396bac2ecdb0bb30acf41d90442135fb5bbab341",
+      "sha256": "4fd695b639beca1ca0dd846b396bac2ecdb0bb30acf41d90442135fb5bbab341"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/64e0c91e1c0ed648eed7e6f287b24f6b3b77338344f3535cf794bebf5907ec01",
+      "sha256": "64e0c91e1c0ed648eed7e6f287b24f6b3b77338344f3535cf794bebf5907ec01"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/69cadeb13788caba494b4394f354d2483d436e7bc1ebbf6ecf95170504a668d5",
+      "sha256": "69cadeb13788caba494b4394f354d2483d436e7bc1ebbf6ecf95170504a668d5"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/6bdcf9fe7aff13ae834307094fac024715612ebc1e9afe839ec5ff93c02a9242",
+      "sha256": "6bdcf9fe7aff13ae834307094fac024715612ebc1e9afe839ec5ff93c02a9242"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/6e26e98d44837ea9978e8800da9fc59aa25c779fad1d4f1e47d96288b11eb89b",
+      "sha256": "6e26e98d44837ea9978e8800da9fc59aa25c779fad1d4f1e47d96288b11eb89b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/73c8f880a85dc652ade115f1b99c98bd2ad64c5b5265bfcfe7ac6940fd796944",
+      "sha256": "73c8f880a85dc652ade115f1b99c98bd2ad64c5b5265bfcfe7ac6940fd796944"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/840c986a277fa624f959dcc3aaab747bb39fd7545aa14059fe353c39c9127029",
+      "sha256": "840c986a277fa624f959dcc3aaab747bb39fd7545aa14059fe353c39c9127029"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/922a557878605efa61800f92cf679e45424800e2519676f3371da1648e8acdd8",
+      "sha256": "922a557878605efa61800f92cf679e45424800e2519676f3371da1648e8acdd8"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/98f6ce0915d5a3b00c15b631cb4b6fad71d51b1ac3985364572cf588d3ddae07",
+      "sha256": "98f6ce0915d5a3b00c15b631cb4b6fad71d51b1ac3985364572cf588d3ddae07"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/991b40fe8b2799edc215f7260b890f14a833512c9d9896aa080891330ffe4052",
+      "sha256": "991b40fe8b2799edc215f7260b890f14a833512c9d9896aa080891330ffe4052"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/999826fe4c871f18919fdb8ed7ec9dd8217180854dd1fe21eea96aed36186729",
+      "sha256": "999826fe4c871f18919fdb8ed7ec9dd8217180854dd1fe21eea96aed36186729"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/9acea8037cc273afb1e90a5ec70f3efecd2088db433d0cd0dc9f14093ff765c3",
+      "sha256": "9acea8037cc273afb1e90a5ec70f3efecd2088db433d0cd0dc9f14093ff765c3"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/9ce1a223b89596376e3dc6f58d2ef2a1ba53575941a45d8607c87bfcd798bea8",
+      "sha256": "9ce1a223b89596376e3dc6f58d2ef2a1ba53575941a45d8607c87bfcd798bea8"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/a5c76c63a05fabc294b82116426ee553436929a0425ca0817e771f879f299865",
+      "sha256": "a5c76c63a05fabc294b82116426ee553436929a0425ca0817e771f879f299865"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/a931286a3685b5af958d54b015b7ecf919f5c01f415c4e3d379e0a1320f6373d",
+      "sha256": "a931286a3685b5af958d54b015b7ecf919f5c01f415c4e3d379e0a1320f6373d"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/ac7b615eb26d569bf31025ec055c934e849a6371f031112ddea6651433228596",
+      "sha256": "ac7b615eb26d569bf31025ec055c934e849a6371f031112ddea6651433228596"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/ac81ae555b7f3061ab0f4f07550ed7f2d36642dfb1f1ab53e5a28be75ec6e269",
+      "sha256": "ac81ae555b7f3061ab0f4f07550ed7f2d36642dfb1f1ab53e5a28be75ec6e269"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/bdcd87386784931f468dc6eaa3f2f736b033255a7b346b99c92bda94eb1f0c8a",
+      "sha256": "bdcd87386784931f468dc6eaa3f2f736b033255a7b346b99c92bda94eb1f0c8a"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/c355482462721debb827e875d99794ca35f8221026c56dc86e5c9c0789c3f363",
+      "sha256": "c355482462721debb827e875d99794ca35f8221026c56dc86e5c9c0789c3f363"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/c5239d638b1ffab405862df1eff9249d9e1aceda1f3fee46e89bfe976dc475cf",
+      "sha256": "c5239d638b1ffab405862df1eff9249d9e1aceda1f3fee46e89bfe976dc475cf"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/d1820321aea3303a8a747fae89ed0a8d52fcb99c67e635b5b803e66bcdf67015",
+      "sha256": "d1820321aea3303a8a747fae89ed0a8d52fcb99c67e635b5b803e66bcdf67015"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/d205e47d70a71e84cca3407179bbd6f4ef5dfebe5448884336fc04e883b1efca",
+      "sha256": "d205e47d70a71e84cca3407179bbd6f4ef5dfebe5448884336fc04e883b1efca"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/db9cf2355af013ef85ac0674fc30f8fa241df610d76ee8207926100d8212e46b",
+      "sha256": "db9cf2355af013ef85ac0674fc30f8fa241df610d76ee8207926100d8212e46b"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/e0194dba792a978bd2dfd5ba3b5855e8ff391d48be76238bc9faec1e95ba1d31",
+      "sha256": "e0194dba792a978bd2dfd5ba3b5855e8ff391d48be76238bc9faec1e95ba1d31"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/e3a07799abf31d695a41ce76732df23f475b0b5943f61187c02533c07b5dd3f5",
+      "sha256": "e3a07799abf31d695a41ce76732df23f475b0b5943f61187c02533c07b5dd3f5"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/efa04013d8e7a8cee596930f7d1fad15e073aa9696e4b50247196f5323b66360",
+      "sha256": "efa04013d8e7a8cee596930f7d1fad15e073aa9696e4b50247196f5323b66360"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/f546c16b3acca9758527139f4f73d43ae6daceebfe356d5312f685c84120b7a9",
+      "sha256": "f546c16b3acca9758527139f4f73d43ae6daceebfe356d5312f685c84120b7a9"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/f9d63f8febb8b8416830062420ec6c09f82a3b0eb2f677ec5fa8310113aea9c5",
+      "sha256": "f9d63f8febb8b8416830062420ec6c09f82a3b0eb2f677ec5fa8310113aea9c5"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/blobs/fbc621d0cc1782b135f79d79001c73ee12408922e3963d5f55461b84ddbec036",
+      "sha256": "fbc621d0cc1782b135f79d79001c73ee12408922e3963d5f55461b84ddbec036"
+    },
+    {
+      "path": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/manifest.json",
+      "sha256": "608ac69377bc450d4aa48bed073b125f4abb783a5f06250ed1af92dba17a11e3"
+    },
+    {
       "path": "compliance/evidence/reconstruction-2026-10-09/sqljs/AUTHORS",
       "sha256": "2bb11c65286bd0f2919022e119671036ff8d85c6cd1522b6ebcc1362e67f2ce5"
     },
@@ -7502,7 +7694,7 @@
     },
     {
       "path": "compliance/evidence/reconstruction-2026-10-09/sqljs/provenance.json",
-      "sha256": "4b310e4414e52b6e09d9488ea71e79e41ff375463f1b6dc5eb4e36be6072b40b"
+      "sha256": "1412e27bd8bc006f8cec75b27288b71149360bc52db55b5ca209d44d6ef587ac"
     },
     {
       "path": "compliance/provenance/cashew-upstream.json",

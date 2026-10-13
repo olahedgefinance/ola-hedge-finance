@@ -1,0 +1,8 @@
+Resolving SDK version '2.0.29' to 'sdk-releases-upstream-c2369dc425725fff86ba90a9007a4603ddf7941b-64bit'
+Installing SDK 'sdk-releases-upstream-c2369dc425725fff86ba90a9007a4603ddf7941b-64bit'..
+Installing tool 'node-14.15.5-64bit'..
+Downloading: C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/emsdk/zips/node-v14.15.5-win-x64.zip from https://storage.googleapis.com/webassembly/emscripten-releases-builds/deps/node-v14.15.5-win-x64.zip, 28587354 Bytes
+ [----------------------------------------------------------------------------]
+error: installation of 'node-14.15.5-64bit' failed, but no error was detected. Either something went wrong with the installation, or this may indicate an internal emsdk error.
+Unpacking 'C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/emsdk/zips/node-v14.15.5-win-x64.zip' to 'C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/emsdk/node/14.15.5_64bit'
+Done installing tool 'node-14.15.5-64bit'.

@@ -1,0 +1,19 @@
+[
+  {
+    "url": "https://sqlite.org/contrib/download/extension-functions.c?get=25",
+    "error": "HTTP Error 503: Server Overload"
+  },
+  {
+    "url": "https://sqlite.org/src/ext/contrib/download/extension-functions.c?get=25",
+    "error": "HTTP Error 503: Server Overload"
+  },
+  {
+    "url": "https://sqlite.org/src/ext/contrib/__download_/extension-functions.c",
+    "error": "HTTP Error 503: Server Overload"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dinedal/go-sqlite3-extension-functions/master/extension-functions.c",
+    "sha1": "c68fa706d6d9ff98608044c00212473f9c14892f",
+    "bytes": 52188
+  }
+]

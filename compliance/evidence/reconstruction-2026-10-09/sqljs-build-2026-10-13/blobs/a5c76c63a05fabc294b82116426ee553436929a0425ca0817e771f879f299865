@@ -1,0 +1,2 @@
+#!/bin/sh
+exec "C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/emsdk/python/3.9.2-1_64bit/python.exe" "C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/shims/sha3sum.py" "$@"

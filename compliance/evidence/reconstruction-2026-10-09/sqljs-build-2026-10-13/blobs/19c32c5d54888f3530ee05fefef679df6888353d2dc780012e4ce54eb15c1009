@@ -1,0 +1,9 @@
+{
+  "exit": 0,
+  "cwd": "C:\\Users\\Oluwa\\Documents\\ChatGPT\\Web Apps\\work\\ola-sqljs-20261013\\builds\\run-4",
+  "command": [
+    "C:/Users/Oluwa/DOCUME~1/ChatGPT/WEBAPP~1/work/OLA-SQ~1/tools/make/bin/make.exe",
+    "SHELL=C:/PROGRA~1/Git/bin/bash.exe",
+    "dist/worker.sql-wasm.js"
+  ]
+}

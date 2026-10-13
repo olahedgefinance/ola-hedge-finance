@@ -1,0 +1,1 @@
+emsdk 2.0.29 manifest expects Windows Node in node/14.15.5_64bit/bin but installs official archive at parent. Re-extracted identical archive members under bin. No installer/manifest/compiler source changed. Original failed log retained. Node version 14.15.5 unchanged.

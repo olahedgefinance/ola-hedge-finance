@@ -15,10 +15,10 @@
       "scope": "iOS/CocoaPods"
     },
     {
-      "finding": "Exact SQL.js 1.6.2 published artifact matched (WASM byte-identical, JS CRLF only), with MIT text and source commit/build recipe retained. Complete Corresponding Source, notices delivery and from-source rebuild remain unverified.",
+      "finding": "Exact SQL.js 1.6.2 npm/GitHub artifacts matched; source tag, SQLite 3.36.0 inputs and active Emscripten 2.0.29 recipe verified. Isolated Windows build succeeds but all outputs differ from publication. Contribution/runtime licence and attribution scope, complete release source/notices delivery and binary equivalence remain unverified.",
       "id": "web-sqljs-provenance",
       "releaseGate": "Web release",
-      "requiredAction": "Review retained exact-artifact provenance; verify complete source/build distribution and include notices in release output before shipping.",
+      "requiredAction": "Investigate the recorded mismatch using a pinned Linux 2.0.29 replay; verify contribution/runtime notice scope and final release source/notices delivery. Do not replace shipped binaries or close the gap based on smoke tests.",
       "scope": "Web"
     },
     {
@@ -9310,7 +9310,7 @@
       "ecosystem": "web-vendored",
       "id": "web:sql-wasm.js",
       "licenseDeclared": "MIT",
-      "licenseEvidence": "compliance/evidence/reconstruction-2026-10-09/sqljs/provenance.json; retained exact release LICENSE/AUTHORS; JS line endings only; no source rebuild or release clearance.",
+      "licenseEvidence": "compliance/evidence/reconstruction-2026-10-09/sqljs/provenance.json; compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/manifest.json; exact release source and 2.0.29 recipe verified; replay outputs differ; contribution/runtime notice scope and final release clearance remain open.",
       "modified": false,
       "name": "sql-wasm.js",
       "relationship": "bundled-asset",
@@ -9327,7 +9327,7 @@
       "ecosystem": "web-vendored",
       "id": "web:sql-wasm.wasm",
       "licenseDeclared": "MIT",
-      "licenseEvidence": "compliance/evidence/reconstruction-2026-10-09/sqljs/provenance.json; retained exact release LICENSE/AUTHORS; JS line endings only; no source rebuild or release clearance.",
+      "licenseEvidence": "compliance/evidence/reconstruction-2026-10-09/sqljs/provenance.json; compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/manifest.json; exact release source and 2.0.29 recipe verified; replay outputs differ; contribution/runtime notice scope and final release clearance remain open.",
       "modified": false,
       "name": "sql-wasm.wasm",
       "relationship": "bundled-asset",
@@ -9344,7 +9344,7 @@
       "ecosystem": "web-vendored",
       "id": "web:worker.sql-wasm.js",
       "licenseDeclared": "MIT",
-      "licenseEvidence": "compliance/evidence/reconstruction-2026-10-09/sqljs/provenance.json; retained exact release LICENSE/AUTHORS; JS line endings only; no source rebuild or release clearance.",
+      "licenseEvidence": "compliance/evidence/reconstruction-2026-10-09/sqljs/provenance.json; compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/manifest.json; exact release source and 2.0.29 recipe verified; replay outputs differ; contribution/runtime notice scope and final release clearance remain open.",
       "modified": false,
       "name": "worker.sql-wasm.js",
       "relationship": "bundled-asset",

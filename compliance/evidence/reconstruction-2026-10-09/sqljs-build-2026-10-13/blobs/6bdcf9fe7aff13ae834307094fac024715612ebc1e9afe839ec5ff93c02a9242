@@ -1,0 +1,20 @@
+Adding directories to PATH:
+PATH += C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\tools\emsdk
+PATH += C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\tools\emsdk\node\14.15.5_64bit\bin
+PATH += C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\tools\emsdk\upstream\emscripten
+
+Setting environment variables:
+PATH = C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\tools\emsdk;C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\tools\emsdk\node\14.15.5_64bit\bin;C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\tools\emsdk\upstream\emscripten;C:\Users\Oluwa\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\Oluwa\.codex\tmp\arg0\codex-arg0zPhfOc;C:\Users\Oluwa\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin;C:\Users\Oluwa\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin;C:\Users\Oluwa\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin;C:\Users\Oluwa\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Oluwa\AppData\Local\Microsoft\WindowsApps;C:\Users\Oluwa\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback;C:\Users\Oluwa\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin;C:\Users\Oluwa\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;C:\Users\Oluwa\AppData\Local\OpenAI\Codex\bin\9a7ba4b9ea0c44a3;C:\Users\Oluwa\AppData\Local\OpenAI\Codex\bin\2e5e00daee91c61d
+EMSDK = C:/Users/Oluwa/Documents/ChatGPT/Web Apps/work/ola-sqljs-20261013/tools/emsdk
+EM_CONFIG = C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\tools\emsdk\.emscripten
+EMSDK_NODE = C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\tools\emsdk\node\14.15.5_64bit\bin\node.exe
+EMSDK_PYTHON = C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\tools\emsdk\python\3.9.2-1_64bit\python.exe
+JAVA_HOME = C:\Users\Oluwa\Documents\ChatGPT\Web Apps\work\ola-sqljs-20261013\tools\emsdk\java\8.152_64bit
+The changes made to environment variables only apply to the currently running shell instance. Use the 'emsdk_env.bat' to re-enter this environment later, or if you'd like to permanently register this environment permanently, rerun this command with the option --permanent.
+Resolving SDK version '2.0.29' to 'sdk-releases-upstream-c2369dc425725fff86ba90a9007a4603ddf7941b-64bit'
+Setting the following tools as active:
+   node-14.15.5-64bit
+   python-3.9.2-1-64bit
+   java-8.152-64bit
+   releases-upstream-c2369dc425725fff86ba90a9007a4603ddf7941b-64bit
+

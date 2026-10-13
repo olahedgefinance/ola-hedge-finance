@@ -27,7 +27,8 @@
   ],
   "status": "verified-with-conditions",
   "limitations": [
-    "No from-source Emscripten build performed.",
-    "Exact source archive, SQLite contribution/licensing mapping, distribution notices and release-specific binary mapping remain required."
-  ]
+    "Emscripten 2.0.29 upstream-target build succeeded in isolated Windows tooling, but all replay outputs differ from publication; semantic equivalence not established.",
+    "Contribution licence/attribution, compiler runtime notices, and final release-specific source/notices delivery remain unverified."
+  ],
+  "buildReplay": "compliance/evidence/reconstruction-2026-10-09/sqljs-build-2026-10-13/manifest.json"
 }
