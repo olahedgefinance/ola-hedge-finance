@@ -1,0 +1,1699 @@
+{
+  "archives": {
+    "kotlinx-coroutines-core-1.7.3-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "commonMain/AbstractCoroutine.kt",
+          "bytes": 5448,
+          "sha256": "26fa13bdb7ce66d6b34ce7f752414bb7634496597736b65ceb7d5fbee2398189"
+        },
+        {
+          "path": "commonMain/Annotations.kt",
+          "bytes": 4495,
+          "sha256": "161d49361cffc1da524197bd67b82bd591a0f5a6e2846a95e174f6d1c8500dce"
+        },
+        {
+          "path": "commonMain/Await.kt",
+          "bytes": 6485,
+          "sha256": "016a1167574d63ec0c56977408d10f4401beef36bae18330eacdf35174e739a4"
+        },
+        {
+          "path": "commonMain/Builders.common.kt",
+          "bytes": 12313,
+          "sha256": "85de6585d384e38d1d56be95d9868613aba9801751333f0fd0a763b2433ce71c"
+        },
+        {
+          "path": "commonMain/CancellableContinuation.kt",
+          "bytes": 18535,
+          "sha256": "e923587f6bf40f980fd09d360bf726827b0a735408bc75c9e6decaabb64f7ee4"
+        },
+        {
+          "path": "commonMain/CancellableContinuationImpl.kt",
+          "bytes": 28543,
+          "sha256": "13ce43cebe1757b5fab26cccd026aff95e125a1395fb04b7c11a7f01fe2125d7"
+        },
+        {
+          "path": "commonMain/CloseableCoroutineDispatcher.kt",
+          "bytes": 1160,
+          "sha256": "bd5a060cd450444f8d4dfd6c4ddb00816ccbf258c6a3b943fa9494255d91a47a"
+        },
+        {
+          "path": "commonMain/CompletableDeferred.kt",
+          "bytes": 4358,
+          "sha256": "b7a167a6255e8f62d813030a44dd9fdc5ab93ce410a61bb3c5801fb8d118a36a"
+        },
+        {
+          "path": "commonMain/CompletableJob.kt",
+          "bytes": 2337,
+          "sha256": "28068e5bd1a1c9e42fa3cc540448d4ec25d7317577b9ef46ba0aa11b48c4bf36"
+        },
+        {
+          "path": "commonMain/CompletionHandler.common.kt",
+          "bytes": 2220,
+          "sha256": "7bd7744cef12952569b31b26ecfa624d20df0df5b0c88a602be2d09c0285be4f"
+        },
+        {
+          "path": "commonMain/CompletionState.kt",
+          "bytes": 2404,
+          "sha256": "f5f04bd3839e0dc819e4636970275f94e49561fff815e3ef3ee2d57ab8de11b7"
+        },
+        {
+          "path": "commonMain/CoroutineContext.common.kt",
+          "bytes": 1371,
+          "sha256": "7dea25fe91ec900ec86f1062388294789b68358909895537e1691892751c1d49"
+        },
+        {
+          "path": "commonMain/CoroutineDispatcher.kt",
+          "bytes": 10763,
+          "sha256": "6cec96f71762d56925b2464cb34d646107297443856b923326feeab9693d8d6b"
+        },
+        {
+          "path": "commonMain/CoroutineExceptionHandler.kt",
+          "bytes": 5343,
+          "sha256": "7772471425ea8139312708ff920675588a2c5f7a7d6c2b079abb973fbb7df9bf"
+        },
+        {
+          "path": "commonMain/CoroutineName.kt",
+          "bytes": 886,
+          "sha256": "dfb8d16de90a1d4f81021277171dac3495ac59d13a906c907211bce2f4da86dc"
+        },
+        {
+          "path": "commonMain/CoroutineScope.kt",
+          "bytes": 14077,
+          "sha256": "42cee64948f826a95641f569dd277a149b0602efe35145e211cd139b81da7318"
+        },
+        {
+          "path": "commonMain/CoroutineStart.kt",
+          "bytes": 5732,
+          "sha256": "8156fa1ef3ef70d5356f21bafabc4e0ec577ce1a96c8906a04d73437b6d0cffd"
+        },
+        {
+          "path": "commonMain/Debug.common.kt",
+          "bytes": 2054,
+          "sha256": "fe78452808b326934ac41ed5599cd468d7a709868f00010d975b96a9e3600074"
+        },
+        {
+          "path": "commonMain/Deferred.kt",
+          "bytes": 4585,
+          "sha256": "4a332fff019bba0d4eb48ae4a35455e74fecde0badc52faa82d639e8fbfa0870"
+        },
+        {
+          "path": "commonMain/Delay.kt",
+          "bytes": 6880,
+          "sha256": "0ce9ee8d4e404bdeb21dc1974f6a6343c32d9bf1acc1ef3860de0ea152eca354"
+        },
+        {
+          "path": "commonMain/Dispatchers.common.kt",
+          "bytes": 3955,
+          "sha256": "1767e1c0b55bf515a7cbd314d1df367d5af37b7c7ff721213a4187fd183939ac"
+        },
+        {
+          "path": "commonMain/EventLoop.common.kt",
+          "bytes": 21821,
+          "sha256": "f3dc43b05d5b61b355cf6548e0417fa73f96897866eb46a662f54562d6cd8564"
+        },
+        {
+          "path": "commonMain/Exceptions.common.kt",
+          "bytes": 1123,
+          "sha256": "6d3378380a3c546b66f615f004953335720e0b1b1e89e22b3d0c2dd001906706"
+        },
+        {
+          "path": "commonMain/Job.kt",
+          "bytes": 32032,
+          "sha256": "0d61b05c03c364ddb345926677f75811445ddcd340ef1cc0bbc64ff3f88869d7"
+        },
+        {
+          "path": "commonMain/JobSupport.kt",
+          "bytes": 67944,
+          "sha256": "283cf2e5617c2d6510d81b9c1fd923e4ea4aa03db1ad1c4bb026a81eecabc36b"
+        },
+        {
+          "path": "commonMain/MainCoroutineDispatcher.kt",
+          "bytes": 3574,
+          "sha256": "fca3cadea810a0b465c02879ddadb812cfe420057a3a3bf393f8a70b16c2c24a"
+        },
+        {
+          "path": "commonMain/NonCancellable.kt",
+          "bytes": 5488,
+          "sha256": "50293c4f9fda4aaec4bd5d20120507fb5b39ac5fe460a6b52358c95dfa1ed51d"
+        },
+        {
+          "path": "commonMain/Runnable.common.kt",
+          "bytes": 440,
+          "sha256": "f94960cdac065ce723fff6a83adf1dbdf1df9f44b14de7a53d59cac1b511e8f3"
+        },
+        {
+          "path": "commonMain/SchedulerTask.common.kt",
+          "bytes": 480,
+          "sha256": "a2dff7a82a55143892bc020e7597478cabd5cdbd0e2203793474c3f5944a93b8"
+        },
+        {
+          "path": "commonMain/Supervisor.kt",
+          "bytes": 3509,
+          "sha256": "8350b4846a3b47189c1b9bcbdd2ecc4daca0efd0e2f45be097c57d489b867f8c"
+        },
+        {
+          "path": "commonMain/Timeout.kt",
+          "bytes": 9412,
+          "sha256": "f15aa3639b8745a1fff0fd2210b65b82e59e36d64f92564ec075aaa877484fc9"
+        },
+        {
+          "path": "commonMain/Unconfined.kt",
+          "bytes": 1699,
+          "sha256": "edf493eb13853a3cfee9eb0b98837b0f3027b73956ab0bf6b87d076b8eb4a52d"
+        },
+        {
+          "path": "commonMain/Waiter.kt",
+          "bytes": 738,
+          "sha256": "1ba999962a8e2571e02925b35323fee501993f9d597082d9a85d5ab6675cef42"
+        },
+        {
+          "path": "commonMain/Yield.kt",
+          "bytes": 2637,
+          "sha256": "f68f916f1f1918426c7c0a10f3708e08c3c798546ca33e3d54a21db2cd30ee01"
+        },
+        {
+          "path": "commonMain/channels/Broadcast.kt",
+          "bytes": 9199,
+          "sha256": "5c5c435b25eb0563249b8a28a79d6d1aca9418ae542ebfc9fe980c8364f36e38"
+        },
+        {
+          "path": "commonMain/channels/BroadcastChannel.kt",
+          "bytes": 19757,
+          "sha256": "e4d303eb7fece81662dcbd6d2f057728a62238d0c9ffb5d21ef011fb7acd5fea"
+        },
+        {
+          "path": "commonMain/channels/BufferOverflow.kt",
+          "bytes": 1268,
+          "sha256": "7d231692e449522eabcde5c493746cae47f6a14258efb5133f7c78c62322a698"
+        },
+        {
+          "path": "commonMain/channels/BufferedChannel.kt",
+          "bytes": 149938,
+          "sha256": "cfe9a5fa4f40f1d11d85691218f22c67b989298c130d2f28ad30987f4b1f8739"
+        },
+        {
+          "path": "commonMain/channels/Channel.kt",
+          "bytes": 42765,
+          "sha256": "bcb5f90cfc97e2a5ad38efb3f0fe99e524951c57ce785d3682864291996a8b9a"
+        },
+        {
+          "path": "commonMain/channels/ChannelCoroutine.kt",
+          "bytes": 1452,
+          "sha256": "4a9dad82f7cbf6fba8b509820975982b2103be515007949b76949a257dac46a9"
+        },
+        {
+          "path": "commonMain/channels/Channels.common.kt",
+          "bytes": 4850,
+          "sha256": "5c7ef0bf2c77fcafbc58c420d5ad7fb126f173e80bf66ecdd856412396ac5792"
+        },
+        {
+          "path": "commonMain/channels/ConflatedBufferedChannel.kt",
+          "bytes": 5078,
+          "sha256": "78d04481bf6c4ad84025106462e976cfbb6f368a5316fcb12335cc0eee0bdc73"
+        },
+        {
+          "path": "commonMain/channels/Deprecated.kt",
+          "bytes": 15680,
+          "sha256": "545e5eeafb3dcc678dece7c47c557f8c98449df8c4385a343a814ffa7b01f455"
+        },
+        {
+          "path": "commonMain/channels/Produce.kt",
+          "bytes": 6683,
+          "sha256": "0a7ee6b0f7d5673bc496c4f314b29c19b3e50e8666d286186d0f92014052e2c6"
+        },
+        {
+          "path": "commonMain/flow/Builders.kt",
+          "bytes": 12631,
+          "sha256": "a19183348885ca3a51d7a95ac83c2256466640dd00dab7714c5c41482480e957"
+        },
+        {
+          "path": "commonMain/flow/Channels.kt",
+          "bytes": 7640,
+          "sha256": "7266aa62dea14c02b220db16c2cb35daba5b503ea40f3d5a96fca2aa01b2a416"
+        },
+        {
+          "path": "commonMain/flow/Flow.kt",
+          "bytes": 12425,
+          "sha256": "ad97b76752251b809ca6778468a130e55eec86b5cf1701e3b021dbb1bf2ef563"
+        },
+        {
+          "path": "commonMain/flow/FlowCollector.kt",
+          "bytes": 1060,
+          "sha256": "371cd920a0d121e697e13fe50028fa38d7d7cca3d04d1ab804ce4e0e8867ac70"
+        },
+        {
+          "path": "commonMain/flow/Migration.kt",
+          "bytes": 17494,
+          "sha256": "d76b0df734ef213c682b4595108bd6c57c22c6e12f2b486d7e5a5e7e36900ce3"
+        },
+        {
+          "path": "commonMain/flow/SharedFlow.kt",
+          "bytes": 35906,
+          "sha256": "3cb09ec51ef3c7fa10e722c9103aa3b84a34f09f8967986a868dea0548bd31ce"
+        },
+        {
+          "path": "commonMain/flow/SharingStarted.kt",
+          "bytes": 9239,
+          "sha256": "99bb925a15797d7e18a31962d091bd47a0a3272d2060f07ab20fc7a13ac0a437"
+        },
+        {
+          "path": "commonMain/flow/StateFlow.kt",
+          "bytes": 19152,
+          "sha256": "e78f7dac064c069d333939d0f2c59d4ba6bf2e89bfe26d019a5bd0ccc4caed61"
+        },
+        {
+          "path": "commonMain/flow/internal/AbstractSharedFlow.kt",
+          "bytes": 5166,
+          "sha256": "7807b225c4f1bfc890dfe0f100fe651acfe960393366ecfa82e9a224857027ac"
+        },
+        {
+          "path": "commonMain/flow/internal/ChannelFlow.kt",
+          "bytes": 11382,
+          "sha256": "0aa252ff6b6ad8102775d84d009d4c9fbd6d8015d2846c798b7a8de53786f361"
+        },
+        {
+          "path": "commonMain/flow/internal/Combine.kt",
+          "bytes": 6137,
+          "sha256": "f036b4fcba165a7471c284dcefdef8bf51cc19ada058c41183eb1af6266933d8"
+        },
+        {
+          "path": "commonMain/flow/internal/FlowCoroutine.kt",
+          "bytes": 1969,
+          "sha256": "d2caef0cce7ea1e9b225c25fe97611cfee0448842f5b6ddc6f072090d5f4c10d"
+        },
+        {
+          "path": "commonMain/flow/internal/FlowExceptions.common.kt",
+          "bytes": 1160,
+          "sha256": "3577540bef59de0a5ce64859d283f602e3a24769cf35497e9c337274c232999a"
+        },
+        {
+          "path": "commonMain/flow/internal/Merge.kt",
+          "bytes": 4009,
+          "sha256": "7a91b90fae951ea7ab19c78476cf05189e193db9f47476a00654540a3cf698e1"
+        },
+        {
+          "path": "commonMain/flow/internal/NopCollector.kt",
+          "bytes": 317,
+          "sha256": "4b572d317a2801b07061ad20b62e8e5b35bf71da7b1f8d35eadfd972d9cdadb4"
+        },
+        {
+          "path": "commonMain/flow/internal/NullSurrogate.kt",
+          "bytes": 766,
+          "sha256": "108802a8bbe988491d6941700a165add1a36e25c4e982aab9394a1beec3ff4aa"
+        },
+        {
+          "path": "commonMain/flow/internal/SafeCollector.common.kt",
+          "bytes": 4110,
+          "sha256": "e6eb70640cf8b7dc470c04a4ab28eac3653e89818ad24dc432eb0137c709545a"
+        },
+        {
+          "path": "commonMain/flow/internal/SendingCollector.kt",
+          "bytes": 566,
+          "sha256": "23964ddd3ba27dbe5ba72a1270971767b7174fc04b2cb28ce3fed830458e70a1"
+        },
+        {
+          "path": "commonMain/flow/operators/Context.kt",
+          "bytes": 12637,
+          "sha256": "ee7c9ffd246555dc2a5a0b10d93364d1ea4855d9e832b60df8240a770bea9b17"
+        },
+        {
+          "path": "commonMain/flow/operators/Delay.kt",
+          "bytes": 11688,
+          "sha256": "0f2d7ce1096c378288535edd6a9cd699a4920ee4d60ba18e0c45ee04d6d3ae87"
+        },
+        {
+          "path": "commonMain/flow/operators/Distinct.kt",
+          "bytes": 3267,
+          "sha256": "cc7aae804f7bdf7ab8f006e676fdbe7da5fc02c1d52d7799adca2b537d24ed06"
+        },
+        {
+          "path": "commonMain/flow/operators/Emitters.kt",
+          "bytes": 7015,
+          "sha256": "904d7bad11165448835fe36099031c586f71e7798182b551db08198ebbdb4d2a"
+        },
+        {
+          "path": "commonMain/flow/operators/Errors.kt",
+          "bytes": 8555,
+          "sha256": "f72b2fff91d2ea3a2aa4fabd696ad31c9d3ff05c4d7cce626256c6e3ddeb5003"
+        },
+        {
+          "path": "commonMain/flow/operators/Limit.kt",
+          "bytes": 4910,
+          "sha256": "48181087aaef51c2b72ad85ca6e501fb8419503209b3a270c144d37b0080d4fa"
+        },
+        {
+          "path": "commonMain/flow/operators/Lint.kt",
+          "bytes": 6404,
+          "sha256": "850f47494ccdd12fcc65c0022a94952584648149404f71e34dd7ec61bbbfca0b"
+        },
+        {
+          "path": "commonMain/flow/operators/Merge.kt",
+          "bytes": 8551,
+          "sha256": "01f40c38044da1ef78655418362ea2ebbae6d563cf886100f86c3dec99df4344"
+        },
+        {
+          "path": "commonMain/flow/operators/Share.kt",
+          "bytes": 19767,
+          "sha256": "e8a72302e5ce5dcc1433505e2d0e7d1657a038252e61809b982064978e11a4df"
+        },
+        {
+          "path": "commonMain/flow/operators/Transform.kt",
+          "bytes": 4961,
+          "sha256": "61e0d1f5697a4691d3d0cef7f2395f10b75d303b1bef3d55087d837ceb8aaae8"
+        },
+        {
+          "path": "commonMain/flow/operators/Zip.kt",
+          "bytes": 11618,
+          "sha256": "87edfda4b4d47d568f27e5118ce24baa361db19652a0a149ab5ec9eba33cbc29"
+        },
+        {
+          "path": "commonMain/flow/terminal/Collect.kt",
+          "bytes": 4147,
+          "sha256": "fb095af7526d7962ac7813dd4239a8671ec85eb85648be1620d1912c1a097840"
+        },
+        {
+          "path": "commonMain/flow/terminal/Collection.kt",
+          "bytes": 788,
+          "sha256": "d90b5bcf90beb30402cf5c8619fb4f1fc8e4b4f8837b2448b2bb1daaedc6e0c5"
+        },
+        {
+          "path": "commonMain/flow/terminal/Count.kt",
+          "bytes": 648,
+          "sha256": "06a7e41644bb110300f59095f373ff0774cb41b2084ad318e26d2a332d44adb5"
+        },
+        {
+          "path": "commonMain/flow/terminal/Reduce.kt",
+          "bytes": 5011,
+          "sha256": "c05d7000fed339b95525b8ccf8a55335ccef283373ecd9b4f227ee5c1949c092"
+        },
+        {
+          "path": "commonMain/internal/Atomic.kt",
+          "bytes": 2613,
+          "sha256": "6b002f86907835f79d609224b1ad0ce6d207c84a7c92a4d2fc0b764d73257f68"
+        },
+        {
+          "path": "commonMain/internal/Concurrent.common.kt",
+          "bytes": 380,
+          "sha256": "d6678e0d59dd34ad934839e0f32983b976c0d698264a0f893725b617002f8f97"
+        },
+        {
+          "path": "commonMain/internal/ConcurrentLinkedList.kt",
+          "bytes": 10810,
+          "sha256": "b1387ff148b926f32153fdccc5ba73cf231d37a34b04c366d9c978a67c29d45a"
+        },
+        {
+          "path": "commonMain/internal/CoroutineExceptionHandlerImpl.common.kt",
+          "bytes": 3046,
+          "sha256": "8641a5856f5a1e11aa037a8ca1cb89036a5bce284cf36f255ef7255c1ecb8957"
+        },
+        {
+          "path": "commonMain/internal/DispatchedContinuation.kt",
+          "bytes": 12500,
+          "sha256": "aeb3bb22f3d9f06054453469e51f62673d17034a0f322605e368a20dfdf5e065"
+        },
+        {
+          "path": "commonMain/internal/DispatchedTask.kt",
+          "bytes": 9778,
+          "sha256": "553acd45e7cd7b03c44ea6267e8b8387d8b3ff1927aae85ab3053e5330f01d16"
+        },
+        {
+          "path": "commonMain/internal/InlineList.kt",
+          "bytes": 1380,
+          "sha256": "7c86060939ec40c0cf82c56cdf0423cee0003f3fbbdb2d858765056b2051fb3b"
+        },
+        {
+          "path": "commonMain/internal/InternalAnnotations.common.kt",
+          "bytes": 501,
+          "sha256": "9a3d21e5bbd9ffbffe08e12d50ccd303e109af6d1a585a5159b903663f5cb2a7"
+        },
+        {
+          "path": "commonMain/internal/LimitedDispatcher.kt",
+          "bytes": 5376,
+          "sha256": "a7c74b9d833c64815c56cf3ff27bd969289ebe6a91c12838c3c5f5534c1f7d8a"
+        },
+        {
+          "path": "commonMain/internal/LocalAtomics.common.kt",
+          "bytes": 545,
+          "sha256": "a0019301266a63900196692490f8c5312d7335af64f0ff715c4f2b4f214a7c3f"
+        },
+        {
+          "path": "commonMain/internal/LockFreeLinkedList.common.kt",
+          "bytes": 1092,
+          "sha256": "944f7fac65e828cc806f9d97a99cdcac9b4002a5fd981cf21c98c901d00756b9"
+        },
+        {
+          "path": "commonMain/internal/LockFreeTaskQueue.kt",
+          "bytes": 13602,
+          "sha256": "d5852ce36d55b424f32f7e8560c4f4b91b9cba8578606acdb3452fe3ce078ad9"
+        },
+        {
+          "path": "commonMain/internal/MainDispatcherFactory.kt",
+          "bytes": 1116,
+          "sha256": "98bc1875679823c2659739bdfa058c18919d34795d834c8843aa80dd55a56f38"
+        },
+        {
+          "path": "commonMain/internal/OnUndeliveredElement.kt",
+          "bytes": 1720,
+          "sha256": "a229d87cb3b492749e7529c3df843e4dce13ee1c3d6c1adea90cc18b4817f8a0"
+        },
+        {
+          "path": "commonMain/internal/ProbesSupport.common.kt",
+          "bytes": 275,
+          "sha256": "bf5ca50245b4234350966c409bb5880576cdbcbd55f33852512145f249780aa2"
+        },
+        {
+          "path": "commonMain/internal/Scopes.kt",
+          "bytes": 1499,
+          "sha256": "5a83c7fbca802ce97bfc0282552904fc0ef3e8db51374568ff4ec1ae073e668a"
+        },
+        {
+          "path": "commonMain/internal/StackTraceRecovery.common.kt",
+          "bytes": 1938,
+          "sha256": "acb5dd912b9800978936f9acac26cad5d214c7b99f70c617c9c7c207cb931f06"
+        },
+        {
+          "path": "commonMain/internal/Symbol.kt",
+          "bytes": 593,
+          "sha256": "2d44b1b63b15256ae51bf5b6095863c1b6e55db0004e57fece83a33d77bda540"
+        },
+        {
+          "path": "commonMain/internal/Synchronized.common.kt",
+          "bytes": 940,
+          "sha256": "6fc712609ed1d453ac1863aaa106ffaf7ccdadf5efb5baacb591690e7f6d9c44"
+        },
+        {
+          "path": "commonMain/internal/SystemProps.common.kt",
+          "bytes": 2882,
+          "sha256": "5f65d948ee3d6add1d162019b7164edcfb278b72b97f2ce40946efb64c88f0c5"
+        },
+        {
+          "path": "commonMain/internal/ThreadContext.common.kt",
+          "bytes": 250,
+          "sha256": "a447ada15fc6cdcab47ab517fc5663e82c753452960c377859363bfcf893d574"
+        },
+        {
+          "path": "commonMain/internal/ThreadLocal.common.kt",
+          "bytes": 576,
+          "sha256": "97775505b0566e3dd5e57cc6e97d0cb3e177efd0e3e5feb923b2190aea21103f"
+        },
+        {
+          "path": "commonMain/internal/ThreadSafeHeap.kt",
+          "bytes": 4251,
+          "sha256": "8601fd9c855c39182846ae9c6b58e197c91c15026c5d9db9e9499bc9c58a5029"
+        },
+        {
+          "path": "commonMain/intrinsics/Cancellable.kt",
+          "bytes": 2728,
+          "sha256": "84842684fdd4c573554a22fa7713be1be3043c0f0d5d43e952c5a8be866bd448"
+        },
+        {
+          "path": "commonMain/intrinsics/Undispatched.kt",
+          "bytes": 5147,
+          "sha256": "25ca42d8dc35299470446516bfb1e53d523b02e700e94c9491b8fa61e93dca2d"
+        },
+        {
+          "path": "commonMain/selects/OnTimeout.kt",
+          "bytes": 2411,
+          "sha256": "ab8d62abfdb5ca9c7dc2c71d415bdbdb2615b1c39b5630aad8ce740b6cd4fdb5"
+        },
+        {
+          "path": "commonMain/selects/Select.kt",
+          "bytes": 44908,
+          "sha256": "d680e7286f1d70aeb968f473e12ba48c48e01da4de5084938f5e26fb90d500cf"
+        },
+        {
+          "path": "commonMain/selects/SelectOld.kt",
+          "bytes": 5453,
+          "sha256": "022c2c67716e13bf22abde221ad8f267f0e427e9e13b4237a9ede9871746b790"
+        },
+        {
+          "path": "commonMain/selects/SelectUnbiased.kt",
+          "bytes": 2559,
+          "sha256": "9cf743e9a28152e285c2417beaf167b54e2e72811f67fae5b20c7b951fc6eb3e"
+        },
+        {
+          "path": "commonMain/selects/WhileSelect.kt",
+          "bytes": 702,
+          "sha256": "b74b52e767f7b6c17a3bea89e2223110b87ec51de0c98226e505ad99004de29b"
+        },
+        {
+          "path": "commonMain/sync/Mutex.kt",
+          "bytes": 13018,
+          "sha256": "10037e7065d1473182cd3c9bd9198c4841e8a42fc6c28e7cf15a86d7cc49f797"
+        },
+        {
+          "path": "commonMain/sync/Semaphore.kt",
+          "bytes": 17176,
+          "sha256": "021a0b05045ca7be9c2135aafe3ba56815f8f82141ae96b55e58ce3eff41680c"
+        },
+        {
+          "path": "concurrentMain/Builders.concurrent.kt",
+          "bytes": 581,
+          "sha256": "d2f7040085846f203e27cc254ce8d8651190c9b28339ba7887c32206b6a10523"
+        },
+        {
+          "path": "concurrentMain/CompletionHandler.kt",
+          "bytes": 815,
+          "sha256": "3ee10d34486e17aacaa0e75f530496d7d8f1625f2a77812faa99c1b9ebfe924c"
+        },
+        {
+          "path": "concurrentMain/Dispatchers.kt",
+          "bytes": 1641,
+          "sha256": "6c49b75cd56e1d3703b09086133fb09c790f76a003e55a7a24b911af686b4fd6"
+        },
+        {
+          "path": "concurrentMain/MultithreadedDispatchers.common.kt",
+          "bytes": 1995,
+          "sha256": "af388156df0cb0fe31b09d6b61fc6978e87f3487f52e1f655cf75f691acb3837"
+        },
+        {
+          "path": "concurrentMain/channels/Channels.kt",
+          "bytes": 2157,
+          "sha256": "23808d3e3bc39133d63110fa43d3de30825357f7d7b728aedaba36a3d61d12aa"
+        },
+        {
+          "path": "concurrentMain/internal/LockFreeLinkedList.kt",
+          "bytes": 14569,
+          "sha256": "d1dba440ffa403a377b1a011089ce8b6245b95fb91852bf192da07647a4b9b29"
+        },
+        {
+          "path": "concurrentMain/internal/OnDemandAllocatingPool.kt",
+          "bytes": 3491,
+          "sha256": "f8ccc99523a3a0845cbdc4cf4b652dea17f139a89a493a6264b58e2654b407d9"
+        },
+        {
+          "path": "nativeDarwinMain/Dispatchers.kt",
+          "bytes": 3619,
+          "sha256": "29691b11b1404cb5f52e37ff726d617929cc91879ecd06acb93f078dcfbd0bb2"
+        },
+        {
+          "path": "nativeDarwinMain/WorkerMain.kt",
+          "bytes": 271,
+          "sha256": "d5d35cf8c362c26b7c7e9eaea7adda00324d3276cdafd3d7a21749b0b97302fe"
+        },
+        {
+          "path": "nativeMain/Builders.kt",
+          "bytes": 5770,
+          "sha256": "8d4c7a4b23b083c92d9f243b14cbf4bd121aff9a24913ad12d14822a7b01b688"
+        },
+        {
+          "path": "nativeMain/CloseableCoroutineDispatcher.kt",
+          "bytes": 285,
+          "sha256": "d59d3b24bb0c20d044eeb4cecea65b1cb06ca32ea2ddffde7afd18ce0d8ed275"
+        },
+        {
+          "path": "nativeMain/CoroutineContext.kt",
+          "bytes": 2284,
+          "sha256": "48d2733b702c88a2d4102d6f15e42afeca4726b2b4f591bdf5be545ac31916f1"
+        },
+        {
+          "path": "nativeMain/Debug.kt",
+          "bytes": 473,
+          "sha256": "764bb2e09d5ad73a443d0f27994003a36961ddd633d4033c69c7bdb900cd83e6"
+        },
+        {
+          "path": "nativeMain/Dispatchers.kt",
+          "bytes": 1920,
+          "sha256": "1373359cb68f10545bafb9bfb94030fe215245c36461a551650c2ae5916a42ea"
+        },
+        {
+          "path": "nativeMain/EventLoop.kt",
+          "bytes": 1010,
+          "sha256": "28799a73c261ab8fd129b2268ef13c57c018a588b4fa915ff9169d5a4bd90815"
+        },
+        {
+          "path": "nativeMain/Exceptions.kt",
+          "bytes": 1714,
+          "sha256": "0c8b50144f46b7fabefd367db0cd2b3a2d958933e7bb5460689436f1eea570b9"
+        },
+        {
+          "path": "nativeMain/MultithreadedDispatchers.kt",
+          "bytes": 6875,
+          "sha256": "6080c9dd6145be24f760778f4ebb6dc170aab77801e2f782af00e0ac4210763b"
+        },
+        {
+          "path": "nativeMain/Runnable.kt",
+          "bytes": 538,
+          "sha256": "f805ddbcf25f02cd7448b48881d0dfc0e3318aed25016fad4aa7e9f5658b928d"
+        },
+        {
+          "path": "nativeMain/SchedulerTask.kt",
+          "bytes": 469,
+          "sha256": "de88948c2bc0c4da535f8ea8b0ab714aba1b467040a1a364031fb241e5098fa6"
+        },
+        {
+          "path": "nativeMain/WorkerMain.native.kt",
+          "bytes": 250,
+          "sha256": "2c26232e4419e3de6be2c8ceb996d1d23b7c8f241cf28f77bdfcb3731301ad8a"
+        },
+        {
+          "path": "nativeMain/flow/internal/FlowExceptions.kt",
+          "bytes": 499,
+          "sha256": "da4c400bcdaa00a90125f0c5b058cd2d216033865023415618be8553451272a1"
+        },
+        {
+          "path": "nativeMain/flow/internal/SafeCollector.kt",
+          "bytes": 1071,
+          "sha256": "19d184a55f1b735b59eea614cbca12534c3acb292ce605fd315d441ef5249ef2"
+        },
+        {
+          "path": "nativeMain/internal/Concurrent.kt",
+          "bytes": 938,
+          "sha256": "f7bd20dc65abe409749ea8d19416aabd89aa88c7c2845c5efb9f4158ac4f8c5d"
+        },
+        {
+          "path": "nativeMain/internal/CopyOnWriteList.kt",
+          "bytes": 2804,
+          "sha256": "0aa07b2d5bbc26ff7a1938b0c4619678949e9982e48908bd0bbd62c4647cab0b"
+        },
+        {
+          "path": "nativeMain/internal/CoroutineExceptionHandlerImpl.kt",
+          "bytes": 1000,
+          "sha256": "ca726b60fbf34d9ed2e4c5d030e1c5307239086a612e39e66ab215aa2b15d243"
+        },
+        {
+          "path": "nativeMain/internal/LocalAtomics.kt",
+          "bytes": 456,
+          "sha256": "954d2cf60fee7644fc83b5b4f3018e7c279993616539d6d6df3996bcda520c50"
+        },
+        {
+          "path": "nativeMain/internal/ProbesSupport.kt",
+          "bytes": 319,
+          "sha256": "612d60d19258b85f11dfbbb1bd7bd6c1fdc357e881cf49d3ebff609053ea8ac7"
+        },
+        {
+          "path": "nativeMain/internal/StackTraceRecovery.kt",
+          "bytes": 899,
+          "sha256": "edb688a2f56223d8902839d0e2a59a65afb7c2763d955849b89ecc2e60370030"
+        },
+        {
+          "path": "nativeMain/internal/Synchronized.kt",
+          "bytes": 654,
+          "sha256": "39c0de005d1ab0afa996f3f75e0063757da83bdffd11419ec6db91f06e6802a2"
+        },
+        {
+          "path": "nativeMain/internal/SystemProps.kt",
+          "bytes": 217,
+          "sha256": "e0a3c70f46dc1b263c9ddd3439be134bdcddc79fb421f8114f45da87a478d032"
+        },
+        {
+          "path": "nativeMain/internal/ThreadContext.kt",
+          "bytes": 254,
+          "sha256": "92e24c9f244a5382fdb336f422a24c124b7c5f050a22e943e61a391c7fdcc99d"
+        },
+        {
+          "path": "nativeMain/internal/ThreadLocal.kt",
+          "bytes": 539,
+          "sha256": "d13f188302c537acfe577123a1d54dbc22cbc9e8f22644f08b3b5207e9f87c05"
+        },
+        {
+          "path": "nativeOtherMain/Dispatchers.kt",
+          "bytes": 1482,
+          "sha256": "e71bdf768e5461e29d8c139614521a942d2e03e6c936df85c1c67c92f058d364"
+        },
+        {
+          "path": "nativeOtherMain/WorkerMain.kt",
+          "bytes": 206,
+          "sha256": "177c9a5112dfd3bcfd673cde2df264755aa5708575fe3286dff811eb0e5cf2ee"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "commonMain/AbstractCoroutine.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/Annotations.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/Await.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/Builders.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/CancellableContinuation.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/CancellableContinuationImpl.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/CloseableCoroutineDispatcher.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/CompletableDeferred.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/CompletableJob.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/CompletionHandler.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/CompletionState.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/CoroutineContext.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/CoroutineDispatcher.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/CoroutineExceptionHandler.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/CoroutineName.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/CoroutineScope.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/CoroutineStart.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/Debug.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/Deferred.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/Delay.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/Dispatchers.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/EventLoop.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/Exceptions.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/Job.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/JobSupport.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/MainCoroutineDispatcher.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/NonCancellable.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/Runnable.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/SchedulerTask.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/Supervisor.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/Timeout.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/Unconfined.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/Waiter.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/Yield.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/channels/Broadcast.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/channels/BroadcastChannel.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/channels/BufferOverflow.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/channels/BufferedChannel.kt",
+          "apacheHeader": false,
+          "boost": false
+        },
+        {
+          "path": "commonMain/channels/Channel.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/channels/ChannelCoroutine.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/channels/Channels.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/channels/ConflatedBufferedChannel.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/channels/Deprecated.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/channels/Produce.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/Builders.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/Channels.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/Flow.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/FlowCollector.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/Migration.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/SharedFlow.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/SharingStarted.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/StateFlow.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/internal/AbstractSharedFlow.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/internal/ChannelFlow.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/internal/Combine.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/internal/FlowCoroutine.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/internal/FlowExceptions.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/internal/Merge.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/internal/NopCollector.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/internal/NullSurrogate.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/internal/SafeCollector.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/internal/SendingCollector.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/operators/Context.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/operators/Delay.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/operators/Distinct.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/operators/Emitters.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/operators/Errors.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/operators/Limit.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/operators/Lint.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/operators/Merge.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/operators/Share.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/operators/Transform.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/operators/Zip.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/terminal/Collect.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/terminal/Collection.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/terminal/Count.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/flow/terminal/Reduce.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/Atomic.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/Concurrent.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/ConcurrentLinkedList.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/CoroutineExceptionHandlerImpl.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/DispatchedContinuation.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/DispatchedTask.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/InlineList.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/InternalAnnotations.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/LimitedDispatcher.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/LocalAtomics.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/LockFreeLinkedList.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/LockFreeTaskQueue.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/MainDispatcherFactory.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/OnUndeliveredElement.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/ProbesSupport.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/Scopes.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/StackTraceRecovery.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/Symbol.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/Synchronized.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/SystemProps.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/ThreadContext.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/ThreadLocal.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/internal/ThreadSafeHeap.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/intrinsics/Cancellable.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/intrinsics/Undispatched.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/selects/OnTimeout.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/selects/Select.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/selects/SelectOld.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/selects/SelectUnbiased.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/selects/WhileSelect.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/sync/Mutex.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "commonMain/sync/Semaphore.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "concurrentMain/Builders.concurrent.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "concurrentMain/CompletionHandler.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "concurrentMain/Dispatchers.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "concurrentMain/MultithreadedDispatchers.common.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "concurrentMain/channels/Channels.kt",
+          "apacheHeader": false,
+          "boost": false
+        },
+        {
+          "path": "concurrentMain/internal/LockFreeLinkedList.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "concurrentMain/internal/OnDemandAllocatingPool.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeDarwinMain/Dispatchers.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeDarwinMain/WorkerMain.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/Builders.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/CloseableCoroutineDispatcher.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/CoroutineContext.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/Debug.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/Dispatchers.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/EventLoop.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/Exceptions.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/MultithreadedDispatchers.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/Runnable.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/SchedulerTask.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/WorkerMain.native.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/flow/internal/FlowExceptions.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/flow/internal/SafeCollector.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/internal/Concurrent.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/internal/CopyOnWriteList.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/internal/CoroutineExceptionHandlerImpl.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/internal/LocalAtomics.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/internal/ProbesSupport.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/internal/StackTraceRecovery.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/internal/Synchronized.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/internal/SystemProps.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/internal/ThreadContext.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeMain/internal/ThreadLocal.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeOtherMain/Dispatchers.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "nativeOtherMain/WorkerMain.kt",
+          "apacheHeader": true,
+          "boost": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": []
+    },
+    "kotlinx-coroutines-core-1.7.3.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 110,
+          "sha256": "b3ffdce82ef9ba13cc797e075236289a314d271d51ca573f06e7a6058c72f096"
+        },
+        {
+          "path": "META-INF/kotlin-project-structure-metadata.json",
+          "bytes": 6918,
+          "sha256": "601a8f9ea64985d9b4792e7401f17e25466fb6593e1f0dc05b0a07310923d8ec"
+        },
+        {
+          "path": "commonMain/default/linkdata/module",
+          "bytes": 281,
+          "sha256": "cc8e7a568b82fec3e54b9b89dd4e53a3a92cf04cf80d413bf719ece59157c527"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines.channels/0_channels.knm",
+          "bytes": 16293,
+          "sha256": "11b77aa63b87b370ebe495ffed8e36ac31d74341295bd0c17a9aa8890cc96018"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines.channels/1_channels.knm",
+          "bytes": 8985,
+          "sha256": "7c5a79cc8414485c54d5cec6c32690b7945b0c5c5b6c39c8302bfb64ae31a139"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines.flow.internal/0_internal.knm",
+          "bytes": 5284,
+          "sha256": "2a3cb65d8211772cb69d7117febe6b40e9e533c4111dd2e9f728e4b97e0ccee4"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines.flow.internal/1_internal.knm",
+          "bytes": 1975,
+          "sha256": "9ba5c864d595d76260a50d7f7dc2dea1bc625fdab64f1e8a8849f88cbd74c761"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines.flow/0_flow.knm",
+          "bytes": 8693,
+          "sha256": "9e5cc3675a519f61883136607b06e736b672f2c5d97422d222a9a5929cb1de5b"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines.flow/1_flow.knm",
+          "bytes": 12942,
+          "sha256": "28f5a1eabb2725f314bc134b8e7d37d6e8131728a0d6db785263eda67816f758"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines.flow/2_flow.knm",
+          "bytes": 9138,
+          "sha256": "fbe40f758499e0b2737ce8cf2aae1243e0e941ae3d8c1638ccdf043b299423ed"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines.internal/0_internal.knm",
+          "bytes": 10331,
+          "sha256": "44227284e598130d90bfbd248d49755c44033074e0445814102615c6b4ccea17"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines.internal/1_internal.knm",
+          "bytes": 3604,
+          "sha256": "26ebd89b4ad8a95d789d57800ea213f7b463bf19f2cbfb235def796b79a9f5d3"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines.intrinsics/0_intrinsics.knm",
+          "bytes": 1319,
+          "sha256": "a79fd9b5e5d1c479879e125679382c8881110c38301e7a438d5fa12a7d73f171"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines.selects/0_selects.knm",
+          "bytes": 6805,
+          "sha256": "543c0a8242c5c8262f4e0770d16dc9871109aa5903de5d45968ab373204cf705"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines.selects/1_selects.knm",
+          "bytes": 1880,
+          "sha256": "2d96d0140f2dfbdb7cd30ce17deec0389e20cbdec92eed3cbf88706902f4a36c"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines.sync/0_sync.knm",
+          "bytes": 4532,
+          "sha256": "5a36ae6dd63c7ad84cdc1d1f2d663e6b51758efc570a2027e44bd78be9c6ce46"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines.sync/1_sync.knm",
+          "bytes": 1053,
+          "sha256": "077ff3d8c40db9bbdc477418aa5ad387daa525046b1579c6ffb7197149188d76"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines/0_coroutines.knm",
+          "bytes": 24021,
+          "sha256": "e29c1bdcbd792d2ba2fb4b0eaab233e9cb06bee24f9294bad0b0c129b66c8e5c"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines/1_coroutines.knm",
+          "bytes": 5302,
+          "sha256": "220f800349bde71d675a6c1a69a3d100e089feaad54ff03892b3b0f2f9249691"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines/2_coroutines.knm",
+          "bytes": 7048,
+          "sha256": "9bb897a0484165da3db735418a4621ac61890d311a1d837677e96126346a2eef"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx.coroutines/3_coroutines.knm",
+          "bytes": 889,
+          "sha256": "0f280d7785d5090451a64658763a53cf08adccbe9e680dffaafba390e92e79bf"
+        },
+        {
+          "path": "commonMain/default/linkdata/package_kotlinx/0_kotlinx.knm",
+          "bytes": 19,
+          "sha256": "95b1c3868507801d312f3b3cdeb9d90fd78d8b0b7d55b47ee279b3465736aeb3"
+        },
+        {
+          "path": "commonMain/default/linkdata/root_package/0_.knm",
+          "bytes": 12,
+          "sha256": "158c49d97871ba12d6a9ac2e86147bea626724be6e43e0168c9700c28f6504df"
+        },
+        {
+          "path": "commonMain/default/manifest",
+          "bytes": 112,
+          "sha256": "35ec20262cd139a78bedc881f6005f5ca045516f61f113fa4379ee44d63e1839"
+        },
+        {
+          "path": "concurrentMain/default/linkdata/module",
+          "bytes": 142,
+          "sha256": "1963f989318241b5d0c54a2abe84da3476c9e070929ef7234931444eab5f3c95"
+        },
+        {
+          "path": "concurrentMain/default/linkdata/package_kotlinx.coroutines.channels/0_channels.knm",
+          "bytes": 655,
+          "sha256": "40f87b948ae36afba620ea31776b6a43f9b00946738a562edb008d36f5a71896"
+        },
+        {
+          "path": "concurrentMain/default/linkdata/package_kotlinx.coroutines.internal/0_internal.knm",
+          "bytes": 2251,
+          "sha256": "3cdd298ff90c531b52af49eaa4ad29ad66b412f9e80b2f0a8635e66a75cbe71b"
+        },
+        {
+          "path": "concurrentMain/default/linkdata/package_kotlinx.coroutines.internal/1_internal.knm",
+          "bytes": 573,
+          "sha256": "2d81fc387b7a45c87ac1665c709e572c9f00b7a5634e4f7f8ebc9c4df9ac3288"
+        },
+        {
+          "path": "concurrentMain/default/linkdata/package_kotlinx.coroutines/0_coroutines.knm",
+          "bytes": 503,
+          "sha256": "3b3cf6d68e0008e69d61bf4e3682269a8f21b8788422e248e48b53fa66286a7f"
+        },
+        {
+          "path": "concurrentMain/default/linkdata/package_kotlinx.coroutines/1_coroutines.knm",
+          "bytes": 1090,
+          "sha256": "5cbad47e935b5445bd3d101a1e191863523d7b120c64c01ffddd06a98399fc59"
+        },
+        {
+          "path": "concurrentMain/default/linkdata/package_kotlinx/0_kotlinx.knm",
+          "bytes": 19,
+          "sha256": "95b1c3868507801d312f3b3cdeb9d90fd78d8b0b7d55b47ee279b3465736aeb3"
+        },
+        {
+          "path": "concurrentMain/default/linkdata/root_package/0_.knm",
+          "bytes": 12,
+          "sha256": "158c49d97871ba12d6a9ac2e86147bea626724be6e43e0168c9700c28f6504df"
+        },
+        {
+          "path": "concurrentMain/default/manifest",
+          "bytes": 116,
+          "sha256": "d4b0cbd701c8605a727f180dcefad7ed23d1d2a654389303f8fe063e0dbc798b"
+        },
+        {
+          "path": "nativeMain/default/linkdata/module",
+          "bytes": 215,
+          "sha256": "176b7bfa374187411ccece646b96047926f9b2a9d6605bf674d7e7a849782a34"
+        },
+        {
+          "path": "nativeMain/default/linkdata/package_kotlinx.coroutines.flow.internal/0_internal.knm",
+          "bytes": 735,
+          "sha256": "f5fe763f2b9655c01e42efc750c03deaffbcf756acb019228e47c18a487f2d1d"
+        },
+        {
+          "path": "nativeMain/default/linkdata/package_kotlinx.coroutines.flow/0_flow.knm",
+          "bytes": 35,
+          "sha256": "9b1119c5e7db9b27c9b6014c0da4363db60fbd8debd7870bb1ab824394c9e27a"
+        },
+        {
+          "path": "nativeMain/default/linkdata/package_kotlinx.coroutines.internal/0_internal.knm",
+          "bytes": 2551,
+          "sha256": "14f3aae8e48d6cc653c5a2694e0924e4da2c38baff1974fdd8ce3a63d0e88f0a"
+        },
+        {
+          "path": "nativeMain/default/linkdata/package_kotlinx.coroutines.internal/1_internal.knm",
+          "bytes": 1627,
+          "sha256": "b45323da0865061288145aa09a0a19009d545336fc3918d8cc6d42d1f8110683"
+        },
+        {
+          "path": "nativeMain/default/linkdata/package_kotlinx.coroutines/0_coroutines.knm",
+          "bytes": 4009,
+          "sha256": "90453cbc43b92defe6cb73fdbddacc5c40a9f98d7a8814df8173043eb96523b2"
+        },
+        {
+          "path": "nativeMain/default/linkdata/package_kotlinx.coroutines/1_coroutines.knm",
+          "bytes": 1841,
+          "sha256": "4db4c6307206d1b98808be61a789a369f6dd167fa7b14b6de1b434fd504d27b1"
+        },
+        {
+          "path": "nativeMain/default/linkdata/package_kotlinx/0_kotlinx.knm",
+          "bytes": 19,
+          "sha256": "95b1c3868507801d312f3b3cdeb9d90fd78d8b0b7d55b47ee279b3465736aeb3"
+        },
+        {
+          "path": "nativeMain/default/linkdata/root_package/0_.knm",
+          "bytes": 12,
+          "sha256": "158c49d97871ba12d6a9ac2e86147bea626724be6e43e0168c9700c28f6504df"
+        },
+        {
+          "path": "nativeMain/default/manifest",
+          "bytes": 239,
+          "sha256": "68cf6fadbcf8674e3fdf5d729e3dfa5e3d0aff546075f2ebc011852abbc06547"
+        },
+        {
+          "path": "nativeOtherMain/default/linkdata/module",
+          "bytes": 107,
+          "sha256": "22d2ae0cc80a32e6477cd645967379be63f776c7f4eeb8c273a5fa5050507b7d"
+        },
+        {
+          "path": "nativeOtherMain/default/linkdata/package_kotlinx.coroutines/0_coroutines.knm",
+          "bytes": 645,
+          "sha256": "888794e2e0dc80492db477977f623741de6dc58ccde09c918b617f8716a22ff6"
+        },
+        {
+          "path": "nativeOtherMain/default/linkdata/package_kotlinx.coroutines/1_coroutines.knm",
+          "bytes": 392,
+          "sha256": "24dabcb7b24d862f54f9f63562704976ec08d85ec421f1118f3e063df427d21d"
+        },
+        {
+          "path": "nativeOtherMain/default/linkdata/package_kotlinx/0_kotlinx.knm",
+          "bytes": 19,
+          "sha256": "95b1c3868507801d312f3b3cdeb9d90fd78d8b0b7d55b47ee279b3465736aeb3"
+        },
+        {
+          "path": "nativeOtherMain/default/linkdata/root_package/0_.knm",
+          "bytes": 12,
+          "sha256": "158c49d97871ba12d6a9ac2e86147bea626724be6e43e0168c9700c28f6504df"
+        },
+        {
+          "path": "nativeOtherMain/default/manifest",
+          "bytes": 249,
+          "sha256": "06f2e9ab38f39e998b6e0512d6f0010a42063aaaaf6a42f4f6ff299af897f1cf"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": []
+    }
+  }
+}

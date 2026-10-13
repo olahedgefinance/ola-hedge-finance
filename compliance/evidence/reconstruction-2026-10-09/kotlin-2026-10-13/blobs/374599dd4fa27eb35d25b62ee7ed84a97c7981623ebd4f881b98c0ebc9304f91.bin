@@ -1,0 +1,44 @@
+{
+  "archives": {
+    "kotlin-stdlib-jdk8-1.9.0-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "module-info.java",
+          "bytes": 300,
+          "sha256": "545013767603c3f4f6696fc5f8ad1eff4f1dc46d7322d650180ab45830a435cc"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "module-info.java",
+          "apacheHeader": false,
+          "boost": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": []
+    },
+    "kotlin-stdlib-jdk8-1.9.0.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 218,
+          "sha256": "28947080d496d0bc4a9dbc539e641b391dcfe586dcae325f6f41a19e66532c5e"
+        },
+        {
+          "path": "META-INF/versions/9/module-info.class",
+          "bytes": 287,
+          "sha256": "27214264e5c4f8cdec84fc46efa4d318f3350f28a8a4b5717fed3bfff93dbc92"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": []
+    }
+  }
+}

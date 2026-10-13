@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:crypto/crypto.dart';
 import 'sbom_lib.dart';
 import 'androidx_evidence.dart';
+import 'kotlin_evidence.dart';
 
 const androidEvidencePath =
     'compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11';
@@ -238,6 +239,7 @@ AndroidEvidence loadAndroidEvidence(Directory root,
     });
   }
   applyAndroidXLicences(root, rows, graph);
+  applyKotlinLicences(root, rows, graph);
   return AndroidEvidence(rows,
       {for (final p in plugins.entries) p.value: dependencies(p.key)}, appDeps);
 }

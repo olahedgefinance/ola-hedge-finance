@@ -1,0 +1,84 @@
+{
+  "archives": {
+    "kotlinx-coroutines-play-services-1.7.3-sources.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "Tasks.kt",
+          "bytes": 5995,
+          "sha256": "0f93e1a63092b090a26cb8c705c605be9c3e1aa47722a8f88f8cb54f36e7eb6a"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "Tasks.kt",
+          "apacheHeader": true,
+          "boost": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": []
+    },
+    "kotlinx-coroutines-play-services-1.7.3.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "META-INF/kotlinx-coroutines-play-services.kotlin_module",
+          "bytes": 61,
+          "sha256": "ed4874617aca211279a21408d4335bd91378c12285feee2e1c802e3b44b6018f"
+        },
+        {
+          "path": "META-INF/kotlinx_coroutines_play_services.version",
+          "bytes": 5,
+          "sha256": "179f9b723b6508aa1d6ce99991e8cd549ca819ee1b9b6102396c47815beffaaf"
+        },
+        {
+          "path": "kotlinx/coroutines/tasks/DirectExecutor.class",
+          "bytes": 1049,
+          "sha256": "b2756ed092177d96a476906bc590510133df7a51060e36b67797e17bbb684218"
+        },
+        {
+          "path": "kotlinx/coroutines/tasks/TasksKt$asDeferredImpl$2.class",
+          "bytes": 1694,
+          "sha256": "206482bb6501b9b22b75838e28d6261f7028324adfb3056c3fa68fda1139c178"
+        },
+        {
+          "path": "kotlinx/coroutines/tasks/TasksKt$asDeferredImpl$3.class",
+          "bytes": 8377,
+          "sha256": "aeb22c9ff0052686d8b17b9b08a0638c1b3f3495278dba44f4d5838511e5bab1"
+        },
+        {
+          "path": "kotlinx/coroutines/tasks/TasksKt$asTask$1.class",
+          "bytes": 2786,
+          "sha256": "e81b6fa0da1aab296dd6ed394cc44d3a95fdb0a2462817d7a1dfdd407af8e276"
+        },
+        {
+          "path": "kotlinx/coroutines/tasks/TasksKt$awaitImpl$2$1.class",
+          "bytes": 2536,
+          "sha256": "4997cf4283d8f9dcc8f513e137ea26e589cfa878ae4c63b85ed189dc66354fed"
+        },
+        {
+          "path": "kotlinx/coroutines/tasks/TasksKt$awaitImpl$2$2.class",
+          "bytes": 1704,
+          "sha256": "26d934ea6ed89d9d04dee96ecd52ebbec56c722c6a8a24aeaa6cdbe506f873e5"
+        },
+        {
+          "path": "kotlinx/coroutines/tasks/TasksKt.class",
+          "bytes": 9062,
+          "sha256": "fe7dcf9cdc1d38aa2ab8ee086d2e63ec95acce969d8711c428ae768cafa1273c"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": []
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "archives": {
+    "kotlinx-coroutines-android-1.7.3-sources.jar": {
+      "entries": [
+        {
+          "path": "AndroidExceptionPreHandler.kt",
+          "bytes": 2297,
+          "sha256": "3a4de55e25318b4cc105cc00f5d3bafcb61743e7c624a1e973b7909e7684c56a"
+        },
+        {
+          "path": "HandlerDispatcher.kt",
+          "bytes": 8488,
+          "sha256": "4111bb5e16eeff90ec995a3138c0438f3bf0de31a04ee5e6cad7f12f8e049a13"
+        },
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+        },
+        {
+          "path": "META-INF/com.android.tools/proguard/coroutines.pro",
+          "bytes": 300,
+          "sha256": "2600b575d03b2f24e97e944820cad2f7792475c12affa58ddb5325fe81a8b178"
+        },
+        {
+          "path": "META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro",
+          "bytes": 899,
+          "sha256": "9e234a50d0a557c9dc6d299cd4d8843c62c083eb57e70cfb8260b1a826e164dc"
+        },
+        {
+          "path": "META-INF/com.android.tools/r8-upto-3.0.0/coroutines.pro",
+          "bytes": 558,
+          "sha256": "aab104859675617120c953ddb0f675415a080972858a637f2abb17a4417fbecb"
+        },
+        {
+          "path": "META-INF/proguard/coroutines.pro",
+          "bytes": 419,
+          "sha256": "204b89537b13a6eb3ca317ba6c4986a3fd94ddfc5e503e35d2ac9ce7260795a2"
+        },
+        {
+          "path": "META-INF/services/kotlinx.coroutines.CoroutineExceptionHandler",
+          "bytes": 54,
+          "sha256": "3129b8edf6db07de6f8ff47695e2177c8bba4eed2962d3085c719e5acbb58a33"
+        },
+        {
+          "path": "META-INF/services/kotlinx.coroutines.internal.MainDispatcherFactory",
+          "bytes": 52,
+          "sha256": "a1ea77ea8f93f419256b6e66f29713f950d8d6e90442b608d880a48003b5eb72"
+        },
+        {
+          "path": "module-info.java",
+          "bytes": 331,
+          "sha256": "a923000382c96cb7d2444641537c3a0dca4aa28d8e4245db4258bfedd67d6da2"
+        }
+      ],
+      "sourceHeaders": [
+        {
+          "path": "AndroidExceptionPreHandler.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "HandlerDispatcher.kt",
+          "apacheHeader": true,
+          "boost": false
+        },
+        {
+          "path": "module-info.java",
+          "apacheHeader": false,
+          "boost": false
+        }
+      ],
+      "noticeNamedEntries": [],
+      "risks": []
+    },
+    "kotlinx-coroutines-android-1.7.3.jar": {
+      "entries": [
+        {
+          "path": "META-INF/MANIFEST.MF",
+          "bytes": 46,
+          "sha256": "f3e49dd130fa23515d8436c2881e0dafb5521b96ec5aed93f135474375fe19a8"
+        },
+        {
+          "path": "META-INF/com.android.tools/proguard/coroutines.pro",
+          "bytes": 300,
+          "sha256": "2600b575d03b2f24e97e944820cad2f7792475c12affa58ddb5325fe81a8b178"
+        },
+        {
+          "path": "META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro",
+          "bytes": 899,
+          "sha256": "9e234a50d0a557c9dc6d299cd4d8843c62c083eb57e70cfb8260b1a826e164dc"
+        },
+        {
+          "path": "META-INF/com.android.tools/r8-upto-3.0.0/coroutines.pro",
+          "bytes": 558,
+          "sha256": "aab104859675617120c953ddb0f675415a080972858a637f2abb17a4417fbecb"
+        },
+        {
+          "path": "META-INF/kotlinx-coroutines-android.kotlin_module",
+          "bytes": 75,
+          "sha256": "c9ad4afffee2f3048fc464c496adf06d8efc17cfb2bd0b17b6d613d483538e6d"
+        },
+        {
+          "path": "META-INF/kotlinx_coroutines_android.version",
+          "bytes": 5,
+          "sha256": "179f9b723b6508aa1d6ce99991e8cd549ca819ee1b9b6102396c47815beffaaf"
+        },
+        {
+          "path": "META-INF/proguard/coroutines.pro",
+          "bytes": 419,
+          "sha256": "204b89537b13a6eb3ca317ba6c4986a3fd94ddfc5e503e35d2ac9ce7260795a2"
+        },
+        {
+          "path": "META-INF/services/kotlinx.coroutines.CoroutineExceptionHandler",
+          "bytes": 54,
+          "sha256": "3129b8edf6db07de6f8ff47695e2177c8bba4eed2962d3085c719e5acbb58a33"
+        },
+        {
+          "path": "META-INF/services/kotlinx.coroutines.internal.MainDispatcherFactory",
+          "bytes": 52,
+          "sha256": "a1ea77ea8f93f419256b6e66f29713f950d8d6e90442b608d880a48003b5eb72"
+        },
+        {
+          "path": "META-INF/versions/9/module-info.class",
+          "bytes": 381,
+          "sha256": "c2bd3015644600113f9a384e331436ef200ec3c64de7b8ef2a2c4e25198f0210"
+        },
+        {
+          "path": "kotlinx/coroutines/android/AndroidDispatcherFactory.class",
+          "bytes": 2203,
+          "sha256": "a512c1014de6fd153c10b6a26fc387d3413c85ad2ce314ba17f6e27ea327a050"
+        },
+        {
+          "path": "kotlinx/coroutines/android/AndroidExceptionPreHandler.class",
+          "bytes": 3076,
+          "sha256": "d3e8dc8efb83fb9f0f5626002330bebae32f6b0da83d0e13d58e61426a822137"
+        },
+        {
+          "path": "kotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$$inlined$Runnable$1.class",
+          "bytes": 2428,
+          "sha256": "cc4ae71971d10d0794c2587265ffebd12df024c3cd44e681fa246a439fa82aee"
+        },
+        {
+          "path": "kotlinx/coroutines/android/HandlerContext$scheduleResumeAfterDelay$1.class",
+          "bytes": 1831,
+          "sha256": "2b869032727faae63526c24e842b65717d55bbb5017ca9e32b08178739b32a90"
+        },
+        {
+          "path": "kotlinx/coroutines/android/HandlerContext.class",
+          "bytes": 8443,
+          "sha256": "645b9942c82594dec1731fc56c94a83eacc0c261a44329fd71e788a5b2b2c0bd"
+        },
+        {
+          "path": "kotlinx/coroutines/android/HandlerDispatcher.class",
+          "bytes": 2502,
+          "sha256": "9c961a4fa07f3c57656df3d2bfb7f38388ed35075044e0d41773acae05111aac"
+        },
+        {
+          "path": "kotlinx/coroutines/android/HandlerDispatcherKt$awaitFrameSlowPath$lambda$3$$inlined$Runnable$1.class",
+          "bytes": 1860,
+          "sha256": "752867b6b7975616eb358c815a3944509bc2acbae31d691011a6e80cbcca7949"
+        },
+        {
+          "path": "kotlinx/coroutines/android/HandlerDispatcherKt.class",
+          "bytes": 10337,
+          "sha256": "9685a1f6460b30ccc35942c0723e8235ef68164c566dad6ad9a279d7904f7c7e"
+        }
+      ],
+      "sourceHeaders": [],
+      "noticeNamedEntries": [],
+      "risks": []
+    }
+  }
+}

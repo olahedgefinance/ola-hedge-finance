@@ -152,7 +152,7 @@ void main() {
     expect(
         bundle.components
             .singleWhere(
-                (c) => c.id == 'maven:org.jetbrains.kotlin:kotlin-stdlib')
+                (c) => c.id == 'maven:io.grpc:grpc-core')
             .licenseDeclared,
         'NOASSERTION');
     expect(

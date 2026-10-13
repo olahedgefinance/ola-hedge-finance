@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-Package-ola-hedge-finance"
   ],
-  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/ca1896c91dd2b250",
+  "documentNamespace": "https://github.com/olahedgefinance/ola-hedge-finance/sbom/ola-hedge-finance-5.4.3%2B416/4059fc1a0e59642a",
   "name": "ola-hedge-finance-5.4.3+416",
   "packages": [
     {
@@ -3468,12 +3468,12 @@
     },
     {
       "SPDXID": "SPDXRef-Package-maven-org.jetbrains.kotlin-kotlin-bom-1.8.22",
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=false; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#org.jetbrains.kotlin:kotlin-bom:1.8.22; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=false; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/kotlin-2026-10-13/manifest.json#org.jetbrains.kotlin:kotlin-bom:1.8.22; exact POM/source/artifact mapping, exact release licence/NOTICE texts, source copyrights and archive scope audit.; notes=Verified with conditions. Exact release evidence only; not legal/release clearance, Phase 2A completion, reproducible binary rebuild or final Corresponding Source. Preserve applicable Apache licence text, source copyright and third-party attribution; dependencies retain separate classifications. Production Android and iOS/native builds remain unverified; graph runtime scope is not proof of final binary inclusion. Kotlin repository NOTICE explicitly covers the compiler distribution; this review covers stdlib/BOM only and does not import compiler dependencies or claim compiler clearance. POM-only dependency-management metadata. No source JAR or binary is published; this does not clear managed dependency implementations. ",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.8.22/kotlin-bom-1.8.22.pom",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
       "name": "org.jetbrains.kotlin:kotlin-bom",
       "supplier": "NOASSERTION",
       "versionInfo": "1.8.22"
@@ -3498,12 +3498,12 @@
           "checksumValue": "35aeffbe2db5aa446072cee50fcee48b7fa9e2fc51ca37c0cc7d7d0bc39d952e"
         }
       ],
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#org.jetbrains.kotlin:kotlin-stdlib:1.9.0; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/kotlin-2026-10-13/manifest.json#org.jetbrains.kotlin:kotlin-stdlib:1.9.0; exact POM/source/artifact mapping, exact release licence/NOTICE texts, source copyrights and archive scope audit.; notes=Verified with conditions. Exact release evidence only; not legal/release clearance, Phase 2A completion, reproducible binary rebuild or final Corresponding Source. Preserve applicable Apache licence text, source copyright and third-party attribution; dependencies retain separate classifications. Production Android and iOS/native builds remain unverified; graph runtime scope is not proof of final binary inclusion. Kotlin repository NOTICE explicitly covers the compiler distribution; this review covers stdlib/BOM only and does not import compiler dependencies or claim compiler clearance. Simultaneous Apache-2.0 AND BSL-1.0 scopes: MathJVM.kt carries Boost-derived inverse hyperbolic functions. Preserve Boost licence and Eric Ford/Hubert Holin attribution for source distribution; no OR choice is asserted. GWT/Guava-derived collections/utilities retain their Apache notices and original Google/Guava copyright; exact upstream third-party licence texts retained. ",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.0/kotlin-stdlib-1.9.0.jar",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0 AND BSL-1.0",
       "name": "org.jetbrains.kotlin:kotlin-stdlib",
       "supplier": "NOASSERTION",
       "versionInfo": "1.9.0"
@@ -3516,12 +3516,12 @@
           "checksumValue": "283274204bd7c020789ec46f8f8e72af4244d7f550b3392a57e5ca006ad7aa2c"
         }
       ],
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#org.jetbrains.kotlin:kotlin-stdlib-common:1.9.0; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/kotlin-2026-10-13/manifest.json#org.jetbrains.kotlin:kotlin-stdlib-common:1.9.0; exact POM/source/artifact mapping, exact release licence/NOTICE texts, source copyrights and archive scope audit.; notes=Verified with conditions. Exact release evidence only; not legal/release clearance, Phase 2A completion, reproducible binary rebuild or final Corresponding Source. Preserve applicable Apache licence text, source copyright and third-party attribution; dependencies retain separate classifications. Production Android and iOS/native builds remain unverified; graph runtime scope is not proof of final binary inclusion. Kotlin repository NOTICE explicitly covers the compiler distribution; this review covers stdlib/BOM only and does not import compiler dependencies or claim compiler clearance. GWT/Guava-derived collections/utilities retain their Apache notices and original Google/Guava copyright; exact upstream third-party licence texts retained. ",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.0/kotlin-stdlib-common-1.9.0.jar",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
       "name": "org.jetbrains.kotlin:kotlin-stdlib-common",
       "supplier": "NOASSERTION",
       "versionInfo": "1.9.0"
@@ -3552,12 +3552,12 @@
           "checksumValue": "a59fa24fdf1ffb594baecdbf0fd10010f977cea10236d487fe3464977a7377fa"
         }
       ],
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/kotlin-2026-10-13/manifest.json#org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0; exact POM/source/artifact mapping, exact release licence/NOTICE texts, source copyrights and archive scope audit.; notes=Verified with conditions. Exact release evidence only; not legal/release clearance, Phase 2A completion, reproducible binary rebuild or final Corresponding Source. Preserve applicable Apache licence text, source copyright and third-party attribution; dependencies retain separate classifications. Production Android and iOS/native builds remain unverified; graph runtime scope is not proof of final binary inclusion. Kotlin repository NOTICE explicitly covers the compiler distribution; this review covers stdlib/BOM only and does not import compiler dependencies or claim compiler clearance. Empty compatibility module: source JAR contains module-info.java only; no compiler or stdlib implementation is inferred from it. ",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.0/kotlin-stdlib-jdk8-1.9.0.jar",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
       "name": "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
       "supplier": "NOASSERTION",
       "versionInfo": "1.9.0"
@@ -3570,36 +3570,36 @@
           "checksumValue": "59fffb26bee12c32dadcfa5d420c2a7db85d3253518128b170efda726613256d"
         }
       ],
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/kotlin-2026-10-13/manifest.json#org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3; exact POM/source/artifact mapping, exact release licence/NOTICE texts, source copyrights and archive scope audit.; notes=Verified with conditions. Exact release evidence only; not legal/release clearance, Phase 2A completion, reproducible binary rebuild or final Corresponding Source. Preserve applicable Apache licence text, source copyright and third-party attribution; dependencies retain separate classifications. Production Android and iOS/native builds remain unverified; graph runtime scope is not proof of final binary inclusion. Retain the exact kotlinx.coroutines library NOTICE from upstream 1.7.3 with relevant distributions; no final notice bundle is created here. ",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-android/1.7.3/kotlinx-coroutines-android-1.7.3.jar",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
       "name": "org.jetbrains.kotlinx:kotlinx-coroutines-android",
       "supplier": "NOASSERTION",
       "versionInfo": "1.7.3"
     },
     {
       "SPDXID": "SPDXRef-Package-maven-org.jetbrains.kotlinx-kotlinx-coroutines-bom-1.7.3",
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=false; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.7.3; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=false; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/kotlin-2026-10-13/manifest.json#org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.7.3; exact POM/source/artifact mapping, exact release licence/NOTICE texts, source copyrights and archive scope audit.; notes=Verified with conditions. Exact release evidence only; not legal/release clearance, Phase 2A completion, reproducible binary rebuild or final Corresponding Source. Preserve applicable Apache licence text, source copyright and third-party attribution; dependencies retain separate classifications. Production Android and iOS/native builds remain unverified; graph runtime scope is not proof of final binary inclusion. Retain the exact kotlinx.coroutines library NOTICE from upstream 1.7.3 with relevant distributions; no final notice bundle is created here. POM-only dependency-management metadata. No source JAR or binary is published; this does not clear managed dependency implementations. ",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.7.3/kotlinx-coroutines-bom-1.7.3.pom",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
       "name": "org.jetbrains.kotlinx:kotlinx-coroutines-bom",
       "supplier": "NOASSERTION",
       "versionInfo": "1.7.3"
     },
     {
       "SPDXID": "SPDXRef-Package-maven-org.jetbrains.kotlinx-kotlinx-coroutines-core-1.7.3",
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=false; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=false; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/kotlin-2026-10-13/manifest.json#org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3; exact POM/source/artifact mapping, exact release licence/NOTICE texts, source copyrights and archive scope audit.; notes=Verified with conditions. Exact release evidence only; not legal/release clearance, Phase 2A completion, reproducible binary rebuild or final Corresponding Source. Preserve applicable Apache licence text, source copyright and third-party attribution; dependencies retain separate classifications. Production Android and iOS/native builds remain unverified; graph runtime scope is not proof of final binary inclusion. Retain the exact kotlinx.coroutines library NOTICE from upstream 1.7.3 with relevant distributions; no final notice bundle is created here. Multiplatform parent metadata; JVM binary belongs to separately reviewed core-jvm. Reference metadata JAR is retained but is not a selected graph artifact. ",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.7.3/kotlinx-coroutines-core-1.7.3.pom",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
       "name": "org.jetbrains.kotlinx:kotlinx-coroutines-core",
       "supplier": "NOASSERTION",
       "versionInfo": "1.7.3"
@@ -3612,9 +3612,9 @@
           "checksumValue": "1ab3acc38f3e7355c4f9d1ec62107a46fa73c899f3070d055e5d4373dfe67e12"
         }
       ],
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.3; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/kotlin-2026-10-13/manifest.json#org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.3; exact POM/source/artifact mapping, exact release licence/NOTICE texts, source copyrights and archive scope audit.; notes=Needs Verification. Exact release evidence only; not legal/release clearance, Phase 2A completion, reproducible binary rebuild or final Corresponding Source. Preserve applicable Apache licence text, source copyright and third-party attribution; dependencies retain separate classifications. Production Android and iOS/native builds remain unverified; graph runtime scope is not proof of final binary inclusion. Retain the exact kotlinx.coroutines library NOTICE from upstream 1.7.3 with relevant distributions; no final notice bundle is created here. Embedded binary payload requires separate exact source/build mapping",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.7.3/kotlinx-coroutines-core-jvm-1.7.3.jar",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
@@ -3630,12 +3630,12 @@
           "checksumValue": "64d6ea1a4d15a2c0950da9a61f49ea7c51268ee74c3b1dddc463e69554441b24"
         }
       ],
-      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=review-required; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/android-graph-2026-10-11/resolved-graph.json#org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3; exact selected version/artifact identities only. Licence and source obligations remain unreviewed.; notes=Configuration graph is not proof of inclusion in a release binary. Complete graph/constraint and artifact records retained; no legal or release clearance.",
+      "comment": "ecosystem=maven; relationship=transitive; source=gradle-resolved-graph; distributed=true; modified=false; reviewStatus=verified-with-conditions; licenseEvidence=compliance/evidence/reconstruction-2026-10-09/kotlin-2026-10-13/manifest.json#org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3; exact POM/source/artifact mapping, exact release licence/NOTICE texts, source copyrights and archive scope audit.; notes=Verified with conditions. Exact release evidence only; not legal/release clearance, Phase 2A completion, reproducible binary rebuild or final Corresponding Source. Preserve applicable Apache licence text, source copyright and third-party attribution; dependencies retain separate classifications. Production Android and iOS/native builds remain unverified; graph runtime scope is not proof of final binary inclusion. Retain the exact kotlinx.coroutines library NOTICE from upstream 1.7.3 with relevant distributions; no final notice bundle is created here. ",
       "copyrightText": "NOASSERTION",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-play-services/1.7.3/kotlinx-coroutines-play-services-1.7.3.jar",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
       "name": "org.jetbrains.kotlinx:kotlinx-coroutines-play-services",
       "supplier": "NOASSERTION",
       "versionInfo": "1.7.3"
