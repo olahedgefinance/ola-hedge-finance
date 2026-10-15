@@ -23,6 +23,7 @@ import 'package:budget/struct/databaseGlobal.dart';
 import 'package:budget/struct/settings.dart';
 import 'package:budget/struct/notificationsGlobal.dart';
 import 'package:budget/widgets/navigationSidebar.dart';
+import 'package:budget/struct/ola_navigation.dart';
 import 'package:budget/widgets/globalLoadingProgress.dart';
 import 'package:budget/struct/scrollBehaviorOverride.dart';
 import 'package:budget/widgets/globalSnackbar.dart';
@@ -127,7 +128,8 @@ class App extends StatelessWidget {
           children: [
             Row(
               children: [
-                NavigationSidebar(key: sidebarStateKey),
+                if (!OlaNavigation.enabled)
+                  NavigationSidebar(key: sidebarStateKey),
                 Expanded(
                     child: Stack(
                   children: [

@@ -1,4 +1,6 @@
 import 'package:budget/functions.dart';
+import 'package:budget/struct/ola_navigation.dart';
+import 'package:budget/widgets/ola/ola_app_shell.dart';
 import 'package:budget/main.dart';
 import 'package:budget/pages/editCategoriesPage.dart';
 import 'package:budget/pages/exchangeRatesPage.dart';
@@ -21,6 +23,12 @@ import 'package:timer_builder/timer_builder.dart';
 
 // returns 0 if no navigation sidebar should be shown
 double getWidthNavigationSidebar(BuildContext context) {
+  if (OlaNavigation.enabled) {
+    if (MediaQuery.sizeOf(context).width < OlaNavigation.sidebarBreakpoint) return 0;
+    return (appStateSettings["expandedNavigationSidebar"] == false
+        ? OlaNavigation.collapsedSidebarWidth : OlaNavigation.sidebarWidth) +
+        MediaQuery.viewPaddingOf(context).left;
+  }
   double screenPercent = 0.3;
   double maxWidthNavigation = 270;
   double minScreenWidth = 700;
@@ -36,6 +44,9 @@ double getWidthNavigationSidebar(BuildContext context) {
 }
 
 double getHeightNavigationSidebar(context) {
+  if (OlaNavigation.enabled) {
+    return getIsFullScreen(context) ? 0 : OlaAppShell.bottomBarHeight(context, homeLabel: "home".tr());
+  }
   if (getIsFullScreen(context)) {
     // No navbar in full screen
     return 0;

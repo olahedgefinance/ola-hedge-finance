@@ -1,4 +1,8 @@
 import 'package:animations/animations.dart';
+import 'package:budget/struct/ola_navigation.dart';
+import 'package:budget/widgets/ola/ola_app_shell.dart';
+import 'package:budget/pages/transactionsSearchPage.dart';
+import 'package:budget/pages/exchangeRatesPage.dart';
 import 'package:budget/colors.dart';
 import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/database/initializeDefaultDatabase.dart';
@@ -396,6 +400,9 @@ class PageNavigationFrameworkState extends State<PageNavigationFramework> {
   int previousPage = 0;
 
   void changePage(int page, {bool switchNavbar = true}) {
+    if (OlaNavigation.enabled) {
+      checkIfExchangeRateChangeAfter();
+    }
     if (switchNavbar) {
       sidebarStateKey.currentState?.setSelectedIndex(page);
     }
@@ -495,8 +502,80 @@ class PageNavigationFrameworkState extends State<PageNavigationFramework> {
 
   @override
   Widget build(BuildContext context) {
+    final content = FadeIndexedStack(
+      index: OlaNavigation.renderPage(currentPage),
+      duration: !kIsWeb || appStateSettings["batterySaver"] == true ||
+          MediaQuery.disableAnimationsOf(context)
+          ? Duration.zero : const Duration(milliseconds: 300),
+      children: [...pages, ...pagesExtended],
+    );
     return Stack(children: [
-      Scaffold(
+      if (OlaNavigation.enabled)
+        OlaAppShell(
+          selectedPage: currentPage,
+          onSelectPage: (page) {
+            if (page == currentPage) {
+              if (page == 0) {
+                homePageStateKey.currentState?.scrollToTop();
+              }
+              if (page == 1) {
+                transactionsListPageStateKey.currentState?.scrollToTop();
+              }
+              if (page == 2) {
+                budgetsListPageStateKey.currentState?.scrollToTop();
+              }
+              if (page == 5) {
+                subscriptionsPageStateKey.currentState?.scrollToTop();
+              }
+              if (page == 7) {
+                walletDetailsAllSpendingPageStateKey.currentState?.scrollToTop();
+              }
+              if (page == 14) {
+                objectivesListPageStateKey.currentState?.scrollToTop();
+              }
+              if (page == 16) {
+                upcomingOverdueTransactionsStateKey.currentState?.scrollToTop();
+              }
+              if (page == 17) {
+                creditDebtTransactionsKey.currentState?.scrollToTop();
+              }
+            } else {
+              changePage(page);
+            }
+          },
+          onSearch: () => pushRoute(context, const TransactionsSearchPage()),
+          expandedSidebar: appStateSettings["expandedNavigationSidebar"] != false,
+          onToggleSidebar: () => updateSettings("expandedNavigationSidebar",
+              appStateSettings["expandedNavigationSidebar"] == false,
+              updateGlobalState: true),
+          customizeShortcutLabel: "select-shortcut".tr(),
+          onCustomizeShortcut: (slot) async {
+            final result = await openBottomSheet(context, PopupFramework(
+              title: "select-shortcut".tr(),
+              child: SelectNavBarShortcutPopup(
+                shortcutAppSettingKey: "customNavBarShortcut$slot"),
+            ));
+            if (result == true && mounted) {
+              settingsPageStateKey.currentState?.refreshState();
+              setState(() {});
+            }
+          },
+          shortcuts: [for (var slot = 0; slot < 3; slot++)
+            navBarIconsData[appStateSettings["customNavBarShortcut$slot"]]
+                ?.navigationIndexedStackIndex ?? slot],
+          pageLabels: {
+            for (final entry in navBarIconsData.values)
+              entry.navigationIndexedStackIndex: entry.label.tr(),
+            4: "settings".tr(),
+            7: 'Analytics',
+            8: "account".tr(),
+          },
+          searchLabel: "search".tr(),
+          settingsLabel: "settings".tr(),
+          moreLabel: "more".tr(),
+          body: content,
+        )
+      else Scaffold(
         resizeToAvoidBottomInset: false,
         body: FadeIndexedStack(
           children: [...pages, ...pagesExtended],
