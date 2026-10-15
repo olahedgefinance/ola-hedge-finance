@@ -144,6 +144,17 @@ void main() {
     expect(stale, <String>['changed.json', 'missing.json']);
   });
 
+  test('generated text accepts Windows line endings but not changed evidence', () {
+    expect(findStaleArtifactPaths(
+      {'a': 'one\ntwo\n', 'b': 'one\r\ntwo\r\n', 'c': 'one\ntwo\r\n'},
+      {'a': 'one\r\ntwo\r\n', 'b': 'one\ntwo\n', 'c': 'one\r\ntwo\n'},
+    ), isEmpty);
+    expect(findStaleArtifactPaths(
+      {'a': 'one\ntwo\n', 'b': 'one\n', 'c': 'one\n', 'd': 'one\n'},
+      {'a': 'one\r\nchanged\r\n', 'b': 'one \r\n', 'c': 'one', 'd': null},
+    ), ['a', 'b', 'c', 'd']);
+  });
+
   test('Cashew provenance records ownership boundaries without reassignment',
       () async {
     final bundle = await createComplianceArtifactBundle(

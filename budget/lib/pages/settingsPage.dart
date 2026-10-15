@@ -1110,11 +1110,12 @@ void openFontPicker(BuildContext context) {
         itemsAreFonts: true,
         items: [
           // These values match that of pubspec font family
+          "Inter",
           "Avenir",
           "DMSans",
           "Metropolis",
           // SF Pro removed - users on iOS can just select Platform font
-          // Inter is the font family fallback
+          // Inter is both the default and the fallback font
           "RobotoCondensed",
           "Inconsolata",
           "(Platform)",
@@ -1132,7 +1133,7 @@ void openFontPicker(BuildContext context) {
 }
 
 String fontNameDisplayFilter(String value) {
-  if (value == "Avenir") {
+  if (value == "Inter") {
     return "default".tr().capitalizeFirst;
   } else if (value == "(Platform)") {
     return "platform".tr().capitalizeFirst;

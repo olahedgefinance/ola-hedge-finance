@@ -1,4 +1,5 @@
 import 'package:budget/functions.dart';
+import 'package:budget/brand/ola_theme.dart';
 import 'package:budget/struct/settings.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -49,10 +50,8 @@ AppColors getAppColors(
             "white": Colors.white,
             "black": Colors.black,
             "textLight": appStateSettings["increaseTextContrast"]
-                ? Colors.black.withOpacity(0.7)
-                : appStateSettings["materialYou"]
-                    ? Colors.black.withOpacity(0.4)
-                    : Color(0xFF888888),
+                ? OlaPalette.midnight
+                : OlaPalette.mutedLight,
             "lightDarkAccent": appStateSettings["materialYou"]
                 ? lightenPastel(accentColor, amount: 0.6)
                 : Color(0xFFF7F7F7),
@@ -63,9 +62,9 @@ AppColors getAppColors(
             "shadowColorLight": const Color(0x2D5A5A5A),
             "unPaidUpcoming": Color(0xFF58A4C2),
             "unPaidOverdue": Color(0xFF6577E0),
-            "incomeAmount": Color(0xFF59A849),
-            "expenseAmount": Color(0xFFCA5A5A),
-            "warningOrange": Color(0xFFCA995A),
+            "incomeAmount": OlaPalette.successLight,
+            "expenseAmount": OlaPalette.errorLight,
+            "warningOrange": OlaPalette.warningLight,
             "starYellow": Color(0xFFFFD723),
             "dividerColor": appStateSettings["materialYou"]
                 ? Color(0x0F000000)
@@ -85,10 +84,8 @@ AppColors getAppColors(
             "white": Colors.black,
             "black": Colors.white,
             "textLight": appStateSettings["increaseTextContrast"]
-                ? Colors.white.withOpacity(0.65)
-                : appStateSettings["materialYou"]
-                    ? Colors.white.withOpacity(0.25)
-                    : Color(0xFF494949),
+                ? OlaPalette.white
+                : OlaPalette.mutedDark,
             "lightDarkAccent": appStateSettings["materialYou"]
                 ? darkenPastel(accentColor, amount: 0.83)
                 : Color(0xFF161616),
@@ -101,9 +98,9 @@ AppColors getAppColors(
                 : Color(0x28747474),
             "unPaidUpcoming": Color(0xFF7DB6CC),
             "unPaidOverdue": Color(0xFF8395FF),
-            "incomeAmount": Color(0xFF62CA77),
-            "expenseAmount": Color(0xFFDA7272),
-            "warningOrange": Color(0xFFDA9C72),
+            "incomeAmount": OlaPalette.mint,
+            "expenseAmount": OlaPalette.errorDark,
+            "warningOrange": OlaPalette.gold,
             "starYellow": Colors.yellow,
             "dividerColor": appStateSettings["materialYou"]
                 ? Color(0x13FFFFFF)
@@ -382,7 +379,18 @@ bool isGrayScale(Color color, {int threshold = 10}) {
       (green - blue).abs() <= threshold;
 }
 
+bool usesOlaColorScheme() =>
+    appStateSettings["accentSystemColor"] != true &&
+    HexColor(appStateSettings["accentColor"]).value == OlaPalette.emerald.value;
+
 ColorScheme getColorScheme(Brightness brightness) {
+  if (usesOlaColorScheme()) {
+    final scheme = OlaTheme.colorScheme(brightness);
+    return brightness == Brightness.dark &&
+            appStateSettings["forceFullDarkBackground"] == true
+        ? scheme.copyWith(background: Colors.black)
+        : scheme;
+  }
   if (isGrayScale(
     getSettingConstants(appStateSettings)["accentColor"],
     threshold: 15,
@@ -601,9 +609,11 @@ ThemeData generateThemeDataWithExtension(
     themeData: themeData,
   );
 
-  return themeData.copyWith(
+  return OlaTheme.applySurfaces(themeData).copyWith(
     extensions: <ThemeExtension<dynamic>>[colors],
     appBarTheme: AppBarTheme(
+      elevation: OlaElevation.flat,
+      scrolledUnderElevation: OlaElevation.flat,
       systemOverlayStyle: getSystemUiOverlayStyle(colors, brightness),
     ),
   );

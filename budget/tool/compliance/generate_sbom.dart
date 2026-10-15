@@ -336,7 +336,12 @@ List<String> findStaleArtifactPaths(
 ) {
   final stale = <String>[];
   for (final path in expected.keys.toList()..sort()) {
-    if (actual[path] != expected[path]) stale.add(path);
+    // Generated text may use checkout CRLF; retain every other difference.
+    // Frozen evidence verification still hashes raw bytes without normalization.
+    if (actual[path]?.replaceAll('\r\n', '\n') !=
+        expected[path]!.replaceAll('\r\n', '\n')) {
+      stale.add(path);
+    }
   }
   return stale;
 }

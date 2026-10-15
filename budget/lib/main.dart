@@ -1,3 +1,6 @@
+import 'package:flutter/services.dart' show rootBundle;
+import 'package:budget/brand/development_brand.dart';
+import 'package:budget/brand/development_release_guard.dart';
 import 'package:budget/brand/brand_identity.dart';
 import 'package:budget/auth/app_auth_session.dart';
 import 'package:budget/config/firebase_bootstrap.dart';
@@ -43,6 +46,7 @@ bool allowDebugFlags = true || kIsWeb;
 bool allowDangerousDebugFlags = kDebugMode;
 
 void main() async {
+  const DevelopmentReleaseGuard().ensureInternalBuild();
   captureLogs(() async {
     WidgetsFlutterBinding.ensureInitialized();
     await initializeConfiguredFirebase();
@@ -164,6 +168,11 @@ class App extends StatelessWidget {
               ),
             ),
           ),
+        );
+
+        mainWidget = DefaultAssetBundle(
+          bundle: DevelopmentBrandAssetBundle(rootBundle),
+          child: mainWidget,
         );
 
         if (kIsWeb) {

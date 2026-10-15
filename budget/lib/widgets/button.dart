@@ -78,14 +78,19 @@ class _ButtonState extends State<Button> with TickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    // Keep the tested brand pair intact; inherited pastel blending reduces contrast.
+    final brandFilled = usesOlaColorScheme() &&
+        widget.color == null && appStateSettings["materialYou"] == true;
     Widget text = TextFont(
       text: widget.label,
       fontSize: widget.fontSize,
       textColor: widget.textColor ??
-          (appStateSettings["materialYou"]
-              ? dynamicPastel(context, Theme.of(context).colorScheme.onPrimary,
-                  amount: 0.2)
-              : Theme.of(context).colorScheme.onSecondaryContainer),
+          (brandFilled
+              ? scheme.onPrimary
+              : appStateSettings["materialYou"]
+                  ? dynamicPastel(context, scheme.onPrimary, amount: 0.2)
+                  : scheme.onSecondaryContainer),
       maxLines: 5,
       textAlign: widget.icon != null ? TextAlign.start : TextAlign.center,
     );
@@ -110,9 +115,9 @@ class _ButtonState extends State<Button> with TickerProviderStateMixin {
               : widget.color != null
                   ? widget.color
                   : appStateSettings["materialYou"]
-                      ? dynamicPastel(
-                          context, Theme.of(context).colorScheme.primary,
-                          amount: 0.15)
+                      ? (brandFilled
+                          ? scheme.primary
+                          : dynamicPastel(context, scheme.primary, amount: 0.15))
                       : Theme.of(context).colorScheme.secondaryContainer,
           onHighlightChanged: (value) {
             if (appStateSettings["appAnimations"] == AppAnimations.all.index)
@@ -154,9 +159,7 @@ class _ButtonState extends State<Button> with TickerProviderStateMixin {
                           widget.icon,
                           size: 21,
                           color: widget.iconColor == null
-                              ? Theme.of(context)
-                                  .colorScheme
-                                  .onSecondaryContainer
+                              ? (brandFilled ? scheme.onPrimary : scheme.onSecondaryContainer)
                               : widget.iconColor,
                         ),
                       ),

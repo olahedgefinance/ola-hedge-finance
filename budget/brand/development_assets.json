@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 2,
+  "label": "TEMPORARY DEV ASSET — NOT APPROVED FOR PUBLIC RELEASE",
+  "status": "DEV ONLY / NOT RELEASE CLEARED",
+  "productName": "ÓLA HEDGE FINANCE",
+  "shortName": "ÓLA HEDGE",
+  "baselineCommit": "ba0299457905446f9739da545f82f28aa166653e",
+  "frozenEvidenceIndex": "compliance/evidence/reconstruction-2026-10-09/evidence-index.json",
+  "frozenEvidenceIndexSha256": "e8e84c553728564c0739bd0e457d7222cf6f79f6899b2138c0dc5d7fb1057e51",
+  "scope": "Supplemental current-development record only. Does not amend frozen inventories, evidence or release clearance.",
+  "generator": "tool/brand/generate_development_assets.py",
+  "pngs": {
+    "android/app/src/debug/res/drawable/notification_icon_android2.png": [
+      128,
+      128
+    ],
+    "android/app/src/debug/res/mipmap-hdpi/ic_launcher.png": [
+      72,
+      72
+    ],
+    "android/app/src/debug/res/mipmap-hdpi/ic_launcher_background.png": [
+      162,
+      162
+    ],
+    "android/app/src/debug/res/mipmap-hdpi/ic_launcher_foreground.png": [
+      162,
+      162
+    ],
+    "android/app/src/debug/res/mipmap-hdpi/ic_launcher_monochrome.png": [
+      162,
+      162
+    ],
+    "android/app/src/debug/res/mipmap-mdpi/ic_launcher.png": [
+      48,
+      48
+    ],
+    "android/app/src/debug/res/mipmap-mdpi/ic_launcher_background.png": [
+      108,
+      108
+    ],
+    "android/app/src/debug/res/mipmap-mdpi/ic_launcher_foreground.png": [
+      108,
+      108
+    ],
+    "android/app/src/debug/res/mipmap-mdpi/ic_launcher_monochrome.png": [
+      108,
+      108
+    ],
+    "android/app/src/debug/res/mipmap-xhdpi/ic_launcher.png": [
+      96,
+      96
+    ],
+    "android/app/src/debug/res/mipmap-xhdpi/ic_launcher_background.png": [
+      216,
+      216
+    ],
+    "android/app/src/debug/res/mipmap-xhdpi/ic_launcher_foreground.png": [
+      216,
+      216
+    ],
+    "android/app/src/debug/res/mipmap-xhdpi/ic_launcher_monochrome.png": [
+      216,
+      216
+    ],
+    "android/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png": [
+      144,
+      144
+    ],
+    "android/app/src/debug/res/mipmap-xxhdpi/ic_launcher_background.png": [
+      324,
+      324
+    ],
+    "android/app/src/debug/res/mipmap-xxhdpi/ic_launcher_foreground.png": [
+      324,
+      324
+    ],
+    "android/app/src/debug/res/mipmap-xxhdpi/ic_launcher_monochrome.png": [
+      324,
+      324
+    ],
+    "android/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png": [
+      192,
+      192
+    ],
+    "android/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_background.png": [
+      432,
+      432
+    ],
+    "android/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_foreground.png": [
+      432,
+      432
+    ],
+    "android/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_monochrome.png": [
+      432,
+      432
+    ],
+    "assets/icon/ola_dev_icon-small.png": [
+      200,
+      200
+    ],
+    "assets/icon/ola_dev_icon.png": [
+      1000,
+      1000
+    ],
+    "assets/icon/ola_dev_notification_icon_android.png": [
+      128,
+      128
+    ],
+    "assets/icon/ola_dev_notification_icon_android2.png": [
+      128,
+      128
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-20@2x.png": [
+      40,
+      40
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-20@2x~ipad.png": [
+      40,
+      40
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-20@3x.png": [
+      60,
+      60
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-20~ipad.png": [
+      20,
+      20
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-29.png": [
+      29,
+      29
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-29@2x.png": [
+      58,
+      58
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-29@2x~ipad.png": [
+      58,
+      58
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-29@3x.png": [
+      87,
+      87
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-29~ipad.png": [
+      29,
+      29
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-40@2x.png": [
+      80,
+      80
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-40@2x~ipad.png": [
+      80,
+      80
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-40@3x.png": [
+      120,
+      120
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-40~ipad.png": [
+      40,
+      40
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-60@2x~car.png": [
+      120,
+      120
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-60@3x~car.png": [
+      180,
+      180
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-83.5@2x~ipad.png": [
+      167,
+      167
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon@2x.png": [
+      120,
+      120
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon@2x~ipad.png": [
+      152,
+      152
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon@3x.png": [
+      180,
+      180
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon~ios-marketing.png": [
+      1024,
+      1024
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon~ipad.png": [
+      76,
+      76
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevLaunchImage.imageset/icon 1.png": [
+      1000,
+      1000
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevLaunchImage.imageset/icon 2.png": [
+      1000,
+      1000
+    ],
+    "ios/Runner/Assets.xcassets/OlaDevLaunchImage.imageset/icon.png": [
+      1000,
+      1000
+    ],
+    "web/branding/dev/favicon.png": [
+      16,
+      16
+    ],
+    "web/branding/dev/Icon-192.png": [
+      192,
+      192
+    ],
+    "web/branding/dev/Icon-512.png": [
+      512,
+      512
+    ],
+    "web/branding/dev/Icon.png": [
+      1000,
+      1000
+    ]
+  },
+  "ico": "web/branding/dev/favicon.ico",
+  "assets": [
+    {
+      "path": "android/app/src/debug/res/drawable/notification_icon_android2.png",
+      "sha256": "076423480503e93d3eee6e5642731185694b1251dc941580809e94580aa75540",
+      "historicalPath": "budget/android/app/src/main/res/drawable/notification_icon_android2.png",
+      "historicalSha256": "33c62b2a4b0563a84436ea720a8afd326f2eb7b5330281c8548dcd72e4277323",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-hdpi/ic_launcher.png",
+      "sha256": "b97555ae77492ab2d1cb2e9376a516d9e4697a02aff382c267be548e19e96a8c",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "historicalSha256": "74e5dc73d0a41d519e6cf347012991a29f6289989460ad5cacefe6d3e8f6450a",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-hdpi/ic_launcher_background.png",
+      "sha256": "92d338f0be0886bff0158a26d3c315e1458923bf5c70ccef9768aba17e7ab2f2",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-hdpi/ic_launcher_background.png",
+      "historicalSha256": "7cad0a0aa808d180eff514111208dc4bfe1543529bbb3de2c867a960498f33c2",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-hdpi/ic_launcher_foreground.png",
+      "sha256": "af1c589ccd6fff44a705b57433891076382772e85da78baeaf31e4ed15430bdd",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+      "historicalSha256": "3e3fd099fc5ed07de5e2da7ad2475dbbf0b264908d4c76fe22eb99afa4e811ee",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-hdpi/ic_launcher_monochrome.png",
+      "sha256": "57cafbb7cd01880d7f0583723acf629acb2a0a888272cc72e51120b0ddf57cc4",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-hdpi/ic_launcher_monochrome.png",
+      "historicalSha256": "1b03ec4dd1755bee30159a4cd6fec3409bac8cf3da85351ec58b84b72612b079",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-mdpi/ic_launcher.png",
+      "sha256": "3740f5aaae5bfa8bf233abb1bf974f0c76017fa9f63d3d3d800ab917faa10975",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "historicalSha256": "5e1f26b8cef95323f45938b48a939f30fe34d99d27f025b95dc4476503dd521d",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-mdpi/ic_launcher_background.png",
+      "sha256": "8943dd7d4aaae7ff3e849d218c82e87c3a0ee054ac5b4a77465ff83c91ecd52c",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-mdpi/ic_launcher_background.png",
+      "historicalSha256": "f5e3c7cc161bb1397a31b3f96ac43341e9bdf53a3f4355fb970f6ee56212a3fd",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-mdpi/ic_launcher_foreground.png",
+      "sha256": "0bfc6e2fa02d2bf6c5b8991253795126566514b40d1090b22b201822c1f7e625",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+      "historicalSha256": "4b84692399423891e384376ebb9cb49573fb42149cf7a438fb1faaa2ded01e74",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-mdpi/ic_launcher_monochrome.png",
+      "sha256": "8833f23c558445f039071e17e8944480f43e36c332baa809dad739aac9685a9e",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-mdpi/ic_launcher_monochrome.png",
+      "historicalSha256": "bdd054a1b10b7a64060e8856a16c528db8c0c62ee382f54c02c0797ae9afb341",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-xhdpi/ic_launcher.png",
+      "sha256": "fc9d57a7678517245b812cc9de16b2d679c1868cb9722cdd2ec7b8ff4a4aa60c",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "historicalSha256": "85545dd792201351e654cc9980c37f76d809d5300be49d4422c8573750b3dd98",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-xhdpi/ic_launcher_background.png",
+      "sha256": "75df5f88ea7f372efd4e79b9fb1b8bf3da1370cfadc33f346e7bc2683ccb2362",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png",
+      "historicalSha256": "84fc7230d911e91428ebc1b246506db30c6f3dea603aa1c641acf3cc2cebe279",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-xhdpi/ic_launcher_foreground.png",
+      "sha256": "dc85c9b897cfb9857e58a0d54044ae2ef97d57d9110ccdcb72aa005bdf7f5b94",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+      "historicalSha256": "ed9e801cd7f24595c19057adefdd5bae2b6081ba7786d5744f79a023b72d81a1",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-xhdpi/ic_launcher_monochrome.png",
+      "sha256": "42dbeae813b15884ac1f8d88a78766a3179e47aa263d00c3b5aff24bfb8fc4c6",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-xhdpi/ic_launcher_monochrome.png",
+      "historicalSha256": "c5ddd353eac81f12f4f2a14115781e9f603b34b207c00a474020c9287d830fb3",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png",
+      "sha256": "fcb2babe39d2378ce147dfafe764d2f5c2d04161c1239c3a26ded7503b3fac69",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "historicalSha256": "b7cd050332cde1ac81a772fe2096ac735f784aa261026a0ac1369da20608a918",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-xxhdpi/ic_launcher_background.png",
+      "sha256": "1d7dd53ce1bb0b4ed70d9b34072986db4246b344f34041a2676748150544acdb",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png",
+      "historicalSha256": "d7e404365ec21c486c4b8bbf490d8f1eba9ed39bf0aac4a09830e14d9ecc575e",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "sha256": "dc6ac1c7a699abe10560b6292f739feda34de7a775495f7c4434ae8991009e28",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "historicalSha256": "2919dda02f6eff7b34721655fc7160747a1f6198eddecd719f8771226ab44a9f",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-xxhdpi/ic_launcher_monochrome.png",
+      "sha256": "99e944d6ba2a8a68e05e9ad171fe76158babd366f64f0ef2290f9f3ff7f742b3",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_monochrome.png",
+      "historicalSha256": "865d38d8430e05d42c80b95dcde1ed94258eeffabca195b0e06108815b15210c",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png",
+      "sha256": "d685ff4b4a9bf3432e1acc25cde4103b93659aa2ce04be4e2e7388afb161ac28",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "historicalSha256": "ca6f9ace25b14a53224e19bf2f6319b7d75eb434ce5a0bf45e312dbcaa32392c",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_background.png",
+      "sha256": "65789ea026a5fc2ddbfebefd64115637016cce9af5b87e73889e0e3e58c9c549",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png",
+      "historicalSha256": "6fb9af44f7460885a00bd50402bc45579e90ec55064cc20d665f83a3df709d59",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "sha256": "c887e9f6a6cbc35823d8b8d295910c554a2ace7925d3d152e2e82840e87ce9e0",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "historicalSha256": "fa765b778ff9b90731768db2c39f6c1ec3a133152671530b2d8166d929b32648",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "android/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_monochrome.png",
+      "sha256": "d946225425de09b79d1f207a8293c89be11a6e806083360d7f92d3e6bd1df7ff",
+      "historicalPath": "budget/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_monochrome.png",
+      "historicalSha256": "50046074cfccd1568765cbd90018fa5d15b51de8435ac542fc760ea58634a62e",
+      "purpose": "Internal android launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "assets/icon/ola_dev_icon-small.png",
+      "sha256": "01b42f15b6ee72383144074b2fb46f977f26dde2c2ab090306b188d5d71bc46f",
+      "historicalPath": "budget/assets/icon/icon-small.png",
+      "historicalSha256": "db8ab4d2c36e4b988b714c3179e0c778456ef8dd5f361a8d648957fb1e8788b1",
+      "purpose": "Internal Flutter UI",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "assets/icon/ola_dev_icon.png",
+      "sha256": "4e29be084906770e6f4000cf4cc3f21a77004499788b50967f97c1f8596b5334",
+      "historicalPath": "budget/assets/icon/icon.png",
+      "historicalSha256": "e2b8b9332a2edbacebf574fac4e978b5056cae3170dab53ded2ea30823adb8bc",
+      "purpose": "Internal Flutter UI",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "assets/icon/ola_dev_notification_icon_android.png",
+      "sha256": "076423480503e93d3eee6e5642731185694b1251dc941580809e94580aa75540",
+      "historicalPath": "budget/assets/icon/notification_icon_android.png",
+      "historicalSha256": "4143411ae6de9289b27bcba9d70ff6971fc327592a52116f0e26568a3e532dbc",
+      "purpose": "Internal Flutter UI",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "assets/icon/ola_dev_notification_icon_android2.png",
+      "sha256": "076423480503e93d3eee6e5642731185694b1251dc941580809e94580aa75540",
+      "historicalPath": "budget/assets/icon/notification_icon_android2.png",
+      "historicalSha256": "33c62b2a4b0563a84436ea720a8afd326f2eb7b5330281c8548dcd72e4277323",
+      "purpose": "Internal Flutter UI",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-20@2x.png",
+      "sha256": "a9fa36520608843581e45ae0fd669456b2eacd169a9c370be8fe840dd08a8e45",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-20@2x.png",
+      "historicalSha256": "b31b238711275c233008421c9fe5d9118877c4a70c1e7c329efae9c848827402",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-20@2x~ipad.png",
+      "sha256": "a9fa36520608843581e45ae0fd669456b2eacd169a9c370be8fe840dd08a8e45",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-20@2x~ipad.png",
+      "historicalSha256": "b31b238711275c233008421c9fe5d9118877c4a70c1e7c329efae9c848827402",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-20@3x.png",
+      "sha256": "dacf5c52267f3df2f9b35d29dc360f53748f69b49ad478067fc73e99bb75d70d",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-20@3x.png",
+      "historicalSha256": "aa1489e4a22f822d15ec2ce68dbd0dd6048b13652dfb2b1942c1cd59e67a215b",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-20~ipad.png",
+      "sha256": "92618daf2c80f9d435eca397418987d047dad3ece9831a3f7950826c1c8c3534",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-20~ipad.png",
+      "historicalSha256": "09e9f4c3ae09e2983aab92519c0d4ad9a652f964fb220ba4eb1da3af75424bca",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-29.png",
+      "sha256": "e4e14ccd143ce6c4f195b045580bc6bf94b3a1a2883522779918896dddc7512a",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-29.png",
+      "historicalSha256": "c6634be7927d02f62067053866be109ca56e987be7410c257a7517629aa8993c",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-29@2x.png",
+      "sha256": "4bd4185468de750e5deb90b7a9ba25a3a095463174767889e3dc6ec1da1125f7",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-29@2x.png",
+      "historicalSha256": "abb9e6a68732053319f6e9f21b2e510c12335c87066fb43311c1064847e3a494",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-29@2x~ipad.png",
+      "sha256": "4bd4185468de750e5deb90b7a9ba25a3a095463174767889e3dc6ec1da1125f7",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-29@2x~ipad.png",
+      "historicalSha256": "abb9e6a68732053319f6e9f21b2e510c12335c87066fb43311c1064847e3a494",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-29@3x.png",
+      "sha256": "e08b9636a2622d25552e6d8f576ab83279b9ef4d5c96f65b0e677b0568aca013",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-29@3x.png",
+      "historicalSha256": "8661d8a397d48c3a93e01d0714cbd93f86892bc5e46724b28f0c8e068791c68e",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-29~ipad.png",
+      "sha256": "e4e14ccd143ce6c4f195b045580bc6bf94b3a1a2883522779918896dddc7512a",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-29~ipad.png",
+      "historicalSha256": "c6634be7927d02f62067053866be109ca56e987be7410c257a7517629aa8993c",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-40@2x.png",
+      "sha256": "bbe5167735c6c6375105e3fa4917603c870e79387e991fc7db74c56e77f793ba",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-40@2x.png",
+      "historicalSha256": "8ead41d133634bcba99196ba2508c4455360ef56d077837b3c2abe57c33e9730",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-40@2x~ipad.png",
+      "sha256": "bbe5167735c6c6375105e3fa4917603c870e79387e991fc7db74c56e77f793ba",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-40@2x~ipad.png",
+      "historicalSha256": "8ead41d133634bcba99196ba2508c4455360ef56d077837b3c2abe57c33e9730",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-40@3x.png",
+      "sha256": "afe41d82cac6e6e1d8a98175067eb659fd33b3f3dd4e4f273093e39058d4821b",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-40@3x.png",
+      "historicalSha256": "fa13b5ca1112bc0c68e69af88ff42d370705d9df7fb3ea62623816c5a1b14eb6",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-40~ipad.png",
+      "sha256": "a9fa36520608843581e45ae0fd669456b2eacd169a9c370be8fe840dd08a8e45",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-40~ipad.png",
+      "historicalSha256": "b31b238711275c233008421c9fe5d9118877c4a70c1e7c329efae9c848827402",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-60@2x~car.png",
+      "sha256": "afe41d82cac6e6e1d8a98175067eb659fd33b3f3dd4e4f273093e39058d4821b",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-60@2x~car.png",
+      "historicalSha256": "fa13b5ca1112bc0c68e69af88ff42d370705d9df7fb3ea62623816c5a1b14eb6",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-60@3x~car.png",
+      "sha256": "fb6b526f99ba67705394a1789dc5c3acaf57079643ddc6ae3d4b47a3924e4bc0",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-60@3x~car.png",
+      "historicalSha256": "82c6b40889587a724eaa05994437351052809ad61afe6dc0fe65e3aece2e0a89",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon-83.5@2x~ipad.png",
+      "sha256": "b3c5029c1093f85c42d788106edd0097059223fbc546100d4bac20c00f570315",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon-83.5@2x~ipad.png",
+      "historicalSha256": "749eb804b009afbbe6ad5a6be82adf35cf82d03a0a779c0f76e193ba0c849444",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon@2x.png",
+      "sha256": "afe41d82cac6e6e1d8a98175067eb659fd33b3f3dd4e4f273093e39058d4821b",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon@2x.png",
+      "historicalSha256": "fa13b5ca1112bc0c68e69af88ff42d370705d9df7fb3ea62623816c5a1b14eb6",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon@2x~ipad.png",
+      "sha256": "6cf72387dd65faac1c1e8040c7c3e51bffd8e9dd55a0fe58edb562bec7c30d20",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon@2x~ipad.png",
+      "historicalSha256": "9e489a1d336cf34dd7e90971f316c887639d36ac6c34fcaaa2b02fd076594232",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon@3x.png",
+      "sha256": "fb6b526f99ba67705394a1789dc5c3acaf57079643ddc6ae3d4b47a3924e4bc0",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon@3x.png",
+      "historicalSha256": "82c6b40889587a724eaa05994437351052809ad61afe6dc0fe65e3aece2e0a89",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon~ios-marketing.png",
+      "sha256": "3e097a4be794ef67201fee8e4882f95ad6e4b08025ebf56fb15a86432ddd93fa",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon~ios-marketing.png",
+      "historicalSha256": "64ad443a6377f04d242bb041c25a5d2de05d756f67951b20216642fa8f667b46",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevAppIcon.appiconset/AppIcon~ipad.png",
+      "sha256": "c754183c2141de8dee2eb68502cc3c26060175a5a6ab87f5745f93c402953e4d",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/AppIcon.appiconset/AppIcon~ipad.png",
+      "historicalSha256": "41e87f16bb14939b80789e8ffcde21c46b959379a3cde0512b975a0640a62197",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevLaunchImage.imageset/icon 1.png",
+      "sha256": "4e29be084906770e6f4000cf4cc3f21a77004499788b50967f97c1f8596b5334",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/LaunchImage.imageset/icon 1.png",
+      "historicalSha256": "e2b8b9332a2edbacebf574fac4e978b5056cae3170dab53ded2ea30823adb8bc",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevLaunchImage.imageset/icon 2.png",
+      "sha256": "4e29be084906770e6f4000cf4cc3f21a77004499788b50967f97c1f8596b5334",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/LaunchImage.imageset/icon 2.png",
+      "historicalSha256": "e2b8b9332a2edbacebf574fac4e978b5056cae3170dab53ded2ea30823adb8bc",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/OlaDevLaunchImage.imageset/icon.png",
+      "sha256": "4e29be084906770e6f4000cf4cc3f21a77004499788b50967f97c1f8596b5334",
+      "historicalPath": "budget/ios/Runner/Assets.xcassets/LaunchImage.imageset/icon.png",
+      "historicalSha256": "e2b8b9332a2edbacebf574fac4e978b5056cae3170dab53ded2ea30823adb8bc",
+      "purpose": "Internal ios launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "web/branding/dev/favicon.png",
+      "sha256": "11bc682758a485d8db94694cb1f471d4e410a74899e4079d232318b81438f2ae",
+      "historicalPath": "budget/web/favicon.png",
+      "historicalSha256": "5e725829c2e8ffe39c2b1e284ec89eac77c2c4ea0038b598ded01e2e3e3e77c5",
+      "purpose": "Internal web launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "web/branding/dev/Icon-192.png",
+      "sha256": "d685ff4b4a9bf3432e1acc25cde4103b93659aa2ce04be4e2e7388afb161ac28",
+      "historicalPath": "budget/web/icons/Icon-192.png",
+      "historicalSha256": "095903cd2a5b681e5d57a9206e9507175f54bf0364e73ced98f0be7559844a2b",
+      "purpose": "Internal web launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "web/branding/dev/Icon-512.png",
+      "sha256": "fd203a931ff2b8f1b0089034fa2617349ae66249f332a560174b16245e9fe33e",
+      "historicalPath": "budget/web/icons/Icon-512.png",
+      "historicalSha256": "660daccd892bc336dd64eb6862cba6540da96a52e9230ceea0312fb61b2e46c3",
+      "purpose": "Internal web launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "web/branding/dev/Icon.png",
+      "sha256": "4e29be084906770e6f4000cf4cc3f21a77004499788b50967f97c1f8596b5334",
+      "historicalPath": "budget/web/icons/Icon.png",
+      "historicalSha256": "e2b8b9332a2edbacebf574fac4e978b5056cae3170dab53ded2ea30823adb8bc",
+      "purpose": "Internal web launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    },
+    {
+      "path": "web/branding/dev/favicon.ico",
+      "sha256": "4389c15972037bedf0d6294e987cbf9f57b4f5f7631fe2472ecc414fa76610d0",
+      "historicalPath": "budget/web/favicon.ico",
+      "historicalSha256": "057f44a07d3a9aaeaaf0ff8d463f53de7fc82fbd0c00e7f1e2873dc359cb74f6",
+      "purpose": "Internal web launcher, notification or splash branding",
+      "provenance": "temporary/internal/generated; basic OLA / DEV glyphs drawn by Python standard library; no external artwork or font input",
+      "status": "DEV ONLY / NOT RELEASE CLEARED",
+      "replacement": "Replace with owner-cleared production artwork and remove release guards only after explicit review."
+    }
+  ]
+}

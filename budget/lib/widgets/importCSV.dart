@@ -833,7 +833,7 @@ Future saveSampleCSV({required BuildContext boxContext}) async {
       "",
     ]);
     String csv = ListToCsvConverter().convert(csvData);
-    String fileName = "cashew-import-template" +
+    String fileName = "ola-hedge-import-template" +
         DateTime.now().millisecondsSinceEpoch.toString() +
         ".csv";
     return saveCSV(boxContext: boxContext, csv: csv, fileName: fileName);

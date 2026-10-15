@@ -1,4 +1,5 @@
 import 'package:budget/colors.dart';
+import 'package:budget/brand/ola_theme.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
 import 'package:budget/pages/homePage/homePageLineGraph.dart';
@@ -9,8 +10,6 @@ import 'package:budget/widgets/periodCyclePicker.dart';
 import 'package:budget/widgets/selectAmount.dart';
 import 'package:drift/drift.dart' show Value;
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 // default settings, defaultSettings, initial settings
 Future<Map<String, dynamic>> getDefaultPreferences() async {
@@ -29,8 +28,8 @@ Future<Map<String, dynamic>> getDefaultPreferences() async {
     "showExtraInfoText": true,
     "selectedWalletPk": "0",
     "selectedSubscriptionType": 0,
-    "accentColor": toHexString(Color(0xFF1B447A)),
-    "accentSystemColor": await systemColorByDefault(),
+    "accentColor": toHexString(OlaPalette.emerald),
+    "accentSystemColor": false,
     "widgetOpacity": 1,
     "widgetTheme": "system", //system, light, dark
     "nonCompactTransactions":
@@ -172,7 +171,7 @@ Future<Map<String, dynamic>> getDefaultPreferences() async {
     "allSpendingSummaryAllWallets": true,
     "showPastSpendingTrajectory": false,
     "lastSynced": null,
-    "font": "Avenir",
+    "font": OlaTheme.fontFamily,
     "forceSmallHeader": false,
     "animationSpeed": 1.0,
     "logging": false,
