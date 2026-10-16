@@ -1,3 +1,4 @@
+import 'package:budget/widgets/ola/ola_dashboard.dart';
 import 'package:budget/colors.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
@@ -42,6 +43,10 @@ class _HomePageObjectivesState extends State<HomePageObjectives> {
                 )
                 .$1,
             builder: (context, snapshot) {
+              if (OlaDashboardScope.active(context)) {
+                if (snapshot.hasError) return const OlaDataState(error: true);
+                if (!snapshot.hasData) return const OlaDataState();
+              }
               if (snapshot.hasData && snapshot.data != null) {
                 if (snapshot.data?.length == 0) {
                   return AddButton(

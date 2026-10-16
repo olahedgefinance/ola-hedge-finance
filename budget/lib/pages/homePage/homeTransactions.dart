@@ -1,3 +1,4 @@
+import 'package:budget/widgets/ola/ola_dashboard.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
 import 'package:budget/pages/transactionFilters.dart';
@@ -36,7 +37,7 @@ class HomeTransactions extends StatelessWidget {
     return TransactionEntries(
       showNumberOfDaysUntilForFutureDates: true,
       renderType: TransactionEntriesRenderType.implicitlyAnimatedNonSlivers,
-      showNoResults: false,
+      showNoResults: OlaDashboardScope.active(context),
       DateTime.now().justDay(monthOffset: -1),
       DateTime.now().justDay(dayOffset: numberOfFutureDays),
       dateDividerColor: Colors.transparent,

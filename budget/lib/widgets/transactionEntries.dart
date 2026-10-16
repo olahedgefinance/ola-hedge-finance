@@ -1,3 +1,4 @@
+import 'package:budget/widgets/ola/ola_dashboard.dart';
 import 'package:budget/colors.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/pages/transactionFilters.dart';
@@ -193,6 +194,17 @@ class _TransactionEntriesState extends State<TransactionEntries> {
         budget: widget.budget,
       ),
       builder: (context, snapshot) {
+        if (OlaDashboardScope.active(context) && snapshot.hasError) {
+          const error = OlaDataState(error: true);
+          if (widget.renderType == TransactionEntriesRenderType.slivers ||
+              widget.renderType ==
+                  TransactionEntriesRenderType.implicitlyAnimatedSlivers ||
+              widget.renderType ==
+                  TransactionEntriesRenderType.sliversNotSticky) {
+            return const SliverToBoxAdapter(child: error);
+          }
+          return error;
+        }
         if (snapshot.data != null && snapshot.hasData) {
           List<TransactionWithCategory> data = snapshot.data ?? [];
           int totalNumberTransactionsAll = data.length;

@@ -1,3 +1,4 @@
+import 'package:budget/widgets/ola/ola_dashboard.dart';
 import 'package:budget/colors.dart';
 import 'package:budget/database/initializeDefaultDatabase.dart';
 import 'package:budget/database/tables.dart';
@@ -33,6 +34,10 @@ class HomePageWalletSwitcher extends StatelessWidget {
           stream: database.watchAllWalletsWithDetails(
               homePageWidgetDisplay: HomePageWidgetDisplay.WalletSwitcher),
           builder: (context, snapshot) {
+            if (OlaDashboardScope.active(context)) {
+              if (snapshot.hasError) return const OlaDataState(error: true);
+              if (!snapshot.hasData) return const OlaDataState();
+            }
             if (snapshot.hasData) {
               return SingleChildScrollView(
                 scrollDirection: Axis.horizontal,

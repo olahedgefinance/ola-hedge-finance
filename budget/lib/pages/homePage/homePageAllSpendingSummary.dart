@@ -1,3 +1,4 @@
+import 'package:budget/widgets/ola/ola_dashboard.dart';
 import 'package:budget/colors.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/pages/homePage/homePageNetWorth.dart';
@@ -26,6 +27,10 @@ class HomePageAllSpendingSummary extends StatelessWidget {
             .getAllPinnedWallets(HomePageWidgetDisplay.AllSpendingSummary)
             .$1,
         builder: (context, snapshot) {
+          if (OlaDashboardScope.active(context)) {
+            if (snapshot.hasError) return const OlaDataState(error: true);
+            if (!snapshot.hasData) return const OlaDataState();
+          }
           if (snapshot.hasData ||
               appStateSettings["allSpendingSummaryAllWallets"] == true) {
             List<String>? walletPks =
@@ -36,7 +41,7 @@ class HomePageAllSpendingSummary extends StatelessWidget {
             return Padding(
               padding: const EdgeInsetsDirectional.only(
                   bottom: 13, start: 13, end: 13),
-              child: Row(
+              child: OlaMetricPair(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [

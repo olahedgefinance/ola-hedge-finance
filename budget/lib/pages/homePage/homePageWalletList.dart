@@ -1,3 +1,4 @@
+import 'package:budget/widgets/ola/ola_dashboard.dart';
 import 'package:budget/colors.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
@@ -52,6 +53,12 @@ class HomePageWalletList extends StatelessWidget {
                         homePageWidgetDisplay:
                             HomePageWidgetDisplay.WalletList),
                     builder: (context, snapshot) {
+                      if (OlaDashboardScope.active(context)) {
+                        if (snapshot.hasError) {
+                          return const OlaDataState(error: true);
+                        }
+                        if (!snapshot.hasData) return const OlaDataState();
+                      }
                       if (snapshot.hasData) {
                         return Column(
                           mainAxisSize: MainAxisSize.max,

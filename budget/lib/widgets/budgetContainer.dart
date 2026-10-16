@@ -1,3 +1,4 @@
+import 'package:budget/widgets/ola/ola_dashboard.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/pages/sharedBudgetSettings.dart';
 import 'package:budget/pages/transactionFilters.dart';
@@ -70,6 +71,10 @@ class BudgetContainer extends StatelessWidget {
         budget: budget,
       ),
       builder: (context, snapshot) {
+        if (OlaDashboardScope.active(context)) {
+          if (snapshot.hasError) return const OlaDataState(error: true);
+          if (!snapshot.hasData) return const OlaDataState();
+        }
         if (snapshot.hasData) {
           double totalSpent = 0;
           snapshot.data!.forEach((category) {
@@ -435,7 +440,9 @@ class DaySpending extends StatelessWidget {
                   budgetRange.end.difference(DateTime.now().justDay()).inDays +
                       1;
               return TextFont(
-                textColor: getColor(context, "black").withAlpha(80),
+                textColor: OlaDashboardScope.active(context)
+                    ? Theme.of(context).colorScheme.onSurface
+                    : getColor(context, "black").withAlpha(80),
                 text: isOutOfRange
                     ? ""
                     : getAmountPerDayString(

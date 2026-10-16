@@ -1,3 +1,5 @@
+import 'package:budget/widgets/ola/ola_dashboard.dart';
+import 'package:budget/struct/ola_navigation.dart';
 import 'package:budget/colors.dart';
 import 'package:budget/auth/app_auth_session.dart';
 import 'package:budget/config/infrastructure_config.dart';
@@ -247,6 +249,90 @@ class HomePageState extends State<HomePage> with TickerProviderStateMixin {
       } else {
         homePageSectionsFullScreenCenter.add(item);
       }
+    }
+
+    if (OlaNavigation.enabled) {
+      const headings = <String, String>{
+        'netWorth': 'Financial overview',
+        'wallets': 'Accounts',
+        'walletsList': 'Account balances',
+        'allSpendingSummary': 'Financial Health',
+        'budgets': 'Budget progress',
+        'objectives': 'Savings goals',
+        'overdueUpcoming': 'Upcoming and overdue',
+        'creditDebts': 'Lent and borrowed',
+        'objectiveLoans': 'Loan progress',
+        'spendingGraph': 'Income and spending history',
+        'pieChart': 'Spending insights',
+        'heatMap': 'Activity',
+        'transactionsList': 'Recent transactions',
+      };
+      const scopeLabels = <String, String>{
+        'netWorth':
+            'Your account and period settings apply. Hold the value to review.',
+        'allSpendingSummary':
+            'Recorded income and expenses for your selected accounts and period.',
+        'overdueUpcoming':
+            'Scheduled income and payments. Tap to review what is due.',
+        'objectives': 'Progress towards your recorded targets.',
+        'budgets': 'Your pinned budgets and their current periods.',
+      };
+      Widget sectionFor(String key) => OlaDashboardScope(
+            key: ValueKey('ola-home-$key'),
+            hero: key == 'netWorth',
+            child: OlaDashboardSection(
+                title: headings[key] ?? key,
+                scopeLabel: scopeLabels[key],
+                child: homePageSections[key]!),
+          );
+      List<Widget> sections(Iterable<String> keys) => [
+            for (final key in keys.toSet())
+              if (homePageSections[key] != null &&
+                  (key != 'transactionsList' ||
+                      isHomeScreenSectionEnabled(
+                          context, 'showTransactionsList')))
+                sectionFor(key),
+          ];
+      final wide = enableDoubleColumn(context);
+      return SwipeToSelectTransactions(
+          listID: '0',
+          child: PullDownToRefreshSync(
+            scrollController: _scrollController,
+            child: Stack(children: [
+              const AndroidOnly(child: CheckWidgetLaunch()),
+              const AndroidOnly(child: RenderHomePageWidgets()),
+              Scaffold(
+                  resizeToAvoidBottomInset: false,
+                  body: ScrollbarWrap(
+                    scrollController: _scrollController,
+                    child: ListView(controller: _scrollController, children: [
+                      const PreviewDemoWarning(),
+                      OlaDashboardBody(
+                        header: OlaDashboardHeader(
+                          greeting: [
+                            if (showGreeting) getWelcomeMessage(),
+                            if (showUsername)
+                              appStateSettings['username'] as String
+                          ].join(' '),
+                          onCustomize: () =>
+                              pushRoute(context, const EditHomePage()),
+                        ),
+                        centerSections: sections(wide
+                            ? homePageSectionsFullScreenCenter
+                            : List<String>.from(
+                                appStateSettings['homePageOrder'])),
+                        leftSections: wide
+                            ? sections(homePageSectionsFullScreenLeft)
+                            : const [],
+                        rightSections: wide
+                            ? sections(homePageSectionsFullScreenRight)
+                            : const [],
+                      ),
+                    ]),
+                  )),
+              const SelectedTransactionsAppBar(pageID: '0'),
+            ]),
+          ));
     }
 
     return SwipeToSelectTransactions(

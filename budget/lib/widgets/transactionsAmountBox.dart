@@ -1,3 +1,4 @@
+import 'package:budget/widgets/ola/ola_dashboard.dart';
 import 'package:budget/colors.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
@@ -41,6 +42,46 @@ class TransactionsAmountBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    if (OlaDashboardScope.active(context)) {
+      return OpenContainerNavigation(
+        openPage: openPage ?? const SizedBox.shrink(),
+        closedColor: Theme.of(context).colorScheme.surface,
+        borderRadius: OlaDashboardScope.of(context)!.hero ? 24 : 16,
+        button: (openContainer) => DoubleTotalWithCountStreamBuilder(
+          totalWithCountStream: totalWithCountStream,
+          totalWithCountStream2: totalWithCountStream2,
+          requireAllData: true,
+          builder: (context, snapshot) {
+            // Same display transform as the inherited amount box below.
+            final totalSpent = snapshot.data?.total ?? 0;
+            final totalCount = snapshot.data?.count ?? 0;
+            final finalAmount =
+                snapshot.hasData == false || snapshot.data == null
+                    ? 0.0
+                    : absolute == true
+                        ? totalSpent.abs()
+                        : totalSpent * (invertSign == true ? -1 : 1);
+            return OlaMetricCard(
+              label: label,
+              value: convertToMoney(
+                  Provider.of<AllWallets>(context), finalAmount,
+                  currencyKey: currencyKey,
+                  addCurrencyName: currencyKey != null,
+                  finalNumber: finalAmount),
+              contextLabel: totalCount == 0
+                  ? 'No recorded transactions'
+                  : '$totalCount recorded ${totalCount == 1 ? 'transaction' : 'transactions'}',
+              hero: OlaDashboardScope.of(context)!.hero,
+              isLoading: !snapshot.hasData,
+              errorText:
+                  snapshot.hasError ? 'Unable to load. Try refreshing.' : null,
+              onTap: openPage == null ? null : openContainer,
+              onLongPress: onLongPress == null ? null : () => onLongPress!(),
+            );
+          },
+        ),
+      );
+    }
     return Container(
       decoration:
           BoxDecoration(boxShadow: boxShadowCheck(boxShadowGeneral(context))),

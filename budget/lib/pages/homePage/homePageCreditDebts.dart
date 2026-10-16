@@ -1,3 +1,4 @@
+import 'package:budget/widgets/ola/ola_dashboard.dart';
 import 'package:budget/colors.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/pages/creditDebtTransactionsPage.dart';
@@ -21,7 +22,7 @@ class HomePageCreditDebts extends StatelessWidget {
       child: Padding(
         padding:
             const EdgeInsetsDirectional.only(bottom: 13, start: 13, end: 13),
-        child: Row(
+        child: OlaMetricPair(
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [

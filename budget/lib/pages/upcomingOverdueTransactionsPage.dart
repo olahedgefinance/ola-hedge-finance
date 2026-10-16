@@ -317,10 +317,12 @@ class DoubleTotalWithCountStreamBuilder extends StatelessWidget {
   const DoubleTotalWithCountStreamBuilder({
     required this.totalWithCountStream,
     this.totalWithCountStream2,
+    this.requireAllData = false,
     required this.builder,
     super.key,
   });
 
+  final bool requireAllData;
   final Stream<TotalWithCount?> totalWithCountStream;
   final Stream<TotalWithCount?>? totalWithCountStream2;
   final Widget Function(BuildContext, AsyncSnapshot<TotalWithCount?>) builder;
@@ -334,6 +336,21 @@ class DoubleTotalWithCountStreamBuilder extends StatelessWidget {
           return StreamBuilder<TotalWithCount?>(
             stream: totalWithCountStream2,
             builder: (context, snapshot2) {
+              // Dashboard presentation must not report a partial loan total.
+              // The sum/count below and the legacy default remain unchanged.
+              if (requireAllData) {
+                if (snapshot1.hasError || snapshot2.hasError) {
+                  return builder(
+                      context,
+                      AsyncSnapshot<TotalWithCount?>.withError(
+                          ConnectionState.active,
+                          snapshot1.error ?? snapshot2.error!));
+                }
+                if (!snapshot1.hasData || !snapshot2.hasData) {
+                  return builder(
+                      context, const AsyncSnapshot<TotalWithCount?>.waiting());
+                }
+              }
               final total1 = snapshot1.data;
               final total2 = snapshot2.data;
               return builder(

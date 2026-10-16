@@ -1,3 +1,4 @@
+import 'package:budget/widgets/ola/ola_dashboard.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
 import 'package:budget/pages/addWalletPage.dart';
@@ -178,107 +179,148 @@ class WalletEntryRow extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsetsDirectional.symmetric(
                 horizontal: 18, vertical: 8),
-            child: Container(
-              child: Row(
-                mainAxisSize: MainAxisSize.max,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Expanded(
+            child: OlaDashboardScope.active(context)
+                ? Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                        Text(
+                            isCurrencyRow
+                                ? (walletWithDetails.wallet.currency ?? '')
+                                    .toUpperCase()
+                                : walletWithDetails.wallet.name,
+                            style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w700,
+                                color:
+                                    Theme.of(context).colorScheme.onSurface)),
+                        if (percent != null)
+                          Text(
+                              convertToPercent(percent ?? 0,
+                                  useLessThanZero: true),
+                              style: TextStyle(
+                                  fontSize: 14,
+                                  color: Theme.of(context)
+                                      .colorScheme
+                                      .onSurfaceVariant)),
+                        const SizedBox(height: 8),
+                        AmountAccount(
+                            walletWithDetails: walletWithDetails,
+                            textAlign: TextAlign.start,
+                            fontSize: 20),
+                        if (selected)
+                          Text('Selected account',
+                              style: TextStyle(
+                                  fontSize: 14,
+                                  color:
+                                      Theme.of(context).colorScheme.primary)),
+                      ])
+                : Container(
                     child: Row(
+                      mainAxisSize: MainAxisSize.max,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        ScaledAnimatedSwitcher(
-                          keyToWatch: selected.toString(),
-                          child: selected
-                              ? Container(
-                                  decoration: BoxDecoration(
-                                    borderRadius:
-                                        BorderRadiusDirectional.circular(100),
-                                    color: HexColor(
-                                      walletWithDetails.wallet.colour,
-                                      defaultColor:
-                                          Theme.of(context).colorScheme.primary,
-                                    ).withOpacity(0.7),
-                                  ),
-                                  width: 20,
-                                  height: 20,
-                                )
-                              : Transform.scale(
-                                  scale: 0.9,
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                      borderRadius:
-                                          BorderRadiusDirectional.circular(100),
-                                      border: Border.all(
-                                        width: 2,
-                                        color: HexColor(
-                                          walletWithDetails.wallet.colour,
-                                          defaultColor: Theme.of(context)
-                                              .colorScheme
-                                              .primary,
-                                        ).withOpacity(0.7),
+                        Expanded(
+                          child: Row(
+                            children: [
+                              ScaledAnimatedSwitcher(
+                                keyToWatch: selected.toString(),
+                                child: selected
+                                    ? Container(
+                                        decoration: BoxDecoration(
+                                          borderRadius:
+                                              BorderRadiusDirectional.circular(
+                                                  100),
+                                          color: HexColor(
+                                            walletWithDetails.wallet.colour,
+                                            defaultColor: Theme.of(context)
+                                                .colorScheme
+                                                .primary,
+                                          ).withOpacity(0.7),
+                                        ),
+                                        width: 20,
+                                        height: 20,
+                                      )
+                                    : Transform.scale(
+                                        scale: 0.9,
+                                        child: Container(
+                                          decoration: BoxDecoration(
+                                            borderRadius:
+                                                BorderRadiusDirectional
+                                                    .circular(100),
+                                            border: Border.all(
+                                              width: 2,
+                                              color: HexColor(
+                                                walletWithDetails.wallet.colour,
+                                                defaultColor: Theme.of(context)
+                                                    .colorScheme
+                                                    .primary,
+                                              ).withOpacity(0.7),
+                                            ),
+                                          ),
+                                          width: 20,
+                                          height: 20,
+                                        ),
                                       ),
-                                    ),
-                                    width: 20,
-                                    height: 20,
+                              ),
+                              Flexible(
+                                child: Padding(
+                                  padding: const EdgeInsetsDirectional.only(
+                                    end: 17,
+                                    start: 10,
+                                  ),
+                                  child: TextFont(
+                                    textAlign: TextAlign.start,
+                                    text: "",
+                                    maxLines: 1,
+                                    richTextSpan: [
+                                      TextSpan(
+                                        text: isCurrencyRow
+                                            ? (walletWithDetails
+                                                        .wallet.currency ??
+                                                    "")
+                                                .toString()
+                                                .allCaps
+                                            : walletWithDetails.wallet.name,
+                                        style: TextStyle(
+                                          fontSize: 18,
+                                          color: getColor(context, "black"),
+                                          fontFamily: appStateSettings["font"],
+                                          fontFamilyFallback: ['Inter'],
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      if (percent != null)
+                                        TextSpan(
+                                          text: "  " +
+                                              "(" +
+                                              convertToPercent(percent ?? 0,
+                                                  useLessThanZero: true) +
+                                              ")",
+                                          style: TextStyle(
+                                            fontSize: 15,
+                                            color:
+                                                getColor(context, "textLight"),
+                                            fontFamily:
+                                                appStateSettings["font"],
+                                            fontFamilyFallback: ['Inter'],
+                                          ),
+                                        ),
+                                    ],
                                   ),
                                 ),
-                        ),
-                        Flexible(
-                          child: Padding(
-                            padding: const EdgeInsetsDirectional.only(
-                              end: 17,
-                              start: 10,
-                            ),
-                            child: TextFont(
-                              textAlign: TextAlign.start,
-                              text: "",
-                              maxLines: 1,
-                              richTextSpan: [
-                                TextSpan(
-                                  text: isCurrencyRow
-                                      ? (walletWithDetails.wallet.currency ??
-                                              "")
-                                          .toString()
-                                          .allCaps
-                                      : walletWithDetails.wallet.name,
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                    color: getColor(context, "black"),
-                                    fontFamily: appStateSettings["font"],
-                                    fontFamilyFallback: ['Inter'],
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                if (percent != null)
-                                  TextSpan(
-                                    text: "  " +
-                                        "(" +
-                                        convertToPercent(percent ?? 0,
-                                            useLessThanZero: true) +
-                                        ")",
-                                    style: TextStyle(
-                                      fontSize: 15,
-                                      color: getColor(context, "textLight"),
-                                      fontFamily: appStateSettings["font"],
-                                      fontFamilyFallback: ['Inter'],
-                                    ),
-                                  ),
-                              ],
-                            ),
+                              ),
+                            ],
                           ),
                         ),
+                        AmountAccount(
+                          walletWithDetails: walletWithDetails,
+                          textAlign: TextAlign.end,
+                          fontSize: 18,
+                        )
                       ],
                     ),
                   ),
-                  AmountAccount(
-                    walletWithDetails: walletWithDetails,
-                    textAlign: TextAlign.end,
-                    fontSize: 18,
-                  )
-                ],
-              ),
-            ),
           ),
           onTap: () async {
             if (selected || isCurrencyRow) {
@@ -344,6 +386,29 @@ class AmountAccount extends StatelessWidget {
         appStateSettings["accountColorfulAmountsWithArrows"] == true
             ? (walletWithDetails.totalSpent ?? 0).abs()
             : (absoluteZero(walletWithDetails.totalSpent ?? 0));
+    if (OlaDashboardScope.active(context)) {
+      // Same native-currency amount/decimals as the inherited account view.
+      // Explicit signs replace the old arrow when amounts use absolute display.
+      final sign =
+          appStateSettings["accountColorfulAmountsWithArrows"] == true &&
+                  roundedWalletWithTotal != 0
+              ? ((walletWithDetails.totalSpent ?? 0) > 0 ? '+ ' : '− ')
+              : '';
+      return Text(
+          sign +
+              convertToMoney(Provider.of<AllWallets>(context), finalTotal,
+                  finalNumber: finalTotal,
+                  currencyKey: walletWithDetails.wallet.currency,
+                  decimals: walletWithDetails.wallet.decimals,
+                  addCurrencyName: !Provider.of<AllWallets>(context)
+                      .allContainSameCurrency()),
+          softWrap: true,
+          textAlign: textAlign,
+          style: TextStyle(
+              fontSize: fontSize,
+              fontWeight: FontWeight.w700,
+              color: Theme.of(context).colorScheme.onSurface));
+    }
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
