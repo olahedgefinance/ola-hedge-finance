@@ -1,3 +1,7 @@
+import 'package:budget/brand/ola_theme.dart';
+import 'package:budget/struct/ola_navigation.dart';
+import 'package:budget/widgets/ola/ola_account_card.dart';
+import 'package:budget/pages/walletDetailsPage.dart';
 import 'package:budget/colors.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
@@ -25,7 +29,8 @@ import 'package:budget/widgets/textWidgets.dart';
 import 'package:budget/widgets/transactionEntry/transactionEntryTag.dart';
 import 'package:budget/widgets/walletEntry.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter/material.dart' hide SliverReorderableList;
+import 'package:flutter/material.dart'
+    hide SliverReorderableList, ReorderableDragStartListener;
 import 'package:flutter/services.dart' hide TextInput;
 import 'package:budget/widgets/editRowEntry.dart';
 import 'package:budget/modified/reorderable_list.dart';
@@ -47,10 +52,90 @@ class _EditWalletsPageState extends State<EditWalletsPage> {
   int currentReorder = -1;
   String searchValue = "";
   bool isFocused = false;
+  final _searchController = TextEditingController();
+
+  void _clearSearch() {
+    _searchController.clear();
+    setState(() => searchValue = '');
+  }
+
+  @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
+  }
+
+  void _manageAccount(TransactionWallet wallet,
+      List<WalletWithDetails> accounts, int index, bool selected) {
+    showModalBottomSheet<void>(
+        context: context,
+        isScrollControlled: true,
+        builder: (sheetContext) => SafeArea(
+                child: SingleChildScrollView(
+                    child: Column(mainAxisSize: MainAxisSize.min, children: [
+              Padding(
+                  padding: const EdgeInsets.all(OlaSpacing.md),
+                  child: Text(wallet.name,
+                      style: Theme.of(context).textTheme.titleLarge)),
+              ListTile(
+                  leading: const Icon(Icons.edit_outlined),
+                  title: Text('edit'.tr()),
+                  onTap: () {
+                    Navigator.pop(sheetContext);
+                    pushRoute(
+                        context,
+                        AddWalletPage(
+                            wallet: wallet,
+                            routesToPopAfterDelete:
+                                RoutesToPopAfterDelete.One));
+                  }),
+              if (!selected)
+                ListTile(
+                    leading: const Icon(Icons.star_outline),
+                    title: Text('primary-default'.tr()),
+                    onTap: () {
+                      Navigator.pop(sheetContext);
+                      setPrimaryWallet(wallet.walletPk,
+                          allWallets:
+                              Provider.of<AllWallets>(context, listen: false));
+                    }),
+              if (searchValue.isEmpty && index > 0)
+                ListTile(
+                    leading: const Icon(Icons.arrow_upward),
+                    title: const Text('Move up'),
+                    onTap: () {
+                      Navigator.pop(sheetContext);
+                      database.moveWallet(wallet.walletPk,
+                          accounts[index - 1].wallet.order, wallet.order);
+                    }),
+              if (searchValue.isEmpty && index < accounts.length - 1)
+                ListTile(
+                    leading: const Icon(Icons.arrow_downward),
+                    title: const Text('Move down'),
+                    onTap: () {
+                      Navigator.pop(sheetContext);
+                      database.moveWallet(wallet.walletPk,
+                          accounts[index + 1].wallet.order, wallet.order);
+                    }),
+              if (wallet.walletPk != '0' ||
+                  Provider.of<AllWallets>(context, listen: false).list.length >
+                      1)
+                ListTile(
+                    leading: const Icon(Icons.delete_outline),
+                    title: Text('delete'.tr()),
+                    onTap: () {
+                      Navigator.pop(sheetContext);
+                      deleteWalletPopup(context,
+                          wallet: wallet,
+                          routesToPopAfterDelete: RoutesToPopAfterDelete.None);
+                    }),
+            ]))));
+  }
 
   @override
   void initState() {
     Future.delayed(Duration.zero, () {
+      if (!mounted) return;
       if (widget.runWhenOpen != null) {
         widget.runWhenOpen!();
       }
@@ -64,9 +149,7 @@ class _EditWalletsPageState extends State<EditWalletsPage> {
     return WillPopScope(
       onWillPop: () async {
         if (searchValue != "") {
-          setState(() {
-            searchValue = "";
-          });
+          _clearSearch();
           return false;
         } else {
           return true;
@@ -74,10 +157,12 @@ class _EditWalletsPageState extends State<EditWalletsPage> {
       },
       child: PageFramework(
         horizontalPaddingConstrained: true,
+        getExtraHorizontalPadding:
+            OlaNavigation.enabled ? (_) => OlaSpacing.md : null,
         dragDownToDismiss: true,
         dragDownToDismissEnabled: dragDownToDismissEnabled,
         scrollToTopButton: true,
-        title: "edit-accounts".tr(),
+        title: (OlaNavigation.enabled ? "accounts" : "edit-accounts").tr(),
         floatingActionButton: AnimateFABDelayed(
           fab: AddFAB(
             tooltip: "add-account".tr(),
@@ -135,6 +220,7 @@ class _EditWalletsPageState extends State<EditWalletsPage> {
                   });
                 },
                 child: TextInput(
+                  controller: _searchController,
                   labelText: "search-accounts-placeholder".tr(),
                   icon: appStateSettings["outlinedIcons"]
                       ? Icons.search_outlined
@@ -204,6 +290,31 @@ class _EditWalletsPageState extends State<EditWalletsPage> {
             stream: database.watchAllWalletsWithDetails(
                 searchFor: searchValue == "" ? null : searchValue),
             builder: (context, snapshot) {
+              if (OlaNavigation.enabled) {
+                if (snapshot.connectionState == ConnectionState.waiting) {
+                  return SliverToBoxAdapter(child: OlaAccountsStatus.loading());
+                }
+                if (snapshot.hasError) {
+                  return SliverToBoxAdapter(
+                      child: OlaAccountsStatus.error(
+                          onRetry: () => setState(() {})));
+                }
+                if (!snapshot.hasData) {
+                  return SliverToBoxAdapter(child: OlaAccountsStatus.loading());
+                }
+                if (snapshot.data!.isEmpty) {
+                  return SliverToBoxAdapter(
+                      child: OlaAccountsStatus.empty(
+                          searching: searchValue.isNotEmpty,
+                          onAction: searchValue.isNotEmpty
+                              ? _clearSearch
+                              : () => pushRoute(
+                                  context,
+                                  AddWalletPage(
+                                      routesToPopAfterDelete:
+                                          RoutesToPopAfterDelete.None))));
+                }
+              }
               if (snapshot.hasData && (snapshot.data ?? []).length <= 0) {
                 return SliverToBoxAdapter(
                   child: NoResults(
@@ -229,6 +340,39 @@ class _EditWalletsPageState extends State<EditWalletsPage> {
                   itemBuilder: (context, index) {
                     WalletWithDetails walletWithDetails = snapshot.data![index];
                     TransactionWallet wallet = walletWithDetails.wallet;
+                    if (OlaNavigation.enabled) {
+                      final selected = Provider.of<SelectedWalletPk>(context)
+                              .selectedWalletPk ==
+                          wallet.walletPk;
+                      return Padding(
+                          key: ValueKey(wallet.walletPk),
+                          padding: const EdgeInsets.only(bottom: OlaSpacing.sm),
+                          child: OlaAccountSummary(
+                              details: walletWithDetails,
+                              wallets: Provider.of<AllWallets>(context),
+                              selected: selected,
+                              onTap: () => pushRoute(
+                                  context,
+                                  WatchedWalletDetailsPage(
+                                      walletPk: wallet.walletPk)),
+                              onManage: () => _manageAccount(
+                                  wallet, snapshot.data!, index, selected),
+                              reorderHandle: searchValue.isEmpty &&
+                                      snapshot.data!.length > 1
+                                  ? ReorderableDragStartListener(
+                                      index: index,
+                                      child: Tooltip(
+                                          message: 'Reorder accounts',
+                                          child: ExcludeSemantics(
+                                              child: SizedBox(
+                                                  width: 48,
+                                                  height: 48,
+                                                  child: Icon(Icons.drag_handle,
+                                                      color: Theme.of(context)
+                                                          .colorScheme
+                                                          .onSurfaceVariant)))))
+                                  : null));
+                    }
                     Color accentColor = dynamicPastel(
                         context,
                         HexColor(wallet.colour,
