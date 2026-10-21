@@ -1,6 +1,9 @@
 // native.dart
 import 'package:budget/database/tables.dart';
-import 'package:budget/database/backup/native_restore.dart';
+import 'package:budget/database/backup/restore_journal.dart';
+import 'package:budget/struct/settings.dart';
+import 'dart:convert';
+import 'package:budget/database/backup/restore_preferences.dart';
 import 'package:budget/database/backup/restore_models.dart';
 import 'package:budget/struct/databaseGlobal.dart';
 import 'package:drift/native.dart';
@@ -11,6 +14,12 @@ import 'dart:io';
 
 Future<FinanceDatabase> constructDb(String dbName,
     {Uint8List? initialDataWeb}) async {
+  if (dbName == 'db') {
+    final directory = await getApplicationDocumentsDirectory();
+    await RestoreJournal(
+            File(p.join(directory.path, 'db.sqlite')), sharedPreferences)
+        .recover();
+  }
   // the LazyDatabase util lets us find the right location for the file async.
   final db = LazyDatabase(() async {
     // put the database file, called db.sqlite here, into the documents folder
@@ -26,29 +35,43 @@ Future<FinanceDatabase> constructDb(String dbName,
 }
 
 Future<DBFileInfo> getCurrentDBFileInfo() async {
-  Uint8List dbFileBytes;
-  late Stream<List<int>> mediaStream;
-
   final dbFolder = await getApplicationDocumentsDirectory();
-  final dbFile = File(p.join(dbFolder.path, 'db.sqlite'));
-  //print("FILE SIZE:" + (dbFile.lengthSync() / 1e+6).toString());
-  dbFileBytes = await dbFile.readAsBytes();
-  mediaStream = Stream.value(List<int>.from(dbFileBytes));
-
-  return DBFileInfo(dbFileBytes, mediaStream);
+  final directory = await dbFolder.createTemp('backup-snapshot-');
+  try {
+    final snapshot = File(p.join(directory.path, 'snapshot.sqlite'));
+    // SQLite's consistent snapshot includes committed WAL pages. Copying only
+    // db.sqlite can silently omit them. The output is the existing SQLite format.
+    await database.customStatement('VACUUM INTO ?', [snapshot.path]);
+    final bytes = await snapshot.readAsBytes();
+    return DBFileInfo(bytes, Stream.value(List<int>.from(bytes)));
+  } finally {
+    try {
+      await directory.delete(recursive: true);
+    } catch (_) {}
+  }
 }
 
 Future<DatabaseRestoreResult> overwriteDefaultDB(Uint8List dataStore) async {
   final dbFolder = await getApplicationDocumentsDirectory();
   final dbFile = File(p.join(dbFolder.path, 'db.sqlite'));
-  final result = await restoreNativeDatabase(
+  bool closed = false;
+  final result = await restoreDatabaseWithPreferences(
     candidateBytes: dataStore,
     liveDatabase: dbFile,
     workingDirectory: dbFolder,
-    closeLiveDatabase: database.close,
+    preferences: sharedPreferences,
+    closeLiveDatabase: () async {
+      await database.close();
+      closed = true;
+    },
   );
+  // Failure must not leave a closed global handle. Existing streams still need
+  // the explicit restart required by the restore UI.
+  if (closed && result.failureStage != RestoreFailureStage.rollback) {
+    database = await constructDb('db');
+  }
   if (!result.isSuccess) throw DatabaseRestoreException(result);
-  // we need to be able to sync with others after the restore
-  await sharedPreferences.setString("dateOfLastSyncedWithClient", "{}");
+  appStateSettings = Map<String, dynamic>.from(
+      jsonDecode(sharedPreferences.getString('userSettings')!));
   return result;
 }

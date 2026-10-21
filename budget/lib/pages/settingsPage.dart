@@ -1,3 +1,4 @@
+import 'package:budget/pages/essential_settings_page.dart';
 import 'package:budget/colors.dart';
 import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/database/tables.dart' hide AppSettings;
@@ -435,6 +436,8 @@ class SettingsPageContent extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        const SettingsContainerOpenPage(title: "Essential settings",
+          icon: Icons.settings_outlined, openPage: EssentialSettingsPage()),
         SettingsHeader(title: "theme".tr()),
         Builder(
           builder: (context) {

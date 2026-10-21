@@ -464,6 +464,7 @@ Future<void> createBackup(
     await backupSettings();
   } catch (e) {
     if (silentBackup == false || silentBackup == null) {
+      loadingIndeterminateKey.currentState?.setVisibility(false);
       maybePopRoute(context);
     }
     openSnackbar(
@@ -473,6 +474,7 @@ Future<void> createBackup(
               ? Icons.error_outlined
               : Icons.error_rounded),
     );
+    rethrow;
   }
 
   try {
@@ -635,13 +637,12 @@ Future<void> loadBackup(
 
     await overwriteDefaultDB(Uint8List.fromList(dataStore));
     popRoute(context);
-    await resetLanguageToSystem(context);
-    await updateSettings(
-      "databaseJustImported",
-      true,
-      pagesNeedingRefresh: [],
-      updateGlobalState: false,
-    );
+    if (kIsWeb) {
+      await resetLanguageToSystem(context);
+      await updateSettings(
+        "databaseJustImported", true,
+        pagesNeedingRefresh: [], updateGlobalState: false);
+    } // Native restore committed preferences inside its rollback boundary.
     print(appStateSettings);
     openSnackbar(
       SnackbarMessage(

@@ -25,7 +25,7 @@ import 'package:budget/pages/editWalletsPage.dart';
 import 'package:budget/pages/homePage/homePage.dart';
 import 'package:budget/pages/notificationsPage.dart';
 import 'package:budget/pages/objectivesListPage.dart';
-import 'package:budget/pages/onBoardingPage.dart';
+import 'package:budget/pages/local_setup_page.dart';
 import 'package:budget/pages/premiumPage.dart';
 import 'package:budget/pages/settingsPage.dart';
 import 'package:budget/pages/subscriptionsPage.dart';
@@ -118,7 +118,7 @@ class InitialPageRouteNavigator extends StatelessWidget {
             }
           },
           child: appStateSettings["hasOnboarded"] != true
-              ? OnBoardingPage(key: ValueKey("Onboarding"))
+              ? LocalSetupPage(key: ValueKey("Onboarding"))
               : PageNavigationFrameworkSafeArea(
                   child: PageNavigationFramework(
                     key: pageNavigationFrameworkKey,

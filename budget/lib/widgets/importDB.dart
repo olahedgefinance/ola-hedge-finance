@@ -48,9 +48,11 @@ Future<String?> importDBFileFromDevice(BuildContext context) async {
     Uint8List fileBytes = await file.readAsBytes();
     await overwriteDefaultDB(fileBytes);
   }
-  await resetLanguageToSystem(context);
-  await updateSettings("databaseJustImported", true,
-      pagesNeedingRefresh: [], updateGlobalState: false);
+  if (kIsWeb) {
+    await resetLanguageToSystem(context);
+    await updateSettings("databaseJustImported", true,
+        pagesNeedingRefresh: [], updateGlobalState: false);
+  } // Native activation already persisted validated settings and marker.
   return result.files.single.name;
 }
 

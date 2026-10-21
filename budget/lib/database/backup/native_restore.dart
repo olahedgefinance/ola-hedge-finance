@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'dart:typed_data';
+import 'backup_preferences.dart';
 
 import 'package:budget/database/backup/restore_models.dart';
 import 'package:budget/database/reference_audit.dart';
@@ -67,7 +68,15 @@ Future<DatabaseRestoreResult> restoreNativeDatabase({
   required Directory workingDirectory,
   Future<void> Function()? closeLiveDatabase,
   NativeDatabaseActivator activator = activateNativeDatabase,
+  Future<void> Function(Map<String, dynamic>? settings)? activatePreferences,
+  Future<void> Function()? rollbackPreferences,
+  Future<void> Function(File candidate, Map<String, dynamic>? settings)?
+      preparePreferences,
+  Future<void> Function()? beforeActivation,
 }) async {
+  if ((activatePreferences == null) != (rollbackPreferences == null)) {
+    throw ArgumentError('Preference activation requires a rollback callback.');
+  }
   final operationId = DateTime.now().microsecondsSinceEpoch.toString();
   final candidateDirectory = Directory(
     '${workingDirectory.path}${Platform.pathSeparator}restore-$operationId',
@@ -76,6 +85,7 @@ Future<DatabaseRestoreResult> restoreNativeDatabase({
   File? safetyBackup;
   File? rollbackDatabase;
   int? sourceVersion;
+  Map<String, dynamic>? candidatePreferences;
 
   try {
     await candidateDirectory.create(recursive: true);
@@ -132,20 +142,63 @@ Future<DatabaseRestoreResult> restoreNativeDatabase({
           sourceSchemaVersion: sourceVersion,
         );
       }
-      final invalidPairCount = (await candidateDatabase
-              .customSelect(
-                'SELECT COUNT(*) AS invalid_count FROM transactions source '
-                'LEFT JOIN transactions paired '
-                'ON source.paired_transaction_fk = paired.transaction_pk '
-                'WHERE source.paired_transaction_fk IS NOT NULL '
-                'AND paired.paired_transaction_fk != source.transaction_pk',
-              )
-              .getSingle())
-          .read<int>('invalid_count');
-      if (invalidPairCount != 0) {
+      // Existing transfers may be one-way or reciprocal, but have one partner.
+      final links = await candidateDatabase
+          .customSelect(
+              'SELECT transaction_pk, paired_transaction_fk FROM transactions '
+              'WHERE paired_transaction_fk IS NOT NULL')
+          .get();
+      final partners = <String, Set<String>>{};
+      for (final link in links) {
+        final from = link.read<String>('transaction_pk');
+        final to = link.read<String>('paired_transaction_fk');
+        partners.putIfAbsent(from, () => <String>{}).add(to);
+        partners.putIfAbsent(to, () => <String>{}).add(from);
+      }
+      if (partners.entries.any((entry) =>
+          entry.value.contains(entry.key) || entry.value.length > 1)) {
         return DatabaseRestoreResult.failure(
           stage: RestoreFailureStage.references,
-          message: 'Backup contains non-reciprocal paired transactions.',
+          message: 'Backup contains conflicting paired transactions.',
+          sourceSchemaVersion: sourceVersion,
+        );
+      }
+      final metadata =
+          await (candidateDatabase.select(candidateDatabase.appSettings)
+                ..where((row) => row.settingsPk.equals(0)))
+              .getSingleOrNull();
+      if (metadata != null) {
+        try {
+          candidatePreferences =
+              await decodeBackupPreferences(metadata.settingsJSON);
+          final primary = candidatePreferences['selectedWalletPk'];
+          if (primary != null &&
+              !(await candidateDatabase.getAllWallets())
+                  .any((wallet) => wallet.walletPk == primary)) {
+            throw const FormatException('Backup primary account is missing.');
+          }
+        } on FormatException catch (error) {
+          return DatabaseRestoreResult.failure(
+            stage: RestoreFailureStage.format,
+            message: error.message,
+            sourceSchemaVersion: sourceVersion,
+          );
+        }
+      }
+      // TEMPORARY HISTORICAL LOAN RESTORE COMPATIBILITY RESTRICTION.
+      // The existing startup migration zeroes loan amounts unless this exact
+      // preference is true. It can also run after an unfinished setup completes.
+      // Do not infer completion, bypass the migration, or rewrite candidate data.
+      if (candidatePreferences?['migratedSetLongTermLoansAmountTo0'] != true &&
+          (await candidateDatabase.getAllObjectives(
+                  objectiveType: ObjectiveType.loan))
+              .any((goal) => goal.amount != 0)) {
+        return DatabaseRestoreResult.failure(
+          stage: RestoreFailureStage.compatibility,
+          message:
+              'This backup contains a nonzero historical loan goal without a completed migration marker. '
+              'Restoring it could change the loan amount. Keep the original backup; '
+              'restore support for this case requires a separate migration review. Current data is unchanged.',
           sourceSchemaVersion: sourceVersion,
         );
       }
@@ -153,6 +206,7 @@ Future<DatabaseRestoreResult> restoreNativeDatabase({
       await candidateDatabase.close();
     }
 
+    await preparePreferences?.call(candidate, candidatePreferences);
     await closeLiveDatabase?.call();
 
     safetyBackup = File(
@@ -166,6 +220,7 @@ Future<DatabaseRestoreResult> restoreNativeDatabase({
     rollbackDatabase =
         File('${liveDatabase.path}.restore-rollback-$operationId');
 
+    await beforeActivation?.call();
     try {
       await activator(
         stagedDatabase: stagedDatabase,
@@ -211,7 +266,38 @@ Future<DatabaseRestoreResult> restoreNativeDatabase({
       );
     }
 
-    if (await rollbackDatabase.exists()) await rollbackDatabase.delete();
+    if (activatePreferences != null) {
+      try {
+        await activatePreferences(candidatePreferences);
+      } catch (_) {
+        final databaseRestored = await _rollbackActivation(
+            liveDatabase: liveDatabase, rollbackDatabase: rollbackDatabase);
+        bool preferencesRestored = false;
+        try {
+          await rollbackPreferences!();
+          preferencesRestored = true;
+        } catch (_) {
+          // Report incomplete compensation, never a successful restore.
+        }
+        final restored = databaseRestored && preferencesRestored;
+        return DatabaseRestoreResult.failure(
+            stage: restored
+                ? RestoreFailureStage.activation
+                : RestoreFailureStage.rollback,
+            message: restored
+                ? 'Preferences could not be activated. Previous data and preferences were restored. Restart the app.'
+                : 'Restore recovery could not complete. Keep the safety backup and restart before continuing.',
+            sourceSchemaVersion: sourceVersion,
+            safetyBackupPath: safetyBackup.path,
+            recoveryPath: rollbackDatabase.path,
+            rollbackSucceeded: restored);
+      }
+    }
+    // Cleanup cannot turn a completed activation into a false failure.
+    try {
+      if (await rollbackDatabase.exists()) await rollbackDatabase.delete();
+    } catch (_) {}
+
     return DatabaseRestoreResult.success(
       sourceSchemaVersion: sourceVersion!,
       activatedSchemaVersion: activated.schemaVersion!,
@@ -226,11 +312,15 @@ Future<DatabaseRestoreResult> restoreNativeDatabase({
       recoveryPath: rollbackDatabase?.path,
     );
   } finally {
-    if (stagedDatabase != null && await stagedDatabase.exists()) {
-      await stagedDatabase.delete();
-    }
-    if (await candidateDirectory.exists()) {
-      await candidateDirectory.delete(recursive: true);
+    try {
+      if (stagedDatabase != null && await stagedDatabase.exists()) {
+        await stagedDatabase.delete();
+      }
+      if (await candidateDirectory.exists()) {
+        await candidateDirectory.delete(recursive: true);
+      }
+    } catch (_) {
+      // Retained temporary files are preferable to masking the restore result.
     }
   }
 }

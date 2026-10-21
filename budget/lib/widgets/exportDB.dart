@@ -13,11 +13,7 @@ Future saveDBFileToDevice({
   required String fileName,
   String? customDirectory,
 }) async {
-  try {
-    await backupSettings();
-  } catch (e) {
-    print("Error creating settings entry in the db: " + e.toString());
-  }
+  await backupSettings();
 
   DBFileInfo currentDBFileInfo = await getCurrentDBFileInfo();
 

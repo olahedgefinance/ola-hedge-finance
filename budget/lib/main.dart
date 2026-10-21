@@ -54,7 +54,16 @@ void main() async {
     await initializeAppAuthSession();
     await EasyLocalization.ensureInitialized();
     sharedPreferences = await SharedPreferences.getInstance();
-    database = await constructDb('db');
+    try {
+      database = await constructDb('db');
+    } catch (_) {
+      runApp(const MaterialApp(home: Scaffold(body: SafeArea(child: Padding(
+        padding: EdgeInsets.all(24), child: Center(child: Text(
+          'Local data could not be opened safely. Restore recovery may be pending. '
+          'Keep your app data and recovery files. Free storage if needed, then restart ÓLA. '
+          'Do not uninstall or clear application data.')))))));
+      return;
+    }
     notificationPayload = await initializeNotifications();
     entireAppLoaded = false;
     await loadCurrencyJSON();

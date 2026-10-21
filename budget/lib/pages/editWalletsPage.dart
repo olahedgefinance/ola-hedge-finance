@@ -23,7 +23,6 @@ import 'package:budget/widgets/openSnackbar.dart';
 import 'package:budget/widgets/framework/pageFramework.dart';
 import 'package:budget/widgets/radioItems.dart';
 import 'package:budget/widgets/settingsContainers.dart';
-import 'package:budget/widgets/tappable.dart';
 import 'package:budget/widgets/textInput.dart';
 import 'package:budget/widgets/textWidgets.dart';
 import 'package:budget/widgets/transactionEntry/transactionEntryTag.dart';
@@ -818,55 +817,11 @@ class ExchangeRateSettingPage extends StatelessWidget {
 
 class PrimaryCurrencySetting extends StatelessWidget {
   const PrimaryCurrencySetting({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    VoidCallback changeCurrencyPopup = () => openPopup(
-          context,
-          title: "change-currency".tr(),
-          icon: appStateSettings["outlinedIcons"]
-              ? Icons.card_membership_outlined
-              : Icons.card_membership_rounded,
-          description: "change-currency-description".tr(),
-          onSubmit: () {
-            popRoute(context);
-          },
-          onSubmitLabel: "ok".tr(),
-        );
-    return SettingsContainerOpenPage(
-      title: "primary-currency".tr().capitalizeFirst,
-      icon: appStateSettings["outlinedIcons"]
-          ? Icons.card_membership_outlined
-          : Icons.card_membership_rounded,
-      afterWidget: Tappable(
-        color: Theme.of(context).colorScheme.secondaryContainer,
-        borderRadius: 10,
-        child: Padding(
-          padding: const EdgeInsetsDirectional.symmetric(
-              horizontal: 16, vertical: 10),
-          child: Builder(builder: (context) {
-            return TextFont(
-              text: (Provider.of<AllWallets>(context)
-                      .indexedByPk[appStateSettings["selectedWalletPk"]]
-                      ?.currency
-                      ?.allCaps) ??
-                  "",
-              fontSize: 14,
-            );
-          }),
-        ),
-      ),
-      openPage: Provider.of<AllWallets>(context).indexedByPk.length > 1
-          ? EditWalletsPage(
-              runWhenOpen: changeCurrencyPopup,
-            )
-          : AddWalletPage(
-              runWhenOpen: changeCurrencyPopup,
-              routesToPopAfterDelete: RoutesToPopAfterDelete.PreventDelete,
-              wallet: Provider.of<AllWallets>(context)
-                  .indexedByPk[appStateSettings["selectedWalletPk"]],
-            ),
-    );
+  @override Widget build(BuildContext context) {
+    final currency = Provider.of<AllWallets>(context).indexedByPk[appStateSettings['selectedWalletPk']]?.currency;
+    return ListTile(leading: const Icon(Icons.lock_outline),
+      title: Text('Primary currency: ${currency?.toUpperCase() ?? 'Unavailable'}'),
+      subtitle: const Text('Primary currency is read-only in this settings control while conversion safety remains incomplete.'));
   }
 }
 

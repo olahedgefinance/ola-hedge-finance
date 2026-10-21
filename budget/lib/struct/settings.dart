@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:budget/database/backup/backup_preferences.dart';
 import 'package:budget/config/infrastructure_config.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
@@ -38,10 +39,10 @@ Future<bool> initializeSettings() async {
     isDatabaseImportedOnThisSession = true;
     try {
       print("Settings were loaded from backup, trying to restore");
-      String storedSettings = (await database.getSettings()).settingsJSON;
-      await sharedPreferences.setString('userSettings', storedSettings);
-      print(storedSettings);
-      userSettings = json.decode(storedSettings);
+      final restoredSettings = userSettings['nativeRestorePreferencesReady'] == true
+          ? await decodeBackupPreferences(jsonEncode(userSettings))
+          : await decodeBackupPreferences((await database.getSettings()).settingsJSON);
+      userSettings = restoredSettings;
       //we need to load any defaults to migrate if on an older version backup restores
       //Set to defaults if a new setting is added, but no entry saved
       Map<String, dynamic> userPreferencesDefault =
@@ -52,9 +53,11 @@ Future<bool> initializeSettings() async {
           userSettings[key] = userPreferencesDefault[key];
         }
       });
-      // Always reset the language/locale when restoring a backup
-      userSettings["locale"] = "System";
+      userSettings.remove("nativeRestorePreferencesReady");
       userSettings["databaseJustImported"] = false;
+      if (!await sharedPreferences.setString('userSettings', jsonEncode(userSettings))) {
+        throw StateError('Restored preferences could not be saved.');
+      }
       print("Settings were restored");
     } catch (e) {
       print("Error restoring imported settings " + e.toString());
@@ -325,6 +328,7 @@ Future<void> resetLanguageToSystem(BuildContext context) async {
 Future backupSettings() async {
   String userSettings = sharedPreferences.getString('userSettings') ?? "";
   if (userSettings == "") throw ("No settings stored");
+  await decodeBackupPreferences(userSettings);
   await database.createOrUpdateSettings(
     AppSetting(
       settingsPk: 0,
