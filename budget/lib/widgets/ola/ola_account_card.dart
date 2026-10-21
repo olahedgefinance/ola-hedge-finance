@@ -1,4 +1,5 @@
 import 'package:budget/brand/ola_theme.dart';
+import 'package:budget/widgets/ola/ola_focus_outline.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
 import 'package:easy_localization/easy_localization.dart';
@@ -65,78 +66,90 @@ class OlaAccountCard extends StatelessWidget {
             contextLabel
           ].join(', '),
           excludeSemantics: true,
-          child: InkWell(
-              onTap: onTap,
-              borderRadius: radius,
-              child: Padding(
-                  padding: const EdgeInsets.fromLTRB(OlaSpacing.md,
-                      OlaSpacing.xs, OlaSpacing.md, OlaSpacing.md),
-                  child: LayoutBuilder(builder: (context, constraints) {
-                    final stacked = constraints.maxWidth < 400 ||
-                        MediaQuery.textScalerOf(context).scale(14) > 20;
-                    final identity = Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(name,
-                              style: TextStyle(
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.w600,
-                                  color: colors.onSurface)),
-                          const SizedBox(height: OlaSpacing.xs),
-                          Text(currencyLabel,
-                              style: TextStyle(
-                                  fontSize: 14,
-                                  color: colors.onSurfaceVariant)),
-                        ]);
-                    final balance = Text(amountLabel,
-                        softWrap: true,
-                        style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w700,
-                            color: negative ? colors.error : colors.onSurface));
-                    return Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          if (stacked) ...[
-                            identity,
-                            const SizedBox(height: OlaSpacing.sm),
-                            balance
-                          ] else
-                            Row(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Expanded(child: identity),
-                                  const SizedBox(width: OlaSpacing.md),
-                                  Flexible(child: balance)
-                                ]),
-                          const SizedBox(height: OlaSpacing.sm),
-                          Wrap(
-                              spacing: OlaSpacing.sm,
-                              runSpacing: OlaSpacing.xs,
-                              crossAxisAlignment: WrapCrossAlignment.center,
-                              children: [
-                                if (selected)
-                                  Container(
-                                      padding: const EdgeInsets.symmetric(
-                                          horizontal: OlaSpacing.sm,
-                                          vertical: OlaSpacing.xs),
-                                      decoration: ShapeDecoration(
-                                          color: colors.primaryContainer,
-                                          shape: OlaRadii.pill),
-                                      child: Text('primary-default'.tr(),
+          child: OlaFocusOutline(
+              radius: radius,
+              child: InkWell(
+                  onTap: onTap,
+                  borderRadius: radius,
+                  child: Padding(
+                      padding: const EdgeInsets.fromLTRB(OlaSpacing.md,
+                          OlaSpacing.xs, OlaSpacing.md, OlaSpacing.md),
+                      child: LayoutBuilder(builder: (context, constraints) {
+                        final stacked = constraints.maxWidth < 400 ||
+                            MediaQuery.textScalerOf(context).scale(14) > 20;
+                        final identity = Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(name,
+                                  style: TextStyle(
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.w600,
+                                      color: colors.onSurface)),
+                              const SizedBox(height: OlaSpacing.xs),
+                              Text(currencyLabel,
+                                  style: TextStyle(
+                                      fontSize: 14,
+                                      color: colors.onSurfaceVariant)),
+                            ]);
+                        final balance = Text(amountLabel,
+                            softWrap: true,
+                            style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.w700,
+                                fontFeatures: const [
+                                  FontFeature.tabularFigures()
+                                ],
+                                color: colors.onSurface));
+                        return Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              if (stacked) ...[
+                                identity,
+                                const SizedBox(height: OlaSpacing.sm),
+                                balance
+                              ] else
+                                Row(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Expanded(child: identity),
+                                      const SizedBox(width: OlaSpacing.md),
+                                      Flexible(child: balance)
+                                    ]),
+                              const SizedBox(height: OlaSpacing.sm),
+                              Wrap(
+                                  spacing: OlaSpacing.sm,
+                                  runSpacing: OlaSpacing.xs,
+                                  crossAxisAlignment: WrapCrossAlignment.center,
+                                  children: [
+                                    if (selected)
+                                      Container(
+                                          padding: const EdgeInsets.symmetric(
+                                              horizontal: OlaSpacing.sm,
+                                              vertical: OlaSpacing.xs),
+                                          decoration: ShapeDecoration(
+                                              color: colors.primaryContainer,
+                                              shape: OlaRadii.pill),
+                                          child: Text('primary-default'.tr(),
+                                              style: TextStyle(
+                                                  fontSize: 14,
+                                                  color: colors
+                                                      .onPrimaryContainer))),
+                                    if (contextLabel.isNotEmpty)
+                                      Text(contextLabel,
                                           style: TextStyle(
                                               fontSize: 14,
-                                              color:
-                                                  colors.onPrimaryContainer))),
-                                if (contextLabel.isNotEmpty)
-                                  Text(contextLabel,
-                                      style: TextStyle(
-                                          fontSize: 14,
-                                          color: colors.onSurfaceVariant)),
-                              ]),
-                        ]);
-                  }))),
+                                              color: colors.onSurfaceVariant)),
+                                  ]),
+                            ]);
+                      })))),
         ),
+        if (currencyLabel == 'Currency not selected')
+          Padding(
+            padding: const EdgeInsets.all(OlaSpacing.xs),
+            child: TextButton(
+                onPressed: onManage, child: const Text('Select currency')),
+          ),
       ]),
     );
   }
@@ -166,13 +179,15 @@ class OlaAccountSummary extends StatelessWidget {
     // An absent currency must not invoke the formatter's primary-wallet fallback.
     return OlaAccountCard(
         name: wallet.name,
-        amountLabel: convertToMoney(wallets, details.totalSpent ?? 0,
-            currencyKey: currency,
-            decimals: wallet.decimals,
-            addCurrencyName: currency.isNotEmpty,
-            forceHideCurrencyName: currency.isEmpty),
+        amountLabel: details.totalSpent != null && !details.totalSpent!.isFinite
+            ? 'Balance unavailable'
+            : convertToMoney(wallets, details.totalSpent ?? 0,
+                currencyKey: currency,
+                decimals: wallet.decimals,
+                addCurrencyName: currency.isNotEmpty,
+                forceHideCurrencyName: currency.isEmpty),
         currencyLabel:
-            currency.isEmpty ? 'Currency not set' : currency.toUpperCase(),
+            currency.isEmpty ? 'Currency not selected' : currency.toUpperCase(),
         selected: selected,
         negative: (details.totalSpent ?? 0) < 0,
         contextLabel:

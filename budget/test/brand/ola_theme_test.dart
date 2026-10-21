@@ -73,7 +73,7 @@ void main() {
           s.background,
           brightness == Brightness.dark
               ? const Color(0xFF0B1220)
-              : const Color(0xFFF8FAFC));
+              : const Color(0xFFF1F5F9));
       final pairs = [
         [s.primary, s.background],
         [s.secondary, s.background],

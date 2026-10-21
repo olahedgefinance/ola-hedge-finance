@@ -1,4 +1,6 @@
 import 'dart:ui';
+import 'package:budget/brand/ola_theme.dart';
+import 'package:budget/widgets/ola/ola_focus_outline.dart';
 
 import 'package:budget/functions.dart';
 import 'package:flutter/foundation.dart';
@@ -35,7 +37,8 @@ class Tappable extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (disable) return child;
-    if (getPlatform() == PlatformOS.isIOS) {
+    final brand = Theme.of(context).extension<OlaSemanticColors>() != null;
+    if (getPlatform() == PlatformOS.isIOS && !brand) {
       return FadedButton(
         child: child,
         onTap: onTap,
@@ -52,12 +55,30 @@ class Tappable extends StatelessWidget {
       );
     }
 
+    final actionFilled = brand &&
+        color ==
+            Theme.of(context).extension<OlaSemanticColors>()!.actionBackground;
     Widget tappable = Material(
       color: color ?? Theme.of(context).colorScheme.background,
       type: type,
-      borderRadius:
-          customBorderRadius ?? BorderRadiusDirectional.circular(borderRadius),
+      shape: actionFilled
+          ? RoundedRectangleBorder(
+              borderRadius:
+                  customBorderRadius ?? BorderRadius.circular(borderRadius),
+              side: BorderSide(color: Theme.of(context).colorScheme.outline))
+          : null,
+      borderRadius: actionFilled
+          ? null
+          : customBorderRadius ??
+              BorderRadiusDirectional.circular(borderRadius),
       child: InkWell(
+        overlayColor: brand
+            ? MaterialStateProperty.resolveWith((states) =>
+                states.contains(MaterialState.pressed) ||
+                        states.contains(MaterialState.hovered)
+                    ? OlaPalette.midnight.withOpacity(.08)
+                    : Colors.transparent)
+            : null,
         splashFactory: kIsWeb
             ? InkRipple.splashFactory
             : InkSparkle.constantTurbulenceSeedSplashFactory,
@@ -68,6 +89,11 @@ class Tappable extends StatelessWidget {
         onLongPress: onLongPress,
       ),
     );
+    if (brand) {
+      tappable = OlaFocusOutline(
+          radius: customBorderRadius ?? BorderRadius.circular(borderRadius),
+          child: tappable);
+    }
     if (!kIsWeb && onLongPress != null) {
       return tappable;
     }

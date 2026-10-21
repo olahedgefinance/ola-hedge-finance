@@ -7,9 +7,9 @@ abstract final class OlaPalette {
   static const mint = Color(0xFF6EE7C7);
   static const blue = Color(0xFF3B82F6);
   static const gold = Color(0xFFD6A84B);
-  static const canvas = Color(0xFFF8FAFC);
+  static const canvas = Color(0xFFF1F5F9);
   static const white = Color(0xFFFFFFFF);
-  static const darkSurface = Color(0xFF172235);
+  static const darkSurface = Color(0xFF172334);
   static const mutedLight = Color(0xFF475569);
   static const mutedDark = Color(0xFFCBD5E1);
   static const outline = Color(0xFF64748B);
@@ -18,6 +18,62 @@ abstract final class OlaPalette {
   static const errorDark = Color(0xFFFDA29B);
   static const warningLight = Color(0xFF805B00);
   static const infoLight = Color(0xFF1D4ED8);
+}
+
+/// Exact v1.2 filled-control roles, separate from Material text/status colours.
+/// The inherited primary role is also used as small text and must remain AA.
+@immutable
+class OlaSemanticColors extends ThemeExtension<OlaSemanticColors> {
+  const OlaSemanticColors(
+      {required this.actionBackground,
+      required this.focusVisible,
+      required this.disabledBackground,
+      required this.disabledForeground});
+  factory OlaSemanticColors.forBrightness(Brightness brightness) {
+    final dark = brightness == Brightness.dark;
+    return OlaSemanticColors(
+        actionBackground: dark ? OlaPalette.mint : OlaPalette.emerald,
+        focusVisible: dark ? OlaPalette.mint : const Color(0xFF1D4ED8),
+        disabledBackground:
+            dark ? const Color(0xFF253247) : const Color(0xFFE2E8F0),
+        disabledForeground:
+            dark ? OlaPalette.mutedDark : OlaPalette.mutedLight);
+  }
+  final Color actionBackground,
+      focusVisible,
+      disabledBackground,
+      disabledForeground;
+  Color get actionForeground => OlaPalette.midnight;
+  Color get alternateBackground => const Color(0xFF087153);
+  Color get alternateForeground => OlaPalette.white;
+  Color get errorBackground => const Color(0xFFB91C1C);
+  Color get warningBackground => const Color(0xFFB45309);
+  Color get infoBackground => const Color(0xFF1D4ED8);
+  Color get statusForeground => OlaPalette.white;
+
+  @override
+  OlaSemanticColors copyWith(
+          {Color? actionBackground,
+          Color? focusVisible,
+          Color? disabledBackground,
+          Color? disabledForeground}) =>
+      OlaSemanticColors(
+          actionBackground: actionBackground ?? this.actionBackground,
+          focusVisible: focusVisible ?? this.focusVisible,
+          disabledBackground: disabledBackground ?? this.disabledBackground,
+          disabledForeground: disabledForeground ?? this.disabledForeground);
+  @override
+  OlaSemanticColors lerp(covariant OlaSemanticColors? other, double t) {
+    if (other == null) return this;
+    return OlaSemanticColors(
+        actionBackground:
+            Color.lerp(actionBackground, other.actionBackground, t)!,
+        focusVisible: Color.lerp(focusVisible, other.focusVisible, t)!,
+        disabledBackground:
+            Color.lerp(disabledBackground, other.disabledBackground, t)!,
+        disabledForeground:
+            Color.lerp(disabledForeground, other.disabledForeground, t)!);
+  }
 }
 
 abstract final class OlaSpacing {
@@ -76,9 +132,9 @@ abstract final class OlaTheme {
       onErrorContainer:
           dark ? const Color(0xFFFEE4E2) : const Color(0xFF501C19),
       background: dark ? OlaPalette.midnight : OlaPalette.canvas,
-      onBackground: dark ? OlaPalette.canvas : OlaPalette.midnight,
+      onBackground: dark ? OlaPalette.white : OlaPalette.midnight,
       surface: dark ? OlaPalette.darkSurface : OlaPalette.white,
-      onSurface: dark ? OlaPalette.canvas : OlaPalette.midnight,
+      onSurface: dark ? OlaPalette.white : OlaPalette.midnight,
       surfaceVariant: dark ? const Color(0xFF253247) : const Color(0xFFE2E8F0),
       onSurfaceVariant: dark ? OlaPalette.mutedDark : OlaPalette.mutedLight,
       outline: dark ? const Color(0xFF94A3B8) : OlaPalette.outline,
@@ -90,6 +146,25 @@ abstract final class OlaTheme {
       inversePrimary: dark ? OlaPalette.successLight : OlaPalette.mint,
       surfaceTint: Colors.transparent,
     );
+  }
+
+  /// Explicit brand controls; custom accent themes retain their own styling.
+  static ThemeData applyControls(ThemeData theme, OlaSemanticColors roles) {
+    final focusSide = MaterialStateProperty.resolveWith<BorderSide?>((states) =>
+        states.contains(MaterialState.focused)
+            ? BorderSide(color: roles.focusVisible, width: 2)
+            : null);
+    final inputFocus = OutlineInputBorder(
+        borderSide: BorderSide(color: roles.focusVisible, width: 2));
+    return theme.copyWith(
+        textButtonTheme:
+            TextButtonThemeData(style: ButtonStyle(side: focusSide)),
+        outlinedButtonTheme:
+            OutlinedButtonThemeData(style: ButtonStyle(side: focusSide)),
+        iconButtonTheme:
+            IconButtonThemeData(style: ButtonStyle(side: focusSide)),
+        inputDecorationTheme: theme.inputDecorationTheme.copyWith(
+            focusedBorder: inputFocus, focusedErrorBorder: inputFocus));
   }
 
   /// Apply only shared surface foundations; individual screen layouts stay intact.

@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:budget/brand/ola_theme.dart';
 import 'package:budget/functions.dart';
 import 'package:budget/pages/addTransactionPage.dart';
 import 'package:budget/struct/defaultPreferences.dart';
@@ -80,102 +81,122 @@ class _ButtonState extends State<Button> with TickerProviderStateMixin {
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
     // Keep the tested brand pair intact; inherited pastel blending reduces contrast.
-    final brandFilled = usesOlaColorScheme() &&
-        widget.color == null && appStateSettings["materialYou"] == true;
+    final roles = Theme.of(context).extension<OlaSemanticColors>();
+    final brandFilled = roles != null && widget.color == null;
+    final foreground = widget.disabled && roles != null
+        ? roles.disabledForeground
+        : widget.textColor ?? (brandFilled ? roles.actionForeground : null);
     Widget text = TextFont(
       text: widget.label,
       fontSize: widget.fontSize,
-      textColor: widget.textColor ??
+      textColor: foreground ??
           (brandFilled
-              ? scheme.onPrimary
+              ? roles.actionForeground
               : appStateSettings["materialYou"]
                   ? dynamicPastel(context, scheme.onPrimary, amount: 0.2)
                   : scheme.onSecondaryContainer),
       maxLines: 5,
       textAlign: widget.icon != null ? TextAlign.start : TextAlign.center,
     );
-    return Padding(
-      padding: EdgeInsetsDirectional.only(
-          bottom: widget.hasBottomExtraSafeArea == true &&
-                  widget.expandToFillBottomExtraSafeArea == false
-              ? MediaQuery.viewPaddingOf(context).bottom
-              : 0),
-      child: AnimatedScale(
-        duration: Duration(milliseconds: 200),
-        curve: Curves.easeOutCubic,
-        scale: widget.changeScale ? (isTapped ? 0.95 : 1) : 1,
-        alignment: widget.expandToFillBottomExtraSafeArea
-            ? Alignment.bottomCenter
-            : Alignment.center,
-        child: Tappable(
-          color: widget.disabled
-              ? appStateSettings["materialYou"]
-                  ? Colors.grey
-                  : getColor(context, "lightDarkAccentHeavy")
-              : widget.color != null
-                  ? widget.color
-                  : appStateSettings["materialYou"]
-                      ? (brandFilled
-                          ? scheme.primary
-                          : dynamicPastel(context, scheme.primary, amount: 0.15))
-                      : Theme.of(context).colorScheme.secondaryContainer,
-          onHighlightChanged: (value) {
-            if (appStateSettings["appAnimations"] == AppAnimations.all.index)
-              setState(() {
-                isTapped = value;
-              });
-          },
-          onTap: () {
-            if (appStateSettings["appAnimations"] == AppAnimations.all.index)
-              _shrink();
-            if (widget.disabled == false) widget.onTap();
-            if (widget.disabled == true && widget.onDisabled != null)
-              widget.onDisabled!();
-          },
-          onLongPress: widget.onLongPress,
-          borderRadius:
-              getPlatform() == PlatformOS.isIOS && widget.borderRadius == null
+    return Semantics(
+        button: true,
+        enabled: !widget.disabled || widget.onDisabled != null,
+        hint: widget.disabled && widget.onDisabled != null
+            ? 'Action unavailable. Activate for details.'
+            : null,
+        child: Padding(
+          padding: EdgeInsetsDirectional.only(
+              bottom: widget.hasBottomExtraSafeArea == true &&
+                      widget.expandToFillBottomExtraSafeArea == false
+                  ? MediaQuery.viewPaddingOf(context).bottom
+                  : 0),
+          child: AnimatedScale(
+            duration: Duration(milliseconds: 200),
+            curve: Curves.easeOutCubic,
+            scale: widget.changeScale ? (isTapped ? 0.95 : 1) : 1,
+            alignment: widget.expandToFillBottomExtraSafeArea
+                ? Alignment.bottomCenter
+                : Alignment.center,
+            child: Tappable(
+              color: widget.disabled
+                  ? roles != null
+                      ? roles.disabledBackground
+                      : appStateSettings["materialYou"]
+                          ? Colors.grey
+                          : getColor(context, "lightDarkAccentHeavy")
+                  : widget.color != null
+                      ? widget.color
+                      : brandFilled
+                          ? roles.actionBackground
+                          : appStateSettings["materialYou"]
+                              ? dynamicPastel(context, scheme.primary,
+                                  amount: 0.15)
+                              : Theme.of(context)
+                                  .colorScheme
+                                  .secondaryContainer,
+              onHighlightChanged: (value) {
+                if (appStateSettings["appAnimations"] ==
+                    AppAnimations.all.index)
+                  setState(() {
+                    isTapped = value;
+                  });
+              },
+              onTap: widget.disabled && widget.onDisabled == null
+                  ? null
+                  : () {
+                      if (appStateSettings["appAnimations"] ==
+                          AppAnimations.all.index) _shrink();
+                      if (widget.disabled == false) widget.onTap();
+                      if (widget.disabled == true && widget.onDisabled != null)
+                        widget.onDisabled!();
+                    },
+              onLongPress: widget.disabled ? null : widget.onLongPress,
+              borderRadius: getPlatform() == PlatformOS.isIOS &&
+                      widget.borderRadius == null
                   ? 10
                   : widget.borderRadius ?? 20,
-          child: Padding(
-            padding: EdgeInsetsDirectional.only(
-              bottom: widget.expandToFillBottomExtraSafeArea
-                  ? MediaQuery.viewPaddingOf(context).bottom
-                  : 0,
-            ),
-            child: Container(
-              width: widget.width,
-              // height: widget.height,
-              padding: widget.padding,
-              child: Center(
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    if (widget.icon != null)
-                      Padding(
-                        padding: const EdgeInsetsDirectional.only(end: 8),
-                        child: Icon(
-                          widget.icon,
-                          size: 21,
-                          color: widget.iconColor == null
-                              ? (brandFilled ? scheme.onPrimary : scheme.onSecondaryContainer)
-                              : widget.iconColor,
-                        ),
-                      ),
-                    widget.flexibleLayout
-                        ? Flexible(child: text)
-                        : widget.expandedLayout
-                            ? Expanded(child: text)
-                            : text,
-                  ],
+              child: Padding(
+                padding: EdgeInsetsDirectional.only(
+                  bottom: widget.expandToFillBottomExtraSafeArea
+                      ? MediaQuery.viewPaddingOf(context).bottom
+                      : 0,
+                ),
+                child: Container(
+                  width: widget.width,
+                  // height: widget.height,
+                  padding: widget.padding,
+                  child: Center(
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        if (widget.icon != null)
+                          Padding(
+                            padding: const EdgeInsetsDirectional.only(end: 8),
+                            child: Icon(
+                              widget.icon,
+                              size: 21,
+                              color: widget.iconColor == null
+                                  ? (foreground ??
+                                      (brandFilled
+                                          ? roles.actionForeground
+                                          : scheme.onSecondaryContainer))
+                                  : widget.iconColor,
+                            ),
+                          ),
+                        widget.flexibleLayout
+                            ? Flexible(child: text)
+                            : widget.expandedLayout
+                                ? Expanded(child: text)
+                                : text,
+                      ],
+                    ),
+                  ),
                 ),
               ),
             ),
           ),
-        ),
-      ),
-    );
+        ));
   }
 }
 

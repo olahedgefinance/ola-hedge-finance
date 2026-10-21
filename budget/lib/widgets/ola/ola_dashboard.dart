@@ -1,4 +1,5 @@
 import 'package:budget/brand/ola_theme.dart';
+import 'package:budget/widgets/ola/ola_focus_outline.dart';
 import 'package:flutter/material.dart';
 
 /// Presentation only: financial streams and route ownership stay in Home.
@@ -47,36 +48,40 @@ class OlaMetricCard extends StatelessWidget {
       color: colors.surface,
       shape: RoundedRectangleBorder(
           borderRadius: radius, side: BorderSide(color: colors.outlineVariant)),
-      child: InkWell(
-        onTap: onTap,
-        onLongPress: onLongPress,
-        borderRadius: radius,
-        child: Padding(
-          padding: EdgeInsets.all(hero ? OlaSpacing.lg : OlaSpacing.md),
-          child:
-              Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            Text(label,
-                style: TextStyle(fontSize: 14, color: colors.onSurfaceVariant)),
-            const SizedBox(height: OlaSpacing.sm),
-            if (errorText != null)
-              Text(errorText!,
-                  style: TextStyle(fontSize: 16, color: colors.error))
-            else if (isLoading)
-              Semantics(liveRegion: true, child: const Text('Loading…'))
-            else ...[
-              Text(value,
-                  softWrap: true,
-                  style: TextStyle(
-                      fontSize: hero ? 32 : 26,
-                      fontWeight: FontWeight.w700,
-                      color: colors.onSurface)),
-              const SizedBox(height: OlaSpacing.sm),
-              Text(contextLabel,
-                  style: TextStyle(fontSize: 14, color: statusColor)),
-            ],
-          ]),
-        ),
-      ),
+      child: OlaFocusOutline(
+          radius: radius,
+          child: InkWell(
+            onTap: onTap,
+            onLongPress: onLongPress,
+            borderRadius: radius,
+            child: Padding(
+              padding: EdgeInsets.all(hero ? OlaSpacing.lg : OlaSpacing.md),
+              child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(label,
+                        style: TextStyle(
+                            fontSize: 14, color: colors.onSurfaceVariant)),
+                    const SizedBox(height: OlaSpacing.sm),
+                    if (errorText != null)
+                      Text(errorText!,
+                          style: TextStyle(fontSize: 16, color: colors.error))
+                    else if (isLoading)
+                      Semantics(liveRegion: true, child: const Text('Loading…'))
+                    else ...[
+                      Text(value,
+                          softWrap: true,
+                          style: TextStyle(
+                              fontSize: hero ? 32 : 26,
+                              fontWeight: FontWeight.w700,
+                              color: colors.onSurface)),
+                      const SizedBox(height: OlaSpacing.sm),
+                      Text(contextLabel,
+                          style: TextStyle(fontSize: 14, color: statusColor)),
+                    ],
+                  ]),
+            ),
+          )),
     );
   }
 }

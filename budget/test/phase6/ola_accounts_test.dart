@@ -80,7 +80,7 @@ void main() {
         order: 1,
         decimals: 2);
     await tester.pumpWidget(host(summary(wallet, 12.34)));
-    expect(find.text('Currency not set'), findsOneWidget);
+    expect(find.text('Currency not selected'), findsOneWidget);
     expect(find.text('12.34'), findsOneWidget);
     expect(find.textContaining('USD'), findsNothing);
     expect(find.textContaining('\$'), findsNothing);

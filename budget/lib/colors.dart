@@ -609,8 +609,13 @@ ThemeData generateThemeDataWithExtension(
     themeData: themeData,
   );
 
-  return OlaTheme.applySurfaces(themeData).copyWith(
-    extensions: <ThemeExtension<dynamic>>[colors],
+  final brandControls =
+      usesOlaColorScheme() && accentColor.value == OlaPalette.emerald.value;
+  final roles = OlaSemanticColors.forBrightness(brightness);
+  final surfaces = OlaTheme.applySurfaces(themeData);
+  return (brandControls ? OlaTheme.applyControls(surfaces, roles) : surfaces)
+      .copyWith(
+    extensions: <ThemeExtension<dynamic>>[colors, if (brandControls) roles],
     appBarTheme: AppBarTheme(
       elevation: OlaElevation.flat,
       scrolledUnderElevation: OlaElevation.flat,

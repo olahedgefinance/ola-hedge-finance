@@ -1,4 +1,5 @@
 import 'package:budget/functions.dart';
+import 'package:budget/brand/ola_theme.dart';
 import 'package:budget/struct/settings.dart';
 import 'package:budget/widgets/framework/popupFramework.dart';
 import 'package:budget/widgets/textWidgets.dart';
@@ -276,16 +277,37 @@ class TextInput extends StatelessWidget {
                         .secondaryContainer
                         .withAlpha(90)
                     : null,
+                focusedErrorBorder:
+                    Theme.of(context).extension<OlaSemanticColors>() == null
+                        ? null
+                        : OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(
+                                color: Theme.of(context)
+                                    .extension<OlaSemanticColors>()!
+                                    .focusVisible,
+                                width: 2)),
                 focusedBorder: bubbly == false
                     ? UnderlineInputBorder(
                         borderRadius:
                             BorderRadius.vertical(top: Radius.circular(5.0)),
                         borderSide: BorderSide(
-                          color: Theme.of(context).colorScheme.secondary,
+                          color: Theme.of(context)
+                                  .extension<OlaSemanticColors>()
+                                  ?.focusVisible ??
+                              Theme.of(context).colorScheme.secondary,
                           width: 2,
                         ),
                       )
-                    : null,
+                    : Theme.of(context).extension<OlaSemanticColors>() == null
+                        ? null
+                        : OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(
+                                color: Theme.of(context)
+                                    .extension<OlaSemanticColors>()!
+                                    .focusVisible,
+                                width: 2)),
                 border: bubbly == false
                     ? null
                     : OutlineInputBorder(
