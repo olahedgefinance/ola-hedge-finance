@@ -1,3 +1,5 @@
+import 'package:budget/struct/transaction_safety.dart';
+import 'package:budget/widgets/ola/transaction_safety_widgets.dart';
 import 'package:budget/widgets/ola/ola_dashboard.dart';
 import 'package:budget/colors.dart';
 import 'package:budget/database/tables.dart';
@@ -308,7 +310,7 @@ class _TransactionEntriesState extends State<TransactionEntries> {
             }
             if (currentDate == currentTransactionDate) {
               transactionListForDay.add(transactionWithCategory);
-              if (transactionWithCategory.transaction.paid) {
+              if (!transactionsMvpSafetyEnabled && transactionWithCategory.transaction.paid) {
                 // Include balance correction when calculating the net
                 totalSpentForDayWithBalanceCorrection +=
                     transactionWithCategory.transaction.amount *
@@ -316,7 +318,7 @@ class _TransactionEntriesState extends State<TransactionEntries> {
                             Provider.of<AllWallets>(context),
                             transactionWithCategory.transaction.walletFk));
               }
-              if (transactionWithCategory.transaction.paid &&
+              if (!transactionsMvpSafetyEnabled && transactionWithCategory.transaction.paid &&
                   transactionWithCategory.transaction.categoryFk != "0") {
                 double amountForDay =
                     transactionWithCategory.transaction.amount *
@@ -385,7 +387,7 @@ class _TransactionEntriesState extends State<TransactionEntries> {
                                     (daysDifference * -1 == 1
                                         ? "day".tr()
                                         : "days".tr()),
-                            info:
+                            info: transactionsMvpSafetyEnabled ? "" :
                                 appStateSettings["netSpendingDayTotal"] == true
                                     ? convertToMoney(
                                         Provider.of<AllWallets>(context),
@@ -515,7 +517,7 @@ class _TransactionEntriesState extends State<TransactionEntries> {
             currentTotalIndex++;
           }
 
-          if (widget.showTotalCashFlow) {
+          if (widget.showTotalCashFlow && !transactionsMvpSafetyEnabled) {
             totalCashFlowWidget = Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -555,6 +557,13 @@ class _TransactionEntriesState extends State<TransactionEntries> {
             }
           }
 
+          if (transactionsMvpSafetyEnabled && (widget.showTotalCashFlow || widget.enableSpendingSummary)) {
+            totalCashFlowWidget = Column(children: [
+              Text('$totalNumberTransactions loaded · Loaded transactions only'),
+              const TransactionConversionUnavailable(),
+            ]);
+            if (widget.renderType != TransactionEntriesRenderType.slivers) widgetsOut.add(totalCashFlowWidget);
+          }
           if (totalNumberTransactionsAll > totalNumberTransactions)
             viewAllTransactionsWidget = Padding(
               padding: EdgeInsetsDirectional.only(top: 7),
@@ -588,7 +597,7 @@ class _TransactionEntriesState extends State<TransactionEntries> {
 
           widgetsOut.insert(0, futureTransactionsDivider);
 
-          if (widget.enableSpendingSummary)
+          if (widget.enableSpendingSummary && !transactionsMvpSafetyEnabled)
             widgetsOut.insert(
               0,
               TransactionsEntriesSpendingSummary(
@@ -705,7 +714,7 @@ class _TransactionEntriesState extends State<TransactionEntries> {
 
   @override
   Widget build(BuildContext context) {
-    if (appStateSettings["netSpendingDayTotal"] == false)
+    if (transactionsMvpSafetyEnabled || appStateSettings["netSpendingDayTotal"] == false)
       return transactionEntryListBuilder(null);
     return StreamBuilder<double?>(
       // Use a reference point and subtract the totals of the transactions from this reference point to

@@ -1,3 +1,5 @@
+import 'package:budget/struct/transaction_safety.dart';
+import 'package:budget/widgets/ola/transaction_safety_widgets.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
 import 'package:budget/pages/addTransactionPage.dart';
@@ -40,6 +42,10 @@ class SelectedTransactionsAppBar extends StatelessWidget {
       required List<String> selectedTransactionPks,
       required double totalAmount,
       bool shareInsteadOfCopy = false}) async {
+    if (transactionsMvpSafetyEnabled) {
+      await showTransactionRestriction(context, transactionConversionUnavailable);
+      return;
+    }
     AllWallets allWallets = Provider.of<AllWallets>(context, listen: false);
     List<Transaction> transactions =
         await database.getTransactionsSortedFromPk(selectedTransactionPks);
@@ -75,6 +81,21 @@ class SelectedTransactionsAppBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    if (transactionsMvpSafetyEnabled) {
+      return ValueListenableBuilder<Map<String, List<String>>>(
+          valueListenable: globalSelectedID, builder: (context, selections, _) {
+        final ids = selections[pageID] ?? [];
+        if (ids.isEmpty) return const SizedBox.shrink();
+        return PositionedDirectional(top: 0, start: 0, end: 0,
+          child: Material(color: Theme.of(context).colorScheme.surface,
+            child: SafeArea(bottom: false, child: Row(children: [
+              IconButton(tooltip: 'Clear selection', icon: const Icon(Icons.close),
+                onPressed: () { globalSelectedID.value = {...globalSelectedID.value, pageID: <String>[]}; }),
+              Expanded(child: Padding(padding: const EdgeInsets.all(12),
+                child: Text('${ids.length} selected. $bulkTransactionActionsUnavailable'))),
+            ]))));
+      });
+    }
     return ValueListenableBuilder(
       valueListenable: globalSelectedID
           .select((controller) => (controller.value[pageID] ?? []).length),
@@ -907,6 +928,7 @@ class EditSelectedTransactionsContainer extends StatelessWidget {
 }
 
 Future settleTransactions(String transactionPk) async {
+  if (transactionsMvpSafetyEnabled) throw const TransactionSafetyException(bulkTransactionActionsUnavailable);
   Transaction transaction = await database.getTransactionFromPk(transactionPk);
   if (transaction.type == TransactionSpecialType.credit ||
       transaction.type == TransactionSpecialType.debt) {
@@ -925,6 +947,9 @@ Future duplicateTransaction(
   bool useCurrentDate = false,
   double? customAmount,
 }) async {
+  if (transactionsMvpSafetyEnabled) {
+    await showTransactionRestriction(context, bulkTransactionActionsUnavailable); return;
+  }
   Transaction transaction = await database.getTransactionFromPk(transactionPk);
   if (useCurrentDate) {
     transaction = transaction.copyWith(dateCreated: DateTime.now());
@@ -1003,6 +1028,9 @@ Future duplicateMultipleTransactions(
   bool useCurrentDate = false,
   double? customAmount,
 }) async {
+  if (transactionsMvpSafetyEnabled) {
+    await showTransactionRestriction(context, bulkTransactionActionsUnavailable); return;
+  }
   List<Transaction> transactions =
       await database.getTransactionsFromPk(transactionPks);
 

@@ -1,3 +1,5 @@
+import 'package:budget/struct/transaction_safety.dart';
+import 'package:budget/widgets/ola/transaction_safety_widgets.dart';
 import 'dart:io';
 import 'dart:math';
 
@@ -526,6 +528,9 @@ class _SelectAmountState extends State<SelectAmount> {
   }
 
   convertAmountToSelectedCurrency() {
+    if (transactionsMvpSafetyEnabled) {
+      showTransactionRestriction(context, transactionConversionUnavailable); return;
+    }
     TransactionWallet? walletBefore = getSelectedWallet(listen: false);
     // get the index of the primary wallet
     int index = 0;

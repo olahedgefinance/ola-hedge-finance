@@ -1,3 +1,5 @@
+import 'package:budget/struct/transaction_safety.dart';
+import 'package:budget/widgets/ola/transaction_safety_widgets.dart';
 import 'package:budget/colors.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
@@ -50,10 +52,15 @@ class TransactionEntryActionButton extends StatelessWidget {
             padding: padding,
             dealtWith: false,
             message: "loan".tr(),
-            onTap: allowOpenIntoObjectiveLoanPage
+            onTap: transactionsMvpSafetyEnabled
+                ? () => showTransactionRestriction(context, 'Advanced transaction actions are unavailable in this internal MVP.')
+                : allowOpenIntoObjectiveLoanPage
                 ? () => pushRoute(context,
                     ObjectivePage(objectivePk: transaction.objectiveLoanFk!))
                 : () async {
+                    if (transactionsMvpSafetyEnabled) {
+                      await showTransactionRestriction(context, 'Advanced transaction actions are unavailable in this internal MVP.'); return;
+                    }
                     Objective loanObjective = await database
                         .getObjectiveInstance(transaction.objectiveLoanFk!);
                     if (getIsDifferenceOnlyLoan(loanObjective)) {
@@ -209,7 +216,10 @@ Future openTransactionActionFromType(
   BuildContext context,
   Transaction transaction, {
   Function? runBefore,
-}) {
+}) async {
+  if (transactionsMvpSafetyEnabled) {
+    await showTransactionRestriction(context, 'Advanced transaction actions are unavailable in this internal MVP.'); return;
+  }
   if (transaction.paid == false &&
       (transaction.type == TransactionSpecialType.credit ||
           transaction.type == TransactionSpecialType.debt)) {

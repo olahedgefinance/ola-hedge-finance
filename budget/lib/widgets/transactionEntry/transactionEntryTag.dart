@@ -8,6 +8,7 @@ import 'package:budget/widgets/textWidgets.dart';
 import 'package:budget/widgets/util/infiniteRotationAnimation.dart';
 import 'package:easy_localization/easy_localization.dart' hide TextDirection;
 import 'package:flutter/material.dart';
+import 'package:budget/struct/transaction_safety.dart';
 import 'package:budget/colors.dart';
 import 'package:provider/provider.dart';
 
@@ -239,7 +240,7 @@ class ObjectivePercentTag extends StatelessWidget {
   final bool showObjectivePercentageCheck;
   @override
   Widget build(BuildContext context) {
-    if (getIsDifferenceOnlyLoan(objective)) {
+    if (transactionsMvpSafetyEnabled || getIsDifferenceOnlyLoan(objective)) {
       return TransactionTag(
         color: HexColor(objective.colour,
             defaultColor: Theme.of(context).colorScheme.primary),

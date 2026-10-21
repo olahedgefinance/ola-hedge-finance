@@ -1,3 +1,5 @@
+import 'package:budget/struct/transaction_safety.dart';
+import 'package:budget/widgets/ola/transaction_safety_widgets.dart';
 import 'package:budget/colors.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
@@ -24,6 +26,11 @@ class TransactionEntryAmount extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    if (transactionsMvpSafetyEnabled) {
+      return Text(nativeTransactionAmount(Provider.of<AllWallets>(context), transaction),
+          style: TextStyle(fontWeight: FontWeight.bold,
+              color: Theme.of(context).colorScheme.onSurface));
+    }
     double count = transaction.amount.abs() *
         (amountRatioToPrimaryCurrencyGivenPk(
             Provider.of<AllWallets>(context), transaction.walletFk));

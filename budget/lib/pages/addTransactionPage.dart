@@ -1,3 +1,5 @@
+import 'package:budget/struct/transaction_safety.dart';
+import 'package:budget/widgets/ola/transaction_safety_widgets.dart';
 import 'package:budget/database/generatePreviewData.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
@@ -403,6 +405,22 @@ class _AddTransactionPageState extends State<AddTransactionPage>
   }
 
   Future<bool> addTransactionLocked() async {
+    if (transactionsMvpSafetyEnabled) {
+      try {
+        final draft = createTransaction();
+        final original = widget.transaction;
+        final restriction = original == null ? null :
+            await transactionMutationRestriction(database, original, draft: draft);
+        if (restriction != null) {
+          if (mounted) await showTransactionRestriction(context, restriction);
+          return false;
+        }
+      } catch (error) {
+        if (mounted) await showTransactionRestriction(context, error.toString());
+        return false;
+      }
+    }
+    if (!mounted) return false;
     if (appStateSettings["canShowTransactionActionButtonTip"] == true &&
         selectedType != null) {
       await openBottomSheet(
@@ -469,7 +487,7 @@ class _AddTransactionPageState extends State<AddTransactionPage>
 
       Transaction createdTransaction = await createTransaction();
 
-      if (widget.transaction != null) {
+      if (widget.transaction != null && !transactionsMvpSafetyEnabled) {
         // Only ask if changes were made that will affect other balance correction
         // set in the logic of updateCloselyRelatedBalanceTransfer
 
@@ -550,7 +568,9 @@ class _AddTransactionPageState extends State<AddTransactionPage>
         }
       }
 
-      final int? rowId = await database.createOrUpdateTransaction(
+      final int? rowId = transactionsMvpSafetyEnabled
+          ? await saveMvpTransaction(database, createdTransaction, original: widget.transaction)
+          : await database.createOrUpdateTransaction(
         insert: widget.transaction == null,
         createdTransaction,
         originalTransaction: widget.transaction,
@@ -653,9 +673,7 @@ class _AddTransactionPageState extends State<AddTransactionPage>
           widget.transaction != null ? widget.transaction!.transactionPk : "-1",
       pairedTransactionFk: widget.transaction?.pairedTransactionFk,
       name: (selectedTitle ?? "").trim(),
-      amount: (selectedIncome || selectedAmount == 0 //Prevent negative 0
-          ? (selectedAmount ?? 0).abs()
-          : (selectedAmount ?? 0).abs() * -1),
+      amount: transactionEditAmount(widget.transaction, selectedAmount ?? 0, selectedIncome),
       note: _noteInputController.text,
       categoryFk: selectedCategory?.categoryPk ?? "-1",
       subCategoryFk: selectedSubCategory?.categoryPk,
@@ -667,8 +685,13 @@ class _AddTransactionPageState extends State<AddTransactionPage>
       paid: selectedPaid,
       skipPaid: skipPaid,
       type: selectedType,
-      reoccurrence: selectedRecurrenceEnum,
-      periodLength: selectedPeriodLength <= 0 && selectedType != null
+      reoccurrence: widget.transaction != null &&
+              selectedRecurrenceEnum == (widget.transaction!.reoccurrence ?? BudgetReoccurence.monthly)
+          ? widget.transaction!.reoccurrence : selectedRecurrenceEnum,
+      periodLength: widget.transaction != null &&
+              selectedPeriodLength == (widget.transaction!.periodLength ?? 1)
+          ? widget.transaction!.periodLength
+          : selectedPeriodLength <= 0 && selectedType != null
           ? 1
           : selectedPeriodLength,
       methodAdded:
@@ -700,12 +723,15 @@ class _AddTransactionPageState extends State<AddTransactionPage>
       objectiveFk: selectedObjectivePk,
       objectiveLoanFk: selectedObjectiveLoanPk,
       budgetFksExclude:
-          selectedExcludedBudgetPks.isEmpty ? null : selectedExcludedBudgetPks,
+          selectedExcludedBudgetPks.isEmpty
+              ? (widget.transaction?.budgetFksExclude?.isEmpty == true ? <String>[] : null)
+              : List<String>.of(selectedExcludedBudgetPks),
     );
 
     return createdTransaction;
   }
 
+  Future<String?>? _mvpRestriction;
   Transaction? transactionInitial;
 
   // If a change was made, show the discard changes popup
@@ -727,6 +753,7 @@ class _AddTransactionPageState extends State<AddTransactionPage>
   void initState() {
     super.initState();
     if (widget.transaction != null) {
+      _mvpRestriction = transactionMutationRestriction(database, widget.transaction!);
       //We are editing a transaction
       //Fill in the information from the passed in transaction
       _titleInputController =
@@ -754,7 +781,7 @@ class _AddTransactionPageState extends State<AddTransactionPage>
       selectedBudgetPk = widget.transaction!.sharedReferenceBudgetPk;
       selectedObjectivePk = widget.transaction!.objectiveFk;
       selectedObjectiveLoanPk = widget.transaction!.objectiveLoanFk;
-      selectedExcludedBudgetPks = widget.transaction!.budgetFksExclude ?? [];
+      selectedExcludedBudgetPks = List<String>.of(widget.transaction!.budgetFksExclude ?? []);
       // var amountString = widget.transaction!.amount.toStringAsFixed(2);
       // if (amountString.substring(amountString.length - 2) == "00") {
       //   selectedAmountCalculation =
@@ -956,7 +983,8 @@ class _AddTransactionPageState extends State<AddTransactionPage>
         hasPadding: false,
         underTitleSpace: false,
         child: SelectAmount(
-          enableWalletPicker: true,
+          allDecimals: transactionsMvpSafetyEnabled,
+          enableWalletPicker: !transactionsMvpSafetyEnabled,
           selectedWalletPk: selectedWalletPk,
           setSelectedWalletPk: setSelectedWalletPk,
           padding: EdgeInsetsDirectional.symmetric(horizontal: 18),
@@ -1000,6 +1028,10 @@ class _AddTransactionPageState extends State<AddTransactionPage>
   // }
 
   Future openTransferBalancePopup() async {
+    if (transactionsMvpSafetyEnabled) {
+      await showTransactionRestriction(context, 'Transfer creation is unavailable in this internal MVP.');
+      return;
+    }
     bool? initialIsNegative;
     if (selectedObjectiveLoanPk != null) {
       initialIsNegative = selectedIncome;
@@ -1049,6 +1081,23 @@ class _AddTransactionPageState extends State<AddTransactionPage>
 
   @override
   Widget build(BuildContext context) {
+    if (transactionsMvpSafetyEnabled && widget.transaction != null) {
+      return FutureBuilder<String?>(future: _mvpRestriction, builder: (context, snapshot) {
+        if (snapshot.connectionState != ConnectionState.done) {
+          return Scaffold(appBar: AppBar(title: const Text('Transaction details')),
+              body: const Center(child: CircularProgressIndicator(semanticsLabel: 'Checking transaction')));
+        }
+        final reason = snapshot.hasError ? 'Unable to verify this transaction. Close and reopen to retry.' : snapshot.data;
+        if (reason != null) { return ReadOnlyTransactionDetails(
+            transaction: widget.transaction!, wallets: Provider.of<AllWallets>(context),
+            categoryName: selectedCategory?.name, reason: reason); }
+        return buildEditor(context);
+      });
+    }
+    return buildEditor(context);
+  }
+
+  Widget buildEditor(BuildContext context) {
     Color categoryColor = dynamicPastel(
       context,
       HexColor(
@@ -1166,6 +1215,10 @@ class _AddTransactionPageState extends State<AddTransactionPage>
                       }
                     },
                     onSelected: (item) async {
+                      if (transactionsMvpSafetyEnabled) {
+                        await showTransactionRestriction(context, 'Advanced transaction changes are unavailable in this internal MVP.');
+                        return;
+                      }
                       if (item == "installments") {
                         openPopup(
                           context,
@@ -1404,6 +1457,10 @@ class _AddTransactionPageState extends State<AddTransactionPage>
                           extraWidgetBeforeSticky: true,
                           allowMultipleSelected: false,
                           onLongPress: (TransactionWallet wallet) {
+                            if (transactionsMvpSafetyEnabled) {
+                              showTransactionRestriction(context, 'Account management is unavailable from transaction editing.');
+                              return;
+                            }
                             pushRoute(
                               context,
                               AddWalletPage(
@@ -1436,7 +1493,7 @@ class _AddTransactionPageState extends State<AddTransactionPage>
                                               context,
                                               listen: false)
                                           .indexedByPk[selectedWalletPk],
-                                      allowEditWallet: true,
+                                      allowEditWallet: !transactionsMvpSafetyEnabled,
                                       allowDeleteWallet: false,
                                     );
                                     if (result is TransactionWallet) {
@@ -1729,7 +1786,7 @@ class _AddTransactionPageState extends State<AddTransactionPage>
       ),
     );
 
-    bool enableBalanceTransferTab = widget.transaction == null &&
+    bool enableBalanceTransferTab = !transactionsMvpSafetyEnabled && widget.transaction == null &&
         Provider.of<AllWallets>(context).indexedByPk.keys.length > 1;
 
     Widget transactionAmountAndCategoryHeader = AnimatedContainer(
@@ -1984,7 +2041,7 @@ class _AddTransactionPageState extends State<AddTransactionPage>
                                       alignment: AlignmentDirectional.centerEnd,
                                       child: TextFont(
                                         textAlign: TextAlign.end,
-                                        text: convertToMoney(
+                                        text: transactionsMvpSafetyEnabled ? 'Exchange rate unavailable' : convertToMoney(
                                           Provider.of<AllWallets>(context),
                                           (selectedAmount ?? 0) *
                                               (amountRatioToPrimaryCurrencyGivenPk(
@@ -3106,6 +3163,10 @@ class _SelectAddedBudgetState extends State<SelectAddedBudget> {
                   wrapped: widget.wrapped ?? enableDoubleColumn(context),
                   extraHorizontalPadding: widget.extraHorizontalPadding,
                   onLongPress: (Budget? item) {
+                    if (transactionsMvpSafetyEnabled) {
+                      showTransactionRestriction(context, transactionConversionUnavailable);
+                      return;
+                    }
                     pushRoute(
                       context,
                       AddBudgetPage(
@@ -3116,7 +3177,10 @@ class _SelectAddedBudgetState extends State<SelectAddedBudget> {
                     );
                   },
                   extraWidgetAfter: SelectChipsAddButtonExtraWidget(
-                    openPage: AddBudgetPage(
+                    onTap: transactionsMvpSafetyEnabled
+                        ? () => showTransactionRestriction(context, transactionConversionUnavailable)
+                        : null,
+                    openPage: transactionsMvpSafetyEnabled ? null : AddBudgetPage(
                       isAddedOnlyBudget: true,
                       routesToPopAfterDelete: RoutesToPopAfterDelete.One,
                     ),
@@ -3214,6 +3278,10 @@ class _SelectObjectiveState extends State<SelectObjective> {
                   wrapped: widget.wrapped ?? enableDoubleColumn(context),
                   extraHorizontalPadding: widget.extraHorizontalPadding,
                   onLongPress: (Objective? item) {
+                    if (transactionsMvpSafetyEnabled) {
+                      showTransactionRestriction(context, transactionConversionUnavailable);
+                      return;
+                    }
                     pushRoute(
                       context,
                       AddObjectivePage(
@@ -3225,7 +3293,10 @@ class _SelectObjectiveState extends State<SelectObjective> {
                     );
                   },
                   extraWidgetAfter: SelectChipsAddButtonExtraWidget(
-                    openPage: AddObjectivePage(
+                    onTap: transactionsMvpSafetyEnabled
+                        ? () => showTransactionRestriction(context, transactionConversionUnavailable)
+                        : null,
+                    openPage: transactionsMvpSafetyEnabled ? null : AddObjectivePage(
                       objectiveType: widget.objectiveType,
                       routesToPopAfterDelete: RoutesToPopAfterDelete.One,
                     ),
@@ -3238,6 +3309,10 @@ class _SelectObjectiveState extends State<SelectObjective> {
                             : "no-goal".tr());
                   },
                   onSelected: (Objective? item) {
+                    if (transactionsMvpSafetyEnabled) {
+                      showTransactionRestriction(context, transactionConversionUnavailable);
+                      return;
+                    }
                     widget.setSelectedObjective(
                       item?.objectivePk,
                     );
@@ -3332,6 +3407,10 @@ class _SelectExcludeBudgetState extends State<SelectExcludeBudget> {
                 wrapped: widget.wrapped ?? enableDoubleColumn(context),
                 extraHorizontalPadding: widget.extraHorizontalPadding,
                 onLongPress: (Budget item) {
+                    if (transactionsMvpSafetyEnabled) {
+                      showTransactionRestriction(context, transactionConversionUnavailable);
+                      return;
+                    }
                   pushRoute(
                     context,
                     AddBudgetPage(
@@ -3342,7 +3421,10 @@ class _SelectExcludeBudgetState extends State<SelectExcludeBudget> {
                   );
                 },
                 extraWidgetAfter: SelectChipsAddButtonExtraWidget(
-                  openPage: AddBudgetPage(
+                  onTap: transactionsMvpSafetyEnabled
+                        ? () => showTransactionRestriction(context, transactionConversionUnavailable)
+                        : null,
+                    openPage: transactionsMvpSafetyEnabled ? null : AddBudgetPage(
                     routesToPopAfterDelete: RoutesToPopAfterDelete.One,
                   ),
                 ),
@@ -3441,23 +3523,39 @@ void deleteTransactionPopup(
   required TransactionCategory? category,
   required RoutesToPopAfterDelete routesToPopAfterDelete,
 }) async {
+  if (transactionsMvpSafetyEnabled) {
+    try {
+      final reason = await transactionMutationRestriction(database, transaction);
+      if (reason != null) { if (context.mounted) await showTransactionRestriction(context, reason); return; }
+    } catch (error) {
+      if (context.mounted) await showTransactionRestriction(context, 'Unable to verify this transaction. Close and reopen to retry.');
+      return;
+    }
+  }
   String? transactionName =
       await getTransactionLabel(transaction, category: category);
+  if (!context.mounted) return;
   DeletePopupAction? action = await openDeletePopup(
     context,
     title: "delete-transaction-question".tr(),
     subtitle: transactionName,
   );
   if (action == DeletePopupAction.Delete) {
-    await checkToDeleteCloselyRelatedBalanceCorrectionTransaction(context,
-        transaction: transaction);
+    if (!transactionsMvpSafetyEnabled) {
+      await checkToDeleteCloselyRelatedBalanceCorrectionTransaction(context, transaction: transaction);
+    }
+    if (!context.mounted) return;
     if (routesToPopAfterDelete == RoutesToPopAfterDelete.All) {
       popAllRoutes(context);
     } else if (routesToPopAfterDelete == RoutesToPopAfterDelete.One) {
       popRoute(context);
     }
     openLoadingPopupTryCatch(() async {
-      await database.deleteTransaction(transaction.transactionPk);
+      if (transactionsMvpSafetyEnabled) {
+        await deleteMvpTransaction(database, transaction);
+      } else {
+        await database.deleteTransaction(transaction.transactionPk);
+      }
       openSnackbar(
         SnackbarMessage(
           title: "deleted-transaction".tr(),
@@ -3529,6 +3627,10 @@ Future deleteTransactionsPopup(
   required List<String> transactionPks,
   required RoutesToPopAfterDelete routesToPopAfterDelete,
 }) async {
+  if (transactionsMvpSafetyEnabled) {
+    await showTransactionRestriction(context, bulkTransactionActionsUnavailable);
+    return null;
+  }
   DeletePopupAction? action = await openDeletePopup(
     context,
     title: "delete-selected-transactions".tr(),

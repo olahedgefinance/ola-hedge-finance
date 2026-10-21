@@ -3542,7 +3542,11 @@ class FinanceDatabase extends _$FinanceDatabase {
     // Preserve order of balance correction transaction
     // Negative entries at 30 seconds on the minute
     // Positive entries at 31 seconds on the minute
-    if (transaction.categoryFk == "0") {
+    if (transaction.categoryFk == "0" &&
+        (originalTransaction == null ||
+            originalTransaction.categoryFk != transaction.categoryFk ||
+            originalTransaction.amount != transaction.amount ||
+            originalTransaction.dateCreated != transaction.dateCreated)) {
       if (transaction.amount < 0) {
         transaction = transaction.copyWith(
             dateCreated: transaction.dateCreated
