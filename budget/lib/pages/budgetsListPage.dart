@@ -1,3 +1,5 @@
+import 'package:budget/pages/ola_planning_page.dart';
+import 'package:budget/struct/ola_navigation.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/functions.dart';
 import 'package:budget/pages/addBudgetPage.dart';
@@ -25,6 +27,7 @@ class BudgetsListPage extends StatefulWidget {
 
 class BudgetsListPageState extends State<BudgetsListPage> {
   GlobalKey<PageFrameworkState> pageState = GlobalKey();
+  final planningKey = GlobalKey<OlaPlanningPageState>();
 
   void refreshState() {
     setState(() {});
@@ -32,10 +35,17 @@ class BudgetsListPageState extends State<BudgetsListPage> {
 
   void scrollToTop() {
     pageState.currentState?.scrollToTop();
+    planningKey.currentState?.scrollToTop();
   }
 
   @override
   Widget build(BuildContext context) {
+    if (OlaNavigation.enabled) {
+      return OlaPlanningPage(
+          key: planningKey,
+          db: database,
+          enableBackButton: widget.enableBackButton);
+    }
     return PageFramework(
       key: pageState,
       title: "budgets".tr(),
