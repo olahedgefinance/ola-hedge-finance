@@ -540,7 +540,11 @@ class Objectives extends Table {
 
 class TransactionWithCategory {
   final TransactionCategory category;
+  // May contain view-only overrides, such as an excluded budget's paid state.
   final Transaction transaction;
+  // Captured from the same query row, before presentation overrides. Never reload
+  // this baseline when opening an editor or checking a later mutation.
+  final Transaction persistedTransaction;
   final TransactionWallet? wallet;
   final Budget? budget;
   final Objective? objective;
@@ -549,12 +553,13 @@ class TransactionWithCategory {
   TransactionWithCategory({
     required this.category,
     required this.transaction,
+    Transaction? persistedTransaction,
     this.wallet,
     this.budget,
     this.objective,
     this.subCategory,
     required this.objectiveLoan,
-  });
+  }) : persistedTransaction = persistedTransaction ?? transaction;
 }
 
 class TransactionActivityLog {
@@ -1624,7 +1629,8 @@ class FinanceDatabase extends _$FinanceDatabase {
       );
 
     return query.watch().map((rows) => rows.map((row) {
-          Transaction transaction = row.readTable(transactions);
+          final persistedTransaction = row.readTable(transactions);
+          Transaction transaction = persistedTransaction;
           if (budget?.budgetPk != null &&
               transaction.budgetFksExclude != null &&
               transaction.budgetFksExclude?.contains(budget?.budgetPk) ==
@@ -1634,6 +1640,7 @@ class FinanceDatabase extends _$FinanceDatabase {
           return TransactionWithCategory(
             category: row.readTable(categories),
             transaction: transaction,
+            persistedTransaction: persistedTransaction,
             budget: row.readTableOrNull(budgets),
             objective: row.readTableOrNull(objectives),
             subCategory: row.readTableOrNull(subCategories),

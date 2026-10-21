@@ -53,7 +53,10 @@ Future<bool> isLinkedTransaction(
 Future<String?> transactionMutationRestriction(
     FinanceDatabase db, Transaction original,
     {Transaction? draft}) async {
-  final current = await db.getTransactionFromPk(original.transactionPk);
+  final current = await db.tryGetTransactionFromPk(original.transactionPk);
+  if (current == null) {
+    return 'This transaction no longer exists. Close this transaction to continue.';
+  }
   if (await isLinkedTransaction(db, current)) return linkedTransactionReadOnly;
   // Generated row equality compares list fields by identity; compare stored values.
   if (jsonEncode(current.toJson()) != jsonEncode(original.toJson())) {

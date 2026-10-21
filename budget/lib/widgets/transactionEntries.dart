@@ -161,7 +161,7 @@ class _TransactionEntriesState extends State<TransactionEntries> {
       objective: item.objective,
       objectiveLoan: item.objectiveLoan,
       openPage: AddTransactionPage(
-        transaction: item.transaction,
+        transaction: item.persistedTransaction,
         routesToPopAfterDelete: RoutesToPopAfterDelete.One,
       ),
       transaction: item.transaction,
