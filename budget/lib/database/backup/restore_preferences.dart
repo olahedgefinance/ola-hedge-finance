@@ -17,11 +17,12 @@ Future<DatabaseRestoreResult> restoreDatabaseWithPreferences({
   required Directory workingDirectory,
   required SharedPreferences preferences,
   Future<void> Function()? closeLiveDatabase,
+  Future<void> Function()? onValidated,
   NativeDatabaseActivator activator = activateNativeDatabase,
 }) async {
   final journal = RestoreJournal(liveDatabase, preferences);
   await journal.recover();
-  final previous = <String, String?>{
+  var previous = <String, String?>{
     'userSettings': preferences.getString('userSettings'),
     'dateOfLastSyncedWithClient':
         preferences.getString('dateOfLastSyncedWithClient'),
@@ -34,6 +35,16 @@ Future<DatabaseRestoreResult> restoreDatabaseWithPreferences({
     closeLiveDatabase: closeLiveDatabase,
     activator: activator,
     preparePreferences: (candidate, stored) async {
+      // Candidate integrity, preferences and historical-loan checks completed.
+      // Pause native sync only now; rejected candidates must leave it running.
+      await onValidated?.call();
+      // Capture rollback preferences after sync has stopped, not before the
+      // potentially long candidate-validation phase.
+      previous = {
+        'userSettings': preferences.getString('userSettings'),
+        'dateOfLastSyncedWithClient':
+            preferences.getString('dateOfLastSyncedWithClient'),
+      };
       final defaults = await getDefaultPreferences();
       final original = previous['userSettings'];
       final retained = stored ??

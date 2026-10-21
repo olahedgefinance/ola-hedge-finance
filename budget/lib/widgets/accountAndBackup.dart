@@ -626,7 +626,7 @@ Future<void> loadBackup(
   try {
     openLoadingPopup(context);
 
-    await cancelAndPreventSyncOperation();
+    if (kIsWeb) await cancelAndPreventSyncOperation();
 
     List<int> dataStore = [];
     dynamic response = await driveApi.files

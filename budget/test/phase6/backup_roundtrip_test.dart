@@ -456,4 +456,40 @@ void main() {
         0);
     expect(appStateSettings['migratedSetLongTermLoansAmountTo0'], true);
   });
+  test('rollback captures preferences after validated sync cancellation',
+      () async {
+    await backupSettings();
+    final bytes = (await getCurrentDBFileInfo()).dbFileBytes;
+    final live = File('${dir.path}/late-preferences.sqlite');
+    final old = FinanceDatabase(NativeDatabase(live));
+    await seedWalletAndCategories(old);
+    await old.close();
+    final before = await live.readAsBytes();
+    final result = await restoreDatabaseWithPreferences(
+      candidateBytes: bytes,
+      liveDatabase: live,
+      workingDirectory: dir,
+      preferences: globals.sharedPreferences,
+      onValidated: () async {
+        await globals.sharedPreferences
+            .setString('userSettings', '{"theme":"black"}');
+        await globals.sharedPreferences
+            .setString('dateOfLastSyncedWithClient', '{"late":2}');
+      },
+      activator: (
+          {required stagedDatabase,
+          required liveDatabase,
+          required rollbackDatabase}) async {
+        await liveDatabase.rename(rollbackDatabase.path);
+        throw StateError('Injected interruption after late preference update');
+      },
+    );
+    expect(result.isSuccess, false);
+    expect(result.rollbackSucceeded, true);
+    expect(await live.readAsBytes(), before);
+    expect(globals.sharedPreferences.getString('userSettings'),
+        '{"theme":"black"}');
+    expect(globals.sharedPreferences.getString('dateOfLastSyncedWithClient'),
+        '{"late":2}');
+  });
 }

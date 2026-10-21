@@ -38,7 +38,7 @@ Future<String?> importDBFileFromDevice(BuildContext context) async {
     ));
   }
 
-  await cancelAndPreventSyncOperation();
+  if (kIsWeb) await cancelAndPreventSyncOperation();
 
   if (kIsWeb) {
     Uint8List fileBytes = result.files.single.bytes!;

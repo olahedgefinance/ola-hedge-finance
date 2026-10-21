@@ -2,6 +2,7 @@
 import 'package:budget/database/tables.dart';
 import 'package:budget/database/backup/restore_journal.dart';
 import 'package:budget/struct/settings.dart';
+import 'package:budget/struct/syncClient.dart';
 import 'dart:convert';
 import 'package:budget/database/backup/restore_preferences.dart';
 import 'package:budget/database/backup/restore_models.dart';
@@ -60,6 +61,9 @@ Future<DatabaseRestoreResult> overwriteDefaultDB(Uint8List dataStore) async {
     liveDatabase: dbFile,
     workingDirectory: dbFolder,
     preferences: sharedPreferences,
+    onValidated: () async {
+      await cancelAndPreventSyncOperation();
+    },
     closeLiveDatabase: () async {
       await database.close();
       closed = true;
