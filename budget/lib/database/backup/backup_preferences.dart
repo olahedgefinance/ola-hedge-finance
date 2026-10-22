@@ -1,4 +1,9 @@
 import 'dart:convert';
+import 'package:budget/pages/subscriptionsPage.dart'
+    show SelectedSubscriptionsType;
+import 'package:budget/widgets/notificationsSettings.dart'
+    show ReminderNotificationType;
+import 'package:flutter/material.dart' show TimeOfDay;
 import 'package:budget/struct/defaultPreferences.dart';
 import 'package:budget/database/tables.dart';
 import 'package:budget/widgets/periodCyclePicker.dart';
@@ -36,7 +41,21 @@ Future<Map<String, dynamic>> decodeBackupPreferences(String source) async {
     } else if (expected is Map) {
       valid = value is Map<String, dynamic>;
     }
-    if (entry.key.startsWith('selectedPeriodCycleType')) {
+    if (entry.key == 'selectedSubscriptionType') {
+      valid = value is int &&
+          value >= 0 &&
+          value < SelectedSubscriptionsType.values.length;
+    } else if (entry.key == 'notificationsReminderType') {
+      valid = value is int &&
+          value >= 0 &&
+          value < ReminderNotificationType.values.length;
+    } else if (entry.key == 'percentagePrecision') {
+      valid = _isSupportedPercentagePrecision(value);
+    } else if (['notificationHour', 'appOpenedHour'].contains(entry.key)) {
+      valid = value is int && value >= 0 && value < TimeOfDay.hoursPerDay;
+    } else if (['notificationMinute', 'appOpenedMinute'].contains(entry.key)) {
+      valid = value is int && value >= 0 && value < TimeOfDay.minutesPerHour;
+    } else if (entry.key.startsWith('selectedPeriodCycleType')) {
       valid = value is int && value >= 0 && value < CycleType.values.length;
     } else if (entry.key.startsWith('cycleReoccurrence')) {
       valid =
@@ -86,4 +105,16 @@ Future<Map<String, dynamic>> decodeBackupPreferences(String source) async {
     }
   }
   return decoded;
+}
+
+// Match convertToPercent's formatter domain without narrowing compatible
+// historical precision to the settings UI's 0/1/2 choices or coercing input.
+bool _isSupportedPercentagePrecision(Object value) {
+  if (value is! int) return false;
+  try {
+    0.0.toStringAsFixed(value);
+    return true;
+  } on RangeError {
+    return false;
+  }
 }
